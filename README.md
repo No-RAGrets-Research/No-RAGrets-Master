@@ -6,6 +6,9 @@ The master repository for the No-RAGrets scientific literature analysis platform
 
 ```
 No-RAGrets-Master/
+├── data/            # Shared data directory
+│   ├── papers/              # Source PDFs (49 papers, single source of truth)
+│   └── docling_json/        # Processed paper data from Docling
 ├── pipeline/        # Production: Knowledge graph extraction & paper quality assessment
 ├── ui/              # Production: React frontend for graph visualization & analysis
 ├── reviewer/        # Production: AI-powered paper review system with rubrics
