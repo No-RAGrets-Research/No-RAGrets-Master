@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Blanchette et al. 2016.pdf",
+    "start_time": "2025-11-15 04:32:22.360841",
+    "end_time": "2025-11-15 04:55:08.457067",
+    "total_duration": 1366.096226,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 383,
+    "relations": 296,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Blanchette et al. 2016_kg_results_20251115_043222.json"
+  },
+  "visual_extraction": {
+    "attempted": false,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Blanchette et al. 2016_kg_results_20251115_043222.json",
+    "visual_kg": null
+  },
+  "errors": []
+}

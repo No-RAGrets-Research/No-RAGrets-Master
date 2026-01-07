@@ -1,0 +1,4877 @@
+{
+  "total_chunks": 12,
+  "errors": 0,
+  "entities": 163,
+  "relations": 170,
+  "cross_chunk_relations": 0,
+  "relations_with_spans": 159,
+  "sections": {
+    "Methanol Biosynthesis by Covalently Immobilized Cells of Methy/osinus trichosporium; Batch and Continuous Studies": {
+      "chunks": 1,
+      "entities": 15,
+      "relations": 15
+    },
+    "INTRODUCTION": {
+      "chunks": 1,
+      "entities": 15,
+      "relations": 14
+    },
+    "Organism": {
+      "chunks": 1,
+      "entities": 4,
+      "relations": 3
+    },
+    "Growth": {
+      "chunks": 1,
+      "entities": 11,
+      "relations": 6
+    },
+    "lmmobilizat  ion": {
+      "chunks": 1,
+      "entities": 13,
+      "relations": 9
+    },
+    "Analytical Methods": {
+      "chunks": 1,
+      "entities": 15,
+      "relations": 16
+    },
+    "Batch Experiments": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 14
+    },
+    "Continuous Experiments: Reactor Set-up": {
+      "chunks": 1,
+      "entities": 17,
+      "relations": 13
+    },
+    "Batch Data": {
+      "chunks": 1,
+      "entities": 28,
+      "relations": 17
+    },
+    "Methanol Synthesis in a Continuous Reactor": {
+      "chunks": 1,
+      "entities": 19,
+      "relations": 18
+    },
+    "CONCLUSION": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 12
+    },
+    "References": {
+      "chunks": 1,
+      "entities": 30,
+      "relations": 33
+    }
+  },
+  "all_relations": [
+    {
+      "subject": "the methanol accumulation rate fell low due to the depletion of NADH2",
+      "predicate": "after",
+      "object": "the first 10 h",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "In a standard 50-mL ultrafiltration continuous reactor, the covalently linked cells produced methanol at a continuous  rate of  100 pmol/h  for the first  10  h,  after  which the methanol accumulation rate fell low due to the depletion of NADH2  .",
+        "document_offsets": {
+          "start": 1223,
+          "end": 1471
+        },
+        "subject_positions": [
+          {
+            "start": 176,
+            "end": 245,
+            "sentence_id": 7,
+            "matched_text": "the methanol accumulation rate fell low due to the depletion of NADH2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "maximum methanol accumulation rate of 267 pmol/h was obtained when 20 mM formate was supplied in the feed stream containing 100 mM phosphate ions",
+      "predicate": "and this level of biosynthesis was maintained for over 72 h",
+      "object": ""
+    },
+    {
+      "subject": "the half-life t1,2 and thermal denaturation rate constant K d were computed to be 108 h and 6.42 x h-', respectively",
+      "predicate": "computed",
+      "object": ""
+    },
+    {
+      "subject": "maximum methanol level",
+      "predicate": "of 50 pmol/mg cells was obtained in the batch reactor",
+      "object": ""
+    },
+    {
+      "subject": "Perdeep K. Mehta",
+      "predicate": "is associated with",
+      "object": "Indian Institute of Technology-Delhi, Hauz Khas, New Delhi-110 016, India",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Perdeep K. Mehta?",
+        "document_offsets": {
+          "start": 125,
+          "end": 142
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 16,
+            "sentence_id": 0,
+            "matched_text": "Perdeep K. Mehta"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "batch experiments",
+      "predicate": "indicated that",
+      "object": "100 mM phosphate ion concentration was necessary to inhibit further oxidation of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Batch experiments  indicated that  100 m M   phosphate ion concentration was necessary  to inhibit further oxidation of methanol; excess oxygen supply favored methanol accumulation with an increase in methane conversion efficiency to 27%.",
+        "document_offsets": {
+          "start": 710,
+          "end": 948
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 4,
+            "matched_text": "Batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the stoichiometric balance made at various points of formate addition indicated that the molar amount of methanol generated at steady state is dependent on the equimolar addition of sodium formate to the feed",
+      "predicate": "indicated",
+      "object": ""
+    },
+    {
+      "subject": "sodium formate (40 mM)",
+      "predicate": "in either 20 or 100 mM phosphate buffer could stimulate methanol accumulation",
+      "object": ""
+    },
+    {
+      "subject": "Tarun K. Ghose",
+      "predicate": "is associated with",
+      "object": "Indian Institute of Technology-Delhi, Hauz Khas, New Delhi-110 016, India",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Saroj Mishra; and Tarun K. Ghose\n\n%iochemical  Engineering Research Centre, Indian Institute of Technolog  y-Delhi, Hauz Khas, New Delhi-110 016,  India\n\nReceived March 30,  1990lAccepted  August 23,  1990",
+        "document_offsets": {
+          "start": 143,
+          "end": 350
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "Tarun K. Ghose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "DEAE-cellulose",
+      "predicate": "was used for",
+      "object": "methanol biosynthesis from biogas derived methane in a batch and a continuous cell reactor",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The DEAE-cellulose  linked cells of Methylosinus trichosporium displaying high specific methane mono-oxygenase activity (66 pmol methane oxidizedlh mg cells) were used for methanol  biosynthesis  from biogas  derived  methane in a batch and a continuous cell reactor.",
+        "document_offsets": {
+          "start": 350,
+          "end": 617
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "DEAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "excess oxygen supply",
+      "predicate": "favored",
+      "object": "methanol accumulation with an increase in methane conversion efficiency to 27%",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Batch experiments  indicated that  100 m M   phosphate ion concentration was necessary  to inhibit further oxidation of methanol; excess oxygen supply favored methanol accumulation with an increase in methane conversion efficiency to 27%.",
+        "document_offsets": {
+          "start": 710,
+          "end": 948
+        },
+        "subject_positions": [
+          {
+            "start": 130,
+            "end": 150,
+            "sentence_id": 4,
+            "matched_text": "excess oxygen supply"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "a pulse of 40 mM sodium formate",
+      "predicate": "at the end of 6 h resulted in",
+      "object": "restoration of methanol accumulation by regenerating NADH2 required for the sustained activity of methane mono-oxygenase",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "A  pulse of  40  m M   sodium  formate  at the end of 6 h resulted in restoration of methanol accumulation by regenerating NADH2 required for the sustained activity of methane mono-oxygenase.",
+        "document_offsets": {
+          "start": 949,
+          "end": 1140
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 70,
+            "end": 190,
+            "sentence_id": 5,
+            "matched_text": "restoration of methanol accumulation by regenerating NADH2 required for the sustained activity of methane mono-oxygenase"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium",
+      "predicate": "displays",
+      "object": "high specific methane mono-oxygenase activity",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 12,
+        "text_evidence": "The DEAE-cellulose  linked cells of Methylosinus trichosporium displaying high specific methane mono-oxygenase activity (66 pmol methane oxidizedlh mg cells) were used for methanol  biosynthesis  from biogas  derived  methane in a batch and a continuous cell reactor. Key words: Methylosinus trichosporium methanol biosynthesis immobilization batch and continuous studies",
+        "document_offsets": {
+          "start": 350,
+          "end": 2254
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 62,
+            "sentence_id": 2,
+            "matched_text": "Methylosinus trichosporium"
+          },
+          {
+            "start": 1812,
+            "end": 1838,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 74,
+            "end": 119,
+            "sentence_id": 2,
+            "matched_text": "high specific methane mono-oxygenase activity"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "a standard 50-mL ultrafiltration continuous reactor",
+      "predicate": "produced methanol at a continuous rate of 100 pmol/h for the first 10 h",
+      "object": ""
+    },
+    {
+      "subject": "Saroj Mishra",
+      "predicate": "is associated with",
+      "object": "Indian Institute of Technology-Delhi, Hauz Khas, New Delhi-110 016, India",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Saroj Mishra; and Tarun K. Ghose\n\n%iochemical  Engineering Research Centre, Indian Institute of Technolog  y-Delhi, Hauz Khas, New Delhi-110 016,  India\n\nReceived March 30,  1990lAccepted  August 23,  1990",
+        "document_offsets": {
+          "start": 143,
+          "end": 350
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 1,
+            "matched_text": "Saroj Mishra"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The single-step oxidation of methane to methanol",
+      "predicate": "is catalyzed by",
+      "object": "NADH-dependent methane monooxygenase (MMO)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol biosynthesis was carried out in a small batch and a continuous reactor using the covalently linked cells",
+      "predicate": "",
+      "object": ""
+    },
+    {
+      "subject": "Methanol gets further oxidized in methylotrophs to formaldehyde",
+      "predicate": "by",
+      "object": "NADH-independent methanol oxidase/dehydrogenase activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The inorganic phosphate-dependent inhibition of enzyme activity",
+      "predicate": "was shown to be reversible and followed uncompztitive inhibition kinetics",
+      "object": ""
+    },
+    {
+      "subject": "High concentration of phosphate ions (>80 mM)",
+      "predicate": "selectively inhibited methanol oxidation activity in whole cells of M. trichosporium NCIB 11131",
+      "object": "leading to extracellular methanol accumulation",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Some oxidation of methane to carbon dioxide through methanol",
+      "predicate": "has been reported with cells of",
+      "object": "Nitrosomonas",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Although  some  oxidation  of methane to carbon dioxide through methanol has been reported  with  cells  of Nitrosomonas, lS2  the  niethanotrophs  catalyze  this  reaction  at  a  faster  rate.",
+        "document_offsets": {
+          "start": 2337,
+          "end": 2533
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 120,
+            "sentence_id": 1,
+            "matched_text": "Nitrosomonas"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Batch experiments were performed to optimize methane and oxygen input and substrate supplied for coenzyme regeneration",
+      "predicate": "",
+      "object": ""
+    },
+    {
+      "subject": "NADH-dependent methane monooxygenase (MMO)",
+      "predicate": "in",
+      "object": "Methylosinus trichosporium",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The niethanotrophs",
+      "predicate": "catalyze this reaction at a faster rate",
+      "object": "than Methylosinus trichosporium",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "M-trichosporium NCIB 11131",
+      "predicate": "has the ability to oxygenate",
+      "object": "a wide range of n-alkanes, substituted alkanes, ethers, and aromatic, alicyclic, and heterocyclic compounds",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The purpose of this investigation",
+      "predicate": "was to use M. trichosporium cells for the biosynthesis of methanol from biogas derived methane",
+      "object": "based on our studies on the regulation of methanol oxidation activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "The purpose of this investigation  was  to  use M. trichosporium cells  (free  and immobilized)  for  the biosynt hesis  of   methanol  from biogas  derived  methane, based  on  our  studies  on  the regulation  of  methanol  oxidation  activity.",
+        "document_offsets": {
+          "start": 3698,
+          "end": 3946
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 33,
+            "sentence_id": 7,
+            "matched_text": "The purpose of this investigation"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "A study on the effect of various inhibitors, metal ions, and adenine nucleotides on methanol oxidation activity indicated",
+      "predicate": "the enzyme activity to be stimulated by Mg2+ ions and inhibited by ADP and ATP",
+      "object": ""
+    },
+    {
+      "subject": "In continuous experiments effects of formate and phosphate ion supply and residence time on methanol accumulation rate were studied",
+      "predicate": "",
+      "object": ""
+    },
+    {
+      "subject": "The enzyme",
+      "predicate": "has recently been studied for such biocatalytic conversions",
+      "object": "for review, see ref. 6",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "Due  to the  ability  of  MMO  to  oxygenate  a  wide  range  of\n\nn-alkanes, substituted  alkanes, ethers,  and  aromatic, alicyclic, and heterocyclic corn pound^,^-^ yielding corresponding alcohols, the enzyme has recently been  studied  for  such  biocatalytic  conversions  (for  review,  see ref. 6). A  study on  the effect of  various  inhibitors,  metal  ions,  and  adenine  nucleotides  on  methanol  oxidation  activity  indicated  the enzyme activity to be stimulated by Mg2+  ions and inhibited by ADP and ATP.9",
+        "document_offsets": {
+          "start": 2533,
+          "end": 3697
+        },
+        "subject_positions": [
+          {
+            "start": 200,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "the enzyme"
+          },
+          {
+            "start": 1083,
+            "end": 1093,
+            "sentence_id": 6,
+            "matched_text": "the enzyme"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Aberdeen",
+      "predicate": "is located in",
+      "object": "U.K.",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Methylosinus  trichosporium 11131 used  in  the  present study was obtained  from NCIB (Aberdeen, U.K.).",
+        "document_offsets": {
+          "start": 4462,
+          "end": 4566
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 96,
+            "sentence_id": 0,
+            "matched_text": "Aberdeen"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium 11131",
+      "predicate": "was obtained from",
+      "object": "NCIB",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Methylosinus  trichosporium 11131 used  in  the  present study was obtained  from NCIB (Aberdeen, U.K.).",
+        "document_offsets": {
+          "start": 4462,
+          "end": 4566
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 82,
+            "end": 86,
+            "sentence_id": 0,
+            "matched_text": "NCIB"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "location of NCIB",
+      "predicate": "is located in",
+      "object": "Aberdeen",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Methylosinus  trichosporium 11131 used  in  the  present study was obtained  from NCIB (Aberdeen, U.K.).",
+        "document_offsets": {
+          "start": 4462,
+          "end": 4566
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 88,
+            "end": 96,
+            "sentence_id": 0,
+            "matched_text": "Aberdeen"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Large-scale cultivation",
+      "predicate": "on",
+      "object": "NMS medium",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Large-scale cultivation of cells was carried out in a 2-L Biolaffite fermentor  as described previously7  on NMS medium.",
+        "document_offsets": {
+          "start": 4736,
+          "end": 4856
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 0,
+            "matched_text": "Large-scale cultivation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 119,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Large-scale cultivation",
+      "predicate": "was carried out in",
+      "object": "2-L Biolaffite fermentor",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Large-scale cultivation of cells was carried out in a 2-L Biolaffite fermentor  as described previously7  on NMS medium.",
+        "document_offsets": {
+          "start": 4736,
+          "end": 4856
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 0,
+            "matched_text": "Large-scale cultivation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 78,
+            "sentence_id": 0,
+            "matched_text": "2-L Biolaffite fermentor"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "were resuspended in",
+      "object": "the same buffer containing 5 mM MgClz",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Large-scale cultivation of cells was carried out in a 2-L Biolaffite fermentor  as described previously7  on NMS medium. Early stationary phase cells were harvested at 10, O Cells were  resuspended in the same buffer containing 5 mM MgClz (at a cell concentration of  70-80  mg/mL) and used for immobilization.",
+        "document_offsets": {
+          "start": 4736,
+          "end": 5140
+        },
+        "subject_positions": [
+          {
+            "start": 27,
+            "end": 32,
+            "sentence_id": 0,
+            "matched_text": "cells"
+          },
+          {
+            "start": 144,
+            "end": 149,
+            "sentence_id": 1,
+            "matched_text": "cells"
+          },
+          {
+            "start": 268,
+            "end": 273,
+            "sentence_id": 3,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 295,
+            "end": 332,
+            "sentence_id": 3,
+            "matched_text": "the same buffer containing 5 mM MgClz"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "early stationary phase cells",
+      "predicate": "were washed",
+      "object": "twice with cold 20 mM phosphate buffer (pH 7.0)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Early stationary phase cells were harvested at 10, O",
+        "document_offsets": {
+          "start": 4857,
+          "end": 4909
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 28,
+            "sentence_id": 1,
+            "matched_text": "Early stationary phase cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "at a cell concentration of",
+      "object": "70-80 mg/mL",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Large-scale cultivation of cells was carried out in a 2-L Biolaffite fermentor  as described previously7  on NMS medium. Early stationary phase cells were harvested at 10, O Cells were  resuspended in the same buffer containing 5 mM MgClz (at a cell concentration of  70-80  mg/mL) and used for immobilization.",
+        "document_offsets": {
+          "start": 4736,
+          "end": 5140
+        },
+        "subject_positions": [
+          {
+            "start": 27,
+            "end": 32,
+            "sentence_id": 0,
+            "matched_text": "cells"
+          },
+          {
+            "start": 144,
+            "end": 149,
+            "sentence_id": 1,
+            "matched_text": "cells"
+          },
+          {
+            "start": 268,
+            "end": 273,
+            "sentence_id": 3,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "early stationary phase cells",
+      "predicate": "were harvested at",
+      "object": "10, O O O g for 15 min at 4\u00b0C",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Early stationary phase cells were harvested at 10, O",
+        "document_offsets": {
+          "start": 4857,
+          "end": 4909
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 28,
+            "sentence_id": 1,
+            "matched_text": "Early stationary phase cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the DEAE-cellulose",
+      "predicate": "was washed with",
+      "object": "distilled water",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "The DEAE-cellulose was then  washed  with  distilled water  until  the  pH  of  the washings was between 4.0  and 6.0. The washed preparation  of  DEAE-cellulose was  suspended in  15 vol  of 0.5\"  NaOH  and  stirred for  30  min  at  the  same rpm; the alkali was removed by suction filtration and washed with distilled water  until  the washings were at neutral pH.",
+        "document_offsets": {
+          "start": 5458,
+          "end": 5825
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "The DEAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 43,
+            "end": 58,
+            "sentence_id": 2,
+            "matched_text": "distilled water"
+          },
+          {
+            "start": 311,
+            "end": 326,
+            "sentence_id": 3,
+            "matched_text": "distilled water"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "an equal volume of",
+      "predicate": "was added to",
+      "object": "a suspension of whole cells containing M. trichosporium",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "The glutaraldehyde activated DEAE-cellulose  was resuspended in  buffer, and an equal volume of  a suspension of whole cells containing 40 mg cells/mL of M. trichosporium in the same buffer was added.",
+        "document_offsets": {
+          "start": 6243,
+          "end": 6443
+        },
+        "subject_positions": [
+          {
+            "start": 77,
+            "end": 95,
+            "sentence_id": 6,
+            "matched_text": "an equal volume of"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the immobilized preparation",
+      "predicate": "was washed with",
+      "object": "sodium phosphate buffer containing 0.5M NaCl",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "The  immobilized  preparation  was  washed with sodium phosphate buffer containing 0.5M NaCl to remove  noncovalently  bound  cells.",
+        "document_offsets": {
+          "start": 6546,
+          "end": 6680
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 92,
+            "sentence_id": 8,
+            "matched_text": "sodium phosphate buffer containing 0.5M NaCl"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the DEAE-cellulose",
+      "predicate": "was suspended in",
+      "object": "0.5NaOH",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The DEAE-cellulose was then  washed  with  distilled water  until  the  pH  of  the washings was between 4.0  and 6.0.",
+        "document_offsets": {
+          "start": 5458,
+          "end": 5576
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "The DEAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "glutaraldehyde",
+      "predicate": "was added to",
+      "object": "the DEAE-cellulose derivative",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 6,
+        "text_evidence": "The washed DEAE-cellulose  was resuspended in 50  mM  sodium  phosphate  buffer,  pH  7.0,  and  glutaraldehyde (25%, w/v  aqueous solution) was  added  to give a final concentration of  1 %  (w/v). After stirring for 2 h at  room temperature,  the  DEAE-cellulose derivative  was  recovered  by  filtration  and  the  excess  glutaraldehyde  removed  by  washing  with  the  sodium phosphate buffer (50 mM, pH 7.0). The glutaraldehyde activated DEAE-cellulose  was resuspended in  buffer, and an equal volume of  a suspension of whole cells containing 40 mg cells/mL of M. trichosporium in the same buffer was added.",
+        "document_offsets": {
+          "start": 5826,
+          "end": 6443
+        },
+        "subject_positions": [
+          {
+            "start": 97,
+            "end": 111,
+            "sentence_id": 4,
+            "matched_text": "glutaraldehyde"
+          },
+          {
+            "start": 327,
+            "end": 341,
+            "sentence_id": 5,
+            "matched_text": "glutaraldehyde"
+          },
+          {
+            "start": 421,
+            "end": 435,
+            "sentence_id": 6,
+            "matched_text": "glutaraldehyde"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the DEAE-cellulose",
+      "predicate": "was immobilized according to",
+      "object": "Griffith and Muir",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The DEAE-cellulose was then  washed  with  distilled water  until  the  pH  of  the washings was between 4.0  and 6.0.",
+        "document_offsets": {
+          "start": 5458,
+          "end": 5576
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "The DEAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the DEAE-cellulose",
+      "predicate": "was resuspended in",
+      "object": "50 mM sodium phosphate buffer, pH 7.0",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The DEAE-cellulose was then  washed  with  distilled water  until  the  pH  of  the washings was between 4.0  and 6.0.",
+        "document_offsets": {
+          "start": 5458,
+          "end": 5576
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "The DEAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the glutaraldehyde activated DEAE-cellulose",
+      "predicate": "was resuspended in",
+      "object": "buffer",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 8,
+        "text_evidence": "The washed DEAE-cellulose  was resuspended in 50  mM  sodium  phosphate  buffer,  pH  7.0,  and  glutaraldehyde (25%, w/v  aqueous solution) was  added  to give a final concentration of  1 %  (w/v). After stirring for 2 h at  room temperature,  the  DEAE-cellulose derivative  was  recovered  by  filtration  and  the  excess  glutaraldehyde  removed  by  washing  with  the  sodium phosphate buffer (50 mM, pH 7.0). The glutaraldehyde activated DEAE-cellulose  was resuspended in  buffer, and an equal volume of  a suspension of whole cells containing 40 mg cells/mL of M. trichosporium in the same buffer was added. The  immobilized  preparation  was  washed with sodium phosphate buffer containing 0.5M NaCl to remove  noncovalently  bound  cells.",
+        "document_offsets": {
+          "start": 5826,
+          "end": 6680
+        },
+        "subject_positions": [
+          {
+            "start": 417,
+            "end": 460,
+            "sentence_id": 6,
+            "matched_text": "The glutaraldehyde activated DEAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 73,
+            "end": 79,
+            "sentence_id": 4,
+            "matched_text": "buffer"
+          },
+          {
+            "start": 393,
+            "end": 399,
+            "sentence_id": 5,
+            "matched_text": "buffer"
+          },
+          {
+            "start": 482,
+            "end": 488,
+            "sentence_id": 6,
+            "matched_text": "buffer"
+          },
+          {
+            "start": 600,
+            "end": 606,
+            "sentence_id": 6,
+            "matched_text": "buffer"
+          },
+          {
+            "start": 785,
+            "end": 791,
+            "sentence_id": 8,
+            "matched_text": "buffer"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "DEAE-cellulose",
+      "predicate": "was immobilized on",
+      "object": "Sigma Chemical Co.",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "The cells were immobilized on DEAE-cellulose  (Sigma Chemical Co.) according to Griffith  and  Muir\"  with some modifications. Dry  DEAE-cellulose  was  added to  15 vol  of 0.5M HC1,  allowed  to  stir  for  30  min  at 100 rpm, and the supernatant removed by suction filtration using a Buchner funnel. The DEAE-cellulose was then  washed  with  distilled water  until  the  pH  of  the washings was between 4.0  and 6.0. The washed preparation  of  DEAE-cellulose was  suspended in  15 vol  of 0.5\"  NaOH  and  stirred for  30  min  at  the  same rpm; the alkali was removed by suction filtration and washed with distilled water  until  the washings were at neutral pH. The washed DEAE-cellulose  was resuspended in 50  mM  sodium  phosphate  buffer,  pH  7.0,  and  glutaraldehyde (25%, w/v  aqueous solution) was  added  to give a final concentration of  1 %  (w/v). After stirring for 2 h at  room temperature,  the  DEAE-cellulose derivative  was  recovered  by  filtration  and  the  excess  glutaraldehyde  removed  by  washing  with  the  sodium phosphate buffer (50 mM, pH 7.0). The glutaraldehyde activated DEAE-cellulose  was resuspended in  buffer, and an equal volume of  a suspension of whole cells containing 40 mg cells/mL of M. trichosporium in the same buffer was added.",
+        "document_offsets": {
+          "start": 5154,
+          "end": 6443
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 44,
+            "sentence_id": 0,
+            "matched_text": "DEAE-cellulose"
+          },
+          {
+            "start": 132,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "DEAE-cellulose"
+          },
+          {
+            "start": 308,
+            "end": 322,
+            "sentence_id": 2,
+            "matched_text": "DEAE-cellulose"
+          },
+          {
+            "start": 451,
+            "end": 465,
+            "sentence_id": 3,
+            "matched_text": "DEAE-cellulose"
+          },
+          {
+            "start": 683,
+            "end": 697,
+            "sentence_id": 4,
+            "matched_text": "DEAE-cellulose"
+          },
+          {
+            "start": 922,
+            "end": 936,
+            "sentence_id": 5,
+            "matched_text": "DEAE-cellulose"
+          },
+          {
+            "start": 1118,
+            "end": 1132,
+            "sentence_id": 6,
+            "matched_text": "DEAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Hydrogen",
+      "predicate": "served as",
+      "object": "the carrier gas at a flow rate of 40 mL/min",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Formate  dehydrogenase activity was  measured  as  described  previously7 using  sodium  formate  as  the  substrate. Hydrogen served as the carrier gas at a flow rate of  40 mL/min.",
+        "document_offsets": {
+          "start": 6817,
+          "end": 7254
+        },
+        "subject_positions": [
+          {
+            "start": 373,
+            "end": 381,
+            "sentence_id": 3,
+            "matched_text": "Hydrogen"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Retention time",
+      "predicate": "for methanol was",
+      "object": "50 s",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 8,
+        "text_evidence": "Oxygen was analyzed in a molecular sieve 13x column and had a retention time of  25 s.\n\nMethanol  was  estimated  chromatographically using a Porapak Q column in the flame ionization mode. The retention  time  for  methanol was  50 s. Absolute  methanol  (99.9%) from  Prolabo (Paris) was  used  as  the  standard  in  the  range  2.012.0 pmol/mL  (or 0.02%-0.1%,  v/v).",
+        "document_offsets": {
+          "start": 7596,
+          "end": 8165
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 76,
+            "sentence_id": 6,
+            "matched_text": "retention time"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 428,
+            "end": 432,
+            "sentence_id": 8,
+            "matched_text": "50 s"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Temperatures",
+      "predicate": "of the oven, detector, and injector were controlled at",
+      "object": "140\u00b0C, 160\u00b0C, and 160\u00b0C, respectively",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 7,
+        "text_evidence": "The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA.\n\nThe calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research. Nitrogen was  used  as  the  carrier  gas  at  a  flow  rate  of 40  mL/min.  The temperatures  of  the  oven,  detector, and  injector  were  controlled  at  140\"C,  160\u00b0C, and 160\"C, respectively.",
+        "document_offsets": {
+          "start": 7255,
+          "end": 7983
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "temperatures"
+          },
+          {
+            "start": 612,
+            "end": 624,
+            "sentence_id": 7,
+            "matched_text": "temperatures"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methane",
+      "predicate": "concentrations were determined",
+      "object": "chromatographically using GLC",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 5,
+        "text_evidence": "Methane, carbon dioxide, and oxygen concentrations were  determined  chromatographically  (GLC) using  a molecular sieve 13x or 5A column in the thermal conductivity mode. The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA.\n\nThe calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research. The retention  times  for  methane  and carbon dioxide were 20 and 70 s, respectively.",
+        "document_offsets": {
+          "start": 7018,
+          "end": 7595
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 2,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 410,
+            "end": 417,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 518,
+            "end": 525,
+            "sentence_id": 5,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Current flow",
+      "predicate": "was",
+      "object": "150 mA",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA.\n\nThe calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research.",
+        "document_offsets": {
+          "start": 7255,
+          "end": 7509
+        },
+        "subject_positions": [
+          {
+            "start": 105,
+            "end": 117,
+            "sentence_id": 4,
+            "matched_text": "current flow"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 122,
+            "end": 128,
+            "sentence_id": 4,
+            "matched_text": "150 mA"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Retention times",
+      "predicate": "for methane and carbon dioxide were",
+      "object": "20 and 70 s, respectively",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "The retention  times  for  methane  and carbon dioxide were 20 and 70 s, respectively.",
+        "document_offsets": {
+          "start": 7509,
+          "end": 7595
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 85,
+            "sentence_id": 5,
+            "matched_text": "20 and 70 s, respectively"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Carbon dioxide",
+      "predicate": "concentrations were determined",
+      "object": "chromatographically using GLC",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 5,
+        "text_evidence": "Methane, carbon dioxide, and oxygen concentrations were  determined  chromatographically  (GLC) using  a molecular sieve 13x or 5A column in the thermal conductivity mode. The retention  times  for  methane  and carbon dioxide were 20 and 70 s, respectively.",
+        "document_offsets": {
+          "start": 7018,
+          "end": 7595
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 23,
+            "sentence_id": 2,
+            "matched_text": "carbon dioxide"
+          },
+          {
+            "start": 531,
+            "end": 545,
+            "sentence_id": 5,
+            "matched_text": "carbon dioxide"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Oxygen",
+      "predicate": "concentrations were determined",
+      "object": "chromatographically and had a retention time of 25 s",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "Methane, carbon dioxide, and oxygen concentrations were  determined  chromatographically  (GLC) using  a molecular sieve 13x or 5A column in the thermal conductivity mode. The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA.\n\nThe calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research. Oxygen was analyzed in a molecular sieve 13x column and had a retention time of  25 s.\n\nMethanol  was  estimated  chromatographically using a Porapak Q column in the flame ionization mode.",
+        "document_offsets": {
+          "start": 7018,
+          "end": 7784
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 35,
+            "sentence_id": 2,
+            "matched_text": "oxygen"
+          },
+          {
+            "start": 457,
+            "end": 463,
+            "sentence_id": 4,
+            "matched_text": "oxygen"
+          },
+          {
+            "start": 578,
+            "end": 584,
+            "sentence_id": 6,
+            "matched_text": "Oxygen"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "GLC",
+      "predicate": "was used",
+      "object": "with a molecular sieve 13x or 5A column in the thermal conductivity mode",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Methane, carbon dioxide, and oxygen concentrations were  determined  chromatographically  (GLC) using  a molecular sieve 13x or 5A column in the thermal conductivity mode.",
+        "document_offsets": {
+          "start": 7018,
+          "end": 7189
+        },
+        "subject_positions": [
+          {
+            "start": 91,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "GLC"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Oxygen",
+      "predicate": "was analyzed in a molecular sieve 13x column and had a retention time of",
+      "object": "25 s",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "Methane, carbon dioxide, and oxygen concentrations were  determined  chromatographically  (GLC) using  a molecular sieve 13x or 5A column in the thermal conductivity mode. The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA.\n\nThe calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research. Oxygen was analyzed in a molecular sieve 13x column and had a retention time of  25 s.\n\nMethanol  was  estimated  chromatographically using a Porapak Q column in the flame ionization mode.",
+        "document_offsets": {
+          "start": 7018,
+          "end": 7784
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 35,
+            "sentence_id": 2,
+            "matched_text": "oxygen"
+          },
+          {
+            "start": 457,
+            "end": 463,
+            "sentence_id": 4,
+            "matched_text": "oxygen"
+          },
+          {
+            "start": 578,
+            "end": 584,
+            "sentence_id": 6,
+            "matched_text": "Oxygen"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 659,
+            "end": 663,
+            "sentence_id": 6,
+            "matched_text": "25 s"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Standard methanol",
+      "predicate": "was used as the standard in the range",
+      "object": "2.012.0 pmol/mL (or 0.02%-0.1%, v/v)",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Temperatures",
+      "predicate": "were",
+      "object": "of the oven, detector, and injector were 40\u00b0C, 50\u00b0C, and 50\u00b0C, respectively",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 7,
+        "text_evidence": "The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA.\n\nThe calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research. Nitrogen was  used  as  the  carrier  gas  at  a  flow  rate  of 40  mL/min.  The temperatures  of  the  oven,  detector, and  injector  were  controlled  at  140\"C,  160\u00b0C, and 160\"C, respectively.",
+        "document_offsets": {
+          "start": 7255,
+          "end": 7983
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "temperatures"
+          },
+          {
+            "start": 612,
+            "end": 624,
+            "sentence_id": 7,
+            "matched_text": "temperatures"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "was estimated chromatographically using a Porapak Q column in the flame ionization mode",
+      "object": "Nitrogen was used as the carrier gas at a flow rate of 40 mL/min",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 8,
+        "text_evidence": "Oxygen was analyzed in a molecular sieve 13x column and had a retention time of  25 s.\n\nMethanol  was  estimated  chromatographically using a Porapak Q column in the flame ionization mode. The retention  time  for  methanol was  50 s. Absolute  methanol  (99.9%) from  Prolabo (Paris) was  used  as  the  standard  in  the  range  2.012.0 pmol/mL  (or 0.02%-0.1%,  v/v).",
+        "document_offsets": {
+          "start": 7596,
+          "end": 8165
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 96,
+            "sentence_id": 6,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 414,
+            "end": 422,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 444,
+            "end": 452,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Formate dehydrogenase",
+      "predicate": "is used to measure",
+      "object": "activity using sodium formate as the substrate",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Activity",
+      "predicate": "is expressed as",
+      "object": "pmole C 0 2 produced per hour per milligram cells",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Formate  dehydrogenase activity was  measured  as  described  previously7 using  sodium  formate  as  the  substrate. The activity is expressed as pmole C 0 2   produced per hour per milligram cells.",
+        "document_offsets": {
+          "start": 6817,
+          "end": 7018
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "activity"
+          },
+          {
+            "start": 122,
+            "end": 130,
+            "sentence_id": 1,
+            "matched_text": "activity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Standard methanol",
+      "predicate": "was from",
+      "object": "Prolabo (Paris)",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "The retention  time  for  methanol was  50 s. Absolute  methanol  (99.9%) from  Prolabo (Paris) was  used  as  the  standard  in  the  range  2.012.0 pmol/mL  (or 0.02%-0.1%,  v/v).",
+        "document_offsets": {
+          "start": 7984,
+          "end": 8165
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "contained",
+      "object": "18 mg cells (in experiments involving immobilized cells)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Gas-liquid chromatographic determinations",
+      "predicate": "were carried out",
+      "object": "as listed above",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Gas-liquid chromatographic  determinations of  the  gas  phase (methane  and  oxygen) and  aqueous phase  (methanol) were carried out as listed above.",
+        "document_offsets": {
+          "start": 8819,
+          "end": 8969
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 134,
+            "end": 149,
+            "sentence_id": 4,
+            "matched_text": "as listed above"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "contained",
+      "object": "5 pmol/mL MgC12",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The flasks",
+      "predicate": "were incubated for",
+      "object": "3 h at 35\u00b0C on a controlled temperature rotary shaker (Adolf Kuhner, Switzerland)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "The flasks were incubated shaken (200 rpm) for 3 h at 35\u00b0C on a controlled temperature rotary shaker (Adolf Kuhner, Switzerland).",
+        "document_offsets": {
+          "start": 8689,
+          "end": 8818
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 3,
+            "matched_text": "The flasks"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The flasks",
+      "predicate": "were incubated shaken",
+      "object": "200 rpm",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "The flasks were incubated shaken (200 rpm) for 3 h at 35\u00b0C on a controlled temperature rotary shaker (Adolf Kuhner, Switzerland).",
+        "document_offsets": {
+          "start": 8689,
+          "end": 8818
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 3,
+            "matched_text": "The flasks"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 34,
+            "end": 41,
+            "sentence_id": 3,
+            "matched_text": "200 rpm"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "contained",
+      "object": "80-100 pmol/mL phosphate ions",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The gaseous phase of the flask",
+      "predicate": "contained varying concentrations of",
+      "object": "oxygen",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "The  gaseous phase  of  the  flask  was  replaced  by  methane  (2425 pmol/mL) and varying concentrations of  oxygen (as described in the text). Gas-liquid chromatographic  determinations of  the  gas  phase (methane  and  oxygen) and  aqueous phase  (methanol) were carried out as listed above.",
+        "document_offsets": {
+          "start": 8544,
+          "end": 8969
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 116,
+            "sentence_id": 2,
+            "matched_text": "oxygen"
+          },
+          {
+            "start": 353,
+            "end": 359,
+            "sentence_id": 4,
+            "matched_text": "oxygen"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "contained",
+      "object": "5 mL reaction mixture",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The gaseous phase of the flask",
+      "predicate": "was replaced by",
+      "object": "methane (2425 pmol/mL)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "were conducted in triplicate",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "contained",
+      "object": "2-4 mg cells (in experiments involving free cells)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "were conducted in",
+      "object": "Subasealed conical flasks",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "Subasealed conical flasks"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "were corrected for",
+      "object": "cell leakage",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture. All batch experiments were conducted in  triplicate.",
+        "document_offsets": {
+          "start": 8168,
+          "end": 9024
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 806,
+            "end": 823,
+            "sentence_id": 5,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The reported values",
+      "predicate": "are an average of",
+      "object": "three runs with a variation of  5 7 %   from the mean",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "The  reported  values are an average of  three runs with a variation of  5 7 %   from the mean.",
+        "document_offsets": {
+          "start": 9024,
+          "end": 9119
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 94,
+            "sentence_id": 6,
+            "matched_text": "three runs with a variation of  5 7 %   from the mean"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "UF cell",
+      "predicate": "was filled with",
+      "object": "50 mL of DEAE-cellulose immobilized microbial cell preparation suspended in 20 mM phosphate buffer (pH 6.4)",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "The UF cell  was  filled  with 50 mL of  DEAE-cellulose  immobilized microbial cell preparation  suspended  in  20 mM phosphate  buffer (pH 6.4) at  a  density of 4 mg  dry weight  carrier/mL reactor volume. The top disc was sealed air tight, and two  silicone  rubber  tubes  (1  mm  diameter) were  inserted  from the  inlet  hole  of  the  UF cell. The pressure release vent  of  the UF cell was replaced with a glass capillary connected through a rubber stopper  to be used  as an outlet for the circulating gaseous\n\nPeristaltic  pump\n\n,,   ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n,\n\n111\n\n\\\n\nI\n\nMethanol in\n\nphosphate\n\nbuffer\n\nWater\n\noutlet\n\nUF Cell\n\nWater\n\n~bath\n\nWater. The temperature was maintained  by  circulating water at 35\u00b0C around the UF cell. The reaction  was  started  by  allowing  mixture  of gases (CH4 and 02; 1:1, v/v)  to sparge through the UF cell. The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump. The second channel o f   the peristaltic pump was used to remove product  continuously  from  the  base  of  the  UF cell.",
+        "document_offsets": {
+          "start": 9281,
+          "end": 10889
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 11,
+            "sentence_id": 1,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 343,
+            "end": 350,
+            "sentence_id": 2,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 831,
+            "end": 838,
+            "sentence_id": 4,
+            "matched_text": "UF Cell"
+          },
+          {
+            "start": 989,
+            "end": 996,
+            "sentence_id": 6,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1163,
+            "end": 1170,
+            "sentence_id": 8,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1417,
+            "end": 1424,
+            "sentence_id": 10,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1600,
+            "end": 1607,
+            "sentence_id": 11,
+            "matched_text": "UF cell"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "UF cell",
+      "predicate": "is converted into",
+      "object": "continuous stirred reactor",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "The UF cell  was  filled  with 50 mL of  DEAE-cellulose  immobilized microbial cell preparation  suspended  in  20 mM phosphate  buffer (pH 6.4) at  a  density of 4 mg  dry weight  carrier/mL reactor volume. The top disc was sealed air tight, and two  silicone  rubber  tubes  (1  mm  diameter) were  inserted  from the  inlet  hole  of  the  UF cell. The pressure release vent  of  the UF cell was replaced with a glass capillary connected through a rubber stopper  to be used  as an outlet for the circulating gaseous\n\nPeristaltic  pump\n\n,,   ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n,\n\n111\n\n\\\n\nI\n\nMethanol in\n\nphosphate\n\nbuffer\n\nWater\n\noutlet\n\nUF Cell\n\nWater\n\n~bath\n\nWater. The temperature was maintained  by  circulating water at 35\u00b0C around the UF cell. The reaction  was  started  by  allowing  mixture  of gases (CH4 and 02; 1:1, v/v)  to sparge through the UF cell. The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump. The second channel o f   the peristaltic pump was used to remove product  continuously  from  the  base  of  the  UF cell.",
+        "document_offsets": {
+          "start": 9281,
+          "end": 10889
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 11,
+            "sentence_id": 1,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 343,
+            "end": 350,
+            "sentence_id": 2,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 831,
+            "end": 838,
+            "sentence_id": 4,
+            "matched_text": "UF Cell"
+          },
+          {
+            "start": 989,
+            "end": 996,
+            "sentence_id": 6,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1163,
+            "end": 1170,
+            "sentence_id": 8,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1417,
+            "end": 1424,
+            "sentence_id": 10,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1600,
+            "end": 1607,
+            "sentence_id": 11,
+            "matched_text": "UF cell"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "one of the silicone tubes",
+      "predicate": "was extended to the bottom of the cell and connected to",
+      "object": "sparger made of a hard, plastic tube (1 mm diameter) ring with holes along the periphery",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the inlet",
+      "predicate": "of the UF cell",
+      "object": "was filled with Phosphate buffer",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "UF cell",
+      "predicate": "was sealed air tight",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "The UF cell  was  filled  with 50 mL of  DEAE-cellulose  immobilized microbial cell preparation  suspended  in  20 mM phosphate  buffer (pH 6.4) at  a  density of 4 mg  dry weight  carrier/mL reactor volume. The top disc was sealed air tight, and two  silicone  rubber  tubes  (1  mm  diameter) were  inserted  from the  inlet  hole  of  the  UF cell. The pressure release vent  of  the UF cell was replaced with a glass capillary connected through a rubber stopper  to be used  as an outlet for the circulating gaseous\n\nPeristaltic  pump\n\n,,   ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n,\n\n111\n\n\\\n\nI\n\nMethanol in\n\nphosphate\n\nbuffer\n\nWater\n\noutlet\n\nUF Cell\n\nWater\n\n~bath\n\nWater. The temperature was maintained  by  circulating water at 35\u00b0C around the UF cell. The reaction  was  started  by  allowing  mixture  of gases (CH4 and 02; 1:1, v/v)  to sparge through the UF cell. The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump. The second channel o f   the peristaltic pump was used to remove product  continuously  from  the  base  of  the  UF cell.",
+        "document_offsets": {
+          "start": 9281,
+          "end": 10889
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 11,
+            "sentence_id": 1,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 343,
+            "end": 350,
+            "sentence_id": 2,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 831,
+            "end": 838,
+            "sentence_id": 4,
+            "matched_text": "UF Cell"
+          },
+          {
+            "start": 989,
+            "end": 996,
+            "sentence_id": 6,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1163,
+            "end": 1170,
+            "sentence_id": 8,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1417,
+            "end": 1424,
+            "sentence_id": 10,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1600,
+            "end": 1607,
+            "sentence_id": 11,
+            "matched_text": "UF cell"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "a magnetic stirrer",
+      "predicate": "was used to stir",
+      "object": "the reactor contents",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "A magnetic stirrer was used to stir the reactor contents.",
+        "document_offsets": {
+          "start": 10279,
+          "end": 10338
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 7,
+            "matched_text": "A magnetic stirrer"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 36,
+            "end": 56,
+            "sentence_id": 7,
+            "matched_text": "the reactor contents"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "the reaction",
+      "predicate": "was started by allowing",
+      "object": "mixture of gases (CH4 and O2; 1:1, v/v) to sparge through the UF cell",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "The reaction  was  started  by  allowing  mixture  of gases (CH4 and 02; 1:1, v/v)  to sparge through the UF cell.",
+        "document_offsets": {
+          "start": 10338,
+          "end": 10452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 8,
+            "matched_text": "The reaction"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the gaseous mixture",
+      "predicate": "was continuously circulated by",
+      "object": "means of a peristaltic pump",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "The gaseous mixture was  continuously circulated by  means of  a peristaltic pump.",
+        "document_offsets": {
+          "start": 10453,
+          "end": 10535
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 19,
+            "sentence_id": 9,
+            "matched_text": "The gaseous mixture"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the feed",
+      "predicate": "was fed continuously from the top of",
+      "object": "the UF cell by means of a variable-speed multichannel peristaltic pump",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump.",
+        "document_offsets": {
+          "start": 10536,
+          "end": 10766
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 10,
+            "matched_text": "The feed"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "UF cell",
+      "predicate": "had two silicone rubber tubes inserted",
+      "object": "from the inlet hole of the UF cell",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "The UF cell  was  filled  with 50 mL of  DEAE-cellulose  immobilized microbial cell preparation  suspended  in  20 mM phosphate  buffer (pH 6.4) at  a  density of 4 mg  dry weight  carrier/mL reactor volume. The top disc was sealed air tight, and two  silicone  rubber  tubes  (1  mm  diameter) were  inserted  from the  inlet  hole  of  the  UF cell. The pressure release vent  of  the UF cell was replaced with a glass capillary connected through a rubber stopper  to be used  as an outlet for the circulating gaseous\n\nPeristaltic  pump\n\n,,   ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n, ,\n\n,\n\n111\n\n\\\n\nI\n\nMethanol in\n\nphosphate\n\nbuffer\n\nWater\n\noutlet\n\nUF Cell\n\nWater\n\n~bath\n\nWater. The temperature was maintained  by  circulating water at 35\u00b0C around the UF cell. The reaction  was  started  by  allowing  mixture  of gases (CH4 and 02; 1:1, v/v)  to sparge through the UF cell. The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump. The second channel o f   the peristaltic pump was used to remove product  continuously  from  the  base  of  the  UF cell.",
+        "document_offsets": {
+          "start": 9281,
+          "end": 10889
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 11,
+            "sentence_id": 1,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 343,
+            "end": 350,
+            "sentence_id": 2,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 831,
+            "end": 838,
+            "sentence_id": 4,
+            "matched_text": "UF Cell"
+          },
+          {
+            "start": 989,
+            "end": 996,
+            "sentence_id": 6,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1163,
+            "end": 1170,
+            "sentence_id": 8,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1417,
+            "end": 1424,
+            "sentence_id": 10,
+            "matched_text": "UF cell"
+          },
+          {
+            "start": 1600,
+            "end": 1607,
+            "sentence_id": 11,
+            "matched_text": "UF cell"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the feed",
+      "predicate": "consisted of",
+      "object": "100 mM phosphate buffer (pH 6.4) containing 5 mM MgC12 (and other ingredients, if required)",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump.",
+        "document_offsets": {
+          "start": 10536,
+          "end": 10766
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 10,
+            "matched_text": "The feed"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the second channel of the peristaltic pump",
+      "predicate": "was used to remove product continuously from",
+      "object": "the base of the UF cell",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the pressure release vent of the UF cell",
+      "predicate": "was replaced with",
+      "object": "a glass capillary connected through a rubber stopper to be used as an outlet for the circulating gaseous peristaltic pump",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "immobilized M. trichosporium whole cells",
+      "predicate": "retain",
+      "object": "MM0 activity compared to other immobilization methods",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "synthesize methanol at a constant rate of",
+      "object": "8.75 pmol/h mg cells for the first 2.5 h",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 23,
+        "text_evidence": "Hence, immobilized cells appeared to be less sensitive to a pH change in this range for optimum methanol accumulation. The temperature data were replotted in the form of an Arrhenius plot to calculate  activation  energy (E,) for  free  and  immobilized cells (Fig. 3). The values of E, for free and immobilized cells were  computed to be  19,537 and  14,800 cal/mol, respectively. The synthesis of  methanol by  immobilized cells was at a constant rate of  8.75  pmol/h  mg cells for the first 2.5 h (Fig. 4), and the rate fell sharply after 6 h. In our earlier studies with  free cells, the fall in  the methanol accumulation  rate  was  attributed  to  depletion  of  the endogenous NADHz pool, and methanol accumulation rate was maximally stimulated by supplying 40 mM formate to the  reaction ves~e1.I~ With  immobilized cells, maximum stimulation in methanol accumulation rate to 8.6  ,umol/h  mg  cells occurred  on  addition  of  40  mM\n\n2.4\n\n2.0-\n\nh\n\nc\n\nE\n\n1.6-\n\nE\n\n3\n\n1.2\n\nE\n\na\n\n--. The in  situ regeneration of NADH2 has  been  demonstrated  earlier  by  supplying methane metabolites to free cells l5 and to immobilized cells.",
+        "document_offsets": {
+          "start": 11965,
+          "end": 14843
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 24,
+            "sentence_id": 5,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 488,
+            "end": 505,
+            "sentence_id": 10,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 546,
+            "end": 563,
+            "sentence_id": 11,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 1721,
+            "end": 1738,
+            "sentence_id": 18,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 2122,
+            "end": 2139,
+            "sentence_id": 19,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 2860,
+            "end": 2877,
+            "sentence_id": 23,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "rate of methanol accumulation",
+      "predicate": "falls sharply after",
+      "object": "6 h with immobilized cells",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "maximum methanol accumulation rate",
+      "predicate": "is obtained at",
+      "object": "0.5 g cells/g dry weight cellulose",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Maximum methanol accumulation rate  of  8.2  pmol/h  was  obtained  at  0.5 g cells/g  dry  weight  cellulose,  after  which  the  rate  fell sharply due to significant leakage of cells.",
+        "document_offsets": {
+          "start": 11658,
+          "end": 11844
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 34,
+            "sentence_id": 3,
+            "matched_text": "Maximum methanol accumulation rate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "maximum stimulation in methanol accumulation rate",
+      "predicate": "occurs on addition of",
+      "object": "40 mM formate at the sixth hour",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "In our earlier studies with  free cells, the fall in  the methanol accumulation  rate  was  attributed  to  depletion  of  the endogenous NADHz pool, and methanol accumulation rate was maximally stimulated by supplying 40 mM formate to the  reaction ves~e1.I~ With  immobilized cells, maximum stimulation in methanol accumulation rate to 8.6  ,umol/h  mg  cells occurred  on  addition  of  40  mM\n\n2.4\n\n2.0-\n\nh\n\nc\n\nE\n\n1.6-\n\nE\n\n3\n\n1.2\n\nE\n\na\n\n--.",
+        "document_offsets": {
+          "start": 13821,
+          "end": 14267
+        },
+        "subject_positions": [
+          {
+            "start": 285,
+            "end": 334,
+            "sentence_id": 19,
+            "matched_text": "maximum stimulation in methanol accumulation rate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "are less sensitive to",
+      "object": "a pH change in the range for optimum methanol accumulation",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 23,
+        "text_evidence": "Hence, immobilized cells appeared to be less sensitive to a pH change in this range for optimum methanol accumulation. The temperature data were replotted in the form of an Arrhenius plot to calculate  activation  energy (E,) for  free  and  immobilized cells (Fig. 3). The values of E, for free and immobilized cells were  computed to be  19,537 and  14,800 cal/mol, respectively. The synthesis of  methanol by  immobilized cells was at a constant rate of  8.75  pmol/h  mg cells for the first 2.5 h (Fig. 4), and the rate fell sharply after 6 h. In our earlier studies with  free cells, the fall in  the methanol accumulation  rate  was  attributed  to  depletion  of  the endogenous NADHz pool, and methanol accumulation rate was maximally stimulated by supplying 40 mM formate to the  reaction ves~e1.I~ With  immobilized cells, maximum stimulation in methanol accumulation rate to 8.6  ,umol/h  mg  cells occurred  on  addition  of  40  mM\n\n2.4\n\n2.0-\n\nh\n\nc\n\nE\n\n1.6-\n\nE\n\n3\n\n1.2\n\nE\n\na\n\n--. The in  situ regeneration of NADH2 has  been  demonstrated  earlier  by  supplying methane metabolites to free cells l5 and to immobilized cells.",
+        "document_offsets": {
+          "start": 11965,
+          "end": 14843
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 24,
+            "sentence_id": 5,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 488,
+            "end": 505,
+            "sentence_id": 10,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 546,
+            "end": 563,
+            "sentence_id": 11,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 1721,
+            "end": 1738,
+            "sentence_id": 18,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 2122,
+            "end": 2139,
+            "sentence_id": 19,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 2860,
+            "end": 2877,
+            "sentence_id": 23,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "other immobilization methods",
+      "predicate": "include",
+      "object": "physical adsorption and entrapment",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "The immobilization of M. trichosporium whole cells by covalent  linking  to  glutaraldehyde  activated DEAEcellulose was  found  most  suitable for retaining  MMO activity compared to the other immobilization methods tried  in  our  laboratory such  as  physical adsorption  or entrapment.",
+        "document_offsets": {
+          "start": 11184,
+          "end": 11473
+        },
+        "subject_positions": [
+          {
+            "start": 188,
+            "end": 216,
+            "sentence_id": 0,
+            "matched_text": "other immobilization methods"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "total extracellular methanol levels",
+      "predicate": "reach up to",
+      "object": "50 pmol/mg cells at the end of 12 h",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "latter two methods",
+      "predicate": "do not result in",
+      "object": "extracellular methanol accumulation",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "No extracellular methanol accumulated in the latter two methods.",
+        "document_offsets": {
+          "start": 11474,
+          "end": 11538
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "latter two methods"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "temperature optimum",
+      "predicate": "is 35\u00b0C",
+      "object": "for immobilized cells",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "The temperature optimum was 35\"C, simi-\n\n0\n\n.o\n\n0.0\n\n0 .",
+        "document_offsets": {
+          "start": 12084,
+          "end": 12140
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 23,
+            "sentence_id": 6,
+            "matched_text": "temperature optimum"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "pH optimum",
+      "predicate": "ranges from",
+      "object": "6.2 to 6.6",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "The pH optimum was determined to be ranging from 6.2 to 6.6 in comparison to the reported value of  6.4 for free cells7",
+        "document_offsets": {
+          "start": 11845,
+          "end": 11964
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 14,
+            "sentence_id": 4,
+            "matched_text": "pH optimum"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 4,
+            "matched_text": "6.2 to 6.6"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "glutaraldehyde",
+      "predicate": "is used for",
+      "object": "activating DEAEcellulose",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "The immobilization of M. trichosporium whole cells by covalent  linking  to  glutaraldehyde  activated DEAEcellulose was  found  most  suitable for retaining  MMO activity compared to the other immobilization methods tried  in  our  laboratory such  as  physical adsorption  or entrapment.",
+        "document_offsets": {
+          "start": 11184,
+          "end": 11473
+        },
+        "subject_positions": [
+          {
+            "start": 77,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "glutaraldehyde"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium",
+      "predicate": "is used",
+      "object": "for immobilization",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 16,
+        "text_evidence": "The immobilization of M. trichosporium whole cells by covalent  linking  to  glutaraldehyde  activated DEAEcellulose was  found  most  suitable for retaining  MMO activity compared to the other immobilization methods tried  in  our  laboratory such  as  physical adsorption  or entrapment. This value is threefold higher than that reported by HOU\"  for propylene oxide synthesis using M. trichosporium OB3b. It has been reported  that under oxygen  excess (methane  limiting)  conditions,  the  enzyme  MMO  in M.  capsulatus and M. trichosporium OB3b switches from soluble to particulate form63l3  and may exhibit altered reaction specificities toward different substrates.",
+        "document_offsets": {
+          "start": 11184,
+          "end": 13600
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 38,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium"
+          },
+          {
+            "start": 2032,
+            "end": 2048,
+            "sentence_id": 14,
+            "matched_text": "M. trichosporium"
+          },
+          {
+            "start": 2272,
+            "end": 2288,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "MMO activity in immobilized cell preparations stored at 4\u00b0C",
+      "predicate": "is studied over a period of",
+      "object": "15 days",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "The MMO activity in  immobilized cell preparations stored at 4\u00b0C was studied over a period of  15 days.",
+        "document_offsets": {
+          "start": 15034,
+          "end": 15137
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 102,
+            "sentence_id": 26,
+            "matched_text": "15 days"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "free cells",
+      "predicate": "have a reported pH optimum of",
+      "object": "6.4",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 23,
+        "text_evidence": "The pH optimum was determined to be ranging from 6.2 to 6.6 in comparison to the reported value of  6.4 for free cells7 3.0-\n\n140\n\n-30\n\n-20\n\nLeakage of cells\n\n1.5-\n\n-10\n\nlar to that observed for free cells. The optimum concentration of  phosphate ions required for inhibition of methanol oxidation activity was  100 mM, slightly higher than  that  required by the free cells (80 mM).7  Oxygen appeared to be the rate limiting substrate for methanol biosynthesis in immobilized  cell  preparations. In our earlier studies with  free cells, the fall in  the methanol accumulation  rate  was  attributed  to  depletion  of  the endogenous NADHz pool, and methanol accumulation rate was maximally stimulated by supplying 40 mM formate to the  reaction ves~e1.I~ With  immobilized cells, maximum stimulation in methanol accumulation rate to 8.6  ,umol/h  mg  cells occurred  on  addition  of  40  mM\n\n2.4\n\n2.0-\n\nh\n\nc\n\nE\n\n1.6-\n\nE\n\n3\n\n1.2\n\nE\n\na\n\n--. The in  situ regeneration of NADH2 has  been  demonstrated  earlier  by  supplying methane metabolites to free cells l5 and to immobilized cells.",
+        "document_offsets": {
+          "start": 11845,
+          "end": 14843
+        },
+        "subject_positions": [
+          {
+            "start": 473,
+            "end": 483,
+            "sentence_id": 9,
+            "matched_text": "free cells"
+          },
+          {
+            "start": 905,
+            "end": 915,
+            "sentence_id": 12,
+            "matched_text": "free cells"
+          },
+          {
+            "start": 2005,
+            "end": 2015,
+            "sentence_id": 19,
+            "matched_text": "free cells"
+          },
+          {
+            "start": 2959,
+            "end": 2969,
+            "sentence_id": 23,
+            "matched_text": "free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 100,
+            "end": 103,
+            "sentence_id": 4,
+            "matched_text": "6.4"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "specific MMO activity after 2 weeks storage",
+      "predicate": "is obtained only on addition of",
+      "object": "sodium formate to the reaction mixture",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 27,
+        "sentence_end": 27,
+        "text_evidence": "The specific MMO activity  of  54.2  pmol  methane  consumed/h mg cells (representing over 80% enzyme activity  of  freshly  harvested  cells,  i.e.,  66  pmol  methane oxidized/h mg cells) after 2 weeks storage was obtained only on addition of sodium formate to the reaction mixture.",
+        "document_offsets": {
+          "start": 15138,
+          "end": 15424
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 245,
+            "end": 283,
+            "sentence_id": 27,
+            "matched_text": "sodium formate to the reaction mixture"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cell-to-carrier ratio",
+      "predicate": "affects",
+      "object": "methanol accumulation and cell leakage",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The leakage of the cells and microbial contamination were microscopically examined throughout the operation.",
+      "predicate": "The immobilized preparation was stable and did not disintegrate or lose cells.",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Loss of nearly 90% formate was attributed to",
+      "predicate": ".",
+      "object": "'the further oxidation of methanol by partially inactivated methanol oxidation activity at 100 mM phosphate levels.'",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The fall in the rate of methanol biosynthesis",
+      "predicate": "was attributed to",
+      "object": "depletion of intracellular NADH2 pool",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Based  on  earlier  batch  studies, this was  attributed to depletion of intracellular NADH2 pool.",
+        "document_offsets": {
+          "start": 15988,
+          "end": 16086
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 97,
+            "sentence_id": 2,
+            "matched_text": "depletion of intracellular NADH2 pool"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "An interruption in formate supply led to a fall in methanol accumulation, indicating the interdependence between the two.",
+      "predicate": "None",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "A maximum specific product formation rate of 25 pmol/h mg cells and total methanol production of  175.0 pmol was obtained at a dilution rate of",
+      "predicate": "h-'.",
+      "object": "0.5 h-'",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 17,
+        "sentence_end": 17,
+        "text_evidence": "A maximum specific product  formation  rate o f   25  pmol/h  mg cells and total  methanol  production  of  175.0  pmol  was  obtained  at a dilution  rate of 0.5 h-'.",
+        "document_offsets": {
+          "start": 18326,
+          "end": 18495
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The dilution rate D of the continuous reactor was varied from 0.2 to 1.0 h-', (corresponding to a flow rate of  10-50 mL/h) to study the most suitable residence time for methanol biosynthesis.",
+      "predicate": "The specific product formation rate v and methanol production as a function of dilution rate are shown in Figure 6.",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Further increase in dilution rate resulted in a sharp decline in methanol accumulation, indicating a specific contact period between cells and substrate for methanol biosynthesis.",
+      "predicate": "None",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "A third pulse of 40 mM formate in 100 mM phosphate buffer resulted",
+      "predicate": "in",
+      "object": "91.2% recovery of formate supplied in terms of methanol accumulation.",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "A third pulse of 40 mM formate in 100 mM phosphate buffer resulted  in 91.2% recovery of formate supplied  in  terms  o f   methanol  accumulation.",
+        "document_offsets": {
+          "start": 17120,
+          "end": 17269
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 66,
+            "sentence_id": 10,
+            "matched_text": "A third pulse of 40 mM formate in 100 mM phosphate buffer resulted"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced at",
+      "object": "a constant rate of 100 pmol/h in a 50-mL reactor",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 18,
+        "text_evidence": "The covalently  linked  immobilized  cells  produced methanol at  a  constant rate of  100 pmol/h  in a 50-mL reactor containing 100 mg dry cell weight after attaining steady state (Fig. 5). This rate of  methanol biosynthesis continued  for  1 1   h  after  which  a  fall  in  the  rate  was observed. A continuous feed of  20  mM sodium formate in  100 mM phosphate buffer  resulted in sustained methanol  accumulation of 267  pmol/h,  giving  a productivity of  5.34  mmol/h  L. The interrelationship between  formate supply, NADHz regeneration, and methanol accumulation was\n\nTime\n\n( h )\n\nMethanol accumulated (Mmole/mg)\n\nFormate,! A third pulse of 40 mM formate in 100 mM phosphate buffer resulted  in 91.2% recovery of formate supplied  in  terms  o f   methanol  accumulation. Loss  of nearly  90%  formate was  attributed  to  'the  further oxidation  of  methanol  by  partially  inactivated  methanol oxidation  activity at  100 mM phosphate levels. An interruption  in  formate  supply led  to a  fall  in  methanol\n\na Defined in Fig. A continuous feed  of  20  mM formate  in 100 mM phosphate buffer sustained continuous methanol  biosynthesis  up  to  70  h.  From  the  balance  made in  Table 11, it  can  be  concluded  that  molar  amounts of  methanol  synthesized  at  steady  state  is  driven  by NAD' + H2/NADH + H+  cycling in resting cells and is  dependent on equimolar addition of  NADH regenerating substrate. The  dilution  rate D of  the  continuous  reactor  was varied from 0.2 to 1.0 h-'  (corresponding to a flow rate of  10-50 mL/h)  to  study  the  most  suitable  residence time  for  methanol  biosynthesis. The  specific  product formation rate v and methanol production  as a function of  dilution  rate  are  shown  in  Figure 6. A maximum specific product  formation  rate o f   25  pmol/h  mg cells and total  methanol  production  of  175.0  pmol  was  obtained  at a dilution  rate of 0.5 h-'. Further increase in dilution  rate  resulted  in  a  sharp decline  in  methanol accumulation,  indicating  a  specific  contact  period  between cells and substrate for methanol biosynthesis.",
+        "document_offsets": {
+          "start": 15683,
+          "end": 18689
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 205,
+            "end": 213,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 711,
+            "end": 719,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 941,
+            "end": 949,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 981,
+            "end": 989,
+            "sentence_id": 6,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 1561,
+            "end": 1569,
+            "sentence_id": 10,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1666,
+            "end": 1674,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1704,
+            "end": 1712,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1820,
+            "end": 1828,
+            "sentence_id": 12,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2003,
+            "end": 2011,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2131,
+            "end": 2139,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2492,
+            "end": 2500,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2561,
+            "end": 2569,
+            "sentence_id": 16,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2725,
+            "end": 2733,
+            "sentence_id": 17,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2884,
+            "end": 2892,
+            "sentence_id": 18,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2982,
+            "end": 2990,
+            "sentence_id": 18,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The stability of immobilized microbial cells in continuous operation was studied for over",
+      "predicate": "hours",
+      "object": "88 h",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "The stability of  immobilized  microbial  cells  in  continuous  operation  was  studied  for  over  88 h  (Fig.  7).",
+        "document_offsets": {
+          "start": 18689,
+          "end": 18806
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 101,
+            "end": 105,
+            "sentence_id": 19,
+            "matched_text": "88 h"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The slope in Figure 7 was used to calculate",
+      "predicate": "and the thermal denaturation rate constant Kd.",
+      "object": "The computed values were 108 h and 6.42 x h-',  respectively.",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 23,
+        "sentence_end": 23,
+        "text_evidence": "The computed values were 108 h and 6.42 x h-',  respectively.",
+        "document_offsets": {
+          "start": 19119,
+          "end": 19182
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "A continuous feed of 20 mM sodium formate in 100 mM phosphate buffer",
+      "predicate": "resulted in sustained methanol accumulation of",
+      "object": "267 pmol/h",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "From the balance made in Table 11, it can be concluded that molar amounts of methanol synthesized at steady state is driven by NAD' + H2/NADH + H+ cycling in resting cells and is dependent on equimolar addition of NADH regenerating substrate.",
+      "predicate": "None",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "continued to be produced for",
+      "object": "11 h after which a fall in the rate was observed",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 18,
+        "text_evidence": "The covalently  linked  immobilized  cells  produced methanol at  a  constant rate of  100 pmol/h  in a 50-mL reactor containing 100 mg dry cell weight after attaining steady state (Fig. 5). This rate of  methanol biosynthesis continued  for  1 1   h  after  which  a  fall  in  the  rate  was observed. A continuous feed of  20  mM sodium formate in  100 mM phosphate buffer  resulted in sustained methanol  accumulation of 267  pmol/h,  giving  a productivity of  5.34  mmol/h  L. The interrelationship between  formate supply, NADHz regeneration, and methanol accumulation was\n\nTime\n\n( h )\n\nMethanol accumulated (Mmole/mg)\n\nFormate,! A third pulse of 40 mM formate in 100 mM phosphate buffer resulted  in 91.2% recovery of formate supplied  in  terms  o f   methanol  accumulation. Loss  of nearly  90%  formate was  attributed  to  'the  further oxidation  of  methanol  by  partially  inactivated  methanol oxidation  activity at  100 mM phosphate levels. An interruption  in  formate  supply led  to a  fall  in  methanol\n\na Defined in Fig. A continuous feed  of  20  mM formate  in 100 mM phosphate buffer sustained continuous methanol  biosynthesis  up  to  70  h.  From  the  balance  made in  Table 11, it  can  be  concluded  that  molar  amounts of  methanol  synthesized  at  steady  state  is  driven  by NAD' + H2/NADH + H+  cycling in resting cells and is  dependent on equimolar addition of  NADH regenerating substrate. The  dilution  rate D of  the  continuous  reactor  was varied from 0.2 to 1.0 h-'  (corresponding to a flow rate of  10-50 mL/h)  to  study  the  most  suitable  residence time  for  methanol  biosynthesis. The  specific  product formation rate v and methanol production  as a function of  dilution  rate  are  shown  in  Figure 6. A maximum specific product  formation  rate o f   25  pmol/h  mg cells and total  methanol  production  of  175.0  pmol  was  obtained  at a dilution  rate of 0.5 h-'. Further increase in dilution  rate  resulted  in  a  sharp decline  in  methanol accumulation,  indicating  a  specific  contact  period  between cells and substrate for methanol biosynthesis.",
+        "document_offsets": {
+          "start": 15683,
+          "end": 18689
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 205,
+            "end": 213,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 711,
+            "end": 719,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 941,
+            "end": 949,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 981,
+            "end": 989,
+            "sentence_id": 6,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 1561,
+            "end": 1569,
+            "sentence_id": 10,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1666,
+            "end": 1674,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1704,
+            "end": 1712,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1820,
+            "end": 1828,
+            "sentence_id": 12,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2003,
+            "end": 2011,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2131,
+            "end": 2139,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2492,
+            "end": 2500,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2561,
+            "end": 2569,
+            "sentence_id": 16,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2725,
+            "end": 2733,
+            "sentence_id": 17,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2884,
+            "end": 2892,
+            "sentence_id": 18,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2982,
+            "end": 2990,
+            "sentence_id": 18,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "In vivo regeneration of NADH2",
+      "predicate": "was carried out by",
+      "object": "supplying different concentrations of sodium formate in 20 or 100 mM phosphate buffer",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "The in vivo regeneration of NADH2 in the continuous reactor was carried out by supplying different concentrations of  sodium formate in 20 or 100 mM phosphate buffer, and  the  results  are  shown  in  Figure 5.",
+        "document_offsets": {
+          "start": 16087,
+          "end": 16298
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 33,
+            "sentence_id": 3,
+            "matched_text": "in vivo regeneration of NADH2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The interrelationship between formate supply, NADH2 regeneration, and methanol accumulation was studied by",
+      "predicate": "calculating the area under peaks A, B, and C in Figure 5 using the trapezoidal rule.",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The reactor was maintained at this level of productivity for up to",
+      "predicate": "hours",
+      "object": "70 h",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "The reactor was maintained at this level of  productivity for up to 70 h.",
+        "document_offsets": {
+          "start": 16478,
+          "end": 16553
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 72,
+            "sentence_id": 5,
+            "matched_text": "70 h"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "A continuous feed of 20 mM formate in 100 mM phosphate buffer sustained continuous methanol biosynthesis up to",
+      "predicate": "hours.",
+      "object": "70 h",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "The reactor was maintained at this level of  productivity for up to 70 h.",
+        "document_offsets": {
+          "start": 16478,
+          "end": 16553
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 72,
+            "sentence_id": 5,
+            "matched_text": "70 h"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "require higher concentration of",
+      "object": "phosphate ion",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 5,
+        "text_evidence": "While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. Facilitated reaction  rates  are observed in immobilized cells as indicated by  lowered activation energy requirements, i.e.,  14,800 cal/mol  as against  19,537 cal/mol for free cells. Both phosphate ions and duration of   supply of  formate affect methanol biosynthesis in the continuous reactor.",
+        "document_offsets": {
+          "start": 19563,
+          "end": 20336
+        },
+        "subject_positions": [
+          {
+            "start": 191,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 255,
+            "end": 272,
+            "sentence_id": 2,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "can regenerate reducing power by",
+      "object": "supply of sodium formate in the feed stream",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. Facilitated reaction  rates  are observed in immobilized cells as indicated by  lowered activation energy requirements, i.e.,  14,800 cal/mol  as against  19,537 cal/mol for free cells.",
+        "document_offsets": {
+          "start": 19563,
+          "end": 19958
+        },
+        "subject_positions": [
+          {
+            "start": 191,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 255,
+            "end": 272,
+            "sentence_id": 2,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the cloning of a structural gene",
+      "predicate": "may make it possible to develop highly selective biochemical catalysts for controlled oxidation of alkanes to alcohols",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "our studies",
+      "predicate": "indicate that thermal deactivation may be responsible for",
+      "object": "slow loss of enzyme activity",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "continuous supply of reducing power",
+      "predicate": "will remain a major area of interest",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "The continuous supply of reducing power in  such a  system will  remain  a major area o f   interest.",
+        "document_offsets": {
+          "start": 20864,
+          "end": 20965
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 39,
+            "sentence_id": 8,
+            "matched_text": "continuous supply of reducing power"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "experience depletion of",
+      "object": "intracellular NADH2 pool",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. Facilitated reaction  rates  are observed in immobilized cells as indicated by  lowered activation energy requirements, i.e.,  14,800 cal/mol  as against  19,537 cal/mol for free cells. In batch and continuous studies, the rate of methanol accumulation falls low after a certain initial period due to depletion of  the intracellular NADH2 pool.",
+        "document_offsets": {
+          "start": 19563,
+          "end": 20117
+        },
+        "subject_positions": [
+          {
+            "start": 191,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 255,
+            "end": 272,
+            "sentence_id": 2,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 529,
+            "end": 553,
+            "sentence_id": 3,
+            "matched_text": "intracellular NADH2 pool"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "phosphate ions and duration of supply of formate",
+      "predicate": "affect methanol biosynthesis in the continuous reactor",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "M. trichosporium",
+      "predicate": "is used for",
+      "object": "continuous biosynthesis",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "The feasibility  of  using covalently linked cells of M. trichosporium for  continuous  biosynthesis  of  methanol from  methane  is  described.",
+        "document_offsets": {
+          "start": 19417,
+          "end": 19563
+        },
+        "subject_positions": [
+          {
+            "start": 54,
+            "end": 70,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "is produced from",
+      "object": "methane",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "The feasibility  of  using covalently linked cells of M. trichosporium for  continuous  biosynthesis  of  methanol from  methane  is  described. While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. In batch and continuous studies, the rate of methanol accumulation falls low after a certain initial period due to depletion of  the intracellular NADH2 pool. Both phosphate ions and duration of   supply of  formate affect methanol biosynthesis in the continuous reactor.",
+        "document_offsets": {
+          "start": 19417,
+          "end": 20336
+        },
+        "subject_positions": [
+          {
+            "start": 106,
+            "end": 114,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 310,
+            "end": 318,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 587,
+            "end": 595,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 871,
+            "end": 879,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 128,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "have facilitated reaction rates",
+      "object": "compared to free cells",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. Facilitated reaction  rates  are observed in immobilized cells as indicated by  lowered activation energy requirements, i.e.,  14,800 cal/mol  as against  19,537 cal/mol for free cells.",
+        "document_offsets": {
+          "start": 19563,
+          "end": 19958
+        },
+        "subject_positions": [
+          {
+            "start": 191,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 255,
+            "end": 272,
+            "sentence_id": 2,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "immobilized cells",
+      "predicate": "have lower activation energy requirements",
+      "object": "compared to free cells",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. Facilitated reaction  rates  are observed in immobilized cells as indicated by  lowered activation energy requirements, i.e.,  14,800 cal/mol  as against  19,537 cal/mol for free cells.",
+        "document_offsets": {
+          "start": 19563,
+          "end": 19958
+        },
+        "subject_positions": [
+          {
+            "start": 191,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "immobilized cells"
+          },
+          {
+            "start": 255,
+            "end": 272,
+            "sentence_id": 2,
+            "matched_text": "immobilized cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "several reasons",
+      "predicate": "have been proposed for the instability of",
+      "object": "immobilized methanotrophs",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Although several reasons for the instability of  immobilized methanotrophs have been proposed,6 our  studies indicate  that  thermal  deactivation may  be  responsible for  slow  loss  of  enzyme  activity.",
+        "document_offsets": {
+          "start": 20337,
+          "end": 20545
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 24,
+            "sentence_id": 6,
+            "matched_text": "several reasons"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 74,
+            "sentence_id": 6,
+            "matched_text": "immobilized methanotrophs"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "S. H. Stanley",
+      "predicate": "is author of",
+      "object": "S. H. Stanley, S. D. Prior, D. J. Leak, and H. Dalton",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 31,
+        "sentence_end": 31,
+        "text_evidence": "S. H. Stanley, S. D. Prior, D. J. Leak, and H. Dalton, Biotechnol.",
+        "document_offsets": {
+          "start": 22017,
+          "end": 22083
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 31,
+            "matched_text": "S. H. Stanley"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 53,
+            "sentence_id": 31,
+            "matched_text": "S. H. Stanley, S. D. Prior, D. J. Leak, and H. Dalton"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "F. Taylor",
+      "predicate": "is co-author of",
+      "object": "I. J. Higgins",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 92,
+            "end": 101,
+            "sentence_id": 5,
+            "matched_text": "F. Taylor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "K. C. Phillips",
+      "predicate": "is co-author of",
+      "object": "R. Whittenbury",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 25,
+        "sentence_end": 25,
+        "text_evidence": "R. Whittenbury, K. C. Phillips, and J. F. Wilkinson,J. Gem Microbiol., 61, 205 (1970).",
+        "document_offsets": {
+          "start": 21799,
+          "end": 21887
+        },
+        "subject_positions": [
+          {
+            "start": 16,
+            "end": 30,
+            "sentence_id": 25,
+            "matched_text": "K. C. Phillips"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 14,
+            "sentence_id": 25,
+            "matched_text": "R. Whittenbury"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "M.W. Griffith",
+      "predicate": "is author of",
+      "object": "M.W. Griffith and D. D. Muir",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "P.K. Mehta",
+      "predicate": "is author of",
+      "object": "P.K. Mehta, Ph.D. Thesis",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "D. J. Leak",
+      "predicate": "is co-author of",
+      "object": "S. H. Stanley",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 31,
+        "sentence_end": 31,
+        "text_evidence": "S. H. Stanley, S. D. Prior, D. J. Leak, and H. Dalton, Biotechnol.",
+        "document_offsets": {
+          "start": 22017,
+          "end": 22083
+        },
+        "subject_positions": [
+          {
+            "start": 28,
+            "end": 38,
+            "sentence_id": 31,
+            "matched_text": "D. J. Leak"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 31,
+            "matched_text": "S. H. Stanley"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "H. R. Hyman",
+      "predicate": "is author of",
+      "object": "H. R. Hyman and P. M. Wood",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "J. F. Wilkinson",
+      "predicate": "is co-author of",
+      "object": "R. Whittenbury",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 25,
+        "sentence_end": 25,
+        "text_evidence": "R. Whittenbury, K. C. Phillips, and J. F. Wilkinson,J. Gem Microbiol., 61, 205 (1970).",
+        "document_offsets": {
+          "start": 21799,
+          "end": 21887
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 51,
+            "sentence_id": 25,
+            "matched_text": "J. F. Wilkinson"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 14,
+            "sentence_id": 25,
+            "matched_text": "R. Whittenbury"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "I. J. Higgins",
+      "predicate": "is author of",
+      "object": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 101,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "R. N. Patel",
+      "predicate": "is co-author of",
+      "object": "C.T. Hou",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 34,
+        "text_evidence": "C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. C.T. Hou, Appl. C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol.",
+        "document_offsets": {
+          "start": 21263,
+          "end": 22269
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 8,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 28,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 925,
+            "end": 933,
+            "sentence_id": 34,
+            "matched_text": "C.T. Hou"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "C.T. Hou",
+      "predicate": "is author of",
+      "object": "C.T. Hou (1984)",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 34,
+        "text_evidence": "C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. C.T. Hou, Appl. C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol.",
+        "document_offsets": {
+          "start": 21263,
+          "end": 22269
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 8,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 28,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 925,
+            "end": 933,
+            "sentence_id": 34,
+            "matched_text": "C.T. Hou"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "D. Best",
+      "predicate": "is co-author of",
+      "object": "I. J. Higgins",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 55,
+            "sentence_id": 5,
+            "matched_text": "D. Best"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "S. E. Tryhorn",
+      "predicate": "is co-author of",
+      "object": "I. J. Higgins",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 71,
+            "end": 84,
+            "sentence_id": 5,
+            "matched_text": "S. E. Tryhorn"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "C.T. Hou",
+      "predicate": "is author of",
+      "object": "C.T. Hou and R. N. Patel",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 34,
+        "text_evidence": "C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. C.T. Hou, Appl. C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol.",
+        "document_offsets": {
+          "start": 21263,
+          "end": 22269
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 8,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 28,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 925,
+            "end": 933,
+            "sentence_id": 34,
+            "matched_text": "C.T. Hou"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "A. 1. Laskin",
+      "predicate": "is co-author of",
+      "object": "C.T. Hou",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 34,
+        "text_evidence": "C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. C.T. Hou, Appl. C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol.",
+        "document_offsets": {
+          "start": 21263,
+          "end": 22269
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 36,
+            "sentence_id": 8,
+            "matched_text": "A. 1. Laskin"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 8,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 28,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 925,
+            "end": 933,
+            "sentence_id": 34,
+            "matched_text": "C.T. Hou"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "S. D. Prior",
+      "predicate": "is co-author of",
+      "object": "S. H. Stanley",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 31,
+        "sentence_end": 31,
+        "text_evidence": "S. H. Stanley, S. D. Prior, D. J. Leak, and H. Dalton, Biotechnol.",
+        "document_offsets": {
+          "start": 22017,
+          "end": 22083
+        },
+        "subject_positions": [
+          {
+            "start": 15,
+            "end": 26,
+            "sentence_id": 31,
+            "matched_text": "S. D. Prior"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 31,
+            "matched_text": "S. H. Stanley"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "P. M. Wood",
+      "predicate": "is author of",
+      "object": "H. R. Hyman and P. M. Wood",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "W. L. Luyben",
+      "predicate": "is author of",
+      "object": "W. L. Luyben",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "S. Mishra",
+      "predicate": "is co-author of",
+      "object": "P. K. Mehta",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 17,
+        "sentence_end": 22,
+        "text_evidence": "P. K. Mehta, S. Mishra,  and T. K. Ghose, J.  Gen. Appl. P. K. Mehta, S. Mishra, and T. K. Ghose, in Abs. P. K.  Mehta, S. Mishra,  and  T. K. Ghose, Biotechnol.",
+        "document_offsets": {
+          "start": 21472,
+          "end": 21765
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 22,
+            "sentence_id": 17,
+            "matched_text": "S. Mishra"
+          },
+          {
+            "start": 99,
+            "end": 108,
+            "sentence_id": 19,
+            "matched_text": "S. Mishra"
+          },
+          {
+            "start": 252,
+            "end": 261,
+            "sentence_id": 22,
+            "matched_text": "S. Mishra"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 17,
+            "matched_text": "P. K. Mehta"
+          },
+          {
+            "start": 86,
+            "end": 97,
+            "sentence_id": 19,
+            "matched_text": "P. K. Mehta"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "N. Barnabe",
+      "predicate": "is co-author of",
+      "object": "C.T. Hou",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 34,
+        "text_evidence": "C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. C.T. Hou, Appl. C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol.",
+        "document_offsets": {
+          "start": 21263,
+          "end": 22269
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 8,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 28,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 925,
+            "end": 933,
+            "sentence_id": 34,
+            "matched_text": "C.T. Hou"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "I. A. Mullens",
+      "predicate": "is co-author of",
+      "object": "I. A. Mullens and H. Dalton",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 39,
+        "sentence_end": 39,
+        "text_evidence": "I. A. Mullens and H. Dalton, BiolTechnology,  5, 490 (1987).",
+        "document_offsets": {
+          "start": 22477,
+          "end": 22537
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 39,
+            "matched_text": "I. A. Mullens"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 27,
+            "sentence_id": 39,
+            "matched_text": "I. A. Mullens and H. Dalton"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "R. C. Hammond",
+      "predicate": "is co-author of",
+      "object": "I. J. Higgins",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 15,
+            "end": 28,
+            "sentence_id": 5,
+            "matched_text": "R. C. Hammond"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "T. K. Ghose",
+      "predicate": "is co-author of",
+      "object": "P. K. Mehta",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 17,
+        "sentence_end": 22,
+        "text_evidence": "P. K. Mehta, S. Mishra,  and T. K. Ghose, J.  Gen. Appl. P. K. Mehta, S. Mishra, and T. K. Ghose, in Abs. P. K.  Mehta, S. Mishra,  and  T. K. Ghose, Biotechnol.",
+        "document_offsets": {
+          "start": 21472,
+          "end": 21765
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 40,
+            "sentence_id": 17,
+            "matched_text": "T. K. Ghose"
+          },
+          {
+            "start": 114,
+            "end": 125,
+            "sentence_id": 19,
+            "matched_text": "T. K. Ghose"
+          },
+          {
+            "start": 269,
+            "end": 280,
+            "sentence_id": 22,
+            "matched_text": "T. K. Ghose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 17,
+            "matched_text": "P. K. Mehta"
+          },
+          {
+            "start": 86,
+            "end": 97,
+            "sentence_id": 19,
+            "matched_text": "P. K. Mehta"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "M. M. Davies",
+      "predicate": "is co-author of",
+      "object": "I. J. Higgins",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 57,
+            "end": 69,
+            "sentence_id": 5,
+            "matched_text": "M. M. Davies"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "D. D. Muir",
+      "predicate": "is co-author of",
+      "object": "M.W. Griffith",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "R. Whittenbury",
+      "predicate": "is author of",
+      "object": "R. Whittenbury, K. C. Phillips, and J. F. Wilkinson",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 25,
+        "sentence_end": 25,
+        "text_evidence": "R. Whittenbury, K. C. Phillips, and J. F. Wilkinson,J. Gem Microbiol., 61, 205 (1970).",
+        "document_offsets": {
+          "start": 21799,
+          "end": 21887
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 14,
+            "sentence_id": 25,
+            "matched_text": "R. Whittenbury"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 51,
+            "sentence_id": 25,
+            "matched_text": "R. Whittenbury, K. C. Phillips, and J. F. Wilkinson"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "M. P. Woodland",
+      "predicate": "is co-author of",
+      "object": "M. P. Woodland and H. Dalton",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 37,
+        "sentence_end": 37,
+        "text_evidence": "M. P. Woodland  and H. Dalton, J.  Biol.",
+        "document_offsets": {
+          "start": 22411,
+          "end": 22453
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 14,
+            "sentence_id": 37,
+            "matched_text": "M. P. Woodland"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "P. K. Mehta",
+      "predicate": "is author of",
+      "object": "P. K. Mehta, S. Mishra,  and T. K. Ghose",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 17,
+        "sentence_end": 19,
+        "text_evidence": "P. K. Mehta, S. Mishra,  and T. K. Ghose, J.  Gen. Appl. P. K. Mehta, S. Mishra, and T. K. Ghose, in Abs.",
+        "document_offsets": {
+          "start": 21472,
+          "end": 21606
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 17,
+            "matched_text": "P. K. Mehta"
+          },
+          {
+            "start": 86,
+            "end": 97,
+            "sentence_id": 19,
+            "matched_text": "P. K. Mehta"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 40,
+            "sentence_id": 17,
+            "matched_text": "P. K. Mehta, S. Mishra,  and T. K. Ghose"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "F. S. Sariaslani",
+      "predicate": "is co-author of",
+      "object": "I. J. Higgins",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem.",
+        "document_offsets": {
+          "start": 21111,
+          "end": 21222
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 46,
+            "sentence_id": 5,
+            "matched_text": "F. S. Sariaslani"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "I. J. Higgins"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "H Dalton",
+      "predicate": "is author of",
+      "object": "H Dalton",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "R.Y. Morita",
+      "predicate": "is co-author of",
+      "object": "R. D. Jones",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "R. D. Jones  and R.Y. Morita, Biochem.",
+        "document_offsets": {
+          "start": 21053,
+          "end": 21091
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 28,
+            "sentence_id": 3,
+            "matched_text": "R.Y. Morita"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "R. D. Jones"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "R. D. Jones",
+      "predicate": "is author of",
+      "object": "R. D. Jones and R.Y. Morita",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "R. D. Jones  and R.Y. Morita, Biochem.",
+        "document_offsets": {
+          "start": 21053,
+          "end": 21091
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "R. D. Jones"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "C.T. Hou",
+      "predicate": "is co-author of",
+      "object": "C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N. Barnabe",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 34,
+        "text_evidence": "C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. C.T. Hou, Appl. C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol.",
+        "document_offsets": {
+          "start": 21263,
+          "end": 22269
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 8,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 28,
+            "matched_text": "C.T. Hou"
+          },
+          {
+            "start": 925,
+            "end": 933,
+            "sentence_id": 34,
+            "matched_text": "C.T. Hou"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    }
+  ]
+}

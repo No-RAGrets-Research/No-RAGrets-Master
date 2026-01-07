@@ -1,0 +1,1309 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 43,
+    "relations": 38,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 38,
+    "sections": {
+      "Figure 3 Analysis": {
+        "chunks": 1,
+        "entities": 20,
+        "relations": 23
+      },
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 23,
+        "relations": 15
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Chen et al. 2021_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T20:31:33.729007"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 3 Analysis",
+      "entities": [
+        "bacterial solution",
+        "gas blender",
+        "methanotrophs",
+        "O₂",
+        "solution container",
+        "gas phase",
+        "solid phase",
+        "5 mL",
+        "gas phase volume",
+        "aqueous phase volume",
+        "H₂O",
+        "25 mL",
+        "aqueous phase",
+        "peristaltic pump",
+        "80% Air, 20% CH₄",
+        "CO₂",
+        "shaker",
+        "CH₄",
+        "nutrients",
+        "vial"
+      ],
+      "relations": [
+        {
+          "subject": "CH₄",
+          "predicate": "reacts with",
+          "object": "O₂",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "CH₄",
+          "predicate": "is consumed by",
+          "object": "methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "O₂",
+          "predicate": "is consumed by",
+          "object": "methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "CH₄",
+          "predicate": "is supplied as",
+          "object": "gas phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "O₂",
+          "predicate": "is supplied as",
+          "object": "gas phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "CO₂",
+          "predicate": "is produced by",
+          "object": "methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "H₂O",
+          "predicate": "is produced by",
+          "object": "methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "methanotrophs",
+          "predicate": "are located in",
+          "object": "gas phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "methanotrophs",
+          "predicate": "are attached to",
+          "object": "solid phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "nutrients",
+          "predicate": "are supplied to",
+          "object": "aqueous phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "nutrients",
+          "predicate": "are absorbed by",
+          "object": "methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "gas blender",
+          "predicate": "produces",
+          "object": "80% Air, 20% CH₄",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "peristaltic pump",
+          "predicate": "transports",
+          "object": "solution container",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "solution container",
+          "predicate": "is connected to",
+          "object": "gas blender",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "shaker",
+          "predicate": "vibrates",
+          "object": "vial",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "vial",
+          "predicate": "contains",
+          "object": "gas phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "vial",
+          "predicate": "contains",
+          "object": "aqueous phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "aqueous phase",
+          "predicate": "contains",
+          "object": "bacterial solution",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "gas phase",
+          "predicate": "contains",
+          "object": "80% Air, 20% CH₄",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "aqueous phase volume",
+          "predicate": "is",
+          "object": "5 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "gas phase volume",
+          "predicate": "is",
+          "object": "25 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "bacterial solution",
+          "predicate": "is incubated in",
+          "object": "vial",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        },
+        {
+          "subject": "bacterial solution",
+          "predicate": "is shaken by",
+          "object": "shaker",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Illustrations  of  systems  for  the  gas-phase  reaction  and  the  aqueous phase reaction. (a) Conceptual design of a reactor capable of supplying gaseous substrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of the system for the gas-phase reaction. (c) Batch-type vial system for the aqueous phase reaction.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 365.7769887695312,
+              "r": 290.799,
+              "b": 320.9289887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1008,
+                1509
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              343
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 37.587,
+                "t": 365.7769887695312,
+                "r": 290.799,
+                "b": 320.9289887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "PC2",
+        "Heatmap in (b)",
+        "pink points in (a",
+        "Aqueous phase reactions",
+        "PC1",
+        "aqueous phase reactions",
+        "metabolites based on variance",
+        "Metabolites",
+        "metabolites based on similarity",
+        "Methylococcus capsulatus (Bath)",
+        "11.6% of variance",
+        "Hierarchical cluster analysis",
+        "gas-phase reactions",
+        "Principal component analysis",
+        "Gas-phase reactions",
+        "green points in (a",
+        "represents, 105 metabolites",
+        "(PC2, second principal component",
+        "heatmap in (b",
+        "green))",
+        "66.2% of variance",
+        "scatter plot in (a",
+        "class: Aqueous (red"
+      ],
+      "relations": [
+        {
+          "subject": "PC1",
+          "predicate": "contributes to",
+          "object": "66.2% of variance",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "PC2",
+          "predicate": "contributes to",
+          "object": "11.6% of variance",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Principal component analysis",
+          "predicate": "visualized as",
+          "object": "scatter plot in (a",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Hierarchical cluster analysis",
+          "predicate": "visualized as",
+          "object": "heatmap in (b",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Metabolites",
+          "predicate": "analyzed via",
+          "object": "Principal component analysis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Metabolites",
+          "predicate": "analyzed via",
+          "object": "Hierarchical cluster analysis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Methylococcus capsulatus (Bath)",
+          "predicate": "studied for",
+          "object": "aqueous phase reactions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Methylococcus capsulatus (Bath)",
+          "predicate": "studied for",
+          "object": "gas-phase reactions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Aqueous phase reactions",
+          "predicate": "correspond to",
+          "object": "pink points in (a",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Gas-phase reactions",
+          "predicate": "correspond to",
+          "object": "green points in (a",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Heatmap in (b)",
+          "predicate": "color-coded by",
+          "object": "class: Aqueous (red",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "green))",
+          "predicate": "(Heatmap in (b)",
+          "object": "represents, 105 metabolites",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Hierarchical cluster analysis",
+          "predicate": "groups",
+          "object": "metabolites based on similarity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "Principal component analysis",
+          "predicate": "groups",
+          "object": "metabolites based on variance",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        },
+        {
+          "subject": "PC1",
+          "predicate": "first principal component)",
+          "object": "(PC2, second principal component",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous phase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the contributing ratio of each score.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 516.9769887695312,
+              "r": 559.786,
+              "b": 491.23498876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1654,
+                879
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              359
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 37.587,
+                "t": 516.9769887695312,
+                "r": 559.786,
+                "b": 491.23498876953124,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

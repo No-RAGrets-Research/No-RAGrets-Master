@@ -1,0 +1,40 @@
+# VLM Experiments Requirements
+
+## Core Dependencies
+requests==2.31.0
+python-dotenv==1.0.0
+
+## Document Processing
+docling==1.4.0
+pymupdf==1.23.8
+
+## Image Processing (for NVIDIA NeMo)
+Pillow==10.0.1
+
+## Data Processing
+pandas==2.1.3
+numpy==1.25.2
+
+## Analysis and Visualization
+matplotlib==3.8.1
+seaborn==0.13.0
+
+## Utilities
+tqdm==4.66.1
+pathlib2==2.3.7
+
+## Optional: Jupyter for Analysis
+jupyter==1.0.0
+ipykernel==6.26.0
+
+## Note: API Keys Required
+# Landing AI ADE: Set LANDING_AI_API_KEY environment variable
+# NVIDIA NeMo: Set NVIDIA_API_KEY environment variable
+
+## Installation Instructions
+# pip install -r requirements.txt
+
+## Platform Notes
+# - Docling may require additional system dependencies
+# - PyMuPDF (fitz) is already available in the main environment
+# - PIL/Pillow required for image processing in NVIDIA NeMo experiments

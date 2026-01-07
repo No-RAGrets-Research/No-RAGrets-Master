@@ -1,0 +1,784 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 25,
+    "relations": 16,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Burrows et al 1984.json",
+    "processed_at": "2025-11-24T00:00:26.823025"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Butane",
+      "predicate": "produces",
+      "object": "Butan-2-01",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 142,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 138,
+            "end": 144,
+            "sentence_id": 1,
+            "matched_text": "Butane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 158,
+            "end": 168,
+            "sentence_id": 1,
+            "matched_text": "Butan-2-01"
+          },
+          {
+            "start": 212,
+            "end": 222,
+            "sentence_id": 1,
+            "matched_text": "Butan-2-01"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Butane",
+      "predicate": "produces",
+      "object": "Butanal",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 142,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 138,
+            "end": 144,
+            "sentence_id": 1,
+            "matched_text": "Butane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 169,
+            "end": 176,
+            "sentence_id": 1,
+            "matched_text": "Butanal"
+          },
+          {
+            "start": 193,
+            "end": 200,
+            "sentence_id": 1,
+            "matched_text": "Butanal"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Propane",
+      "predicate": "produces",
+      "object": "Propan-2-01",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 142,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 37,
+            "sentence_id": 1,
+            "matched_text": "Propane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 73,
+            "sentence_id": 1,
+            "matched_text": "Propan-2-01"
+          },
+          {
+            "start": 111,
+            "end": 122,
+            "sentence_id": 1,
+            "matched_text": "Propan-2-01"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Benzene",
+      "predicate": "produces",
+      "object": "Phenol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Pentan-2-017 | 1.1 0.5\nBenzene E thy1benzene | Phenol 1-Phenylethanol | 74.0 5-7 | Phenol 1-Phenylethanol | 0.0 Styrene oxide 4-Hydroxyethylbenzene | 13.0 | 4-H ydroxyethylbenzene | 0.0 0.0\nStyrene | 82.0 | Styrene oxide | 0.0\nC yclohexane | Cyclohexanol | 25.0 | C yclohexanol | 0.0",
+        "document_offsets": {
+          "start": 435,
+          "end": 718
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 30,
+            "sentence_id": 4,
+            "matched_text": "Benzene"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 47,
+            "end": 53,
+            "sentence_id": 4,
+            "matched_text": "Phenol"
+          },
+          {
+            "start": 83,
+            "end": 89,
+            "sentence_id": 4,
+            "matched_text": "Phenol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethane",
+      "predicate": "produces",
+      "object": "Ethanal",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Substrate | Products detected | Initial rate of formation | Products detected | Initial rate of formation\nEthane | Ethanol* Ethanal | ND 25-0 | Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 0,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 106,
+            "end": 112,
+            "sentence_id": 0,
+            "matched_text": "Ethane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "Ethanal"
+          },
+          {
+            "start": 154,
+            "end": 161,
+            "sentence_id": 1,
+            "matched_text": "Ethanal"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Propane",
+      "predicate": "produces",
+      "object": "Propanal",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 142,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 37,
+            "sentence_id": 1,
+            "matched_text": "Propane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 48,
+            "sentence_id": 1,
+            "matched_text": "Propanal"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "Propanal"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Propane",
+      "predicate": "produces",
+      "object": "Propan-1-01",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 142,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 37,
+            "sentence_id": 1,
+            "matched_text": "Propane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 99,
+            "end": 110,
+            "sentence_id": 1,
+            "matched_text": "Propan-1-01"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Styrene oxide",
+      "predicate": "produces",
+      "object": "4-Hydroxyethylbenzene",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Styrene oxide 4-Hydroxyethylbenzene | 13.0 | 4-H ydroxyethylbenzene | 0.0 0.0\nStyrene | 82.0 | Styrene oxide | 0.0\nC yclohexane | Cyclohexanol | 25.0 | C yclohexanol | 0.0",
+        "document_offsets": {
+          "start": 547,
+          "end": 718
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "Styrene oxide"
+          },
+          {
+            "start": 95,
+            "end": 108,
+            "sentence_id": 5,
+            "matched_text": "Styrene oxide"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 14,
+            "end": 35,
+            "sentence_id": 5,
+            "matched_text": "4-Hydroxyethylbenzene"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cyclohexane",
+      "predicate": "produces",
+      "object": "Cyclohexanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Styrene oxide 4-Hydroxyethylbenzene | 13.0 | 4-H ydroxyethylbenzene | 0.0 0.0\nStyrene | 82.0 | Styrene oxide | 0.0\nC yclohexane | Cyclohexanol | 25.0 | C yclohexanol | 0.0",
+        "document_offsets": {
+          "start": 547,
+          "end": 718
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 130,
+            "end": 142,
+            "sentence_id": 5,
+            "matched_text": "Cyclohexanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethane",
+      "predicate": "produces",
+      "object": "Ethanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Substrate | Products detected | Initial rate of formation | Products detected | Initial rate of formation\nEthane | Ethanol* Ethanal | ND 25-0 | Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9 Pentan-2-017 | 1.1 0.5\nBenzene E thy1benzene | Phenol 1-Phenylethanol | 74.0 5-7 | Phenol 1-Phenylethanol | 0.0",
+        "document_offsets": {
+          "start": 0,
+          "end": 547
+        },
+        "subject_positions": [
+          {
+            "start": 106,
+            "end": 112,
+            "sentence_id": 0,
+            "matched_text": "Ethane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 115,
+            "end": 122,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 144,
+            "end": 151,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pentane",
+      "predicate": "produces",
+      "object": "Pentanal",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "Pentane | Pentanalt pent an-2-01? | 1-1 0.3 | Pentanal?",
+        "document_offsets": {
+          "start": 379,
+          "end": 434
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 2,
+            "matched_text": "Pentane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Pentanal"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pentane",
+      "predicate": "produces",
+      "object": "pent an-2-01",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Pentane | Pentanalt pent an-2-01?",
+        "document_offsets": {
+          "start": 379,
+          "end": 412
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 2,
+            "matched_text": "Pentane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 32,
+            "sentence_id": 2,
+            "matched_text": "pent an-2-01"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Butane",
+      "predicate": "produces",
+      "object": "Butan-1-01",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Ethanol * Ethanal | ND 35.0\nPropane | Propanal Propan- 1-01 Propan-2-01 | 3.2 6.2 4.9 | Propanal Propan-1-01 Propan-2-01 | 2.4 0.0 12.6\nButane | Butan-1-01 Butan-2-01 Butanal | 2.6 4-2 7.3 | Butanal Butan-1-01 Butan-2-01 | 0.6 0.0 5.9",
+        "document_offsets": {
+          "start": 142,
+          "end": 379
+        },
+        "subject_positions": [
+          {
+            "start": 138,
+            "end": 144,
+            "sentence_id": 1,
+            "matched_text": "Butane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 147,
+            "end": 157,
+            "sentence_id": 1,
+            "matched_text": "Butan-1-01"
+          },
+          {
+            "start": 201,
+            "end": 211,
+            "sentence_id": 1,
+            "matched_text": "Butan-1-01"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Benzene",
+      "predicate": "produces",
+      "object": "1-Phenylethanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Pentan-2-017 | 1.1 0.5\nBenzene E thy1benzene | Phenol 1-Phenylethanol | 74.0 5-7 | Phenol 1-Phenylethanol | 0.0 Styrene oxide 4-Hydroxyethylbenzene | 13.0 | 4-H ydroxyethylbenzene | 0.0 0.0\nStyrene | 82.0 | Styrene oxide | 0.0\nC yclohexane | Cyclohexanol | 25.0 | C yclohexanol | 0.0",
+        "document_offsets": {
+          "start": 435,
+          "end": 718
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 30,
+            "sentence_id": 4,
+            "matched_text": "Benzene"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 69,
+            "sentence_id": 4,
+            "matched_text": "1-Phenylethanol"
+          },
+          {
+            "start": 90,
+            "end": 105,
+            "sentence_id": 4,
+            "matched_text": "1-Phenylethanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pentane",
+      "predicate": "produces",
+      "object": "Pentanalt",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Pentane | Pentanalt pent an-2-01?",
+        "document_offsets": {
+          "start": 379,
+          "end": 412
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 2,
+            "matched_text": "Pentane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 19,
+            "sentence_id": 2,
+            "matched_text": "Pentanalt"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Styrene",
+      "predicate": "is produced by",
+      "object": "styrene oxide",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Styrene oxide 4-Hydroxyethylbenzene | 13.0 | 4-H ydroxyethylbenzene | 0.0 0.0\nStyrene | 82.0 | Styrene oxide | 0.0\nC yclohexane | Cyclohexanol | 25.0 | C yclohexanol | 0.0",
+        "document_offsets": {
+          "start": 547,
+          "end": 718
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 5,
+            "matched_text": "Styrene"
+          },
+          {
+            "start": 78,
+            "end": 85,
+            "sentence_id": 5,
+            "matched_text": "Styrene"
+          },
+          {
+            "start": 95,
+            "end": 102,
+            "sentence_id": 5,
+            "matched_text": "Styrene"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 5,
+            "matched_text": "Styrene oxide"
+          },
+          {
+            "start": 95,
+            "end": 108,
+            "sentence_id": 5,
+            "matched_text": "Styrene oxide"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 60.46265411376953,
+          "t": 569.0805816650391,
+          "r": 441.3716735839844,
+          "b": 381.43780517578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Butan-2-01",
+    "styrene oxide",
+    "Propane",
+    "Propan-1-01",
+    "Phenol",
+    "Benzene",
+    "Cyclohexanol",
+    "Pentanal",
+    "Butane",
+    "4-Hydroxyethylbenzene",
+    "Styrene",
+    "pent an-2-01",
+    "Ethanol",
+    "1-Phenylethanol",
+    "Butanal",
+    "Propan-2-01",
+    "Ethane",
+    "E thy1benzene",
+    "Ethanal",
+    "Pentanalt",
+    "Butan-1-01",
+    "Propanal",
+    "Pentane",
+    "? Pentan-2-017",
+    "Cyclohexane"
+  ]
+}

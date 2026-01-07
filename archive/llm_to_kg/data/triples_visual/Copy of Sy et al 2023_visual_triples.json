@@ -1,0 +1,71 @@
+[
+  {
+    "page": 5,
+    "caption": "Figure 1. Chromatogram obtained from analysis of a water keﬁr sample 2785-2.",
+    "triples": [
+      {
+        "subject": "Ethanol",
+        "relation": "detected in",
+        "object": "water kefir sample 2785-2"
+      },
+      {
+        "subject": "Propan-1-ol",
+        "relation": "detected in",
+        "object": "water kefir sample 2785-2"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Figure 2. Chromatogram obtained from analysis of an ethanol standard solution.",
+    "triples": [
+      {
+        "subject": "Ethanol",
+        "relation": "detected in",
+        "object": "chromatogram"
+      },
+      {
+        "subject": "Propan-1-ol",
+        "relation": "detected in",
+        "object": "chromatogram"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Figure 3. Chromatogram obtained from methanol spike recovery study.",
+    "triples": [
+      {
+        "subject": "Methanol",
+        "relation": "detected in",
+        "object": "chromatogram"
+      },
+      {
+        "subject": "Propan-1-ol",
+        "relation": "detected in",
+        "object": "chromatogram"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 4. Representative standard curve prepared from the keﬁr water SLV. The standard curve displays a linear relationship and the calculated r2 is 99.9%.",
+    "triples": [
+      {
+        "subject": "Ethanol Calibration Curve",
+        "relation": "has linear relationship with",
+        "object": "ethanol concentration"
+      },
+      {
+        "subject": "Ethanol Calibration Curve",
+        "relation": "has R² value of",
+        "object": "0.9996"
+      },
+      {
+        "subject": "Ethanol Calibration Curve",
+        "relation": "has equation",
+        "object": "y = 1.5203x - 0.1488"
+      }
+    ]
+  }
+]

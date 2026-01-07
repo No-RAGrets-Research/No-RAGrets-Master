@@ -1,0 +1,173 @@
+[
+  {
+    "page": 2,
+    "caption": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas–liquid slug ﬂow\nin between the gel layers (b).",
+    "triples": [
+      {
+        "subject": "microreactor",
+        "relation": "composed of",
+        "object": "two parallel plates"
+      },
+      {
+        "subject": "two parallel plates",
+        "relation": "coated with",
+        "object": "gel layers"
+      },
+      {
+        "subject": "gel layers",
+        "relation": "contain",
+        "object": "entrapped live microbial cells"
+      },
+      {
+        "subject": "microreactor",
+        "relation": "has",
+        "object": "segmented gas-liquid flow"
+      },
+      {
+        "subject": "gel layers",
+        "relation": "surround",
+        "object": "liquid water film"
+      },
+      {
+        "subject": "liquid water film",
+        "relation": "exists in",
+        "object": "hydrophilic gel layer"
+      },
+      {
+        "subject": "gas flow",
+        "relation": "flows through",
+        "object": "liquid water film"
+      },
+      {
+        "subject": "gas flow",
+        "relation": "interacts with",
+        "object": "liquid water film"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far\napart and, (b) discrete gas segments are signiﬁcantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid ﬁlm exists between\nbubbles and the gel layer.",
+    "triples": [
+      {
+        "subject": "Gas-Bubbles",
+        "relation": "contain",
+        "object": "gaseous substrate compound, S_bi"
+      },
+      {
+        "subject": "Liquid phase",
+        "relation": "contain",
+        "object": "dissolved substrate compound, S_i"
+      },
+      {
+        "subject": "Gel film",
+        "relation": "contain",
+        "object": "entrapped bioactive material: enzyme, cell debris, micro-biological species; and dissolved substrate compound, S_gi"
+      },
+      {
+        "subject": "Thin layer of liquid",
+        "relation": "contain",
+        "object": "dissolved substrate compound, S_i"
+      },
+      {
+        "subject": "Gas-Bubbles",
+        "relation": "separated by",
+        "object": "thin layer of liquid"
+      },
+      {
+        "subject": "Gel film",
+        "relation": "separated by",
+        "object": "thin layer of liquid"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Fig. 3. A simpliﬁed ﬂowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, ﬂowsheet software does not\ncompute and displays the values of pertinent characteristic times.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 3. A simpliﬁed ﬂowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, ﬂowsheet software does not\ncompute and displays the values of pertinent characteristic times.\n\nOutput JSON list only:\nassistant\n[\n  (\"Bioreactor Chemostat\", \"has characteristic times\", \"1700 s\"),\n  (\"Bioreactor Chemostat\", \"has characteristic times\", \"500 s\"),\n  (\"Bioreactor Chemostat\", \"has characteristic times\", \"∞ s\"),\n  (\"G-G Sep.\", \"has characteristic times\", \"120 s\"),\n  (\"GAS-GAS SEP\", \"has characteristic times\", \"1500 s\"),\n  (\"LIQ-LIQ EXT\", \"has characteristic times\", \"1500 s\"),\n  (\"Dist.\", \"has characteristic times\", \"600 s\"),\n  (\"Dist.\", \"has characteristic times\", \"500 s\"),\n  (\"GAS-GAS SEP\", \"separates\", \"CO₂ + O₂\"),\n  (\"GAS-LIQ SEP\", \"separates\", \"Gas and Liquid\"),\n  (\"GAS-LIQ SEP\", \"produces\", \"Raffinate\"),\n  (\"LIQ-LIQ EXT\", \"produces\", \"Solv-Prod\"),\n  (\"DISTILLATION\", \"produces\", \"Product\"),\n  (\"Bioreactor Chemostat\", \"feeds\", \"REACTOR\"),\n  (\"REACTOR\", \"produces\", \"Effluent\"),\n  (\"Effluent\", \"feeds\", \"GAS-GAS SEP\"),\n  (\"Effluent\", \"feeds\", \"GAS-LIQ SEP\"),\n  (\"GAS-LIQ SEP\", \"feeds\", \"LIQ-LIQ EXT\"),\n  (\"LIQ-LIQ EXT\", \"feeds\", \"DISTILLATION\"),\n  (\"Solv Fresh\", \"feeds\", \"LIQ-LIQ EXT\"),\n  (\"Solv Recyc\", \"feeds\", \"LIQ-LIQ EXT\"),\n  (\"CH₄ Recyc\", \"feeds\", \"Bioreactor Chemostat\"),\n  (\"CH₄ Gas\", \"feeds\", \"CH₄ Mix\"),\n  (\"O₂ Gas\", \"feeds\", \"CH₄ Mix\"),\n  (\"CH₄ Mix\", \"feeds\", \"Gas Feed\"),\n  (\"Gas Feed\", \"feeds\", \"REACTOR\"),\n  (\"Dist.\", \"has characteristic times\", \"1000 s\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel ﬁlm with entrapped immobilized culture in the BLP reactor demonstration\nunit, (c) demonstration of the integrity of the gel ﬁlm, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon\nState University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel ﬁlm with entrapped immobilized culture in the BLP reactor demonstration\nunit, (c) demonstration of the integrity of the gel ﬁlm, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon\nState University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"Gel Bio-Film\",\n    \"relation\": \"thickness\",\n    \"object\": \"300 μm\"\n  },\n  {\n    \"subject\": \"Gel Bio-Film\",\n    \"relation\": \"located between\",\n    \"object\": \"Top (Fluid) Bio Laminar Plate and Bottom (Gel) Bio Laminar Plate\"\n  },\n  {\n    \"subject\": \"Gas Bubble\",\n    \"relation\": \"diffuses through\",\n    \"object\": \"Aqueous-Film\"\n  },\n  {\n    \"subject\": \"Gas Bubble\",\n    \"relation\": \"diffuses through\",\n    \"object\": \"Gel Bio-Film\"\n  },\n  {\n    \"subject\": \"CH₄\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"aqueous film\"\n  },\n  {\n    \"subject\": \"O₂\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"aqueous film\"\n  },\n  {\n    \"subject\": \"CH₄\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"biofilm\"\n  },\n  {\n    \"subject\": \"O₂\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"biofilm\"\n  },\n  {\n    \"subject\": \"CH₄\",\n    \"relation\": \"product formation time in\",\n    \"object\": \"biofilm\"\n  },\n  {\n    \"subject\": \"O₂\",\n    \"relation\": \"product formation time in\",\n    \"object\": \"biofilm\"\n  },\n  {\n    \"subject\": \"CH₄\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"aqueous film\",\n    \"value\": \"0.017\"\n  },\n  {\n    \"subject\": \"O₂\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"aqueous film\",\n    \"value\": \"0.013\"\n  },\n  {\n    \"subject\": \"CH₄\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"biofilm\",\n    \"value\": \"53\"\n  },\n  {\n    \"subject\": \"O₂\",\n    \"relation\": \"diffusion time in\",\n    \"object\": \"biofilm\",\n    \"value\": \"40\"\n  },\n  {\n    \"subject\": \"CH₄\",\n    \"relation\": \"product formation"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture (a) vs. BLP reactor with entrapped biomass (b) is demonstrated through the\nalike characteristic times as a part of the information block (c).",
+    "triples": [
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for mass transfer to liquid",
+        "object": "1700 s"
+      },
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for mass transfer to bottom",
+        "object": "500 s"
+      },
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for mass transfer to biomass",
+        "object": "∞ s"
+      },
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for mass transfer to biomass",
+        "object": "1000 s"
+      },
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for biotransformation of CH4",
+        "object": "960 s"
+      },
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for biotransformation of O2",
+        "object": "400 s"
+      },
+      {
+        "subject": "conventional bioreactor",
+        "relation": "has characteristic time for growth of X/O2",
+        "object": "∞ s"
+      },
+      {
+        "subject": "microscale-based reactor (BLP)",
+        "relation": "has characteristic time for mass transfer to liquid",
+        "object": "22.5 s"
+      },
+      {
+        "subject": "microscale-based reactor (BLP)",
+        "relation": "has characteristic time for mass transfer to bottom",
+        "object": "21.0 s"
+      },
+      {
+        "subject": "microscale-based reactor (BLP)",
+        "relation": "has characteristic time for mass transfer to biomass",
+        "object": "∞ s"
+      },
+      {
+        "subject": "microscale-based reactor (BLP)",
+        "relation": "has characteristic time for biotransformation of CH4",
+        "object": "0.017 s"
+      },
+      {
+        "subject": "microscale-based reactor (BLP)",
+        "relation": "has characteristic time for biotransformation of O2",
+        "object": "55 s"
+      },
+      {
+        "subject": "microscale-based reactor (BLP)",
+        "relation": "has characteristic time for growth of X/O2",
+        "object": "∞ s"
+      }
+    ]
+  }
+]

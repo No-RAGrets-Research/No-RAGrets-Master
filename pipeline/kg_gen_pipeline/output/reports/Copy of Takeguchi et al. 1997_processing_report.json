@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Takeguchi et al. 1997.pdf",
+    "start_time": "2025-11-13 09:26:57.075651",
+    "end_time": "2025-11-13 09:38:24.786775",
+    "total_duration": 687.711124,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 161,
+    "relations": 125,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Takeguchi et al. 1997_kg_results_20251113_092657.json"
+  },
+  "visual_extraction": {
+    "attempted": true,
+    "success": true,
+    "entities": 67,
+    "relations": 64,
+    "output_file": "kg_gen_pipeline/output/visual_triples/Copy of Takeguchi et al. 1997_visual_kg_format_20251113_092657.json"
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Takeguchi et al. 1997_kg_results_20251113_092657.json",
+    "visual_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/visual_triples/Copy of Takeguchi et al. 1997_visual_kg_format_20251113_092657.json"
+  },
+  "errors": []
+}

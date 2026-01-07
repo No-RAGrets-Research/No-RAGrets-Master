@@ -1,0 +1,165 @@
+[
+  {
+    "page": 5,
+    "caption": "Fig. 1 Plasmid maps of pk18mobsacB_p15a and pAWP89_p15a.",
+    "triples": [
+      {
+        "subject": "pk18mobsacB_p15a",
+        "relation": "has length",
+        "object": "5,684 bp"
+      },
+      {
+        "subject": "pAWP89_p15a",
+        "relation": "has length",
+        "object": "5,078 bp"
+      },
+      {
+        "subject": "pk18mobsacB_p15a",
+        "relation": "contains",
+        "object": "MCS"
+      },
+      {
+        "subject": "pk18mobsacB_p15a",
+        "relation": "contains",
+        "object": "kanR"
+      },
+      {
+        "subject": "pk18mobsacB_p15a",
+        "relation": "contains",
+        "object": "oriT"
+      },
+      {
+        "subject": "pk18mobsacB_p15a",
+        "relation": "contains",
+        "object": "sacB"
+      },
+      {
+        "subject": "pAWP89_p15a",
+        "relation": "contains",
+        "object": "oriV"
+      },
+      {
+        "subject": "pAWP89_p15a",
+        "relation": "contains",
+        "object": "trfA"
+      },
+      {
+        "subject": "pAWP89_p15a",
+        "relation": "contains",
+        "object": "oriT"
+      },
+      {
+        "subject": "pAWP89_p15a",
+        "relation": "contains",
+        "object": "kanR"
+      },
+      {
+        "subject": "pAWP89_p15a",
+        "relation": "contains",
+        "object": "MCS"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 2 Ms. trichosporium OB3b transformed with pAWP89_p15a (A) compared to\nwild-type Ms. trichosporium OB3b (B) on 25μg/mL kanamycin NMS agar selection plates.",
+    "triples": [
+      {
+        "subject": "Ms. trichosporium OB3b transformed with pAWP89_p15a",
+        "relation": "grown on",
+        "object": "25μg/mL kanamycin NMS agar selection plates"
+      },
+      {
+        "subject": "wild-type Ms. trichosporium OB3b",
+        "relation": "grown on",
+        "object": "25μg/mL kanamycin NMS agar selection plates"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Fig. 3 Gene deletion via conjugation in Ms. trichosporium OB3b. Following conjugation,\nthe introduced plasmid recombines into the targeted site in the chromosome during\nthe first crossover. Transconjugant selection followed by sucrose counterselection\ninduces a second crossover event to remove the plasmid backbone from the chromo-\nsome and produce the mutant with the gentamicin resistance cassette (genR) disrupting\ngene A.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 3 Gene deletion via conjugation in Ms. trichosporium OB3b. Following conjugation,\nthe introduced plasmid recombines into the targeted site in the chromosome during\nthe first crossover. Transconjugant selection followed by sucrose counterselection\ninduces a second crossover event to remove the plasmid backbone from the chromo-\nsome and produce the mutant with the gentamicin resistance cassette (genR) disrupting\ngene A.\n\nOutput JSON list only:\nassistant\n[\n  (\"pk18mobsacB_p15a\", \"contains\", \"sacB\"),\n  (\"pk18mobsacB_p15a\", \"contains\", \"genR\"),\n  (\"gene A\", \"is targeted by\", \"pk18mobsacB_p15a\"),\n  (\"pk18mobsacB_p15a\", \"recombines with\", \"gene A\"),\n  (\"gene A\", \"is deleted from\", \"Ms. trichosporium OB3b genome\"),\n  (\"Ms. trichosporium OB3b genome\", \"undergoes first crossover event\", \"pk18mobsacB_p15a\"),\n  (\"Ms. trichosporium OB3b genome\", \"undergoes second crossover event\", \"pk18mobsacB_p15a\"),\n  (\"genR\", \"disrupts\", \"gene A\"),\n  (\"genR\", \"is located in\", \"Ms. trichosporium OB3b Δgene A genome\"),\n  (\"Ms. trichosporium OB3b Δgene A genome\", \"is produced after\", \"second crossover event\"),\n  (\"Transconjugant selection\", \"triggers\", \"first crossover event\"),\n  (\"Sucrose counterselection\", \"triggers\", \"second crossover event\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "Fig. 4 Construction of a gene-disrupting linear DNA fragment using fusion PCR. (1) PCR\namplification of genR and the 50 and 30 DNA regions flanking gene targeted for disrup-\ntion. (2) The 50 DNA fragment and genR are used as templates for the first round of fusion\nPCR. (3) The resulting PCR product and the 30 DNA fragment are used as templates for\nthe second round of PCR to produce the final gene-disrupting linear DNA construct. The\nlinear DNA construct is (4) electroporated into wild-type Ms. trichosporium OB3b\nfollowed by (5) selection for the Ms. trichosporium OB3b Δgene A mutant. Primer bind-\ning sites are represented by half arrows.",
+    "triples": [
+      {
+        "subject": "gene A",
+        "relation": "targeted for disruption",
+        "object": "Ms. trichosporium OB3b genome"
+      },
+      {
+        "subject": "genR",
+        "relation": "amplified by PCR",
+        "object": "Ms. trichosporium OB3b genome"
+      },
+      {
+        "subject": "genR",
+        "relation": "used in first round of fusion PCR",
+        "object": "5' DNA fragment"
+      },
+      {
+        "subject": "genR",
+        "relation": "used in second round of fusion PCR",
+        "object": "3' DNA fragment"
+      },
+      {
+        "subject": "5' DNA fragment",
+        "relation": "used in first round of fusion PCR",
+        "object": "genR"
+      },
+      {
+        "subject": "3' DNA fragment",
+        "relation": "used in second round of fusion PCR",
+        "object": "PCR product from round I"
+      },
+      {
+        "subject": "linear DNA construct",
+        "relation": "electroporated into",
+        "object": "Ms. trichosporium OB3b"
+      },
+      {
+        "subject": "linear DNA construct",
+        "relation": "used for",
+        "object": "double recombination"
+      },
+      {
+        "subject": "Ms. trichosporium OB3b",
+        "relation": "selected for",
+        "object": "Δgene A mutant"
+      },
+      {
+        "subject": "genR",
+        "relation": "inserted into",
+        "object": "gene A"
+      },
+      {
+        "subject": "Ms. trichosporium OB3b Δgene A genome",
+        "relation": "result of",
+        "object": "gentamicin selection"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "caption": "Fig. 5 Amount of Ms. trichosporium OB3b cells required for DNA extraction shown on a\n1-μL inoculating loop.",
+    "triples": [
+      {
+        "subject": "Ms. trichosporium OB3b cells",
+        "relation": "required amount for",
+        "object": "DNA extraction"
+      },
+      {
+        "subject": "Ms. trichosporium OB3b cells",
+        "relation": "measured using",
+        "object": "1-μL inoculating loop"
+      }
+    ]
+  }
+]

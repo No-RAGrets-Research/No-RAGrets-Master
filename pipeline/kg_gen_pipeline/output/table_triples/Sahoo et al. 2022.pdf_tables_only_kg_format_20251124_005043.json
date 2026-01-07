@@ -1,0 +1,1189 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 18,
+    "relations": 18,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Sahoo et al. 2022.json",
+    "processed_at": "2025-11-24T00:50:43.539176"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Stage-II",
+      "predicate": "has experimental condition",
+      "object": "50% CO 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 9,
+        "text_evidence": "| x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 ) | Y p/s (g g GLYPH<0> 1 )\n50% CO 2 | 0.02 | 5 | 1 | 0.11 | 0.02 | 0.68 | 0.68\n30% CO 2 | 0.008 | 5 | 1 | 0.11 | 0.02 | 0.51",
+        "document_offsets": {
+          "start": 272,
+          "end": 730
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 198,
+            "sentence_id": 6,
+            "matched_text": "Stage-II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 361,
+            "end": 369,
+            "sentence_id": 9,
+            "matched_text": "50% CO 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stage-I",
+      "predicate": "has experimental condition",
+      "object": "1% CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 518
+        },
+        "subject_positions": [
+          {
+            "start": 156,
+            "end": 163,
+            "sentence_id": 0,
+            "matched_text": "Stage-I"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 353,
+            "end": 360,
+            "sentence_id": 6,
+            "matched_text": "1% CH 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stage-I",
+      "predicate": "has experimental condition",
+      "object": "5% CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 518
+        },
+        "subject_positions": [
+          {
+            "start": 156,
+            "end": 163,
+            "sentence_id": 0,
+            "matched_text": "Stage-I"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 298,
+            "end": 305,
+            "sentence_id": 6,
+            "matched_text": "5% CH 4"
+          },
+          {
+            "start": 407,
+            "end": 414,
+            "sentence_id": 6,
+            "matched_text": "5% CH 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "Y x/s (g g GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) A | Y x/s (g g GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 271
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stage-II",
+      "predicate": "has experimental condition",
+      "object": "30% CO 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 9,
+        "text_evidence": "| x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 ) | Y p/s (g g GLYPH<0> 1 )\n50% CO 2 | 0.02 | 5 | 1 | 0.11 | 0.02 | 0.68 | 0.68\n30% CO 2 | 0.008 | 5 | 1 | 0.11 | 0.02 | 0.51",
+        "document_offsets": {
+          "start": 272,
+          "end": 730
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 198,
+            "sentence_id": 6,
+            "matched_text": "Stage-II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 413,
+            "end": 421,
+            "sentence_id": 9,
+            "matched_text": "30% CO 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stage-II",
+      "predicate": "has experimental condition",
+      "object": "70% CO 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 10,
+        "text_evidence": "| x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 ) | 0.51\n70% CO 2 | 0.018",
+        "document_offsets": {
+          "start": 272,
+          "end": 754
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 198,
+            "sentence_id": 6,
+            "matched_text": "Stage-II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 466,
+            "end": 474,
+            "sentence_id": 10,
+            "matched_text": "70% CO 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "n",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | n | k | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 ) | A ' (g L GLYPH<0> 1 ) | n ' |",
+        "document_offsets": {
+          "start": 0,
+          "end": 550
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 212,
+            "end": 213,
+            "sentence_id": 2,
+            "matched_text": "n"
+          },
+          {
+            "start": 545,
+            "end": 546,
+            "sentence_id": 7,
+            "matched_text": "n"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stage-I",
+      "predicate": "has experimental condition",
+      "object": "2.5% CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 518
+        },
+        "subject_positions": [
+          {
+            "start": 156,
+            "end": 163,
+            "sentence_id": 0,
+            "matched_text": "Stage-I"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 296,
+            "end": 305,
+            "sentence_id": 6,
+            "matched_text": "2.5% CH 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "k L a CH4 (h GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 185
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "x m (g L GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 518
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "Qp max (h GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 518
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "K s (g L GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | K s (g L GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) k L a CO2 (h GLYPH<0> 1 ) | B | Y p/s (g g GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 606
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 579,
+            "end": 580,
+            "sentence_id": 8,
+            "matched_text": "B"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) L a CH4 (h GLYPH<0> 1 ) A | Y x/s (g g GLYPH<0> 1 ) | x m (g L GLYPH<0> 1 )\n2.5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.39\n1% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.7 | 3.31\n5% CH 4 | 0.07 | 0.07 | 0.5 | 0.19 | 0.8 | 1.72 | 3.52\nStage-II\nExperimental condition | Qp max (h GLYPH<0> 1 ) | A ' (g L GLYPH<0> 1 ) | n ' | k L a CO2 (h GLYPH<0> 1 ) | B | Y p/s (g g GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 606
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 220,
+            "end": 221,
+            "sentence_id": 3,
+            "matched_text": "a"
+          },
+          {
+            "start": 244,
+            "end": 245,
+            "sentence_id": 5,
+            "matched_text": "A"
+          },
+          {
+            "start": 521,
+            "end": 522,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 555,
+            "end": 556,
+            "sentence_id": 8,
+            "matched_text": "a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "k L a CO2 (h GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) k L a CO2 (h GLYPH<0> 1 ) | B | Y p/s (g g GLYPH<0> 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 606
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "A ' (g L GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | A ' (g L GLYPH<0> 1 ) | n ' |",
+        "document_offsets": {
+          "start": 0,
+          "end": 550
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "Y p/s (g g GLYPH<0> 1 )",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) k L a CO2 (h GLYPH<0> 1 ) | B | Y p/s (g g GLYPH<0> 1 ) | Y p/s (g g GLYPH<0> 1 )\n50% CO 2 | 0.02 | 5 | 1 | 0.11 | 0.02 | 0.68 | 0.68\n30% CO 2 | 0.008 | 5 | 1 | 0.11 | 0.02 | 0.51",
+        "document_offsets": {
+          "start": 0,
+          "end": 730
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Model Parameters",
+      "predicate": "contains",
+      "object": "n ' ",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Experimental condition | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters | Model Parameters\nStage-I \u03bc max (h GLYPH<0> 1 ) | A ' (g L GLYPH<0> 1 ) | n ' |",
+        "document_offsets": {
+          "start": 0,
+          "end": 550
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 44,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 63,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 82,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 120,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          },
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "Model Parameters"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 305.8947448730469,
+          "t": 699.3916015625,
+          "r": 557.1728515625,
+          "b": 547.1599884033203,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Qp max",
+    "Stage-I",
+    "k L a CH4",
+    "Experimental condition",
+    "B",
+    "k L a CO2",
+    "K s",
+    "Model Parameters",
+    "n",
+    "CO 2",
+    "CH 4",
+    "n '",
+    "Y p/s",
+    "Stage-II",
+    "A",
+    "A '",
+    "Y x/s",
+    "x m"
+  ]
+}

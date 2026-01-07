@@ -1,0 +1,78 @@
+[
+  {
+    "page": 2,
+    "caption": "Fig. 1   Routes for the conversion of methane through oxidation and \nthe incorporation of formaldehyde. Short forms: CytC, cytochrome c; \nFADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase \n(Hanson and Hanson 1996)",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 1   Routes for the conversion of methane through oxidation and \nthe incorporation of formaldehyde. Short forms: CytC, cytochrome c; \nFADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase \n(Hanson and Hanson 1996)\n\nOutput JSON list only:\nassistant\n[\n  (\"CH4\", \"oxidized by\", \"sMMO\"),\n  (\"CH4\", \"oxidized by\", \"pMMO\"),\n  (\"CH4\", \"oxidized by\", \"CytC_red\"),\n  (\"CH4\", \"oxidized by\", \"CytCox\"),\n  (\"CH4\", \"oxidized by\", \"O2\"),\n  (\"CH4\", \"oxidized by\", \"NADH+H+\"),\n  (\"CH4\", \"oxidized to\", \"CH3OH\"),\n  (\"CH3OH\", \"oxidized to\", \"HCHO\"),\n  (\"HCHO\", \"incorporated into\", \"RuMP PATHWAY\"),\n  (\"HCHO\", \"incorporated into\", \"SERINE PATHWAY\"),\n  (\"HCHO\", \"oxidized by\", \"FADH\"),\n  (\"HCHO\", \"oxidized to\", \"HCOOH\"),\n  (\"HCOOH\", \"oxidized by\", \"FDH\"),\n  (\"HCOOH\", \"oxidized to\", \"CO2\"),\n  (\"CH3OH\", \"oxidized to\", \"HCHO\"),\n  (\"CH3OH\", \"oxidized by\", \"CytCox\"),\n  (\"CH3OH\", \"oxidized by\", \"MDH\"),\n  (\"CH3OH\", \"oxidized by\", \"CytC_red\"),\n  (\"HCOOH\", \"oxidized by\", \"FDH\"),\n  (\"HCOOH\", \"oxidized to\", \"CO2\"),\n  (\"CO2\", \"produced by\", \"FDH\"),\n  (\"HCHO\", \"produced by\", \"CH3OH\"),\n  (\"HCOOH\", \"produced by\", \"HCHO\"),\n  (\"CO2\", \"produced by\", \"HCOOH\"),\n  (\"HCHO\", \"produced by\", \"CH4\"),\n  (\"HCOOH\", \"produced by\", \"HCHO\"),\n  (\"CO2\", \"produced by\", \"HCOOH\"),\n  (\"CH3OH\", \"produced by\", \"CH4\"),\n  (\"HCHO\", \"produced by\", \"CH3OH\"),\n  (\"HCOOH\", \"produced by\", \"HCHO\"),\n  (\"CO2\", \"produced by\", \"HCOOH\"),\n  (\"CH4\", \"produced by\", \"CH3OH\"),\n  (\"HCHO\", \"produced by\", \"CH3OH\"),\n  (\"HCOOH\","
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 3   The reverse methanogenesis pathway in M. nitroreducens \nlinked with nitrate reduction involves a series of enzymes: CDH \n(molybdenum-dependent \nformylmethanofuran \ndehydrogenase), \nFMD (formylmethanofuran dehydrogenase), FRH (F420-dependent \nhydrogenase), FTR (formylmethanofuran-H4MPT formyltransferase), \nHDR (coenzyme B-coenzyme M heterosulfide reductase), MCH \n(methenyl-H4MPT cyclohydrolase), MCR (methyl coenzyme M",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 3   The reverse methanogenesis pathway in M. nitroreducens \nlinked with nitrate reduction involves a series of enzymes: CDH \n(molybdenum-dependent \nformylmethanofuran \ndehydrogenase), \nFMD (formylmethanofuran dehydrogenase), FRH (F420-dependent \nhydrogenase), FTR (formylmethanofuran-H4MPT formyltransferase), \nHDR (coenzyme B-coenzyme M heterosulfide reductase), MCH \n(methenyl-H4MPT cyclohydrolase), MCR (methyl coenzyme M\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"CDH\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"FMD\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"FRH\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"FTR\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"HDR\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"MCH\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"MCR\", \"relation\": \"is part of\", \"object\": \"reverse methanogenesis pathway in M. nitroreducens\"}, {\"subject\": \"CDH\", \"relation\": \"catalyzes\", \"object\": \"formylmethanofuran dehydrogenase activity\"}, {\"subject\": \"FMD\", \"relation\": \"catalyzes\", \"object\": \"formylmethanofuran dehydrogenase activity\"}, {\"subject\": \"FRH\", \"relation\": \"catalyzes\", \"object\": \"F420-dependent hydrogenase activity\"}, {\"subject\": \"FTR\", \"relation\": \"catalyzes\", \"object\": \"formylmethanofuran-H4MPT formyltransferase activity\"}, {\"subject\": \"HDR\", \"relation\": \"catalyzes\", \"object\": \"coenzyme B-coenzyme M heterosulfide reductase activity\"}, {\"subject\": \"MCH\", \"relation\": \"catalyzes\", \"object\": \"methenyl-H4MPT cyclohydrolase activity\"}, {\"subject\": \"MCR\", \"relation\": \"catalyzes\", \"object\": \"methyl coenzyme M reductase activity\"}, {\"subject\": \"MTR\", \"relation\": \"uses\", \"object\": \"Na+\"}, {\"subject\": \"NAR\", \"relation\": \"uses\", \"object\": \"NO3-\"}, {\"subject\": \"NRF\", \"relation\": \"uses"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "caption": "Fig. 4   The research studies \ninvestigated a certain number \nof habitats, as shown in the \nupper left diagram. The pmoA \nsequences from the NCBI data-\nbase were categorized based on \nthe environments in which they \nwere identified, depicted in the \nupper right diagram. The lower \ndiagrams, however, encom-\npass non-redundant sequence \nreads only, excluding duplicate \nsequences found within the \nsame study and in the same \noperational taxonomic unit (I). \nThe directional arrows indicate \nthe location of the group repre-\nsented as the initial entry in the \nlegend (Knief 2015)",
+    "triples": [
+      {
+        "subject": "371 studies",
+        "relation": "investigated",
+        "object": "habitats"
+      },
+      {
+        "subject": "12503 sequence reads",
+        "relation": "categorized by",
+        "object": "environments"
+      },
+      {
+        "subject": "2069 non-redundant sequence reads",
+        "relation": "excludes",
+        "object": "duplicate sequences"
+      },
+      {
+        "subject": "4061 non-redundant sequence reads",
+        "relation": "excludes",
+        "object": "duplicate sequences"
+      },
+      {
+        "subject": "directional arrows",
+        "relation": "indicate",
+        "object": "location of group in legend"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "caption": "Fig. 5   Methanotrophic bacteria inherently employ various multi-\ncarbon sources. Methane, ethane, propane, and butane are subject to \noxidation through methane monooxygenase. These oxidation path-\nways are subsequently transformed through multiple enzymatic steps \ninto central metabolic intermediates. Specifically, methane oxidation \nis represented by a black line, ethane oxidation by a red line, propane \noxidation by a blue line, and the conversion of butane leads to croto-",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 5   Methanotrophic bacteria inherently employ various multi-\ncarbon sources. Methane, ethane, propane, and butane are subject to \noxidation through methane monooxygenase. These oxidation path-\nways are subsequently transformed through multiple enzymatic steps \ninto central metabolic intermediates. Specifically, methane oxidation \nis represented by a black line, ethane oxidation by a red line, propane \noxidation by a blue line, and the conversion of butane leads to croto-\n\nOutput JSON list only:\nassistant\n[\n  (\"Methane\", \"oxidized by\", \"Methane monooxygenase\"),\n  (\"Ethane\", \"oxidized by\", \"Methane monooxygenase\"),\n  (\"Propane\", \"oxidized by\", \"Methane monooxygenase\"),\n  (\"Butane\", \"oxidized by\", \"Methane monooxygenase\"),\n  (\"Methane\", \"converted to\", \"Methanol\"),\n  (\"Ethane\", \"converted to\", \"Methanol\"),\n  (\"Propane\", \"converted to\", \"Methanol\"),\n  (\"Butane\", \"converted to\", \"Methanol\"),\n  (\"Methanol\", \"converted to\", \"Formaldehyde\"),\n  (\"Formaldehyde\", \"converted to\", \"Formate\"),\n  (\"Formate\", \"converted to\", \"Formyl-THF\"),\n  (\"Formyl-THF\", \"converted to\", \"Methenyl-THF\"),\n  (\"Methenyl-THF\", \"converted to\", \"Methylene-THF\"),\n  (\"Methylene-THF\", \"converted to\", \"Glycine\"),\n  (\"Glycine\", \"converted to\", \"Serine\"),\n  (\"Serine\", \"converted to\", \"Glycerate\"),\n  (\"Glycerate\", \"converted to\", \"2PG\"),\n  (\"2PG\", \"converted to\", \"PEP\"),\n  (\"PEP\", \"converted to\", \"OAA\"),\n  (\"OAA\", \"converted to\", \"Citrate\"),\n  (\"Citrate\", \"converted to\", \"Isocitrate\"),\n  (\"Isocitrate\", \"converted to\", \"α-KGA\"),\n  (\"α-KGA\", \"converted to\", \"Succinate\"),\n  (\"Succinate\", \"converted to\", \"Succinyl-CoA\"),\n  (\"Succinyl-CoA\", \"converted to\", \"Malate\"),\n  (\"Malate\", \"converted to\", \"Fumarate\"),\n  (\"Fumarate\", \"converted to\", \"Malate\"),\n  (\"Formaldehyde\", \"converted to\", \"Acetaldehyde\"),\n  (\"Acetaldehyde\", \"converted to\", \"Acetate\"),\n  (\"Acetate\", \"converted to\", \"Acetyl-CoA\"),\n  (\"Acetyl-CoA\", \"converted to\", \"Pyruvate\"),\n  (\"Pyruvate\", \"converted to\", \"Acetyl-CoA\"),\n "
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "caption": "Fig. 6   The synthetic pathways for utilizing multi-carbon com-\npounds were reconstructed within an obligate type I methanotroph. \nTo achieve this, relevant genes associated with each pathway were \nsourced from various bacteria and subsequently combined. The inte-\ngration was accomplished by either inserting these genes into the \npAW89 expression vector or incorporating them into the genome. \nNotably, these genes were placed under the regulation of the pTac \npromoter. These genes collectively contribute to the conversion of",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 6   The synthetic pathways for utilizing multi-carbon com-\npounds were reconstructed within an obligate type I methanotroph. \nTo achieve this, relevant genes associated with each pathway were \nsourced from various bacteria and subsequently combined. The inte-\ngration was accomplished by either inserting these genes into the \npAW89 expression vector or incorporating them into the genome. \nNotably, these genes were placed under the regulation of the pTac \npromoter. These genes collectively contribute to the conversion of\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"Methane\", \"relation\": \"is converted to\", \"object\": \"Methanol\"},\n{\"subject\": \"Methanol\", \"relation\": \"is converted to\", \"object\": \"Formaldehyde\"},\n{\"subject\": \"Formaldehyde\", \"relation\": \"is converted to\", \"object\": \"Formate\"},\n{\"subject\": \"Glucose\", \"relation\": \"is metabolized via\", \"object\": \"RuMP cycle\"},\n{\"subject\": \"Glucose\", \"relation\": \"is metabolized via\", \"object\": \"EMP pathway\"},\n{\"subject\": \"Glucose\", \"relation\": \"is metabolized via\", \"object\": \"ED pathway\"},\n{\"subject\": \"Xylose\", \"relation\": \"is metabolized via\", \"object\": \"RuMP cycle\"},\n{\"subject\": \"Glycerol\", \"relation\": \"is metabolized via\", \"object\": \"ED pathway\"},\n{\"subject\": \"Glycerol\", \"relation\": \"is metabolized via\", \"object\": \"Glycerol-3-P pathway\"},\n{\"subject\": \"Glycerol-3-P\", \"relation\": \"is converted to\", \"object\": \"DHAP\"},\n{\"subject\": \"Xylose\", \"relation\": \"is converted to\", \"object\": \"D-Xylose\"},\n{\"subject\": \"D-Xylose\", \"relation\": \"is converted to\", \"object\": \"Xyulose-5P\"},\n{\"subject\": \"Xyulose-5P\", \"relation\": \"is converted to\", \"object\": \"Ribulose-5P\"},\n{\"subject\": \"Glucose\", \"relation\": \"is converted to\", \"object\": \"Glucose-6-P\"},\n{\"subject\": \"Glucose-6-P\", \"relation\": \"is converted to\", \"object\": \"Fructose-6-P\"},\n{\"subject\": \"DHAP\", \"relation\": \"is converted to\", \"object\": \"G3P\"},\n{\"subject\": \"G3P\", \"relation\": \"is converted to\", \"object\": \"Pyruvate\"},\n{\"subject\": \"Pyruvate\", \"relation\": \"is converted to\", \"object\": \"Acetyl-CoA\"},\n{\"subject\": \"Acetyl-CoA\", \"relation\": \"is metabolized via\", \"object\": \"TCA cycle\"},\n{\"subject\": \"Malate\", \"relation\": \"is converted to\", \"object\": \"Fumarate\"},\n{\"subject\": \"F"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "caption": "Fig. 7   The soluble methane \nmonooxygenase (A) and partic-\nulate methane monooxygenase \n(B) gene clusters of methane-\noxidizing bacteria (Farhan Ul \nHaque et al. 2020)",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 7   The soluble methane \nmonooxygenase (A) and partic-\nulate methane monooxygenase \n(B) gene clusters of methane-\noxidizing bacteria (Farhan Ul \nHaque et al. 2020)\n\nOutput JSON list only:\nassistant\n[(\"mmoX\", \"encodes\", \"α 60 kDa\"), (\"mmoY\", \"encodes\", \"β 45 kDa\"), (\"mmoB\", \"encodes\", \"Protein B 16 kDa\"), (\"mmoZ\", \"encodes\", \"γ 20 kDa\"), (\"orfY\", \"encodes\", \"?\"), (\"mmoC\", \"encodes\", \"Reductase 39 kDa\"), (\"pmoC\", \"encodes\", \"PmoC 23 kDa\"), (\"pmoA\", \"encodes\", \"PmoA 26 kDa\"), (\"pmoB\", \"encodes\", \"PmoB 45 kDa\")]"
+      }
+    ]
+  }
+]

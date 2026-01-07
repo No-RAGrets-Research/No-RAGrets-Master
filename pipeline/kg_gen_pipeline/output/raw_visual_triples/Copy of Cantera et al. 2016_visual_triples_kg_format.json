@@ -1,0 +1,1504 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 51,
+    "relations": 42,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 42,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 2,
+        "entities": 30,
+        "relations": 28
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 21,
+        "relations": 14
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Cantera et al. 2016_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T08:33:52.230027"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "DGGE gel H",
+        "Shannon-Wiener index 2.8",
+        "Shannon-Wiener index 2.7",
+        "Shannon-Wiener index 1.6",
+        "DGGE gel F",
+        "DGGE gel I",
+        "DGGE gel E",
+        "DGGE gel D",
+        "cultures enriched at 650 rpm with low CH4 and Cu2+",
+        "cultures enriched at 300 rpm with low CH4 and Cu2+",
+        "Shannon-Wiener index 1.3",
+        "Shannon-Wiener index 2.2",
+        "DGGE gel G",
+        "DGGE gel B",
+        "Shannon-Wiener index 2.0",
+        "DGGE gel C",
+        "Shannon-Wiener index 2.1",
+        "DGGE gel A",
+        "Shannon-Wiener index 1.9",
+        "DGGE gel J"
+      ],
+      "relations": [
+        {
+          "subject": "DGGE gel A",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel A",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 1.3",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel B",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel B",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 1.6",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel C",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel C",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 2.7",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel D",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel D",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 2.8",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel E",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel E",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 2.2",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel F",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel F",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 2.1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel G",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel G",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 2.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel H",
+          "predicate": "shows",
+          "object": "cultures enriched at 300 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel H",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 1.9",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel I",
+          "predicate": "shows",
+          "object": "cultures enriched at 650 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel I",
+          "predicate": "has",
+          "object": "Shannon-Wiener index 2.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        },
+        {
+          "subject": "DGGE gel J",
+          "predicate": "shows",
+          "object": "cultures enriched at 650 rpm with low CH4 and Cu2+",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. DGGE pro /uniFB01 le of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu 2 þ concentrations, respectively. The Shannon e Wiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by ' < '' and the corresponding number of each band. 98 97 DGGE BAND 7-KP 289229",
+            "bbox_coordinates": {
+              "l": 32.823,
+              "t": 529.7009887473091,
+              "r": 552.839,
+              "b": 501.1589887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1422,
+                801
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              400
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 32.823,
+                "t": 529.7009887473091,
+                "r": 552.839,
+                "b": 501.1589887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "DGGE BAND 18-KP289240",
+        "DGGE BAND 13-KP289235",
+        "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+        "DGGE BAND 11-KP289233",
+        "DGGE BAND 17-KP289239",
+        "DGGE BAND 10-KP289232",
+        "DGGE BAND 5-KP289227",
+        "DGGE BAND 12-KP289234",
+        "DGGE BAND 14-KP289236",
+        "DGGE-BAND-15-KP289237"
+      ],
+      "relations": [
+        {
+          "subject": "DGGE BAND 10-KP289232",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 11-KP289233",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 17-KP289239",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 18-KP289240",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 5-KP289227",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 13-KP289235",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 12-KP289234",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE BAND 14-KP289236",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        },
+        {
+          "subject": "DGGE-BAND-15-KP289237",
+          "predicate": "is a member of",
+          "object": "Methylococcus thermophilus strain IMV-B-3037-NR_029251",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest relatives (similarity > 96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The scale bar indicates 10% sequence difference.",
+            "bbox_coordinates": {
+              "l": 32.825,
+              "t": 146.6449887695312,
+              "r": 552.843,
+              "b": 123.58498876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1772,
+                1335
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              399
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 32.825,
+                "t": 146.6449887695312,
+                "r": 552.843,
+                "b": 123.58498876953126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 32.825,
+                "t": 729.7009888111979,
+                "r": 552.854,
+                "b": 700.3676554917535,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 7 Analysis",
+      "entities": [
+        "8% CH4 25μM Cu2+ at 650 rpm",
+        "8% CH4 0.05μM Cu2+ at 300 rpm",
+        "9 ng/μL",
+        "1% CH4 0.05μM Cu2+ at 300 rpm",
+        "1.2 g/L",
+        "0.6 g/L",
+        "8% CH4 25μM Cu2+ at 300 rpm",
+        "1% CH4 25μM Cu2+ at 650 rpm",
+        "33 ng/μL",
+        "1% CH4 25μM Cu2+ at 300 rpm",
+        "25 ng/μL",
+        "0.2 g/L",
+        "80 ng/μL",
+        "0.8 g/L",
+        "8% CH4 0.05μM Cu2+ at 650 rpm",
+        "43 ng/μL",
+        "0.3 g/L",
+        "20 ng/μL",
+        "12 ng/μL",
+        "10 ng/μL",
+        "1% CH4 0.05μM Cu2+ at 650 rpm"
+      ],
+      "relations": [
+        {
+          "subject": "8% CH4 25μM Cu2+ at 300 rpm",
+          "predicate": "DNA concentration",
+          "object": "20 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 25μM Cu2+ at 650 rpm",
+          "predicate": "DNA concentration",
+          "object": "80 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 0.05μM Cu2+ at 300 rpm",
+          "predicate": "DNA concentration",
+          "object": "9 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 0.05μM Cu2+ at 650 rpm",
+          "predicate": "DNA concentration",
+          "object": "43 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "1% CH4 0.05μM Cu2+ at 300 rpm",
+          "predicate": "DNA concentration",
+          "object": "10 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "1% CH4 0.05μM Cu2+ at 650 rpm",
+          "predicate": "DNA concentration",
+          "object": "33 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "1% CH4 25μM Cu2+ at 300 rpm",
+          "predicate": "DNA concentration",
+          "object": "12 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "1% CH4 25μM Cu2+ at 650 rpm",
+          "predicate": "DNA concentration",
+          "object": "25 ng/μL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 25μM Cu2+ at 300 rpm",
+          "predicate": "biomass concentration",
+          "object": "0.8 g/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 25μM Cu2+ at 650 rpm",
+          "predicate": "biomass concentration",
+          "object": "1.2 g/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 0.05μM Cu2+ at 300 rpm",
+          "predicate": "biomass concentration",
+          "object": "0.3 g/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "8% CH4 0.05μM Cu2+ at 650 rpm",
+          "predicate": "biomass concentration",
+          "object": "0.6 g/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "1% CH4 0.05μM Cu2+ at 300 rpm",
+          "predicate": "biomass concentration",
+          "object": "0.2 g/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        },
+        {
+          "subject": "1% CH4 0.05μM Cu2+ at 650 rpm",
+          "predicate": "biomass concentration",
+          "object": "0.6 g/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from duplicate samples.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 254.24898876953125,
+              "r": 562.63,
+              "b": 239.74898876953125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1418,
+                1926
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              191
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 42.52,
+                "t": 254.24898876953125,
+                "r": 562.63,
+                "b": 239.74898876953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

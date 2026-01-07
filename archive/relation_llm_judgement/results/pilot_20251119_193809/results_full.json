@@ -1,0 +1,5141 @@
+[
+  {
+    "id": "0x2e",
+    "predicate": "has",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x2d",
+      "name": "28 -34 times higher global warming potential over a period of 100 years than that of CO2",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "1. Introduction",
+    "pages": [
+      1
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x2e",
+      "subject": "Methane",
+      "predicate": "has",
+      "object": "28 -34 times higher global warming potential over a period of 100 years than that of CO2",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Methane  is  the  smallest  of  the  hydrocarbon  family  in  its  most reduced form, which means it is packed with potential energy. Thus, even with a shorter lifespan, methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2  due to its higher solar  radiation  capturing  efficiency  (Priyadarsini  et  al.,  2020).",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 4,
+          "sentence_range": [
+            0,
+            2
+          ],
+          "document_offsets": {
+            "start": 663,
+            "end": 1313
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 456,
+            "end": 463,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 468,
+            "end": 556,
+            "sentence_id": 2,
+            "matched_text": "28 -34 times higher global warming potential over a period of 100 years than that of CO2"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x2e",
+      "section": "1. Introduction",
+      "pages": [
+        1
+      ],
+      "bbox_data": [
+        {
+          "page": 1,
+          "bbox": {
+            "l": 37.587,
+            "t": 334.0539997695312,
+            "r": 291.029,
+            "b": 148.95499976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that methane has 28 -34 times higher global warming potential over a period of 100 years than CO2. The source sentence explicitly mentions this comparison, making the extraction correct and faithful to the original statement.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.655602931976318
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2\" is directly stated in the sentence. The subject and object boundaries are correctly identified as well, with \"Methane\" being the subject and \"28 -34 times higher global warming potential over a period of 100 years than that of CO2\" being the object.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2\" is directly stated in the sentence. The subject and object boundaries are correctly identified as well, with \"Methane\" being the subject and \"28 -34 times higher global warming potential over a period of 100 years than that of CO2\" being the object.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 8.926769018173218
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, and the entity boundaries (subject \"Methane\" and object \"28 -34 times higher global warming potential...\") are correctly identified.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 13.544745922088623
+      }
+    }
+  },
+  {
+    "id": "0x21",
+    "predicate": "are involved in",
+    "subject": {
+      "id": "0x1d",
+      "name": "Methanotrophs",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x1f",
+      "name": "Gas-to-liquid Methanol",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "A R T I C L E  I N F O",
+    "pages": [
+      1
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methanotrophs",
+    "hub_connectivity": 15,
+    "source_span": {
+      "relation_id": "0x21",
+      "subject": "Methanotrophs",
+      "predicate": "are involved in",
+      "object": "Gas-to-liquid Methanol",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Keywords: Methanotrophs Gas-to-liquid Methanol Microbial consortium Methane monooxygenase Gene detection",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 3,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 562,
+            "end": 666
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 10,
+            "end": 23,
+            "sentence_id": 0,
+            "matched_text": "Methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "Gas-to-liquid Methanol"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x21",
+      "section": "A R T I C L E  I N F O",
+      "pages": [
+        1
+      ],
+      "bbox_data": [
+        {
+          "page": 1,
+          "bbox": {
+            "l": 37.587,
+            "t": 480.6679997695312,
+            "r": 111.165,
+            "b": 423.3999997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"are involved in\" is accurately represented in the sentence, as it directly states that Methanotrophs are involved in Gas-to-liquid Methanol production. The entity boundaries (subject and object) are correctly identified, with no overlap or omission of relevant information.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.879995822906494
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methanotrophs are involved in Gas-to-liquid Methanol\" is directly stated in the sentence, as it mentions a microbial consortium (which includes Methanotrophs) and Gas-to-liquid Methanol. The subject and object boundaries are correctly identified, as they correspond to the entities mentioned in the sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methanotrophs are involved in Gas-to-liquid Methanol\" is directly stated in the sentence, as it mentions a microbial consortium (which includes Methanotrophs) and Gas-to-liquid Methanol. The subject and object boundaries are correctly identified, as they correspond to the entities mentioned in the sentence.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.240010976791382
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, with \"Methanotrophs\" being involved in the process of converting methane to methanol. The entity boundaries are correctly identified as the subject and object positions match the extracted relation.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.427953720092773
+      }
+    }
+  },
+  {
+    "id": "0x637",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x4e6",
+      "name": "Patel, S.K.S., Gupta, R.K., Kalia, V.C., Lee, J.K., 2021. Integrating anaerobic digestion of potato peels to methanol production by methanotrophs immobilized on banana leaves.",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x637",
+      "subject": "Patel",
+      "predicate": "is author of",
+      "object": "Patel, S.K.S., Gupta, R.K., Kalia, V.C., Lee, J.K., 2021. Integrating anaerobic digestion of potato peels to methanol production by methanotrophs immobilized on banana leaves.",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Gupta, R.K., Kalia, V.C., Lee, J.K., 2021. Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023.",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 28,
+          "sentence_range": [
+            0,
+            5
+          ],
+          "document_offsets": {
+            "start": 42828,
+            "end": 43130
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 0,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 258,
+            "end": 263,
+            "sentence_id": 5,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x637",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 3\n**JUSTIFICATION:** The extracted relation is accurately represented in the sentence, as it correctly states that Patel is associated with the publication. However, the faithfulness rating is not a perfect score because the source sentence does not explicitly state \"is author of\" but rather lists authors and their corresponding publications.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.061729669570923
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: No\nFAITHFULNESS: 1 (Hallucinated)\nBOUNDARY_QUALITY: N/A\nJUSTIFICATION: The relation \"is author of\" is not accurately represented in the sentence as it does not provide any information about authorship. Instead, it seems to be a typo or incorrect citation format. The original paper's authors are listed correctly, but there is no indication that Patel is an author of another work in this sentence.",
+        "parsed": {
+          "accuracy": false,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"is author of\" is not accurately represented in the sentence as it does not provide any information about authorship. Instead, it seems to be a typo or incorrect citation format. The original paper's authors are listed correctly, but there is no indication that Patel is an author of another work in this sentence.",
+          "parse_error": "Invalid boundary quality: N/A"
+        },
+        "error": null,
+        "inference_time": 5.520071029663086
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as Patel is indeed an author of the mentioned publication. The entity boundaries are correctly identified, with \"Patel\" being the subject and the rest of the sentence describing the object (the publication).",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.835727214813232
+      }
+    }
+  },
+  {
+    "id": "0x61a",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x43c",
+      "name": "Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x61a",
+      "subject": "Patel",
+      "predicate": "is author of",
+      "object": "Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a. Patel, S.K.S., Mardina, P., Kim, D., Kim, S.Y., Kalia, V.C., Kim, I.W., Lee, J.K., 2016b. Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c. Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017. Patel, S.K.S., Kondaveeti, S., Otari, S.V., Pagolu, R.T., Jeong, S.H., Kim, S.C., Cho, B.K., Kang, Y.C., Lee, J.K., 2018a. Patel, S.K.S., Kumar, V., Mardina, P., Li, J., Lestari, R., Kalia, V.C., Lee, J.K., 2018b. Patel, S.K.S., Jeon, M.S., Gupta, R.K., Jeon, Y., Kalia, V.C., Kim, S.C., Cho, B.K., Kim, D. R., Lee, J.K., 2019. Patel, S.K.S., Gupta, R.K., Kondaveeti, S., Otari, S.V., Kumar, A., Kalia, V.C., Lee, J.K., 2020a. Patel, S.K.S., Gupta, R.K., Kumar, V., Kondaveeti, S., Kumar, A., Das, D., Kalia, V.C., Lee, J.K., 2020b. https://doi.org/10.1007/ s12088-020-00883-6.\n\nPatel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c. Patel, S.K.S., Shanmugam, R., Kalia, V.C., Lee, J.K., 2020d.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 27,
+          "sentence_range": [
+            35,
+            82
+          ],
+          "document_offsets": {
+            "start": 39716,
+            "end": 42599
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 35,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 275,
+            "end": 280,
+            "sentence_id": 41,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 556,
+            "end": 561,
+            "sentence_id": 46,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 787,
+            "end": 792,
+            "sentence_id": 51,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1082,
+            "end": 1087,
+            "sentence_id": 56,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1409,
+            "end": 1414,
+            "sentence_id": 60,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1700,
+            "end": 1705,
+            "sentence_id": 64,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2040,
+            "end": 2045,
+            "sentence_id": 70,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2316,
+            "end": 2321,
+            "sentence_id": 74,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2584,
+            "end": 2589,
+            "sentence_id": 78,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2823,
+            "end": 2828,
+            "sentence_id": 82,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 787,
+            "end": 891,
+            "sentence_id": 51,
+            "matched_text": "Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x61a",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 4\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified. However, the boundary quality could be improved by ensuring that the subject and object are clearly separated from other entities in the sentence.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.3890321254730225
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Patel is author of\" is directly stated in the source sentence as the authors are listed for each publication. The subject and object boundaries are correctly identified, as they correspond to the author's name (subject) and the list of co-authors (object).",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Patel is author of\" is directly stated in the source sentence as the authors are listed for each publication. The subject and object boundaries are correctly identified, as they correspond to the author's name (subject) and the list of co-authors (object).",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.93213415145874
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Patel is the author of a specific paper. The entity boundaries are also correctly identified, with \"Patel\" being the subject and the long list of authors being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.6913161277771
+      }
+    }
+  },
+  {
+    "id": "0x608",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3cb",
+      "name": "Kort",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e4",
+      "name": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+    "hub_connectivity": 14,
+    "source_span": {
+      "relation_id": "0x608",
+      "subject": "Kort",
+      "predicate": "is author of",
+      "object": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 33079,
+            "end": 33193
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 15,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Kort"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x608",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with no ambiguity or inference required. The entity boundaries (subject and object) are correctly identified as well, with the subject being \"Kort\" and the object being the list of authors.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.8885271549224854
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The extracted relation \"is author of\" is accurately represented in the sentence as Kort is one of the authors listed in the source. The relation is directly stated, and the entity boundaries are correctly identified since both the subject and object are properly extracted from the sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The extracted relation \"is author of\" is accurately represented in the sentence as Kort is one of the authors listed in the source. The relation is directly stated, and the entity boundaries are correctly identified since both the subject and object are properly extracted from the sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.298080205917358
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Kort is an author of the listed publication. The entity boundaries are also correctly identified, with \"Kort\" being the subject and the long list of authors being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.305344104766846
+      }
+    }
+  },
+  {
+    "id": "0x4e3",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x4e2",
+      "name": "Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023. Integration of biogas derived from dark fermentation and anaerobic digestion of biowaste to enhance methanol production by methanotrophs.",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "References",
+    "pages": [
+      8
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x4e3",
+      "subject": "Patel",
+      "predicate": "is author of",
+      "object": "Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023. Integration of biogas derived from dark fermentation and anaerobic digestion of biowaste to enhance methanol production by methanotrophs.",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Gupta, R.K., Kalia, V.C., Lee, J.K., 2021. Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023.",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 28,
+          "sentence_range": [
+            0,
+            5
+          ],
+          "document_offsets": {
+            "start": 42828,
+            "end": 43130
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 0,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 258,
+            "end": 263,
+            "sentence_id": 5,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x4e3",
+      "section": "References",
+      "pages": [
+        8
+      ],
+      "bbox_data": [
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 531.0139997695312,
+            "r": 288.553,
+            "b": 501.2419997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 499.0959997695312,
+            "r": 287.888,
+            "b": 469.3809997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 467.2349997695312,
+            "r": 288.549,
+            "b": 445.4559997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 443.3109997695312,
+            "r": 287.816,
+            "b": 397.6079997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 395.5199997695312,
+            "r": 288.553,
+            "b": 373.7399997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 738.2239997695312,
+            "r": 557.548,
+            "b": 708.4519997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 706.3629997695313,
+            "r": 557.551,
+            "b": 676.5909997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 674.4449997695313,
+            "r": 555.8,
+            "b": 644.6729997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 642.5839997695311,
+            "r": 552.15,
+            "b": 620.8059997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 618.6599997695312,
+            "r": 557.549,
+            "b": 588.8879997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 586.7989997695312,
+            "r": 557.535,
+            "b": 557.0269997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 555.3289997695312,
+            "r": 557.539,
+            "b": 525.1659997695313,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 523.0199997695312,
+            "r": 557.517,
+            "b": 501.2419997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 499.0959997695312,
+            "r": 557.541,
+            "b": 477.3169997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 475.2289997695312,
+            "r": 548.772,
+            "b": 453.3929997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 451.3049997695312,
+            "r": 557.558,
+            "b": 413.5949997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 306.592,
+            "t": 411.4499997695312,
+            "r": 547.737,
+            "b": 389.6709997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 3\n**JUSTIFICATION:** The extracted relation is accurately represented in the sentence, as it correctly states that Patel is associated with a publication. However, the faithfulness rating is not a perfect score because the source sentence does not explicitly state \"is author of\" but rather lists authors and their corresponding publications.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.9958181381225586
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: No\nFAITHFULNESS: 1 (Hallucinated)\nBOUNDARY_QUALITY: N/A\nJUSTIFICATION: The relation \"is author of\" is not accurately represented in the sentence as there is no mention of any paper or publication being authored by Patel. The sentence only mentions the authors' names without specifying any work they are associated with.",
+        "parsed": {
+          "accuracy": false,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"is author of\" is not accurately represented in the sentence as there is no mention of any paper or publication being authored by Patel. The sentence only mentions the authors' names without specifying any work they are associated with.",
+          "parse_error": "Invalid boundary quality: N/A"
+        },
+        "error": null,
+        "inference_time": 5.387726068496704
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Patel is the author of a specific paper. The entity boundaries are correctly identified, with \"Patel\" being the subject and the rest of the sentence describing the object (the paper).",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.329647064208984
+      }
+    }
+  },
+  {
+    "id": "0x2b5",
+    "predicate": "makes up",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x2b4",
+      "name": "half of n",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "3.4. Determination of methanol yield",
+    "pages": [
+      6
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x2b5",
+      "subject": "Methane",
+      "predicate": "makes up",
+      "object": "half of n",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "The moles of headspace gas (equimolar mixture of air and methane) can be calculated using ideal gas equation: PV = nRT. GLYPH<0> 1 , T = 303 K, the total number of gas moles (n) in the headspace are 6.64 mmoles, half which accounts for methane. Considering the metabolic stoichiometry of 1 mol of methanol per mol of methane,  the  total  percentage  consumption  of  methane  (or  in  other words methanol yield per mole of methane) is: 2.6/3.32 = 0.783 or 78.3 %.",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 18,
+          "sentence_range": [
+            1,
+            4
+          ],
+          "document_offsets": {
+            "start": 23770,
+            "end": 24328
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 57,
+            "end": 64,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 329,
+            "end": 336,
+            "sentence_id": 3,
+            "matched_text": "methane"
+          },
+          {
+            "start": 410,
+            "end": 417,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 461,
+            "end": 468,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 518,
+            "end": 525,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x2b5",
+      "section": "3.4. Determination of methanol yield",
+      "pages": [
+        6
+      ],
+      "bbox_data": [
+        {
+          "page": 6,
+          "bbox": {
+            "l": 37.588,
+            "t": 383.2079997695312,
+            "r": 291.031,
+            "b": 281.7289997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 4\n**JUSTIFICATION:** The relation \"makes up\" is accurately represented in the sentence, as it states that half of the total number of gas moles accounts for methane. The faithfulness rating is 5 because the relation is directly stated in the source sentence without any additional information or assumptions. The boundary quality rating is 4 because the subject and object boundaries are generally correct, but there might be some minor issues with the exact wording or phrasing (e.g., \"half which accounts for methane\" could be more precisely worded).",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.028800964355469
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 3 (The relation is partially supported as the sentence does not explicitly state that methane makes up half of something, but it is implied through the context and calculations)\nBOUNDARY_QUALITY: 5 (The entity boundaries are correctly identified in the source sentence)\nJUSTIFICATION: The relation is accurately represented in the sentence as it can be inferred from the context that methane makes up half of the total gas moles, given the information about the equimolar mixture and the calculation of the total number of gas moles. However, the sentence does not directly state this relation but rather implies it through calculations and context. The entity boundaries are correctly identified as \"methane\" is the subject and \"half\" is the object in the extracted relation.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation is accurately represented in the sentence as it can be inferred from the context that methane makes up half of the total gas moles, given the information about the equimolar mixture and the calculation of the total number of gas moles. However, the sentence does not directly state this relation but rather implies it through calculations and context. The entity boundaries are correctly identified as \"methane\" is the subject and \"half\" is the object in the extracted relation.",
+          "parse_error": "Invalid boundary quality: 5 (The entity boundaries are correctly identified in the source sentence)"
+        },
+        "error": null,
+        "inference_time": 8.347334861755371
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it correctly states that methane makes up half of the total number of gas moles. The entity boundaries are also perfectly identified, with \"methane\" being the subject and \"half of n\" being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.208066940307617
+      }
+    }
+  },
+  {
+    "id": "0x407",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3cb",
+      "name": "Kort",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e4",
+      "name": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "References",
+    "pages": [
+      7
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+    "hub_connectivity": 14,
+    "source_span": {
+      "relation_id": "0x407",
+      "subject": "Kort",
+      "predicate": "is author of",
+      "object": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 33079,
+            "end": 33193
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 15,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Kort"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x407",
+      "section": "References",
+      "pages": [
+        7
+      ],
+      "bbox_data": [
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 267.9619997695312,
+            "r": 288.564,
+            "b": 230.25199976953127,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 228.10699976953117,
+            "r": 271.68,
+            "b": 206.32799976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 204.23899976953123,
+            "r": 288.529,
+            "b": 174.46699976953118,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 172.3219997695312,
+            "r": 266.515,
+            "b": 158.53599976953114,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 156.39099976953116,
+            "r": 288.298,
+            "b": 134.61199976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 132.46699976953118,
+            "r": 267.641,
+            "b": 126.61899976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 124.52999976953117,
+            "r": 288.525,
+            "b": 94.75799976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 92.66899976953118,
+            "r": 288.536,
+            "b": 62.89699976953125,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 738.2209997695312,
+            "r": 536.531,
+            "b": 724.3789997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 722.2909997695313,
+            "r": 545.935,
+            "b": 692.5179997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 690.3729997695312,
+            "r": 557.534,
+            "b": 668.5939997695313,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 666.5059997695312,
+            "r": 557.549,
+            "b": 620.8019997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 618.6569997695312,
+            "r": 557.561,
+            "b": 596.8779997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 594.7329997695311,
+            "r": 557.511,
+            "b": 572.9539997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 570.8659997695312,
+            "r": 557.532,
+            "b": 549.0299997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 546.9409997695312,
+            "r": 557.526,
+            "b": 517.1689997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 515.0799997695312,
+            "r": 552.913,
+            "b": 493.24399976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 491.1559997695312,
+            "r": 549.278,
+            "b": 453.3899997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 451.3019997695312,
+            "r": 557.513,
+            "b": 421.5289997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 419.4409997695312,
+            "r": 557.558,
+            "b": 389.6679997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with no ambiguity or inference required. The entity boundaries (subject and object) are correctly identified as well, with the subject being \"Kort\" and the object being the list of authors.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.738919973373413
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The extracted relation \"is author of\" is accurately represented in the sentence as Kort is one of the authors listed in the source. The relation is directly stated, and the entity boundaries are correctly identified since both the subject and object are properly extracted from the sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The extracted relation \"is author of\" is accurately represented in the sentence as Kort is one of the authors listed in the source. The relation is directly stated, and the entity boundaries are correctly identified since both the subject and object are properly extracted from the sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.252093315124512
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Kort is an author of the listed publication. The entity boundaries are also correctly identified, with \"Kort\" being the subject and the long list of authors being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.347977161407471
+      }
+    }
+  },
+  {
+    "id": "0x3f",
+    "predicate": "is a major greenhouse gas",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e",
+      "name": "GHG",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "1. Introduction",
+    "pages": [
+      1
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x3f",
+      "subject": "Methane",
+      "predicate": "is a major greenhouse gas",
+      "object": "GHG",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Methane  is  the  smallest  of  the  hydrocarbon  family  in  its  most reduced form, which means it is packed with potential energy. It is also a major greenhouse gas (GHG) which is also called a short-term enforcer, i.e. it persists in the atmosphere for shorter duration, as compared to carbon dioxide (CO2) that can stay in atmosphere for thousand years, but its heating effect is much more potent than that of CO2. Thus, even with a shorter lifespan, methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2  due to its higher solar  radiation  capturing  efficiency  (Priyadarsini  et  al.,  2020).",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 4,
+          "sentence_range": [
+            0,
+            2
+          ],
+          "document_offsets": {
+            "start": 663,
+            "end": 1313
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 456,
+            "end": 463,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 169,
+            "end": 172,
+            "sentence_id": 1,
+            "matched_text": "GHG"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x3f",
+      "section": "1. Introduction",
+      "pages": [
+        1
+      ],
+      "bbox_data": [
+        {
+          "page": 1,
+          "bbox": {
+            "l": 37.587,
+            "t": 334.0539997695312,
+            "r": 291.029,
+            "b": 148.95499976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is a major greenhouse gas\" is directly stated in the source sentence, and the entity boundaries (subject \"Methane\" and object \"GHG\") are correctly identified.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.499372959136963
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methane is a major greenhouse gas\" is directly stated in the source sentence. The subject and object boundaries are correctly identified as \"Methane\" and \"GHG\", respectively, which are the entities involved in the relation.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methane is a major greenhouse gas\" is directly stated in the source sentence. The subject and object boundaries are correctly identified as \"Methane\" and \"GHG\", respectively, which are the entities involved in the relation.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.941147804260254
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, with \"Methane\" being explicitly mentioned as a major greenhouse gas (GHG). The entity boundaries are also correctly identified, with \"Methane\" starting at character 0 and \"GHG\" ending at character 172.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.374564170837402
+      }
+    }
+  },
+  {
+    "id": "0x522",
+    "predicate": "are sources of",
+    "subject": {
+      "id": "0x1d",
+      "name": "Methanotrophs",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0xaf",
+      "name": "Natural gas fields",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methanotrophs",
+    "hub_connectivity": 15,
+    "source_span": {
+      "relation_id": "0x522",
+      "subject": "Methanotrophs",
+      "predicate": "are sources of",
+      "object": "Natural gas fields",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Major  sources  of  methanotrophs  include  agricultural  rice  fields, natural gas fields, dairy and cattle industries, etc. The difference in the  rate  of  production  and  emission  can  be  explained  by  methane oxidation by the methanotrophs present in the oxic regions of the rice roots  and  rhizospheres  (Conrad  and  Rothfuss,  1991). The  conversion efficiencies  of  transported  methane  by  methanotrophs  remain  in  the range of 70 -95 % in the soil-water interface (Epp and Chanton, 1993; Gilbert  and  Frenzel,  1995). The  rice  field  rhizosphere  community comprises of type I and type II methanotrophs. In fact, no Type I methanotrophs had been isolated from rice rhizosphere, rice roots, bulk soil or floodwater and  only  their  presence  was  confirmed  using  molecular  techniques (Dianou et al., 2012; Pandit et al., 2016; Takeda et al., 2008). Several methanotrophs  with pmoA lineages  from  rice  paddy  cluster  (e.g., RPC1 -3)  have  been  detected  but  remain  uncultured  till  date  (Knief, 2015; L\u00fcke et al., 2014). Methanol production capability of these methanotrophs is yet to be studied. Thus, rice field was chosen for this study since  they  are  a  breaming  source  of  methanotrophs  and  they  are commonly found across India.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 6,
+          "sentence_range": [
+            0,
+            16
+          ],
+          "document_offsets": {
+            "start": 6687,
+            "end": 9190
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 817,
+            "end": 830,
+            "sentence_id": 6,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1210,
+            "end": 1223,
+            "sentence_id": 8,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1416,
+            "end": 1429,
+            "sentence_id": 9,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1727,
+            "end": 1740,
+            "sentence_id": 12,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1964,
+            "end": 1977,
+            "sentence_id": 13,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 2321,
+            "end": 2334,
+            "sentence_id": 15,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 2443,
+            "end": 2456,
+            "sentence_id": 16,
+            "matched_text": "methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 72,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "natural gas fields"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x522",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"are sources of\" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as methanotrophs being sources of natural gas fields.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.850245714187622
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 3 (The relation is partially supported as the sentence mentions \"Major sources of methanotrophs include...\", implying that multiple sources exist, but it does not exclude natural gas fields)\nBOUNDARY_QUALITY: 5 (The subject and object boundaries are correctly identified in the sentence)\nJUSTIFICATION: The subject \"methanotrophs\" is explicitly mentioned as a source, and the object \"natural gas fields\" is listed among the major sources of methanotrophs. However, the relation is only partially supported because the sentence implies that there are multiple sources, not just natural gas fields.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The subject \"methanotrophs\" is explicitly mentioned as a source, and the object \"natural gas fields\" is listed among the major sources of methanotrophs. However, the relation is only partially supported because the sentence implies that there are multiple sources, not just natural gas fields.",
+          "parse_error": "Invalid boundary quality: 5 (The subject and object boundaries are correctly identified in the sentence)"
+        },
+        "error": null,
+        "inference_time": 8.314594984054565
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, with \"methanotrophs\" being mentioned as sources of natural gas fields. The entity boundaries are correctly identified, with \"methanotrophs\" starting at character 20 and \"natural gas fields\" starting at character 72.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.256389856338501
+      }
+    }
+  },
+  {
+    "id": "0x621",
+    "predicate": "is co-author with",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x44a",
+      "name": "Kumar, V.",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x621",
+      "subject": "Patel",
+      "predicate": "is co-author with",
+      "object": "Kumar, V.",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a. Patel, S.K.S., Mardina, P., Kim, D., Kim, S.Y., Kalia, V.C., Kim, I.W., Lee, J.K., 2016b. Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c. Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017. Patel, S.K.S., Kondaveeti, S., Otari, S.V., Pagolu, R.T., Jeong, S.H., Kim, S.C., Cho, B.K., Kang, Y.C., Lee, J.K., 2018a. Patel, S.K.S., Kumar, V., Mardina, P., Li, J., Lestari, R., Kalia, V.C., Lee, J.K., 2018b. Patel, S.K.S., Jeon, M.S., Gupta, R.K., Jeon, Y., Kalia, V.C., Kim, S.C., Cho, B.K., Kim, D. R., Lee, J.K., 2019. Patel, S.K.S., Gupta, R.K., Kondaveeti, S., Otari, S.V., Kumar, A., Kalia, V.C., Lee, J.K., 2020a. Patel, S.K.S., Gupta, R.K., Kumar, V., Kondaveeti, S., Kumar, A., Das, D., Kalia, V.C., Lee, J.K., 2020b. https://doi.org/10.1007/ s12088-020-00883-6.\n\nPatel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c. Patel, S.K.S., Shanmugam, R., Kalia, V.C., Lee, J.K., 2020d.",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 27,
+          "sentence_range": [
+            35,
+            82
+          ],
+          "document_offsets": {
+            "start": 39716,
+            "end": 42599
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 35,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 275,
+            "end": 280,
+            "sentence_id": 41,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 556,
+            "end": 561,
+            "sentence_id": 46,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 787,
+            "end": 792,
+            "sentence_id": 51,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1082,
+            "end": 1087,
+            "sentence_id": 56,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1409,
+            "end": 1414,
+            "sentence_id": 60,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1700,
+            "end": 1705,
+            "sentence_id": 64,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2040,
+            "end": 2045,
+            "sentence_id": 70,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2316,
+            "end": 2321,
+            "sentence_id": 74,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2584,
+            "end": 2589,
+            "sentence_id": 78,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2823,
+            "end": 2828,
+            "sentence_id": 82,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x621",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**Extracted Relation:**\nSubject: Patel\nPredicate: is co-author with\nObject: Kumar, V.\n\n**Source Sentence:**\nPatel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a. Patel, S.K.S., Mardina, P., Kim, D., Kim, S.Y., Kalia, V.C., Kim, I.W., Lee, J.K, 2016b. Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c. Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017. Patel, S.K.S., Kondaveeti, S., Otari, S.V., Pagolu, R.T., Jeong, S.H., Kim, S.C., Cho, B.K., Kang, Y.C., Lee, J.K., 2018a. Patel, S.K.S., Kumar, V., Mardina, P., Li, J., Lestari, R., Kalia, V.C., Lee, J.K., 2018b. Patel, S.K.S., Jeon, M.S., Gupta, R.K., Jeon, Y., Kalia, V.C., Kim, S.C., Cho, B.K., Kim, D. R., Lee, J.K., 2019. Patel, S.K.S., Gupta, R.K., Kondaveeti, S., Otari, S.V., Kumar, A., Kalia, V.C., Lee, J.K., 2020a. Patel, S.K.S., Gupta, R.K., Kumar, V., Kondaveeti, S., Kumar, A., Das, D., Kalia, V.C., Lee, J.K., 2020b. https://doi.org/10.1007/ s12088-020-00883-6.\n\nPatel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c. Patel, S.K.S., Shanmugam, R., Kalia, V.C., Lee, J.K., 2020d.\n\n**ACCURACY:** Yes\n\n**FAITHFULNESS:** 5\nThe relation is directly stated in the source sentence as \"Patel, S.K.S., Kumar, V., ...\".\n\n**BOUNDARY_QUALITY:** 5\nThe entity boundaries (subject and object) are correctly identified as Patel and Kumar, V. respectively.\n\n**JUSTIFICATION:** The extracted relation accurately represents the relationship between Patel and Kumar, V. in the source sentence, which is directly stated. The subject and object boundaries are also correctly identified, indicating a perfect match with the original text.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 16.795225858688354
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"is co-author with\" is directly stated in the source sentence as Patel is listed as a co-author with various authors in multiple publications. The subject and object boundaries are correctly identified, as the subject \"Patel\" is the author mentioned at the beginning of each publication, while \"Kumar, V.\" is one of the co-authors listed in the 2018b and 2020a publications.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"is co-author with\" is directly stated in the source sentence as Patel is listed as a co-author with various authors in multiple publications. The subject and object boundaries are correctly identified, as the subject \"Patel\" is the author mentioned at the beginning of each publication, while \"Kumar, V.\" is one of the co-authors listed in the 2018b and 2020a publications.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 7.9872541427612305
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, and the entity boundaries (subject \"Patel\" and object \"Kumar, V.\") are correctly identified.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.607976913452148
+      }
+    }
+  },
+  {
+    "id": "0x4fd",
+    "predicate": "is also called",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x33",
+      "name": "a short-term enforcer",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x4fd",
+      "subject": "Methane",
+      "predicate": "is also called",
+      "object": "a short-term enforcer",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Methane  is  the  smallest  of  the  hydrocarbon  family  in  its  most reduced form, which means it is packed with potential energy. It is also a major greenhouse gas (GHG) which is also called a short-term enforcer, i.e. it persists in the atmosphere for shorter duration, as compared to carbon dioxide (CO2) that can stay in atmosphere for thousand years, but its heating effect is much more potent than that of CO2. Thus, even with a shorter lifespan, methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2  due to its higher solar  radiation  capturing  efficiency  (Priyadarsini  et  al.,  2020).",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 4,
+          "sentence_range": [
+            0,
+            2
+          ],
+          "document_offsets": {
+            "start": 663,
+            "end": 1313
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 456,
+            "end": 463,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 195,
+            "end": 216,
+            "sentence_id": 1,
+            "matched_text": "a short-term enforcer"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x4fd",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is also called\" is accurately represented in the sentence, as it explicitly states that methane is also referred to as a short-term enforcer. The source sentence directly supports this relation with the phrase \"which is also called a short-term enforcer\".",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.678380012512207
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: No\nFAITHFULNESS: 3 (Partially supported)\nBOUNDARY_QUALITY: 4 (Good)\n\nJUSTIFICATION: The relation \"is also called\" is partially supported in the sentence as methane is indeed referred to as a short-term enforcer, but this term is specifically used in reference to its greenhouse gas properties, not as a general name for methane. Therefore, the extracted relation does not accurately represent the information provided in the source sentence. The entity boundaries are correctly identified, however, as \"Methane\" and \"a short-term enforcer\" are both explicitly mentioned in the text.",
+        "parsed": {
+          "accuracy": false,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"is also called\" is partially supported in the sentence as methane is indeed referred to as a short-term enforcer, but this term is specifically used in reference to its greenhouse gas properties, not as a general name for methane. Therefore, the extracted relation does not accurately represent the information provided in the source sentence. The entity boundaries are correctly identified, however, as \"Methane\" and \"a short-term enforcer\" are both explicitly mentioned in the text.",
+          "parse_error": "Invalid boundary quality: 4 (Good)"
+        },
+        "error": null,
+        "inference_time": 7.177297115325928
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, and the entity boundaries (subject \"Methane\" and object \"a short-term enforcer\") are correctly identified.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.361271142959595
+      }
+    }
+  },
+  {
+    "id": "0x5ef",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x398",
+      "name": "Sweeney",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e4",
+      "name": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+    "hub_connectivity": 14,
+    "source_span": {
+      "relation_id": "0x5ef",
+      "subject": "Sweeney",
+      "predicate": "is author of",
+      "object": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 33079,
+            "end": 33193
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 103,
+            "sentence_id": 0,
+            "matched_text": "Sweeney"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x5ef",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with no ambiguity or inference required. The entity boundaries (subject and object) are correctly identified as Sweeney being the subject and Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017 being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.7116849422454834
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (The relation is directly stated in the source)\nBOUNDARY_QUALITY: 5 (Both subject and object boundaries are correctly identified)\nJUSTIFICATION: The sentence explicitly lists Sweeney as one of the authors, which confirms that he is indeed an author of the paper. The subject and object boundaries are correctly identified because they correspond to the actual positions of Sweeney's name in the author list.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The sentence explicitly lists Sweeney as one of the authors, which confirms that he is indeed an author of the paper. The subject and object boundaries are correctly identified because they correspond to the actual positions of Sweeney's name in the author list.",
+          "parse_error": "Invalid boundary quality: 5 (Both subject and object boundaries are correctly identified)"
+        },
+        "error": null,
+        "inference_time": 5.554330110549927
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence as it directly states that Sweeney is an author of the mentioned publication. The entity boundaries are also correctly identified, with \"Sweeney\" clearly marked as the subject and the list of authors following as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.006147146224976
+      }
+    }
+  },
+  {
+    "id": "0x455",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x454",
+      "name": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "References",
+    "pages": [
+      8,
+      7
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x455",
+      "subject": "Patel",
+      "predicate": "is author of",
+      "object": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a. Patel, S.K.S., Mardina, P., Kim, D., Kim, S.Y., Kalia, V.C., Kim, I.W., Lee, J.K., 2016b. Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c. Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017. Patel, S.K.S., Kondaveeti, S., Otari, S.V., Pagolu, R.T., Jeong, S.H., Kim, S.C., Cho, B.K., Kang, Y.C., Lee, J.K., 2018a. Patel, S.K.S., Kumar, V., Mardina, P., Li, J., Lestari, R., Kalia, V.C., Lee, J.K., 2018b. Patel, S.K.S., Jeon, M.S., Gupta, R.K., Jeon, Y., Kalia, V.C., Kim, S.C., Cho, B.K., Kim, D. R., Lee, J.K., 2019. Patel, S.K.S., Gupta, R.K., Kondaveeti, S., Otari, S.V., Kumar, A., Kalia, V.C., Lee, J.K., 2020a. Patel, S.K.S., Gupta, R.K., Kumar, V., Kondaveeti, S., Kumar, A., Das, D., Kalia, V.C., Lee, J.K., 2020b. https://doi.org/10.1007/ s12088-020-00883-6.\n\nPatel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c. Patel, S.K.S., Shanmugam, R., Kalia, V.C., Lee, J.K., 2020d.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 27,
+          "sentence_range": [
+            35,
+            82
+          ],
+          "document_offsets": {
+            "start": 39716,
+            "end": 42599
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 35,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 275,
+            "end": 280,
+            "sentence_id": 41,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 556,
+            "end": 561,
+            "sentence_id": 46,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 787,
+            "end": 792,
+            "sentence_id": 51,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1082,
+            "end": 1087,
+            "sentence_id": 56,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1409,
+            "end": 1414,
+            "sentence_id": 60,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1700,
+            "end": 1705,
+            "sentence_id": 64,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2040,
+            "end": 2045,
+            "sentence_id": 70,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2316,
+            "end": 2321,
+            "sentence_id": 74,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2584,
+            "end": 2589,
+            "sentence_id": 78,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2823,
+            "end": 2828,
+            "sentence_id": 82,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 115,
+            "sentence_id": 35,
+            "matched_text": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x455",
+      "section": "References",
+      "pages": [
+        8,
+        7
+      ],
+      "bbox_data": [
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 387.5229997695312,
+            "r": 557.55,
+            "b": 365.74399976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 363.5989997695312,
+            "r": 557.552,
+            "b": 333.8829997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 331.7379997695312,
+            "r": 557.53,
+            "b": 301.9649997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 299.8769997695312,
+            "r": 557.509,
+            "b": 270.10399976953113,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 267.95899976953115,
+            "r": 541.696,
+            "b": 246.17899976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 244.0909997695312,
+            "r": 551.662,
+            "b": 206.32499976953113,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 204.2359997695312,
+            "r": 557.524,
+            "b": 190.3939997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 188.30599976953124,
+            "r": 557.542,
+            "b": 158.53299976953122,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 156.38799976953123,
+            "r": 557.512,
+            "b": 126.61499976953121,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 124.52699976953124,
+            "r": 550.598,
+            "b": 102.74799976953125,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 100.60299976953115,
+            "r": 552.84,
+            "b": 70.82999976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 68.74199976953116,
+            "r": 557.557,
+            "b": 54.89999976953118,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 756.7049997695312,
+            "r": 503.055,
+            "b": 750.8569997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 49.55,
+            "t": 738.2239997695312,
+            "r": 285.309,
+            "b": 724.3819997695311,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 722.2939997695312,
+            "r": 279.67,
+            "b": 692.5209997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 690.3759997695312,
+            "r": 288.557,
+            "b": 652.6669997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 650.5219997695312,
+            "r": 285.033,
+            "b": 620.8059997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 618.6599997695312,
+            "r": 288.53,
+            "b": 588.8879997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 586.7989997695312,
+            "r": 288.208,
+            "b": 565.0199997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 562.8759997695312,
+            "r": 278.982,
+            "b": 533.1029997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 4\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified. However, the boundary quality could be improved by ensuring that the subject and object are clearly separated from other entities in the sentence.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.306199073791504
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"is author of\" is accurately represented in the sentence as the authors listed are indeed the authors of a paper. The relation is directly stated in the source. The entity boundaries (subject and object) are correctly identified, as the subject \"Patel\" is the author and the object is the list of co-authors for the specific paper.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"is author of\" is accurately represented in the sentence as the authors listed are indeed the authors of a paper. The relation is directly stated in the source. The entity boundaries (subject and object) are correctly identified, as the subject \"Patel\" is the author and the object is the list of co-authors for the specific paper.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 7.426983118057251
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Patel is the author of the listed publication. The entity boundaries are also correctly identified, with \"Patel\" being the subject and the long list of authors being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.344475984573364
+      }
+    }
+  },
+  {
+    "id": "0x525",
+    "predicate": "are present in abundance in",
+    "subject": {
+      "id": "0x1d",
+      "name": "Methanotrophs",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0xd8",
+      "name": "rice fields",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methanotrophs",
+    "hub_connectivity": 15,
+    "source_span": {
+      "relation_id": "0x525",
+      "subject": "Methanotrophs",
+      "predicate": "are present in abundance in",
+      "object": "rice fields",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Major  sources  of  methanotrophs  include  agricultural  rice  fields, natural gas fields, dairy and cattle industries, etc. It is interesting to note that majority of methane (90 %) emitted in the wetland rice fields comes from the vascular transport system within the rice plants instead of ebullition or diffusion through the rhizosphere. The rate at which methane is emitted is much less ( < 20 %) than the actual rate of production in the rice fields. The difference in the  rate  of  production  and  emission  can  be  explained  by  methane oxidation by the methanotrophs present in the oxic regions of the rice roots  and  rhizospheres  (Conrad  and  Rothfuss,  1991). Thus,  they  are present in abundance in rice fields and they act as the main methane sink where they capture around 20 % of methane evolved due to decaying of water-logged  organic  matter  (Rahalkar  et  al.,  2021). The  conversion efficiencies  of  transported  methane  by  methanotrophs  remain  in  the range of 70 -95 % in the soil-water interface (Epp and Chanton, 1993; Gilbert  and  Frenzel,  1995). The  rice  field  rhizosphere  community comprises of type I and type II methanotrophs. In fact, no Type I methanotrophs had been isolated from rice rhizosphere, rice roots, bulk soil or floodwater and  only  their  presence  was  confirmed  using  molecular  techniques (Dianou et al., 2012; Pandit et al., 2016; Takeda et al., 2008). Several methanotrophs  with pmoA lineages  from  rice  paddy  cluster  (e.g., RPC1 -3)  have  been  detected  but  remain  uncultured  till  date  (Knief, 2015; L\u00fcke et al., 2014). Methanol production capability of these methanotrophs is yet to be studied. Thus, rice field was chosen for this study since  they  are  a  breaming  source  of  methanotrophs  and  they  are commonly found across India.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 6,
+          "sentence_range": [
+            0,
+            16
+          ],
+          "document_offsets": {
+            "start": 6687,
+            "end": 9190
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 817,
+            "end": 830,
+            "sentence_id": 6,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1210,
+            "end": 1223,
+            "sentence_id": 8,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1416,
+            "end": 1429,
+            "sentence_id": 9,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1727,
+            "end": 1740,
+            "sentence_id": 12,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1964,
+            "end": 1977,
+            "sentence_id": 13,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 2321,
+            "end": 2334,
+            "sentence_id": 15,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 2443,
+            "end": 2456,
+            "sentence_id": 16,
+            "matched_text": "methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 457,
+            "end": 468,
+            "sentence_id": 4,
+            "matched_text": "rice fields"
+          },
+          {
+            "start": 695,
+            "end": 706,
+            "sentence_id": 5,
+            "matched_text": "rice fields"
+          },
+          {
+            "start": 971,
+            "end": 982,
+            "sentence_id": 7,
+            "matched_text": "rice fields"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x525",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that methanotrophs are present in abundance in rice fields. The source explicitly mentions this connection multiple times, providing strong evidence for its accuracy.\n\nNote: The high faithfulness rating (5) indicates that the relation is directly stated and supported by multiple sources within the same text.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.6370849609375
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methanotrophs are present in abundance in rice fields\" is directly stated in the sentence. The subject and object boundaries are correctly identified as \"methanotrophs\" and \"rice fields\", respectively, since these entities are explicitly mentioned in the source text.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methanotrophs are present in abundance in rice fields\" is directly stated in the sentence. The subject and object boundaries are correctly identified as \"methanotrophs\" and \"rice fields\", respectively, since these entities are explicitly mentioned in the source text.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.473598003387451
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**Accuracy:** Yes\n**Faithfulness:** 5\n**Boundary Quality:** 5\n**Justification:** The relation is directly stated in the sentence as \"they are present in abundance in rice fields\", which matches the extracted relation. The entity boundaries (subject and object) are correctly identified, with \"methanotrophs\" being the subject and \"rice fields\" being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.580772876739502
+      }
+    }
+  },
+  {
+    "id": "0x610",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3a0",
+      "name": "Lin",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e6",
+      "name": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x610",
+      "subject": "Lin",
+      "predicate": "is author of",
+      "object": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Jiang, D., Ge, X., Lin, L., Chen, Z., Zhang, Q., Li, Y., 2023. Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001. Transcriptomic profiling of Methylococcus capsulatus (Bath) during growth with two different methane monooxygenases.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            47,
+            86
+          ],
+          "document_offsets": {
+            "start": 34950,
+            "end": 36946
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 19,
+            "end": 22,
+            "sentence_id": 47,
+            "matched_text": "Lin"
+          },
+          {
+            "start": 572,
+            "end": 575,
+            "sentence_id": 57,
+            "matched_text": "Lin"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 486,
+            "end": 629,
+            "sentence_id": 57,
+            "matched_text": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x610",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 3\n**JUSTIFICATION:** The relation \"is author of\" is accurately represented in the sentence, as it states that Lin is an author of a specific work. However, the faithfulness rating is not a perfect 5 because the source sentence does not explicitly state that Lin is the primary or sole author of the work. The boundary quality rating is 3 because while the subject and object positions are generally correct, there might be some minor discrepancies in the punctuation or formatting of the extracted relation compared to the original sentence.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.964211940765381
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The extracted relation \"Lin is author of Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001\" is accurately represented in the sentence as it clearly states that Lin is an author of the paper mentioned. The relation is directly stated and there are no ambiguities or errors in the extraction. The entity boundaries (subject and object) are correctly identified as \"Lin\" is the subject who is an author, and the object is the list of authors and the publication year which is mentioned after Lin's name in the source sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The extracted relation \"Lin is author of Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001\" is accurately represented in the sentence as it clearly states that Lin is an author of the paper mentioned. The relation is directly stated and there are no ambiguities or errors in the extraction. The entity boundaries (subject and object) are correctly identified as \"Lin\" is the subject who is an author, and the object is the list of authors and the publication year which is mentioned after Lin's name in the source sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 9.62927794456482
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Lin is an author of a paper published in 2001. The entity boundaries are also correctly identified, with \"Lin\" being the subject and the list of authors being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.371006965637207
+      }
+    }
+  },
+  {
+    "id": "0x3fb",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3c8",
+      "name": "Trotsenko",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e6",
+      "name": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "References",
+    "pages": [
+      7
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x3fb",
+      "subject": "Trotsenko",
+      "predicate": "is author of",
+      "object": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            57,
+            57
+          ],
+          "document_offsets": {
+            "start": 35436,
+            "end": 35580
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 124,
+            "end": 133,
+            "sentence_id": 57,
+            "matched_text": "Trotsenko"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 143,
+            "sentence_id": 57,
+            "matched_text": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x3fb",
+      "section": "References",
+      "pages": [
+        7
+      ],
+      "bbox_data": [
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 267.9619997695312,
+            "r": 288.564,
+            "b": 230.25199976953127,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 228.10699976953117,
+            "r": 271.68,
+            "b": 206.32799976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 204.23899976953123,
+            "r": 288.529,
+            "b": 174.46699976953118,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 172.3219997695312,
+            "r": 266.515,
+            "b": 158.53599976953114,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 156.39099976953116,
+            "r": 288.298,
+            "b": 134.61199976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 132.46699976953118,
+            "r": 267.641,
+            "b": 126.61899976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 124.52999976953117,
+            "r": 288.525,
+            "b": 94.75799976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 92.66899976953118,
+            "r": 288.536,
+            "b": 62.89699976953125,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 738.2209997695312,
+            "r": 536.531,
+            "b": 724.3789997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 722.2909997695313,
+            "r": 545.935,
+            "b": 692.5179997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 690.3729997695312,
+            "r": 557.534,
+            "b": 668.5939997695313,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 666.5059997695312,
+            "r": 557.549,
+            "b": 620.8019997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 618.6569997695312,
+            "r": 557.561,
+            "b": 596.8779997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 594.7329997695311,
+            "r": 557.511,
+            "b": 572.9539997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 570.8659997695312,
+            "r": 557.532,
+            "b": 549.0299997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 546.9409997695312,
+            "r": 557.526,
+            "b": 517.1689997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 515.0799997695312,
+            "r": 552.913,
+            "b": 493.24399976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 491.1559997695312,
+            "r": 549.278,
+            "b": 453.3899997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 451.3019997695312,
+            "r": 557.513,
+            "b": 421.5289997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 419.4409997695312,
+            "r": 557.558,
+            "b": 389.6679997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with Trotsenko explicitly mentioned as the author. The entity boundaries are also correctly identified, with Trotsenko as the subject and Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001 as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.086320877075195
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The relation \"is author of\" is accurately represented in the sentence, as Trotsenko is listed among the authors. The relation is directly stated since his name appears in the list of authors. The entity boundaries are correctly identified, as both the subject and object positions correspond to the correct entities in the source sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"is author of\" is accurately represented in the sentence, as Trotsenko is listed among the authors. The relation is directly stated since his name appears in the list of authors. The entity boundaries are correctly identified, as both the subject and object positions correspond to the correct entities in the source sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.848574161529541
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that Trotsenko is an author of the listed authors. The entity boundaries are also correctly identified, with \"Trotsenko\" clearly marked as the subject and the list of authors as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.4138641357421875
+      }
+    }
+  },
+  {
+    "id": "0xd2",
+    "predicate": "are sources of",
+    "subject": {
+      "id": "0x1d",
+      "name": "Methanotrophs",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0xaf",
+      "name": "Natural gas fields",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "A B S T R A C T",
+    "pages": [
+      2
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methanotrophs",
+    "hub_connectivity": 15,
+    "source_span": {
+      "relation_id": "0xd2",
+      "subject": "Methanotrophs",
+      "predicate": "are sources of",
+      "object": "Natural gas fields",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Major  sources  of  methanotrophs  include  agricultural  rice  fields, natural gas fields, dairy and cattle industries, etc. The difference in the  rate  of  production  and  emission  can  be  explained  by  methane oxidation by the methanotrophs present in the oxic regions of the rice roots  and  rhizospheres  (Conrad  and  Rothfuss,  1991). The  conversion efficiencies  of  transported  methane  by  methanotrophs  remain  in  the range of 70 -95 % in the soil-water interface (Epp and Chanton, 1993; Gilbert  and  Frenzel,  1995). The  rice  field  rhizosphere  community comprises of type I and type II methanotrophs. In fact, no Type I methanotrophs had been isolated from rice rhizosphere, rice roots, bulk soil or floodwater and  only  their  presence  was  confirmed  using  molecular  techniques (Dianou et al., 2012; Pandit et al., 2016; Takeda et al., 2008). Several methanotrophs  with pmoA lineages  from  rice  paddy  cluster  (e.g., RPC1 -3)  have  been  detected  but  remain  uncultured  till  date  (Knief, 2015; L\u00fcke et al., 2014). Methanol production capability of these methanotrophs is yet to be studied. Thus, rice field was chosen for this study since  they  are  a  breaming  source  of  methanotrophs  and  they  are commonly found across India.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 6,
+          "sentence_range": [
+            0,
+            16
+          ],
+          "document_offsets": {
+            "start": 6687,
+            "end": 9190
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 817,
+            "end": 830,
+            "sentence_id": 6,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1210,
+            "end": 1223,
+            "sentence_id": 8,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1416,
+            "end": 1429,
+            "sentence_id": 9,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1727,
+            "end": 1740,
+            "sentence_id": 12,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 1964,
+            "end": 1977,
+            "sentence_id": 13,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 2321,
+            "end": 2334,
+            "sentence_id": 15,
+            "matched_text": "methanotrophs"
+          },
+          {
+            "start": 2443,
+            "end": 2456,
+            "sentence_id": 16,
+            "matched_text": "methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 72,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "natural gas fields"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0xd2",
+      "section": "A B S T R A C T",
+      "pages": [
+        2
+      ],
+      "bbox_data": [
+        {
+          "page": 2,
+          "bbox": {
+            "l": 37.587,
+            "t": 403.4489997695312,
+            "r": 291.036,
+            "b": 50.93799976953119,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 2,
+          "bbox": {
+            "l": 306.593,
+            "t": 738.2169997695312,
+            "r": 415.561,
+            "b": 730.9059997695311,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 2,
+          "bbox": {
+            "l": 306.593,
+            "t": 727.7289997695312,
+            "r": 560.017,
+            "b": 458.8949997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"are sources of\" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as methanotrophs being sources of natural gas fields.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.780780076980591
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 3 (The relation is partially supported as the sentence mentions \"Major sources of methanotrophs include...\", implying that multiple sources exist, but it does not exclude natural gas fields)\nBOUNDARY_QUALITY: 5 (The subject and object boundaries are correctly identified in the sentence)\nJUSTIFICATION: The subject \"methanotrophs\" is explicitly mentioned as a source, and the object \"natural gas fields\" is listed among the major sources of methanotrophs. However, the relation is only partially supported because the sentence implies that there are multiple sources, not just natural gas fields.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The subject \"methanotrophs\" is explicitly mentioned as a source, and the object \"natural gas fields\" is listed among the major sources of methanotrophs. However, the relation is only partially supported because the sentence implies that there are multiple sources, not just natural gas fields.",
+          "parse_error": "Invalid boundary quality: 5 (The subject and object boundaries are correctly identified in the sentence)"
+        },
+        "error": null,
+        "inference_time": 8.297968864440918
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, with \"methanotrophs\" being mentioned as sources of natural gas fields. The entity boundaries are correctly identified, with \"methanotrophs\" starting at character 20 and \"natural gas fields\" starting at character 72.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 6.2789390087127686
+      }
+    }
+  },
+  {
+    "id": "0x45d",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x45c",
+      "name": "Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "References",
+    "pages": [
+      8,
+      7
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x45d",
+      "subject": "Patel",
+      "predicate": "is author of",
+      "object": "Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a. Patel, S.K.S., Mardina, P., Kim, D., Kim, S.Y., Kalia, V.C., Kim, I.W., Lee, J.K., 2016b. Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c. Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017. Patel, S.K.S., Kondaveeti, S., Otari, S.V., Pagolu, R.T., Jeong, S.H., Kim, S.C., Cho, B.K., Kang, Y.C., Lee, J.K., 2018a. Patel, S.K.S., Kumar, V., Mardina, P., Li, J., Lestari, R., Kalia, V.C., Lee, J.K., 2018b. Patel, S.K.S., Jeon, M.S., Gupta, R.K., Jeon, Y., Kalia, V.C., Kim, S.C., Cho, B.K., Kim, D. R., Lee, J.K., 2019. Patel, S.K.S., Gupta, R.K., Kondaveeti, S., Otari, S.V., Kumar, A., Kalia, V.C., Lee, J.K., 2020a. Patel, S.K.S., Gupta, R.K., Kumar, V., Kondaveeti, S., Kumar, A., Das, D., Kalia, V.C., Lee, J.K., 2020b. https://doi.org/10.1007/ s12088-020-00883-6.\n\nPatel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c. Patel, S.K.S., Shanmugam, R., Kalia, V.C., Lee, J.K., 2020d.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 27,
+          "sentence_range": [
+            35,
+            82
+          ],
+          "document_offsets": {
+            "start": 39716,
+            "end": 42599
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 35,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 275,
+            "end": 280,
+            "sentence_id": 41,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 556,
+            "end": 561,
+            "sentence_id": 46,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 787,
+            "end": 792,
+            "sentence_id": 51,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1082,
+            "end": 1087,
+            "sentence_id": 56,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1409,
+            "end": 1414,
+            "sentence_id": 60,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 1700,
+            "end": 1705,
+            "sentence_id": 64,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2040,
+            "end": 2045,
+            "sentence_id": 70,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2316,
+            "end": 2321,
+            "sentence_id": 74,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2584,
+            "end": 2589,
+            "sentence_id": 78,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 2823,
+            "end": 2828,
+            "sentence_id": 82,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2584,
+            "end": 2651,
+            "sentence_id": 78,
+            "matched_text": "Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x45d",
+      "section": "References",
+      "pages": [
+        8,
+        7
+      ],
+      "bbox_data": [
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 387.5229997695312,
+            "r": 557.55,
+            "b": 365.74399976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 363.5989997695312,
+            "r": 557.552,
+            "b": 333.8829997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 331.7379997695312,
+            "r": 557.53,
+            "b": 301.9649997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 299.8769997695312,
+            "r": 557.509,
+            "b": 270.10399976953113,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 267.95899976953115,
+            "r": 541.696,
+            "b": 246.17899976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 244.0909997695312,
+            "r": 551.662,
+            "b": 206.32499976953113,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 204.2359997695312,
+            "r": 557.524,
+            "b": 190.3939997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 188.30599976953124,
+            "r": 557.542,
+            "b": 158.53299976953122,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 156.38799976953123,
+            "r": 557.512,
+            "b": 126.61499976953121,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 124.52699976953124,
+            "r": 550.598,
+            "b": 102.74799976953125,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 100.60299976953115,
+            "r": 552.84,
+            "b": 70.82999976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 68.74199976953116,
+            "r": 557.557,
+            "b": 54.89999976953118,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 756.7049997695312,
+            "r": 503.055,
+            "b": 750.8569997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 49.55,
+            "t": 738.2239997695312,
+            "r": 285.309,
+            "b": 724.3819997695311,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 722.2939997695312,
+            "r": 279.67,
+            "b": 692.5209997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 690.3759997695312,
+            "r": 288.557,
+            "b": 652.6669997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 650.5219997695312,
+            "r": 285.033,
+            "b": 620.8059997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 618.6599997695312,
+            "r": 288.53,
+            "b": 588.8879997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 586.7989997695312,
+            "r": 288.208,
+            "b": 565.0199997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 8,
+          "bbox": {
+            "l": 37.588,
+            "t": 562.8759997695312,
+            "r": 278.982,
+            "b": 533.1029997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified. The extracted relation accurately represents the relationship between Patel and his publications.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.3051578998565674
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The extracted relation \"Patel is author of Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c\" is directly stated in the source sentence as the authors are listed for each publication. The entity boundaries are correctly identified as the subject \"Patel\" and the object is the list of authors including \"Patel\" from the given publication year 2020c.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The extracted relation \"Patel is author of Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c\" is directly stated in the source sentence as the authors are listed for each publication. The entity boundaries are correctly identified as the subject \"Patel\" and the object is the list of authors including \"Patel\" from the given publication year 2020c.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 8.860337972640991
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Patel is the author of the paper \"Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c\". The entity boundaries are also correctly identified, with \"Patel\" being the subject and the object being a specific paper written by Patel.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 8.117850065231323
+      }
+    }
+  },
+  {
+    "id": "0x602",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3b2",
+      "name": "McDonald",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e6",
+      "name": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x602",
+      "subject": "McDonald",
+      "predicate": "is author of",
+      "object": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            57,
+            57
+          ],
+          "document_offsets": {
+            "start": 35436,
+            "end": 35580
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 97,
+            "end": 105,
+            "sentence_id": 57,
+            "matched_text": "McDonald"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 143,
+            "sentence_id": 57,
+            "matched_text": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x602",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with the subject (\"McDonald\") and object (\"Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001\") clearly identified. The extracted relation accurately represents the sentence's meaning.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.933319091796875
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The relation \"McDonald is author of\" is accurately represented in the sentence as McDonald is listed among the authors. The relation is directly stated, and the entity boundaries are correctly identified since both subject and object are correctly extracted from the source sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"McDonald is author of\" is accurately represented in the sentence as McDonald is listed among the authors. The relation is directly stated, and the entity boundaries are correctly identified since both subject and object are correctly extracted from the source sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.151808977127075
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that McDonald is an author of the listed authors. The entity boundaries are also correctly identified, with \"McDonald\" clearly marked as the subject and the long list of authors marked as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.448981046676636
+      }
+    }
+  },
+  {
+    "id": "0x412",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3aa",
+      "name": "Suzina",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e6",
+      "name": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "References",
+    "pages": [
+      7
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x412",
+      "subject": "Suzina",
+      "predicate": "is author of",
+      "object": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            57,
+            57
+          ],
+          "document_offsets": {
+            "start": 35436,
+            "end": 35580
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 54,
+            "sentence_id": 57,
+            "matched_text": "Suzina"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 143,
+            "sentence_id": 57,
+            "matched_text": "Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x412",
+      "section": "References",
+      "pages": [
+        7
+      ],
+      "bbox_data": [
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 267.9619997695312,
+            "r": 288.564,
+            "b": 230.25199976953127,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 228.10699976953117,
+            "r": 271.68,
+            "b": 206.32799976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 204.23899976953123,
+            "r": 288.529,
+            "b": 174.46699976953118,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 172.3219997695312,
+            "r": 266.515,
+            "b": 158.53599976953114,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 156.39099976953116,
+            "r": 288.298,
+            "b": 134.61199976953117,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 132.46699976953118,
+            "r": 267.641,
+            "b": 126.61899976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 124.52999976953117,
+            "r": 288.525,
+            "b": 94.75799976953124,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 37.587,
+            "t": 92.66899976953118,
+            "r": 288.536,
+            "b": 62.89699976953125,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 738.2209997695312,
+            "r": 536.531,
+            "b": 724.3789997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 722.2909997695313,
+            "r": 545.935,
+            "b": 692.5179997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 690.3729997695312,
+            "r": 557.534,
+            "b": 668.5939997695313,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 666.5059997695312,
+            "r": 557.549,
+            "b": 620.8019997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 618.6569997695312,
+            "r": 557.561,
+            "b": 596.8779997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 594.7329997695311,
+            "r": 557.511,
+            "b": 572.9539997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 570.8659997695312,
+            "r": 557.532,
+            "b": 549.0299997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 546.9409997695312,
+            "r": 557.526,
+            "b": 517.1689997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 515.0799997695312,
+            "r": 552.913,
+            "b": 493.24399976953123,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 491.1559997695312,
+            "r": 549.278,
+            "b": 453.3899997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 451.3019997695312,
+            "r": 557.513,
+            "b": 421.5289997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 7,
+          "bbox": {
+            "l": 306.592,
+            "t": 419.4409997695312,
+            "r": 557.558,
+            "b": 389.6679997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with Suzina explicitly mentioned as the author. The entity boundaries are also correctly identified, with Suzina as the subject and Kaluzhnaya, M., Khmelenina, V., Eshinimaev, B., Suzina, N., Nikitin, D., Solonin, A., Lin, J.L., McDonald, I., Murrell, C., Trotsenko, Y., 2001 as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.253304958343506
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The relation \"is author of\" is accurately represented in the sentence, as Suzina is listed among the authors. The relation is directly stated since it is explicitly shown by her presence in the list of authors. The entity boundaries are correctly identified, as both the subject and object positions correspond to the correct entities in the source sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"is author of\" is accurately represented in the sentence, as Suzina is listed among the authors. The relation is directly stated since it is explicitly shown by her presence in the list of authors. The entity boundaries are correctly identified, as both the subject and object positions correspond to the correct entities in the source sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.832367181777954
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as Suzina is indeed listed among the authors of the publication. The entity boundaries are correctly identified, with \"Suzina\" clearly marked as the subject and the long list of authors preceding it serving as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.536484956741333
+      }
+    }
+  },
+  {
+    "id": "0x601",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3d3",
+      "name": "Peischl",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e4",
+      "name": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+    "hub_connectivity": 14,
+    "source_span": {
+      "relation_id": "0x601",
+      "subject": "Peischl",
+      "predicate": "is author of",
+      "object": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 33079,
+            "end": 33193
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "Peischl"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x601",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation \"is author of\" is directly stated in the source sentence, with no ambiguity or inference required. The entity boundaries (subject and object) are correctly identified as well, with the subject being \"Peischl\" and the object being the list of authors.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.6468281745910645
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The extracted relation \"is author of\" is accurately represented in the sentence as Peischl is listed among the authors. The relation is directly stated, as it is explicitly shown that he is one of the authors of the paper. The entity boundaries are correctly identified, as both the subject and object positions correspond to the correct entities in the source sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The extracted relation \"is author of\" is accurately represented in the sentence as Peischl is listed among the authors. The relation is directly stated, as it is explicitly shown that he is one of the authors of the paper. The entity boundaries are correctly identified, as both the subject and object positions correspond to the correct entities in the source sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 6.0063560009002686
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that Peischl is an author of the listed publication. The entity boundaries are also correctly identified, with \"Peischl\" clearly marked as the subject and the long list of authors following as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.593478202819824
+      }
+    }
+  },
+  {
+    "id": "0x635",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3ae",
+      "name": "Patel",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x4e2",
+      "name": "Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023. Integration of biogas derived from dark fermentation and anaerobic digestion of biowaste to enhance methanol production by methanotrophs.",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Patel",
+    "hub_connectivity": 32,
+    "source_span": {
+      "relation_id": "0x635",
+      "subject": "Patel",
+      "predicate": "is author of",
+      "object": "Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023. Integration of biogas derived from dark fermentation and anaerobic digestion of biowaste to enhance methanol production by methanotrophs.",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Patel, S.K.S., Gupta, R.K., Kalia, V.C., Lee, J.K., 2021. Patel, S.K.S., Kalia, V.C., Lee, J.K., 2023.",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 28,
+          "sentence_range": [
+            0,
+            5
+          ],
+          "document_offsets": {
+            "start": 42828,
+            "end": 43130
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 0,
+            "matched_text": "Patel"
+          },
+          {
+            "start": 258,
+            "end": 263,
+            "sentence_id": 5,
+            "matched_text": "Patel"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x635",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 3\n**JUSTIFICATION:** The extracted relation is accurately represented in the sentence, as it correctly states that Patel is associated with a publication. However, the faithfulness rating is not a perfect score because the source sentence does not explicitly state \"is author of\" but rather lists authors and their corresponding publications.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.0066187381744385
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: No\nFAITHFULNESS: 1 (Hallucinated)\nBOUNDARY_QUALITY: N/A\nJUSTIFICATION: The relation \"is author of\" is not accurately represented in the sentence as there is no mention of any paper or publication being authored by Patel. The sentence only mentions the authors' names without specifying any work they are associated with.",
+        "parsed": {
+          "accuracy": false,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"is author of\" is not accurately represented in the sentence as there is no mention of any paper or publication being authored by Patel. The sentence only mentions the authors' names without specifying any work they are associated with.",
+          "parse_error": "Invalid boundary quality: N/A"
+        },
+        "error": null,
+        "inference_time": 4.968456029891968
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it clearly states that Patel is the author of a specific paper. The entity boundaries are correctly identified, with \"Patel\" being the subject and the rest of the sentence describing the object (the paper).",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.960652589797974
+      }
+    }
+  },
+  {
+    "id": "0x60d",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x3d7",
+      "name": "Brandt",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e4",
+      "name": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+    "hub_connectivity": 14,
+    "source_span": {
+      "relation_id": "0x60d",
+      "subject": "Brandt",
+      "predicate": "is author of",
+      "object": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 33079,
+            "end": 33193
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 27,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Brandt"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x60d",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence as it directly states that Brandt is an author of a specific paper. The entity boundaries are correctly identified, with \"Brandt\" being the subject and \"Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017\" being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.7041869163513184
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The extracted relation \"is author of\" is accurately represented in the sentence as Brandt is listed among the authors. The relation is directly stated, and the entity boundaries are correctly identified since both the subject and object are correctly positioned in the source sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The extracted relation \"is author of\" is accurately represented in the sentence as Brandt is listed among the authors. The relation is directly stated, and the entity boundaries are correctly identified since both the subject and object are correctly positioned in the source sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.047399044036865
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, with \"Brandt\" explicitly mentioned as the author of the work listed after the comma. The entity boundaries are also correctly identified, with \"Brandt\" clearly marked as the subject and the long list of authors following it as the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.481132984161377
+      }
+    }
+  },
+  {
+    "id": "0x502",
+    "predicate": "persists in the atmosphere for shorter duration",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x40",
+      "name": "as compared to carbon dioxide (CO2)",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x502",
+      "subject": "Methane",
+      "predicate": "persists in the atmosphere for shorter duration",
+      "object": "as compared to carbon dioxide (CO2)",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "Methane  is  the  smallest  of  the  hydrocarbon  family  in  its  most reduced form, which means it is packed with potential energy. It is also a major greenhouse gas (GHG) which is also called a short-term enforcer, i.e. it persists in the atmosphere for shorter duration, as compared to carbon dioxide (CO2) that can stay in atmosphere for thousand years, but its heating effect is much more potent than that of CO2. Thus, even with a shorter lifespan, methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2  due to its higher solar  radiation  capturing  efficiency  (Priyadarsini  et  al.,  2020).",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 4,
+          "sentence_range": [
+            0,
+            2
+          ],
+          "document_offsets": {
+            "start": 663,
+            "end": 1313
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 456,
+            "end": 463,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x502",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that methane persists in the atmosphere for a shorter duration compared to carbon dioxide (CO2). The source explicitly mentions this characteristic of methane.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.5519187450408936
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation is accurately represented in the sentence, as it directly states that methane persists in the atmosphere for a shorter duration compared to carbon dioxide (CO2). The entity boundaries are correctly identified, with \"Methane\" as the subject and \"carbon dioxide (CO2)\" as the object.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation is accurately represented in the sentence, as it directly states that methane persists in the atmosphere for a shorter duration compared to carbon dioxide (CO2). The entity boundaries are correctly identified, with \"Methane\" as the subject and \"carbon dioxide (CO2)\" as the object.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.460968971252441
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, and the entity boundaries (subject: Methane, object: carbon dioxide) are correctly identified.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.266784191131592
+      }
+    }
+  },
+  {
+    "id": "0x74c",
+    "predicate": "is hydroxylated to",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x1e9",
+      "name": "methanol",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "2.2.1 Methane metabolism",
+    "pages": [
+      15
+    ],
+    "source_paper": "Copy of Adegbola thesis High Density Cultures20251113.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x74c",
+      "subject": "Methane",
+      "predicate": "is hydroxylated to",
+      "object": "methanol",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Methane  is  hydroxylated  to  methanol  by  methane  monooxygenase  in  a  NAD(P)H dependent  reaction  (Anthony  1982;  Cornish  et  al.,  1984;  Hanson  and  Hanson,  1996; Lipscomb 1994; Sullivan et al., 1998).",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 8,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 9887,
+            "end": 10101
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x74c",
+      "section": "2.2.1 Methane metabolism",
+      "pages": [
+        15
+      ],
+      "bbox_data": [
+        {
+          "page": 15,
+          "bbox": {
+            "l": 108.0,
+            "t": 402.552,
+            "r": 543.053,
+            "b": 337.572,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of Adegbola thesis High Density Cultures20251113.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it states that methane is hydroxylated to methanol by methane monooxygenase. The extracted relation directly matches the source sentence's content.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.358051061630249
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methane is hydroxylated to methanol\" is directly stated in the sentence. The subject, object, and their positions are correctly identified.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methane is hydroxylated to methanol\" is directly stated in the sentence. The subject, object, and their positions are correctly identified.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 3.8199779987335205
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, with \"Methane\" being hydroxylated to \"methanol\". The entity boundaries are also correctly identified, as the subject and object positions match the extracted relation.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.566579103469849
+      }
+    }
+  },
+  {
+    "id": "0x716",
+    "predicate": "is the most widely used substrate employed in cultivating this organism",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x6fe",
+      "name": "M. trichosporium",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "2.1 Methanotrophic bacteria",
+    "pages": [
+      14,
+      13
+    ],
+    "source_paper": "Copy of Adegbola thesis High Density Cultures20251113.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x716",
+      "subject": "Methane",
+      "predicate": "is the most widely used substrate employed in cultivating this organism",
+      "object": "M. trichosporium",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "M. trichosporium is  an  aerobic, obligate methanotroph that can only utilize C1- carbon sources  such  as  methane  and  methanol  as  primary  growth  substrates. It  is  a  Type  II methanotroph  producing  both  soluble  (sMMO)  and  particulate  (pMMO)  forms  of methane  monooxygenase. Methane is the most widely used substrate employed in cultivating this organism.",
+        "confidence": 0.7999999999999999,
+        "location": {
+          "chunk_id": 6,
+          "sentence_range": [
+            0,
+            7
+          ],
+          "document_offsets": {
+            "start": 7737,
+            "end": 8723
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 108,
+            "end": 115,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          },
+          {
+            "start": 270,
+            "end": 277,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 906,
+            "end": 913,
+            "sentence_id": 7,
+            "matched_text": "Methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 16,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x716",
+      "section": "2.1 Methanotrophic bacteria",
+      "pages": [
+        14,
+        13
+      ],
+      "bbox_data": [
+        {
+          "page": 13,
+          "bbox": {
+            "l": 108.0,
+            "t": 498.192,
+            "r": 543.08,
+            "b": 157.27199999999993,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 14,
+          "bbox": {
+            "l": 108.0,
+            "t": 288.543,
+            "r": 302.671,
+            "b": 279.59400000000005,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of Adegbola thesis High Density Cultures20251113.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it directly states that \"Methane\" is the most widely used substrate employed in cultivating M. trichosporium. The extracted relation matches the source sentence's wording and structure, indicating a high level of faithfulness to the original statement.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.8943428993225098
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methane is the most widely used substrate employed in cultivating this organism\" is directly stated in the source sentence. The subject and object boundaries are correctly identified as \"methane\" and \"M. trichosporium\", respectively, which are the entities mentioned in the relation.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methane is the most widely used substrate employed in cultivating this organism\" is directly stated in the source sentence. The subject and object boundaries are correctly identified as \"methane\" and \"M. trichosporium\", respectively, which are the entities mentioned in the relation.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.202507972717285
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, and the entity boundaries (subject: \"Methane\", object: \"M. trichosporium\") are correctly identified as they match the positions specified in the source sentence.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.96462082862854
+      }
+    }
+  },
+  {
+    "id": "0x5f9",
+    "predicate": "is author of",
+    "subject": {
+      "id": "0x377",
+      "name": "Smith",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x3e4",
+      "name": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+    "hub_connectivity": 14,
+    "source_span": {
+      "relation_id": "0x5f9",
+      "subject": "Smith",
+      "predicate": "is author of",
+      "object": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 26,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 33079,
+            "end": 33193
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 82,
+            "end": 87,
+            "sentence_id": 0,
+            "matched_text": "Smith"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x5f9",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence as it directly states that Smith is an author of a specific publication. The entity boundaries are correctly identified, with \"Smith\" being the subject and the object being a comma-separated list of authors.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.773573875427246
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5 (Directly stated)\nBOUNDARY_QUALITY: 5 (Perfect)\nJUSTIFICATION: The extracted relation \"Smith is author of\" is accurately represented in the sentence as Smith is listed among the authors of the paper. The relation is directly stated in the source, and the entity boundaries are correctly identified since both the subject and object are properly extracted from the sentence.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The extracted relation \"Smith is author of\" is accurately represented in the sentence as Smith is listed among the authors of the paper. The relation is directly stated in the source, and the entity boundaries are correctly identified since both the subject and object are properly extracted from the sentence.",
+          "parse_error": "Invalid boundary quality: 5 (Perfect)"
+        },
+        "error": null,
+        "inference_time": 5.477827072143555
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence as it clearly states that Smith is the author of the work listed. The entity boundaries are also correctly identified, with \"Smith\" being the subject and the long list of authors being the object.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.089489221572876
+      }
+    }
+  },
+  {
+    "id": "0x5b9",
+    "predicate": "yields",
+    "subject": {
+      "id": "0x2a",
+      "name": "Methane",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x2b2",
+      "name": "2.6 moles of methanol",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "Cross-chunk Analysis",
+    "pages": [],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methane",
+    "hub_connectivity": 20,
+    "source_span": {
+      "relation_id": "0x5b9",
+      "subject": "Methane",
+      "predicate": "yields",
+      "object": "2.6 moles of methanol",
+      "source_span": {
+        "span_type": "multi_sentence",
+        "text_evidence": "The moles of headspace gas (equimolar mixture of air and methane) can be calculated using ideal gas equation: PV = nRT. GLYPH<0> 1 , T = 303 K, the total number of gas moles (n) in the headspace are 6.64 mmoles, half which accounts for methane. Considering the metabolic stoichiometry of 1 mol of methanol per mol of methane,  the  total  percentage  consumption  of  methane  (or  in  other words methanol yield per mole of methane) is: 2.6/3.32 = 0.783 or 78.3 %.",
+        "confidence": 0.7,
+        "location": {
+          "chunk_id": 18,
+          "sentence_range": [
+            1,
+            4
+          ],
+          "document_offsets": {
+            "start": 23770,
+            "end": 24328
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 57,
+            "end": 64,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 329,
+            "end": 336,
+            "sentence_id": 3,
+            "matched_text": "methane"
+          },
+          {
+            "start": 410,
+            "end": 417,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 461,
+            "end": 468,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 518,
+            "end": 525,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": null
+      }
+    },
+    "provenance": {
+      "relation_id": "0x5b9",
+      "section": "Cross-chunk Analysis",
+      "pages": [],
+      "bbox_data": null,
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 3\n**JUSTIFICATION:** The relation is accurately represented in the sentence, as it states that \"Considering the metabolic stoichiometry of 1 mol of methanol per mol of methane...\" which implies a direct relationship between methane and methanol yield. However, the exact wording might be slightly different from the extracted relation, but the overall meaning is preserved.\n\nNote: The faithfulness rating is 4 because while the sentence does state the relation, it also includes additional context (e.g., \"Considering...\", \"metabolic stoichiometry\") that is not present in the extracted relation.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.251292943954468
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 3 (The relation is not directly stated but it can be inferred from the context)\nBOUNDARY_QUALITY: 5 (The entity boundaries are correctly identified)\nJUSTIFICATION: The relation \"yields\" is not explicitly mentioned in the sentence, but it can be inferred as the context discusses the methanol yield per mole of methane. The subject and object are accurately identified as \"Methane\" and \"2.6 moles of methanol\" respectively, since they correspond to the substance that yields and the amount yielded.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": "The relation \"yields\" is not explicitly mentioned in the sentence, but it can be inferred as the context discusses the methanol yield per mole of methane. The subject and object are accurately identified as \"Methane\" and \"2.6 moles of methanol\" respectively, since they correspond to the substance that yields and the amount yielded.",
+          "parse_error": "Invalid boundary quality: 5 (The entity boundaries are correctly identified)"
+        },
+        "error": null,
+        "inference_time": 7.152446985244751
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 4\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is accurately represented in the sentence, with \"methane\" correctly identified as the subject and \"2.6 moles of methanol\" as the object. The predicate \"yields\" is also supported by the text, which mentions \"methanol yield per mole of methane\".",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.404662132263184
+      }
+    }
+  },
+  {
+    "id": "0x2e0",
+    "predicate": "use",
+    "subject": {
+      "id": "0x1d",
+      "name": "Methanotrophs",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "object": {
+      "id": "0x2be",
+      "name": "methane monooxygenase enzymes",
+      "type": "biochemical_entity",
+      "namespace": "extracted",
+      "created_at": null
+    },
+    "section": "4. Discussion",
+    "pages": [
+      6
+    ],
+    "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+    "confidence": null,
+    "hub_entity": "Methanotrophs",
+    "hub_connectivity": 15,
+    "source_span": {
+      "relation_id": "0x2e0",
+      "subject": "Methanotrophs",
+      "predicate": "use",
+      "object": "methane monooxygenase enzymes",
+      "source_span": {
+        "span_type": "single_sentence",
+        "text_evidence": "Methanotrophs efficiently convert methane to methanol in a single step using methane monooxygenase enzymes at ambient reaction conditions.",
+        "confidence": 1.0,
+        "location": {
+          "chunk_id": 19,
+          "sentence_range": [
+            0,
+            0
+          ],
+          "document_offsets": {
+            "start": 24309,
+            "end": 24449
+          }
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "Methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 77,
+            "end": 106,
+            "sentence_id": 0,
+            "matched_text": "methane monooxygenase enzymes"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "relation_id": "0x2e0",
+      "section": "4. Discussion",
+      "pages": [
+        6
+      ],
+      "bbox_data": [
+        {
+          "page": 6,
+          "bbox": {
+            "l": 37.588,
+            "t": 245.89699976953125,
+            "r": 291.03,
+            "b": 50.30799976953119,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        },
+        {
+          "page": 6,
+          "bbox": {
+            "l": 306.593,
+            "t": 738.2109997695312,
+            "r": 560.009,
+            "b": 636.7339997695312,
+            "coord_origin": "BOTTOMLEFT"
+          }
+        }
+      ],
+      "source_paper": "Copy of A. Priyadarsini et al. 202320251115.pdf",
+      "extraction_method": "kg-gen"
+    },
+    "text_judgments": {
+      "llama3.2:3b": {
+        "model": "llama3.2:3b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The extracted relation is accurately represented in the sentence, as it directly states that methanotrophs \"use\" methane monooxygenase enzymes to convert methane. The entity boundaries are also correctly identified, with the subject being \"Methanotrophs\" and the object being \"methane monooxygenase enzymes\".",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 2.937276840209961
+      },
+      "mistral:7b": {
+        "model": "mistral:7b",
+        "raw_response": " ACCURACY: Yes\nFAITHFULNESS: 5\nBOUNDARY_QUALITY: 5\nJUSTIFICATION: The relation \"Methanotrophs use methane monooxygenase enzymes\" is directly stated in the sentence. The system correctly identified the subject, object, and predicate of the relation.",
+        "parsed": {
+          "accuracy": true,
+          "faithfulness": 5,
+          "boundary_quality": 5,
+          "justification": "The relation \"Methanotrophs use methane monooxygenase enzymes\" is directly stated in the sentence. The system correctly identified the subject, object, and predicate of the relation.",
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 4.325170040130615
+      },
+      "llama3.1:8b": {
+        "model": "llama3.1:8b",
+        "raw_response": "**ACCURACY:** Yes\n**FAITHFULNESS:** 5\n**BOUNDARY_QUALITY:** 5\n**JUSTIFICATION:** The relation is directly stated in the sentence, with \"Methanotrophs\" using \"methane monooxygenase enzymes\" to convert methane. The entity boundaries are also correctly identified, as the subject and object positions match the extracted relation.",
+        "parsed": {
+          "accuracy": null,
+          "faithfulness": null,
+          "boundary_quality": null,
+          "justification": null,
+          "parse_error": null
+        },
+        "error": null,
+        "inference_time": 5.117990016937256
+      }
+    }
+  }
+]

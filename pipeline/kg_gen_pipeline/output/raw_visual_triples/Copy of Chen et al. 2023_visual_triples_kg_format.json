@@ -1,0 +1,634 @@
+{
+  "summary": {
+    "total_chunks": 5,
+    "errors": 0,
+    "entities": 16,
+    "relations": 14,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 14,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 5,
+        "relations": 4
+      },
+      "Figure 5 Analysis": {
+        "chunks": 2,
+        "entities": 6,
+        "relations": 5
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 5,
+        "relations": 5
+      },
+      "Figure 9 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Chen et al. 2023_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T20:32:47.049778"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "“bioreactor”",
+        "“schematics of the reactor design",
+        "“photo of the bioreactor",
+        "“this study”",
+        "“components for assembling the reactor”"
+      ],
+      "relations": [
+        {
+          "subject": "“bioreactor”",
+          "predicate": "“is designed and fabricated by”",
+          "object": "“this study”",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1 a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the reactor",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 103.42099511718754,
+              "r": 511.903,
+              "b": 86.50299511718754,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                754,
+                755
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              147
+            ]
+          }
+        },
+        {
+          "subject": "“bioreactor”",
+          "predicate": "“has”",
+          "object": "“components for assembling the reactor”",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1 a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the reactor",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 103.42099511718754,
+              "r": 511.903,
+              "b": 86.50299511718754,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                754,
+                755
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              147
+            ]
+          }
+        },
+        {
+          "subject": "“bioreactor”",
+          "predicate": "“has”",
+          "object": "“schematics of the reactor design",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1 a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the reactor",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 103.42099511718754,
+              "r": 511.903,
+              "b": 86.50299511718754,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                754,
+                755
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              147
+            ]
+          }
+        },
+        {
+          "subject": "“bioreactor”",
+          "predicate": "“has”",
+          "object": "“photo of the bioreactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1 a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the reactor",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 103.42099511718754,
+              "r": 511.903,
+              "b": 86.50299511718754,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                754,
+                755
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              147
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 62.693,
+                "t": 103.42099511718754,
+                "r": 511.903,
+                "b": 86.50299511718754,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "continuous operation",
+        "hydrophobic PVDF filter",
+        "CH3OH in solution container",
+        "batch operation",
+        "conventional MBR",
+        "CH4 in exhausted gas"
+      ],
+      "relations": [
+        {
+          "subject": "conventional MBR",
+          "predicate": "assembled with",
+          "object": "hydrophobic PVDF filter",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2 a Schematic of the operation of a conventional membrane bioreactor (MBR) assembled with a hydrophobic PVDF filter. b Time courses of   CH 4 concentration in the exhausted gas and the accumulated concentration of   CH 3 OH in the solution container in the conventional MBR. The gas phase and the aqueous phase in the bioreactor were conducted under continuous operation and batch operation, respectively",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 414.6229951171875,
+              "r": 279.815,
+              "b": 347.7049951171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                322,
+                256
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              409
+            ]
+          }
+        },
+        {
+          "subject": "conventional MBR",
+          "predicate": "operates in",
+          "object": "continuous operation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2 a Schematic of the operation of a conventional membrane bioreactor (MBR) assembled with a hydrophobic PVDF filter. b Time courses of   CH 4 concentration in the exhausted gas and the accumulated concentration of   CH 3 OH in the solution container in the conventional MBR. The gas phase and the aqueous phase in the bioreactor were conducted under continuous operation and batch operation, respectively",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 414.6229951171875,
+              "r": 279.815,
+              "b": 347.7049951171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                322,
+                256
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              409
+            ]
+          }
+        },
+        {
+          "subject": "conventional MBR",
+          "predicate": "operates in",
+          "object": "batch operation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2 a Schematic of the operation of a conventional membrane bioreactor (MBR) assembled with a hydrophobic PVDF filter. b Time courses of   CH 4 concentration in the exhausted gas and the accumulated concentration of   CH 3 OH in the solution container in the conventional MBR. The gas phase and the aqueous phase in the bioreactor were conducted under continuous operation and batch operation, respectively",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 414.6229951171875,
+              "r": 279.815,
+              "b": 347.7049951171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                322,
+                256
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              409
+            ]
+          }
+        },
+        {
+          "subject": "conventional MBR",
+          "predicate": "produces",
+          "object": "CH4 in exhausted gas",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2 a Schematic of the operation of a conventional membrane bioreactor (MBR) assembled with a hydrophobic PVDF filter. b Time courses of   CH 4 concentration in the exhausted gas and the accumulated concentration of   CH 3 OH in the solution container in the conventional MBR. The gas phase and the aqueous phase in the bioreactor were conducted under continuous operation and batch operation, respectively",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 414.6229951171875,
+              "r": 279.815,
+              "b": 347.7049951171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                322,
+                256
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              409
+            ]
+          }
+        },
+        {
+          "subject": "conventional MBR",
+          "predicate": "accumulates",
+          "object": "CH3OH in solution container",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2 a Schematic of the operation of a conventional membrane bioreactor (MBR) assembled with a hydrophobic PVDF filter. b Time courses of   CH 4 concentration in the exhausted gas and the accumulated concentration of   CH 3 OH in the solution container in the conventional MBR. The gas phase and the aqueous phase in the bioreactor were conducted under continuous operation and batch operation, respectively",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 414.6229951171875,
+              "r": 279.815,
+              "b": 347.7049951171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                322,
+                256
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              409
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 62.693,
+                "t": 414.6229951171875,
+                "r": 279.815,
+                "b": 347.7049951171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 310.724,
+                "t": 395.9159951171875,
+                "r": 525.886,
+                "b": 328.9969951171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "25 mL",
+        "2.5 mL",
+        "time_courses",
+        "bioreactor",
+        "IMBR"
+      ],
+      "relations": [
+        {
+          "subject": "bioreactor",
+          "predicate": "has_gas_chamber_volume",
+          "object": "25 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4 a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration of exhausted   CH 4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 261.5189951171875,
+              "r": 527.312,
+              "b": 243.05899511718746,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                721,
+                327
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "IMBR",
+          "predicate": "has_gas_chamber_volume",
+          "object": "25 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4 a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration of exhausted   CH 4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 261.5189951171875,
+              "r": 527.312,
+              "b": 243.05899511718746,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                721,
+                327
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "IMBR",
+          "predicate": "has_gas_chamber_size",
+          "object": "2.5 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4 a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration of exhausted   CH 4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 261.5189951171875,
+              "r": 527.312,
+              "b": 243.05899511718746,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                721,
+                327
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "IMBR",
+          "predicate": "has_gas_chamber_size",
+          "object": "25 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4 a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration of exhausted   CH 4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 261.5189951171875,
+              "r": 527.312,
+              "b": 243.05899511718746,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                721,
+                327
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "IMBR",
+          "predicate": "measures_CH4_concentration",
+          "object": "time_courses",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4 a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration of exhausted   CH 4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+            "bbox_coordinates": {
+              "l": 62.693,
+              "t": 261.5189951171875,
+              "r": 527.312,
+              "b": 243.05899511718746,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                721,
+                327
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 62.693,
+                "t": 261.5189951171875,
+                "r": 527.312,
+                "b": 243.05899511718746,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 9 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 62.691,
+                "t": 98.41999511718745,
+                "r": 526.537,
+                "b": 69.95899511718744,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

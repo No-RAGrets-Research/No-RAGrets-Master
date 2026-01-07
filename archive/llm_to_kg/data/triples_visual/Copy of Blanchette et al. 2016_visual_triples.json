@@ -1,0 +1,155 @@
+[
+  {
+    "page": 3,
+    "caption": "Figure 1 | Schematic of pMMO encapsulation in hydrogel and activity assay. (a) Schematic of PEG-pMMO hydrogel fabrication. Membrane-bound\npMMO is mixed with PEGDA 575 and photoinitiator and exposed to ultraviolet light to crosslink the material. (b) The resulting gel, shown in the vial,\nis immersed in buffer containing the reducing agent NADH and is exposed to CH4 and air. The resulting methanol and protein are quantiﬁed to\ndetermine the speciﬁc activity of the material.",
+    "triples": [
+      {
+        "subject": "PEG-pMMO hydrogel",
+        "relation": "is fabricated by",
+        "object": "mixing membrane-bound pMMO with PEGDA 575 and photoinitiator, then exposing to ultraviolet light"
+      },
+      {
+        "subject": "PEG-pMMO hydrogel",
+        "relation": "is immersed in",
+        "object": "buffer containing NADH"
+      },
+      {
+        "subject": "PEG-pMMO hydrogel",
+        "relation": "is exposed to",
+        "object": "CH4 and air"
+      },
+      {
+        "subject": "PEG-pMMO hydrogel",
+        "relation": "produces",
+        "object": "methanol and protein"
+      },
+      {
+        "subject": "methanol and protein",
+        "relation": "are quantified to determine",
+        "object": "specific activity of the material"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Figure 4 | Continuous methanol production using a ﬂow-through bioreactor design. (a) Schematic and image of the ﬂow-through bioreactor and the two\n(thin and thick) silicone lattice structures used to support the PEG-pMMO hydrogel membrane (scale bar, 1 cm). (b) Amount of methanol (nmole)\nproduced per mg of pMMO in the PEG-pMMO hydrogel bioreactor showing continuous MeOH production for 2 h in thin versus thick membrane at 45 \u0002C.\nError bars represent the s.d. of three samples.",
+    "triples": [
+      {
+        "subject": "flow-through bioreactor",
+        "relation": "supports",
+        "object": "PEG-pMMO hydrogel membrane"
+      },
+      {
+        "subject": "PEG-pMMO hydrogel membrane",
+        "relation": "supported by",
+        "object": "silicone lattice structures"
+      },
+      {
+        "subject": "silicone lattice structures",
+        "relation": "used in",
+        "object": "flow-through bioreactor"
+      },
+      {
+        "subject": "flow-through bioreactor",
+        "relation": "produces",
+        "object": "methanol"
+      },
+      {
+        "subject": "methanol production",
+        "relation": "occurs in",
+        "object": "flow-through bioreactor"
+      },
+      {
+        "subject": "methanol production",
+        "relation": "measured as",
+        "object": "nmole per mg of pMMO"
+      },
+      {
+        "subject": "methanol production",
+        "relation": "duration",
+        "object": "2 hours"
+      },
+      {
+        "subject": "methanol production",
+        "relation": "temperature condition",
+        "object": "45°C"
+      },
+      {
+        "subject": "silicone lattice structures",
+        "relation": "type",
+        "object": "thin and thick"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "PEG-pMMO material inﬂuenced methanol production rates,\nreactor outlet fractions from reactors containing the thin and\nthick lattices were compared at 15-min intervals at 45 \u0002C over the\ncourse of 2 h (Fig. 4b). The methanol produced (per mg of\nprotein) by the thin membrane (black squares) was double that\nproduced by the thick membrane (red circles) over the course of\nthe ﬁrst hour, but then declined relative to that of the thick\nmembrane; after 2 h the average total methanol produced by the\nthin membrane was 1.5 times higher than that produced by\nthe thick membrane. The methanol concentrations produced in\nthe ﬂow reactor were on average 12 and 6% of those predicted\nfor thin and thick lattices, respectively, based on analyte ﬂow\nrates and an assumed pMMO activity of 80 nmol MeOH\nmin \u0002 1mg \u0002 1. The low methanol concentration values relative\nto predicted values may be because of lower actual pMMO\nconcentrations in the material than was calculated based on\ndilution from the stock of known concentration. In addition, a\nsmall amount of methanol (20 mM) was detected in the liquid\nthrough which the gas was bubbling, suggesting that a fraction of\nthe methanol generated was lost as vapour to the gas stream and\nnot collected in the liquid fractions. Further reactor development\nis needed to efﬁciently capture both gas and liquid phase\nmethanol.\nA full understanding of the mass transport and reaction\ncharacteristics of this system would require a kinetic model of the\nenzyme, which is not yet available, and a ﬁnite element model of\nthe membrane, which is beyond the scope of this paper. We have,\nhowever, made some rough calculations to assess which species\nmay be limiting, described in detail in Supplementary Note 1. The\nmodelled mass transfer rates are listed in Supplementary Table 1.\nConsidering the ratios of the characteristic ﬂux for reaction and\ndiffusion, we ﬁnd that the thick membrane is likely mass transfer-\nlimited in both O2 and NADH. The thin membrane may be\nreaction-limited only, unless the crosslinking of the PEG\nsigniﬁcantly slows the transport of NADH. In that case the thin\nmembrane may also be NADH-limited, but less so. In either case,\nthe calculations suggest that a polydimethyl siloxane (PDMS)\nmatrix like the ones prototyped can supply gas phase reactants at\nsufﬁcient rates to maximize enzyme activity through a 1–3-mm\nmembrane.",
+    "triples": [
+      {
+        "subject": "PEG-pMMO material",
+        "relation": "influences",
+        "object": "methanol production rates"
+      },
+      {
+        "subject": "thin membrane",
+        "relation": "produces more methanol than",
+        "object": "thick membrane"
+      },
+      {
+        "subject": "thin membrane",
+        "relation": "produces 1.5 times more methanol than",
+        "object": "thick membrane"
+      },
+      {
+        "subject": "methanol concentration in thin lattice",
+        "relation": "is",
+        "object": "12% of predicted value"
+      },
+      {
+        "subject": "methanol concentration in thick lattice",
+        "relation": "is",
+        "object": "6% of predicted value"
+      },
+      {
+        "subject": "methanol concentration in liquid phase",
+        "relation": "contains",
+        "object": "20 mM methanol"
+      },
+      {
+        "subject": "thick membrane",
+        "relation": "is mass transfer-limited for",
+        "object": "O2"
+      },
+      {
+        "subject": "thick membrane",
+        "relation": "is mass transfer-limited for",
+        "object": "NADH"
+      },
+      {
+        "subject": "thin membrane",
+        "relation": "may be reaction-limited for",
+        "object": "methanol production"
+      },
+      {
+        "subject": "thin membrane",
+        "relation": "may be NADH-limited for",
+        "object": "methanol production"
+      },
+      {
+        "subject": "PDMS matrix",
+        "relation": "can supply",
+        "object": "gas phase reactants at sufficient rates"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "PEG-pMMO material inﬂuenced methanol production rates,\nreactor outlet fractions from reactors containing the thin and\nthick lattices were compared at 15-min intervals at 45 \u0002C over the\ncourse of 2 h (Fig. 4b). The methanol produced (per mg of\nprotein) by the thin membrane (black squares) was double that\nproduced by the thick membrane (red circles) over the course of\nthe ﬁrst hour, but then declined relative to that of the thick\nmembrane; after 2 h the average total methanol produced by the\nthin membrane was 1.5 times higher than that produced by\nthe thick membrane. The methanol concentrations produced in\nthe ﬂow reactor were on average 12 and 6% of those predicted\nfor thin and thick lattices, respectively, based on analyte ﬂow\nrates and an assumed pMMO activity of 80 nmol MeOH\nmin \u0002 1mg \u0002 1. The low methanol concentration values relative\nto predicted values may be because of lower actual pMMO\nconcentrations in the material than was calculated based on\ndilution from the stock of known concentration. In addition, a\nsmall amount of methanol (20 mM) was detected in the liquid\nthrough which the gas was bubbling, suggesting that a fraction of\nthe methanol generated was lost as vapour to the gas stream and\nnot collected in the liquid fractions. Further reactor development\nis needed to efﬁciently capture both gas and liquid phase\nmethanol.\nA full understanding of the mass transport and reaction\ncharacteristics of this system would require a kinetic model of the\nenzyme, which is not yet available, and a ﬁnite element model of\nthe membrane, which is beyond the scope of this paper. We have,\nhowever, made some rough calculations to assess which species\nmay be limiting, described in detail in Supplementary Note 1. The\nmodelled mass transfer rates are listed in Supplementary Table 1.\nConsidering the ratios of the characteristic ﬂux for reaction and\ndiffusion, we ﬁnd that the thick membrane is likely mass transfer-\nlimited in both O2 and NADH. The thin membrane may be\nreaction-limited only, unless the crosslinking of the PEG\nsigniﬁcantly slows the transport of NADH. In that case the thin\nmembrane may also be NADH-limited, but less so. In either case,\nthe calculations suggest that a polydimethyl siloxane (PDMS)\nmatrix like the ones prototyped can supply gas phase reactants at\nsufﬁcient rates to maximize enzyme activity through a 1–3-mm\nmembrane.",
+    "triples": []
+  },
+  {
+    "page": 6,
+    "caption": "PEG-pMMO material inﬂuenced methanol production rates,\nreactor outlet fractions from reactors containing the thin and\nthick lattices were compared at 15-min intervals at 45 \u0002C over the\ncourse of 2 h (Fig. 4b). The methanol produced (per mg of\nprotein) by the thin membrane (black squares) was double that\nproduced by the thick membrane (red circles) over the course of\nthe ﬁrst hour, but then declined relative to that of the thick\nmembrane; after 2 h the average total methanol produced by the\nthin membrane was 1.5 times higher than that produced by\nthe thick membrane. The methanol concentrations produced in\nthe ﬂow reactor were on average 12 and 6% of those predicted\nfor thin and thick lattices, respectively, based on analyte ﬂow\nrates and an assumed pMMO activity of 80 nmol MeOH\nmin \u0002 1mg \u0002 1. The low methanol concentration values relative\nto predicted values may be because of lower actual pMMO\nconcentrations in the material than was calculated based on\ndilution from the stock of known concentration. In addition, a\nsmall amount of methanol (20 mM) was detected in the liquid\nthrough which the gas was bubbling, suggesting that a fraction of\nthe methanol generated was lost as vapour to the gas stream and\nnot collected in the liquid fractions. Further reactor development\nis needed to efﬁciently capture both gas and liquid phase\nmethanol.\nA full understanding of the mass transport and reaction\ncharacteristics of this system would require a kinetic model of the\nenzyme, which is not yet available, and a ﬁnite element model of\nthe membrane, which is beyond the scope of this paper. We have,\nhowever, made some rough calculations to assess which species\nmay be limiting, described in detail in Supplementary Note 1. The\nmodelled mass transfer rates are listed in Supplementary Table 1.\nConsidering the ratios of the characteristic ﬂux for reaction and\ndiffusion, we ﬁnd that the thick membrane is likely mass transfer-\nlimited in both O2 and NADH. The thin membrane may be\nreaction-limited only, unless the crosslinking of the PEG\nsigniﬁcantly slows the transport of NADH. In that case the thin\nmembrane may also be NADH-limited, but less so. In either case,\nthe calculations suggest that a polydimethyl siloxane (PDMS)\nmatrix like the ones prototyped can supply gas phase reactants at\nsufﬁcient rates to maximize enzyme activity through a 1–3-mm\nmembrane.",
+    "triples": []
+  }
+]

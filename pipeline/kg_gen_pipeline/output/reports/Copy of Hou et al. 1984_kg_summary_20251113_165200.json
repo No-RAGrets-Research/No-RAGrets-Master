@@ -1,0 +1,1938 @@
+{
+  "total_chunks": 5,
+  "errors": 0,
+  "entities": 90,
+  "relations": 79,
+  "cross_chunk_relations": 0,
+  "relations_with_spans": 76,
+  "sections": {
+    "Ching T.  Hou": {
+      "chunks": 1,
+      "entities": 20,
+      "relations": 10
+    },
+    "Introduction": {
+      "chunks": 1,
+      "entities": 18,
+      "relations": 24
+    },
+    "Materials  and methods": {
+      "chunks": 1,
+      "entities": 22,
+      "relations": 13
+    },
+    "Results  and  discussion": {
+      "chunks": 1,
+      "entities": 17,
+      "relations": 15
+    },
+    "References": {
+      "chunks": 1,
+      "entities": 20,
+      "relations": 17
+    }
+  },
+  "all_relations": [
+    {
+      "subject": "methanotrophic bacteria",
+      "predicate": "oxidize",
+      "object": "gaseous alkenes",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Methanotrophic bacteria have  been  shown to oxidize  gaseous alkenes  to the corresponding epoxides  utilizing an NADHz-dependent  methane monooxygenase.",
+        "document_offsets": {
+          "start": 174,
+          "end": 328
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 1,
+            "matched_text": "Methanotrophic bacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "gaseous alkenes"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "NADH2",
+      "predicate": "regenerated with",
+      "object": "vapor of a cosubstrate, methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Regeneration of  cofactor NADH2 was performed  in the bioreactor with the vapor of a  cosubstrate, methanol.",
+        "document_offsets": {
+          "start": 842,
+          "end": 950
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 31,
+            "sentence_id": 6,
+            "matched_text": "NADH2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "gas-solid bioreactor",
+      "predicate": "used for",
+      "object": "continuous production and removal of product epoxide",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "The production of  propylene  oxide  from propylene  was performed  in  a gas-solid bioreactor to  ensure  continuous production and removal  of  product  epoxide from the  microenvironment  of  the  biocatalyst.",
+        "document_offsets": {
+          "start": 411,
+          "end": 623
+        },
+        "subject_positions": [
+          {
+            "start": 74,
+            "end": 94,
+            "sentence_id": 3,
+            "matched_text": "gas-solid bioreactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Exxon Research and Engineering Company",
+      "predicate": "located at",
+      "object": "Route 22, East, Annandale, New Jersey 08801, USA",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "methanotrophic bacteria",
+      "predicate": "utilize",
+      "object": "NADHz-dependent methane monooxygenase",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Methanotrophic bacteria have  been  shown to oxidize  gaseous alkenes  to the corresponding epoxides  utilizing an NADHz-dependent  methane monooxygenase.",
+        "document_offsets": {
+          "start": 174,
+          "end": 328
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 1,
+            "matched_text": "Methanotrophic bacteria"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Corporate Research Science Laboratories",
+      "predicate": "located at",
+      "object": "Route 22, East, Annandale, New Jersey 08801, USA",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "conversion rate for propylene",
+      "predicate": "was",
+      "object": "2.7%",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "The conversion rate  for  propylene was 2.7%.",
+        "document_offsets": {
+          "start": 796,
+          "end": 841
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "20 mg cells",
+      "predicate": "produced",
+      "object": "120-145 ~moles/20 mg cells in about 10 h depending on microbial strains used",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "propylene oxide",
+      "predicate": "produced from",
+      "object": "propylene",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "The production of  propylene  oxide  from propylene  was performed  in  a gas-solid bioreactor to  ensure  continuous production and removal  of  product  epoxide from the  microenvironment  of  the  biocatalyst. The amount of  propylene oxide  produced  before cofactor regeneration was between 120-145 ~moles/20  mg cells in  about  10  h depending on  the  microbial strains used. The conversion rate  for  propylene was 2.7%.",
+        "document_offsets": {
+          "start": 411,
+          "end": 841
+        },
+        "subject_positions": [
+          {
+            "start": 228,
+            "end": 243,
+            "sentence_id": 4,
+            "matched_text": "propylene oxide"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 28,
+            "sentence_id": 3,
+            "matched_text": "propylene"
+          },
+          {
+            "start": 42,
+            "end": 51,
+            "sentence_id": 3,
+            "matched_text": "propylene"
+          },
+          {
+            "start": 228,
+            "end": 237,
+            "sentence_id": 4,
+            "matched_text": "propylene"
+          },
+          {
+            "start": 411,
+            "end": 420,
+            "sentence_id": 5,
+            "matched_text": "propylene"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "porous glass beads",
+      "predicate": "coated with",
+      "object": "cell paste of methane-grown methylotrophs",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Immobilized enzymes",
+      "predicate": "a method for the production of epoxide was reported",
+      "object": "by Parkinson (1980)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 14,
+        "sentence_end": 14,
+        "text_evidence": "A  method employing  immobilized enzymes for  the  production of  epoxide was reported (Parkinson 1980).",
+        "document_offsets": {
+          "start": 3505,
+          "end": 3609
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 40,
+            "sentence_id": 14,
+            "matched_text": "immobilized enzymes"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol dehydrogenase",
+      "predicate": "was identified and purified",
+      "object": "by Patel et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Recently, we have identified and purified many dehydrogenases  from  methylotrophic microorganisms:  methanol dehydrogenase  (Patel et  al.  1978), aldehyde dehydrogenase (Patel et  al. 1980a), formaldehyde  reductase  (Hou  et al. 1982a), formate dehydrogenase (Hou et  al. 1982b), secondary alcohol dehydrogenase (Hou  et al. 1979b;  1981a), and propanediol dehydrogenase  (Hou et  al.  1983).",
+        "document_offsets": {
+          "start": 2130,
+          "end": 2527
+        },
+        "subject_positions": [
+          {
+            "start": 101,
+            "end": 123,
+            "sentence_id": 8,
+            "matched_text": "methanol dehydrogenase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Reducing power or the reduced form of NAD +",
+      "predicate": "provide",
+      "object": "for the methane monooxygenase system",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "was used for cofactor NADH2 regeneration in the bioreactor",
+      "object": ""
+    },
+    {
+      "subject": "NADH2 which was regenerated/generated by dehydrogenases and their substrates",
+      "predicate": "was used in the epoxidation of propylene by soluble methane monooxygenase system",
+      "object": "by Hou et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Propanediol dehydrogenase",
+      "predicate": "was identified and purified",
+      "object": "by Hou et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Recently, we have identified and purified many dehydrogenases  from  methylotrophic microorganisms:  methanol dehydrogenase  (Patel et  al.  1978), aldehyde dehydrogenase (Patel et  al. 1980a), formaldehyde  reductase  (Hou  et al. 1982a), formate dehydrogenase (Hou et  al. 1982b), secondary alcohol dehydrogenase (Hou  et al. 1979b;  1981a), and propanediol dehydrogenase  (Hou et  al.  1983).",
+        "document_offsets": {
+          "start": 2130,
+          "end": 2527
+        },
+        "subject_positions": [
+          {
+            "start": 348,
+            "end": 373,
+            "sentence_id": 8,
+            "matched_text": "propanediol dehydrogenase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Product epoxide",
+      "predicate": "build-up around the biocatalyst",
+      "object": "is a major problem in the biotechnological process for the production of epoxides",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 18,
+        "text_evidence": "The product epoxides accumulate extracellularly. This  paper  describes a gas-solid heterogeneous bioreactor for  the  production  of  propylene  oxide  from propylene, which ensures continuous production and  removal  of  product epoxide from  the microenvironment  of the biocatalyst.",
+        "document_offsets": {
+          "start": 1456,
+          "end": 4324
+        },
+        "subject_positions": [
+          {
+            "start": 2805,
+            "end": 2820,
+            "sentence_id": 18,
+            "matched_text": "product epoxide"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Whole cell systems",
+      "predicate": "do not require",
+      "object": "an exogeneous supply of cofactor, NADH 2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 16,
+        "sentence_end": 16,
+        "text_evidence": "In  addition, the  cofactor regeneration can be more easily achieved in  whole cell systems.",
+        "document_offsets": {
+          "start": 3804,
+          "end": 3896
+        },
+        "subject_positions": [
+          {
+            "start": 73,
+            "end": 91,
+            "sentence_id": 16,
+            "matched_text": "whole cell systems"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Cell-free soluble methane monooxygenase from Methylosinus sp. CRL 31",
+      "predicate": "epoxidation of alkenes was demonstrated",
+      "object": "by Hou et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Epoxides",
+      "predicate": "accumulate",
+      "object": "extracellularly",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 17,
+        "text_evidence": "The product epoxides accumulate extracellularly. Two  major  problems  in  the  biotechnological process for the  production of  epoxides are  the regeneration of  cofactor and  the  build-up of  reaction product around  the  biocatalyst.",
+        "document_offsets": {
+          "start": 1456,
+          "end": 4086
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 20,
+            "sentence_id": 3,
+            "matched_text": "epoxides"
+          },
+          {
+            "start": 2521,
+            "end": 2529,
+            "sentence_id": 17,
+            "matched_text": "epoxides"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 47,
+            "sentence_id": 3,
+            "matched_text": "extracellularly"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Whole cells",
+      "predicate": "seem more feasible",
+      "object": "for the biotechnological process for the production of epoxides",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 15,
+        "text_evidence": "The  epoxidation  of alkenes  (Colby et al. 1977; Higgins  et  al.  1979; Hou  et  al.  1979a;  Patel et  al. 1979) and the  hydroxylation of  alkanes  (Patel et  al. 1980b;  Hou et  al. 1981b)  by  methylotrophic bacteria in  both  whole cells and cell-free systems  have been reported. However, because  of  the  complicated enzyme isolation procedures necessary, and the instability of methane monooxygenase  in  in  vitro systems, the  use  of  whole cells seems more feasible.",
+        "document_offsets": {
+          "start": 953,
+          "end": 3803
+        },
+        "subject_positions": [
+          {
+            "start": 233,
+            "end": 244,
+            "sentence_id": 0,
+            "matched_text": "whole cells"
+          },
+          {
+            "start": 2818,
+            "end": 2829,
+            "sentence_id": 15,
+            "matched_text": "whole cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Obligate methanotrophs",
+      "predicate": "cannot utilize",
+      "object": "compounds with carbon-carbon bonds",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Obligate methanotrophs  cannot  utilize compounds with carbon-carbon bonds.",
+        "document_offsets": {
+          "start": 1380,
+          "end": 1455
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Obligate methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 74,
+            "sentence_id": 2,
+            "matched_text": "compounds with carbon-carbon bonds"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Formate dehydrogenase",
+      "predicate": "was identified and purified",
+      "object": "by Hou et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Recently, we have identified and purified many dehydrogenases  from  methylotrophic microorganisms:  methanol dehydrogenase  (Patel et  al.  1978), aldehyde dehydrogenase (Patel et  al. 1980a), formaldehyde  reductase  (Hou  et al. 1982a), formate dehydrogenase (Hou et  al. 1982b), secondary alcohol dehydrogenase (Hou  et al. 1979b;  1981a), and propanediol dehydrogenase  (Hou et  al.  1983).",
+        "document_offsets": {
+          "start": 2130,
+          "end": 2527
+        },
+        "subject_positions": [
+          {
+            "start": 240,
+            "end": 261,
+            "sentence_id": 8,
+            "matched_text": "formate dehydrogenase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Epoxidation or hydroxylation",
+      "predicate": "stops",
+      "object": "when the cofactor is depleted",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "When the  cofactor is depleted, the epoxidation or hydroxylation stops.",
+        "document_offsets": {
+          "start": 1678,
+          "end": 1749
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "epoxidation or hydroxylation"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "In vitro systems",
+      "predicate": "the instability of methane monooxygenase",
+      "object": "is a major problem",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methane monooxygenase",
+      "predicate": "requires",
+      "object": "NADH2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 15,
+        "text_evidence": "Methane monooxygenase  requires a  cofactor, NADH2, for  catalyzing both  the  epoxidation of alkenes  and the  hydroxylation of  alkanes. The reason  for the  stimulation of  epoxidation in  the  in  vivo  system was  postulated to be the provision  of additional reducing power,  or  the  reduced  form  of  NAD  +,  for the  methane monooxygenase system. We have  also demonstrated the  epoxidation of  alkenes by cell-free soluble  methane monooxygenase from a facultative methylotroph, Methylobacterium sp. The epoxidation of propylene  by this  soluble methane monooxygenase system using NADH  2 which was regenerated/generated by dehydrogenases and their substrates was also  demonstrated (Hou et  al. 1982c). However, because  of  the  complicated enzyme isolation procedures necessary, and the instability of methane monooxygenase  in  in  vitro systems, the  use  of  whole cells seems more feasible.",
+        "document_offsets": {
+          "start": 1241,
+          "end": 3803
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "Methane monooxygenase"
+          },
+          {
+            "start": 858,
+            "end": 879,
+            "sentence_id": 7,
+            "matched_text": "methane monooxygenase"
+          },
+          {
+            "start": 1364,
+            "end": 1385,
+            "sentence_id": 9,
+            "matched_text": "methane monooxygenase"
+          },
+          {
+            "start": 1591,
+            "end": 1612,
+            "sentence_id": 11,
+            "matched_text": "methane monooxygenase"
+          },
+          {
+            "start": 2470,
+            "end": 2491,
+            "sentence_id": 15,
+            "matched_text": "methane monooxygenase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 50,
+            "sentence_id": 1,
+            "matched_text": "NADH2"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Gas-solid heterogeneous bioreactor",
+      "predicate": "described for the production of propylene oxide from propylene",
+      "object": "which ensures continuous production and removal of product epoxide from the microenvironment of the biocatalyst",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 18,
+        "sentence_end": 18,
+        "text_evidence": "This  paper  describes a gas-solid heterogeneous bioreactor for  the  production  of  propylene  oxide  from propylene, which ensures continuous production and  removal  of  product epoxide from  the microenvironment  of the biocatalyst.",
+        "document_offsets": {
+          "start": 4087,
+          "end": 4324
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 59,
+            "sentence_id": 18,
+            "matched_text": "gas-solid heterogeneous bioreactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methane metabolites",
+      "predicate": "stimulate",
+      "object": "epoxidation in resting cell suspensions of methanotrophic bacteria",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Previously, we reported the  stimulation of  epoxidation by methane metabolites in  resting cell suspensions of  methanotrophic bacteria (Hou et  al.  1980b).",
+        "document_offsets": {
+          "start": 1750,
+          "end": 1910
+        },
+        "subject_positions": [
+          {
+            "start": 60,
+            "end": 79,
+            "sentence_id": 6,
+            "matched_text": "methane metabolites"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Cofactor regeneration",
+      "predicate": "can be more easily achieved in whole cell systems",
+      "object": ""
+    },
+    {
+      "subject": "Propylene oxide",
+      "predicate": "was produced",
+      "object": "using the cofactor regeneration scheme shown in Figure 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Secondary alcohol dehydrogenase",
+      "predicate": "was identified and purified",
+      "object": "by Hou et al. (1979b) and 1981a",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Recently, we have identified and purified many dehydrogenases  from  methylotrophic microorganisms:  methanol dehydrogenase  (Patel et  al.  1978), aldehyde dehydrogenase (Patel et  al. 1980a), formaldehyde  reductase  (Hou  et al. 1982a), formate dehydrogenase (Hou et  al. 1982b), secondary alcohol dehydrogenase (Hou  et al. 1979b;  1981a), and propanediol dehydrogenase  (Hou et  al.  1983).",
+        "document_offsets": {
+          "start": 2130,
+          "end": 2527
+        },
+        "subject_positions": [
+          {
+            "start": 283,
+            "end": 314,
+            "sentence_id": 8,
+            "matched_text": "secondary alcohol dehydrogenase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Cell-free soluble methane monooxygenase from Methylobacterium sp.",
+      "predicate": "epoxidation of alkenes was demonstrated",
+      "object": "by Patel et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Formaldehyde reductase",
+      "predicate": "was identified and purified",
+      "object": "by Hou et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Aldehyde dehydrogenase",
+      "predicate": "was identified and purified",
+      "object": "by Patel et al.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Recently, we have identified and purified many dehydrogenases  from  methylotrophic microorganisms:  methanol dehydrogenase  (Patel et  al.  1978), aldehyde dehydrogenase (Patel et  al. 1980a), formaldehyde  reductase  (Hou  et al. 1982a), formate dehydrogenase (Hou et  al. 1982b), secondary alcohol dehydrogenase (Hou  et al. 1979b;  1981a), and propanediol dehydrogenase  (Hou et  al.  1983).",
+        "document_offsets": {
+          "start": 2130,
+          "end": 2527
+        },
+        "subject_positions": [
+          {
+            "start": 148,
+            "end": 170,
+            "sentence_id": 8,
+            "matched_text": "aldehyde dehydrogenase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Cells",
+      "predicate": "were washed twice with",
+      "object": "0.05 M potassium phosphate buffer pH 7.0",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Cells  were washed twice with 0.05 M potassium phosphate buffer  pH 7.0.",
+        "document_offsets": {
+          "start": 5116,
+          "end": 5188
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 4,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the atmosphere of methane and air (1 : 1 v/v)",
+      "predicate": "under",
+      "object": "a dessicator",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "MethyIosinus sp.",
+      "predicate": "was isolated from",
+      "object": "a soil sample",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MethyIosinus sp.",
+        "document_offsets": {
+          "start": 4436,
+          "end": 4454
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the batch culture",
+      "predicate": "in",
+      "object": "a 30-1 fermentor",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the organisms",
+      "predicate": "were maintained at",
+      "object": "30 \u00b0C",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The organisms  were maintained at  30 \u00b0  C on  mineral salts agar  plates in  a  dessicator under  an  atmosphere of  methane  and  air (1  :  1  v/v), with  methane  being the  sole carbon  and  energy  source.",
+        "document_offsets": {
+          "start": 4660,
+          "end": 4871
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 2,
+            "matched_text": "The organisms"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "batch culture",
+      "predicate": "on",
+      "object": "mineral salt medium",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Organisms  were grown on methane (10% methane,  15%  carbon dioxide, and  75%  air mixture) at  30 \u00b0  C in  batch culture on  mineral salt medium  (Foster and Davis 1966) in  a 30-1  fermentor (New\n\nBrunswick  Scientific Co.,  Edison,  N  J).",
+        "document_offsets": {
+          "start": 4872,
+          "end": 5116
+        },
+        "subject_positions": [
+          {
+            "start": 108,
+            "end": 121,
+            "sentence_id": 3,
+            "matched_text": "batch culture"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 145,
+            "sentence_id": 3,
+            "matched_text": "mineral salt medium"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "mineral salts agar plates",
+      "predicate": "in",
+      "object": "a dessicator",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the soil sample",
+      "predicate": "from",
+      "object": "Bayway Refinery (Linden, NJ)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "CRL  31  was isolated from  a  soil sample  from  the Bayway Refinery (Linden, NJ)  by  an  enrichment culture technique using methane  and  air (1  :  1  v/v) as  described previously (Hou et  al. 1979a).",
+        "document_offsets": {
+          "start": 4454,
+          "end": 4659
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "an enrichment culture technique",
+      "predicate": "using",
+      "object": "methane and air (1 : 1 v/v)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "methane",
+      "predicate": "was the sole carbon and energy source",
+      "object": "for the organisms",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "CRL  31  was isolated from  a  soil sample  from  the Bayway Refinery (Linden, NJ)  by  an  enrichment culture technique using methane  and  air (1  :  1  v/v) as  described previously (Hou et  al. 1979a). The organisms  were maintained at  30 \u00b0  C on  mineral salts agar  plates in  a  dessicator under  an  atmosphere of  methane  and  air (1  :  1  v/v), with  methane  being the  sole carbon  and  energy  source. Organisms  were grown on methane (10% methane,  15%  carbon dioxide, and  75%  air mixture) at  30 \u00b0  C in  batch culture on  mineral salt medium  (Foster and Davis 1966) in  a 30-1  fermentor (New\n\nBrunswick  Scientific Co.,  Edison,  N  J).",
+        "document_offsets": {
+          "start": 4454,
+          "end": 5116
+        },
+        "subject_positions": [
+          {
+            "start": 127,
+            "end": 134,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 324,
+            "end": 331,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          },
+          {
+            "start": 364,
+            "end": 371,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          },
+          {
+            "start": 443,
+            "end": 450,
+            "sentence_id": 3,
+            "matched_text": "methane"
+          },
+          {
+            "start": 456,
+            "end": 463,
+            "sentence_id": 3,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Organisms",
+      "predicate": "were grown on",
+      "object": "methane (10% methane, 15% carbon dioxide, and 75% air mixture)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "The organisms  were maintained at  30 \u00b0  C on  mineral salts agar  plates in  a  dessicator under  an  atmosphere of  methane  and  air (1  :  1  v/v), with  methane  being the  sole carbon  and  energy  source. Organisms  were grown on methane (10% methane,  15%  carbon dioxide, and  75%  air mixture) at  30 \u00b0  C in  batch culture on  mineral salt medium  (Foster and Davis 1966) in  a 30-1  fermentor (New\n\nBrunswick  Scientific Co.,  Edison,  N  J).",
+        "document_offsets": {
+          "start": 4660,
+          "end": 5116
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 13,
+            "sentence_id": 2,
+            "matched_text": "organisms"
+          },
+          {
+            "start": 212,
+            "end": 221,
+            "sentence_id": 3,
+            "matched_text": "Organisms"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Porous glass beads",
+      "predicate": "were purchased from",
+      "object": "SGA Scientific Inc., Bloomfield, NJ",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Product propylene oxide",
+      "predicate": "was assayed",
+      "object": "with gas liquid chromatography",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "gaseous substrate mixture",
+      "predicate": "introduced continuously into",
+      "object": "bioreactor",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 42,
+        "text_evidence": "Finally, a  simple  gas-solid heterogeneous bioreactor system  was successfully demonstrated for the  continuous production of  propylene oxide. The  bioreactor was  equipped with a  jacket  for circulating water  to  control reaction temperature. The mixture  of  gaseous  substrates (a  mixture  of propylene  and oxygen 1:1, v/v)  was  introduced through  a water  bottle 6 (which  was maintained at 40  \u00b0  C) to  pick  up moisture and  then  into the  bottom of  the  gas-solid bioreactor 1. The temperature of  the bioreactor was kept  at 40  \u00b0  C (above  the  boiling point of product  propylene  oxide,  35 \u00b0  C). The  gaseous phase of the bioreactor was  evacuated  and then  was filled with  the  gaseous  substrate mixture. The  gas  mixture was  then  introduced continuously into  the bioreactor at a flow rate  of about  0.5 ml/min. The relative humidity  inside  the bioreactor  was  maintained at about  70%. In situ  regeneration of the biocatalyst in the bioreactor was  conducted after  12 h  of operation using  methanol as the regeneration substrate. The  air  was  forced to pass through a methanol  bottle 7 (maintained at  40 \u00b0  C) and  then  into the bioreactor, carrying  methanol vapor with it. Microbial cells  of other methanotrophic  bacteria were  also tested in  this heterogeneous bioreactor. Data shown in Table 1 indicated  that  this  bioreactor can be applied  to the cells of other  methanotrophs. This has been accomplished by  maintaining  the  temperature  of  the gas-solid bioreactor at  greater than 40  \u00b0  C. In addition,  the amount  of water used in our gas-solid bioreactor is  significantly less  in  comparison  to  the conventional  gas-liquid bioreactor  system. Although  we have not optimized  the  reaction conditions for  this  heterogeneous gas-solid  bioreactor  with  a  particular methanotrophic strain, this  paper  demonstrates the feasibility of using  this new type  of  bioreactor for  the production  of chemicals  from gaseous  substrates.",
+        "document_offsets": {
+          "start": 5796,
+          "end": 10264
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 496,
+            "end": 506,
+            "sentence_id": 8,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 829,
+            "end": 839,
+            "sentence_id": 9,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 868,
+            "end": 878,
+            "sentence_id": 10,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1136,
+            "end": 1146,
+            "sentence_id": 12,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1286,
+            "end": 1296,
+            "sentence_id": 13,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1371,
+            "end": 1381,
+            "sentence_id": 14,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 2227,
+            "end": 2237,
+            "sentence_id": 22,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 2500,
+            "end": 2510,
+            "sentence_id": 24,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3264,
+            "end": 3274,
+            "sentence_id": 32,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3321,
+            "end": 3331,
+            "sentence_id": 33,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3711,
+            "end": 3721,
+            "sentence_id": 36,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3806,
+            "end": 3816,
+            "sentence_id": 37,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3890,
+            "end": 3900,
+            "sentence_id": 37,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 4271,
+            "end": 4281,
+            "sentence_id": 42,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 4397,
+            "end": 4407,
+            "sentence_id": 42,
+            "matched_text": "bioreactor"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "bioreactor",
+      "predicate": "equipped with",
+      "object": "jacket for circulating water to control reaction temperature",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 42,
+        "text_evidence": "Finally, a  simple  gas-solid heterogeneous bioreactor system  was successfully demonstrated for the  continuous production of  propylene oxide. The  bioreactor was  equipped with a  jacket  for circulating water  to  control reaction temperature. The mixture  of  gaseous  substrates (a  mixture  of propylene  and oxygen 1:1, v/v)  was  introduced through  a water  bottle 6 (which  was maintained at 40  \u00b0  C) to  pick  up moisture and  then  into the  bottom of  the  gas-solid bioreactor 1. The temperature of  the bioreactor was kept  at 40  \u00b0  C (above  the  boiling point of product  propylene  oxide,  35 \u00b0  C). The  gaseous phase of the bioreactor was  evacuated  and then  was filled with  the  gaseous  substrate mixture. The  gas  mixture was  then  introduced continuously into  the bioreactor at a flow rate  of about  0.5 ml/min. The relative humidity  inside  the bioreactor  was  maintained at about  70%. In situ  regeneration of the biocatalyst in the bioreactor was  conducted after  12 h  of operation using  methanol as the regeneration substrate. The  air  was  forced to pass through a methanol  bottle 7 (maintained at  40 \u00b0  C) and  then  into the bioreactor, carrying  methanol vapor with it. Microbial cells  of other methanotrophic  bacteria were  also tested in  this heterogeneous bioreactor. Data shown in Table 1 indicated  that  this  bioreactor can be applied  to the cells of other  methanotrophs. This has been accomplished by  maintaining  the  temperature  of  the gas-solid bioreactor at  greater than 40  \u00b0  C. In addition,  the amount  of water used in our gas-solid bioreactor is  significantly less  in  comparison  to  the conventional  gas-liquid bioreactor  system. Although  we have not optimized  the  reaction conditions for  this  heterogeneous gas-solid  bioreactor  with  a  particular methanotrophic strain, this  paper  demonstrates the feasibility of using  this new type  of  bioreactor for  the production  of chemicals  from gaseous  substrates.",
+        "document_offsets": {
+          "start": 5796,
+          "end": 10264
+        },
+        "subject_positions": [
+          {
+            "start": 44,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 496,
+            "end": 506,
+            "sentence_id": 8,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 829,
+            "end": 839,
+            "sentence_id": 9,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 868,
+            "end": 878,
+            "sentence_id": 10,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1136,
+            "end": 1146,
+            "sentence_id": 12,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1286,
+            "end": 1296,
+            "sentence_id": 13,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1371,
+            "end": 1381,
+            "sentence_id": 14,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 2227,
+            "end": 2237,
+            "sentence_id": 22,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 2500,
+            "end": 2510,
+            "sentence_id": 24,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3264,
+            "end": 3274,
+            "sentence_id": 32,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3321,
+            "end": 3331,
+            "sentence_id": 33,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3711,
+            "end": 3721,
+            "sentence_id": 36,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3806,
+            "end": 3816,
+            "sentence_id": 37,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3890,
+            "end": 3900,
+            "sentence_id": 37,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 4271,
+            "end": 4281,
+            "sentence_id": 42,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 4397,
+            "end": 4407,
+            "sentence_id": 42,
+            "matched_text": "bioreactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "reaction product",
+      "predicate": "is toxic for the biocatalyst",
+      "object": "To avoid epoxide accumulation in the microenvironment of the biocatalyst, a rapid removal of this product is essential.",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "amount of water used in our gas-solid bioreactor",
+      "predicate": "is significantly less in comparison to the conventional gas-liquid bioreactor system.",
+      "object": ""
+    },
+    {
+      "subject": "temperature of the gas-solid bioreactor",
+      "predicate": "was kept at greater than",
+      "object": "40  \u00b0C",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "propylene oxide production",
+      "predicate": "found to be at a constant rate of",
+      "object": "18 ~tmoles/h for the first 7 h",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "Some  stimulation of propylene oxide production by  the  addition  of methanol was also  observed  (Hou et  al.  1980b).",
+        "document_offsets": {
+          "start": 7853,
+          "end": 7975
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 47,
+            "sentence_id": 21,
+            "matched_text": "propylene oxide production"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "microbial cells of other methanotrophic bacteria",
+      "predicate": "were tested in this heterogeneous bioreactor",
+      "object": "Data shown in Table 1 indicated that this bioreactor can be applied to the cells of other methanotrophs.",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "propylene oxide production",
+      "predicate": "essentially stopped after",
+      "object": "10 h of operation",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "Some  stimulation of propylene oxide production by  the  addition  of methanol was also  observed  (Hou et  al.  1980b).",
+        "document_offsets": {
+          "start": 7853,
+          "end": 7975
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 47,
+            "sentence_id": 21,
+            "matched_text": "propylene oxide production"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methylosinus sp. CRL 31",
+      "predicate": "produces",
+      "object": "propylene oxide",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 21,
+        "text_evidence": "Finally, a  simple  gas-solid heterogeneous bioreactor system  was successfully demonstrated for the  continuous production of  propylene oxide. The  product\n\ni\n\n\u00b0D\n\nj\n\nl\n\n..~t\n\nAir\n\nor\n\nSubstrate Gases\n\nSupply\n\npropylene oxide  was recovered by  cooling using  ice  as the coolant 4. After  7 h  of continuous  operation, the rate  of propylene oxide  production  slowed down, possibly due to  the depletion of  endogeneous reducing  power (cofactor NADH2). Some  stimulation of propylene oxide production by  the  addition  of methanol was also  observed  (Hou et  al.  1980b).",
+        "document_offsets": {
+          "start": 5796,
+          "end": 7975
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 128,
+            "end": 143,
+            "sentence_id": 3,
+            "matched_text": "propylene oxide"
+          },
+          {
+            "start": 1036,
+            "end": 1051,
+            "sentence_id": 11,
+            "matched_text": "propylene oxide"
+          },
+          {
+            "start": 1633,
+            "end": 1648,
+            "sentence_id": 17,
+            "matched_text": "propylene oxide"
+          },
+          {
+            "start": 2078,
+            "end": 2093,
+            "sentence_id": 21,
+            "matched_text": "propylene oxide"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "relative humidity inside the bioreactor",
+      "predicate": "maintained at about",
+      "object": "70%",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 14,
+        "sentence_end": 14,
+        "text_evidence": "The relative humidity  inside  the bioreactor  was  maintained at about  70%.",
+        "document_offsets": {
+          "start": 7132,
+          "end": 7209
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "batch experiments using the gas-liquid system described previously (Hou et al. 1979a)",
+      "predicate": "the same cell suspension produced propylene oxide at",
+      "object": "1.5 ~tmoles/h/mg protein for 2 h",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "conversion rate for propylene",
+      "predicate": "was",
+      "object": "2.7%",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 16,
+        "sentence_end": 16,
+        "text_evidence": "The conversion rate for  propylene was 2.7%.",
+        "document_offsets": {
+          "start": 7333,
+          "end": 7377
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "propylene oxide production",
+      "predicate": "slowed down possibly due to",
+      "object": "depletion of endogeneous reducing power (cofactor NADH2)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "Some  stimulation of propylene oxide production by  the  addition  of methanol was also  observed  (Hou et  al.  1980b).",
+        "document_offsets": {
+          "start": 7853,
+          "end": 7975
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 47,
+            "sentence_id": 21,
+            "matched_text": "propylene oxide production"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "water bottle 6",
+      "predicate": "maintained at",
+      "object": "40  \u00b0C",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "gaseous substrates (a mixture of propylene and oxygen 1:1, v/v)",
+      "predicate": "introduced",
+      "object": "bioreactor",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 42,
+        "text_evidence": "Finally, a  simple  gas-solid heterogeneous bioreactor system  was successfully demonstrated for the  continuous production of  propylene oxide. The  bioreactor was  equipped with a  jacket  for circulating water  to  control reaction temperature. The mixture  of  gaseous  substrates (a  mixture  of propylene  and oxygen 1:1, v/v)  was  introduced through  a water  bottle 6 (which  was maintained at 40  \u00b0  C) to  pick  up moisture and  then  into the  bottom of  the  gas-solid bioreactor 1. The temperature of  the bioreactor was kept  at 40  \u00b0  C (above  the  boiling point of product  propylene  oxide,  35 \u00b0  C). The  gaseous phase of the bioreactor was  evacuated  and then  was filled with  the  gaseous  substrate mixture. The  gas  mixture was  then  introduced continuously into  the bioreactor at a flow rate  of about  0.5 ml/min. The relative humidity  inside  the bioreactor  was  maintained at about  70%. In situ  regeneration of the biocatalyst in the bioreactor was  conducted after  12 h  of operation using  methanol as the regeneration substrate. The  air  was  forced to pass through a methanol  bottle 7 (maintained at  40 \u00b0  C) and  then  into the bioreactor, carrying  methanol vapor with it. Microbial cells  of other methanotrophic  bacteria were  also tested in  this heterogeneous bioreactor. Data shown in Table 1 indicated  that  this  bioreactor can be applied  to the cells of other  methanotrophs. This has been accomplished by  maintaining  the  temperature  of  the gas-solid bioreactor at  greater than 40  \u00b0  C. In addition,  the amount  of water used in our gas-solid bioreactor is  significantly less  in  comparison  to  the conventional  gas-liquid bioreactor  system. Although  we have not optimized  the  reaction conditions for  this  heterogeneous gas-solid  bioreactor  with  a  particular methanotrophic strain, this  paper  demonstrates the feasibility of using  this new type  of  bioreactor for  the production  of chemicals  from gaseous  substrates.",
+        "document_offsets": {
+          "start": 5796,
+          "end": 10264
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 496,
+            "end": 506,
+            "sentence_id": 8,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 829,
+            "end": 839,
+            "sentence_id": 9,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 868,
+            "end": 878,
+            "sentence_id": 10,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1136,
+            "end": 1146,
+            "sentence_id": 12,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1286,
+            "end": 1296,
+            "sentence_id": 13,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 1371,
+            "end": 1381,
+            "sentence_id": 14,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 2227,
+            "end": 2237,
+            "sentence_id": 22,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 2500,
+            "end": 2510,
+            "sentence_id": 24,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3264,
+            "end": 3274,
+            "sentence_id": 32,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3321,
+            "end": 3331,
+            "sentence_id": 33,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3711,
+            "end": 3721,
+            "sentence_id": 36,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3806,
+            "end": 3816,
+            "sentence_id": 37,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 3890,
+            "end": 3900,
+            "sentence_id": 37,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 4271,
+            "end": 4281,
+            "sentence_id": 42,
+            "matched_text": "bioreactor"
+          },
+          {
+            "start": 4397,
+            "end": 4407,
+            "sentence_id": 42,
+            "matched_text": "bioreactor"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Dalton H",
+      "predicate": "is author",
+      "object": "(1980)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 31,
+        "text_evidence": "Biochem J 165  :  395-402\n\nDalton  H  (1980) Arch Biochem Biophys  223:297-308\n\nParkinson G (1980)",
+        "document_offsets": {
+          "start": 10478,
+          "end": 13170
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "RN Patel, AI Laskin, Barnabe N (1981b)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "RN Patel, AI Laskin, Barnabe N (1979b)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "RN Patel, AI Laskin, Barnabe N (1980b)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "RN Patel",
+      "predicate": "is author",
+      "object": "Hou CT, Felix A (1978)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "RN Patel",
+      "predicate": "is author",
+      "object": "Patel RN, Hou CT, Laskin AI, Felix A (1982)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "Patel RN, Barnabe N, Barist I (1983)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "RN Patel, AI Laskin, Marczak I (1980a)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "RN Patel",
+      "predicate": "is author",
+      "object": "Patel RN, Hou CT, Laskin AI, Felix A (1980b)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Foster JW",
+      "predicate": "is author",
+      "object": "Davis RH (1966)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Adv Appl Microbiol 26  :  71-87\n\nFoster JW, Davis  RH  (1966)",
+        "document_offsets": {
+          "start": 10608,
+          "end": 10671
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 5,
+            "matched_text": "Foster JW"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "RN Patel",
+      "predicate": "is author",
+      "object": "Patel RN, Hou CT, Derelanko P, Felix A (1980a)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "IJ Higgins",
+      "predicate": "is author",
+      "object": "RC Hammond, FS Sariaslani, Best D, Davies MM, Tryhorn SE, Taylor F (1979)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "RN Patel",
+      "predicate": "is author",
+      "object": "Patel RN, Hou CT, Laskin AI, Felix A, Derelanko P (1979)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Colby J",
+      "predicate": "is author",
+      "object": "Stirling DI, Dalton H (1977)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Colby J,  Stirling DI, Dalton  H  (1977)",
+        "document_offsets": {
+          "start": 10254,
+          "end": 10296
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Colby J"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "RN Patel, AI Laskin, Barnabe N (1979a)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "G Parkinson",
+      "predicate": "is author",
+      "object": "(1980)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 31,
+        "text_evidence": "Biochem J 165  :  395-402\n\nDalton  H  (1980) Arch Biochem Biophys  223:297-308\n\nParkinson G (1980)",
+        "document_offsets": {
+          "start": 10478,
+          "end": 13170
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "CT Hou",
+      "predicate": "is author",
+      "object": "RN Patel, Barnabe N, Marczak N (1981a)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    }
+  ]
+}

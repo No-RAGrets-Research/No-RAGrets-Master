@@ -1,0 +1,495 @@
+[
+  {
+    "chunk_index": 0,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nENVIRONMENTAL RESEARCH PUBLISHING™ LETTERS PURPOSE-LED LETTER • OPEN ACCESS You may also like Living emission abolish filters (LEAFs) for methane mitigation: design and operation To cite this article: Richard Hamilton et al 2024 Environ. Res. Lett. 19 054057 View the article online for updates and enhancements. Molecular identification of methane oxidizing bacteria from paddy soils and detection methane monooxygenase gene R Setiawan and I M Sudiana - Evaluating the contribution of methanotrophy kinetics to uncertainty in the soil methane sink Hannah Dion-Kirschner, Newton H Nguyen, Christian Frankenberg et al. - Mitigation of ventilation air methane (VAM) using novel methanotrophic coating materials: a technical analysis Daniel James Lundberg, Jimin Kim, Dorsa - Parviz et al. This content was downloaded from IP address 38.106.95.122 on 18/11/2024 at 20:22 Environ. Res. Lett. 19 (2024) 054057 https://doi.org/10.1088/1748-9326/ad42b7 OPEN ACCESS RECEIVED 1 November 2023 REVISED 22 April\n\nOutput: [('Richard Hamilton', 'author', 'You may also like'), ('Richard Hamilton', 'author', 'Molecular identification of methane oxidizing bacteria from paddy soils and detection methane monooxygenase gene'), ('Daniel James Lundberg', 'author', 'Mitigation of ventilation air methane (VAM) using novel methanotrophic coating materials: a technical analysis')]\n\nNote: The output is a list of tuples where each tuple represents a triple with the subject, predicate, and object respectively. In some cases, there might be multiple authors or contributors listed under \"You may also like\" section, so we return all of them",
+    "source": "text"
+  },
+  {
+    "chunk_index": 1,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n2024 ACCEPTED FOR PUBLICATION 24 April 2024 PUBLISHED 7 May 2024 Original content from this work may be used under the terms of the Creative Commons Attribution 4.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI. LETTER Living emission abolish filters (LEAFs) for methane mitigation: design and operation Richard Hamilton 1 , Nicholas Griffith 1 , Peter Salamon 2 , Robert Handler 3 and Marina G Kalyuzhnaya 1, ∗  1 Department of Biology, San Diego State University, San Diego, CA, United States of America 2 Department of Mathematics and Statistics, San Diego State University, San Diego, CA, United States of America 3 Department of Chemical Engineering, Michigan Technological University, Houghton, MI, United States of America ∗ Author to whom any correspondence should be addressed. E-mail: mkalyuzhnaya@sdsu.edu Keywords: methane, methane mitigation, biological methane consumption Supplementary\n\nOutput: information about the subject, predicate, and object in each triple is provided. The output format is:\n\n[(Subject, Predicate, Object), ...]\n\nHere are some examples:\n\n- (\"The quick brown fox\", \"jumped over\", \"the lazy dog\")\n- (\"San Francisco\", \"is the capital of California\", None)\n- (\"The earth\", \"revolves around the sun\", None)\n\nFor the given text, here's how we can break it down into triples:\n\n1. (2024, ACCEPTED_FOR_PUBLICATION, 24 April 2024)\n2. (24 April 2",
+    "source": "text"
+  },
+  {
+    "chunk_index": 2,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nmaterial for this article is available online Abstract As one of the most potent greenhouse gases, methane is a critical target for the near-term mitigation of global warming. Efficient, scalable, easy-to-implement, and robust mitigation technologies are urgently needed to assist in reaching methane abolishment. The goal of this research was to test the applicability of active, extremophilic methanotrophic cells as a baseline concept for engineered systems aiming at methane capturing. The system, named living emission abolish filters (LEAFs), represents an array of immobilized biomaterials capable of capturing methane directly from vent streams. The biomaterials were made using cells of Methylotuvimicrobium alcaliphilum 20Z R , a robust halophilic methanotrophic bacterium with the ability to consume methane gas at low concentrations. Several critical parameters were tested, including (i) the composition of the matrix and optimal immobilization to increase catalyst load, (ii) the\n\nOutput: instances of the triple pattern (Subject, Predicate, Object). Here's how I arrived at that:\n\n1. Subject: material\n   Predicate: is available online\n   Object: abstract\n\n2. Subject: As one of the most potent greenhouse gases\n   Predicate: is\n   Object: methane\n\n3. Subject: methane\n   Predicate: is a critical target\n   Object: for the near-term mitigation of global warming\n\n4. Subject: efficient, scalable, easy-to-implement, and robust mitigation technologies\n   Predicate: are urgently needed\n   Object: to assist in reaching methane abolishment\n\n5. Subject: the",
+    "source": "text"
+  },
+  {
+    "chunk_index": 3,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nstability of methanotrophic cells, and (iii) the toxicity of trace gases (i.e. CO). We found that hydrogels coated with 2.3 mg cell dry weight/cm 3 methanotrophic cells represent the best-performing biomaterials. The methane reduction potential of LEAFs fluctuated from 20% to 95% and depended on the methane concentration in the gas stream and the stream flow rates. The potential for commercial-scale deployment and emissions reductions was also evaluated. Total greenhouse gas emissions (combined using the global warming potential GWP100) from an example using a ventilation air methane source over a one-year period was shown to be reduced in two LEAF scenarios by 51% and 75%. Over longer time horizons, more significant reductions are possible as consistent methane consumption can be sustained. The study highlights the overall potential of the liquid-free bio-based composite methane mitigation system. Further improvements essential for system assembly and implementations should include\n\nOutput: [('stability of methanotrophic cells', 'and', '(iii)'),\n ('hydrogels coated with 2.3 mg cell dry weight/cm^3 methanotrophic cells', 'represent', 'the best-performing biomaterials'),\n ('methane reduction potential of LEAFs', 'fluctuated', 'from 20% to 95%'),\n ('LEAFs', 'depended on', 'the methane concentration in the gas stream and the stream flow rates'),\n ('total greenhouse gas emissions', 'reduced', 'in two LEAF scenarios by 51% and 75%",
+    "source": "text"
+  },
+  {
+    "chunk_index": 4,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n(a) optimization of the cell immobilization protocols to improve cell load and the shelf-life of the system and (b) implementation of matrix moldings for cell immobilization to achieve optimal gas flow and increase the cell-gas interface. 1. Introduction Greenhouse gases (GHGs), mostly CO2, methane and nitrous oxide, are the main drivers of climate change. The emission of all GHGs needs to be targeted but reducing methane emissions would bring the biggest benefits in a short-time frame. Methane has a global warming potential (GWP100) 27-30 times stronger than CO2, meaning that 1 kg of emitted methane has 27-30 more climate effect than 1 kg of CO2 in a 100 year time frame [1, 2]. Removing atmospheric methane and reducing anthropogenic methane emissions by 30% is one of the ambitious but urgently needed tasks for slowing climate-change progression. Methane emissions come from a variety of sources, ranging from small dairy farms to ©2024 The Author(s). Published by IOP Publishing Ltd\n\nOutput: [('Greenhouse gases', 'main driver of climate change', None),\n ('methane', 'global warming potential', '27-30 times stronger than CO2'),\n ('CO2', 'climate effect', '1 kg of emitted methane has 27-30 more climate effect than 1 kg of CO2 in a 100 year time frame'),\n ('milk production', 'source of methane emissions', None)]",
+    "source": "text"
+  },
+  {
+    "chunk_index": 5,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nEnviron. Res. Lett. 19 (2024) 054057 R Hamilton et al Parameters optimized: • Medium • Carbon substrate • Cell density • O,/CH, supply Fermentation Parameters optimized: • Cell preparation protocol • Matrix saturation Parameters tested: • Gas flow • CO impacts large coal mines, challenging the concept of a universal methane mitigation system [3]. Over the last few decades, scientists have been developing various methane-capturing strategies, including several biological solutions [4]. Biology plays an important role in the global methane cycle, contributing to both methane production and methane oxidation [5]. Microbial methane utilization has been found in aerobic and anaerobic environments [5]. Aerobic methanotrophic bacteria, also known as methanotrophs, drive methane oxidation using oxygen-dependent enzymes [6]. Methanotrophs are the commonly used platforms for engineering bio-based systems that aim at methane capturing and oxidation. Most bio-based designs are centered on\n\nOutput: information retrieval, knowledge graph construction, natural language processing, machine learning, data mining, database management, software development, web scraping, search engine optimization, content creation, technical writing, project management, team collaboration, communication skills, leadership qualities, problem-solving abilities, critical thinking, attention to detail, time management, adaptability, creativity, emotional intelligence, interpersonal skills, organizational skills, decision-making abilities, ethical considerations, cultural awareness, diversity and inclusion, continuous improvement, professional growth, personal development, career advancement, work-life balance, stress management, health and wellness, financial planning, goal setting, motivation, self-care, networking, mentorship",
+    "source": "text"
+  },
+  {
+    "chunk_index": 6,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nreinforcing activities of natural microbes toward higher methane fluxes [7]. Efficiency, simplicity in operation, and system cost are among the main challenges remaining. Immobilization of methanotrophic microbes has been attempted over the last 20 years in order to identify a novel filtration system for methane [4]. Over these past few decades scientists have been trying to determine the most efficient matrix to immobilize methanotrophic bacteria by testing: natural soil, alginate, clay pellets, fly ash ceramsite, perlite compost, concrete, coal, compost, polyethylene rings, activated carbon, plastic bio-balls, gravel, sponge, wood chips, bark mulch, and glass fiber filters [8-17]. Thedesign of most of these filtration systems typically includes immobilized cells on a specified substrate with mixed gas entering from one side and flowing through the system to exit through the opposite side. Methane-consuming bacteria in these filtration models are supplied with liquid mineral media\n\nOutput: the subject is \"methanotrophic microbes\", the predicate is \"attempted\", and the object is \"immobilization\". The subject is \"natural microbes\", the predicate is \"toward\", and the object is \"higher methane fluxes\". The subject is \"efficiency\", the predicate is \"among\", and the object is \"main challenges\". The subject is \"immobilization\", the predicate is \"of methanotrophic microbes\", and the object is \"system cost\". The subject is \"over the last 20 years\", the predicate is \"trying\", and the object is \"to determine the most efficient matrix\".",
+    "source": "text"
+  },
+  {
+    "chunk_index": 7,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ncontinuously, typically using a nutrient recycling pump that has temperature regulation and the ability for sludge removal. The general idea for such biofiltration systems is to capture methane emissions and convert them into CO2, with minimal biomass production to prevent the system from bio-clogging. However, keeping microbes in an active methane utilization stage with limited biomass production is challenging and often results in an unstable system. Microbial methane oxidation provides cell carbon, energy, and water release by two pathways: Q1. CH4 + 2O2 = CO2 + 2H2O (oxidationenergy) Q2. CH4 + O2 = CH2O + H2O (assimilationbiomass). The ratio between the pathways will differ in response to nutrient availability or environmental conditions (e.g. pH/salinity/temperature or oxidative stress). About 50% of the methane consumed is oxidized. Environmental stressors (high or low pH, salinity, and temperature) will shift the methane flux toward oxidation for energy generation. Theoretical\n\nOutput: [('nutrient recycling pump', 'has relation', 'temperature regulation'), ('biofiltration systems', 'use', 'methane emissions'), ('methane emissions', 'are converted into', 'CO2'), ('minimal biomass production', 'to prevent', 'system from bio-clogging'), ('microbial methane oxidation', 'provides', 'cell carbon, energy, and water release'), ('Q1', 'is', 'CH4 + 2O2 = CO2 + 2H2O (oxidationenergy)'), ('Q2', 'is', 'CH4 + O2 = CH2O + H2O",
+    "source": "text"
+  },
+  {
+    "chunk_index": 8,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nFigure 1. Parameters optimized for efficient LEAFs operation with the basic design of the system without any external manipulations needed. predictions suggest that active methane consumption could supply up to 80% of the cellular water requirements in microbial species isolated from environments with low water availability. This research aimed to construct and assess a novel design, showcased in figure 1, named living emission abolish filters (LEAFs) for eliminating methane from coal mine ventilation without the need for outside intervention. The objective for the design of LEAFs was to eliminate the need for external nutrient supplementation, temperature regulation, and sludge removal which has been critical for previous models. The methanotrophic microbe used for testing LEAFs was Methylotuvimicrobium alcaliphilum ( M.alcaliphilum ) 20Z R , chosen for its robustness in thriving at high salinities and pH levels. These qualities were sought after due to the unique ability of LEAF's\n\nOutput: sentences = [\n    ('Figure', 'has', 'parameters'),\n    ('Figure', 'optimized', 'for efficient LEAFs operation'),\n    ('Figure', 'with', 'basic design of the system'),\n    ('predictions', 'suggest', 'active methane consumption could supply up to 80% of the cellular water requirements in microbial species isolated from environments with low water availability.'),\n    ('research', 'aimed', 'to construct and assess a novel design'),\n    ('novel design', 'showcased', 'in figure 1'),\n    ('living emission abolish filters', 'named', 'LEAFs'),\n    ('elim",
+    "source": "text"
+  },
+  {
+    "chunk_index": 9,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nhalophilic methanotrophs to sustain dryness, while preserving high methane oxidation rates. The ability of immobilized cells to stay active at solid-gas interphase enables construction of a simple cartridge-like system, which does not require nutrient recycling or water addition. The elimination of the aquatic phase has potential of improving gas exchange in the system because there is no gas-to-liquid transfer. 2. Results 2.1. Immobilization matrix selection For all immobilization tests, cell cultures of M. alcaliphilum 20Z R were prepared using BioFlo/CelliGen 115 (3.0 l vessel) or BioFlo 120 (7.5 l vessel) fermenters following previously published protocols [18]. The following immobilization matrixes were tested: vegetable cellulose (sponge), premium glass, Whatman 17 CHR filter paper, alginate beads, super absorbent polymer (SAP, or hydrogels) (figure 2(A)). 2 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al B Cellulose (Sponge) Gas Consumed (mmol/d/gCDW) 400 200 - Premium\n\nOutput: [('vegetable cellulose', 'immobilization matrix', 'cellulose'), ('premium glass', 'immobilization matrix', 'glass'), ('Whatman 17 CHR filter paper', 'immobilization matrix', 'filter paper'), ('alginate beads', 'immobilization matrix', 'beads'), ('super absorbent polymer (SAP)', 'immobilization matrix', 'hydrogel')] Here are the extracted factual triples:\n\n1. (vegetable cellulose, immobilization matrix, cellulose)\n2. (premium glass, immobilization matrix, glass)\n3. (Whatman 17 CHR filter",
+    "source": "text"
+  },
+  {
+    "chunk_index": 10,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nGlass SAP Glass SAP (hydrogel) 2 CENTIMETERS 3 Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from each matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP. Sponge Filter CH4 Day 3 Day 4 After cell seeding, the matrices were placed into a sealed chamber connected to methane and oxygen blue-sense sensors to record the consumption rates. We collected gas consumption rates daily (glass, filter paper, and sponge) or every other day (SAP) and represented them as an average for each matrix. Methane consumption rates (i.e. activity) and duration of the active stage (i.e. stability) varied between matrices as shown in figure 2(B). All consumption data was normalized by gram cell dry weight (gCDW) which is a calculation previously identified to be 0.34 gCDW in 1 l of cells with an optical density (OD600) of 1. Very poor activity ( ∼ 0.5-1 mmol CH4 d -1 gCDW -1 ) and stability (up to 2 d) were\n\nOutput: [('Glass', 'is a type of', 'sponge'), ('SAP', 'is a type of', 'matrix'), ('hydrogel', 'is a type of', 'material'), ('Figure 2.', 'contains', 'immobilization matrix selection'), ('(A)', 'shows', 'matrices tested for immobilization studies'), ('(B)', 'shows', 'gas consumption results from each matrix tested'), ('(C)', 'shows', 'scanning electron micrographs of cells immobilized on SAP'), ('CH4', 'consumed', 'by the system'), ('cell seeding', 'was performed', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 11,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nobserved for cells immobilized on glass. Cells immobilized on more absorbent substrates (sponge and filter paper) consumed methane for 2-4 d with the highest consumption at 63 mmol CH4 d -1 gCDW -1 on day 1 and 25 mmol CH4 d -1 gCDW -1 on day 4. Cells imbedded onto the SAP made of hydrogel displayed the highest methane consumption rates, 31-155 mmol CH4 d -1 gCDW -1 for 7-11 d on average in a closed system. To further evaluate cell adhesion to the surface of the SAP matrix, several beads from the SAP matrix were removed from the experiment with immobilized M. alcaliphilum 20Z R cells were removed from the experiment for use in scanning electron microscopy (SEM). After fixing and mounting the SAP matrix, micrographs were captured of its surface, gradually increasing magnification from top to bottom (figure 2(C)). These micrographs illustrated that cells were localized on the matrix's surface and possessed the characteristic morphology of rod-shaped M. alcaliphilum 20Z R cells. When the\n\nOutput: [('cells immobilized on glass', 'consumed methane', 'for 2-4 d'), ('cells immobilized on sponge and filter paper', 'consumed methane', 'with the highest consumption at 63 mmol CH4 d -1 gCDW -1 on day 1 and 25 mmol CH4 d -1 gCDW -1 on day 4'), ('cells imbedded onto the SAP matrix', 'displayed the highest methane consumption rates', '31-155 mmol CH4 d -1 gCDW -1 for 7-11 d on average",
+    "source": "text"
+  },
+  {
+    "chunk_index": 12,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nSAP-beads were in the sealed chamber there was a decrease in CH4 andO2 consumption rates with every newgas addition and it was hypothesized this was due to cells becoming dormant once CH4 and O2 were limited in the system. Overall, these data suggested that hydrogels were the best matrix for immobilizing methanotrophic cells. 2.2. Mathematical model The model used for the column in the LEAFs design employs a matrix of loosely packed hydrogel spheres seeded with M. alcaliphilum 20Z R cells. Based on this matrix preparation, the simple mathematical model uses one basic building block: a 7 mm sphere (measured with a ruler) coated by a monolayer of methanotrophs. The predicted behavior of any assemblage of such spheres is then obtained by multiplying the expected uptake from a single sphere by the number of spheres. At a diameter of 7 mm, each sphere has a surface area of 4 π r 2 = 1.5 cm 2 . Estimating the cellular size to be about 2 µ m 3 (1 µ m width, 2 µ m height, and 1 µ m height),\n\nOutput: information retrieval, search engine optimization, website development, online marketing, content creation, technical writing, software engineering, project management, digital marketing, web design, user experience, mobile app development, social media management, graphic design, data analysis, business intelligence, customer service, sales, product management, operations, supply chain management, human resources, legal, finance, public relations, advertising, event planning, travel, hospitality, retail, manufacturing, construction, agriculture, healthcare, education, entertainment, sports, government, non-profit organizations, real estate, technology, science, medicine, law, politics, religion, philosophy, art, music, literature",
+    "source": "text"
+  },
+  {
+    "chunk_index": 13,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\neach cell ( ∼ 8 µ m 2 total surface area) covers about 4 µ m 2 of surface area. It follows that a monolayer will need about 1.5 cm 2 /4 µ m 2 = 38 × 10 6 cells /sphere At a volume of about 8 µ m 3 /cell, and using a density of 1 g cm -3 , the calculated cell weight is 0.3 mg cell wet weight (CWW) per sphere or 0.06 mg CDW, assuming that CDW is 20%-30% of CWW. A model was then constructed to investigate correlation between cell load per sphere, sphere diameter and expected methane consumption for a 1 m 3 unit (figure 3). It was estimated that a 1 m 3 unit will require 0.7 kg cell biomass and can enable methane Day 9-11 Whatman 17 CHR C 3 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al Figure 3. Expected biomass load (in red, g) and methane consumption (o) as a function of SAP bead size. LEAF Unit pilot size 1 m 3 . A monolayer of cells was used to calculate cell biomass. The square indicates cell load applied to 0.5 cm SAP beads in this study (scaled to one m 3 ). mitigation at\n\nOutput: [('Each cell', 'covers', 'about 4 µm 2 of surface area'), ('A monolayer', 'will need', 'about 1.5 cm 2 /4 µm 2 = 38 × 10 6 cells /sphere'), ('At a volume of about 8 µm 3 /cell', 'and using a density of 1 g cm -3 ', 'the calculated cell weight is 0.3 mg cell wet weight (CWW) per sphere or 0.06 mg CDW, assuming that CDW is 20%-30%",
+    "source": "text"
+  },
+  {
+    "chunk_index": 14,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nthe rate 6 kg CH4 /d. Considering that methanotrophic cell biomass can be produced at the cost $1.7-5/kg [19, 20], the system may offer an attractive mitigation platform and, thus, it was investigated further. 2.3. Gas consumption tests: flow system set-up Once the immobilization matrix was defined, we transitioned from the sealed chamber to a continuous gas flow system to further validate feasibility of the dry fermentation concept for methane mitigation. The continuous flow system was set up with either a MCQ GB100 Series gas mixer to mix CH4 and air, or a customcompressedgasmixture (Airgas) to provide gases into the unit at a given flow rate. Once the gas was mixed to a specified concentration, it was fed through BlueSens sensors and sent into the 120 cm 3 unit from the bottom. The gas would travel up through the matrix and exit through to top of the unit into tubing that fed into BlueSens gas sensors to measure gas consumption data. The initial cell immobilization protocols were\n\nOutput: hydrogenation, oxidation, reduction\ndecomposition, synthesis, transformation\nextraction, purification, distillation\nevaporation, condensation, sublimation\ncrystallization, precipitation, filtration\ndistillation, evaporation, extraction\nfiltration, crystallization, precipitation\ncondensation, sublimation, crystallization\nsublimation, crystallization, precipitation\nprecipitation, filtration, distillation\nfiltration, distillation, evaporation\nevaporation, distillation, crystallization\ncrystallization, distillation, precipitation\nprecipitation, distillation, filtration\nfiltration, distillation",
+    "source": "text"
+  },
+  {
+    "chunk_index": 15,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nset up as described above. Typically, one gram of dry SAP was mixed with 10 ml of mineral media containing 80 mg of CDW. Once the SAP beads were coated with methanotrophic cells, they were transitioned to a continuous flow model, with both methane and oxygen consumption rates calculated over time. 2.3.1. Mini-units The next step was to determine methane consumption rates at a range of gas flows and methane concentrations. The first model tested, shown in figure 4, is a 120 cm 3 benchtop unit. Methane consumption was tested at gas flow rates of 0.64-5.14 l hr -1 with methane concentrations at 1%, 3% or 5%, i.e. levels mimicking typical outputs of vented/emitted gases from coal mines, landfills, and husbandry (25050 000 ppm) [13, 21-25]. Methane consumption was tested on units with 16 gCDW total of biomass supplied across 5 mini units in tandem. A variety of gas flow rates were tested starting with a flow rate of 0.64 l hr -1 and up to 5.14 l hr -1 . Units in this setup were run for 3\n\nOutput: [('set up', 'as described above', None), ('typically', 'one gram of dry SAP was mixed with 10 ml of mineral media containing 80 mg of CDW.', None), ('once', 'the SAP beads were coated with methanotrophic cells,', None), ('transitioned', 'to a continuous flow model,', None), ('both', 'methane and oxygen consumption rates calculated over time.', None), ('step', 'determine methane consumption rates at a range of gas flows and methane concentrations.', None), ('benchtop', 'unit.', None), ('gas flow rates', 'of 0.",
+    "source": "text"
+  },
+  {
+    "chunk_index": 16,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nweeks testing each methane concentration and flow rate twice a week for replication of data. The first methane concentration tested was 1% which was a 50/50 mixture from a gas tank of 2% CH4 with air. At the flow rate 0.64 l hr -1 , more than half of the supplied methane (68 ± 18%) methane was consumed (figure 4(B)). When the flow rate was increased to 5.14 l hr -1 , 20 ± 8% methane was consumed. The methane consumption rate reached 14 ± 6.8 g hr m -3 which was estimated to be the maximum potential for the cell biomass in the system. The next experiment conducted was with 3% methane which was a mixture of 3% pure methane and 97% air. At a flow rate of 0.64 l hr -1 , 89 ± 2% methane was consumed, with methane reduction potential of 24 ± 0.3 g hr m -3 (figure 4(C)). When the flow rate was increased to 5.14 l hr -1 , the methane consumption dropped to 34 ± 0.6%, however the methane reduction potential reached 73 ± 2.7 g hr m -3 . The last methane concentration tested was at 5% methane\n\nOutput: [('weeks', 'testing', 'each methane concentration'), ('weeks', 'testing', 'flow rate'), ('first methane concentration tested', 'was', 'a 50/50 mixture from a gas tank of 2% CH4 with air'), ('at the flow rate 0.64 l hr -1 ', 'more than half of the supplied methane (68 ± 18%) methane was consumed', 'figure 4(B)'), ('when the flow rate was increased to 5.14 l hr -1 ', '20 ± 8% methane was consumed', 'the methane consumption rate reached",
+    "source": "text"
+  },
+  {
+    "chunk_index": 17,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nwhich was a mixture of 5% pure methane with 95% air. At a flow rate of 0.64 l hr -1 , 95 ± 2% methane was consumed with methane reduction potential of 41 ± 3 g hr m -3 (figure 4(D)). When the flow was increased to 5.14 l hr -1 , the methane consumption dropped to 34 ± 4%, however the methane reduction potential reached 119 ± 15 g hr m -3 . These tests verified the potential for high methane consumption rates at high gas flow rates without the loss of efficiency. 2.3.2. System stability tests The next task was to test the viability and activity of the immobilized cells over time without the addition of new nutrients, moisture, or temperature regulation. To evaluate the consumption of methane over time we left the units with mixed gas flowing through them and measured the rate of consumption every several days. BlueSens methane and oxygen sensors 4 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al Figure 4. Testing methane consumption of 120 cm 3 at two different methane inlet\n\nOutput: three separate lists containing subject, predicate, and object:\n\n```python\n[\n    [\"which\", \"was\", \"a mixture of 5% pure methane with 95% air.\"],\n    [\"At a flow rate of 0.64 l hr -1 \", \"methane consumption dropped to 34 ± 4%\", \"however the methane reduction potential reached 119 ± 15 g hr m -3.\"],\n    [\"When the flow was increased to 5.14 l hr -1 \", \"the methane consumption dropped to 34 ± 4%\", \"however the methane reduction potential",
+    "source": "text"
+  },
+  {
+    "chunk_index": 18,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nconcentrations with a variety of flow rates. (A) Methane was provided to the system at a concentration of 3% mixed with air. (B) Methane was provided to the system at a concentration of 5.5% mixed with air. were used to measure the inflow and outflow concentrations of methane running through the system. The gas flow rate remained constant at a rate of 0.5 l hr -1 controlled by a mass flow controller. Methane consumption was tested in units with 24 gCDW total of biomass supplied across 5 mini units in tandem. The overall impact of the LEAFs technology depends on the system's stability over prolonged periods of time. Two duplicated units were set up at the beginning of the project for continuous data collection. After the initial set-up, the consumption increased by 25%; however, it dropped after 2 months of continuous operation. After four months one unit displayed 65% of its original consumption, while the second remained at 100%. On average, this represents 83% of the original\n\nOutput: the output should be a list of tuples where each tuple contains three elements: subject, predicate, and object. Here is an example:\n\n[('concentrations', 'with', 'a'), ('concentrations', 'of', 'flow rates')]\n\nHere is the Python code that accomplishes this task:\n\n```python\ntext = \"\"\"\nconcentrations with a variety of flow rates. (A) Methane was provided to the system at a concentration of 3% mixed with air. (B) Methane was provided to the system at a concentration of 5.5% mixed with air. were used",
+    "source": "text"
+  },
+  {
+    "chunk_index": 19,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nconsumption. The consumption fluctuated from 54% to 70% depending on the concentration of methane in the gas stream and represented on average 53 ± 19% with 5% CH4 and 77 ± 9%with CH4 supplied as 1% of the gas stream (flow rate of 100 SLPH/m 2 ) (figure 5). 2.3.3. Carbon monoxide toxicity tests Methane emissions from coal mines or natural gas wells often come with < 0.001% CO. While methanotrophs are capable of CO oxidation, CO can inhibit methane oxidation. To test its impact of CO on LEAFs, a gas mixture similar to coal mine gas was prepared and a series of tests were carried out in batch and gas flow experiments. Batch culture experiments were conducted on M. alcaliphilum 20Z R cells grown in 25 ml NMS media with either just methane or with methane and carbon monoxide. A gas tank was purchased with carbon monoxide (0.009%), methane (0.5%), carbon dioxide (1.5%), oxygen (22.75%), and nitrogen (balance). Specified gases were injected into sealed bottles containing 25 ml of cultures\n\nOutput: [('Methane', 'represented on average', '53 ± 19%'), ('Methane', 'represented on average', '5% CH4'), ('Methane', 'represented on average', '77 ± 9%'), ('CO', 'inhibited', 'methane oxidation'), ('Batch culture experiments', 'carried out', 'on M. alcaliphilum 20Z R cells grown in 25 ml NMS media with either just methane or with methane and carbon monoxide')] Here is the extracted list of factual triples:\n\n1. (Methane, represented",
+    "source": "text"
+  },
+  {
+    "chunk_index": 20,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nthrough septum lids. The results from growing batch cultures in the presence of CO indicated no negative impacts, while there were positive impacts of CO on final optical density which went from 0.93 ± 0.041.30 ± 0.06 (figure 6). However, experiments with immobilized cells produced the opposite outcome, and in general CO spikes to the gas stream resulted in the reduction of CH4 consumption. Furthermore, the impact of CO depended on the methane concentration in the gas stream (figure 5). In a gas stream with 5% methane, the consumption was reduced by 38%; while a 26% reduction was observed in a gas stream of 1% methane. 2.4. Scale up To test the viability of scaling up the system to fit the parameters of the coal mine, a larger unit of 1840 cm 3 (showninfigure 7(A)) was tested at flow rates ranging from 0.6 l hr -1 to 28 l hr -1 . The system was tested at 3 methane inlet concentrations (3%, 1% and 0.1%). To mix each concentration either 3% pure methane was mixed with 97% air or a\n\nOutput: three separate lists:\n\n1. Subject, Relation, Object\n2. Subject, Relation, Object\n3. Subject, Relation, Object\n4. Subject, Relation, Object\n5. Subject, Relation, Object\n6. Subject, Relation, Object\n7. Subject, Relation, Object\n8. Subject, Relation, Object\n9. Subject, Relation, Object\n10. Subject, Relation, Object\n11. Subject, Relation, Object\n12. Subject, Relation, Object\n13. Subject, Relation, Object\n14. Subject, Relation, Object\n15. Subject, Relation,",
+    "source": "text"
+  },
+  {
+    "chunk_index": 21,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\npurchased 2% methane tank was mixed with air 50/50 for 1% methane and 5/95 for 0.1% methane. The concentrations were mixed with a MCQ GB100 Series gas mixer. Biomass was grown in a BioFlo 120 (7.5 l vessel) bioreactor to obtain sufficient biomass to fill the 1840 cm 3 unit. To 5 % consumed Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al 100 80 60 40 20 Feb12 Mar12 CO test 1 Apr 4 CO test 2 % input 5 4 3 Figure 5. Consumption rates of 5 tandem mini-units over time. Consumption rates were taken every several days using blue sense sensors. The percent methane consumption was calculated by taking the inflow and outflow measurements, then subtracting the two. May 21 2 1 0 Jun 05 Figure 6. Growth curves of M.alcaliphilum 20Z R grown in the presence of methane (0.5%) and carbon monoxide (0.009%). fill the larger unit 100 g of SAP was added with 1.26 l of 2xNMS containing 6 gCDW of biomass. The scale up system was only tested once with standard deviation given by the LGR gas\n\nOutput: [('purchased', '2%', 'methane tank'), ('mixed', 'with', 'air'), ('50/50', None), ('for', '1%', 'methane'), ('and', '5/95', 'for'), ('0.1%', 'methane'), ('the', 'concentrations', 'were'), ('mixed', 'with', 'a'), ('MCQ', 'GB100', 'Series'), ('gas', 'mixer'), ('Biomass', 'was', 'grown'), ('in', 'a', 'BioFlo'), ('120',",
+    "source": "text"
+  },
+  {
+    "chunk_index": 22,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nchromatography system. The first test was with the methane concentration set at 0.1%, a low methane inlet load, comparable to typical mine-venting targets and landfill gas concentrations (demonstrated in figure 7(B)). At a flow rate of 0.6 l hr -1 there was 37.8 ± 1% of methane being consumed. The highest methane consumption at 0.1% was at a flow rate of 13 l hr -1 with a methane consumption rate of 0.61 ± 0.02 g hr m -3 which was 17.5 ± 0.6% of the inlet load. The methane concentration was then increased to 1% resulting in higher methane inlet concentrations allowing for higher methane saturation throughout the system (figure 7(C)). The highest methane percent consumption at 1% was at a flow rate of 2.2 l hr -1 with 64.1 ± 0.1% being consumed at a rate of 8.5 ± 0.01 g hr m -3 . This consumption rate was improved when the flow was increased to 6.18 l hr -1 resulting in a consumption rate of 14.6 ± 0.02 g h rm -3 which was 36.2 ± 0.04% of the inlet load. Lastly, we tested the system at\n\nOutput: [('chromatography system', 'The first test', 'with the methane concentration set at 0.1%),'], \n('The first test', 'a low methane inlet load', 'comparable to typical mine-venting targets and landfill gas concentrations'), \n('The first test', 'comparable to typical mine-venting targets and landfill gas concentrations', 'and landfill gas concentrations'), \n('At a flow rate of 0.6 l hr -1 ', 'there was', '37.8 ± 1% of methane being consumed'), \n('the highest methane consumption at 0.1%', 'was', 'at",
+    "source": "text"
+  },
+  {
+    "chunk_index": 23,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\na 3% inlet methane concentration. Figure 7(D) demonstrates that at a flow of 2.1 l hr -1 , methane was being consumed at a rate of 18.6 ± 0.1 g hr m -3 which was 57.7 ± 0.3% of the inlet load. When the flow was increased to 14.6 l hr -1 the unit consumed 18.2 ± 0.3% of the inlet load at a methane reduction rate of 53.3 ± 0.5 g hr m -3 . Overall, the larger unit consumed similar fractions of the inlet methane at lower gas flow rates similar to the data derived from the benchtop units. When the gas flow was increased the units consumed a lower fraction of the inlet load but at a higher rate per hour. These data exemplify that the unit can be scaled up from 120 cm 3 to 1840 cm 3 with comparable results. 2.5. LCA In order to examine the potential for LEAF reactors to reduce overall greenhouse gas emissions from a ventilation air methane (VAM) stream, a life cycle assessment was carried out using VAM parameters. The business-as-usual (BAU) scenario for VAM release into the atmosphere\n\nOutput: sentences = [\n    ('a', 'is', 'the subject'),\n    ('3%', 'is', 'the relation'),\n    ('inlet', 'is', 'the object'),\n    ('Figure', 'is', 'the subject'),\n    ('7(D)', 'is', 'the relation'),\n    ('demonstrates', 'is', 'the relation'),\n    ('that', 'is', 'the relation'),\n    ('at', 'is', 'the relation'),\n    ('a', 'is', 'the subject'),\n    ('flow', 'is', 'the relation'),\n    ('of', 'is', 'the relation",
+    "source": "text"
+  },
+  {
+    "chunk_index": 24,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nresulted in GHG emissions of 7.92 × 10 8 kg CO2eq, according to the GWP100 impact assessment method, as a large quantity of methanecontaining gas was assumed to be released into the atmosphere with no methane removal. In Scenario 2, which represented a commercial-scale design based 6 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al Figure 7. Methane consumption was tested using the larger 1840 cm 3 at 3 different methane inlet concentrations 0.1%, 1%, 3%. (A) Diagram of system setup. (B) Methane consumption at 0.1% inlet concentrations. (C) Methane consumption at 1% inlet concentrations. (D) Methane consumption at 3% inlet concentrations. Table 1. Initial LCA results for coal mine VAM scenarios (kg CO2eq) for 1 year of operation, for a model coal mine scenario with a VAM flow rate of 200 m 3 s -1 . a There is no reactor used in the BAU scenario with uncontrolled emissions, this is just what comes out of the uncontrolled VAM gas stream. A GWP100 value of 29.8 is used for methane,\n\nOutput: [('GHG emissions', 'resulted in', '7.92 × 10 8 kg CO2eq'), ('impact assessment method', 'used', 'GWP100'), ('Scenario 2', 'represented', 'commercial-scale design'), ('Scenario 2', 'assumed', 'methane-containing gas was released into the atmosphere'), ('Scenario 2', 'no', 'methane removal'), ('System setup', 'diagram of', '(A)'), ('Methane consumption', 'tested using', 'larger 1840 cm 3 '), ('Inlet concentration', 'at",
+    "source": "text"
+  },
+  {
+    "chunk_index": 25,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nas suggested by the IPCC 2021 100 year method. on the single large LEAF reactor, total GHG emissions reductions represented a 51% reduction from the BAU. The GWP100 impacts of providing reactor media and utilities was more than overcome by the benefits associated with methane consumption in the reactor, by roughly a factor of 10X (table 1). SAP solid support media was the most impactful input to this process, which was surprising to see. A fairly conservative assumption was made that SAP beads also needed to be completely re-supplied every 6 months for continued LEAF reactor operations, even though the SAP is not likely to degrade quickly in the ambient reactor conditions. If the solid SAP support material can be recovered and used in successive cycles, extending its useful life, emissions from this material should be proportionally lower than they are in this work. In Scenario 3, representing a series of 5 smaller LEAF reactors similar to the performance of the 120 cm 3 reactors,\n\nOutput: information retrieval system; user; search query\nTo convert the given text into a list of factual triples:\n\n1. Subject: \"information retrieval system\"\n   Relation: \"user\"\n   Object: \"search query\"\n\nThe provided text does not contain any other subject-relation-object pairs, so there are no additional triples to extract. Therefore, the output remains just one triple. \n\nOutput: [(\"information retrieval system\", \"user\", \"search query\")]",
+    "source": "text"
+  },
+  {
+    "chunk_index": 26,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nwhere methane conversion reached 84%, the overall greenhouse gas emission reduction over a year of operation compared to the BAU scenario was 75%, after the impacts of LEAF reactor inputs were included into the LCA study. 3. Discussion To evaluate LEAF's efficiency, we compared them to previous biofiltration systems (supplementary materials, table S1). The table was integrated from a methane biofiltration review paper with our results transformed to the same units of gCH4 m -3 d -1 [4]. The data from LEAFs can be compared to all other systems by size (120 cm 3 , 5 tandem 120 cm 3 , and 1840 cm 3 ), gas flow rates (0.64-28 l hr -1 ), and methane inlet loads (3.7-8967 gCH4 m -3 d -1 ) [25-64]. Each previous filtration unit was tested for different applications and conditions with either new nutrients continually being added to decrease dryness, culture enrichment, temperature regulation, or cell debris removal. In contrast, LEAFs can operate for > 5 months without 7 Environ. Res. Lett.\n\nOutput: [('LEAF', 'operates', '> 5 months'), ('previous biofiltration system', 'tested', 'different applications and conditions')]",
+    "source": "text"
+  },
+  {
+    "chunk_index": 27,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n19 (2024) 054057 R Hamilton et al any additional supplementation and yet show the highest methane reduction potential. Here we evaluate LEAFs as a prototype of a cheap, simple, scalable, cartridge-like systems for capturing methane. The system does not require water, eliminating challenges associated with the limitations of gasto-liquid transfer, and thus, LEAFs could represent a transformative solution for microbial methane utilization. Operational parameters of LEAFs are expected to be similar to techniques applied for air purification technologies. LEAF units have potential to be applied to a variety of sources with high to low methane inlet concentration loads at a variety of flow rates. The system has yet to be tested at atmospheric methane concentrations of 1.9 ppm ( ∼ 0.0002%), but a recent study has emerged demonstrating that in liquid culture Methylotuvimicrobium buryatense 5GB1 was able to grow and consume methane at 200 ppm ( ∼ 0.02%) exhibiting the possibilities of using\n\nOutput: information about LEAFs is available on the internet\nThe system does not require water, eliminating challenges associated with the limitations of gas-to-liquid transfer, and thus, LEAFs could represent a transformative solution for microbial methane utilization.\nLEAF units have potential to be applied to a variety of sources with high to low methane inlet concentration loads at a variety of flow rates.\nThe system has yet to be tested at atmospheric methane concentrations of 1.9 ppm (≈ 0.0002%), but a recent study has emerged demonstrating that in liquid culture Methylotuvimicrobium buryatense 5GB1",
+    "source": "text"
+  },
+  {
+    "chunk_index": 28,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nmethanotrophic bacteria to mitigate atmospheric methane [65]. Key experimental parameters developed during the study were integrated into a life cycle assessment study to further evaluate the applicability of the technology for large scale deployment at methaneemission sources, such as coal mines or cattle barns. Significant greenhouse gas emission reductions are predicted to be possible, even with current versions of the technology, if deployed to oxidize methane from coal mine ventilation gas sources. A typical emissions scenario for coal mine ventilation air was used as a test case, with a measured methane concentration of 0.65% and a gas flow rate of 200 m 3 s -1 . Three scenarios were evaluated where the VAM was either allowed to be released into the atmosphere with no controls, or was routed through commercial scale LEAFs reflecting the design and performance of either the single large 1840 cm 3 reactor design or the series of 5 smaller 120 cm 3 reactors. Nutrient requirements\n\nOutput: [('methanotrophic bacteria', 'to mitigate', 'atmospheric methane'), ('Key experimental parameters', 'developed', 'during the study'), ('life cycle assessment study', 'integrated', 'into a life cycle assessment study'), ('technology', 'for large scale deployment', 'at methane-emission sources'), ('deployment', 'possible', 'even with current versions of the technology'), ('deployed', 'oxidize', 'methane from coal mine ventilation gas sources'), ('measured methane concentration', '0.65%', 'coal mine ventilation air'), ('gas flow rate', '200 m³/s",
+    "source": "text"
+  },
+  {
+    "chunk_index": 29,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nwere modeled after the media broth used in lab scale designs, and other inputs were developed in consultation with mining industry contacts. Greenhouse gas emissions from an example VAM source over a one-year period was shown to be reduced in two LEAF scenarios by 51% and 75%. Over longer time horizons, more significant reductions are possible, as consistent methane consumption can be sustained. The study also highlights a set of additional optimizations, including cell preparations and immobilization. All data generated for this report are based on matrixes prepared immediately after fermentation and biomass separation. However, we recognize that an efficient procedure for catalyst preservation (alone or imbedded into matrix) remains to be solved for scale-up applications. Additional variables that still need to be examined are increasing the maximum cell load of the units, creating a protocol to print 3D constructs to decrease pressure build up, and increasing the porosity of the\n\nOutput: information about the subject \"Greenhouse gas emissions\" has a relationship of \"reduced\" with the object \"51%\" and \"75%\", respectively. Information about the subject \"LEAF scenarios\" has a relationship of \"developed in consultation with\" with the object \"mining industry contacts\". Information about the subject \"cell preparations\" has a relationship of \"optimizations\" with the object \"additional optimizations\", including \"cell preparations\" and \"immobilization\". Information about the subject \"matrixes\" has a relationship of \"based on\" with the object \"immediately after fermentation and biomass separation\". Information about the subject \"",
+    "source": "text"
+  },
+  {
+    "chunk_index": 30,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nsystem to allow for an increase in the number of cells that come into contact with methane. 4. Materials and methods 4.1. Strain and growth media M. alcalipilum 20Z R is a methanotrophic strain isolated from the surface sediment of the highly alkaline soda lake Shara-Nur, Russia. Lab cultures were grown using the nitrate minimal salts (NMSs) 3% NaCl in batch or bioreactors as previously described [60]. The fermenter parameters were set to an agitation of 500 rpm, temperature of 30 ◦ C, pH of 9.0, and a gas flow of 0.2 l hr -1 (3% methane and 97% air). To start the fermenter 100 ml (25 ml cultures) of inoculum in exponential phase of growth ( ∼ 0.4 OD) were added to the 7.5 l fermenter and samples were collected daily for optical density measurements. Once the optical density (600 nm) reached ∼ 4-5 (6.8-8.5 gCDW) to obtain adequate biomass for immobilization, 5 l of media was collected through the outflow port and centrifuged in 500 ml bottles at 4700 g for 30 mins. 4.2. Biomass\n\nOutput: [('M. alcalipilum 20Z R', 'strain', None), ('nitrate minimal salts (NMSs)', 'growth medium', None), ('Shara-Nur', 'location', 'Russia'), ('methane', 'gas source', '3% methane'), ('optical density', 'measurement method', '600 nm'), ('bioreactor', 'type', None), ('inoculum', 'source', 'exponential phase of growth'), ('centrifuge', 'equipment used', '500 ml bottles')] Here are the extracted facts:\n\n1. **Subject**: M",
+    "source": "text"
+  },
+  {
+    "chunk_index": 31,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nimmobilization Biomass that was centrifuged from the fermenters was suspended in 2x NMS media in preparation for immobilization. This allowed for the biomass to be concentrated down to a lesser volume. For each unit a ratio of one gram of sterilized dry matrix (SAP) with a surface area of 1.5 cm 2 per sphere was mixed with 10 ml of 2x NMS media containing ∼ 0.08 gCDW of cells. Each unit would receive 6 g dry SAP with a total of 60 ml 2xNMS media containing ∼ 0.48 gCDW. The sponge matrix with surface area of 245 cm 2 received 60 ml of 2x NMS media containing ∼ 0.48 gCDW. The filter matrix with a surface area 63 cm 3 had to receive a higher concentration of cells due to having less absorption (10 ml of 2xNMS with ∼ 0.48 gCDW). The glass matrix had no absorptive properties with a surface area of 18.75 cm 2 so once the biomass was centrifuged the pellet was directly added to glass matrix at ∼ 0.10 gCDW per slide. All matrices and units for gas consumption were sterilized for 45 mins in an\n\nOutput: the subject is \"immobilization\", the relation is \"Biomass that was centrifuged from the fermenters was suspended in 2x NMS media in preparation for immobilization.\", the object is \"immobilization\".\nthe subject is \"immobilization\", the relation is \"This allowed for the biomass to be concentrated down to a lesser volume.\", the object is \"immobilization\".\nthe subject is \"each unit\", the relation is \"ratio of one gram of sterilized dry matrix (SAP) with a surface area of 1.5 cm 2 per sphere was mixed with 10 ml of",
+    "source": "text"
+  },
+  {
+    "chunk_index": 32,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nautoclave at 121 ◦ C. Biomass was then added to each matrix in a biological hood and placed into each sealed chamber to keep sterile. The matrix set up phase is approximately 2 h for the filter paper, glass, and the sponge. Preparation of SAP takes about 612 h for mini and large units respectively. The moisture content was measured using an OHAUS MB120 Moisture analyzer in accordance with the standard protocol provided by the manufacturer. The initial moisture content of the SAP matrix was 88.2 ± 0.3%. 4.3. Scanning electron microscopy (SEM) The images for SEM were taken following protocols previously described [66]. Cells immobilized on SAP were fixed in 2% glutaraldehyde and 0.5%-1% osmium tetroxide in 0.1 M cacodylate buffer for an 8 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al Table 2. Methane mitigation potential of LEAFs. a Methane reduction potential of engineered systems. Only heights rates are presented. Additional comparisons are provided in supplementary materials\n\nOutput: information\nrelation\nobject\nThe subject \"autoclave\" has the relation \"at\" and the object \"121 ◦ C\". \nThe subject \"Biomass\" has the relation \"was added to\" and the object \"each matrix\".\nThe subject \"biological hood\" has the relation \"placed into\" and the object \"each sealed chamber\".\nThe subject \"matrix setup phase\" has the relation \"approximately\" and the object \"2 h\".\nThe subject \"mini and large units\" has the relation \"takes about\" and the object \"612 h\".\nThe subject \"moisture content\" has",
+    "source": "text"
+  },
+  {
+    "chunk_index": 33,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n(table S1). hour on ice. The SAP was gently washed and then dehydrated through an ethanol series (50%, 70%, 95%, and 100%) for 5 mins in each concentration. Ethanol was removed through CO2 critical point drying and SAPs were mounted and coated for SEM imaging. 4.4. Gas parameters The gas flow and gas mixtures were controlled with a MCQ GB100 Series gas mixer. The mixer can be bought from MCQ instruments (MCQinst.com) that can provide low flow rates between 0.5-500 m min -1 per channel. The mixer was set up to either mix straight methane with air for the higher percent mixes (3% and 5% CH4) or mix air with a methane tank with either a 2% CH4 concentration or 0.5% CH4 concentration for the 1% and 0.1% CH4 concentrations, respectively. To measure gas input and output concentrations, BlueSens methane and oxygen sensors were attached before and after each unit. Three sets of BlueSens sensors- O2, CO2, and CH4 (bluesens.com) detect corresponding gases with an accuracy less than 0.2% within\n\nOutput: [('table', 'S1'), ('hour on ice', None), ('The SAP', 'was gently washed', 'and then dehydrated through an ethanol series (50%, 70%, 95%', 'for 5 mins in each concentration.'), ('Ethanol', 'was removed', 'through CO2 critical point drying and SAPs were mounted and coated for SEM imaging.', '4.4. Gas parameters The gas flow and gas mixtures were controlled with a MCQ GB100 Series gas mixer.', 'The mixer can be bought from MCQ instruments (MCQinst.com)', 'that can",
+    "source": "text"
+  },
+  {
+    "chunk_index": 34,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\neach recorded reading. To measure gas consumption at 0.1% (1000 ppm) methane, a Los Gatos Research (LGR-ICOS GLA132GGA) gas analyzer was attached to measure methane input and output. The LGR uses laser absorption spectroscopy and has accuracy to measure methane down to 0.2 ppb. The LGR system can be purchased at new.abb.com. 4.5. Life cycle assessment (LCA) The LCA study was conducted in accordance with ISO guidelines [67]. A model VAM gas stream being emitted over a time period of 1 year was used to represent the methane control system boundary of interest, using parameters from Su et al [68] of a VAM stream examined in Australia, with a methane concentration of < 0.65% (vol.) and a VAM flow rate of 200 m 3 s -1 . In the business-as-usual (BAU) scenario, uncontrolled release of this VAM gas stream was assumed to occur for the one-year time horizon. In Scenario 2, a commercial-scale LEAF reactor was assumed to be used to control methane research with performance characteristics similar\n\nOutput: data format:\n\n[('Los Gatos Research (LGR-ICOS GLA132GGA)', 'type', 'gas analyzer'),\n ('Los Gatos Research (LGR-ICOS GLA132GGA)', 'accuracy', '0.2 ppb'),\n ('new.abb.com', 'product', 'LGR system')]\n\nNote that the subject is always a proper noun or short phrase, the relation is always a verb, and the object is everything else in the sentence. Here are some examples of how we arrived at each triple:\n\n1. \"Each recorded reading\" -> (\"each\", \"",
+    "source": "text"
+  },
+  {
+    "chunk_index": 35,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nto those in Row 6 of table 2, the 1840 cm 3 unit capable of oxidizing 64% of input methane into carbon dioxide at 316.2 g m -3 day. These reactor performance metrics were scaled to size a reactor capable of handling the methane flow assumed in this study. Scenario 3 represented a different LEAF reactor configuration analogous to row 3 of table 2, where 5 smaller LEAFs reactors in series were capable of oxidizing 84% of a higher-volume methane stream at 1% CH4, even though the total reactor volume was ∼ 3X less than the larger LEAF reactor used as a model for Scenario 2. Nutrient media was added with a composition identical to that described in section 4.1, with 800 kg water and 70 kg poly(methyl methacrylate) media for SAP beads used per m 3 of reactor volume. Reactor contents were assumed to be completely recharged every 6 months, to maintain the growth conditions 9 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al for the bacteria. In addition to reactor media, some supplemental\n\nOutput: [('Scenario 3', 'reactor configuration', '5 smaller LEAFs reactors in series'), ('Scenario 3', 'oxidation rate', '84%'), ('Scenario 3', 'mixture volume', 'higher-volume methane stream'), ('Nutrient media', 'composition', 'identical to that described in section 4.1')]\n\nThis is a Python code snippet using regular expressions to extract the required information from the given text:\n\n```python\nimport re\n\ntext = \"\"\"\n# This is a comment\n\"\"\"\n\npattern = r'(\\w+ \\w+) (?P<relation>is|are|was",
+    "source": "text"
+  },
+  {
+    "chunk_index": 36,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nutilities were provided to the system to account for continued VAM system performance. Based on consultations with a colleague in the coal mining industry, it was assumed that power requirements for maintaining equivalent VAM gas flow would be increased by 10% to account for the minor VAM gas obstruction presented by the LEAF reactor, adding 5.4 million kWh of electricity use per year in each scenario. Estimated power consumption was calculated by taking known VAM gas flow power consumption from a coal mine within the same region, and linearly scaling to the match the flow rate used in this study. No supplemental heating or cooling was assumed to be provided to the LEAF reactor, assuming that VAM gas temperature was sufficient to meet the needs of the reactor. In different parts of the world, using different methane gas sources, this assumption may need to be revisited with additional LCA work. LCA modeling was performed in SimaPro, version 9.4, using items from the ecoinvent\n\nOutput: information about the subject, its relation to the object, and the object itself. The output should be formatted as a list of tuples. Here is the list of tuples:\n\n- (\"utilities\", \"provided\", \"to the system\")\n- (\"continued VAM system performance\", \"accounted for\", None)\n- (\"power requirements\", \"increased\", \"by 10%\")\n- (\"VAM gas flow\", \"presented\", \"by the LEAF reactor\")\n- (\"estimated power consumption\", \"calculated\", \"using known VAM gas flow power consumption\")\n- (\"known VAM gas flow power consumption\", \"from\",",
+    "source": "text"
+  },
+  {
+    "chunk_index": 37,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nV3database [69] used to represent inputs to the study. The ecoinvent profile for medium-voltage Australian electricity was updated with the grid mix from 2022, with an emissions impact of 708 g CO2eq/ kWh [70]. Global Warming Potential was assessed for each scenario using the IPCC 2021 100 year GWP method, where methane has a GWP value of 29.8. Data availability statement All data that support the findings of this study are included within the article (and any supplementary files). Acknowledgments The authors would like to thank BHP and the NSFCBET program (Award # 1605031) for funding. We thank Dr David Collins for EM-imaging of our samples. Conflict of interest The authors declare that they have no known competing interest. ORCIDiD Marina G Kalyuzhnaya  https://orcid.org/00000002-9058-7794 References Change I C 2014 Mitigation of climate change Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change vol 1454 p 147 Boucher O\n\nOutput: [('V3database', 'used to represent', 'inputs to the study'), ('ecoinvent profile', 'for', 'medium-voltage Australian electricity'), ('grid mix', 'from', '2022'), ('emissions impact', 'of', '708 g CO2eq/kWh'), ('Global Warming Potential', 'assessed', 'each scenario using the IPCC 2021 100 year GWP method'), ('methane', 'has', 'a GWP value of 29.8'), ('data availability statement', 'All data that support the findings of this study",
+    "source": "text"
+  },
+  {
+    "chunk_index": 38,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nand Folberth G A 2010 New directions: atmospheric methane removal as a way to mitigate climate change? Atmos. Environ. 44 3343-5 2023 The role of microbes in mediating methane emissions: report on an american academy of microbiology colloquium held on May 31 and June 1, 2023 (American Society for Microbiology) La H, Hettiaratchi J P A, Achari G and Dunfield P F 2018 Biofiltration of methane Bioresour. Technol. 268 759-72 Conrad R 2009 The global methane cycle: recent advances in understanding the microbial processes involved Environ. Microbiol. Rep. 1 285-92 Nazaries L, Murrell J C, Millard P, Baggs L and Singh B K 2013 Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions Environ. Microbiol. 15 2395-417 Henard C A and Guarnieri M T 2018 Metabolic engineering of methanotrophic bacteria for industrial biomanufacturing Methane Biocatalysis: Paving the Way to Sustainability ed M G Kalyuzhnaya and X H Xing (Springer) pp 117-32 Sun M-T et\n\nOutput: information retrieval system that uses natural language processing techniques to extract facts from unstructured data. It can be used to answer questions about the meaning of words, phrases or sentences. It is also known as knowledge extraction or automatic summarization. Information retrieval systems are widely used in various fields such as medicine, law, finance, etc. They help people find relevant information quickly and efficiently by indexing large amounts of data and using algorithms to match queries with documents. In addition, they can also provide summaries of long documents, which makes it easier for users to understand complex information. Information retrieval systems have been developed over time and continue to evolve to meet new challenges",
+    "source": "text"
+  },
+  {
+    "chunk_index": 39,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nal 2020 Methane elimination using biofiltration packed with fly ash ceramsite as support material Front. Bioeng. Biotechnol. 8 351 Park S, Brown K W and Thomas J C 2002 The effect of various environmental and design parameters on methane oxidation in a model biofilter Waste Manage. Res. 20 434-44 Sung-In Y, Youn-Kyoo C and Byung-Chan L 2003 Effective bead preparation of coimmobilized methanogenic and methanotrophic bacteria for tetrachloroethene degradation Biodegradation 14 347-55 Gebert J, Groengroeft A and Miehlich G 2003 Kinetics of microbial landfill methane oxidation in biofilters Waste Manage. 23 609-19 Maurice C and Lagerkvist A 2004 Assessment of the methane oxidation capacity of soils Waste Manage. Res. 22 42-48 Melse R W and Van der Werf A W 2005 Biofiltration for mitigation of methane emission from animal husbandry Environ. Sci. Technol. 39 5460-8 Ganendra G, De Muynck W, Ho A, Hoefman S, De Vos P, Boeckx P and Boon N 2014 Atmospheric methane removal by methane-oxidizing\n\nOutput: [('Methane elimination', 'using', 'biofiltration packed with fly ash ceramsite as support material'), ('Park S', 'et al.', 'The effect of various environmental and design parameters on methane oxidation in a model biofilter'), ('Sung-In Y', 'et al.', 'Effective bead preparation of coimmobilized methanogenic and methanotrophic bacteria for tetrachloroethene degradation'), ('Gebert J', 'et al.', 'Kinetics of microbial landfill methane oxidation in biofilters'), ('Maurice C', 'et al.', 'Assessment of the methane oxidation capacity",
+    "source": "text"
+  },
+  {
+    "chunk_index": 40,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nbacteria immobilized on porous building materials Appl. Microbiol. Biotechnol. 98 3791-800 Cáceres M, Dorado A D, Gentina J C and Aroca G 2017 Oxidation of methane in biotrickling filters inoculated with methanotrophic bacteria Environ. Sci. Pollut. Res. 24 25702-12 Karthikeyan O P, Saravanan N, Cirés S, Alvarez-Roa C, Razaghi A, Chidambarampadmavathy K, Velu C, Subashchandrabose G and Heimann K 2017 Culture scale-up and immobilisation of a mixed methanotrophic consortium for methane remediation in pilot-scale bio-filters Environ. Technol. 38 474-82 Chen Y-Y, Ishikawa M, Suzuki R, Ito H, Kamachi T and Hori K 2020 Evaluation of methane degradation performance in microbial gas-phase reactions using effectively immobilized methanotrophs Biochem. Eng. J. 154 107441 Akberdin I R et al 2018 Methane utilization in Methylomicrobium alcaliphilum 20ZR: a systems approach Sci. Rep. 8 1-13 El Abbadi S H, Sherwin E D, Brandt A R, Luby S P and Criddle C S 2022 Displacing fishmeal with protein\n\nOutput: [('bacteria', 'immobilized', 'porous building materials'), ('Cáceres M', 'inoculated', 'methanotrophic bacteria'), ('Karthikeyan O P', 'cultured', 'mixed methanotrophic consortium'), ('Chen Y-Y', 'evaluated', 'methane degradation performance'), ('Akberdin I R', 'utilized', 'Methylomicrobium alcaliphilum')] Here is the extracted list of factual triples:\n\n1. Subject: bacteria\n   Relation: immobilized\n   Object: porous building materials\n\n2. Subject: Cá",
+    "source": "text"
+  },
+  {
+    "chunk_index": 41,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nderived from stranded methane Nat. Sustain. 5 47-56 García Martínez J B, Pearce J M, Throup J, Cates J, Lackner M and Denkenberger D C 2022 Methane single cell protein: potential to secure a global protein supply against catastrophic food shocks Front. Bioeng. Biotechnol. 10 906704 Glória R, Motta T M, Silva P V O, Costa P D, Brandt E M F, Souza C L and Chernicharo C A L 2016 Stripping and dissipation techniques for the removal of dissolved gases from anaerobic effluents Braz. J. Chem. Eng. 33 713-21 Sly L, Bryant L J, Cox J M and Anderson J M 1993 Development of a biofilter for the removal of methane from coal mine ventilation atmospheres Appl. Microbiol. Biotechnol. 39 400-4 10 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al Gebert J and Gröngröft A 2006 Performance of a passively vented field-scale biofilter for the microbial oxidation of landfill methane Waste Manage. 26 399-407 Nikiema J, Brzezinski R and Heitz M 2007 Elimination of methane generated from landfills by\n\nOutput: information about the subject, predicate, and object in each triple is provided. The triples are presented in a structured format that can be easily processed or analyzed further. Here's an example of how the output would look:\n\nTriple 1: Subject - \"Nat. Sustain.\", Relation - \"-\", Object - \"-\"\n\nTriple 2: Subject - \"García Martínez J B\", Relation - \"-\", Object - \"-\"\n\nTriple 3: Subject - \"Pearce J M\", Relation - \"-\", Object - \"-\"\n\n...\n\nTriple n: Subject - \"Nikiema J\", Relation - \"-\", Object - \"-\"\n\nThis structure allows for easy",
+    "source": "text"
+  },
+  {
+    "chunk_index": 42,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nbiofiltration: a review Rev. Environ. Sci. Biotechnol. 6 261-84 Park S, Lee C-H, Ryu C-R and Sung K 2009 Biofiltration for reducing methane emissions from modern sanitary landfills at the low methane generation stage Water Air Soil Pollut. 196 19-27 Avalos Ramirez A, Jones J P and Heitz M 2012 Methane treatment in biotrickling filters packed with inert materials in presence of a non-ionic surfactant J. Chem. Technol. Biotechnol. 87 848-53 Berger J, Fornés L V, Ott C, Jager J, Wawra B and Zanke U 2005 Methane oxidation in a landfill cover with capillary barrier Waste Manage. 25 369-73 Brandt E M F, Duarte F V, Vieira J P R, Melo V M, Souza C L, Ara ´ ujo J C and Chernicharo C A L 2016 The use of novel packing material for improving methane oxidation in biofilters J. Environ. Manage. 182 412-20 Chiemchaisri W, Chiemchaisri C and Boonchaiyuttasak J 2013 Utilization of stabilized wastes for reducing methane emission from municipal solid waste disposal Bioresour. Technol. 141 199-204 Choi\n\nOutput: [('biofiltration', 'a review', 'Rev. Environ. Sci. Biotechnol. 6'), ('biofiltration', 'reducing methane emissions', 'modern sanitary landfills'), ('biofiltration', 'methane generation stage', 'low methane'), ('water air soil poll.', 'methane treatment', 'biotrickling filters'), ('water air soil poll.', 'methane treatment', 'non-ionic surfactant'), ('waste manage.', 'methane oxidation', 'landfill cover'), ('j chem technol biotechnol.', 'methane oxidation', 'material'), ('j",
+    "source": "text"
+  },
+  {
+    "chunk_index": 43,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nH, Ryu H W and Cho K-S 2018 Biocomplex textile as an alternative daily cover for the simultaneous mitigation of methane and malodorous compounds Waste Manage. 72 339-48 De Visscher A, Thomas D, Boeckx P and Van Cleemput O 1999 Methane oxidation in simulated landfill cover soil environments Environ. Sci. Technol. 33 1854-9 du Plessis C A et al 2003 Empirical model for methane oxidation using a composted pine bark biofilter ☆ Fuel 82 1359-65 Estrada J M, Lebrero R, Quijano G, Pérez R, Figueroa-González I, García-Encina P A and Mu ˜ noz R 2014 Methane abatement in a gas-recycling biotrickling filter: evaluating innovative operational strategies to overcome mass transfer limitations Chem. Eng. J. 253 385-93 Farrokhzadeh H, Hettiaratchi J P A, Jayasinghe P and Kumar S 2017 Aerated biofilters with multiple-level air injection configurations to enhance biological treatment of methane emissions Bioresour. Technol. 239 219-25 Ferdowsi M, Veillette M, Ramirez A A, Jones J P and Heitz M 2016\n\nOutput:uvicorn.asgi:root\n{\"name\": \"Ryu H\", \"occupation\": \"Author\"}\n{\"name\": \"Cho K-S\", \"occupation\": \"Author\"} {\"text\": \"Biocomplex textile as an alternative daily cover for the simultaneous mitigation of methane and malodorous compounds\", \"journal\": \"Waste Manage.\"} {\"year\": 1999, \"paper\": \"Methane oxidation in simulated landfill cover soil environments\", \"author\": [\"De Visscher A\", \"Thomas D\", \"Boeckx P\", \"Van Cleemput O\"]} {\"year\": 200",
+    "source": "text"
+  },
+  {
+    "chunk_index": 44,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nPerformance evaluation of a methane biofilter under steady state, transient state and starvation conditions Water Air Soil Pollut. 227 1-11 Girard M, Ramirez A A, Buelna G and Heitz M 2011 Biofiltration of methane at low concentrations representative of the piggery industry-influence of the methane and nitrogen concentrations Chem. Eng. J. 168 151-8 Girard M, Viens P, Ramirez A A, Brzezinski R, Buelna G and Heitz M 2012 Simultaneous treatment of methane and swine slurry by biofiltration J. Chem. Technol. Biotechnol. 87 697-704 Haubrichs R and Widmann R 2006 Evaluation of aerated biofilter systems for microbial methane oxidation of poor landfill gas Waste Manage. 26 408-16 Hernández J, Gómez-Cuervo S and Omil F 2015 EPS and SMP as stability indicators during the biofiltration of diffuse methane emissions Water Air Soil Pollut. 226 1-12 Hilger H A, Wollum A G and Barlaz M A 2000 Landfill methane oxidation response to vegetation, fertilization, and liming (Wiley) Huber-Humer M, Tintner J,\n\nOutput: information retrieval system, search engine, user interface, web browser, internet, computer science, data mining, artificial intelligence, machine learning, natural language processing, database management system, software engineering, programming languages, operating systems, hardware design, network architecture, distributed computing, cloud computing, big data analytics, cybersecurity, digital rights management, multimedia content creation, virtual reality, augmented reality, mixed reality, game development, mobile application development, app store, app market, app store, app marketplace, app store, app marketplace, app store, app marketplace, app store, app marketplace, app store, app marketplace, app store, app marketplace,",
+    "source": "text"
+  },
+  {
+    "chunk_index": 45,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nBöhm K and Lechner P 2011 Scrutinizing compost properties and their impact on methane oxidation efficiency Waste Manage. 31 871-83 Huete A, de Los Cobos-vasconcelos D, Gómez-Borraz T, Morgan-Sagastume J M and Noyola A 2018 Control of dissolved CH4 in a municipal UASB reactor effluent by means of a desorption-biofiltration arrangement J. Environ. Manage. 216 383-91 Josiane N and Michele H 2009 The influence of the gas flow rate during methane biofiltration on an inorganic packing material Can. J. Chem. Eng. 87 136-42 Kettunen R H, Einola J-K M and Rintala J A 2006 Landfill methane oxidation in engineered soil columns at low temperature Water Air Soil Pollut. 177 313-34 Kightley D, Nedwell D B and Cooper M 1995 Capacity for methane oxidation in landfill cover soils measured in laboratory-scale soil microcosms Appl. Environ. Microbiol. 61 592-601 Kim T G, Jeong S-Y and Cho K-S 2014 Functional rigidity of a methane biofilter during the temporal microbial succession Appl. Microbiol.\n\nOutput: [('Böhm K', 'and', 'Lechner P'), ('Huete A', 'and', 'de Los Cobos-vasconcelos D'), ('Gómez-Borraz T', 'and', 'Morgan-Sagastume J M'), ('Noyola A', 'and', 'Josiane N'), ('Kettunen R H', 'and', 'Einola J-K M'), ('Rintala J A', 'and', 'Kightley D'), ('Nedwell D B', 'and', 'Cooper M'), ('Kim T G', 'and', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 46,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nBiotechnol. 98 3275-86 Kim T G, Jeong S-Y and Cho K-S 2014 Characterization of tobermolite as a bed material for selective growth of methanotrophs in biofiltration J. Biotechnol. 173 90-97 Kim T G, Lee E-H and Cho K-S 2013 Effects of nonmethane volatile organic compounds on microbial community of methanotrophic biofilter Appl. Microbiol. Biotechnol. 97 6549-59 La H, Hettiaratchi J P A, Achari G, Verbeke T J and Dunfield P F 2018 Biofiltration of methane using hybrid mixtures of biochar, lava rock and compost Environ. Pollut. 241 45-54 Lebrero R, López J C, Lehtinen I, Pérez R, Quijano G and Mu ˜ noz R 2016 Exploring the potential of fungi for methane abatement: performance evaluation of a fungal-bacterial biofilter Chemosphere 144 97-106 López J C, Merchán L, Lebrero R and Mu ˜ noz R 2018 Feast-famine biofilter operation for methane mitigation J. Clean. Prod. 170 108-18 Nikiema J, Bibeau L, Lavoie J, Brzezinski R, Vigneux J and Heitz M 2005 Biofiltration of methane: an experimental\n\nOutput: [('Kim T G', 'characterized', 'tobermolite'), ('Jeong S-Y', 'characterized', 'tobermolite'), ('Cho K-S', 'characterized', 'tobermolite'), ('Kim T G', 'affected by', 'nonmethane volatile organic compounds'), ('Lee E-H', 'affected by', 'nonmethane volatile organic compounds'), ('La H', 'affected by', 'nonmethane volatile organic compounds'), ('Hettiaratchi J P A', 'affected by', 'nonmethane volatile organic compounds'), ('Achari G', 'affected by',",
+    "source": "text"
+  },
+  {
+    "chunk_index": 47,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nstudy Chem. Eng. J. 113 111-7 Nikiema J, Girard M, Brzezinski R and Heitz M 2009 Biofiltration of methane using an inorganic filter bed: influence of inlet load and nitrogen concentration Can. J. Civ. Eng. 36 1903-10 Oliver J P and Schilling J S 2016 Capture of methane by fungi: evidence from laboratory-scale biofilter and chromatographic isotherm studies Trans. ASABE 59 1791-801 Pawłowska M 2010 Efficiency of microbiological oxidation of methane in biofilter Environmental Engineering III (CRC Press) p 8 Pratt C, Walcroft A S, Tate K R, Ross D J, Roy R, Reid M H and Veiga P W 2012 Biofiltration of methane emissions from a dairy farm effluent pond Agric. Ecosyst. Environ. 152 33-39 Pratt C, Walcroft A S, Tate K R, Ross D J, Roy R, Reid M H and Veiga P W 2012 In vitro methane removal by volcanic pumice soil biofilter columns over one year J. Environ. Qual. 41 80-87 Ramirez A A, García-Aguilar B P, Jones J P and Heitz M 2012 Improvement of methane biofiltration by the addition of non-\n\nOutput: information about the subject, predicate or property, and object or value for each triple. Here are the factual triples extracted from the given text:\n\n1. (Chem. Eng., \"Journal\", \"Study\")\n2. (Nikiema J, Girard M, Brzezinski R and Heitz M, \"Authors\", \"Researchers\")\n3. (Biofiltration of methane using an inorganic filter bed: influence of inlet load and nitrogen concentration, \"Title\", \"Can. J. Civ. Eng.\")\n4. (Oliver J P and Schilling J S, \"Authors\", \"Researchers\")\n5. (Capture of",
+    "source": "text"
+  },
+  {
+    "chunk_index": 48,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nionic surfactants to biofilters packed with inert materials Process Biochem. 47 76-82 Rose J L, Mahler C F and Izzo R L D S 2012 Comparison of the methane oxidation rate in four media Revista Brasileira de Ci ˆ encia do Solo 36 803-12 Scheutz C and Kjeldsen P 2003 Capacity for biodegradation of CFCs and HCFCs in a methane oxidative counter-gradient laboratory system simulating landfill soil covers Environ. Sci. Technol. 37 5143-9 Streese J and Stegmann R 2003 Microbial oxidation of methane from old landfills in biofilters Waste Manage. 23 573-80 Syed R, Saggar S, Tate K and Rehm B H A 2016 Does acidification of a soil biofilter compromise its methane-oxidising capacity? Biol. Fertil. Soils 52 573-83 Visvanathan C, Pokhrel D, Cheimchaisri W, Hettiaratchi J P A and Wu J S 1999 Methanotrophic activities 11 Environ. Res. Lett. 19 (2024) 054057 R Hamilton et al in tropical landfill cover soils: effects of temperature, moisture content and methane concentration Waste Manage. Res. 17 313-23\n\nOutput: [('ionic surfactants', 'to', 'biofilters packed with inert materials'), ('Process Biochem.', '47', '76-82'), ('Rose J L', 'and', 'Mahler C F'), ('Scheutz C', 'and', 'Kjeldsen P'), ('Streese J', 'and', 'Steigmann R'), ('Syed R', 'et al.', 'in tropical landfill cover soils: effects of temperature, moisture content and methane concentration'), ('Visvanathan C', 'et al.', 'Methanotrophic activities')] Here is the extracted list of",
+    "source": "text"
+  },
+  {
+    "chunk_index": 49,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nStein V and Hettiaratchi J 2001 Methane oxidation in three Alberta soils: influence of soil parameters and methane flux rates Environ. Technol. 22 101-11 He L, Groom J D, Wilson E H, Fernandez J, Konopka M C, Beck D A C and Lidstrom M E 2023 A methanotrophic bacterium to enable methane removal for climate mitigation Proc. Natl Acad. Sci. 120 e2310046120 Collins D A and Kalyuzhnaya M G 2018 Navigating methane metabolism: enzymes, compartments, and networks Methods Enzymol. 613 349-83 ISO 14040:2006 2006 Environmental management: life cycle assessment; Principles and Framework (Standardization, I.O.F.) Su S, Chen H, Teakle P and Xue S 2008 Characteristics of coal mine ventilation air flows J. Environ. Manage. 86 44-62 Wernet G, Bauer C, Steubing B, Reinhard J, Moreno-Ruiz E and Weidema B 2016 The ecoinvent database version 3 (part I): overview and methodology Int. J. Life Cycle Assess. 21 1218-30 2023 Australian energy update 2023 (available at: www.\n\nOutput: information about the subject, predicate, and object is not provided in the given text. Please provide more specific information or context so that I can extract the required facts. \n\nThe task requires extracting factual triples from a piece of text, which are statements involving a subject, a predicate, and an object. However, the current text does not contain any such statements. Therefore, it's impossible to generate a list of factual triples without additional information. To proceed with this task, please provide more details or context related to the subject matter. If you have any other questions or need assistance with something else, feel free to ask! Let me know if",
+    "source": "text"
+  },
+  {
+    "chunk_index": 50,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nenergy.gov.au/publications/australian-energy-update-2023) (Accessed 29 September 2023) 12\n\nOutput: [('Australian Energy Update', 'is part of', 'energy.gov.au'), ('Energy.gov.au', 'has publication', 'Australian Energy Update 2023')]",
+    "source": "text"
+  },
+  {
+    "page": 3,
+    "caption": "Figure 1. Parameters optimized for efficient LEAFs\noperation with the basic design of the system without any\nexternal manipulations needed.",
+    "triples": [
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "Medium"
+      },
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "Carbon substrate"
+      },
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "Cell density"
+      },
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "O₂/CH₄ supply"
+      },
+      {
+        "subject": "Immobilization",
+        "relation": "has optimized parameters",
+        "object": "Cell preparation protocol"
+      },
+      {
+        "subject": "Immobilization",
+        "relation": "has optimized parameters",
+        "object": "Matrix saturation"
+      },
+      {
+        "subject": "Capturing",
+        "relation": "has tested parameters",
+        "object": "Gas flow"
+      },
+      {
+        "subject": "Capturing",
+        "relation": "has tested parameters",
+        "object": "CO impacts"
+      },
+      {
+        "subject": "Capturing",
+        "relation": "has tested parameters",
+        "object": "Stability"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "shown in",
+        "object": "scanning electron micrograph"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "shown in",
+        "object": "scanning electron micrographs"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "imaged by",
+        "object": "scanning electron micrograph"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "shown via",
+        "object": "scanning electron micrograph"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 6,
+    "caption": "Figure 4. Testing methane consumption of 120 cm3 at two different methane inlet concentrations with a variety of flow rates. (A)\nMethane was provided to the system at a concentration of 3% mixed with air. (B) Methane was provided to the system at a\nconcentration of 5.5% mixed with air.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4. Testing methane consumption of 120 cm3 at two different methane inlet concentrations with a variety of flow rates. (A)\nMethane was provided to the system at a concentration of 3% mixed with air. (B) Methane was provided to the system at a\nconcentration of 5.5% mixed with air.\n\nOutput JSON list only:\nassistant\n[\n  (\"methane\", \"inlet concentration\", \"3% mixed with air\"),\n  (\"methane\", \"inlet concentration\", \"5.5% mixed with air\"),\n  (\"system\", \"tests\", \"methane consumption\"),\n  (\"system\", \"tests\", \"at 120 cm3 volume\"),\n  (\"system\", \"varies\", \"flow rates\"),\n  (\"system\", \"varies\", \"methane inlet concentrations\")\n]"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 7,
+    "caption": "Figure 5. Consumption rates of 5 tandem mini-units over time. Consumption rates were taken every several days using blue sense\nsensors. The percent methane consumption was calculated by taking the inflow and outflow measurements, then subtracting the\ntwo.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 5. Consumption rates of 5 tandem mini-units over time. Consumption rates were taken every several days using blue sense\nsensors. The percent methane consumption was calculated by taking the inflow and outflow measurements, then subtracting the\ntwo.\n\nOutput JSON list only:\nassistant\n[\n  (\"CO test 1\", \"occurred during\", \"Apr 4\"),\n  (\"CO test 2\", \"occurred during\", \"May 21\"),\n  (\"% consumed\", \"measured by\", \"blue sense sensors\"),\n  (\"% input\", \"measured by\", \"blue sense sensors\"),\n  (\"% consumed\", \"calculated as\", \"inflow minus outflow\"),\n  (\"5 tandem mini-units\", \"had consumption rates measured over time\", \"Figure 5\")\n]"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 8,
+    "caption": "Figure 7. Methane consumption was tested using the larger 1840 cm3 at 3 different methane inlet concentrations 0.1%, 1%, 3%.\n(A) Diagram of system setup. (B) Methane consumption at 0.1% inlet concentrations. (C) Methane consumption at 1% inlet\nconcentrations. (D) Methane consumption at 3% inlet concentrations.",
+    "triples": [
+      {
+        "subject": "MFC",
+        "relation": "controls",
+        "object": "CH4"
+      },
+      {
+        "subject": "MFC",
+        "relation": "controls",
+        "object": "air"
+      },
+      {
+        "subject": "MFM/1",
+        "relation": "connected to",
+        "object": "MFC"
+      },
+      {
+        "subject": "MFM/2",
+        "relation": "connected to",
+        "object": "MFM/1"
+      },
+      {
+        "subject": "MFM/2",
+        "relation": "connected to",
+        "object": "BlueSens O2, CO2, CH4 sensors"
+      },
+      {
+        "subject": "BlueSens O2, CO2, CH4 sensors",
+        "relation": "monitors",
+        "object": "gas stream >1%"
+      },
+      {
+        "subject": "LGR",
+        "relation": "monitors",
+        "object": "gas stream <1%"
+      },
+      {
+        "subject": "LGR",
+        "relation": "measures",
+        "object": "H2O, CO2, CH4"
+      },
+      {
+        "subject": "MFC",
+        "relation": "type",
+        "object": "Mass Flow Controller"
+      },
+      {
+        "subject": "MFM",
+        "relation": "type",
+        "object": "Mass Flow Meter"
+      },
+      {
+        "subject": "LGR",
+        "relation": "type",
+        "object": "Portable Greenhouse Gas Analyzer"
+      }
+    ],
+    "source": "visual"
+  }
+]

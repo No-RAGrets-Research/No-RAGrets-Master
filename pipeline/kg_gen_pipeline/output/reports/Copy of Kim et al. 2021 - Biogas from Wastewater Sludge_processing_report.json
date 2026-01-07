@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Kim et al. 2021 - Biogas from Wastewater Sludge.pdf",
+    "start_time": "2025-11-15 02:36:36.698188",
+    "end_time": "2025-11-15 02:57:19.585700",
+    "total_duration": 1242.887512,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 456,
+    "relations": 302,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Kim et al. 2021 - Biogas from Wastewater Sludge_kg_results_20251115_023636.json"
+  },
+  "visual_extraction": {
+    "attempted": false,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Kim et al. 2021 - Biogas from Wastewater Sludge_kg_results_20251115_023636.json",
+    "visual_kg": null
+  },
+  "errors": []
+}

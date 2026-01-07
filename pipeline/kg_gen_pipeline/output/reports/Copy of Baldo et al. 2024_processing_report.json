@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Baldo et al. 2024.pdf",
+    "start_time": "2025-11-15 01:30:36.277702",
+    "end_time": "2025-11-15 02:03:16.525727",
+    "total_duration": 1960.248025,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 453,
+    "relations": 429,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Baldo et al. 2024_kg_results_20251115_013036.json"
+  },
+  "visual_extraction": {
+    "attempted": false,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Baldo et al. 2024_kg_results_20251115_013036.json",
+    "visual_kg": null
+  },
+  "errors": []
+}

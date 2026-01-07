@@ -1,0 +1,36 @@
+RUBRIC 6 – Reference Extraction
+
+Goal:
+Extract and standardize all references and in-text citations for traceability and cross-validation.
+
+---------------------------------------------------
+TIER 1 – Reference List Extraction (Critical Layer)
+---------------------------------------------------
+Check for:
+- Complete reference entries (authors, year, title, journal, volume, DOI).
+- Normalize all to APA-like format.
+- Remove duplicates and fix punctuation.
+
+---------------------------------------------------
+TIER 2 – In-Text Citation Mapping (Supportive Layer)
+---------------------------------------------------
+Check for:
+- All in-text citations ((Smith et al., 2020), [12]) extracted.
+- Mapped to corresponding reference list entries.
+- Detect hybrid citation formats (numeric + author-year).
+
+---------------------------------------------------
+TIER 3 – Unmatched or External Citations (Integrative Layer)
+---------------------------------------------------
+Check for:
+- Citations not found in reference list.
+- Mentions of protocols, kits, or suppliers treated as pseudo-references.
+- Highlight missing or truncated entries.
+
+---------------------------------------------------
+Output Format
+📚 Extracted References
+🔗 In-text Citations Found
+🧭 Unmatched Citations
+💡 Notes
+---------------------------------------------------

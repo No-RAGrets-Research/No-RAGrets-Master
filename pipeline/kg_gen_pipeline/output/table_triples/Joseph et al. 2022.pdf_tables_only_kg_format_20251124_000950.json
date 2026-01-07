@@ -1,0 +1,3739 @@
+{
+  "summary": {
+    "total_chunks": 8,
+    "errors": 0,
+    "entities": 46,
+    "relations": 88,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Joseph et al. 2022.json",
+    "processed_at": "2025-11-24T00:09:50.486296"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "ammonium sulfate",
+      "predicate": "has_chemical_formula",
+      "object": "(NH4)2SO4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "C 4 H 8 O 2\nsodium sulfate | Na 2 SO 4 | diethyl ether | C 5 H 12 O\nammonium sulfate | (NH 4 ) 2",
+        "document_offsets": {
+          "start": 139,
+          "end": 235
+        },
+        "subject_positions": [
+          {
+            "start": 68,
+            "end": 84,
+            "sentence_id": 1,
+            "matched_text": "ammonium sulfate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethyl acetate",
+      "predicate": "has_IUPAC_name",
+      "object": "ethyl methyl acetoacetate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salts | salts | solvents | solvents\nIUPAC name | chemical formula | IUPAC name | chemical formula\nsodium chloride | NaCl | ethyl acetate |",
+        "document_offsets": {
+          "start": 0,
+          "end": 138
+        },
+        "subject_positions": [
+          {
+            "start": 123,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "ethyl acetate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "diethyl ether",
+      "predicate": "has_IUPAC_name",
+      "object": "ethane-1,2-diol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "C 4 H 8 O 2\nsodium sulfate | Na 2 SO 4 | diethyl ether | C 5 H 12 O\nammonium sulfate | (NH 4 ) 2",
+        "document_offsets": {
+          "start": 139,
+          "end": 235
+        },
+        "subject_positions": [
+          {
+            "start": 41,
+            "end": 54,
+            "sentence_id": 1,
+            "matched_text": "diethyl ether"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "potassium carbonate",
+      "predicate": "has_chemical_formula",
+      "object": "K2CO3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "tert -butyl ether | CHCl 3\npotassium carbonate | K 2",
+        "document_offsets": {
+          "start": 251,
+          "end": 303
+        },
+        "subject_positions": [
+          {
+            "start": 27,
+            "end": 46,
+            "sentence_id": 3,
+            "matched_text": "potassium carbonate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "chloroform",
+      "predicate": "has_IUPAC_name",
+      "object": "trichloromethane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3 | chloroform | (C 2 H 5 ) 2 O",
+        "document_offsets": {
+          "start": 304,
+          "end": 338
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 17,
+            "sentence_id": 4,
+            "matched_text": "chloroform"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium chloride",
+      "predicate": "has_chemical_formula",
+      "object": "NaCl",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salts | salts | solvents | solvents\nIUPAC name | chemical formula | IUPAC name | chemical formula\nsodium chloride | NaCl | ethyl acetate |",
+        "document_offsets": {
+          "start": 0,
+          "end": 138
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "sodium chloride"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 116,
+            "end": 120,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium sulfate",
+      "predicate": "has_chemical_formula",
+      "object": "Na2SO4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "C 4 H 8 O 2\nsodium sulfate | Na 2 SO 4 | diethyl ether | C 5 H 12 O\nammonium sulfate | (NH 4 ) 2",
+        "document_offsets": {
+          "start": 139,
+          "end": 235
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "sodium sulfate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methyl- tert -butyl ether",
+      "predicate": "has_IUPAC_name",
+      "object": "2-methyl-2-(1,1,3,3-tetramethylbutyl)ether",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 314.5466003417969,
+          "t": 359.0,
+          "r": 555.6527709960938,
+          "b": 257.78167724609375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "makeup flow",
+      "predicate": "has value",
+      "object": "25 mL/min",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 40 mL/min\nAirflow | 300 mL/min\nmakeup flow | 25 mL/min",
+        "document_offsets": {
+          "start": 173,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 44,
+            "sentence_id": 1,
+            "matched_text": "makeup flow"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 47,
+            "end": 56,
+            "sentence_id": 1,
+            "matched_text": "25 mL/min"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "carrier gas flow rate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 98,
+            "end": 119,
+            "sentence_id": 0,
+            "matched_text": "carrier gas flow rate"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "oven/column temperature",
+      "predicate": "has range",
+      "object": "40 - 225 \u00b0 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 58,
+            "sentence_id": 0,
+            "matched_text": "oven/column temperature"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 73,
+            "sentence_id": 0,
+            "matched_text": "40 - 225 \u00b0 C"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "H 2 flow",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 164,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "H 2 flow"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "carrier gas flow rate",
+      "predicate": "has value",
+      "object": "1.5 mL/min",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 119,
+            "sentence_id": 0,
+            "matched_text": "carrier gas flow rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 122,
+            "end": 132,
+            "sentence_id": 0,
+            "matched_text": "1.5 mL/min"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Airflow",
+      "predicate": "has value",
+      "object": "300 mL/min",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 40 mL/min\nAirflow | 300 mL/min\nmakeup flow | 25 mL/min",
+        "document_offsets": {
+          "start": 173,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 19,
+            "sentence_id": 1,
+            "matched_text": "Airflow"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 22,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "300 mL/min"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "detector temperature",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 133,
+            "end": 153,
+            "sentence_id": 0,
+            "matched_text": "detector temperature"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "makeup flow",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow | 40 mL/min\nAirflow | 300 mL/min\nmakeup flow | 25 mL/min",
+        "document_offsets": {
+          "start": 0,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 206,
+            "end": 217,
+            "sentence_id": 1,
+            "matched_text": "makeup flow"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "running time",
+      "predicate": "has value",
+      "object": "8.08 min",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 74,
+            "end": 86,
+            "sentence_id": 0,
+            "matched_text": "running time"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 97,
+            "sentence_id": 0,
+            "matched_text": "8.08 min"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "detector temperature",
+      "predicate": "has value",
+      "object": "300 \u00b0 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 133,
+            "end": 153,
+            "sentence_id": 0,
+            "matched_text": "detector temperature"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 156,
+            "end": 163,
+            "sentence_id": 0,
+            "matched_text": "300 \u00b0 C"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "Airflow",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow | 40 mL/min\nAirflow | 300 mL/min\nmakeup flow | 25 mL/min",
+        "document_offsets": {
+          "start": 0,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 185,
+            "end": 192,
+            "sentence_id": 1,
+            "matched_text": "Airflow"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "oven/column temperature",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 58,
+            "sentence_id": 0,
+            "matched_text": "oven/column temperature"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agilent 8860 GC system",
+      "predicate": "is associated with",
+      "object": "running time",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow",
+        "document_offsets": {
+          "start": 0,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Agilent 8860 GC system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 74,
+            "end": 86,
+            "sentence_id": 0,
+            "matched_text": "running time"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "H 2 flow",
+      "predicate": "has value",
+      "object": "40 mL/min",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "parameter | Agilent 8860 GC system\noven/column temperature | 40 - 225 \u00b0 C\nrunning time | 8.08 min\ncarrier gas flow rate | 1.5 mL/min\ndetector temperature | 300 \u00b0 C\nH 2 flow | 40 mL/min\nAirflow | 300 mL/min\nmakeup flow | 25 mL/min",
+        "document_offsets": {
+          "start": 0,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 164,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "H 2 flow"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 175,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "40 mL/min"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.535953521728516,
+          "t": 714.2389678955078,
+          "r": 291.5669860839844,
+          "b": 620.2096710205078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(NH4)2 SO 4",
+      "predicate": "is soluble in",
+      "object": "water",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "water"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "was tested with quantity",
+      "object": "0.252",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 92,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 107,
+            "end": 112,
+            "sentence_id": 0,
+            "matched_text": "0.252"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Na2 SO 4",
+      "predicate": "was tested with quantity",
+      "object": "0.194",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Na 2 SO 4 | 25 | 28.1 | 0.194",
+        "document_offsets": {
+          "start": 113,
+          "end": 143
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 1,
+            "matched_text": "0.194"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Na2 SO 4",
+      "predicate": "has solubility",
+      "object": "28.1",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Na 2 SO 4 | 25 | 28.1 | 0.194",
+        "document_offsets": {
+          "start": 113,
+          "end": 143
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "28.1"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(NH4)2 SO 4",
+      "predicate": "has temperature",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252 K 2 CO 3 | 20 | 110.3 | 0.772\n(NH 4 ) 2 SO 4 | 20 | 74.4 | 0.520",
+        "document_offsets": {
+          "start": 0,
+          "end": 207
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 97,
+            "sentence_id": 0,
+            "matched_text": "20"
+          },
+          {
+            "start": 154,
+            "end": 156,
+            "sentence_id": 2,
+            "matched_text": "20"
+          },
+          {
+            "start": 190,
+            "end": 192,
+            "sentence_id": 3,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "has temperature",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252 K 2 CO 3 | 20 | 110.3 | 0.772\n(NH 4 ) 2 SO 4 | 20 | 74.4 | 0.520",
+        "document_offsets": {
+          "start": 0,
+          "end": 207
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 92,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 97,
+            "sentence_id": 0,
+            "matched_text": "20"
+          },
+          {
+            "start": 154,
+            "end": 156,
+            "sentence_id": 2,
+            "matched_text": "20"
+          },
+          {
+            "start": 190,
+            "end": 192,
+            "sentence_id": 3,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Na2 SO 4",
+      "predicate": "is soluble in",
+      "object": "water",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "water"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "has solubility",
+      "object": "36.0",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 92,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 100,
+            "end": 104,
+            "sentence_id": 0,
+            "matched_text": "36.0"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(NH4)2 SO 4",
+      "predicate": "was tested with quantity",
+      "object": "0.520",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "SO 4 | 20 | 74.4 | 0.520",
+        "document_offsets": {
+          "start": 183,
+          "end": 207
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 24,
+            "sentence_id": 3,
+            "matched_text": "0.520"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "is soluble in",
+      "object": "water",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 92,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "water"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "K2 CO 3",
+      "predicate": "was tested with quantity",
+      "object": "0.772",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "K 2 CO 3 | 20 | 110.3 | 0.772\n(NH 4 ) 2",
+        "document_offsets": {
+          "start": 143,
+          "end": 182
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 2,
+            "matched_text": "0.772"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(NH4)2 SO 4",
+      "predicate": "has solubility",
+      "object": "74.4",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "SO 4 | 20 | 74.4 | 0.520",
+        "document_offsets": {
+          "start": 183,
+          "end": 207
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 12,
+            "end": 16,
+            "sentence_id": 3,
+            "matched_text": "74.4"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "K2 CO 3",
+      "predicate": "has temperature",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252 K 2 CO 3 | 20 | 110.3 | 0.772\n(NH 4 ) 2 SO 4 | 20 | 74.4 | 0.520",
+        "document_offsets": {
+          "start": 0,
+          "end": 207
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 97,
+            "sentence_id": 0,
+            "matched_text": "20"
+          },
+          {
+            "start": 154,
+            "end": 156,
+            "sentence_id": 2,
+            "matched_text": "20"
+          },
+          {
+            "start": 190,
+            "end": 192,
+            "sentence_id": 3,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "K2 CO 3",
+      "predicate": "has solubility",
+      "object": "110.3",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "K 2 CO 3 | 20 | 110.3 | 0.772\n(NH 4 ) 2",
+        "document_offsets": {
+          "start": 143,
+          "end": 182
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 21,
+            "sentence_id": 2,
+            "matched_text": "110.3"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Na2 SO 4",
+      "predicate": "has temperature",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252 Na 2 SO 4 | 25 | 28.1 | 0.194",
+        "document_offsets": {
+          "start": 0,
+          "end": 143
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 125,
+            "end": 127,
+            "sentence_id": 1,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "K2 CO 3",
+      "predicate": "is soluble in",
+      "object": "water",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salt | temperature ( \u00b0 C) | solubility in water (g/100 mL) | quantity tested (g/0.7 mL)\nNaCl | 20 | 36.0 | 0.252",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "water"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 50.458255767822266,
+          "t": 309.2332763671875,
+          "r": 291.3213806152344,
+          "b": 240.68426513671875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "C 5 H 12 O",
+      "predicate": "has formula",
+      "object": "C 4 H 8 O 2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3\nmethanol | C 4 H 8 O 2 | 22 | 24 | 33 | 58\nC 5 H 12 O | 16 | 17 | 24 | 27\nCHCl 3 | 8 | 7 | 12 | 13\n(C 2 H 5 ) 2 O | 15 | 16 | 23 | 28\nethanol | C 4 H 8 O 2 | 50 | 48 | 68 | 92\nC 5 H 12 O | 41 | 38 | 48 | 65\nCHCl 3 | 31 | 27 | 47 | 53\n(C H ) O",
+        "document_offsets": {
+          "start": 86,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 58,
+            "sentence_id": 4,
+            "matched_text": "C 5 H 12 O"
+          },
+          {
+            "start": 181,
+            "end": 191,
+            "sentence_id": 4,
+            "matched_text": "C 5 H 12 O"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          },
+          {
+            "start": 149,
+            "end": 160,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CHCl 3",
+      "predicate": "has formula",
+      "object": "C 4 H 8 O 2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3\nmethanol | C 4 H 8 O 2 | 22 | 24 | 33 | 58\nC 5 H 12 O | 16 | 17 | 24 | 27\nCHCl 3 | 8 | 7 | 12 | 13\n(C 2 H 5 ) 2 O | 15 | 16 | 23 | 28\nethanol | C 4 H 8 O 2 | 50 | 48 | 68 | 92\nC 5 H 12 O | 41 | 38 | 48 | 65\nCHCl 3 | 31 | 27 | 47 | 53\n(C H ) O",
+        "document_offsets": {
+          "start": 86,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 79,
+            "end": 85,
+            "sentence_id": 4,
+            "matched_text": "CHCl 3"
+          },
+          {
+            "start": 212,
+            "end": 218,
+            "sentence_id": 4,
+            "matched_text": "CHCl 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          },
+          {
+            "start": 149,
+            "end": 160,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(C H ) O",
+      "predicate": "is not present in the table",
+      "object": "molecular formula",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3\nmethanol | C 4 H 8 O 2 | 22 | 24 | 33 | 58\nC 5 H 12 O | 16 | 17 | 24 | 27\nCHCl 3 | 8 | 7 | 12 | 13\n(C 2 H 5 ) 2 O | 15 | 16 | 23 | 28\nethanol | C 4 H 8 O 2 | 50 | 48 | 68 | 92\nC 5 H 12 O | 41 | 38 | 48 | 65\nCHCl 3 | 31 | 27 | 47 | 53\n(C H ) O",
+        "document_offsets": {
+          "start": 86,
+          "end": 333
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "has formula",
+      "object": "Na 2 SO 4",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| NaCl",
+        "document_offsets": {
+          "start": 49,
+          "end": 55
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 6,
+            "sentence_id": 1,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "salts",
+      "predicate": "is associated with",
+      "object": "analyte",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salts | salts | salts | salts\nanalyte | solvents",
+        "document_offsets": {
+          "start": 0,
+          "end": 48
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 37,
+            "sentence_id": 0,
+            "matched_text": "analyte"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has formula",
+      "object": "C 4 H 8 O 2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3\nmethanol | C 4 H 8 O 2 | 22 | 24 | 33 | 58\nC 5 H 12 O | 16 | 17 | 24 | 27\nCHCl 3 | 8 | 7 | 12 | 13\n(C 2 H 5 ) 2 O | 15 | 16 | 23 | 28\nethanol | C 4 H 8 O 2 | 50 | 48 | 68 | 92\nC 5 H 12 O | 41 | 38 | 48 | 65\nCHCl 3 | 31 | 27 | 47 | 53\n(C H ) O",
+        "document_offsets": {
+          "start": 86,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 13,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          },
+          {
+            "start": 149,
+            "end": 160,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "K 2 CO 3",
+      "predicate": "has formula",
+      "object": "Na 2 SO 4",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(C 2 H 5 ) 2 O",
+      "predicate": "has formula",
+      "object": "C 4 H 8 O 2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3\nmethanol | C 4 H 8 O 2 | 22 | 24 | 33 | 58\nC 5 H 12 O | 16 | 17 | 24 | 27\nCHCl 3 | 8 | 7 | 12 | 13\n(C 2 H 5 ) 2 O | 15 | 16 | 23 | 28\nethanol | C 4 H 8 O 2 | 50 | 48 | 68 | 92\nC 5 H 12 O | 41 | 38 | 48 | 65\nCHCl 3 | 31 | 27 | 47 | 53\n(C H ) O",
+        "document_offsets": {
+          "start": 86,
+          "end": 333
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          },
+          {
+            "start": 149,
+            "end": 160,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has formula",
+      "object": "C 4 H 8 O 2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "CO 3\nmethanol | C 4 H 8 O 2 | 22 | 24 | 33 | 58\nC 5 H 12 O | 16 | 17 | 24 | 27\nCHCl 3 | 8 | 7 | 12 | 13\n(C 2 H 5 ) 2 O | 15 | 16 | 23 | 28\nethanol | C 4 H 8 O 2 | 50 | 48 | 68 | 92\nC 5 H 12 O | 41 | 38 | 48 | 65\nCHCl 3 | 31 | 27 | 47 | 53\n(C H ) O",
+        "document_offsets": {
+          "start": 86,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 139,
+            "end": 146,
+            "sentence_id": 4,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          },
+          {
+            "start": 149,
+            "end": 160,
+            "sentence_id": 4,
+            "matched_text": "C 4 H 8 O 2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "salts",
+      "predicate": "is associated with",
+      "object": "solvents",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "salts | salts | salts | salts\nanalyte | solvents",
+        "document_offsets": {
+          "start": 0,
+          "end": 48
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "salts"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 48,
+            "sentence_id": 0,
+            "matched_text": "solvents"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NH 4 SO 4",
+      "predicate": "has formula",
+      "object": "Na 2 SO 4",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "SO 4 | NH 4 SO 4 | K 2",
+        "document_offsets": {
+          "start": 63,
+          "end": 85
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 16,
+            "sentence_id": 3,
+            "matched_text": "NH 4 SO 4"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 50.999019622802734,
+          "t": 163.55108642578125,
+          "r": 291.6795959472656,
+          "b": 49.7586669921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has_R2",
+      "object": "1.000",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 71,
+            "sentence_id": 1,
+            "matched_text": "1.000"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has_component",
+      "object": "b",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 90,
+            "end": 97,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has_component",
+      "object": "a",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has_linear_range",
+      "object": "0.195 - 100 g/L",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 90,
+            "end": 97,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 74,
+            "end": 89,
+            "sentence_id": 1,
+            "matched_text": "0.195 - 100 g/L"
+          },
+          {
+            "start": 124,
+            "end": 139,
+            "sentence_id": 1,
+            "matched_text": "0.195 - 100 g/L"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has_component",
+      "object": "b",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994",
+        "document_offsets": {
+          "start": 0,
+          "end": 55
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "b"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has_component",
+      "object": "a",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 90,
+            "end": 97,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has_linear_range",
+      "object": "0.195 - 100 g/L",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 74,
+            "end": 89,
+            "sentence_id": 1,
+            "matched_text": "0.195 - 100 g/L"
+          },
+          {
+            "start": 124,
+            "end": 139,
+            "sentence_id": 1,
+            "matched_text": "0.195 - 100 g/L"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has_R2",
+      "object": "0.997",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "component | a | b | R 2 | linear range\nmethanol | 0.994 | 4.433 | 1.000 | 0.195 - 100 g/L\nethanol | 0.928 | 5.472 | 0.997 | 0.195 - 100 g/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 139
+        },
+        "subject_positions": [
+          {
+            "start": 90,
+            "end": 97,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 116,
+            "end": 121,
+            "sentence_id": 1,
+            "matched_text": "0.997"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table4",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 314.1045227050781,
+          "t": 351.4408874511719,
+          "r": 555.4457397460938,
+          "b": 311.2121887207031,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has calibration equation",
+      "object": "ln( A ) = 0.928 \u00b7 ln( C ) + 5.472",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "methanol | ln( A ) = 0.994 \u00b7 ln( C ) + 4.433 | 0.012 | 0.195\nethanol | ln( A ) = 0.928 \u00b7 ln( C ) + 5.472 | 0.004 | 0.195",
+        "document_offsets": {
+          "start": 57,
+          "end": 177
+        },
+        "subject_positions": [
+          {
+            "start": 61,
+            "end": 68,
+            "sentence_id": 2,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 71,
+            "end": 104,
+            "sentence_id": 2,
+            "matched_text": "ln( A ) = 0.928 \u00b7 ln( C ) + 5.472"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table5",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 50.152488708496094,
+          "t": 292.4090881347656,
+          "r": 291.6795654296875,
+          "b": 252.449951171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has LOD",
+      "object": "0.004",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "methanol | ln( A ) = 0.994 \u00b7 ln( C ) + 4.433 | 0.012 | 0.195\nethanol | ln( A ) = 0.928 \u00b7 ln( C ) + 5.472 | 0.004 | 0.195",
+        "document_offsets": {
+          "start": 57,
+          "end": 177
+        },
+        "subject_positions": [
+          {
+            "start": 61,
+            "end": 68,
+            "sentence_id": 2,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 107,
+            "end": 112,
+            "sentence_id": 2,
+            "matched_text": "0.004"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table5",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 50.152488708496094,
+          "t": 292.4090881347656,
+          "r": 291.6795654296875,
+          "b": 252.449951171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has LOQ",
+      "object": "0.195",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "methanol | ln( A ) = 0.994 \u00b7 ln( C ) + 4.433 | 0.012 | 0.195\nethanol | ln( A ) = 0.928 \u00b7 ln( C ) + 5.472 | 0.004 | 0.195",
+        "document_offsets": {
+          "start": 57,
+          "end": 177
+        },
+        "subject_positions": [
+          {
+            "start": 61,
+            "end": 68,
+            "sentence_id": 2,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 55,
+            "end": 60,
+            "sentence_id": 2,
+            "matched_text": "0.195"
+          },
+          {
+            "start": 115,
+            "end": 120,
+            "sentence_id": 2,
+            "matched_text": "0.195"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table5",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 50.152488708496094,
+          "t": 292.4090881347656,
+          "r": 291.6795654296875,
+          "b": 252.449951171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has calibration equation",
+      "object": "ln( A ) = 0.994 \u00b7 ln( C ) + 4.433",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "methanol | ln( A )",
+        "document_offsets": {
+          "start": 57,
+          "end": 75
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table5",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 50.152488708496094,
+          "t": 292.4090881347656,
+          "r": 291.6795654296875,
+          "b": 252.449951171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has LOQ",
+      "object": "0.195",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "methanol | ln( A ) = 0.994 \u00b7 ln( C ) + 4.433 | 0.012 | 0.195\nethanol | ln( A ) = 0.928 \u00b7 ln( C ) + 5.472 | 0.004 | 0.195",
+        "document_offsets": {
+          "start": 57,
+          "end": 177
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 55,
+            "end": 60,
+            "sentence_id": 2,
+            "matched_text": "0.195"
+          },
+          {
+            "start": 115,
+            "end": 120,
+            "sentence_id": 2,
+            "matched_text": "0.195"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table5",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 50.152488708496094,
+          "t": 292.4090881347656,
+          "r": 291.6795654296875,
+          "b": 252.449951171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has LOD",
+      "object": "0.012",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "methanol | ln( A ) = 0.994 \u00b7 ln( C ) + 4.433 | 0.012 | 0.195\nethanol | ln( A ) = 0.928 \u00b7 ln( C ) + 5.472 | 0.004 | 0.195",
+        "document_offsets": {
+          "start": 57,
+          "end": 177
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 47,
+            "end": 52,
+            "sentence_id": 2,
+            "matched_text": "0.012"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table5",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 50.152488708496094,
+          "t": 292.4090881347656,
+          "r": 291.6795654296875,
+          "b": 252.449951171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "FM22 media",
+      "predicate": "has EE (%)",
+      "object": "61",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 82,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "FM22 media"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "61"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has EE (%) compared to distilled water",
+      "object": "115",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media | 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 0,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 92,
+            "sentence_id": 1,
+            "matched_text": "115"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has EE (%) compared to distilled water",
+      "object": "100",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media",
+        "document_offsets": {
+          "start": 0,
+          "end": 81
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "distilled water",
+      "predicate": "has EE (%) compared to ethanol",
+      "object": "105",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media",
+        "document_offsets": {
+          "start": 0,
+          "end": 81
+        },
+        "subject_positions": [
+          {
+            "start": 44,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "distilled water"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 67,
+            "end": 70,
+            "sentence_id": 0,
+            "matched_text": "105"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "FM22 media",
+      "predicate": "has EE (%) compared to distilled water",
+      "object": "85",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 82,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "FM22 media"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "BMGY media",
+      "predicate": "has EE (%)",
+      "object": "73",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media | 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 0,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 71,
+            "end": 81,
+            "sentence_id": 0,
+            "matched_text": "BMGY media"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 84,
+            "end": 86,
+            "sentence_id": 1,
+            "matched_text": "73"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has EE (%)",
+      "object": "73",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media | 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 0,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 84,
+            "end": 86,
+            "sentence_id": 1,
+            "matched_text": "73"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "distilled water",
+      "predicate": "has EE (%)",
+      "object": "67",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media",
+        "document_offsets": {
+          "start": 0,
+          "end": 81
+        },
+        "subject_positions": [
+          {
+            "start": 44,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "distilled water"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 64,
+            "sentence_id": 0,
+            "matched_text": "67"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "BSM",
+      "predicate": "has EE (%) compared to distilled water",
+      "object": "103",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 82,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 35,
+            "sentence_id": 1,
+            "matched_text": "BSM"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "BSM",
+      "predicate": "has EE (%)",
+      "object": "69",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 82,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 35,
+            "sentence_id": 1,
+            "matched_text": "BSM"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 38,
+            "end": 40,
+            "sentence_id": 1,
+            "matched_text": "69"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "BMGY media",
+      "predicate": "has EE (%) compared to distilled water",
+      "object": "115",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media | 73 | 115\nFM22 media | 61 | 92\nBSM | 69 | 110",
+        "document_offsets": {
+          "start": 0,
+          "end": 128
+        },
+        "subject_positions": [
+          {
+            "start": 71,
+            "end": 81,
+            "sentence_id": 0,
+            "matched_text": "BMGY media"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 92,
+            "sentence_id": 1,
+            "matched_text": "115"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has EE (%)",
+      "object": "105",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "EE (%) | EE (%)\nmatrix | methanol | ethanol\ndistilled water | 67 | 105\nBMGY media",
+        "document_offsets": {
+          "start": 0,
+          "end": 81
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 67,
+            "end": 70,
+            "sentence_id": 0,
+            "matched_text": "105"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table6",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 313.86376953125,
+          "t": 656.7141418457031,
+          "r": 555.4801025390625,
+          "b": 580.2270355224609,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has interday precision",
+      "object": "1.55",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 58,
+            "end": 66,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 77,
+            "end": 81,
+            "sentence_id": 1,
+            "matched_text": "1.55"
+          },
+          {
+            "start": 84,
+            "end": 88,
+            "sentence_id": 1,
+            "matched_text": "1.55"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.781",
+      "predicate": "has concentration",
+      "object": "0.79",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 94,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          },
+          {
+            "start": 159,
+            "end": 164,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 97,
+            "end": 101,
+            "sentence_id": 1,
+            "matched_text": "0.79"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has interday precision",
+      "object": "1.15",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 129,
+            "end": 136,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 158,
+            "sentence_id": 1,
+            "matched_text": "1.15"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has intraday precision",
+      "object": "1.55",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 58,
+            "end": 66,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 77,
+            "end": 81,
+            "sentence_id": 1,
+            "matched_text": "1.55"
+          },
+          {
+            "start": 84,
+            "end": 88,
+            "sentence_id": 1,
+            "matched_text": "1.55"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3.125",
+      "predicate": "has intraday precision",
+      "object": "0.77",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 114,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          },
+          {
+            "start": 179,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 128,
+            "sentence_id": 1,
+            "matched_text": "0.77"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.781",
+      "predicate": "has intraday precision",
+      "object": "0.98",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 94,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          },
+          {
+            "start": 159,
+            "end": 164,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 174,
+            "end": 178,
+            "sentence_id": 1,
+            "matched_text": "0.98"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3.125",
+      "predicate": "has concentration",
+      "object": "3.125",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 114,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          },
+          {
+            "start": 179,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 114,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          },
+          {
+            "start": 179,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "has concentration",
+      "object": "0.195",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 58,
+            "end": 66,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 74,
+            "sentence_id": 1,
+            "matched_text": "0.195"
+          },
+          {
+            "start": 139,
+            "end": 144,
+            "sentence_id": 1,
+            "matched_text": "0.195"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has intraday precision",
+      "object": "1.17",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 129,
+            "end": 136,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 147,
+            "end": 151,
+            "sentence_id": 1,
+            "matched_text": "1.17"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ethanol",
+      "predicate": "has concentration",
+      "object": "0.195",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 129,
+            "end": 136,
+            "sentence_id": 1,
+            "matched_text": "ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 74,
+            "sentence_id": 1,
+            "matched_text": "0.195"
+          },
+          {
+            "start": 139,
+            "end": 144,
+            "sentence_id": 1,
+            "matched_text": "0.195"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.781",
+      "predicate": "has concentration",
+      "object": "0.58",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 94,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          },
+          {
+            "start": 159,
+            "end": 164,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 167,
+            "end": 171,
+            "sentence_id": 1,
+            "matched_text": "0.58"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.781",
+      "predicate": "has intraday precision",
+      "object": "0.99",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 94,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          },
+          {
+            "start": 159,
+            "end": 164,
+            "sentence_id": 1,
+            "matched_text": "0.781"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 104,
+            "end": 108,
+            "sentence_id": 1,
+            "matched_text": "0.99"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3.125",
+      "predicate": "has intraday precision",
+      "object": "0.70",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| intraday precision (% RSD) | interday precision (% RSD)\nmethanol | 0.195 | 1.55 | 1.55\n0.781 | 0.79 | 0.99\n3.125 | 0.66 | 0.77\nethanol | 0.195 | 1.17 | 1.15\n0.781 | 0.58 | 0.98\n3.125 | 0.64 | 0.70",
+        "document_offsets": {
+          "start": 32,
+          "end": 230
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 114,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          },
+          {
+            "start": 179,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "3.125"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 194,
+            "end": 198,
+            "sentence_id": 1,
+            "matched_text": "0.70"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table7",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 50.384212493896484,
+          "t": 667.0615234375,
+          "r": 291.7020263671875,
+          "b": 570.3982086181641,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "BMGY media",
+    "distilled water",
+    "diethyl ether",
+    "makeup flow",
+    "ethanol",
+    "Agilent 8860 GC system",
+    "40 - 225 \u00b0 C",
+    "BSM",
+    "FM22 media",
+    "Na 2 SO 4",
+    "methanol",
+    "1.5 mL/min",
+    "potassium carbonate",
+    "NaCl",
+    "K 2 CO 3",
+    "ammonium sulfate",
+    "NH 4 SO 4",
+    "(NH 4 ) 2 SO 4",
+    "300 \u00b0 C",
+    "(C H ) O",
+    "K2 CO 3",
+    "salts",
+    "(C 2 H 5 ) 2 O",
+    "detector temperature",
+    "solvents",
+    "Airflow",
+    "sodium chloride",
+    "8.08 min",
+    "40 mL/min",
+    "chloroform",
+    "oven/column temperature",
+    "C 5 H 12 O",
+    "sodium sulfate",
+    "(NH4)2 SO 4",
+    "CHCl 3",
+    "methyl- tert -butyl ether",
+    "analyte",
+    "ethyl acetate",
+    "Na2 SO 4",
+    "H 2 flow",
+    "table page9_table6",
+    "carrier gas flow rate",
+    "300 mL/min",
+    "EE %",
+    "C 4 H 8 O 2",
+    "running time"
+  ]
+}

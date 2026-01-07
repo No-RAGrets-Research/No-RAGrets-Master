@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph GraphQL Explorer</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            margin: 0;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #4fc3f7;
+            text-align: center;
+        }
+        .query-section {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .query-input {
+            flex: 1;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            background-color: #2d2d2d;
+            color: #d4d4d4;
+            border: 1px solid #404040;
+            padding: 15px;
+            font-family: inherit;
+            font-size: 14px;
+            resize: vertical;
+        }
+        .result-area {
+            background-color: #2d2d2d;
+            border: 1px solid #404040;
+            padding: 15px;
+            height: 400px;
+            overflow-y: scroll;
+            white-space: pre-wrap;
+            font-size: 14px;
+        }
+        button {
+            background-color: #4fc3f7;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background-color: #29b6f6;
+        }
+        .examples {
+            margin: 20px 0;
+        }
+        .example-btn {
+            background-color: #66bb6a;
+            font-size: 12px;
+            padding: 8px 16px;
+        }
+        .example-btn:hover {
+            background-color: #4caf50;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .status.success {
+            background-color: #2e7d32;
+            color: white;
+        }
+        .status.error {
+            background-color: #d32f2f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Knowledge Graph GraphQL Explorer</h1>
+        
+        <div class="examples">
+            <h3>Example Queries:</h3>
+            <button class="example-btn" onclick="loadExample(1)">List Entities</button>
+            <button class="example-btn" onclick="loadExample(2)">Show Relationships</button>
+            <button class="example-btn" onclick="loadExample(3)">Search Methanol</button>
+            <button class="example-btn" onclick="loadExample(4)">List Papers</button>
+        </div>
+
+        <div class="query-section">
+            <div class="query-input">
+                <h3>GraphQL Query:</h3>
+                <textarea id="queryInput" placeholder="Enter your GraphQL query here...">
+{
+  queryNode(first: 10) {
+    id
+    name
+    type
+    outgoing(first: 3) {
+      predicate
+      object {
+        name
+        type
+      }
+    }
+  }
+}</textarea>
+            </div>
+        </div>
+
+        <button onclick="executeQuery()">🚀 Execute Query</button>
+        <button onclick="clearResults()">🗑️ Clear Results</button>
+
+        <div id="status"></div>
+
+        <h3>Results:</h3>
+        <div id="results" class="result-area">Click "Execute Query" to see results...</div>
+    </div>
+
+    <script>
+        const examples = {
+            1: `{
+  queryNode(first: 10) {
+    id
+    name
+    type
+    namespace
+  }
+}`,
+            2: `{
+  queryRelation(first: 15) {
+    id
+    predicate
+    subject { name type }
+    object { name type }
+    source_paper
+    confidence
+  }
+}`,
+            3: `{
+  queryNode(filter: { name: { anyofterms: "methanol" } }) {
+    id
+    name
+    type
+    outgoing {
+      predicate
+      object { name }
+    }
+    incoming {
+      predicate
+      subject { name }
+    }
+  }
+}`,
+            4: `{
+  queryPaper {
+    id
+    title
+    filename
+    total_entities
+    total_relations
+    sections
+  }
+}`
+        };
+
+        function loadExample(num) {
+            document.getElementById('queryInput').value = examples[num];
+        }
+
+        function clearResults() {
+            document.getElementById('results').textContent = 'Click "Execute Query" to see results...';
+            document.getElementById('status').innerHTML = '';
+        }
+
+        async function executeQuery() {
+            const query = document.getElementById('queryInput').value;
+            const resultsDiv = document.getElementById('results');
+            const statusDiv = document.getElementById('status');
+            
+            if (!query.trim()) {
+                statusDiv.innerHTML = '<div class="status error">Please enter a query!</div>';
+                return;
+            }
+
+            statusDiv.innerHTML = '<div class="status">Executing query...</div>';
+            resultsDiv.textContent = 'Loading...';
+
+            try {
+                const response = await fetch('http://localhost:8080/graphql', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+
+                const data = await response.json();
+                
+                if (data.errors) {
+                    statusDiv.innerHTML = `<div class="status error">GraphQL Errors: ${data.errors.map(e => e.message).join(', ')}</div>`;
+                } else {
+                    statusDiv.innerHTML = '<div class="status success">Query executed successfully!</div>';
+                }
+                
+                resultsDiv.textContent = JSON.stringify(data, null, 2);
+                
+            } catch (error) {
+                statusDiv.innerHTML = `<div class="status error">Network Error: ${error.message}</div>`;
+                resultsDiv.textContent = `Error: ${error.message}`;
+            }
+        }
+
+        // Execute the default query on page load
+        window.onload = function() {
+            executeQuery();
+        };
+    </script>
+</body>
+</html>

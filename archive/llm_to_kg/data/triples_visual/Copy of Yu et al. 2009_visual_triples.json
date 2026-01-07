@@ -1,0 +1,112 @@
+[
+  {
+    "page": 3,
+    "caption": "Fig. 1. Batch and chemostat growth of Methylosinus trichosporium OB3b. The culture\nwas ﬁrst grown in batch culture on methane with 15 \u0002M of the pMMO inhibitor\nallylthiourea. Continuous ﬂow of the same medium began at 71 h at a dilution rate\nof 0.05 h−1. After steady state was achieved on methane (190 h), the methane supply\nwas stopped and a medium containing 4 g l−1 methanol and 15 \u0002M allylthiourea was\ncontinuously fed.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 1. Batch and chemostat growth of Methylosinus trichosporium OB3b. The culture\nwas ﬁrst grown in batch culture on methane with 15 \u0002M of the pMMO inhibitor\nallylthiourea. Continuous ﬂow of the same medium began at 71 h at a dilution rate\nof 0.05 h−1. After steady state was achieved on methane (190 h), the methane supply\nwas stopped and a medium containing 4 g l−1 methanol and 15 \u0002M allylthiourea was\ncontinuously fed.\n\nOutput JSON list only:\nassistant\n[\n  (\"Methylosinus trichosporium OB3b\", \"grown in\", \"batch culture\"),\n  (\"Methylosinus trichosporium OB3b\", \"grown in\", \"chemostat\"),\n  (\"Methylosinus trichosporium OB3b\", \"grown on\", \"methane\"),\n  (\"Methylosinus trichosporium OB3b\", \"grown on\", \"methanol\"),\n  (\"Methylosinus trichosporium OB3b\", \"exposed to\", \"allylthiourea\"),\n  (\"allylthiourea\", \"concentration\", \"15 μM\"),\n  (\"Methylosinus trichosporium OB3b\", \"cultured at\", \"dilution rate of 0.05 h⁻¹\"),\n  (\"Methylosinus trichosporium OB3b\", \"achieved steady state on methane at\", \"190 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"switched from methane to methanol at\", \"190 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"cultured in continuous flow medium with methanol at\", \"190 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"cultured in continuous flow medium with methanol and allylthiourea at\", \"190 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₄ in batch culture\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₃OH in chemostat\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₄ in chemostat\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₃OH in chemostat\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₄ in batch culture\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₃OH in batch culture\"),\n  (\"Methylosinus trichosporium OB3b\", \"produced CH₄ in chemostat\"),\n  (\"Methylos"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol\nusing an exponential feeding strategy. Methanol feeding was designed to obtain a\n\u0002 of 0.06 h−1. Methanol concentration in the aqueous phase was measured in liquid\nsamples (\u0003, actual) or estimated from headspace samples (■, estimated). At 131.8 h\n(ﬁrst arrow), 1 ml each of the CaCl2·2H2O, FeSO4·7H2O, and trace element stock\nsolutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was\nadded.",
+    "triples": [
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "undergoes",
+        "object": "fed-batch fermentation on methanol using exponential feeding strategy"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "has",
+        "object": "specific naphthol produced g biomass⁻¹ h⁻¹"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "has",
+        "object": "biomass (g l⁻¹)"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "has",
+        "object": "[CH₃OH]"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "has",
+        "object": "[Allylthiourea]"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "has",
+        "object": "[HCHO]"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b",
+        "relation": "has",
+        "object": "growth rate of 0.06 h⁻¹"
+      },
+      {
+        "subject": "CaCl2·2H2O",
+        "relation": "added to",
+        "object": "Methylosinus trichosporium OB3b culture at 131.8 h"
+      },
+      {
+        "subject": "FeSO4·7H2O",
+        "relation": "added to",
+        "object": "Methylosinus trichosporium OB3b culture at 131.8 h"
+      },
+      {
+        "subject": "trace element stock solutions",
+        "relation": "added to",
+        "object": "Methylosinus trichosporium OB3b culture at 131.8 h"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b culture",
+        "relation": "has",
+        "object": "methanol feeding strategy designed for growth rate of 0.06 h⁻¹"
+      },
+      {
+        "subject": "Methylosinus trichosporium OB3b culture",
+        "relation": "has",
+        "object": "exponential feeding strategy"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol\nusing an exponential feeding strategy. Methanol feeding was designed to obtain a\n\u0002 of 0.06 h−1. Methanol concentration in the aqueous phase was measured in liquid\nsamples (\u0003, actual) or estimated from headspace samples (■, estimated). At 131.8 h\n(ﬁrst arrow), 1 ml each of the CaCl2·2H2O, FeSO4·7H2O, and trace element stock\nsolutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was\nadded.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol\nusing an exponential feeding strategy. Methanol feeding was designed to obtain a\n\u0002 of 0.06 h−1. Methanol concentration in the aqueous phase was measured in liquid\nsamples (\u0003, actual) or estimated from headspace samples (■, estimated). At 131.8 h\n(ﬁrst arrow), 1 ml each of the CaCl2·2H2O, FeSO4·7H2O, and trace element stock\nsolutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was\nadded.\n\nOutput JSON list only:\nassistant\n[\n  (\"Methylosinus trichosporium OB3b\", \"undergoes\", \"fed-batch fermentation on methanol\"),\n  (\"Methylosinus trichosporium OB3b\", \"uses\", \"exponential feeding strategy\"),\n  (\"Methylosinus trichosporium OB3b\", \"has\", \"biomass growth rate of 0.06 h⁻¹\"),\n  (\"Methylosinus trichosporium OB3b\", \"receives\", \"CaCl2·2H2O at 131.8 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"receives\", \"FeSO4·7H2O at 131.8 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"receives\", \"trace element stock solution at 131.8 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"receives\", \"CaCl2·2H2O at 155.3 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"receives\", \"FeSO4·7H2O at 155.3 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"receives\", \"trace element stock solution at 155.3 h\"),\n  (\"Methylosinus trichosporium OB3b\", \"has\", \"methanol concentration measured in liquid samples\"),\n  (\"Methylosinus trichosporium OB3b\", \"has\", \"methanol concentration estimated from headspace samples\"),\n  (\"Methylosinus trichosporium OB3b\", \"has\", \"biomass growth rate measured as μCPR\"),\n  (\"Methylosinus trichosporium OB3b\", \"has\", \"methanol consumption rate estimated from headspace samples\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a\nportion of the fed-fermentation depicted in Fig. 3.",
+    "triples": []
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a\nportion of the fed-fermentation depicted in Fig. 3.",
+    "triples": [
+      {
+        "subject": "CO₂% during fed-fermentation",
+        "relation": "increases with",
+        "object": "time (h)"
+      },
+      {
+        "subject": "CH₃OH fed (g)",
+        "relation": "decreases with",
+        "object": "time (h)"
+      },
+      {
+        "subject": "CH₃OH fed (g)",
+        "relation": "correlates with",
+        "object": "CO₂% during fed-fermentation"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3831 @@
+{
+  "summary": {
+    "total_chunks": 6,
+    "errors": 0,
+    "entities": 72,
+    "relations": 114,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 114,
+    "sections": {
+      "Figure 2 Analysis": {
+        "chunks": 1,
+        "entities": 20,
+        "relations": 20
+      },
+      "Figure 6 Analysis": {
+        "chunks": 2,
+        "entities": 23,
+        "relations": 24
+      },
+      "Figure 9 Analysis": {
+        "chunks": 2,
+        "entities": 29,
+        "relations": 60
+      },
+      "Figure 10 Analysis": {
+        "chunks": 1,
+        "entities": 7,
+        "relations": 10
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Sheets et al. 2017_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T11:29:10.391624"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 2 Analysis",
+      "entities": [
+        "Syringe for vacuum creation",
+        "TBR",
+        "6",
+        "5",
+        "1",
+        "Gas circulation pump",
+        "Liquid circulation pump",
+        "Gas feeding and sampling flask",
+        "8",
+        "7",
+        "Gas sampling and feeding port",
+        "3",
+        "9",
+        "2",
+        "liquid flow direction indicated by solid lines",
+        "Three-way valve for liquid sampling and medium replacement",
+        "gas flow direction indicated by dashed lines",
+        "4",
+        "Three-way valve for gas circulation shut off",
+        "Gas bag"
+      ],
+      "relations": [
+        {
+          "subject": "1",
+          "predicate": "is",
+          "object": "TBR",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "2",
+          "predicate": "is",
+          "object": "Gas feeding and sampling flask",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "3",
+          "predicate": "is",
+          "object": "Gas bag",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "4",
+          "predicate": "is",
+          "object": "Gas sampling and feeding port",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "5",
+          "predicate": "is",
+          "object": "Syringe for vacuum creation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "6",
+          "predicate": "is",
+          "object": "Gas circulation pump",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "7",
+          "predicate": "is",
+          "object": "Three-way valve for gas circulation shut off",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "8",
+          "predicate": "is",
+          "object": "Three-way valve for liquid sampling and medium replacement",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "9",
+          "predicate": "is",
+          "object": "Liquid circulation pump",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "3",
+          "predicate": "connects to",
+          "object": "4",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "4",
+          "predicate": "connects to",
+          "object": "5",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "4",
+          "predicate": "connects to",
+          "object": "2",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "2",
+          "predicate": "connects to",
+          "object": "1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "1",
+          "predicate": "connected to",
+          "object": "6",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "6",
+          "predicate": "connected to",
+          "object": "7",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "7",
+          "predicate": "connected to",
+          "object": "9",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "9",
+          "predicate": "connected to",
+          "object": "8",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "8",
+          "predicate": "connected to",
+          "object": "1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "1",
+          "predicate": "has",
+          "object": "liquid flow direction indicated by solid lines",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        },
+        {
+          "subject": "1",
+          "predicate": "has",
+          "object": "gas flow direction indicated by dashed lines",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. TBR set up for biogas conversion to methanol: solid lines show direction of liquid flow and dashed lines show direction of gas flow. 1) TBR; 2) Gas feeding and sampling flask; 3) Gas bag; 4) Gas sampling and feeding port; 5) Syringe for vacuum creation; 6) Gas circulation pump; 7) Three-way valve for gas circulation shut off; 8) Three-way valve for liquid sampling and medium replacement; 9) Liquid circulation pump.",
+            "bbox_coordinates": {
+              "l": 301.41,
+              "t": 416.3020122070312,
+              "r": 552.957,
+              "b": 367.53501220703123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                1295
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              426
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 301.41,
+                "t": 416.3020122070312,
+                "r": 552.957,
+                "b": 367.53501220703123,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page2_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "Methane-final",
+        "Methane-initial",
+        "OD",
+        "Time (d)",
+        "varies from 0.0 to 1.0",
+        "1.0",
+        "varies from 0% to 25%",
+        "25%",
+        "0.0",
+        "0%"
+      ],
+      "relations": [
+        {
+          "subject": "Methane-initial",
+          "predicate": "gas composition percentage",
+          "object": "25%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "Methane-final",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "OD",
+          "predicate": "gas composition percentage",
+          "object": "1.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "OD",
+          "predicate": "gas composition percentage",
+          "object": "0.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "Time (d)",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "Time (d)",
+          "predicate": "gas composition percentage",
+          "object": "25%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "Methane-initial",
+          "predicate": "gas composition percentage",
+          "object": "varies from 0% to 25%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "Methane-final",
+          "predicate": "gas composition percentage",
+          "object": "varies from 0% to 25%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        },
+        {
+          "subject": "OD",
+          "predicate": "gas composition percentage",
+          "object": "varies from 0.0 to 1.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Table 2 TBR performance during Phase 1.1.",
+            "bbox_coordinates": {
+              "l": 31.921,
+              "t": 737.8190122070312,
+              "r": 138.149,
+              "b": 723.3240122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                623
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 31.921,
+                "t": 737.8190122070312,
+                "r": 138.149,
+                "b": 723.3240122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "Oxygen removal",
+        "mmol/h",
+        "CH4 removal",
+        "Gas removal or production",
+        "Biogas:Air ratio",
+        "Carbon dioxide production",
+        "1:28 biogas:air ratio",
+        "1:6.0 biogas:air ratio",
+        "TBR during Phase 1",
+        "4 hours",
+        "1:2.5 biogas:air ratio",
+        "Methane removal",
+        "TBR Phase 1 parameter"
+      ],
+      "relations": [
+        {
+          "subject": "Methane removal",
+          "predicate": "measured at",
+          "object": "1:28 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Methane removal",
+          "predicate": "measured at",
+          "object": "1:6.0 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Methane removal",
+          "predicate": "measured at",
+          "object": "1:2.5 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen removal",
+          "predicate": "measured at",
+          "object": "1:28 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen removal",
+          "predicate": "measured at",
+          "object": "1:6.0 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen removal",
+          "predicate": "measured at",
+          "object": "1:2.5 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide production",
+          "predicate": "measured at",
+          "object": "1:28 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide production",
+          "predicate": "measured at",
+          "object": "1:6.0 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide production",
+          "predicate": "measured at",
+          "object": "1:2.5 biogas:air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Methane removal",
+          "predicate": "measured in",
+          "object": "mmol/h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen removal",
+          "predicate": "measured in",
+          "object": "mmol/h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide production",
+          "predicate": "measured in",
+          "object": "mmol/h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Gas removal or production",
+          "predicate": "measured at",
+          "object": "4 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "Biogas:Air ratio",
+          "predicate": "classified as",
+          "object": "TBR Phase 1 parameter",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "CH4 removal",
+          "predicate": "related to",
+          "object": "TBR during Phase 1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Dynamics of CH4 removal in the TBR during Phase 1.",
+            "bbox_coordinates": {
+              "l": 67.103,
+              "t": 411.9650122070312,
+              "r": 248.289,
+              "b": 406.0380122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                827
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 67.103,
+                "t": 411.9650122070312,
+                "r": 248.289,
+                "b": 406.0380122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 9 Analysis",
+      "entities": [
+        "20%",
+        "5%",
+        "15%",
+        "Methane",
+        "10%",
+        "Oxygen",
+        "Methanol",
+        "25%",
+        "Carbon dioxide",
+        "Formate",
+        "0%"
+      ],
+      "relations": [
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "20%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "15%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "10%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "15%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "10%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "10%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "25%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "10%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "20%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "15%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "15%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "10%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Carbon dioxide",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Formate",
+          "predicate": "gas composition percentage",
+          "object": "0%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Methane",
+          "predicate": "gas composition percentage",
+          "object": "10%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "gas composition percentage",
+          "object": "5%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. Effects of biogas:air ratio and formate addition on methanol production in the TBR: (a): biogas:air = 1:2.5, formate = 12 mmol; (b): biogas:air = 1:2.5, formate = 6 mmol; (c): biogas:air = 1:6.0, formate = 12 mmol; (d): biogas:air = 1:6.0, formate = 6 mmol.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 103.30201220703123,
+              "r": 294.279,
+              "b": 71.67101220703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                850,
+                2600
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 42.731,
+                "t": 103.30201220703123,
+                "r": 294.279,
+                "b": 71.67101220703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 9 Analysis",
+      "entities": [
+        "Sphingomonadales",
+        "Flavobacteriales",
+        "Rhizobiales",
+        "Unassigned",
+        "Rhodospirillales",
+        "Methylococcaceae",
+        "Other Bacterial Phyla",
+        "Burkholderiales",
+        "Chloroflexi",
+        "Phase 1.1-2",
+        "Firmicutes",
+        "Phase 1.1-1",
+        "Rickettsiales",
+        "Other Proteobacteria",
+        "Other Bacteroidetes",
+        "Chlorobi",
+        "Actinobacteria",
+        "Gemmatimonadetes"
+      ],
+      "relations": [
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Methylococcaceae",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Burkholderiales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Rhizobiales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Rickettsiales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Rhodospirillales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Sphingomonadales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Other Proteobacteria",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Flavobacteriales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Other Bacteroidetes",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Chlorobi",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Gemmatimonadetes",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Chloroflexi",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Firmicutes",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Actinobacteria",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Other Bacterial Phyla",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-1",
+          "predicate": "has bacterial phyla",
+          "object": "Unassigned",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Methylococcaceae",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Burkholderiales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Rhizobiales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Rickettsiales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Rhodospirillales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Sphingomonadales",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        },
+        {
+          "subject": "Phase 1.1-2",
+          "predicate": "has bacterial phyla",
+          "object": "Other Proteobacteria",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig2",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Major bacterial phyla (bolded, each representing >0.5% of total sequences in ≥ 1 sample) and major orders of Bacteroidetes and Proteobacteria (each representing >5% of total sequence of each phylum in ≥ 1 sample).",
+            "bbox_coordinates": {
+              "l": 312.221,
+              "t": 559.3020122070312,
+              "r": 563.768,
+              "b": 531.4030122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1001,
+                698
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              221
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 312.221,
+                "t": 559.3020122070312,
+                "r": 563.768,
+                "b": 531.4030122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 5,
+      "section": "Figure 10 Analysis",
+      "entities": [
+        "Methane-final",
+        "Methane-initial",
+        "OD",
+        "Time (d)",
+        "OD and methanol (g/L)",
+        "Methanol",
+        "Headspace CH4 content (%)"
+      ],
+      "relations": [
+        {
+          "subject": "Methane-initial",
+          "predicate": "measured as",
+          "object": "Headspace CH4 content (%)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "Methane-final",
+          "predicate": "measured as",
+          "object": "Headspace CH4 content (%)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "OD",
+          "predicate": "measured as",
+          "object": "OD and methanol (g/L)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "measured as",
+          "object": "OD and methanol (g/L)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "OD",
+          "predicate": "varies with",
+          "object": "Time (d)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "varies with",
+          "object": "Time (d)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "Methane-initial",
+          "predicate": "varies with",
+          "object": "Time (d)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "Methane-final",
+          "predicate": "varies with",
+          "object": "Time (d)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "Headspace CH4 content (%)",
+          "predicate": "is plotted against",
+          "object": "Time (d)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        },
+        {
+          "subject": "OD and methanol (g/L)",
+          "predicate": "is plotted against",
+          "object": "Time (d)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Table A1 Summary of sampling data and sequence clustering for microbial community analyses.",
+            "bbox_coordinates": {
+              "l": 31.922,
+              "t": 180.26701220703126,
+              "r": 296.179,
+              "b": 165.77101220703116,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                900,
+                743
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              91
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/5",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 31.922,
+                "t": 180.26701220703126,
+                "r": 296.179,
+                "b": 165.77101220703116,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page10_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

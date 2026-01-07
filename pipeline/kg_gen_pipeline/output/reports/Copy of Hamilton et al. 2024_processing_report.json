@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Hamilton et al. 2024.pdf",
+    "start_time": "2025-11-14 00:31:19.253002",
+    "end_time": "2025-11-14 00:57:27.935950",
+    "total_duration": 1568.682948,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 679,
+    "relations": 346,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Hamilton et al. 2024_kg_results_20251114_003119.json"
+  },
+  "visual_extraction": {
+    "attempted": false,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Hamilton et al. 2024_kg_results_20251114_003119.json",
+    "visual_kg": null
+  },
+  "errors": []
+}

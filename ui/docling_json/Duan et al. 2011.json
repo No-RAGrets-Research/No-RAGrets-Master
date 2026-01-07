@@ -1,0 +1,7233 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.8.0",
+  "name": "Duan et al. 2011",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 17297255906899979827,
+    "filename": "Duan et al. 2011.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/167"
+      },
+      {
+        "$ref": "#/texts/168"
+      },
+      {
+        "$ref": "#/texts/169"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/205"
+      },
+      {
+        "$ref": "#/texts/206"
+      },
+      {
+        "$ref": "#/texts/207"
+      },
+      {
+        "$ref": "#/texts/208"
+      },
+      {
+        "$ref": "#/texts/209"
+      },
+      {
+        "$ref": "#/texts/210"
+      },
+      {
+        "$ref": "#/texts/211"
+      },
+      {
+        "$ref": "#/texts/212"
+      },
+      {
+        "$ref": "#/texts/213"
+      },
+      {
+        "$ref": "#/texts/214"
+      },
+      {
+        "$ref": "#/texts/215"
+      },
+      {
+        "$ref": "#/texts/216"
+      },
+      {
+        "$ref": "#/texts/217"
+      },
+      {
+        "$ref": "#/texts/218"
+      },
+      {
+        "$ref": "#/groups/3"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/219"
+        },
+        {
+          "$ref": "#/texts/220"
+        },
+        {
+          "$ref": "#/texts/221"
+        },
+        {
+          "$ref": "#/texts/222"
+        },
+        {
+          "$ref": "#/texts/223"
+        },
+        {
+          "$ref": "#/texts/224"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 230.343,
+            "t": 745.7189887695313,
+            "r": 374.744,
+            "b": 739.7859887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Bioresource Technology 102 (2011) 7349-7353",
+      "text": "Bioresource Technology 102 (2011) 7349-7353"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 228.529,
+            "t": 719.5749887695313,
+            "r": 379.548,
+            "b": 712.2339887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Contents lists available at ScienceDirect",
+      "text": "Contents lists available at ScienceDirect"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.937,
+            "t": 695.6689887695312,
+            "r": 383.978,
+            "b": 682.6889887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Bioresource Technology",
+      "text": "Bioresource Technology",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 178.866,
+            "t": 663.7889887695312,
+            "r": 431.79,
+            "b": 656.4479887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "j o u r n a l homepage: www.elsevier.com/locate/biortech",
+      "text": "j o u r n a l homepage: www.elsevier.com/locate/biortech"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 614.7419887695312,
+            "r": 559.231,
+            "b": 602.2259887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "High-rate conversion of methane to methanol by Methylosinus trichosporium OB3b",
+      "text": "High-rate conversion of methane to methanol by Methylosinus trichosporium OB3b",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 594.5549887695312,
+            "r": 296.282,
+            "b": 578.6529887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Changhong Duan a , Mingfang Luo a, ⇑ , Xinhui Xing b, ⇑",
+      "text": "Changhong Duan a , Mingfang Luo a, ⇑ , Xinhui Xing b, ⇑"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 573.1709887695313,
+            "r": 440.217,
+            "b": 565.9649887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "a College of Material Science and Opto-Electronic Technology, Graduate University of Chinese Academy of Sciences, Beijing 100049, China",
+      "text": "a College of Material Science and Opto-Electronic Technology, Graduate University of Chinese Academy of Sciences, Beijing 100049, China",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 564.6099887695312,
+            "r": 281.248,
+            "b": 557.4049887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "b Department of Chemical Engineering, Tsinghua University, Beijing 100084, China",
+      "text": "b Department of Chemical Engineering, Tsinghua University, Beijing 100084, China"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 532.9989887695313,
+            "r": 136.865,
+            "b": 527.8709887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "a r t i c l e i n f o",
+      "text": "a r t i c l e i n f o",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 513.6749887695312,
+            "r": 162.034,
+            "b": 473.4429887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "Article history: Received 11 January 2011 Received in revised form 22 April 2011 Accepted 29 April 2011 Available online 6 May 2011",
+      "text": "Article history: Received 11 January 2011 Received in revised form 22 April 2011 Accepted 29 April 2011 Available online 6 May 2011"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 459.3079887695312,
+            "r": 141.753,
+            "b": 410.57198876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "Keywords: Bubble free aeration Membrane Methane Methanol Methylosinus trichosporium OB3b",
+      "text": "Keywords: Bubble free aeration Membrane Methane Methanol Methylosinus trichosporium OB3b"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 368.9759887695312,
+            "r": 102.727,
+            "b": 361.55898876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "1. Introduction",
+      "text": "1. Introduction",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 348.05698876953124,
+            "r": 293.625,
+            "b": 131.4429887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1341
+          ]
+        }
+      ],
+      "orig": "Methanol is a basic raw chemical material and an intermediate for production of dimethyl ether and biodiesel. Currently, methanol is made from synthesis gas (CO + H2), obtained mainly from natural gas and coal. This process is characterized by high energy consumption, low conversion rates and high capital costs. In contrast, biotransformation of methane to methanol would require less energy input, be more selective and productive. This process is carried out by whole cells of methanotrophs under mild conditions with a 100% atom economy (Anatas and Warner, 2000; Trost, 1995). The methanol accumulates in the medium provided that suitable methanol dehydrogenase (MDH) inhibitors such as phosphate (Mehta et al., 1987), cyclopropanol (Sugimori et al., 1995), or a high concentration of NaCl (Lee et al., 2004) or CO2 (Xin et al., 2004) are added to the reaction system. In addition, sodium formate is generally added to supply NADH for methane oxidation as well as to prevent further oxidation of methanol (Perdeep et al., 1991). Copper at a concentration of 1.0 l mol/L is also beneficial to cell growth and methane transformation (Markowska and Michalkiewicz, 2009). Takeguchi et al. (1997) determined that Methylosinus trichosporium OB3b at a concentration of 34.6 g dry cell/L, a phosphate and cyclopropanol concentration of 12.9 and",
+      "text": "Methanol is a basic raw chemical material and an intermediate for production of dimethyl ether and biodiesel. Currently, methanol is made from synthesis gas (CO + H2), obtained mainly from natural gas and coal. This process is characterized by high energy consumption, low conversion rates and high capital costs. In contrast, biotransformation of methane to methanol would require less energy input, be more selective and productive. This process is carried out by whole cells of methanotrophs under mild conditions with a 100% atom economy (Anatas and Warner, 2000; Trost, 1995). The methanol accumulates in the medium provided that suitable methanol dehydrogenase (MDH) inhibitors such as phosphate (Mehta et al., 1987), cyclopropanol (Sugimori et al., 1995), or a high concentration of NaCl (Lee et al., 2004) or CO2 (Xin et al., 2004) are added to the reaction system. In addition, sodium formate is generally added to supply NADH for methane oxidation as well as to prevent further oxidation of methanol (Perdeep et al., 1991). Copper at a concentration of 1.0 l mol/L is also beneficial to cell growth and methane transformation (Markowska and Michalkiewicz, 2009). Takeguchi et al. (1997) determined that Methylosinus trichosporium OB3b at a concentration of 34.6 g dry cell/L, a phosphate and cyclopropanol concentration of 12.9 and"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 118.03198876953127,
+            "r": 293.594,
+            "b": 83.22598876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            278
+          ]
+        }
+      ],
+      "orig": "⇑ Corresponding authors. Addresses: 19A Yuquan Road, Shijingshan District, Beijing 100049, China. Tel.: +86 010 8825 6855; fax: +86 010 8825 6702 (M.F. Luo), Department of Chemical Engineering, Tsinghua University, Beijing 100084, China. Tel./fax: +86 010 6279 4771 (X.H. Xing).",
+      "text": "⇑ Corresponding authors. Addresses: 19A Yuquan Road, Shijingshan District, Beijing 100049, China. Tel.: +86 010 8825 6855; fax: +86 010 8825 6702 (M.F. Luo), Department of Chemical Engineering, Tsinghua University, Beijing 100084, China. Tel./fax: +86 010 6279 4771 (X.H. Xing)."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 79.74798876953128,
+            "r": 293.559,
+            "b": 65.25398876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "E-mail addresses: luomf@gucas.ac.cn (M.F. Luo), xhxing@tsinghua.edu.cn (X.H. Xing).",
+      "text": "E-mail addresses: luomf@gucas.ac.cn (M.F. Luo), xhxing@tsinghua.edu.cn (X.H. Xing)."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 207.099,
+            "t": 532.7159887695312,
+            "r": 272.281,
+            "b": 527.5869887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "a b s t r a c t",
+      "text": "a b s t r a c t",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 207.098,
+            "t": 513.2409887695312,
+            "r": 562.6,
+            "b": 439.6109887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            751
+          ]
+        }
+      ],
+      "orig": "Methanol was produced from methane with a high conversion rate using a high cell density process with Methylosinus trichosporium OB3b in the presence of a high concentration of phosphate buffer. More than 1.1 g/L methanol accumulated in the reaction media under optimized reaction conditions (17 g dry cell/L, 400 mmol/L phosphate, and 10 mmol/L MgCl2) in the presence of 20 mmol/L sodium formate. The conversion rate of methane was over 60%. About 0.95 g/L methanol was produced when the biotransformation was carried out in a membrane aerated reactor into which methane and oxygen were introduced via two separate dense silicone tubing. Our results provide an efficient method and a promising process for high-rate conversion of methane to methanol.",
+      "text": "Methanol was produced from methane with a high conversion rate using a high cell density process with Methylosinus trichosporium OB3b in the presence of a high concentration of phosphate buffer. More than 1.1 g/L methanol accumulated in the reaction media under optimized reaction conditions (17 g dry cell/L, 400 mmol/L phosphate, and 10 mmol/L MgCl2) in the presence of 20 mmol/L sodium formate. The conversion rate of methane was over 60%. About 0.95 g/L methanol was produced when the biotransformation was carried out in a membrane aerated reactor into which methane and oxygen were introduced via two separate dense silicone tubing. Our results provide an efficient method and a promising process for high-rate conversion of methane to methanol."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 426.16,
+            "t": 436.7049887695312,
+            "r": 562.495,
+            "b": 429.9859887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "/C211 2011 Elsevier Ltd. All rights reserved.",
+      "text": "/C211 2011 Elsevier Ltd. All rights reserved."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.527,
+            "t": 368.9769887695312,
+            "r": 562.597,
+            "b": 340.64098876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "67.0 mmol/L, respectively, produced a maximum amount of 152 mmol methanol/g of dry cell (corresponding to 5.3 mmol/L methanol).",
+      "text": "67.0 mmol/L, respectively, produced a maximum amount of 152 mmol methanol/g of dry cell (corresponding to 5.3 mmol/L methanol)."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.527,
+            "t": 337.62698876953124,
+            "r": 562.629,
+            "b": 183.7709887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            958
+          ]
+        }
+      ],
+      "orig": "Themainchallengefaced in high yielding biocatalyzed processes for methanol production is further oxidation by MDH. Mehta et al. (1987)reportedthatphosphate-dependentinhibitionoffurtheroxidation is uncompetitive and reversible. Therefore, to achieve high methanol yields, increases in cell density should be accompanied by increasing concentrations of phosphate buffer to prevent further oxidation of methanol. To our knowledge, studies to test this have not been reported. This study aimed to achieve high yield methanol production using M. trichosporium OB3b whole cells. To this end, a high phosphate concentration was used to inhibit MDH at high cell densities. Parameters including the phosphate buffer, MgCl2, and sodiumformateconcentrationswereoptimized.Furthermore,amembrane aerated stirred tank reactor was used to evaluate methanol accumulation under conditions of continuous aeration with methane and oxygen using two separate dense silicone tubes.",
+      "text": "Themainchallengefaced in high yielding biocatalyzed processes for methanol production is further oxidation by MDH. Mehta et al. (1987)reportedthatphosphate-dependentinhibitionoffurtheroxidation is uncompetitive and reversible. Therefore, to achieve high methanol yields, increases in cell density should be accompanied by increasing concentrations of phosphate buffer to prevent further oxidation of methanol. To our knowledge, studies to test this have not been reported. This study aimed to achieve high yield methanol production using M. trichosporium OB3b whole cells. To this end, a high phosphate concentration was used to inhibit MDH at high cell densities. Parameters including the phosphate buffer, MgCl2, and sodiumformateconcentrationswereoptimized.Furthermore,amembrane aerated stirred tank reactor was used to evaluate methanol accumulation under conditions of continuous aeration with methane and oxygen using two separate dense silicone tubes."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.528,
+            "t": 166.46998876953126,
+            "r": 355.472,
+            "b": 159.05298876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "2. Methods",
+      "text": "2. Methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.528,
+            "t": 145.54998876953118,
+            "r": 362.981,
+            "b": 138.13298876953127,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "2.1. Chemicals",
+      "text": "2.1. Chemicals",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.527,
+            "t": 124.6309887695312,
+            "r": 562.607,
+            "b": 64.94198876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            361
+          ]
+        }
+      ],
+      "orig": "Methane (99.9%) was purchased from Beijing Haike Yuanchang Gas Ltd. Oxygen (99.999%) and compressed air was purchased from the Beijing Qianxi Jingcheng gas sale center. All other chemicals were of analytical grade and purchased from commercial sources. Dense silicon tubing ( U 3.4 /C2 0.2 mm) was purchased from Guangzhou Sanqingda Synthetic Materials Co. Ltd.",
+      "text": "Methane (99.9%) was purchased from Beijing Haike Yuanchang Gas Ltd. Oxygen (99.999%) and compressed air was purchased from the Beijing Qianxi Jingcheng gas sale center. All other chemicals were of analytical grade and purchased from commercial sources. Dense silicon tubing ( U 3.4 /C2 0.2 mm) was purchased from Guangzhou Sanqingda Synthetic Materials Co. Ltd."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 53.21498876953126,
+            "r": 260.854,
+            "b": 47.24298876953128,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "0960-8524/$ - see front matter /C211 2011 Elsevier Ltd. All rights reserved.",
+      "text": "0960-8524/$ - see front matter /C211 2011 Elsevier Ltd. All rights reserved."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.52,
+            "t": 44.6549887695312,
+            "r": 148.476,
+            "b": 38.72098876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "doi:10.1016/j.biortech.2011.04.096",
+      "text": "doi:10.1016/j.biortech.2011.04.096"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.713,
+            "t": 745.4939887695313,
+            "r": 47.911,
+            "b": 739.5599887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "7350",
+      "text": "7350"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 202.394,
+            "t": 745.4939887695313,
+            "r": 383.097,
+            "b": 739.5599887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353",
+      "text": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 19.32397515373713,
+            "t": 764.4255949897708,
+            "r": 52.00935926832047,
+            "b": 758.9763822797081,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Methane +",
+      "text": "Methane +"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 92.66666638333334,
+            "t": 781.7009887361979,
+            "r": 126.66666638333334,
+            "b": 775.0343220695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "~- Sampling",
+      "text": "~- Sampling"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 136.66666663333334,
+            "t": 747.0343221528645,
+            "r": 141.99999996666668,
+            "b": 741.0343221528645,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "P",
+      "text": "P"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.712,
+            "t": 725.7449887695312,
+            "r": 141.642,
+            "b": 718.3269887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "2.2. Strain and cell cultivation",
+      "text": "2.2. Strain and cell cultivation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.712,
+            "t": 704.8249887695313,
+            "r": 283.821,
+            "b": 435.8849887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1679
+          ]
+        }
+      ],
+      "orig": "M. trichosporium OB3b was provided by Prof. Ichiro Okura from the Tokyo Institute of Technology. Nitrate minimal salt was modified to the following composition (per liter deionized water) (MNMS) (Park et al., 1991; Xing et al., 2006): KH2PO4 /C1 1.06, Na2HPO4 /C1 12H2O 4.34, NaNO3 1.70, K2SO4 0.34, MgSO4 /C1 7H2O 0.074, FeSO4 /C1 7H2O 0.0224. Two milliliters of a trace element solution containing (mg/L): ZnSO4 /C1 7H2O0.57; MnSO4 /C1 7H2O0.446; H3BO3 0.124; Na2MoO4 /C1 2H2O 0.096; CoCl2 /C1 6H2O 0.096; KI 0.166; CaCl2 /C1 2H2O 7.0 was added to the medium. The initial pH of the medium was adjusted to 7.0 with 1 M H2SO4. Copper(II) was added in the form of CuSO4 to give a final concentration of 1.0 l mol/L. A seed culture waspreparedina300 mlErlenmeyerflaskwithascrewcapcontaining 50 ml MNMS under an atmosphere of methane and oxygen at a volume ratio of about 1:1, and incubated at 30 /C176 C on a rotary shaker operated at 170 rpm. During cultivation, the gas phase of the bottle was refreshed daily using a mixture of air and methane (1:1, v/v). After cultivation for 3 days, the seed culture was introduced into a 5 L fermentor (Biostat A plus, Sartorius BBI Systems GmbH, Germany) at an inoculum volume ratio of 10%. The fermentor was operated at 30 /C176 C with a total working volume of 3 L of MNMS medium containing 5% paraffin (Han et al., 2009). The dissolved oxygen level in the medium was maintained above 10% by adjusting the agitation speed and air flow rate. The methane flow rate was adjusted to maintain a volumetric ratio of air to methane of between 10:1 and 5:1. The pH was maintained at about 7.0 by the automatic addition of 0.5 M HCl or 0.5 M NaOH.",
+      "text": "M. trichosporium OB3b was provided by Prof. Ichiro Okura from the Tokyo Institute of Technology. Nitrate minimal salt was modified to the following composition (per liter deionized water) (MNMS) (Park et al., 1991; Xing et al., 2006): KH2PO4 /C1 1.06, Na2HPO4 /C1 12H2O 4.34, NaNO3 1.70, K2SO4 0.34, MgSO4 /C1 7H2O 0.074, FeSO4 /C1 7H2O 0.0224. Two milliliters of a trace element solution containing (mg/L): ZnSO4 /C1 7H2O0.57; MnSO4 /C1 7H2O0.446; H3BO3 0.124; Na2MoO4 /C1 2H2O 0.096; CoCl2 /C1 6H2O 0.096; KI 0.166; CaCl2 /C1 2H2O 7.0 was added to the medium. The initial pH of the medium was adjusted to 7.0 with 1 M H2SO4. Copper(II) was added in the form of CuSO4 to give a final concentration of 1.0 l mol/L. A seed culture waspreparedina300 mlErlenmeyerflaskwithascrewcapcontaining 50 ml MNMS under an atmosphere of methane and oxygen at a volume ratio of about 1:1, and incubated at 30 /C176 C on a rotary shaker operated at 170 rpm. During cultivation, the gas phase of the bottle was refreshed daily using a mixture of air and methane (1:1, v/v). After cultivation for 3 days, the seed culture was introduced into a 5 L fermentor (Biostat A plus, Sartorius BBI Systems GmbH, Germany) at an inoculum volume ratio of 10%. The fermentor was operated at 30 /C176 C with a total working volume of 3 L of MNMS medium containing 5% paraffin (Han et al., 2009). The dissolved oxygen level in the medium was maintained above 10% by adjusting the agitation speed and air flow rate. The methane flow rate was adjusted to maintain a volumetric ratio of air to methane of between 10:1 and 5:1. The pH was maintained at about 7.0 by the automatic addition of 0.5 M HCl or 0.5 M NaOH."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.713,
+            "t": 418.92498876953124,
+            "r": 120.829,
+            "b": 411.5079887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "2.3. Resting cell reaction",
+      "text": "2.3. Resting cell reaction",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.712,
+            "t": 398.0059887695312,
+            "r": 283.803,
+            "b": 265.0679887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            785
+          ]
+        }
+      ],
+      "orig": "OB3b cells were harvested during the late logarithmic phase by centrifugation at 4 /C176 C and 13,200 /C2 g for 10 min. The harvested cell pellets were washed twice with deionized water and once with 20 mmol/L phosphate buffer (pH 7.0), and the cells were suspended in 20 mmol/L sodium phosphate buffer and kept at 4 /C176 C until use. The reaction mixture contained 30-600 mmol/L phosphate buffer, 0-40 mmol/L MgCl2, 0-80 mmol/L sodium formate and M. trichosporium OB3b resting cells. All reactions were carried out in a 70 ml anaerobic bottle containing 10 ml reaction solution under an atmosphere of methane and oxygen at a volume ratio of about 1:1, at 30 /C176 C and pH 7 on a rotary shaker operated at 170 rpm unless stated otherwise. All experiments were performed in duplicate.",
+      "text": "OB3b cells were harvested during the late logarithmic phase by centrifugation at 4 /C176 C and 13,200 /C2 g for 10 min. The harvested cell pellets were washed twice with deionized water and once with 20 mmol/L phosphate buffer (pH 7.0), and the cells were suspended in 20 mmol/L sodium phosphate buffer and kept at 4 /C176 C until use. The reaction mixture contained 30-600 mmol/L phosphate buffer, 0-40 mmol/L MgCl2, 0-80 mmol/L sodium formate and M. trichosporium OB3b resting cells. All reactions were carried out in a 70 ml anaerobic bottle containing 10 ml reaction solution under an atmosphere of methane and oxygen at a volume ratio of about 1:1, at 30 /C176 C and pH 7 on a rotary shaker operated at 170 rpm unless stated otherwise. All experiments were performed in duplicate."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.712,
+            "t": 248.05098876953116,
+            "r": 264.491,
+            "b": 230.20198876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "2.4. Methanol accumulation in a bubble free membrane aerated bioreactor",
+      "text": "2.4. Methanol accumulation in a bubble free membrane aerated bioreactor",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.711,
+            "t": 216.64198876953128,
+            "r": 283.826,
+            "b": 94.19598876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            750
+          ]
+        }
+      ],
+      "orig": "A silicone membrane aerated reactor was set up for methane biotransformation to methanol (Fig. 1). The bioreactor was an airtight 500-ml magnetic stirring tank reactor containing 300 ml optimized reaction mixture. Dense silicone tube ( U 3.4 /C2 0.2 mm) was rolled into a coil with an aeration length of 0.5 m and placed near the bottom of the reactor. Oxygen and methane were introduced at the same flow rate (56 ml/min) through two separate silicone tubes under open circuit operation. Methanol accumulation was carried out at 30 /C176 C with magnetic stirring. Samples were removed with a syringe, centrifuged immediately at 4 /C176 C at 13,200 /C2 g for 10 min, and the methanol content of the supernatant was analyzed by gas chromatography (GC).",
+      "text": "A silicone membrane aerated reactor was set up for methane biotransformation to methanol (Fig. 1). The bioreactor was an airtight 500-ml magnetic stirring tank reactor containing 300 ml optimized reaction mixture. Dense silicone tube ( U 3.4 /C2 0.2 mm) was rolled into a coil with an aeration length of 0.5 m and placed near the bottom of the reactor. Oxygen and methane were introduced at the same flow rate (56 ml/min) through two separate silicone tubes under open circuit operation. Methanol accumulation was carried out at 30 /C176 C with magnetic stirring. Samples were removed with a syringe, centrifuged immediately at 4 /C176 C at 13,200 /C2 g for 10 min, and the methanol content of the supernatant was analyzed by gas chromatography (GC)."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.711,
+            "t": 77.1789887695312,
+            "r": 117.245,
+            "b": 69.7609887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "2.5. Analytical methods",
+      "text": "2.5. Analytical methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.711,
+            "t": 56.25898876953124,
+            "r": 283.752,
+            "b": 38.40898876953122,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "Cell concentration was measured as the optical density at 600 nm (OD600).",
+      "text": "Cell concentration was measured as the optical density at 600 nm (OD600)."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.72,
+            "t": 535.9559887695312,
+            "r": 552.764,
+            "b": 521.4609887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+      "text": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.719,
+            "t": 500.0509887695312,
+            "r": 552.788,
+            "b": 419.3879887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            455
+          ]
+        }
+      ],
+      "orig": "Methanol was analyzed using a Shimadzu GC-2010 gas chromatograph equipped with a HJ-5 capillary column and a flame ionization detector. Nitrogen was used as the carrier gas at a linear velocity of 48 cm/s, and a split ratio of 40:1. The injector, column and detector temperatures were 250, 90, and 250 /C176 C, respectively. The concentration of methanol accumulated in the aqueous reaction solution was calculated by comparison with an external standard.",
+      "text": "Methanol was analyzed using a Shimadzu GC-2010 gas chromatograph equipped with a HJ-5 capillary column and a flame ionization detector. Nitrogen was used as the carrier gas at a linear velocity of 48 cm/s, and a split ratio of 40:1. The injector, column and detector temperatures were 250, 90, and 250 /C176 C, respectively. The concentration of methanol accumulated in the aqueous reaction solution was calculated by comparison with an external standard."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.72,
+            "t": 402.82398876953124,
+            "r": 401.374,
+            "b": 395.4069887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "3. Results and discussion",
+      "text": "3. Results and discussion",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.72,
+            "t": 381.9039887695312,
+            "r": 524.178,
+            "b": 363.99898876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "3.1. Effects of cell and phosphate concentrations on methanol accumulation",
+      "text": "3.1. Effects of cell and phosphate concentrations on methanol accumulation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.72,
+            "t": 350.49698876953124,
+            "r": 552.82,
+            "b": 133.8859887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1303
+          ]
+        }
+      ],
+      "orig": "Methanol accumulation by M. trichosporium Ob3b whole cells at different cell and phosphate concentrations is shown in Fig. 2. It shows that when the cell concentration was 2.6 g dry cell/L, more than 0.10 g/L of methanol was accumulated after 10 h reaction time at three different phosphate concentrations. However, methanol accumulation decreased with increasing reaction time in these cases (Fig. 2b). Similar phenomena were observed when the cell concentration was 3.9 g dry cell/L. In addition, higher cell concentrations ranging from 1.3 to 3.9 g dry cell/L did not accumulate more methanol if the phosphate concentration was less than 120 mmol/L. This is consistent with results reported by Mehta et al. (1987) and Takeguchi et al. (1997). Fig. 2 also shows that higher concentrations of methanol could be accumulated using high cell densities in the presence of higher phosphate concentration. After reaction for 10 and 20 h, 0.31 and 0.54 g/L of methanol were accumulated under the conditions of 17.3 g dry cell/L and 400 mmol/L phosphate. The methane-to-methanol conversion rate was 20% and 32%, respectively. Therefore, to produce a higher methanol concentration with a high methane conversion rate, we selected 17 g dry cell/L as the optimal cell concentration for all subsequent experiments.",
+      "text": "Methanol accumulation by M. trichosporium Ob3b whole cells at different cell and phosphate concentrations is shown in Fig. 2. It shows that when the cell concentration was 2.6 g dry cell/L, more than 0.10 g/L of methanol was accumulated after 10 h reaction time at three different phosphate concentrations. However, methanol accumulation decreased with increasing reaction time in these cases (Fig. 2b). Similar phenomena were observed when the cell concentration was 3.9 g dry cell/L. In addition, higher cell concentrations ranging from 1.3 to 3.9 g dry cell/L did not accumulate more methanol if the phosphate concentration was less than 120 mmol/L. This is consistent with results reported by Mehta et al. (1987) and Takeguchi et al. (1997). Fig. 2 also shows that higher concentrations of methanol could be accumulated using high cell densities in the presence of higher phosphate concentration. After reaction for 10 and 20 h, 0.31 and 0.54 g/L of methanol were accumulated under the conditions of 17.3 g dry cell/L and 400 mmol/L phosphate. The methane-to-methanol conversion rate was 20% and 32%, respectively. Therefore, to produce a higher methanol concentration with a high methane conversion rate, we selected 17 g dry cell/L as the optimal cell concentration for all subsequent experiments."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.72,
+            "t": 119.02298876953125,
+            "r": 538.192,
+            "b": 111.60498876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "3.2. Effect of phosphate concentration on methanol accumulation",
+      "text": "3.2. Effect of phosphate concentration on methanol accumulation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.72,
+            "t": 98.10298876953118,
+            "r": 552.833,
+            "b": 38.41598876953117,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            375
+          ]
+        }
+      ],
+      "orig": "Methanol accumulation at high cell density of 17.3 g of dry cell/L in the presence of sodium phosphate at concentrations of between 200 and 600 mmol/L is shown in Fig. 3. Maximum methanol accumulation was observed to be 0.96 g/L with a phosphate concentration of 400/500 mmol/L. The methane-to-methanol conversion rate was 53% in this case. In addition, no obvious inhibition",
+      "text": "Methanol accumulation at high cell density of 17.3 g of dry cell/L in the presence of sodium phosphate at concentrations of between 200 and 600 mmol/L is shown in Fig. 3. Maximum methanol accumulation was observed to be 0.96 g/L with a phosphate concentration of 400/500 mmol/L. The methane-to-methanol conversion rate was 53% in this case. In addition, no obvious inhibition"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 212.203,
+            "t": 745.4949887695312,
+            "r": 392.907,
+            "b": 739.5609887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353",
+      "text": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 547.313,
+            "t": 745.5519887695312,
+            "r": 562.583,
+            "b": 739.6179887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "7351",
+      "text": "7351"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.519,
+            "t": 497.1779887695312,
+            "r": 562.557,
+            "b": 482.6829887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "Fig. 2. Effects of cell and phosphate concentrations on methanol accumulation. The reaction mixture contained various concentrations of resting cells and phosphate, 20 mmol/L sodium formate and 5 mmol/L MgCl2 at pH 7.0.",
+      "text": "Fig. 2. Effects of cell and phosphate concentrations on methanol accumulation. The reaction mixture contained various concentrations of resting cells and phosphate, 20 mmol/L sodium formate and 5 mmol/L MgCl2 at pH 7.0."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 159.018,
+            "t": 547.5529887695312,
+            "r": 167.718,
+            "b": 539.2819887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 146.313,
+            "t": 554.4529887695312,
+            "r": 157.975,
+            "b": 544.4729887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "100",
+      "text": "100"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 136.815,
+            "t": 560.8539887695313,
+            "r": 148.472,
+            "b": 550.8759887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "150",
+      "text": "150"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.663,
+            "t": 567.0949887695313,
+            "r": 139.319,
+            "b": 557.1179887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "200",
+      "text": "200"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 118.676,
+            "t": 573.1449887695312,
+            "r": 130.361,
+            "b": 563.1669887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "250",
+      "text": "250"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.257,
+            "t": 579.0329887695312,
+            "r": 121.942,
+            "b": 569.0559887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "300",
+      "text": "300"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 101.87,
+            "t": 584.6509887695312,
+            "r": 113.527,
+            "b": 574.6759887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "350",
+      "text": "350"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 93.888,
+            "t": 590.2709887695312,
+            "r": 105.572,
+            "b": 580.2929887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "400",
+      "text": "400"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 262.929,
+            "t": 593.9709887695312,
+            "r": 273.036,
+            "b": 585.3079887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.394,
+            "t": 608.3539887695313,
+            "r": 274.477,
+            "b": 599.7229887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.1",
+      "text": "0.1"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 266.055,
+            "t": 623.3949887695312,
+            "r": 276.137,
+            "b": 614.7649887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 267.686,
+            "t": 638.9279887695312,
+            "r": 277.795,
+            "b": 630.2979887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.3",
+      "text": "0.3"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 269.423,
+            "t": 655.0309887695312,
+            "r": 279.531,
+            "b": 646.3689887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 271.351,
+            "t": 671.8869887695312,
+            "r": 281.458,
+            "b": 663.2509887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.5",
+      "text": "0.5"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 273.17,
+            "t": 689.3689887695313,
+            "r": 283.277,
+            "b": 680.7329887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 197.327,
+            "t": 543.3059887695313,
+            "r": 207.524,
+            "b": 534.1119887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.3",
+      "text": "1.3"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 214.24,
+            "t": 554.6569887695313,
+            "r": 224.431,
+            "b": 545.4679887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "2.6",
+      "text": "2.6"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 230.142,
+            "t": 565.1969887695312,
+            "r": 240.338,
+            "b": 556.0029887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "3.9",
+      "text": "3.9"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 245.156,
+            "t": 575.2929887695312,
+            "r": 255.353,
+            "b": 566.0999887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "8.6",
+      "text": "8.6"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 259.411,
+            "t": 584.6889887695312,
+            "r": 272.567,
+            "b": 573.7309887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "17.3",
+      "text": "17.3"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 214.237,
+            "t": 577.3089887695312,
+            "r": 298.423,
+            "b": 515.7679887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "cell concentration/g dry cell/L",
+      "text": "cell concentration/g dry cell/L"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 284.88,
+            "t": 674.4059887695312,
+            "r": 300.766,
+            "b": 585.7059887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "methanol accumulation/g/L",
+      "text": "methanol accumulation/g/L"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.926,
+            "t": 586.4199887695312,
+            "r": 160.76,
+            "b": 517.2559887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "phosphate concentration/mmol/L",
+      "text": "phosphate concentration/mmol/L"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 62.362,
+            "t": 654.3379887695312,
+            "r": 77.159,
+            "b": 647.5009887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "10 h",
+      "text": "10 h"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 176.688,
+            "t": 525.8059887695313,
+            "r": 192.112,
+            "b": 508.6139887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "(a)",
+      "text": "(a)"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 418.619,
+            "t": 524.7539887695312,
+            "r": 434.044,
+            "b": 507.5629887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "(b)",
+      "text": "(b)"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 399.561,
+            "t": 552.0189887695312,
+            "r": 408.278,
+            "b": 543.7289887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 386.604,
+            "t": 558.9309887695313,
+            "r": 398.352,
+            "b": 548.9149887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "100",
+      "text": "100"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 376.923,
+            "t": 565.3239887695312,
+            "r": 388.671,
+            "b": 555.3319887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "150",
+      "text": "150"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 367.623,
+            "t": 571.5619887695312,
+            "r": 379.344,
+            "b": 561.5379887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "200",
+      "text": "200"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 358.486,
+            "t": 577.6059887695312,
+            "r": 370.234,
+            "b": 567.6149887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "250",
+      "text": "250"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 349.917,
+            "t": 583.4859887695312,
+            "r": 361.666,
+            "b": 573.4949887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "300",
+      "text": "300"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 341.345,
+            "t": 589.0939887695313,
+            "r": 353.095,
+            "b": 579.1029887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "350",
+      "text": "350"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 333.236,
+            "t": 594.7309887695312,
+            "r": 344.988,
+            "b": 584.7099887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "400",
+      "text": "400"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 505.297,
+            "t": 598.3369887695312,
+            "r": 515.444,
+            "b": 589.6809887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 506.791,
+            "t": 612.7259887695312,
+            "r": 516.94,
+            "b": 604.0709887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.1",
+      "text": "0.1"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 508.47,
+            "t": 627.7349887695312,
+            "r": 518.62,
+            "b": 619.0839887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 510.153,
+            "t": 643.2679887695313,
+            "r": 520.302,
+            "b": 634.6159887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.3",
+      "text": "0.3"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 511.917,
+            "t": 659.3139887695312,
+            "r": 522.064,
+            "b": 650.6569887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 513.87,
+            "t": 676.1649887695312,
+            "r": 524.021,
+            "b": 667.4859887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.5",
+      "text": "0.5"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 515.745,
+            "t": 693.6219887695312,
+            "r": 525.897,
+            "b": 684.9699887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 438.518,
+            "t": 547.7469887695312,
+            "r": 448.752,
+            "b": 538.5359887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.3",
+      "text": "1.3"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 455.724,
+            "t": 559.0769887695312,
+            "r": 465.956,
+            "b": 549.8649887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "2.6",
+      "text": "2.6"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 471.93,
+            "t": 569.5949887695313,
+            "r": 482.161,
+            "b": 560.3849887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "3.9",
+      "text": "3.9"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 487.19,
+            "t": 579.7019887695312,
+            "r": 497.419,
+            "b": 570.4649887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "8.6",
+      "text": "8.6"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 501.712,
+            "t": 589.0809887695312,
+            "r": 514.925,
+            "b": 578.0779887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "17.3",
+      "text": "17.3"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 446.078,
+            "t": 584.9489887695312,
+            "r": 531.13,
+            "b": 522.7699887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "cell concentration/g dry cell/L",
+      "text": "cell concentration/g dry cell/L"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 527.728,
+            "t": 683.1289887695312,
+            "r": 544.116,
+            "b": 594.5839887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "methanol accumulation/g/L",
+      "text": "methanol accumulation/g/L"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 305.791,
+            "t": 590.8259887695312,
+            "r": 400.565,
+            "b": 520.9559887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "phosphate concentration/mmol/L",
+      "text": "phosphate concentration/mmol/L"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 314.914,
+            "t": 654.7119887695312,
+            "r": 329.901,
+            "b": 647.8829887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "20 h",
+      "text": "20 h"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.52,
+            "t": 289.28498876953125,
+            "r": 293.601,
+            "b": 257.6129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "Fig. 3. Effect of phosphate concentration on methanol accumulation with time. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 20 mmol/L sodium formate, 5 mmol/L MgCl2, and various concentrations of phosphate at pH 7.0.",
+      "text": "Fig. 3. Effect of phosphate concentration on methanol accumulation with time. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 20 mmol/L sodium formate, 5 mmol/L MgCl2, and various concentrations of phosphate at pH 7.0."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 328.5009887695312,
+            "r": 90.213,
+            "b": 322.3009887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 350.0989887695312,
+            "r": 90.213,
+            "b": 343.89898876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 371.6299887695312,
+            "r": 90.213,
+            "b": 365.4289887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 393.2269887695312,
+            "r": 90.213,
+            "b": 387.0269887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 414.8249887695312,
+            "r": 90.213,
+            "b": 408.6249887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.8",
+      "text": "0.8"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 436.3279887695312,
+            "r": 90.213,
+            "b": 430.1279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.0",
+      "text": "1.0"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.915,
+            "t": 453.39898876953123,
+            "r": 90.213,
+            "b": 447.1979887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.2",
+      "text": "1.2"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.785,
+            "t": 436.13898876953124,
+            "r": 77.008,
+            "b": 333.5129887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Methanol accumulated / g/L",
+      "text": "Methanol accumulated / g/L"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 151.454,
+            "t": 306.9959887695312,
+            "r": 209.368,
+            "b": 299.8319887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Reaction time/ h",
+      "text": "Reaction time/ h"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 113.038,
+            "t": 449.5659887695312,
+            "r": 127.879,
+            "b": 443.3659887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "200",
+      "text": "200"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.888,
+            "t": 450.16798876953123,
+            "r": 154.425,
+            "b": 443.1659887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "mmol/L",
+      "text": "mmol/L"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 113.038,
+            "t": 439.74198876953125,
+            "r": 127.879,
+            "b": 433.5409887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "300",
+      "text": "300"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.888,
+            "t": 440.3439887695312,
+            "r": 154.425,
+            "b": 433.34098876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "mmol/L",
+      "text": "mmol/L"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 113.038,
+            "t": 429.93898876953125,
+            "r": 127.879,
+            "b": 423.7389887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "400",
+      "text": "400"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.888,
+            "t": 430.5409887695312,
+            "r": 154.425,
+            "b": 423.5389887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "mmol/L",
+      "text": "mmol/L"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 113.038,
+            "t": 420.11498876953124,
+            "r": 127.879,
+            "b": 413.9139887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "500",
+      "text": "500"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.888,
+            "t": 420.7169887695312,
+            "r": 154.425,
+            "b": 413.7139887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "mmol/L",
+      "text": "mmol/L"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 113.038,
+            "t": 410.28998876953125,
+            "r": 127.879,
+            "b": 404.0899887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "600",
+      "text": "600"
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.888,
+            "t": 410.8919887695312,
+            "r": 154.425,
+            "b": 403.88898876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "mmol/L",
+      "text": "mmol/L"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 133.615,
+            "t": 318.31698876953124,
+            "r": 142.299,
+            "b": 311.09298876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "22",
+      "text": "22"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 218.231,
+            "t": 319.49698876953124,
+            "r": 226.916,
+            "b": 312.27298876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "43",
+      "text": "43"
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.52,
+            "t": 236.20098876953125,
+            "r": 293.594,
+            "b": 218.29598876953128,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "of methane-to-methanol conversion was observed at the maximum phosphate concentration tested (600 mmol/L).",
+      "text": "of methane-to-methanol conversion was observed at the maximum phosphate concentration tested (600 mmol/L)."
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.52,
+            "t": 202.69598876953125,
+            "r": 277.407,
+            "b": 184.8469887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "3.3. Effects of MgCl2 and sodium formate on the accumulation of methanol",
+      "text": "3.3. Effects of MgCl2 and sodium formate on the accumulation of methanol",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.52,
+            "t": 171.34498876953126,
+            "r": 293.622,
+            "b": 69.7609887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            575
+          ]
+        }
+      ],
+      "orig": "Formate and magnesium are known to have a considerable effect on soluble methane monooxygenase (sMMO) activity as well as on cell growth (Perdeep et al., 1991). The effects of MgCl2 and sodium formate concentration on methanol accumulation were therefore examined and the results are shown in Fig. 4. The optimal concentration of MgCl2 was found to be 10 mmol/L, when tested over the range 0-40 mmol/L. The methanol concentration reached 1.03 g/L after 50 h when the MgCl2 concentration was 10 mmol/L. This result corresponded to a methane-to-methanol conversion rate of 56%.",
+      "text": "Formate and magnesium are known to have a considerable effect on soluble methane monooxygenase (sMMO) activity as well as on cell growth (Perdeep et al., 1991). The effects of MgCl2 and sodium formate concentration on methanol accumulation were therefore examined and the results are shown in Fig. 4. The optimal concentration of MgCl2 was found to be 10 mmol/L, when tested over the range 0-40 mmol/L. The methanol concentration reached 1.03 g/L after 50 h when the MgCl2 concentration was 10 mmol/L. This result corresponded to a methane-to-methanol conversion rate of 56%."
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.521,
+            "t": 66.74698876953119,
+            "r": 293.606,
+            "b": 38.409988769531196,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "Takeguchi et al. (1997) have reported that methanol accumulation increases with increasing sodium formate concentration, but no further increases where obtained above a sodium formate",
+      "text": "Takeguchi et al. (1997) have reported that methanol accumulation increases with increasing sodium formate concentration, but no further increases where obtained above a sodium formate"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.528,
+            "t": 293.7069887695312,
+            "r": 562.577,
+            "b": 269.9909887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "orig": "Fig. 4. Effect of MgCl2 concentration on methanol accumulation. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 20 mmol/L sodium formate, 600 mmol/L phosphate and various concentrations of MgCl2 at pH 7.0.",
+      "text": "Fig. 4. Effect of MgCl2 concentration on methanol accumulation. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 20 mmol/L sodium formate, 600 mmol/L phosphate and various concentrations of MgCl2 at pH 7.0."
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 352.357,
+            "t": 333.3779887695312,
+            "r": 360.721,
+            "b": 327.8279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 352.357,
+            "t": 355.4169887695312,
+            "r": 360.721,
+            "b": 349.86698876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 352.357,
+            "t": 377.39098876953125,
+            "r": 360.721,
+            "b": 371.84098876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 352.357,
+            "t": 399.4569887695312,
+            "r": 360.721,
+            "b": 393.9069887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 352.357,
+            "t": 421.43198876953124,
+            "r": 360.721,
+            "b": 415.88198876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.8",
+      "text": "0.8"
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 352.357,
+            "t": 443.4979887695312,
+            "r": 360.721,
+            "b": 437.9479887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.0",
+      "text": "1.0"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 338.743,
+            "t": 436.69398876953124,
+            "r": 345.752,
+            "b": 341.5049887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Methanol accumulated/g/L",
+      "text": "Methanol accumulated/g/L"
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 422.502,
+            "t": 311.27598876953124,
+            "r": 478.374,
+            "b": 304.20798876953126,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Reaction time/h",
+      "text": "Reaction time/h"
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 390.483,
+            "t": 448.40998876953125,
+            "r": 418.833,
+            "b": 442.85998876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "0  mmol/L",
+      "text": "0  mmol/L"
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 390.483,
+            "t": 439.7149887695312,
+            "r": 418.833,
+            "b": 434.16498876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "5  mmol/L",
+      "text": "5  mmol/L"
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 390.483,
+            "t": 431.0419887695312,
+            "r": 420.477,
+            "b": 425.49198876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "10 mmol/L",
+      "text": "10 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 390.483,
+            "t": 422.36898876953126,
+            "r": 420.477,
+            "b": 416.81898876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "20 mmol/L",
+      "text": "20 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 390.483,
+            "t": 413.6739887695312,
+            "r": 420.477,
+            "b": 408.12398876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "40 mmol/L",
+      "text": "40 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 402.309,
+            "t": 323.2049887695312,
+            "r": 408.867,
+            "b": 317.6549887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 489.021,
+            "t": 322.90098876953124,
+            "r": 495.597,
+            "b": 317.3509887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.529,
+            "t": 255.13798876953126,
+            "r": 562.637,
+            "b": 38.47098876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1339
+          ]
+        }
+      ],
+      "orig": "concentration of 14.3 mmol/L. In the present study, the effect of formate on methanol accumulation at higher OB3b cell concentrations wasinvestigated. The kinetic curves measured for methanol production at various sodium formate concentrations (measured from 0 to 80 mmol/L) are shown in Fig. 5. It was found that 0.69 g/L methanol could be accumulated after 50 h in the presence of sodium formate at concentrations of between 10 and 80 mmol/L and the methaneto-methanol conversion rate was 41%. In addition, our results showed that methanol could be accumulated in the absence of sodium formate, although at lower concentrations than in the presenceofsodiumformate.Themaximummethanolconcentrationwas 0.58 g/L. Our results were therefore consistent with those reported by Takeguchi et al. As shown in Fig. 5, the kinetic curves measured at different sodium formate concentrations were different, although the maximum accumulation concentrations of methanol were almost identical. The methanol accumulation rate decreased with increasing formate concentration. Therefore, to maximize the accumulation rate of methanol, a low concentration of formate should be supplemented to the reaction mixture intermittently or continuously. This would be particularly important in continuous methane conversion processes with free or immobilized cells.",
+      "text": "concentration of 14.3 mmol/L. In the present study, the effect of formate on methanol accumulation at higher OB3b cell concentrations wasinvestigated. The kinetic curves measured for methanol production at various sodium formate concentrations (measured from 0 to 80 mmol/L) are shown in Fig. 5. It was found that 0.69 g/L methanol could be accumulated after 50 h in the presence of sodium formate at concentrations of between 10 and 80 mmol/L and the methaneto-methanol conversion rate was 41%. In addition, our results showed that methanol could be accumulated in the absence of sodium formate, although at lower concentrations than in the presenceofsodiumformate.Themaximummethanolconcentrationwas 0.58 g/L. Our results were therefore consistent with those reported by Takeguchi et al. As shown in Fig. 5, the kinetic curves measured at different sodium formate concentrations were different, although the maximum accumulation concentrations of methanol were almost identical. The methanol accumulation rate decreased with increasing formate concentration. Therefore, to maximize the accumulation rate of methanol, a low concentration of formate should be supplemented to the reaction mixture intermittently or continuously. This would be particularly important in continuous methane conversion processes with free or immobilized cells."
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 32.714,
+            "t": 745.4939887695313,
+            "r": 47.984,
+            "b": 739.5599887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "7352",
+      "text": "7352"
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 202.395,
+            "t": 745.4939887695313,
+            "r": 383.099,
+            "b": 739.5599887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353",
+      "text": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353"
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 32.712,
+            "t": 562.0909887695312,
+            "r": 283.773,
+            "b": 513.2979887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            383
+          ]
+        }
+      ],
+      "orig": "Fig. 5. Time course experiments of methanol accumulation at various concentrations of sodium formate. Concentration of sodium formate: j 0 mmol/L; d 10 mmol/L; N 20 mmol/L; . 40 mmol/L; h 60 mmol/L; s 80 mmol/L. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 5 mmol/L MgCl2, 600 mmol/L phosphate ions and various concentrations of sodium formate at pH 7.0.",
+      "text": "Fig. 5. Time course experiments of methanol accumulation at various concentrations of sodium formate. Concentration of sodium formate: j 0 mmol/L; d 10 mmol/L; N 20 mmol/L; . 40 mmol/L; h 60 mmol/L; s 80 mmol/L. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 5 mmol/L MgCl2, 600 mmol/L phosphate ions and various concentrations of sodium formate at pH 7.0."
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 84.441,
+            "t": 593.8319887695312,
+            "r": 87.972,
+            "b": 587.9589887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "0",
+      "text": "0"
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 113.275,
+            "t": 593.8319887695312,
+            "r": 121.09,
+            "b": 587.9589887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.266,
+            "t": 593.8319887695312,
+            "r": 152.051,
+            "b": 587.9589887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 175.227,
+            "t": 593.8319887695312,
+            "r": 183.041,
+            "b": 587.9589887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "30",
+      "text": "30"
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 206.218,
+            "t": 593.8319887695312,
+            "r": 214.032,
+            "b": 587.9589887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 237.208,
+            "t": 593.8319887695312,
+            "r": 244.269,
+            "b": 587.9589887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 601.0229887695313,
+            "r": 83.39,
+            "b": 595.1489887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 615.9019887695313,
+            "r": 83.39,
+            "b": 610.0279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.1",
+      "text": "0.1"
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 630.8509887695312,
+            "r": 83.39,
+            "b": 624.9769887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 645.7309887695312,
+            "r": 83.39,
+            "b": 639.8569887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.3",
+      "text": "0.3"
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 660.7019887695312,
+            "r": 83.39,
+            "b": 654.8279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 675.5819887695312,
+            "r": 83.39,
+            "b": 669.7079887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.5",
+      "text": "0.5"
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 690.4619887695312,
+            "r": 83.39,
+            "b": 684.5879887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 705.4339887695312,
+            "r": 83.39,
+            "b": 699.5599887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.7",
+      "text": "0.7"
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.545,
+            "t": 720.3139887695312,
+            "r": 83.39,
+            "b": 714.4399887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.8",
+      "text": "0.8"
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.45,
+            "t": 714.7919887695313,
+            "r": 68.775,
+            "b": 601.9499887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Methanol accumulated/g/L",
+      "text": "Methanol accumulated/g/L"
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 136.792,
+            "t": 580.9729887695312,
+            "r": 202.041,
+            "b": 572.6479887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Reaction time/h",
+      "text": "Reaction time/h"
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.989,
+            "t": 659.7849887695312,
+            "r": 240.478,
+            "b": 653.9109887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "0  mmol/L",
+      "text": "0  mmol/L"
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.989,
+            "t": 650.3699887695312,
+            "r": 240.484,
+            "b": 644.4959887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "10 mmol/L",
+      "text": "10 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.989,
+            "t": 640.9789887695313,
+            "r": 240.484,
+            "b": 635.1049887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "20 mmol/L",
+      "text": "20 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.989,
+            "t": 631.5629887695312,
+            "r": 240.484,
+            "b": 625.6889887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "40 mmol/L",
+      "text": "40 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.989,
+            "t": 622.1709887695313,
+            "r": 240.484,
+            "b": 616.2969887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "60 mmol/L",
+      "text": "60 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.989,
+            "t": 612.7559887695312,
+            "r": 240.484,
+            "b": 606.8819887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "80 mmol/L",
+      "text": "80 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 32.711,
+            "t": 500.3899887695312,
+            "r": 283.817,
+            "b": 377.8879887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            731
+          ]
+        }
+      ],
+      "orig": "The above results indicated that the optimal reaction conditions for methanol accumulation were 17.3 g dry cell/L, 400 mmol/L phosphate and 10 mmol/L MgCl2, with incubation at 30 /C176 C and pH 6.3 (the pH was optimized, results not shown), in the presence or absence of 20 mmol/L sodium formate. Results for this optimized process are shown in Fig. 6. The maximum methanol accumulated was 1.13 g/L after 40 h of reaction in the presence of 20 mmol/L sodium formate and the methane-to-methanol conversion rate was 64%. To our knowledge, the highest methanol accumulation reported previously is 0.25 g/L (7.7 mmol/L) (Lee et al., 2004). We therefore obtained an accumulation 4.5-fold greater than the previous best reported process.",
+      "text": "The above results indicated that the optimal reaction conditions for methanol accumulation were 17.3 g dry cell/L, 400 mmol/L phosphate and 10 mmol/L MgCl2, with incubation at 30 /C176 C and pH 6.3 (the pH was optimized, results not shown), in the presence or absence of 20 mmol/L sodium formate. Results for this optimized process are shown in Fig. 6. The maximum methanol accumulated was 1.13 g/L after 40 h of reaction in the presence of 20 mmol/L sodium formate and the methane-to-methanol conversion rate was 64%. To our knowledge, the highest methanol accumulation reported previously is 0.25 g/L (7.7 mmol/L) (Lee et al., 2004). We therefore obtained an accumulation 4.5-fold greater than the previous best reported process."
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 32.712,
+            "t": 357.12898876953125,
+            "r": 264.491,
+            "b": 339.2799887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "3.4. Methanol accumulation in a bubble free membrane aerated reactor",
+      "text": "3.4. Methanol accumulation in a bubble free membrane aerated reactor",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 32.712,
+            "t": 325.77798876953125,
+            "r": 283.822,
+            "b": 245.11498876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            490
+          ]
+        }
+      ],
+      "orig": "Methanol accumulation in a home-made silicone tube membrane aerated reactor under the optimized reaction conditions is shown in Fig. 7. The maximum methanol accumulation was 0.95 g/L after 40 h. To our knowledge, this is the first report of methane biotransformation to methanol in a membrane aerated reactor. Our results show that dense silicone membrane is appropriate for methane as well as for oxygen supply. The separate supply of methane and oxygen using individual silicone membranes",
+      "text": "Methanol accumulation in a home-made silicone tube membrane aerated reactor under the optimized reaction conditions is shown in Fig. 7. The maximum methanol accumulation was 0.95 g/L after 40 h. To our knowledge, this is the first report of methane biotransformation to methanol in a membrane aerated reactor. Our results show that dense silicone membrane is appropriate for methane as well as for oxygen supply. The separate supply of methane and oxygen using individual silicone membranes"
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 32.712,
+            "t": 70.33698876953122,
+            "r": 283.778,
+            "b": 38.72098876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            291
+          ]
+        }
+      ],
+      "orig": "Fig. 6. Time course of methanol accumulation under optimized reaction conditions. Symbols: j in presence of 20 mmol/L sodium formate; d in absence of sodium formate. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 400 mmol/L phosphate and 10 mmol/L MgCl2 at pH 6.3.",
+      "text": "Fig. 6. Time course of methanol accumulation under optimized reaction conditions. Symbols: j in presence of 20 mmol/L sodium formate; d in absence of sodium formate. The reaction mixture contained a cell suspension of 17.3 g of dry cell/L, 400 mmol/L phosphate and 10 mmol/L MgCl2 at pH 6.3."
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 85.254,
+            "t": 101.57398876953118,
+            "r": 88.254,
+            "b": 96.3279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "0",
+      "text": "0"
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 123.664,
+            "t": 101.57398876953118,
+            "r": 130.407,
+            "b": 96.3279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 163.938,
+            "t": 101.57398876953118,
+            "r": 170.682,
+            "b": 96.3279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 204.12,
+            "t": 101.57398876953118,
+            "r": 210.864,
+            "b": 96.3279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "30",
+      "text": "30"
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 244.394,
+            "t": 101.57398876953118,
+            "r": 251.138,
+            "b": 96.3279887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 108.61898876953126,
+            "r": 81.882,
+            "b": 103.37298876953128,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 127.94298876953121,
+            "r": 81.882,
+            "b": 122.69798876953121,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 147.2659887695312,
+            "r": 81.882,
+            "b": 142.0209887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 166.58898876953117,
+            "r": 81.882,
+            "b": 161.34398876953128,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 185.84398876953128,
+            "r": 81.882,
+            "b": 180.59898876953116,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.8",
+      "text": "0.8"
+    },
+    {
+      "self_ref": "#/texts/181",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 205.16798876953123,
+            "r": 81.882,
+            "b": 199.92198876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.0",
+      "text": "1.0"
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 74.442,
+            "t": 224.4919887695312,
+            "r": 81.882,
+            "b": 219.2459887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.2",
+      "text": "1.2"
+    },
+    {
+      "self_ref": "#/texts/183",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 61.438,
+            "t": 219.4049887695312,
+            "r": 69.307,
+            "b": 113.34198876953121,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Methanol accumulated/ g/L",
+      "text": "Methanol accumulated/ g/L"
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 137.318,
+            "t": 88.80298876953123,
+            "r": 201.372,
+            "b": 80.93498876953117,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Reaction time / h",
+      "text": "Reaction time / h"
+    },
+    {
+      "self_ref": "#/texts/185",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.237,
+            "t": 136.91198876953126,
+            "r": 237.421,
+            "b": 131.66598876953117,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "20 mmol/L",
+      "text": "20 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 208.237,
+            "t": 128.2279887695313,
+            "r": 237.409,
+            "b": 122.9819887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "0 mmol/L",
+      "text": "0 mmol/L"
+    },
+    {
+      "self_ref": "#/texts/187",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 559.8229887695312,
+            "r": 552.763,
+            "b": 536.7679887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "Fig. 7. Time course of methanol accumulation in a bubble free membrane aerated bioreactor. The reaction mixture contained a cell suspension of 17.3 g of dry cell /L, 400 mmol/L phosphate, and 10 mmol/L MgCl2 at pH 6.3.",
+      "text": "Fig. 7. Time course of methanol accumulation in a bubble free membrane aerated bioreactor. The reaction mixture contained a cell suspension of 17.3 g of dry cell /L, 400 mmol/L phosphate, and 10 mmol/L MgCl2 at pH 6.3."
+    },
+    {
+      "self_ref": "#/texts/188",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 355.622,
+            "t": 589.8869887695312,
+            "r": 359.153,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "0",
+      "text": "0"
+    },
+    {
+      "self_ref": "#/texts/189",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 375.693,
+            "t": 589.8869887695312,
+            "r": 379.224,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/190",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 393.642,
+            "t": 589.8869887695312,
+            "r": 401.402,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/191",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 413.706,
+            "t": 589.8869887695312,
+            "r": 421.466,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "15",
+      "text": "15"
+    },
+    {
+      "self_ref": "#/texts/192",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 433.77,
+            "t": 589.8869887695312,
+            "r": 441.53,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/193",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 453.763,
+            "t": 589.8869887695312,
+            "r": 461.523,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "25",
+      "text": "25"
+    },
+    {
+      "self_ref": "#/texts/194",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 473.85,
+            "t": 589.8869887695312,
+            "r": 481.61,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "30",
+      "text": "30"
+    },
+    {
+      "self_ref": "#/texts/195",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 493.912,
+            "t": 589.8869887695312,
+            "r": 501.673,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "35",
+      "text": "35"
+    },
+    {
+      "self_ref": "#/texts/196",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 513.975,
+            "t": 589.8869887695312,
+            "r": 521.736,
+            "b": 584.0129887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/197",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 343.861,
+            "t": 597.2769887695313,
+            "r": 352.504,
+            "b": 591.4029887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.0",
+      "text": "0.0"
+    },
+    {
+      "self_ref": "#/texts/198",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 343.861,
+            "t": 623.3469887695312,
+            "r": 352.504,
+            "b": 617.4729887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.2",
+      "text": "0.2"
+    },
+    {
+      "self_ref": "#/texts/199",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 343.861,
+            "t": 649.3939887695312,
+            "r": 352.504,
+            "b": 643.5199887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.4",
+      "text": "0.4"
+    },
+    {
+      "self_ref": "#/texts/200",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 343.861,
+            "t": 675.4639887695313,
+            "r": 352.504,
+            "b": 669.5899887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.6",
+      "text": "0.6"
+    },
+    {
+      "self_ref": "#/texts/201",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 343.861,
+            "t": 701.5109887695312,
+            "r": 352.504,
+            "b": 695.6369887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "0.8",
+      "text": "0.8"
+    },
+    {
+      "self_ref": "#/texts/202",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 343.861,
+            "t": 724.5769887695312,
+            "r": 352.504,
+            "b": 718.7029887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1.0",
+      "text": "1.0"
+    },
+    {
+      "self_ref": "#/texts/203",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 328.914,
+            "t": 706.4139887695312,
+            "r": 336.186,
+            "b": 603.0359887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Methanol accumulated / g/L",
+      "text": "Methanol accumulated / g/L"
+    },
+    {
+      "self_ref": "#/texts/204",
+      "parent": {
+        "$ref": "#/pictures/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 412.575,
+            "t": 577.6359887695312,
+            "r": 471.672,
+            "b": 570.3629887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Reaction time / h",
+      "text": "Reaction time / h"
+    },
+    {
+      "self_ref": "#/texts/205",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 522.3909887695312,
+            "r": 552.8,
+            "b": 462.7029887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            357
+          ]
+        }
+      ],
+      "orig": "minimizes potential safety risks involved with their mixing. To optimize methanol accumulation, further experiments are planned, including the optimization of operation conditions (operation mode, gas pressure, and flow rate), the effect of membrane materials and its structure, and the gas-liquid volumetric mass transfer coefficient of methane and oxygen.",
+      "text": "minimizes potential safety risks involved with their mixing. To optimize methanol accumulation, further experiments are planned, including the optimization of operation conditions (operation mode, gas pressure, and flow rate), the effect of membrane materials and its structure, and the gas-liquid volumetric mass transfer coefficient of methane and oxygen."
+    },
+    {
+      "self_ref": "#/texts/206",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 439.61998876953123,
+            "r": 358.871,
+            "b": 432.2019887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "4. Conclusions",
+      "text": "4. Conclusions",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/207",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 418.6999887695312,
+            "r": 552.8,
+            "b": 306.6859887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            675
+          ]
+        }
+      ],
+      "orig": "This study indicates the significant potential of microorganisms to produce high concentrations of methanol at a high methane conversion rate in anaerobic bottles and bubble free membrane aerated stirring tank reactors. To obtain high methanol yields, it was found that reactions should be conducted at higher cell density in the presence of high concentrations of MDH inhibitor. The maximum methanol accumulation achieved was over 1.12 g/L; 4.5-fold higher than the highest value (0.25 g/L) reported previously. Moreover, this study showed that a dense silicone tube membrane aerated bioreactor can be applied to highly efficient and safe methane transformation to methanol.",
+      "text": "This study indicates the significant potential of microorganisms to produce high concentrations of methanol at a high methane conversion rate in anaerobic bottles and bubble free membrane aerated stirring tank reactors. To obtain high methanol yields, it was found that reactions should be conducted at higher cell density in the presence of high concentrations of MDH inhibitor. The maximum methanol accumulation achieved was over 1.12 g/L; 4.5-fold higher than the highest value (0.25 g/L) reported previously. Moreover, this study showed that a dense silicone tube membrane aerated bioreactor can be applied to highly efficient and safe methane transformation to methanol."
+    },
+    {
+      "self_ref": "#/texts/208",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 285.35998876953124,
+            "r": 379.76,
+            "b": 277.94198876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Acknowledgements",
+      "text": "Acknowledgements",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/209",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 264.4399887695313,
+            "r": 552.772,
+            "b": 204.75298876953116,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            316
+          ]
+        }
+      ],
+      "orig": "The authors greatly appreciate Prof. Ichiro Okura from the Tokyo Institute of Technology for donating M. trichosporium OB3b. This work was financial supported by the National Natural Science Foundation of China (Nos. 20606036, 20976186), and the Promotive Fund for President Award of the Chinese Academy of Sciences.",
+      "text": "The authors greatly appreciate Prof. Ichiro Okura from the Tokyo Institute of Technology for donating M. trichosporium OB3b. This work was financial supported by the National Natural Science Foundation of China (Nos. 20606036, 20976186), and the Promotive Fund for President Award of the Chinese Academy of Sciences."
+    },
+    {
+      "self_ref": "#/texts/210",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 183.42598876953116,
+            "r": 344.823,
+            "b": 176.00898876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "References",
+      "text": "References",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/211",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 164.21998876953126,
+            "r": 552.729,
+            "b": 150.29298876953123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Anatas, P.T., Warner, J.C., 2000. Green chemistry: theory and practice. Oxford University Press, USA.",
+      "text": "Anatas, P.T., Warner, J.C., 2000. Green chemistry: theory and practice. Oxford University Press, USA."
+    },
+    {
+      "self_ref": "#/texts/212",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 148.23298876953118,
+            "r": 552.764,
+            "b": 118.43198876953124,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            256
+          ]
+        }
+      ],
+      "orig": "Han, B., Su, T., Wu, H., Gou, Z.H., Xing, X.H., Jiang, H., Chen, Y., Li, X., Murrell, J.C., 2009. Paraffin oil as a ''methane vector'' for rapid and high cell density cultivation of Methylosinus trichosporium OB3b. Appl. Microbiol. Biotechnol. 83, 669-677.",
+      "text": "Han, B., Su, T., Wu, H., Gou, Z.H., Xing, X.H., Jiang, H., Chen, Y., Li, X., Murrell, J.C., 2009. Paraffin oil as a ''methane vector'' for rapid and high cell density cultivation of Methylosinus trichosporium OB3b. Appl. Microbiol. Biotechnol. 83, 669-677."
+    },
+    {
+      "self_ref": "#/texts/213",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 116.37198876953119,
+            "r": 552.78,
+            "b": 94.50798876953127,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "Lee, S.G., Goo, J.W., Kim, H.G., Oh, J.-I.I., Kim, Y.M., Kim, S.W., 2004. Optimization of methanol biosynthesis from methane using Methylosinus trichosporium OB3b. Biotechnol. Lett. 26, 947-950.",
+      "text": "Lee, S.G., Goo, J.W., Kim, H.G., Oh, J.-I.I., Kim, Y.M., Kim, S.W., 2004. Optimization of methanol biosynthesis from methane using Methylosinus trichosporium OB3b. Biotechnol. Lett. 26, 947-950."
+    },
+    {
+      "self_ref": "#/texts/214",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 92.44798876953121,
+            "r": 552.765,
+            "b": 78.5779887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "Markowska, A., Michalkiewicz, B., 2009. Biosynthesis of methanol from methane by Methylosinus trichosporium OB3b. Chem. Pap. 63, 105-110.",
+      "text": "Markowska, A., Michalkiewicz, B., 2009. Biosynthesis of methanol from methane by Methylosinus trichosporium OB3b. Chem. Pap. 63, 105-110."
+    },
+    {
+      "self_ref": "#/texts/215",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.72,
+            "t": 76.51798876953126,
+            "r": 552.782,
+            "b": 62.58998876953126,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "Mehta, P.K., Mishra, S., Ghose, T.K., 1987. Methanol accumulation by resting cells of Methylosinus trichosporium (I). J. Gen. Appl. Microbiol. 33, 221-229.",
+      "text": "Mehta, P.K., Mishra, S., Ghose, T.K., 1987. Methanol accumulation by resting cells of Methylosinus trichosporium (I). J. Gen. Appl. Microbiol. 33, 221-229."
+    },
+    {
+      "self_ref": "#/texts/216",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 301.721,
+            "t": 60.58698876953122,
+            "r": 552.743,
+            "b": 38.722988769531185,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "Park, S., Hanna, L., Taylor, R.T., Droege, M.W., 1991. Batch cultivation of Methylosinus trichosporium OB3b: I. Production of soluble methane monooxygenase. Biotechnol. Bioeng. 38, 423-433.",
+      "text": "Park, S., Hanna, L., Taylor, R.T., Droege, M.W., 1991. Batch cultivation of Methylosinus trichosporium OB3b: I. Production of soluble methane monooxygenase. Biotechnol. Bioeng. 38, 423-433."
+    },
+    {
+      "self_ref": "#/texts/217",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 212.201,
+            "t": 745.4949887695312,
+            "r": 392.905,
+            "b": 739.5609887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353",
+      "text": "C. Duan et al. / Bioresource Technology 102 (2011) 7349-7353"
+    },
+    {
+      "self_ref": "#/texts/218",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 547.312,
+            "t": 745.5519887695312,
+            "r": 562.582,
+            "b": 739.6179887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "7353",
+      "text": "7353"
+    },
+    {
+      "self_ref": "#/texts/219",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.52,
+            "t": 725.7629887695313,
+            "r": 293.584,
+            "b": 703.8989887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "Perdeep, K.M., Saroj, M., Tarun, K.G., 1991. Methanol biosynthesis by covalently immobilized cells of Methylosinus trichosporium : batch and continuous studies. Biotehcnol. Bioeng. 37, 551-556.",
+      "text": "Perdeep, K.M., Saroj, M., Tarun, K.G., 1991. Methanol biosynthesis by covalently immobilized cells of Methylosinus trichosporium : batch and continuous studies. Biotehcnol. Bioeng. 37, 551-556.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/220",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.52,
+            "t": 701.8389887695313,
+            "r": 293.579,
+            "b": 679.9749887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "Sugimori, D., Takeguchi, M., Okura, I., 1995. Biocatalytic methanol production from methane with Methylosinus trichosporium OB3b: an approach to improve methanol accumulation. Biotechnol. Lett. 17, 783-784.",
+      "text": "Sugimori, D., Takeguchi, M., Okura, I., 1995. Biocatalytic methanol production from methane with Methylosinus trichosporium OB3b: an approach to improve methanol accumulation. Biotechnol. Lett. 17, 783-784.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/221",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.52,
+            "t": 677.9149887695312,
+            "r": 293.607,
+            "b": 656.0509887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "Takeguchi, M., Furuto, T., Sugimori, D., Okura, I., 1997. Optimization of methanol biosynthesis by Methylosinus trichosporium OB3b: an approach to improve methanol accumulation. Appl. Biochem. Biotechnol. 68, 143-152.",
+      "text": "Takeguchi, M., Furuto, T., Sugimori, D., Okura, I., 1997. Optimization of methanol biosynthesis by Methylosinus trichosporium OB3b: an approach to improve methanol accumulation. Appl. Biochem. Biotechnol. 68, 143-152.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/222",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.527,
+            "t": 725.7649887695312,
+            "r": 562.582,
+            "b": 711.8369887695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "Trost, B.M., 1995. Atom economy. A challenge for organic synthesis. Angew. Chem. Int. Ed. Engl. 34, 259-281.",
+      "text": "Trost, B.M., 1995. Atom economy. A challenge for organic synthesis. Angew. Chem. Int. Ed. Engl. 34, 259-281.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/223",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.527,
+            "t": 709.8339887695312,
+            "r": 562.587,
+            "b": 687.9699887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            176
+          ]
+        }
+      ],
+      "orig": "Xin, J.Y., Cui, J.R., Niu, J.Z., Hua, S.F., Xia, C.G., Li, S.B., Zhu, L.M., 2004. Production of methanol from methane by methanotrophic bacteria. Biocat. Biotransf. 22, 225229.",
+      "text": "Xin, J.Y., Cui, J.R., Niu, J.Z., Hua, S.F., Xia, C.G., Li, S.B., Zhu, L.M., 2004. Production of methanol from methane by methanotrophic bacteria. Biocat. Biotransf. 22, 225229.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/224",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.527,
+            "t": 685.9099887695312,
+            "r": 562.583,
+            "b": 664.0459887695313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "Xing, X.H., Wu, H., Luo, M.F., Wang, B.P., 2006. Effects of organic chemicals on growth of Methylosinus trichosporium OB3b. Biochem. Eng. J. 31, 113117.",
+      "text": "Xing, X.H., Wu, H., Luo, M.F., Wang, B.P., 2006. Effects of organic chemicals on growth of Methylosinus trichosporium OB3b. Biochem. Eng. J. 31, 113117.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.28935623168945,
+            "t": 721.9566879272461,
+            "r": 102.53274536132812,
+            "b": 653.6258087158203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 504.5550231933594,
+            "t": 727.5475692749023,
+            "r": 562.6481323242188,
+            "b": 654.9872283935547,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.20794677734375,
+            "t": 726.2128677368164,
+            "r": 547.2962036132812,
+            "b": 545.9610290527344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 61.0420036315918,
+            "t": 725.4339141845703,
+            "r": 544.9207763671875,
+            "b": 508.0798645019531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 67.72632598876953,
+            "t": 456.6119384765625,
+            "r": 268.44683837890625,
+            "b": 300.4247741699219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 336.449951171875,
+            "t": 459.10211181640625,
+            "r": 537.0411987304688,
+            "b": 305.14923095703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/124"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        },
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        },
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        },
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        },
+        {
+          "$ref": "#/texts/166"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 58.58802032470703,
+            "t": 727.123908996582,
+            "r": 258.1690673828125,
+            "b": 573.4978179931641,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/143"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/170"
+        },
+        {
+          "$ref": "#/texts/171"
+        },
+        {
+          "$ref": "#/texts/172"
+        },
+        {
+          "$ref": "#/texts/173"
+        },
+        {
+          "$ref": "#/texts/174"
+        },
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        },
+        {
+          "$ref": "#/texts/177"
+        },
+        {
+          "$ref": "#/texts/178"
+        },
+        {
+          "$ref": "#/texts/179"
+        },
+        {
+          "$ref": "#/texts/180"
+        },
+        {
+          "$ref": "#/texts/181"
+        },
+        {
+          "$ref": "#/texts/182"
+        },
+        {
+          "$ref": "#/texts/183"
+        },
+        {
+          "$ref": "#/texts/184"
+        },
+        {
+          "$ref": "#/texts/185"
+        },
+        {
+          "$ref": "#/texts/186"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.13814926147461,
+            "t": 233.720947265625,
+            "r": 257.61859130859375,
+            "b": 81.32110595703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/170"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/187"
+        },
+        {
+          "$ref": "#/texts/188"
+        },
+        {
+          "$ref": "#/texts/189"
+        },
+        {
+          "$ref": "#/texts/190"
+        },
+        {
+          "$ref": "#/texts/191"
+        },
+        {
+          "$ref": "#/texts/192"
+        },
+        {
+          "$ref": "#/texts/193"
+        },
+        {
+          "$ref": "#/texts/194"
+        },
+        {
+          "$ref": "#/texts/195"
+        },
+        {
+          "$ref": "#/texts/196"
+        },
+        {
+          "$ref": "#/texts/197"
+        },
+        {
+          "$ref": "#/texts/198"
+        },
+        {
+          "$ref": "#/texts/199"
+        },
+        {
+          "$ref": "#/texts/200"
+        },
+        {
+          "$ref": "#/texts/201"
+        },
+        {
+          "$ref": "#/texts/202"
+        },
+        {
+          "$ref": "#/texts/203"
+        },
+        {
+          "$ref": "#/texts/204"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 326.90289306640625,
+            "t": 727.0368576049805,
+            "r": 527.4247436523438,
+            "b": 570.9494018554688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/187"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 5
+    }
+  }
+}

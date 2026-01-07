@@ -1,0 +1,36 @@
+[
+  {
+    "page": 3,
+    "caption": "energy source via the oxidative metabolic pathway in the\npresence of oxygen. Methane and oxygen are key substrates\nfor cell growth, and their supply ratio of air:methane is an\nimportant factor in the cultivation of methanotrophs. To\nfind out the optimal air:methane ratio, M. trichosporium\nOB3b was cultivated at various air:methane ratio ranging\nfrom 8:2 to 5:5 in NMS medium. In the presence of 30% (v/v)\nmethane, a higher methane-to-biomass conversion and\nspecific growth rate could be achieved. When methane\nabove 30% (v/v) was supplied, the final cell density was\nnot affected. At the optimal condition of air:methane = 7:3,\nthe final dry cell density (g cell/l), methane-to-biomass\nconversion (g biomass/g methane), and specific growth\nrate (h-1) were 0.21, 0.47, and 0.044, respectively (Table 1).\nThe effects of copper concentration on M. trichosporium\nOB3b growth and the expression of MMO were examined\nin the presence of various concentrations of copper (from 0\nto 100 µM) in the medium. The copper concentration is\nknown to affect the relative expression level of soluble and\nparticulate MMO. Generally, pMMO is expressed in the\npresence of copper ion [3, 14, 17, 21, 24]. Herein, we\nquantitatively evaluated the effects of copper concentration\non batch cell growth, methane-to-biomass conversion, and\nspecific growth rate. As shown in Table 2, the highest final\nbatch cell growth of 0.34 g cell/l, methane-to-biomass\nconversion of 0.46 g biomass/g methane, and specific\ngrowth rate of 0.059 h-1 were obtained in the media\ncontaining 5 µM of CuSO4. In this condition, the expression\nof sMMO was completely inhibited. As the copper\nconcentration increased, the specific growth rate also\nincreased up to 5 µM (Table 2). Further increase in copper\nconcentration resulted in a decrease in cell growth. When\nM. trichosporium OB3b was cultured in the presence of",
+    "triples": [
+      3,
+      14,
+      17,
+      21,
+      24
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Effect of Sodium Formate Addition on the Production of\nMethanol\nFormate has been reported to increase methanol production\nby NADH regeneration [26]. For enhancement of methanol\nproduction using M. trichosporium OB3b, the effect of\nformate addition was investigated. The relative methanol\nproduction at various sodium formate concentrations ranging\nfrom 0 to 80 mmol/l are shown in Fig. 2. When 40 mM\nsodium formate was supplied, 0.232 g/l methanol was\nproduced after 20 h and the methane-to-methanol conversion\nwas 17.3%. Further increase in formate concentration did\nnot increase the methanol production in the batch system.\nFurther investigations need to be conducted to understand\nthe saturation of methanol production in the presence of\nformate above 40 mM.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Effect of Sodium Formate Addition on the Production of\nMethanol\nFormate has been reported to increase methanol production\nby NADH regeneration [26]. For enhancement of methanol\nproduction using M. trichosporium OB3b, the effect of\nformate addition was investigated. The relative methanol\nproduction at various sodium formate concentrations ranging\nfrom 0 to 80 mmol/l are shown in Fig. 2. When 40 mM\nsodium formate was supplied, 0.232 g/l methanol was\nproduced after 20 h and the methane-to-methanol conversion\nwas 17.3%. Further increase in formate concentration did\nnot increase the methanol production in the batch system.\nFurther investigations need to be conducted to understand\nthe saturation of methanol production in the presence of\nformate above 40 mM.\n\nOutput JSON list only:\nassistant\n[]"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 3. Effects of potassium phosphate (A) and EDTA (B) as\nMDH inhibitors on methane consumption and methanol\nproduction by growing and resulting cells of M. trichosporium\nOB3b (symbols: black bars, methane consumption; gray\nbars, methanol production; line graph, methane-to-methanol\nconversion).",
+    "triples": []
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b.\n\nOutput JSON list only:\nassistant\n[(\"M. trichosporium OB3b\", \"produces\", \"methane\"), (\"M. trichosporium OB3b\", \"produces\", \"methanol\"), (\"M. trichosporium OB3b\", \"converts\", \"methanol\"), (\"M. trichosporium OB3b\", \"converts\", \"methane\"), (\"methane\", \"is produced\", \"by M. trichosporium OB3b\"), (\"methanol\", \"is produced\", \"by M. trichosporium OB3b\"), (\"methanol\", \"is converted\", \"by M. trichosporium OB3b\"), (\"methane\", \"is converted\", \"by M. trichosporium OB3b\")]"
+      }
+    ]
+  }
+]

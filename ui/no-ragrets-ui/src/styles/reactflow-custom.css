@@ -1,0 +1,74 @@
+/* Custom styling for ReactFlow controls to match app theme */
+
+.react-flow__controls {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229 231 235);
+}
+
+.dark .react-flow__controls {
+  background-color: rgb(31 41 55);
+  border-color: rgb(75 85 99);
+}
+
+.react-flow__controls-button {
+  background-color: white;
+  border-bottom: 1px solid rgb(229 231 235);
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s;
+}
+
+.dark .react-flow__controls-button {
+  background-color: rgb(31 41 55);
+  border-bottom-color: rgb(75 85 99);
+}
+
+.react-flow__controls-button:hover {
+  background-color: rgb(249 250 251);
+}
+
+.dark .react-flow__controls-button:hover {
+  background-color: rgb(55 65 81);
+}
+
+.react-flow__controls-button svg {
+  width: 18px;
+  height: 18px;
+  fill: rgb(75 85 99);
+}
+
+.dark .react-flow__controls-button svg {
+  fill: rgb(209 213 219);
+}
+
+/* Remove bottom border from last button */
+.react-flow__controls-button:last-child {
+  border-bottom: none;
+}
+
+/* Round the corners */
+.react-flow__controls-button:first-child {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.react-flow__controls-button:last-child {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+/* MiniMap styling */
+.react-flow__minimap {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Background dots color in dark mode */
+.dark .react-flow__background {
+  background-color: rgb(17 24 39);
+}
+
+.dark .react-flow__background pattern circle {
+  fill: rgb(55 65 81);
+}

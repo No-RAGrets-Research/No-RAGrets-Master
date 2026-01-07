@@ -1,0 +1,4508 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 48,
+    "relations": 101,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Bjorck et al. 2018.json",
+    "processed_at": "2025-11-23T23:59:55.494244"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Cyclopropanol",
+      "predicate": "is produced by",
+      "object": "Methylosinosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "Cyclopropanol | 50 \u00b5mol sodium formate | 23 mmol/g (wet cell wt.)",
+        "document_offsets": {
+          "start": 1354,
+          "end": 1419
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 19,
+            "matched_text": "Cyclopropanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium formate",
+      "predicate": "is added to reaction of",
+      "object": "Methylosinus trichosporium NCIB 11131 (OB3b)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 19,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate | 40 mMsodium formate at 6 h | 50 \u00b5mol/mg | 15 [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4 | 70 | 100mM phosphate | Sodium formate multiple pulsed addition throughout reaction | 267 \u00b5mol/h | 5.34 Cyclopropanol | 50 \u00b5mol sodium formate | 23 mmol/g (wet cell wt.)",
+        "document_offsets": {
+          "start": 734,
+          "end": 1419
+        },
+        "subject_positions": [
+          {
+            "start": 397,
+            "end": 411,
+            "sentence_id": 16,
+            "matched_text": "Sodium formate"
+          },
+          {
+            "start": 644,
+            "end": 658,
+            "sentence_id": 19,
+            "matched_text": "sodium formate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "digester sludge",
+      "predicate": "provides source for",
+      "object": "Unidentified isolate 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 11,
+        "text_evidence": "[127] | Unidentified isolate 1 (from digester sludge) [127] | Unidentified isolate 2 (from digester sludge)",
+        "document_offsets": {
+          "start": 486,
+          "end": 663
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 52,
+            "sentence_id": 9,
+            "matched_text": "digester sludge"
+          },
+          {
+            "start": 161,
+            "end": 176,
+            "sentence_id": 11,
+            "matched_text": "digester sludge"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 30,
+            "sentence_id": 9,
+            "matched_text": "Unidentified isolate 1"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[Batch]",
+      "predicate": "is also used by",
+      "object": "Unidentified isolate 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "[127] | Unidentified isolate 1 (from digester sludge)",
+        "document_offsets": {
+          "start": 486,
+          "end": 539
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 30,
+            "sentence_id": 9,
+            "matched_text": "Unidentified isolate 1"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "O 2",
+      "predicate": "is fed as gas feedstock to",
+      "object": "Methylosinosinus trichosporium NCIB 11131 (OB3b)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4",
+        "document_offsets": {
+          "start": 734,
+          "end": 1105
+        },
+        "subject_positions": [
+          {
+            "start": 108,
+            "end": 111,
+            "sentence_id": 13,
+            "matched_text": "O 2"
+          },
+          {
+            "start": 343,
+            "end": 346,
+            "sentence_id": 15,
+            "matched_text": "O 2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ISPR",
+      "predicate": "is used in",
+      "object": "[Continuous Stirred membrane reactor]",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4",
+        "document_offsets": {
+          "start": 943,
+          "end": 1105
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 99,
+            "sentence_id": 15,
+            "matched_text": "ISPR"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[Continuous Stirred membrane reactor with ISPR]",
+      "predicate": "is used by",
+      "object": "Methylosinus trichosporium NCIB 11131 (OB3b)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4",
+        "document_offsets": {
+          "start": 734,
+          "end": 1105
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4",
+      "predicate": "is fed as gas feedstock to",
+      "object": "Methylosinosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 17,
+        "text_evidence": "| Batch 5 | CH 4 :air (1:1 v/v) | 3.00 | \u00d710 -3 | 35 | 6.5 | 3 | 80mM phosphate | - | 2.7 \u00b5mol/mg / h | Batch | 250 | 100% CH 4 | 0.3 | a | a | 24 | - | - | 0.5 g/L | 0.65 | Batch | 250 | 100% CH 4 | 0.3 | a | a | 24 | - | - | 1.0 g/L | 1.30 [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4 [99] | Methylosinus trichosporium OB3b | Batch | 3.5 | CH 4 :air (1:3 v/v) Positive | 0.36 \u00d710 -3 (wet cell wt.)",
+        "document_offsets": {
+          "start": 371,
+          "end": 1323
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 16,
+            "sentence_id": 7,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 190,
+            "end": 194,
+            "sentence_id": 10,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 314,
+            "end": 318,
+            "sentence_id": 12,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 465,
+            "end": 469,
+            "sentence_id": 13,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 700,
+            "end": 704,
+            "sentence_id": 15,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 895,
+            "end": 899,
+            "sentence_id": 17,
+            "matched_text": "CH 4"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "DEAE-cellulose",
+      "predicate": "is used to immobilize cells of",
+      "object": "Methylosinus trichosporium NCIB 11131 (OB3b)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4",
+        "document_offsets": {
+          "start": 734,
+          "end": 1105
+        },
+        "subject_positions": [
+          {
+            "start": 81,
+            "end": 95,
+            "sentence_id": 13,
+            "matched_text": "DEAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "air",
+      "predicate": "is fed as gas feedstock to",
+      "object": "Methylosinosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 17,
+        "text_evidence": "| Batch 5 | CH 4 :air (1:1 v/v) | 3.00 | \u00d710 -3 | 35 | 6.5 | 3 | 80mM phosphate | - | 2.7 \u00b5mol/mg / h [99] | Methylosinus trichosporium OB3b | Batch | 3.5 | CH 4 :air (1:3 v/v) Positive | 0.36 \u00d710 -3 (wet cell wt.)",
+        "document_offsets": {
+          "start": 371,
+          "end": 1323
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 21,
+            "sentence_id": 7,
+            "matched_text": "air"
+          },
+          {
+            "start": 901,
+            "end": 904,
+            "sentence_id": 17,
+            "matched_text": "air"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[Batch Cells immobilised on DEAE-cellulose]",
+      "predicate": "is used by",
+      "object": "Methylosinus trichosporium NCIB 11131 (OB3b)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4",
+        "document_offsets": {
+          "start": 734,
+          "end": 1105
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "digester sludge",
+      "predicate": "provides source for",
+      "object": "Unidentified isolate 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 11,
+        "text_evidence": "[127] | Unidentified isolate 1 (from digester sludge) [127] | Unidentified isolate 2 (from digester sludge)",
+        "document_offsets": {
+          "start": 486,
+          "end": 663
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 52,
+            "sentence_id": 9,
+            "matched_text": "digester sludge"
+          },
+          {
+            "start": 161,
+            "end": 176,
+            "sentence_id": 11,
+            "matched_text": "digester sludge"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 132,
+            "end": 154,
+            "sentence_id": 11,
+            "matched_text": "Unidentified isolate 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "belongs to",
+      "object": "NCIB 11131",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[90] | Methylosinus trichosporium OB3b (NCIB 11131) [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4 [99] | Methylosinus trichosporium OB3b | Batch | 3.5 | CH 4 :air (1:3 v/v) Positive | 0.36 \u00d710 -3 (wet cell wt.)",
+        "document_offsets": {
+          "start": 319,
+          "end": 1323
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 899,
+            "end": 930,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 50,
+            "sentence_id": 6,
+            "matched_text": "NCIB 11131"
+          },
+          {
+            "start": 449,
+            "end": 459,
+            "sentence_id": 13,
+            "matched_text": "NCIB 11131"
+          },
+          {
+            "start": 658,
+            "end": 668,
+            "sentence_id": 15,
+            "matched_text": "NCIB 11131"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium NCIB 11131 (OB3b)",
+      "predicate": "has strain name",
+      "object": "NCIB 11131 (OB3b)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text_evidence": "[98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Batch Cells immobilised on DEAE-cellulose | 5 | CH 4 :O 2 (1:1 v/v) | 3.6 | 35 | 6.4 | 12 | 100mM phosphate [98] | Methylosinus trichosporium NCIB 11131 (OB3b) | Continuous Stirred membrane reactor with ISPR Cells immobilised on | 50 | CH 4 :O 2 (1:1 v/v) | 2 | 35 | 6.4",
+        "document_offsets": {
+          "start": 734,
+          "end": 1105
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[Batch]",
+      "predicate": "is also used by",
+      "object": "Unidentified isolate 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "[127] | Unidentified isolate 2 (from digester sludge)",
+        "document_offsets": {
+          "start": 610,
+          "end": 663
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 30,
+            "sentence_id": 11,
+            "matched_text": "Unidentified isolate 2"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[Batch]",
+      "predicate": "is used by",
+      "object": "Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[90] | Methylosinus trichosporium OB3b (NCIB 11131) [99] | Methylosinus trichosporium OB3b | Batch | 3.5 | CH 4 :air (1:3 v/v) Positive | 0.36 \u00d710 -3 (wet cell wt.)",
+        "document_offsets": {
+          "start": 319,
+          "end": 1323
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 899,
+            "end": 930,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page26_table0",
+        "page_number": 26,
+        "bbox_coordinates": {
+          "l": 54.812782287597656,
+          "t": 488.7342529296875,
+          "r": 788.67529296875,
+          "b": 111.34066772460938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates_in_repeated_batch",
+      "object": "5 cycles of 1.5 h",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 436,
+            "end": 453,
+            "sentence_id": 13,
+            "matched_text": "5 cycles of 1.5 h"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "has_process_mode_and_reaction_vessel",
+      "object": "Batch",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 15,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2",
+        "document_offsets": {
+          "start": 321,
+          "end": 1435
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 45,
+            "sentence_id": 6,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 230,
+            "end": 235,
+            "sentence_id": 9,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 436,
+            "end": 441,
+            "sentence_id": 12,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 619,
+            "end": 624,
+            "sentence_id": 13,
+            "matched_text": "batch"
+          },
+          {
+            "start": 815,
+            "end": 820,
+            "sentence_id": 14,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 1035,
+            "end": 1040,
+            "sentence_id": 15,
+            "matched_text": "Batch"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates_at_temperature",
+      "object": "25 \u00b0 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "produces_quoted_amount_of_methanol",
+      "object": "1.39",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) Positive pressure | 1.39 | 30 | 7.0 | ~3 | 251 \u00b5M cyclopropanol | 14.3 mMsodium formate | 3 mmol/g dry cell | 1.39 [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 321,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 94,
+            "end": 98,
+            "sentence_id": 7,
+            "matched_text": "1.39"
+          },
+          {
+            "start": 184,
+            "end": 188,
+            "sentence_id": 8,
+            "matched_text": "1.39"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_calculated_methanol_production",
+      "object": "152 mmol/g dry cell",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 | 25 | 7.0 | 100 | 67 nM cyclopropanol | 14.3 mMsodium formate | 152 mmol/g dry cell | 5.26 \u00d710 -2 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 172,
+            "end": 191,
+            "sentence_id": 11,
+            "matched_text": "152 mmol/g dry cell"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "uses_gas_feedstock",
+      "object": "CO2 :CH4 :O2 : N2 (40:20:20:20 v/v)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_cell_density",
+      "object": "3.46 \u00d710 -2 g/L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "has_process_mode_and_reaction_vessel",
+      "object": "Batch",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 321,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 777,
+            "end": 812,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 997,
+            "end": 1032,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 1219,
+            "end": 1254,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 45,
+            "sentence_id": 6,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 230,
+            "end": 235,
+            "sentence_id": 9,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 436,
+            "end": 441,
+            "sentence_id": 12,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 619,
+            "end": 624,
+            "sentence_id": 13,
+            "matched_text": "batch"
+          },
+          {
+            "start": 815,
+            "end": 820,
+            "sentence_id": 14,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 1035,
+            "end": 1040,
+            "sentence_id": 15,
+            "matched_text": "Batch"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates_at_temperature",
+      "object": "30 \u00b0 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_total_production_period",
+      "object": "100 hours",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "produces_quoted_amount_of_methanol",
+      "object": "5.26 \u00d710 -2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 | 25 | 7.0 | 100 | 67 nM cyclopropanol | 14.3 mMsodium formate | 152 mmol/g dry cell | 5.26 \u00d710 -2 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 194,
+            "end": 205,
+            "sentence_id": 11,
+            "matched_text": "5.26 \u00d710 -2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "has_cell_density",
+      "object": "3 g/L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "operates_at_pH",
+      "object": "7.0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 17,
+        "text_evidence": "Positive pressure | 1.39 | 30 | 7.0 | ~3 | 25 | 7.0 | 100 | 67 nM cyclopropanol | 14.3 mMsodium formate | 152 mmol/g dry cell | 5.26 \u00d710 -2 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 395,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 703,
+            "end": 738,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 923,
+            "end": 958,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 1145,
+            "end": 1180,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 35,
+            "sentence_id": 7,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 229,
+            "end": 232,
+            "sentence_id": 11,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 420,
+            "end": 423,
+            "sentence_id": 12,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 621,
+            "end": 624,
+            "sentence_id": 13,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 805,
+            "end": 808,
+            "sentence_id": 14,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 1025,
+            "end": 1028,
+            "sentence_id": 15,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 1287,
+            "end": 1290,
+            "sentence_id": 17,
+            "matched_text": "7.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "uses_MDHinhibition_method",
+      "object": "251 \u00b5M cyclopropanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) | 251 \u00b5M cyclopropanol | 14.3 mMsodium formate | 3 mmol/g dry cell | 1.39 [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 321,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 117,
+            "end": 137,
+            "sentence_id": 8,
+            "matched_text": "251 \u00b5M cyclopropanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "operates_at_pH",
+      "object": "7.0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) Positive pressure | 1.39 | 30 | 7.0 | ~3 [85] | Methylosinus trichosporium OB3b | Batch | 3.5 | 25 | 7.0 | 100 | 67 nM cyclopropanol | 14.3 mMsodium formate | 152 mmol/g dry cell | 5.26 \u00d710 -2 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 321,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 106,
+            "end": 109,
+            "sentence_id": 7,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 303,
+            "end": 306,
+            "sentence_id": 11,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 494,
+            "end": 497,
+            "sentence_id": 12,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 695,
+            "end": 698,
+            "sentence_id": 13,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 879,
+            "end": 882,
+            "sentence_id": 14,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 1099,
+            "end": 1102,
+            "sentence_id": 15,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 1361,
+            "end": 1364,
+            "sentence_id": 17,
+            "matched_text": "7.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "operates_at_temperature",
+      "object": "30 \u00b0 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 321,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates_at_pH",
+      "object": "7.0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 17,
+        "text_evidence": "Positive pressure | 1.39 | 30 | 7.0 | ~3 [85] | Methylosinus trichosporium OB3b | Batch | 3.5 | 25 | 7.0 | 100 | 67 nM cyclopropanol | 14.3 mMsodium formate | 152 mmol/g dry cell | 5.26 \u00d710 -2 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 395,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 122,
+            "end": 153,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 328,
+            "end": 359,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 502,
+            "end": 533,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 35,
+            "sentence_id": 7,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 229,
+            "end": 232,
+            "sentence_id": 11,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 420,
+            "end": 423,
+            "sentence_id": 12,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 621,
+            "end": 624,
+            "sentence_id": 13,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 805,
+            "end": 808,
+            "sentence_id": 14,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 1025,
+            "end": 1028,
+            "sentence_id": 15,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 1287,
+            "end": 1290,
+            "sentence_id": 17,
+            "matched_text": "7.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "has_total_production_period",
+      "object": "24 hours",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates_in_batch",
+      "object": "17.5 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "has_total_production_period",
+      "object": "~3 hours",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 321,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "produces_quoted_amount_of_methanol",
+      "object": "0.15",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 375,
+            "end": 379,
+            "sentence_id": 12,
+            "matched_text": "0.15"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "uses_gas_feedstock",
+      "object": "CH4 :air (1:4 v/v) Positive pressure",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 321,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "uses_gas_feedstock",
+      "object": "CH4 :air (1:4 v/v) Positive pressure",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "uses_exogenous_reducing_agent",
+      "object": "Oxidation of a portion of metabolic methanol for NADH regeneration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 18,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 18.8 \u00b5mol/L | 6.26 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 23 \u00b5mol 0.13 \u00b5mol/h | 2.90 \u00d710 -3",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1803
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 127,
+            "end": 193,
+            "sentence_id": 14,
+            "matched_text": "Oxidation of a portion of metabolic methanol for NADH regeneration"
+          },
+          {
+            "start": 347,
+            "end": 413,
+            "sentence_id": 16,
+            "matched_text": "Oxidation of a portion of metabolic methanol for NADH regeneration"
+          },
+          {
+            "start": 610,
+            "end": 676,
+            "sentence_id": 18,
+            "matched_text": "Oxidation of a portion of metabolic methanol for NADH regeneration"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium IMV 3011",
+      "predicate": "produces_quoted_amount_of_methanol",
+      "object": "14 \u00b5mol/L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 14,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 196,
+            "end": 205,
+            "sentence_id": 14,
+            "matched_text": "14 \u00b5mol/L"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_calculated_methanol_production_rate",
+      "object": "0.28 mmol/g dry cell / hour",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "uses_MDHinhibition_method",
+      "object": "67 nM cyclopropanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 | 25 | 7.0 | 100 | 67 nM cyclopropanol | 14.3 mMsodium formate | 152 mmol/g dry cell | 5.26 \u00d710 -2 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 145,
+            "sentence_id": 11,
+            "matched_text": "67 nM cyclopropanol"
+          },
+          {
+            "start": 317,
+            "end": 336,
+            "sentence_id": 12,
+            "matched_text": "67 nM cyclopropanol"
+          },
+          {
+            "start": 518,
+            "end": 537,
+            "sentence_id": 13,
+            "matched_text": "67 nM cyclopropanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "uses_gas_feedstock",
+      "object": "CH4 :air (1:2.6 v/v)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates_in_repeated_batch",
+      "object": "7.5 hours",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "has_calculated_methanol_production",
+      "object": "5.83 \u00d710 -4 mmol/L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "operates_at_temperature",
+      "object": "32 \u00b0 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_process_mode_and_reaction_vessel",
+      "object": "Batch",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 15,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2",
+        "document_offsets": {
+          "start": 321,
+          "end": 1435
+        },
+        "subject_positions": [
+          {
+            "start": 196,
+            "end": 227,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 402,
+            "end": 433,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 576,
+            "end": 607,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 45,
+            "sentence_id": 6,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 230,
+            "end": 235,
+            "sentence_id": 9,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 436,
+            "end": 441,
+            "sentence_id": 12,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 619,
+            "end": 624,
+            "sentence_id": 13,
+            "matched_text": "batch"
+          },
+          {
+            "start": 815,
+            "end": 820,
+            "sentence_id": 14,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 1035,
+            "end": 1040,
+            "sentence_id": 15,
+            "matched_text": "Batch"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3",
+      "predicate": "has_cell_density",
+      "object": "1.39 g/L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3 | Batch | 3.5 | CH 4 :air (1:4 v/v) [85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 321,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 37,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_calculated_methanol_production",
+      "object": "0.28 mmol/g dry cell",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "uses_MDHinhibition_method",
+      "object": "CO2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "operates_in_batch",
+      "object": "25 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 24 | CO 2 | Oxidation of a portion of metabolic methanol for NADH regeneration | 14 \u00b5mol/L | 5.83 \u00d710 -4 [35] | Methylosinus trichosporium IMV 3011 | Batch | 25 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 30 | CO 2 [35] | Methylosinus trichosporium IMV 3011 | Continuous Stirred membrane reactor with ISPR | 40 | CO 2 :CH 4 :O 2 : N 2 (40:20:20:20 v/v) | 3 | 32 | 7.0 | 198 | CO 2",
+        "document_offsets": {
+          "start": 1091,
+          "end": 1698
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 14,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 227,
+            "end": 262,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 449,
+            "end": 484,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_total_production_period",
+      "object": "7.5 hours",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_calculated_methanol_production",
+      "object": "19.6 \u00b5mol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 363,
+            "end": 372,
+            "sentence_id": 12,
+            "matched_text": "19.6 \u00b5mol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has_calculated_methanol_production",
+      "object": "36.1 \u00b5mol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[85] | Methylosinus trichosporium OB3b | Batch | 3.5 [83] | Methylosinus trichosporium OB3b | Batch | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 19.6 \u00b5mol | 0.15 [83] | Methylosinus trichosporium OB3b | Repeated batch 5 cycles of 1.5 h | 17.5 | CH 4 :air (1:2.6 v/v) | 3.46 \u00d710 -2 | 30 | 7.0 | 7.5 | 67 nM cyclopropanol | 14.3 mMsodium formate | 36.1 \u00b5mol | 0.28",
+        "document_offsets": {
+          "start": 510,
+          "end": 1091
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 213,
+            "end": 244,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 387,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 564,
+            "end": 573,
+            "sentence_id": 13,
+            "matched_text": "36.1 \u00b5mol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page27_table1",
+        "page_number": 27,
+        "bbox_coordinates": {
+          "l": 53.98369216918945,
+          "t": 527.9613647460938,
+          "r": 788.1401977539062,
+          "b": 131.81057739257812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "produces Quoted amount of methanol",
+      "object": "47.6 \u00b5mol/L",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "[121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4",
+        "document_offsets": {
+          "start": 471,
+          "end": 616
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 119,
+            "end": 130,
+            "sentence_id": 8,
+            "matched_text": "47.6 \u00b5mol/L"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates with Reaction volume",
+      "object": "5 mL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[92] | Methylosinus trichosporium OB3b | Batch | 5 | CH 4 :air (1:5 v/v) | 0.6 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. [93] | Methylosinus trichosporium OB3b | Continuous | Methylosinus trichosporium OB3b | Batch [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3",
+        "document_offsets": {
+          "start": 321,
+          "end": 1435
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 158,
+            "end": 189,
+            "sentence_id": 8,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 302,
+            "end": 333,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 459,
+            "end": 490,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 669,
+            "end": 700,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 833,
+            "end": 864,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1006,
+            "end": 1037,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "has Cell density",
+      "object": "0.6 g/L",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "receives Exogenous reducing agent",
+      "object": "20 mMsodium formate",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 13,
+        "text_evidence": "| 25 | 7.0 | 36 | 200 mMNaCl | 20 mMsodium formate | 7.7 mmol/L | 0.21 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. | 1,000 | CH 4 :air (1:1 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.7mM | 0.57",
+        "document_offsets": {
+          "start": 400,
+          "end": 1147
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 50,
+            "sentence_id": 7,
+            "matched_text": "20 mMsodium formate"
+          },
+          {
+            "start": 337,
+            "end": 356,
+            "sentence_id": 9,
+            "matched_text": "20 mMsodium formate"
+          },
+          {
+            "start": 519,
+            "end": 538,
+            "sentence_id": 10,
+            "matched_text": "20 mMsodium formate"
+          },
+          {
+            "start": 711,
+            "end": 730,
+            "sentence_id": 13,
+            "matched_text": "20 mMsodium formate"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "receives Gas Feedstock",
+      "object": "CH4 :O2 (1:2 v/v)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with Reaction volume",
+      "object": "100 mL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Process mode",
+      "object": "Repeated batch 3 cycles of 8 h",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "[93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt.",
+        "document_offsets": {
+          "start": 773,
+          "end": 968
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 71,
+            "sentence_id": 10,
+            "matched_text": "Repeated batch 3 cycles of 8 h"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "receives Gas Feedstock",
+      "object": "CH4 :air (1:3 v/v)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "receives Gas Feedstock",
+      "object": "CO2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "uses Process mode",
+      "object": "Batch",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 19,
+        "text_evidence": "[92] | Methylosinus trichosporium OB3b | Batch | 5 | CH 4 :air (1:5 v/v) | 0.6 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. [93] | Methylosinus trichosporium OB3b | Continuous | Methylosinus trichosporium OB3b | Batch [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3 [91] | Mixed methanotroph consortium from landfill soil | Batch | 100 | Artificial biogas:air (4:6 v/v) | 4 \u00d710 -3 | 30",
+        "document_offsets": {
+          "start": 321,
+          "end": 1634
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 158,
+            "end": 189,
+            "sentence_id": 8,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 302,
+            "end": 333,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 459,
+            "end": 490,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 669,
+            "end": 700,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 833,
+            "end": 864,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1006,
+            "end": 1037,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 46,
+            "sentence_id": 6,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 192,
+            "end": 197,
+            "sentence_id": 8,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 336,
+            "end": 341,
+            "sentence_id": 9,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 502,
+            "end": 507,
+            "sentence_id": 10,
+            "matched_text": "batch"
+          },
+          {
+            "start": 867,
+            "end": 872,
+            "sentence_id": 15,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 1252,
+            "end": 1257,
+            "sentence_id": 19,
+            "matched_text": "Batch"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "has Calculated methanol produced",
+      "object": "0.21 (mmol/L / h)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "produces Quoted amount of methanol",
+      "object": "13.2mM",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "[93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47",
+        "document_offsets": {
+          "start": 616,
+          "end": 773
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 143,
+            "end": 149,
+            "sentence_id": 9,
+            "matched_text": "13.2mM"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with Reaction volume",
+      "object": "1,000 mL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates in Reaction vessel",
+      "object": "not specified",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[92] | Methylosinus trichosporium OB3b | Batch | 5 | CH 4 :air (1:5 v/v) | 0.6 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. [93] | Methylosinus trichosporium OB3b | Continuous | Methylosinus trichosporium OB3b | Batch [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3",
+        "document_offsets": {
+          "start": 321,
+          "end": 1435
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 158,
+            "end": 189,
+            "sentence_id": 8,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 302,
+            "end": 333,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 459,
+            "end": 490,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 669,
+            "end": 700,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 833,
+            "end": 864,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1006,
+            "end": 1037,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "uses MDH inhibition method",
+      "object": "200 mMNaCl",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| 25 | 7.0 | 36 | 200 mMNaCl | 20 mMsodium formate | 7.7 mmol/L | 0.21",
+        "document_offsets": {
+          "start": 400,
+          "end": 471
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 28,
+            "sentence_id": 7,
+            "matched_text": "200 mMNaCl"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "produces Quoted amount of methanol",
+      "object": "7.7 mmol/L",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| 25 | 7.0 | 36 | 200 mMNaCl | 20 mMsodium formate | 7.7 mmol/L | 0.21",
+        "document_offsets": {
+          "start": 400,
+          "end": 471
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 53,
+            "end": 63,
+            "sentence_id": 7,
+            "matched_text": "7.7 mmol/L"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with pH",
+      "object": "7.4",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "has Cell density",
+      "object": "~1.5 \u00d710 12 dm 3",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "[121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4",
+        "document_offsets": {
+          "start": 471,
+          "end": 616
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "uses MDH inhibition method",
+      "object": "100 mMNaCl 1 mMEDTA",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "[93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. | 1,000 | CH 4 :air (1:1 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.7mM | 0.57",
+        "document_offsets": {
+          "start": 616,
+          "end": 1147
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 99,
+            "end": 118,
+            "sentence_id": 9,
+            "matched_text": "100 mMNaCl 1 mMEDTA"
+          },
+          {
+            "start": 281,
+            "end": 300,
+            "sentence_id": 10,
+            "matched_text": "100 mMNaCl 1 mMEDTA"
+          },
+          {
+            "start": 473,
+            "end": 492,
+            "sentence_id": 13,
+            "matched_text": "100 mMNaCl 1 mMEDTA"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "produces Quoted amount of methanol",
+      "object": "2.17 \u00b5mol/h/mg dry cell wt.",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "[93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt.",
+        "document_offsets": {
+          "start": 773,
+          "end": 968
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "receives Gas Feedstock",
+      "object": "CH4 :air (1:5 v/v)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[92] | Methylosinus trichosporium OB3b | Batch | 5 | CH 4 :air (1:5 v/v) | 0.6 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. [93] | Methylosinus trichosporium OB3b | Continuous | Methylosinus trichosporium OB3b | Batch [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3",
+        "document_offsets": {
+          "start": 321,
+          "end": 1435
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 158,
+            "end": 189,
+            "sentence_id": 8,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 302,
+            "end": 333,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 459,
+            "end": 490,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 669,
+            "end": 700,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 833,
+            "end": 864,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1006,
+            "end": 1037,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Total production period",
+      "object": "24 hours",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "has Calculated methanol produced",
+      "object": "6.61 \u00d710 -4 (mmol/L / h)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Process mode",
+      "object": "Batch",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 19,
+        "text_evidence": "[92] | Methylosinus trichosporium OB3b | Batch | 5 | CH 4 :air (1:5 v/v) | 0.6 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. | Methylosinus trichosporium OB3b | Batch [91] | Mixed methanotroph consortium from landfill soil | Batch | 100 | Artificial biogas:air (4:6 v/v) | 4 \u00d710 -3 | 30",
+        "document_offsets": {
+          "start": 321,
+          "end": 1634
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 46,
+            "sentence_id": 6,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 192,
+            "end": 197,
+            "sentence_id": 8,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 336,
+            "end": 341,
+            "sentence_id": 9,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 502,
+            "end": 507,
+            "sentence_id": 10,
+            "matched_text": "batch"
+          },
+          {
+            "start": 867,
+            "end": 872,
+            "sentence_id": 15,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 1252,
+            "end": 1257,
+            "sentence_id": 19,
+            "matched_text": "Batch"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "receives Gas Feedstock",
+      "object": "CH4 :air (1:1 v/v)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "has Bacteria strain",
+      "object": "Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 17,
+        "text_evidence": "[92] | Methylosinus trichosporium OB3b | Batch | 5 | CH 4 :air (1:5 v/v) | 0.6 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. [93] | Methylosinus trichosporium OB3b | Continuous | Methylosinus trichosporium OB3b | Batch [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3",
+        "document_offsets": {
+          "start": 321,
+          "end": 1435
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 158,
+            "end": 189,
+            "sentence_id": 8,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 302,
+            "end": 333,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 459,
+            "end": 490,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 669,
+            "end": 700,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 833,
+            "end": 864,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1006,
+            "end": 1037,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 158,
+            "end": 189,
+            "sentence_id": 8,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 302,
+            "end": 333,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 459,
+            "end": 490,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 669,
+            "end": 700,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 833,
+            "end": 864,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1006,
+            "end": 1037,
+            "sentence_id": 17,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "produces Quoted amount of methanol",
+      "object": "0 (mmol/L / h)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "produces Methane",
+      "object": "10 mL/day",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with Reaction volume",
+      "object": "500 mL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates at Temp.",
+      "object": "25 \u00b0 C",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with pH",
+      "object": "7.0",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 13,
+        "text_evidence": "| 25 | 7.0 | 36 | 200 mMNaCl | 20 mMsodium formate | 7.7 mmol/L | 0.21 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. | 1,000 | CH 4 :air (1:1 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.7mM | 0.57",
+        "document_offsets": {
+          "start": 400,
+          "end": 1147
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 10,
+            "sentence_id": 7,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 304,
+            "end": 307,
+            "sentence_id": 9,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 486,
+            "end": 489,
+            "sentence_id": 10,
+            "matched_text": "7.0"
+          },
+          {
+            "start": 678,
+            "end": 681,
+            "sentence_id": 13,
+            "matched_text": "7.0"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Total production period",
+      "object": "72 hours",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates at Temp.",
+      "object": "25 \u00b0C",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Process mode",
+      "object": "Continuous",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 17,
+        "text_evidence": "[93] | Methylosinus trichosporium OB3b | Continuous [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3",
+        "document_offsets": {
+          "start": 983,
+          "end": 1435
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 51,
+            "sentence_id": 12,
+            "matched_text": "Continuous"
+          },
+          {
+            "start": 378,
+            "end": 388,
+            "sentence_id": 17,
+            "matched_text": "Continuous"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with Reaction volume",
+      "object": "10 mL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Total production period",
+      "object": "28 hours",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "has Cell density",
+      "object": "10^9 cells/mL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates at Temp.",
+      "object": "30 \u00b0 C",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "operates with pH",
+      "object": "7",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 18,
+        "text_evidence": "| 25 | 7.0 | 36 | 200 mMNaCl | 20 mMsodium formate | 7.7 mmol/L | 0.21 [121] | Methylosinus trichosporium OB3b | Batch | 500 | CH 4 :O 2 (1:2 v/v) | ~1.5 \u00d710 12 dm 3 | 30 | 7 | 72 | - | - | 47.6 \u00b5mol/L | 6.61 \u00d710 -4 [93] | Methylosinus trichosporium OB3b | Batch | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 28 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.2mM | 0.47 [93] | Methylosinus trichosporium OB3b | Repeated batch 3 cycles of 8 h | 100 | CH 4 :air (1:3 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 2.17 \u00b5mol/h/mg dry cell wt. | 1,000 | CH 4 :air (1:1 v/v) | 0.6 | 25 | 7.0 | 24 | 100 mMNaCl 1 mMEDTA | 20 mMsodium formate | 13.7mM | 0.57 [79] Sealed flask | 10 | CH 4 :O 2 (1:1 v/v) | 17.3 | 30 | 6.3 | 40 | 400mM phosphate | 20 mmol/L sodium formate | 1.12 g/L | 0.87 [79] | Methylosinus trichosporium OB3b | Continuous Bubble free membrane reactor | 300 | CH 4 :O 2 (1:1 v/v) | 17.3 | 30 | 6.3 | 40 | 400mM phosphate | 20 mmol/L sodium formate | 0.95 g/L | 0.74",
+        "document_offsets": {
+          "start": 400,
+          "end": 1515
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 7,
+            "matched_text": "7"
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "sentence_id": 7,
+            "matched_text": "7"
+          },
+          {
+            "start": 55,
+            "end": 56,
+            "sentence_id": 7,
+            "matched_text": "7"
+          },
+          {
+            "start": 173,
+            "end": 174,
+            "sentence_id": 8,
+            "matched_text": "7"
+          },
+          {
+            "start": 304,
+            "end": 305,
+            "sentence_id": 9,
+            "matched_text": "7"
+          },
+          {
+            "start": 486,
+            "end": 487,
+            "sentence_id": 10,
+            "matched_text": "7"
+          },
+          {
+            "start": 678,
+            "end": 679,
+            "sentence_id": 13,
+            "matched_text": "7"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinosinus trichosporium OB3b",
+      "predicate": "undergoes Total production period",
+      "object": "36 hours",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page28_table2",
+        "page_number": 28,
+        "bbox_coordinates": {
+          "l": 53.79443359375,
+          "t": 541.2307548522949,
+          "r": 788.953857421875,
+          "b": 125.74282836914062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "24 hours",
+      "predicate": "is the total production period for",
+      "object": "Mixed methanotroph consortium from landfill soil",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "[91] | Mixed methanotroph consortium from landfill soil | Batch | 5,000 reactor, reaction volume | CH 4 :air (1:9 v/v) | a | a | a | 24 | 100 mMNaCl | - | 9.0 \u00b5mol/h mg cell",
+        "document_offsets": {
+          "start": 321,
+          "end": 495
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 55,
+            "sentence_id": 6,
+            "matched_text": "Mixed methanotroph consortium from landfill soil"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page29_table3",
+        "page_number": 29,
+        "bbox_coordinates": {
+          "l": 54.26433563232422,
+          "t": 532.5840034484863,
+          "r": 789.2368774414062,
+          "b": 245.99710083007812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mixed methanotroph consortium from landfill soil",
+      "predicate": "uses",
+      "object": "batch",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 8,
+        "text_evidence": "[91] | Mixed methanotroph consortium from landfill soil | Batch | 5,000 reactor, reaction volume | CH 4 :air (1:9 v/v) | a | a | a | 24 | 100 mMNaCl | - | 9.0 \u00b5mol/h mg cell [80] | Methylosinus trichosporium OB3b | Batch | 50 | CH 4 :air (1:1 v/v) Vgas/Vliq = 9 | 70 u/mL b | 30 | 7.0 | 24 | 12.9mM phosphate 100 mMNaCl 1.0 mMEDTA | 20 mMsodium formate | 290 mg/L | 0.38 [96] | Methylosinus trichosporium OB3b | Fed-batch Membrane bio-reactor (MBR)",
+        "document_offsets": {
+          "start": 321,
+          "end": 769
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 55,
+            "sentence_id": 6,
+            "matched_text": "Mixed methanotroph consortium from landfill soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 58,
+            "end": 63,
+            "sentence_id": 6,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 215,
+            "end": 220,
+            "sentence_id": 7,
+            "matched_text": "Batch"
+          },
+          {
+            "start": 416,
+            "end": 421,
+            "sentence_id": 8,
+            "matched_text": "batch"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page29_table3",
+        "page_number": 29,
+        "bbox_coordinates": {
+          "l": 54.26433563232422,
+          "t": 532.5840034484863,
+          "r": 789.2368774414062,
+          "b": 245.99710083007812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "5,000 reactor",
+      "predicate": "has",
+      "object": "reaction volume of 5,000 mL",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "[91] | Mixed methanotroph consortium from landfill soil | Batch | 5,000 reactor, reaction volume | CH 4 :air (1:9 v/v) | a | a | a | 24 | 100 mMNaCl | - | 9.0 \u00b5mol/h mg cell",
+        "document_offsets": {
+          "start": 321,
+          "end": 495
+        },
+        "subject_positions": [
+          {
+            "start": 66,
+            "end": 79,
+            "sentence_id": 6,
+            "matched_text": "5,000 reactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page29_table3",
+        "page_number": 29,
+        "bbox_coordinates": {
+          "l": 54.26433563232422,
+          "t": 532.5840034484863,
+          "r": 789.2368774414062,
+          "b": 245.99710083007812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mixed methanotroph consortium from landfill soil",
+      "predicate": "uses",
+      "object": "CH4 :air (1:9 v/v) as gas feedstock",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "[91] | Mixed methanotroph consortium from landfill soil | Batch | 5,000 reactor, reaction volume | CH 4 :air (1:9 v/v) | a | a | a | 24 | 100 mMNaCl | - | 9.0 \u00b5mol/h mg cell",
+        "document_offsets": {
+          "start": 321,
+          "end": 495
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 55,
+            "sentence_id": 6,
+            "matched_text": "Mixed methanotroph consortium from landfill soil"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page29_table3",
+        "page_number": 29,
+        "bbox_coordinates": {
+          "l": 54.26433563232422,
+          "t": 532.5840034484863,
+          "r": 789.2368774414062,
+          "b": 245.99710083007812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mixed methanotroph consortium from landfill soil",
+      "predicate": "operates in",
+      "object": "5,000 reactor",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "[91] | Mixed methanotroph consortium from landfill soil | Batch | 5,000 reactor, reaction volume | CH 4 :air (1:9 v/v) | a | a | a | 24 | 100 mMNaCl | - | 9.0 \u00b5mol/h mg cell",
+        "document_offsets": {
+          "start": 321,
+          "end": 495
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 55,
+            "sentence_id": 6,
+            "matched_text": "Mixed methanotroph consortium from landfill soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 79,
+            "sentence_id": 6,
+            "matched_text": "5,000 reactor"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page29_table3",
+        "page_number": 29,
+        "bbox_coordinates": {
+          "l": 54.26433563232422,
+          "t": 532.5840034484863,
+          "r": 789.2368774414062,
+          "b": 245.99710083007812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mixed methanotroph consortium from landfill soil",
+      "predicate": "experiences",
+      "object": "100 mMNaCl",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 10,
+        "text_evidence": "[91] | Mixed methanotroph consortium from landfill soil | Batch | 5,000 reactor, reaction volume | CH 4 :air (1:9 v/v) | a | a | a | 24 | 100 mMNaCl | - | 9.0 \u00b5mol/h mg cell [80] | Methylosinus trichosporium OB3b | Batch | 50 | CH 4 :air (1:1 v/v) Vgas/Vliq = 9 | 70 u/mL b | 30 | 7.0 | 24 | 12.9mM phosphate 100 mMNaCl 1.0 mMEDTA | 20 mMsodium formate | 290 mg/L | 0.38 | CH 4 :air (1:1 v/v) | 11 u/mL b | 25 | 7.0 | 48 | 12.9mM phosphate 100 mMNaCl | 20 mMsodium formate | 18.8 mg | 8.15 \u00d710 -2",
+        "document_offsets": {
+          "start": 321,
+          "end": 901
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 55,
+            "sentence_id": 6,
+            "matched_text": "Mixed methanotroph consortium from landfill soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 138,
+            "end": 148,
+            "sentence_id": 6,
+            "matched_text": "100 mMNaCl"
+          },
+          {
+            "start": 309,
+            "end": 319,
+            "sentence_id": 7,
+            "matched_text": "100 mMNaCl"
+          },
+          {
+            "start": 524,
+            "end": 534,
+            "sentence_id": 10,
+            "matched_text": "100 mMNaCl"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page29_table3",
+        "page_number": 29,
+        "bbox_coordinates": {
+          "l": 54.26433563232422,
+          "t": 532.5840034484863,
+          "r": 789.2368774414062,
+          "b": 245.99710083007812,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Bacteria strain",
+    "150",
+    "Exogenous reducing agent",
+    "Quoted amount of methanol produced",
+    "7.0",
+    "12.9mM phosphate",
+    "CH 4 :air (1:9 v/v)",
+    "Unidentified isolate 1",
+    "CH 4",
+    "11 u/mL b",
+    "pH",
+    "Calculated methanol produced",
+    "Process mode",
+    "Reaction vessel",
+    "MDH inhibition method",
+    "Temp.",
+    "Methylosinus trichosporium OB3b",
+    "[Batch Cells immobilised on DEAE-cellulose]",
+    "a",
+    "NCIB 11131",
+    "48 hours",
+    "5,000 reactor",
+    "Mixed methanotroph consortium",
+    "air",
+    "Cell density",
+    "ISPR",
+    "Methylosinus trichosporium IMV 3011",
+    "Unidentified isolate 2",
+    "fed-batch Membrane bio-reactor (MBR)",
+    "sodium formate",
+    "DEAE-cellulose",
+    "24 hours",
+    "Total production period",
+    "Gas Feedstock",
+    "CH 4 :air (1:1 v/v)",
+    "20 mMsodium formate",
+    "Methylosinus trichosporium NCIB 11131 (OB3b)",
+    "[Continuous Stirred membrane reactor with ISPR]",
+    "Reaction volume",
+    "batch",
+    "100 mMNaCl",
+    "Mixed methanotroph consortium from landfill soil",
+    "digester sludge",
+    "25 \u00b0C",
+    "O 2",
+    "Cyclopropanol",
+    "[Batch]",
+    "Methylosinus trichosporium OB3"
+  ]
+}

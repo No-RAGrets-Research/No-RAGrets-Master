@@ -1,0 +1,405 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 7,
+    "relations": 10,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 10,
+    "sections": {
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 3,
+        "relations": 7
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 4,
+        "relations": 3
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of A. Priyadarsini et al. 2023_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-15T01:30:35.850393"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "represents",
+        "has",
+        ","
+      ],
+      "relations": [
+        {
+          "subject": "represents",
+          "predicate": "), (2,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "represents",
+          "predicate": "), (1,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "has",
+          "predicate": "), (3,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "has",
+          "predicate": "), (5,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "has",
+          "predicate": "), (7,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "has",
+          "predicate": "), (9,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "has",
+          "predicate": "), (Ladder,",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig.  1. (a)  Genomic  DNA  extraction  from  rice  field  soil  samples  and  (b)  methane  monooxygenase  and  methanogenic  16S  rRNA  gene  detection  using  PCR amplification.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.767,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                732,
+                839
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 37.587,
+                "t": 66.66499976953116,
+                "r": 559.767,
+                "b": 50.560999769531236,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "enriched rice field soil consortium",
+        "5 days of incubation",
+        "M. buryatense",
+        "M. capsulatus"
+      ],
+      "relations": [
+        {
+          "subject": "M. buryatense",
+          "predicate": "produces methanol after",
+          "object": "5 days of incubation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Methanol production in M buryatense, M. capsulatus and enriched rice field soil consortium after 5 days of incubation.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 587.4459997695312,
+              "r": 290.766,
+              "b": 571.2849997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                918,
+                384
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              126
+            ]
+          }
+        },
+        {
+          "subject": "M. capsulatus",
+          "predicate": "produces methanol after",
+          "object": "5 days of incubation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Methanol production in M buryatense, M. capsulatus and enriched rice field soil consortium after 5 days of incubation.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 587.4459997695312,
+              "r": 290.766,
+              "b": 571.2849997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                918,
+                384
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              126
+            ]
+          }
+        },
+        {
+          "subject": "enriched rice field soil consortium",
+          "predicate": "produces methanol after",
+          "object": "5 days of incubation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2. Methanol production in M buryatense, M. capsulatus and enriched rice field soil consortium after 5 days of incubation.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 587.4459997695312,
+              "r": 290.766,
+              "b": 571.2849997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                918,
+                384
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              126
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 37.587,
+                "t": 587.4459997695312,
+                "r": 290.766,
+                "b": 571.2849997695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

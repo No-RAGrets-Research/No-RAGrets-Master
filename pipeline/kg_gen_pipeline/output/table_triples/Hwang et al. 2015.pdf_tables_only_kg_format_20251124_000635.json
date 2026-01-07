@@ -1,0 +1,1615 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 7,
+    "relations": 40,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Hwang et al. 2015.json",
+    "processed_at": "2025-11-24T00:06:35.873248"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "5:5",
+      "predicate": "has",
+      "object": "Air:methane ratio",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 181,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "5:5"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "Air:methane ratio"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.22",
+      "predicate": "corresponds_to",
+      "object": "Dry cell weight",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 187,
+            "end": 191,
+            "sentence_id": 1,
+            "matched_text": "0.22"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 35,
+            "sentence_id": 0,
+            "matched_text": "Dry cell weight"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.036",
+      "predicate": "corresponds_to",
+      "object": "Specific growth rate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 98,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 56,
+            "sentence_id": 1,
+            "matched_text": "0.036"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 1,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table0",
+      "predicate": "contains",
+      "object": "Air:methane ratio",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane)",
+        "document_offsets": {
+          "start": 0,
+          "end": 97
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "Air:methane ratio"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.33",
+      "predicate": "corresponds_to",
+      "object": "Methane-to-biomass conversion",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 194,
+            "end": 198,
+            "sentence_id": 1,
+            "matched_text": "0.33"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 75,
+            "sentence_id": 0,
+            "matched_text": "Methane-to-biomass conversion"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table0",
+      "predicate": "provides",
+      "object": "Methane-to-biomass conversion",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane)",
+        "document_offsets": {
+          "start": 0,
+          "end": 97
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 75,
+            "sentence_id": 0,
+            "matched_text": "Methane-to-biomass conversion"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.18",
+      "predicate": "corresponds_to",
+      "object": "Methane-to-biomass conversion",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 142,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "0.18"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 75,
+            "sentence_id": 0,
+            "matched_text": "Methane-to-biomass conversion"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "8:2",
+      "predicate": "has",
+      "object": "Air:methane ratio",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 129,
+            "end": 132,
+            "sentence_id": 1,
+            "matched_text": "8:2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "Air:methane ratio"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "7:3",
+      "predicate": "has",
+      "object": "Air:methane ratio",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 155,
+            "end": 158,
+            "sentence_id": 1,
+            "matched_text": "7:3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "Air:methane ratio"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table0",
+      "predicate": "provides",
+      "object": "Dry cell weight",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane)",
+        "document_offsets": {
+          "start": 0,
+          "end": 97
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 35,
+            "sentence_id": 0,
+            "matched_text": "Dry cell weight"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.47",
+      "predicate": "corresponds_to",
+      "object": "Methane-to-biomass conversion",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 172,
+            "sentence_id": 1,
+            "matched_text": "0.47"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 75,
+            "sentence_id": 0,
+            "matched_text": "Methane-to-biomass conversion"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table0",
+      "predicate": "provides",
+      "object": "Specific growth rate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 98,
+          "end": 206
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 1,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.039",
+      "predicate": "corresponds_to",
+      "object": "Specific growth rate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 98,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 103,
+            "end": 108,
+            "sentence_id": 1,
+            "matched_text": "0.039"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 1,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.21",
+      "predicate": "corresponds_to",
+      "object": "Dry cell weight",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 161,
+            "end": 165,
+            "sentence_id": 1,
+            "matched_text": "0.21"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 35,
+            "sentence_id": 0,
+            "matched_text": "Dry cell weight"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.044",
+      "predicate": "corresponds_to",
+      "object": "Specific growth rate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 98,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 77,
+            "end": 82,
+            "sentence_id": 1,
+            "matched_text": "0.044"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 1,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0.16",
+      "predicate": "corresponds_to",
+      "object": "Dry cell weight",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Air:methane ratio | Dry cell weight (mg/ml) | Methane-to-biomass conversion (g biomass/g methane) | Specific growth rate (h -1 )\n8:2 | 0.16 | 0.18 | 0.036\n7:3 | 0.21 | 0.47 | 0.044\n5:5 | 0.22 | 0.33 | 0.039",
+        "document_offsets": {
+          "start": 0,
+          "end": 206
+        },
+        "subject_positions": [
+          {
+            "start": 135,
+            "end": 139,
+            "sentence_id": 1,
+            "matched_text": "0.16"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 35,
+            "sentence_id": 0,
+            "matched_text": "Dry cell weight"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.73800277709961,
+          "t": 722.4295883178711,
+          "r": 549.0587768554688,
+          "b": 665.2330932617188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 5 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.34",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 83,
+            "end": 87,
+            "sentence_id": 2,
+            "matched_text": "0.34"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table1",
+      "predicate": "contains column",
+      "object": "Specific growth rate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 1 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.28",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 59,
+            "end": 63,
+            "sentence_id": 2,
+            "matched_text": "0.28"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 0 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39 | 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 108,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 32,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 35,
+            "end": 36,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 42,
+            "end": 43,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 49,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 59,
+            "end": 60,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 66,
+            "end": 67,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 73,
+            "end": 74,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 83,
+            "end": 84,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 90,
+            "end": 91,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 97,
+            "end": 98,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 108,
+            "end": 109,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 115,
+            "end": 116,
+            "sentence_id": 2,
+            "matched_text": "0"
+          },
+          {
+            "start": 122,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "0"
+          },
+          {
+            "start": 133,
+            "end": 134,
+            "sentence_id": 3,
+            "matched_text": "0"
+          },
+          {
+            "start": 140,
+            "end": 141,
+            "sentence_id": 3,
+            "matched_text": "0"
+          },
+          {
+            "start": 147,
+            "end": 148,
+            "sentence_id": 3,
+            "matched_text": "0"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 1 in Table page3_table1",
+      "predicate": "has value",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39 | 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 108,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 55,
+            "end": 56,
+            "sentence_id": 2,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 1 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.053",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39 | 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 108,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 73,
+            "end": 78,
+            "sentence_id": 2,
+            "matched_text": "0.053"
+          },
+          {
+            "start": 122,
+            "end": 127,
+            "sentence_id": 3,
+            "matched_text": "0.053"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table1",
+      "predicate": "contains column",
+      "object": "Methane-to-biomass conversion",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Methane-to-biomass conversion (g biomass/g methane)",
+        "document_offsets": {
+          "start": 54,
+          "end": 107
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 31,
+            "sentence_id": 1,
+            "matched_text": "Methane-to-biomass conversion"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 5 in Table page3_table1",
+      "predicate": "has value",
+      "object": "5",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39 | 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 108,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 80,
+            "sentence_id": 2,
+            "matched_text": "5"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 10 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.32",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 112,
+            "sentence_id": 2,
+            "matched_text": "0.32"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 50 in Table page3_table1",
+      "predicate": "has value",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 228,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 10,
+            "sentence_id": 3,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 0 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.22",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 39,
+            "sentence_id": 2,
+            "matched_text": "0.22"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 5 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.059",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 97,
+            "end": 102,
+            "sentence_id": 2,
+            "matched_text": "0.059"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table1",
+      "predicate": "contains column",
+      "object": "Dry cell weight",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration ( \u00b5 M) | Dry cell weight (mg/ml)",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 45,
+            "sentence_id": 0,
+            "matched_text": "Dry cell weight"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 10 in Table page3_table1",
+      "predicate": "has value",
+      "object": "10",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 103,
+            "end": 105,
+            "sentence_id": 2,
+            "matched_text": "10"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 50 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.11",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 228,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "0.11"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 10 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.39",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 115,
+            "end": 119,
+            "sentence_id": 2,
+            "matched_text": "0.39"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 50 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.15",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 228,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 24,
+            "sentence_id": 3,
+            "matched_text": "0.15"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 5 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.46",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 90,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "0.46"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 10 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.053",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39 | 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 108,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 73,
+            "end": 78,
+            "sentence_id": 2,
+            "matched_text": "0.053"
+          },
+          {
+            "start": 122,
+            "end": 127,
+            "sentence_id": 3,
+            "matched_text": "0.053"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 0 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.044",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 54,
+            "sentence_id": 2,
+            "matched_text": "0.044"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 0 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.47",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 46,
+            "sentence_id": 2,
+            "matched_text": "0.47"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 50 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.032",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| 0.053\n50 | 0.11 | 0.15 | 0.032",
+        "document_offsets": {
+          "start": 228,
+          "end": 260
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 32,
+            "sentence_id": 3,
+            "matched_text": "0.032"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Row 1 in Table page3_table1",
+      "predicate": "has value",
+      "object": "0.36",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Specific growth rate (h -1 )\n0 | 0.22 | 0.47 | 0.044\n1 | 0.28 | 0.36 | 0.053\n5 | 0.34 | 0.46 | 0.059\n10 | 0.32 | 0.39",
+        "document_offsets": {
+          "start": 108,
+          "end": 227
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 70,
+            "sentence_id": 2,
+            "matched_text": "0.36"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page3_table1",
+      "predicate": "contains column",
+      "object": "Copper concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration ( \u00b5 M) | Dry cell weight (mg/ml)",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 20,
+            "sentence_id": 0,
+            "matched_text": "Copper concentration"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 45.69560241699219,
+          "t": 631.8756256103516,
+          "r": 549.3253173828125,
+          "b": 546.7605895996094,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Dry cell weight",
+    "Copper concentration",
+    "Methane-to-biomass conversion",
+    "Air:methane ratio",
+    "Specific growth rate",
+    "Table page3_table1",
+    "Table page3_table0"
+  ]
+}

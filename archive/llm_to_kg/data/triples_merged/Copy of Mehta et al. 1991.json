@@ -1,0 +1,328 @@
+[
+  {
+    "chunk_index": 0,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nMethanol Biosynthesis by Covalently Immobilized Cells of Methy/osinus trichosporium; Batch and Continuous Studies Perdeep K. Mehta? Saroj Mishra; and Tarun K. Ghose %iochemical  Engineering Research Centre, Indian Institute of Technolog  y-Delhi, Hauz Khas, New Delhi-110 016,  India Received March 30,  1990lAccepted  August 23,  1990 The DEAE-cellulose  linked cells of Methylosinus trichosporium displaying high specific methane mono-oxygenase activity (66 pmol methane oxidizedlh mg cells) were used for methanol  biosynthesis  from biogas  derived  methane in a batch and a continuous cell reactor. The  optimum cell-tocarrier ratio was determined to be 0.5 g cells/g  dry weight cellulose. Batch experiments  indicated that  100 m M   phosphate ion concentration was necessary  to inhibit further oxidation of methanol; excess oxygen supply favored methanol accumulation with an increase in methane conversion efficiency to 27%. A  pulse of  40  m M   sodium  formate  at the end of 6 h\n\nOutput: [('Batch experiments', 'indicated', '100 m M phosphate ion concentration was necessary'), ('Optimum cell-to-carrier ratio', 'was determined', 'to be 0.5 g cells/g dry weight cellulose'), ('Excess oxygen supply', 'favored', 'methanol accumulation')] Here is the extracted list of factual triples:\n\n1. (Batch experiments, indicated, 100 m M phosphate ion concentration was necessary)\n2. (Optimum cell-to-carrier ratio, was determined, to be 0.5 g cells/g dry weight cellulose)\n3. (Excess oxygen supply,",
+    "source": "text"
+  },
+  {
+    "chunk_index": 1,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nresulted in restoration of methanol accumulation by regenerating NADH2 required for the sustained activity of methane mono-oxygenase. Maximum methanol level of 50 pmol/mg cells was  obtained  in the batch  reactor.  In a standard 50-mL ultrafiltration continuous reactor, the covalently linked cells produced methanol at a continuous  rate of  100 pmol/h  for the first  10  h,  after  which the methanol accumulation rate fell low due to the depletion of NADH2  . The methanol accumulation could be stimulated by supplying sodium formate (40 mM) in either 20 or  100 m M   phosphate buffer.  Maximum methanol accumulation rate of 267 pmol/h was obtained when 20 mM  formate was supplied in the feed stream containing 100 m M   phosphate ions, and this level of biosynthesis was maintained for over 72 h. The stoichiometric  balance made at various  points of formate addition indicated that the molar amount of methanol generated at  steady  state  is dependent  on  the  equimolar addition of\n\nOutput: the subject, predicate, and object are separated by \"<sep>\".\n[[\"maximum methanol level\", \"obtained\", \"in the batch reactor\"], [\"methanol accumulation\", \"regenerated\", \"NADH2\"], [\"maximum methanol accumulation rate\", \"stimulated\", \"supplying sodium formate\"], [\"steady state\", \"dependent\", \"equimolar addition of methanol\"]]\n\nThis task requires extracting facts from the given text and presenting them in a structured format. To accomplish this, I will identify each piece of information provided in the text and categorize it into its respective subject, predicate, and object.",
+    "source": "text"
+  },
+  {
+    "chunk_index": 2,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nsodium formate to the feed. The half-life t1,2 and thermal denaturation rate constant K d were computed to be 108 h and 6.42  x h-',  respectively. Key words: Methylosinus trichosporium methanol biosynthesis immobilization batch and continuous studies INTRODUCTION The single-step  oxidation  of  methane  to  methanol  is catalyzed  by  the  NADH-dependent methane  monooxygenase (MMO) in the obligate methanotroph Methylosinus  trichosporium. Although  some  oxidation  of methane to carbon dioxide through methanol has been reported  with  cells  of Nitrosomonas, lS2  the  niethanotrophs  catalyze  this  reaction  at  a  faster  rate.  Due  to the  ability  of  MMO  to  oxygenate  a  wide  range  of * Present  address:  Biochemisches  Institut der  Universitat Zurich, Winterthurerstrasse  190, CH-8057 Zurich, Switzerland. ' To whom all correspondence should be addressed. n-alkanes, substituted  alkanes, ethers,  and  aromatic, alicyclic, and heterocyclic corn pound^,^-^ yielding\n\nOutput: [('methane', 'oxidation', 'methanol'), ('methylosinus trichosporium', 'catalyzes', 'methane monooxygenase')] Here's how I arrived at the output:\n\n1. \"The single-step oxidation of methane to methanol is catalyzed by the NADH-dependent methane monooxygenase (MMO) in the obligate methanotroph Methylosinus trichosporium.\"\n   - Subject: Methylosinus trichosporium\n   - Relation: catalyzes\n   - Object: methane monooxygenase\n\n2",
+    "source": "text"
+  },
+  {
+    "chunk_index": 3,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ncorresponding alcohols, the enzyme has recently been  studied  for  such  biocatalytic  conversions  (for  review,  see ref. 6). The microbial  route  of  methanol  biosynthesis  is much  more  complicated  than  ethanol  fermentation  as methanol  gets  further  oxidized  in  methylotrophs  to formaldehyde by  NADH-independent  methanol  oxidase/dehydrogenase activity. It  has previously  been  reported  that  high  concentration  of  phosphate  ions (>80 mM) selectively inhibited methanol oxidation activity  in  whole  cells  of M. trichosporium NCIB 11131, leading to extracellular methanol  acc~mulation.~.~ The inorganic  phosphate-dependent  inhibition  of  enzyme activity  was  shown  to be  reversible  and  followed  uncompztitive inhibition kinetics.' A  study on  the effect of  various  inhibitors,  metal  ions,  and  adenine  nucleotides  on  methanol  oxidation  activity  indicated  the enzyme activity to be stimulated by Mg2+  ions and inhibited by ADP and ATP.9 The purpose\n\nOutput: hydrogen bonds, water molecules, and other solvents are essential for maintaining the structure of proteins. Proteins can also adopt different conformations depending on their environment, which allows them to perform diverse functions within living organisms. In addition, proteins often interact with other biomolecules like carbohydrates, lipids, and nucleic acids through non-covalent interactions such as hydrogen bonding, hydrophobic interactions, and electrostatic forces. These interactions play crucial roles in protein-protein interactions, protein-DNA interactions, and protein-ligand binding events. Furthermore, proteins undergo post-translational modifications such as phosphorylation, glycosylation, and ubiqu",
+    "source": "text"
+  },
+  {
+    "chunk_index": 4,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nof this investigation  was  to  use M. trichosporium cells  (free  and immobilized)  for  the biosynt hesis  of   methanol  from biogas  derived  methane, based  on  our  studies  on  the regulation  of  methanol  oxidation  activity.  Methanol biosynthesis was carried out in a small batch and a continuous  reactor  using  the  covalently  linked  cells.  The basic studies on the operating conditions of the reactor and  substrate  requirement  for  coenzyme  regeneration are described. Batch experiments were performed to optimize methane and oxygen input and substrate supplied for  coenzyme regeneration.  In continuous experiments effects of  formate  and  phosphate  ion  supply  and  residence time on methanol accumulation rate were studied. MATERIALS AND METHODS Organism Methylosinus  trichosporium 11131 used  in  the  present study was obtained  from NCIB (Aberdeen, U.K.). The culture was maintained  on nitrate mineral  salts (NMS) Biotechnology and Bioengineering, Vol. 37,  Pp.\n\nOutput: the subject is \"M. trichosporium\", the relation is \"used in\", and the object is \"the present study\". \n\nThe output should be formatted as follows:\n\n[(\"M. trichosporium\", \"used in\", \"the present study\")] To extract all factual triples from the given text, I'll follow these steps:\n\n1. Identify subjects, relations, and objects within each sentence.\n2. Format each triple with the subject, relation, and object.\n3. Compile all triples into a single list.\n\nHere's the process applied to the provided text:\n\n1. Subject-Relation-Object pairs:",
+    "source": "text"
+  },
+  {
+    "chunk_index": 5,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n551-556  (1991) 0 1991 John Wiley & Sons, Inc. CCC  0006-3592/91/060551-06$04.00 medium\"  in  an anaerobic steel container  under  an atmosphere of  methane and air (1 : 1, v/v)  at 30°C. Growth Large-scale cultivation of cells was carried out in a 2-L Biolaffite fermentor  as described previously7  on NMS medium. Early stationary phase cells were harvested at 10, O O O g  for  15 min  at 4°C  and washed  twice with cold 20  mM phosphate  buffer  (pH  7.0).  Cells were  resuspended in the same buffer containing 5 mM MgClz (at a cell concentration of  70-80  mg/mL) and used for immobilization. lmmobilizat  ion The cells were immobilized on DEAE-cellulose  (Sigma Chemical Co.) according to Griffith  and  Muir\"  with some modifications. Dry  DEAE-cellulose  was  added to  15 vol  of 0.5M HC1,  allowed  to  stir  for  30  min  at 100 rpm, and the supernatant removed by suction filtration using a Buchner funnel. The DEAE-cellulose was then  washed  with  distilled water  until  the  pH  of\n\nOutput: [('DEAE-cellulose', 'added', '15 vol of 0.5M HC1'), ('cells', 'immobilized on', 'DEAE-cellulose')]",
+    "source": "text"
+  },
+  {
+    "chunk_index": 6,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nthe washings was between 4.0  and 6.0. The washed preparation  of  DEAE-cellulose was  suspended in  15 vol  of 0.5\"  NaOH  and  stirred for  30  min  at  the  same rpm; the alkali was removed by suction filtration and washed with distilled water  until  the washings were at neutral pH. The washed DEAE-cellulose  was resuspended in 50  mM  sodium  phosphate  buffer,  pH  7.0,  and  glutaraldehyde (25%, w/v  aqueous solution) was  added  to give a final concentration of  1 %  (w/v). After stirring for 2 h at  room temperature,  the  DEAE-cellulose derivative  was  recovered  by  filtration  and  the  excess  glutaraldehyde  removed  by  washing  with  the  sodium phosphate buffer (50 mM, pH 7.0). The glutaraldehyde activated DEAE-cellulose  was resuspended in  buffer, and an equal volume of  a suspension of whole cells containing 40 mg cells/mL of M. trichosporium in the same buffer was added. The clumps thus obtained were dispersed by  shaking for 2 h at  100 rpm  and kept  at 4°C\n\nOutput: [('The washings', 'between', '4.0'), ('The washings', 'and', '6.0')], [('The washed preparation', 'of', 'DEAE-cellulose'), ('was', 'suspended', 'in'), ('15 vol', 'of', '0.5\"', 'NaOH')], [('The alkali', 'was', 'removed'), ('by', 'suction filtration'), ('and'), ('washed'), ('with'), ('distilled water'), ('until'), ('the'), ('washings', 'were', 'at'), ('neutral pH')], [('The washed",
+    "source": "text"
+  },
+  {
+    "chunk_index": 7,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\novernight.  The  immobilized  preparation  was  washed with sodium phosphate buffer containing 0.5M NaCl to remove  noncovalently  bound  cells.  The  immobilized whole  cells were  stored  at  4°C  and  used  for  15  days without any loss of  methane mono-oxygenase activity. Analytical Methods Formate  dehydrogenase activity was  measured  as  described  previously7 using  sodium  formate  as  the  substrate. The activity is expressed as pmole C 0 2   produced per hour per milligram cells. Methane, carbon dioxide, and oxygen concentrations were  determined  chromatographically  (GLC) using  a molecular sieve 13x or 5A column in the thermal conductivity mode. Hydrogen served as the carrier gas at a flow rate of  40 mL/min. The temperatures of  the oven, detector,  and  injector were  40\"C,  50\"C,  and  50\"C, respectively, and current flow was 150 mA. The calibrations were made with  standard methane (5.1% in N2),  COz  (2.2% in H2),  and oxygen supplied by EDT research.  The retention\n\nOutput: references:\n\n[['overnight', 'The', 'imobilized'],\n['the', 'immobilized', 'preparation'],\n['was', 'washed', 'with'],\n['sodium', 'phosphate', 'buffer'],\n['containing', '0.5M', 'NaCl'],\n['to'], ['remove', 'noncovalently', 'bound'],\n['cells'],\n['the', 'immobilized', 'whole'],\n['cells', 'were', 'stored'],\n['at', '4°C'],\n['and', 'used', 'for'],\n['15', 'days'],\n['without', 'any',",
+    "source": "text"
+  },
+  {
+    "chunk_index": 8,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ntimes  for  methane  and carbon dioxide were 20 and 70 s, respectively. Oxygen was analyzed in a molecular sieve 13x column and had a retention time of  25 s. Methanol  was  estimated  chromatographically using a Porapak Q column in the flame ionization mode. Nitrogen was  used  as  the  carrier  gas  at  a  flow  rate  of 40  mL/min.  The temperatures  of  the  oven,  detector, and  injector  were  controlled  at  140\"C,  160°C, and 160\"C, respectively. The retention  time  for  methanol was  50 s. Absolute  methanol  (99.9%) from  Prolabo (Paris) was  used  as  the  standard  in  the  range  2.012.0 pmol/mL  (or 0.02%-0.1%,  v/v). Batch Experiments The batch experiments were conducted in 30-mL Subasealed conical flasks (under atmospheric pressure) containing  2-4 mg  cells  (in  experiments  involving free cells) or 18 mg  cells (in experiments involving immobilized  cells), after  correcting  for  cell  leakage, in  5 mL reaction  mixture.  It  also  contained  80-100 pmol/mL\n\nOutput: [('Oxygen', 'retention time', '25 s'), ('Methane', 'retention time', '20 s'), ('Carbon dioxide', 'retention time', '70 s'), ('Nitrogen', 'carrier gas', 'at a flow rate of 40 mL/min'), ('Absolute methanol', 'standard', '99.9%')] Here is the extracted list of factual triples:\n\n1. (Oxygen, retention time, 25 s)\n2. (Methane, retention time, 20 s)\n3. (Carbon dioxide, retention time, 70",
+    "source": "text"
+  },
+  {
+    "chunk_index": 9,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nphosphate  ions  and  5  pmol/mL  MgC12. The  gaseous phase  of  the  flask  was  replaced  by  methane  (2425 pmol/mL) and varying concentrations of  oxygen (as described in the text). The flasks were incubated shaken (200 rpm) for 3 h at 35°C on a controlled temperature rotary shaker (Adolf Kuhner, Switzerland). Gas-liquid chromatographic  determinations of  the  gas  phase (methane  and  oxygen) and  aqueous phase  (methanol) were carried out as listed above. All batch experiments were conducted in  triplicate.  The  reported  values are an average of  three runs with a variation of  5 7 %   from the mean. Continuous Experiments: Reactor Set-up A standard  50-mL capacity  ultrafiltration  (UF) cell (Pharmacia, Sweden) was converted into a continuous stirred  reactor  (Fig.  1).  The UF cell  was  filled  with 50 mL of  DEAE-cellulose  immobilized microbial cell preparation  suspended  in  20 mM phosphate  buffer (pH 6.4) at  a  density of 4 mg  dry weight  carrier/mL reactor volume.\n\nOutput:  [('phosphate ions', 'and', '5 pmol/mL MgC12'), ('gaseous phase', 'of', 'the flask'), ('replaced', 'by', 'methane'), ('molecules', 'in', 'the gaseous phase'), ('varying', 'concentrations', 'of oxygen'), ('incubated', 'shaken', 'for'), ('hours', 'at', '35°C'), ('rotary shaker', 'on', 'a controlled temperature rotary shaker'), ('gas-liquid chromatographic', 'determinations', 'of the gas",
+    "source": "text"
+  },
+  {
+    "chunk_index": 10,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nThe top disc was sealed air tight, and two  silicone  rubber  tubes  (1  mm  diameter) were  inserted  from the  inlet  hole  of  the  UF cell.  One of  the silicone tubes was  extended  to  the  bottom  of  the  cell and connected to a sparger made of a hard, plastic tube (1 mm  diameter) ring with  holes  along the  periphery. The pressure release vent  of  the UF cell was replaced with a glass capillary connected through a rubber stopper  to be used  as an outlet for the circulating gaseous 552 BIOTECHNOLOGY AND BIOENGINEERING, VOL. 37, MARCH 1991 Figure 1. Continuous stirred tank reactor setup. Peristaltic  pump ,,   , , , , , , , , , , , , , , , , 111 \\ I Methanol in phosphate buffer Water outlet UF Cell Water ~bath Water. inlet Phosphate buffer Magnetic stirrer mixture. The temperature was maintained  by  circulating water at 35°C around the UF cell. A magnetic stirrer was used to stir the reactor contents. The reaction  was  started  by  allowing  mixture  of gases (CH4 and 02;\n\nOutput: [('top disc', 'sealed', 'air tight'), ('two', 'silicone', 'rubber tubes')]\n\nNote: The output is a list of tuples where each tuple represents a triple consisting of a subject, predicate, and object. In this case, the subject is \"the top disc\", the predicate is \"sealed\", and the object is \"air tight\". Similarly, the subject is \"two\" and the predicate is \"silicone rubber tubes\". Note that there are no relations between the objects in these triples since they do not have any relationships specified in the given text. To extract all factual triples from the provided text,",
+    "source": "text"
+  },
+  {
+    "chunk_index": 11,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n1:1, v/v)  to sparge through the UF cell. The gaseous mixture was  continuously circulated by  means of  a peristaltic pump. The feed consisted of 100 mM phosphate buffer  (pH 6.4) containing 5 mM MgC12 (and other ingredients, if  required) and was fed continuously from the top of  the UF cell by means of  a variable-speed multichannel peristaltic pump. The second channel o f   the peristaltic pump was used to remove product  continuously  from  the  base  of  the  UF cell. Samples were drawn at regular intervals to analyze for gas contents and methanol produced. The steady state was  assumed to have been attained when the values of methane in the effluent, determined by successive sampling, levelled off to a constant value. The above procedure was repeated for different dilution rates. RESULTS AND DISCUSSION Batch Data The immobilization of M. trichosporium whole cells by covalent  linking  to  glutaraldehyde  activated DEAEcellulose was  found  most  suitable for retaining  MMO\n\nOutput: sentences = [\n    ('The gaseous mixture', 'was', 'circulated'),\n    ('The feed', 'consisted', 'of'),\n    ('the second channel', 'of', 'the peristaltic pump'),\n    ('samples', 'were', 'drawn'),\n    ('steady state', 'was', 'assumed')\n] Here is the output list of triples extracted from the given text:\n\n```python\nsentences = [\n    ('The gaseous mixture', 'was', 'circulated'),\n    ('The feed', 'consisted', 'of'),\n    ('the second channel', 'of', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 12,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nactivity compared to the other immobilization methods tried  in  our  laboratory such  as  physical adsorption  or entrapment. No extracellular methanol accumulated in the latter two methods. The effect of  changing the cellto-carrier  ratio  on  methanol  accumulation  and  cell leakage is shown in Figure 2. Maximum methanol accumulation rate  of  8.2  pmol/h  was  obtained  at  0.5 g cells/g  dry  weight  cellulose,  after  which  the  rate  fell sharply due to significant leakage of cells. The pH optimum was determined to be ranging from 6.2 to 6.6 in comparison to the reported value of  6.4 for free cells7 Hence, immobilized cells appeared to be less sensitive to a pH change in this range for optimum methanol accumulation. The temperature optimum was 35\"C, simi- Figure 2. accumulation. Effect  of  changing cell-to-carrier  ratio  on  methanol 0 .o 0.0 0 . 2 0.4 0 . 6 0. 8 1.0 g cell/g support 9.0 - accumulated (Mmole/h) 7.5- 6.0 4.5 Methano! 3.0- 140 -30 -20 Leakage of cells 1.5-\n\nOutput: [('immobilization', 'method', 'physical adsorption'), ('immobilization', 'method', 'entrapment'), ('methanol', 'accumulation', 'no extracellular methanol accumulated'), ('cell-to-carrier ratio', 'effect', 'maximum methanol accumulation rate'), ('cell-to-carrier ratio', 'rate', '8.2 pmol/h'), ('cell-to-carrier ratio', 'leakage', 'significant'), ('pH optimum', 'range', '6.2 to 6.6'), ('temperature optimum', 'value', '35°C')]\n\nThis output contains only the",
+    "source": "text"
+  },
+  {
+    "chunk_index": 13,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n-10 lar to that observed for free cells. The temperature data were replotted in the form of an Arrhenius plot to calculate  activation  energy (E,) for  free  and  immobilized cells (Fig. 3). The values of E, for free and immobilized cells were  computed to be  19,537 and  14,800 cal/mol, respectively. The optimum concentration of  phosphate ions required for inhibition of methanol oxidation activity was  100 mM, slightly higher than  that  required by the free cells (80 mM).7  Oxygen appeared to be the rate limiting substrate for methanol biosynthesis in immobilized  cell  preparations.  The replacement  of  air  with oxygen in batch cultures supported a total methanol accumulation rate  of  8.92 pmol/h  mg  cells, representing an  increase in  conversion  efficiency over  air  supplied cells from 10% to 27% (Table I). This value is threefold higher than that reported by HOU\"  for propylene oxide synthesis using M. trichosporium OB3b. An increase in oxygen concentration  was  seen  to\n\nOutput: the output should be a list of tuples where each tuple represents a triple (subject, predicate, object).\n[\n    (\"-10\", \"to\", \"that observed for free cells\"),\n    (\"Arrhenius plot\", \"reproduced\", None),\n    (\"activation energy\", \"computed\", \"for free and immobilized cells\"),\n    (\"free cells\", \"had\", \"a lower value of E, compared to immobilized cells\"),\n    (\"immobilized cells\", \"had\", \"a higher value of E, compared to free cells\"),\n    (\"optimum concentration of phosphate ions\", \"required\", \"for inhibition of meth",
+    "source": "text"
+  },
+  {
+    "chunk_index": 14,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nresult  in  decreased methane uptake rates. It has been reported  that under oxygen  excess (methane  limiting)  conditions,  the  enzyme  MMO  in M.  capsulatus and M. trichosporium OB3b switches from soluble to particulate form63l3  and may exhibit altered reaction specificities toward different substrates. This may be responsible for the observed phenomenon. The synthesis of  methanol by  immobilized cells was at a constant rate of  8.75  pmol/h  mg cells for the first 2.5 h (Fig. 4), and the rate fell sharply after 6 h. In our earlier studies with  free cells, the fall in  the methanol accumulation  rate  was  attributed  to  depletion  of  the endogenous NADHz pool, and methanol accumulation rate was maximally stimulated by supplying 40 mM formate to the  reaction ves~e1.I~ With  immobilized cells, maximum stimulation in methanol accumulation rate to 8.6  ,umol/h  mg  cells occurred  on  addition  of  40  mM MEHTA, MISHRA, AND GHOSE:  METHANOL BIOSYNTHESIS BY COVALENTLY\n\nOutput: hydrogen sulfide-oxidizing bacteria\nThe output is a list of tuples containing subject, predicate, and object:\n\n1. (\"result\", \"in\", \"decreased methane uptake rates\")\n2. (\"It has been reported\", \"that\", \"under oxygen excess (methane limiting) conditions, the enzyme MMO in M. capsulatus and M. trichosporium OB3b switches from soluble to particulate form63l3 and may exhibit altered reaction specificities toward different substrates.\")\n3. (\"This may be responsible for the observed phenomenon.\", \"for\", \"the observed phenomenon.\")\n4. (\"The",
+    "source": "text"
+  },
+  {
+    "chunk_index": 15,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nIMMOBILIZED CELLS 553 Figure 3. Temperature data of  enzyme activity plotted as Arrhe nius plot: (a) free cells; (b) immobilized  cells. 2.4 2.0- h c E 1.6- E 3 1.2 E a --. cn \\ u w 0 cn 0.8- - 3.0 3.1 3.2 3.3 3.4 I / T ( OK-' x j o 3 ) (a) - - \\ q 2.0 E 1.2 a - I o.4 t - 0 . 0 3.0 3.1 3 . 2 3.3 3.4 50 4 0 30 20 Temperature (\"C) T / T (OK-? x 10-3 I (b) 0.4- 40 35 30 Temperature (°C) 2.81 1.6 0.8- formate  at  the  sixth  hour  (Fig. 4). Total  extracellular methanol  levels of  up  to  50  pmol/mg  cells were  observed at  the end  of  12 h.  The in  situ regeneration of NADH2 has  been  demonstrated  earlier  by  supplying methane metabolites to free cells l5 and to immobilized cells.I2 In  spite o f   an  excess of  methane  and  formate detected in the reaction vessel, the rate of  methanol accumulation dropped sharply beyond  14 h. The reasons for this are not clear. The MMO activity in  immobilized cell preparations stored at 4°C was studied over a period of  15 days. The\n\nOutput: [('Temperature', 'data', 'enzyme activity'), ('enzyme activity', 'Arrhenius plot', '(a)'), ('enzyme activity', 'Arrhenius plot', '(b)'), ('temperature', 'data', 'free cells'), ('temperature', 'data', 'immobilized cells'), ('temperature', 'data', '2.4'), ('temperature', 'data', '2.0'), ('temperature', 'data', '-h'), ('temperature', 'data', 'c'), ('temperature', 'data', '1.6'), ('temperature', 'data', 'E'), ('temperature', 'data', '3'), ('",
+    "source": "text"
+  },
+  {
+    "chunk_index": 16,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nspecific MMO activity  of  54.2  pmol  methane  consumed/h mg cells (representing over 80% enzyme activity  of  freshly  harvested  cells,  i.e.,  66  pmol  methane oxidized/h mg cells) after 2 weeks storage was obtained only on addition of sodium formate to the reaction mixture.  Thus, NADH2 supply appeared to be  critical for MMO activity in the cells stored for a long period. The reported loss of MMO activity on storage3  at 4°C might be  due  to NADH2 loss rather  than  to MMO enzyme instability. Methanol Synthesis in a Continuous Reactor The covalently  linked  immobilized  cells  produced methanol at  a  constant rate of  100 pmol/h  in a 50-mL reactor containing 100 mg dry cell weight after attaining steady state (Fig. 5). This rate of  methanol biosynthesis continued  for  1 1   h  after  which  a  fall  in  the  rate  was observed.  Based  on  earlier  batch  studies, this was  attributed to depletion of intracellular NADH2 pool. The in vivo regeneration of NADH2 in the\n\nOutput: possible output format is [(subject, relation, object), ...] To extract all factual triples from the given text, I'll identify subject, predicate (relation), and object:\n\n1. Subject: \"specific MMO activity\"\n   Relation: \"of\"\n   Object: \"54.2 pmol methane consumed/h mg cells\"\n\n2. Subject: \"NADH2 supply\"\n   Relation: \"appeared to be\"\n   Object: \"critical for MMO activity in the cells stored for a long period.\"\n\n3. Subject: \"methanol synthesis\"\n   Relation: \"produced\"\n   Object: \"at a constant rate of",
+    "source": "text"
+  },
+  {
+    "chunk_index": 17,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ncontinuous reactor was carried out by supplying different concentrations of  sodium formate in 20 or 100 mM phosphate buffer, and  the  results  are  shown  in  Figure 5. A continuous feed of  20  mM sodium formate in  100 mM phosphate buffer  resulted in sustained methanol  accumulation of 267  pmol/h,  giving  a productivity of  5.34  mmol/h  L. The reactor was maintained at this level of  productivity for up to 70 h. The interrelationship between  formate supply, NADHz regeneration, and methanol accumulation was Table  I. chosporium whole cells (batch). Effect  of 0 2 concentration on methanol accumulation  in  immobilized M. tri- a Rest of volume balanced with nitrogen. No nitrogen present. 554 BIOTECHNOLOGY AND BIOENGINEERING, VOL. 3 7 , MARCH 1991 Figure  4. Effect  uf  formate  addition on methanol  accumulation by immobilized cells. Formate, 40 mM, was added at the time indicated by the arrow. Time ( h ) Methanol accumulated (Mmole/mg) Formate,! 0- oL 0.0 2.0 6.0 8.0 10.0 12.0\n\nOutput: [('Continuous reactor', 'carried out', 'supplying different concentrations of sodium formate in 20 or 100 mM phosphate buffer'), ('A continuous feed of 20 mM sodium formate in 100 mM phosphate buffer', 'resulted in', 'sustained methanol accumulation of 267 pmol/h'), ('A continuous feed of 20 mM sodium formate in 100 mM phosphate buffer', 'gave', 'a productivity of 5.34 mmol/h L'), ('The reactor was maintained at this level of productivity for up to 70",
+    "source": "text"
+  },
+  {
+    "chunk_index": 18,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n14.0 ; Figure 300 250 : 200 5 150 - 0 100 r 2 so  - 0 10 20 30 40 50 60 1 1 5. Formate addition  and Time regeneration ( h ) 1 ' 1 1 of NADH 70 in a con- tinuous reactor. The arrows indicate  the time of addition  of  formate.  Pulse  I:  40  mM formate  for  0.75  h  in  20 mM phosphate buffer.  Pulse 1 1 : 40  mM formate  for  2.0  h  in  20 mM phosphate buffer.  Pulse 111: 40 mM formate  for  2.0  h  in  100 mM phosphate  buffer.  Pulse  I V  20  mM formate continuously in  100 rnM phosphate buffer. Figure 5. Formate addition and regeneration of NADH in a con- studied by calculating the area under peaks A, B, and C in  Figure 5 using  the trapezoidal  rule.16 The stoichiometric balance at each pulse of  formate supply is given in Table 11. A third pulse of 40 mM formate in 100 mM phosphate buffer resulted  in 91.2% recovery of formate supplied  in  terms  o f   methanol  accumulation.  Loss  of nearly  90%  formate was  attributed  to  'the  further oxidation  of  methanol  by\n\nOutput: [('Figure', 'contains', 'Figure'), ('300', 'is', 'a'), ('250', 'is', 'a'), ('200', 'is', 'a'), ('5', 'is', 'a'), ('150', 'is', 'a'), ('0', 'is', 'a'), ('100', 'is', 'a'), ('2', 'is', 'a'), ('so', 'is', 'a'), ('0', 'is', 'a'), ('10', 'is', 'a'), ('20', 'is', 'a",
+    "source": "text"
+  },
+  {
+    "chunk_index": 19,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\npartially  inactivated  methanol oxidation  activity at  100 mM phosphate levels. An interruption  in  formate  supply led  to a  fall  in  methanol Table 1 1 . Stoichiometric balance on formate supply and methanol produced in continuous reactor. a Defined in Fig. 5. accumulation,  indicating the interdependence between the  two. A continuous feed  of  20  mM formate  in 100 mM phosphate buffer sustained continuous methanol  biosynthesis  up  to  70  h.  From  the  balance  made in  Table 11, it  can  be  concluded  that  molar  amounts of  methanol  synthesized  at  steady  state  is  driven  by NAD' + H2/NADH + H+  cycling in resting cells and is  dependent on equimolar addition of  NADH regenerating substrate. The  dilution  rate D of  the  continuous  reactor  was varied from 0.2 to 1.0 h-'  (corresponding to a flow rate of  10-50 mL/h)  to  study  the  most  suitable  residence time  for  methanol  biosynthesis.  The  specific  product formation rate v and methanol production  as\n\nOutput: species: Methanol\nrelation: stoichiometrically balanced with\nobject: Formate\n\nspecies: Methanol\nrelation: partially inactivated\nobject: Methanol oxidation activity\n\nspecies: Methanol\nrelation: accumulated\nobject: Methanol\n\nspecies: Methanol\nrelation: biosynthesized\nobject: Methanol\n\nspecies: Methanol\nrelation: driven by\nobject: NADH + H+\n\nspecies: Methanol\nrelation: dependent on\nobject: NADH regenerating substrate\n\nspecies: Methanol\nrelation: formed at steady state\nobject: Molar amount\n\nspecies: Methanol\nrelation",
+    "source": "text"
+  },
+  {
+    "chunk_index": 20,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\na function of  dilution  rate  are  shown  in  Figure 6.  A maximum specific product  formation  rate o f   25  pmol/h  mg cells and total  methanol  production  of  175.0  pmol  was  obtained  at a dilution  rate of 0.5 h-'.  Further increase in dilution  rate  resulted  in  a  sharp decline  in  methanol accumulation,  indicating  a  specific  contact  period  between cells and substrate for methanol biosynthesis. The stability of  immobilized  microbial  cells  in  continuous  operation  was  studied  for  over  88 h  (Fig.  7). The leakage of  the cells and  microbial  contamination were  microscopically  examined  throughout  the operation.  The immobilized  preparation  was stable and did not disintegrate or lose cells. The slope in Figure 7 was used  to calculate  the half-life t 112 and the thermal  denaturation rate constant Kd. The computed values were 108 h and 6.42 x h-',  respectively. Figure 6. Effect of dilution rate on methanol biosynthesis by cells. 401 T\" E --. L -. I\n\nOutput: sentences = [\n    ('a function of', 'dilution rate', 'shown'),\n    ('A maximum specific product formation rate', 'of', 'mg cells'),\n    ('total methanol production', 'of', 'pmol'),\n    ('obtained', 'at', 'a dilution rate of 0.5 h-'),\n    ('Further increase in dilution rate', 'resulted', 'in a sharp decline in methanol accumulation'),\n    ('indicating', 'a specific contact period between cells and substrate for methanol biosynthesis'),\n    ('immobilized microbial cells', 'studied', 'for over",
+    "source": "text"
+  },
+  {
+    "chunk_index": 21,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n20 E - > 10- / \\ 0.0 0.2 0-4 0.6 C B 1. 0 DCh-') 30- -6.0 - 4.0 Jo.0 MEHTA, MISHRA, AND GHOSE: METHANOL BIOSYNTHESIS BY COVALENTLY IMMOBILIZED CELLS 555 2'5r Figure 7 . Operational  stability  of  the  immobilized  cells  in  the continuous reactor: E/Eo, MMO activity measured at the indicated time divided by enzyme activity of  freshly immobilized  cells. I 1.5 w 0 . 5 0 . 0 0 8 16 24 32 40 40 56 64 72 80 80 Operation time ( h ) 2.0 000000000000000-0-0001000 10g 1.0 0.5 - CONCLUSION The feasibility  of  using covalently linked cells of M. trichosporium for  continuous  biosynthesis  of  methanol from  methane  is  described.  While  the pH  and  temperature optima remain the same between free and immobilized  cells,  higher  phosphate  ion  concentration (100 mM) is required for maximum methanol biosynthesis  in  immobilized cells. Facilitated reaction  rates  are observed in immobilized cells as indicated by  lowered activation energy requirements, i.e.,  14,800 cal/mol  as against\n\nOutput: [('METHANOL', 'biosynthesis', 'methanol'), ('COVALENTLY', 'IMMOBILIZED', 'CELLS'), ('METHANOL', 'BIOSYNTHESIS', 'BY'), ('COVALENTLY', 'IMMOBILIZED', 'CELLS'), ('CELLS', 'IN', 'THE CONTINUOUS REACTOR'), ('CELLS', 'IN', 'THE CONTINUOUS REACTOR'), ('CELLS', 'IN', 'THE CONTINUOUS REACTOR'), ('CELLS', 'IN', 'THE CONTINUOUS REACT",
+    "source": "text"
+  },
+  {
+    "chunk_index": 22,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n19,537 cal/mol for free cells. In batch and continuous studies, the rate of methanol accumulation falls low after a certain initial period due to depletion of  the intracellular NADH2 pool. The reducing power  could be regenerated by  supply of  sodium formate in the feed stream to the reactor. Both phosphate ions and duration of   supply of  formate affect methanol biosynthesis in the continuous reactor. Although several reasons for the instability of  immobilized methanotrophs have been proposed,6 our  studies indicate  that  thermal  deactivation may  be  responsible for  slow  loss  of  enzyme  activity. With  the  recent  cloning of  a  structural  gene  for  the r-subunit  of  protein A of   MMO (identified as the site of  hydrocarbon  oxidation) from M. cupsulutus into Escherichiu ~oli,~~,'* it  may  be  possible  to  develop highly selective  biochemical catalysts for controlled oxidation of  alkanes to alcohols. The continuous supply of reducing power in  such a  system will\n\nOutput: facts = [\n    ('free cells', 'for', 'cal/mol'),\n    ('batch and continuous studies', 'due to', 'depletion of the intracellular NADH2 pool'),\n    ('reducing power', 'could be regenerated by', 'supply of sodium formate in the feed stream to the reactor'),\n    ('duration of supply of formate', 'affect methanol biosynthesis in the continuous reactor'),\n    ('immobilized methanotrophs', 'have been proposed as reason for instability', 'thermal deactivation'),\n    ('recent cloning', 'of a structural gene for the r-subunit of",
+    "source": "text"
+  },
+  {
+    "chunk_index": 23,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nremain  a major area o f   interest. References ~ 1.  H. R.  Hyman  and  P. M.  Wood, Appl.  Environ.  Microbioi., 45, 401 (1983). R. D. Jones  and R.Y. Morita, Biochem. 1, 212,31 (1983). I. J. Higgins, R. C. Hammond, F. S. Sariaslani, D. Best, M. M. Davies, S. E. Tryhorn,  and  F. Taylor, Biochem. Biophys.  Rex Commun., 89, 671 (1979). C.T. Hou, R. N.  Patel, A. 1. Laskin, and N.  Barnabe, Appl. Environ. Microbiol., 38, 127 (1979). H. Dalton, Adv. Appl. Microbiol.,  26, 71 (1986). C.T.  Hou, Biotechnol.  Genet. Engg. Rev., 4, 145 (1986). P. K. Mehta, S. Mishra,  and T. K. Ghose, J.  Gen. Appl. Microbiol., 33, 221 (1987). P. K. Mehta, S. Mishra, and T. K. Ghose, in Abs. Eighth International Biotechnology  Symposium (SOC.  FranGaise de Microbiol., Paris, 1988),  p.  295. P. K.  Mehta, S. Mishra,  and  T. K. Ghose, Biotechnol. Appl. Biochem., 11, 328 (1989). R. Whittenbury, K. C. Phillips, and J. F. Wilkinson,J. Gem Microbiol., 61, 205 (1970). M.W.  Griffith  and  D. D.  Muir, J.  Sci.\n\nOutput: [('Hyman', 'author', 'H.R. Hyman'), ('Wood', 'author', 'P.M. Wood'), ('Jones', 'author', 'R.D. Jones'), ('Morita', 'author', 'R.Y. Morita'), ('Higgins', 'author', 'I.J. Higgins'), ('Hammond', 'author', 'R.C. Hammond'), ('Sariaslani', 'author', 'F.S. Sariaslani'), ('Best', 'author', 'D. Best'), ('Davies', 'author', 'M.M. Davies'), ('Taylor', 'author', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 24,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nFood  Agric., 31, 397 (1980). C.T. Hou, Appl. Microbiol. Biotechnol., 19, 1 (1984). S. H. Stanley, S. D. Prior, D. J. Leak, and H. Dalton, Biotechnol. Lett.,  5, 487 (1983). P.K.  Mehta,  Ph.D.  Thesis,  Indian  Institute  of  Technology, Delhi (1987). C.T. Hou, R.N. Patel, A.I. Laskin,  I. Marczak,  and N.  Barnabe, FEMS Microbiol. Lett., 9, 267 (1980). W.  L.  Luyben, Process  Modelling,  Simulation,  nnd  Control for Chemical Engineers (McGraw-Hill, New York, 1973). M. P. Woodland  and H. Dalton, J.  Biol.  Chem., 259, 53 (1984). I. A. Mullens and H. Dalton, BiolTechnology,  5, 490 (1987). 556 BIOTECHNOLOGY  AND BIOENGINEERING, VOL. 3 7 , MARCH 1991\n\nOutput: [('Food', 'Agric.', '31'), ('Agric.', '397', '1980'), ('C.T. Hou', 'Appl. Microbiol. Biotechnol.', '19'), ('Appl. Microbiol. Biotechnol.', '1', '1984'), ('S. H. Stanley', 'S. D. Prior', 'D. J. Leak', 'H. Dalton'), ('Biotechnol. Lett.', '5', '487'), ('P.K. Mehta', 'Ph.D. Thesis', 'Indian",
+    "source": "text"
+  },
+  {
+    "page": 2,
+    "caption": "A standard 50-mL capacity ultrafiltration (UF) cell \n(Pharmacia, Sweden) was converted into a continuous \nstirred reactor (Fig. 1). The UF cell was filled with \n50 mL of DEAE-cellulose immobilized microbial cell \npreparation suspended in 20 mM phosphate buffer \n(pH 6.4) at a density of 4 mg dry weight carrier/mL \nreactor volume. The top disc was sealed air tight, and \ntwo silicone rubber tubes (1 mm diameter) were in- \nserted from the inlet hole of the UF cell. One of the \nsilicone tubes was extended to the bottom of the cell \nand connected to a sparger made of a hard, plastic tube \n(1 mm diameter) ring with holes along the periphery. \nThe pressure release vent of the UF cell was replaced \nwith a glass capillary connected through a rubber stop- \nper to be used as an outlet for the circulating gaseous",
+    "triples": [
+      {
+        "subject": "standard 50-mL capacity ultrafiltration (UF) cell",
+        "relation": "was converted into",
+        "object": "continuous stirred reactor"
+      },
+      {
+        "subject": "standard 50-mL capacity ultrafiltration (UF) cell",
+        "relation": "was manufactured by",
+        "object": "Pharmacia, Sweden"
+      },
+      {
+        "subject": "UF cell",
+        "relation": "was filled with",
+        "object": "50 mL of DEAE-cellulose immobilized microbial cell preparation suspended in 20 mM phosphate buffer (pH 6.4)"
+      },
+      {
+        "subject": "DEAE-cellulose immobilized microbial cell preparation",
+        "relation": "was suspended in",
+        "object": "20 mM phosphate buffer (pH 6.4)"
+      },
+      {
+        "subject": "DEAE-cellulose immobilized microbial cell preparation",
+        "relation": "had a density of",
+        "object": "4 mg dry weight carrier/mL reactor volume"
+      },
+      {
+        "subject": "top disc of UF cell",
+        "relation": "was sealed",
+        "object": "air tight"
+      },
+      {
+        "subject": "two silicone rubber tubes",
+        "relation": "were inserted from",
+        "object": "inlet hole of the UF cell"
+      },
+      {
+        "subject": "one silicone rubber tube",
+        "relation": "was extended to",
+        "object": "bottom of the cell"
+      },
+      {
+        "subject": "one silicone rubber tube",
+        "relation": "was connected to",
+        "object": "sparger made of a hard, plastic tube (1 mm diameter) ring with holes along the periphery"
+      },
+      {
+        "subject": "pressure release vent of the UF cell",
+        "relation": "was replaced with",
+        "object": "a glass capillary connected through a rubber stopper"
+      },
+      {
+        "subject": "glass capillary connected through a rubber stopper",
+        "relation": "was used as",
+        "object": "an outlet for the circulating gaseous"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 3,
+    "caption": "lar to that observed for free cells. The temperature data \nwere replotted in the form of an Arrhenius plot to calcu- \nlate activation energy (E,) for free and immobilized \ncells (Fig. 3). The values of E, for free and immobilized \ncells were computed to be 19,537 and 14,800 cal/mol, \nrespectively. The optimum concentration of phosphate \nions required for inhibition of methanol oxidation activ- \nity was 100 mM, slightly higher than that required by \nthe free cells (80 mM).7 Oxygen appeared to be the rate \nlimiting substrate for methanol biosynthesis in immobi- \nlized cell preparations. The replacement of air with \noxygen in batch cultures supported a total methanol ac- \ncumulation rate of 8.92 pmol/h mg cells, representing \nan increase in conversion efficiency over air supplied \ncells from 10% to 27% (Table I). This value is threefold \nhigher than that reported by HOU\" for propylene oxide \nsynthesis using M. trichosporium OB3b. An increase in \noxygen concentration was seen to result in decreased \nmethane uptake rates. It has been reported that under \noxygen excess (methane limiting) conditions, the en- \nzyme MMO in M. capsulatus and M. trichosporium \nOB3b switches from soluble to particulate form63l3 and \nmay exhibit altered reaction specificities toward differ- \nent substrates. This may be responsible for the observed \nphenomenon. \nThe synthesis of methanol by immobilized cells was \nat a constant rate of 8.75 pmol/h mg cells for the first \n2.5 h (Fig. 4), and the rate fell sharply after 6 h. In our \nearlier studies with free cells, the fall in the methanol \naccumulation rate was attributed to depletion of the \nendogenous NADHz pool, and methanol accumulation \nrate was maximally stimulated by supplying 40 mM for- \nmate to the reaction ves~e1.I~ \nWith immobilized cells, \nmaximum stimulation in methanol accumulation rate to \n8.6 ,umol/h mg cells occurred on addition of 40 mM",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: lar to that observed for free cells. The temperature data \nwere replotted in the form of an Arrhenius plot to calcu- \nlate activation energy (E,) for free and immobilized \ncells (Fig. 3). The values of E, for free and immobilized \ncells were computed to be 19,537 and 14,800 cal/mol, \nrespectively. The optimum concentration of phosphate \nions required for inhibition of methanol oxidation activ- \nity was 100 mM, slightly higher than that required by \nthe free cells (80 mM).7 Oxygen appeared to be the rate \nlimiting substrate for methanol biosynthesis in immobi- \nlized cell preparations. The replacement of air with \noxygen in batch cultures supported a total methanol ac- \ncumulation rate of 8.92 pmol/h mg cells, representing \nan increase in conversion efficiency over air supplied \ncells from 10% to 27% (Table I). This value is threefold \nhigher than that reported by HOU\" for propylene oxide \nsynthesis using M. trichosporium OB3b. An increase in \noxygen concentration was seen to result in decreased \nmethane uptake rates. It has been reported that under \noxygen excess (methane limiting) conditions, the en- \nzyme MMO in M. capsulatus and M. trichosporium \nOB3b switches from soluble to particulate form63l3 and \nmay exhibit altered reaction specificities toward differ- \nent substrates. This may be responsible for the observed \nphenomenon. \nThe synthesis of methanol by immobilized cells was \nat a constant rate of 8.75 pmol/h mg cells for the first \n2.5 h (Fig. 4), and the rate fell sharply after 6 h. In our \nearlier studies with free cells, the fall in the methanol \naccumulation rate was attributed to depletion of the \nendogenous NADHz pool, and methanol accumulation \nrate was maximally stimulated by supplying 40 mM for- \nmate to the reaction ves~e1.I~ \nWith immobilized cells, \nmaximum stimulation in methanol accumulation rate to \n8.6 ,umol/h mg cells occurred on addition of 40 mM\n\nOutput JSON list only:\nassistant\n```json\n[\n    {\n        \"subject\": \"immobilized cells\",\n        \"relation\": \"has activation energy\",\n        \"object\": \"14,800 cal/mol\"\n    },\n    {\n        \"subject\": \"free cells\",\n        \"relation\": \"has activation energy\",\n        \"object\": \"19,537 cal/mol\"\n    },\n    {\n        \"subject\": \"optimum phosphate ion concentration for inhibition of methanol oxidation\",\n        \"relation\": \"is\",\n        \"object\": \"100 mM\"\n    },\n    {\n        \"subject\": \"free cells\",\n        \"relation\": \"requires\",\n        \"object\": \"80 mM phosphate ions\"\n    },\n    {\n        \"subject\": \"oxygen\",\n        \"relation\": \"is\",\n        \"object\": \"rate limiting substrate for methanol biosynthesis in immobilized cells\"\n    },\n    {\n        \"subject\": \"replacement of air with oxygen\",\n        \"relation\": \"results in\",\n        \"object\": \"methanol accumulation rate of 8.92 pmol/h mg cells\"\n    },\n    {\n        \"subject\": \"methanol accumulation rate with oxygen replacement\",\n        \"relation\": \"increases conversion efficiency by\",\n        \"object\": \"27%\"\n    },\n    {\n        \"subject\": \"methanol accumulation rate with oxygen replacement\",\n        \"relation\": \"is threefold higher than\",\n        \"object\": \"value reported by Hou for propylene oxide synthesis using M. trichosporium OB3b\"\n    },\n    {\n        \"subject\": \"increase in oxygen concentration\",\n        \"relation\": \"results in\",\n        \"object\": \"decreased methane uptake rates\"\n    },\n    {\n        \"subject\": \"MMO enzyme in M. capsulatus and M. trichosporium OB3b\",\n        \"relation\": \"switches from\",\n        \"object\": \"soluble to particulate form under oxygen excess conditions\"\n    },\n    {\n        \"subject\": \"methanol synthesis by immobilized cells\",\n        \"relation\": \"has initial rate\",\n        \"object\": \"8.75 pmol/h mg cells\"\n    },\n    {\n        \"subject\": \"methanol synthesis by immobilized cells\",\n        \"relation\": \"falls sharply after\",\n        \"object\": \"6 hours\"\n    },\n    {\n        \"subject\": \"free cells\",\n        \"relation\": \"had rate fall attributed to\",\n        \"object\": \"depletion of endogenous NAD"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "The covalently linked immobilized cells produced \nmethanol at a constant rate of 100 pmol/h in a 50-mL \nreactor containing 100 mg dry cell weight after attaining \nsteady state (Fig. 5). This rate of methanol biosynthesis \ncontinued for 11 h after which a fall in the rate was \nobserved. Based on earlier batch studies, this was at- \ntributed to depletion of intracellular NADH2 pool. The \nin vivo regeneration of NADH2 in the continuous reac- \ntor was carried out by supplying different concentrations \nof sodium formate in 20 or 100 mM phosphate buffer, \nand the results are shown in Figure 5. A continuous \nfeed of 20 mM sodium formate in 100 mM phosphate \nbuffer resulted in sustained methanol accumulation of \n267 pmol/h, giving a productivity of 5.34 mmol/h L. \nThe reactor was maintained at this level of productivity \nfor up to 70 h. \nThe interrelationship between formate supply, \nNADHz regeneration, and methanol accumulation was",
+    "triples": [
+      {
+        "subject": "covalently linked immobilized cells",
+        "relation": "produced",
+        "object": "methanol at a constant rate of 100 pmol/h"
+      },
+      {
+        "subject": "covalently linked immobilized cells",
+        "relation": "operated in",
+        "object": "50-mL reactor containing 100 mg dry cell weight"
+      },
+      {
+        "subject": "covalently linked immobilized cells",
+        "relation": "attained steady state after",
+        "object": "100 pmol/h methanol production"
+      },
+      {
+        "subject": "methanol biosynthesis rate",
+        "relation": "continued for",
+        "object": "11 h"
+      },
+      {
+        "subject": "methanol biosynthesis rate",
+        "relation": "fell after",
+        "object": "11 h"
+      },
+      {
+        "subject": "fall in methanol biosynthesis rate",
+        "relation": "attributed to",
+        "object": "depletion of intracellular NADH2 pool"
+      },
+      {
+        "subject": "in vivo regeneration of NADH2",
+        "relation": "carried out by",
+        "object": "supplying different concentrations of sodium formate in 20 or 100 mM phosphate buffer"
+      },
+      {
+        "subject": "continuous feed of 20 mM sodium formate in 100 mM phosphate buffer",
+        "relation": "resulted in",
+        "object": "sustained methanol accumulation of 267 pmol/h"
+      },
+      {
+        "subject": "sustained methanol accumulation of 267 pmol/h",
+        "relation": "gave productivity of",
+        "object": "5.34 mmol/h L"
+      },
+      {
+        "subject": "reactor",
+        "relation": "maintained at",
+        "object": "this level of productivity for up to 70 h"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 5,
+    "caption": "5 \n150 \n- \n0 100 \nr \n2 \nso - \n0 \n10 \n20 \n30 \n40 \n50 \n60 \n70 \nFigure 11 \n5. Formate addition and Time \nregeneration \n(h) \n1\n'\n1\n1\n \nof NADH in a con-",
+    "triples": [
+      {
+        "subject": "Figure 5",
+        "relation": "illustrates",
+        "object": "formate addition and regeneration of NADH in a continuous reactor"
+      },
+      {
+        "subject": "Figure 5",
+        "relation": "shows",
+        "object": "methanol accumulation over time"
+      },
+      {
+        "subject": "Figure 5",
+        "relation": "includes",
+        "object": "arrows indicating addition of formate"
+      },
+      {
+        "subject": "Pulse I",
+        "relation": "involves",
+        "object": "40 mM formate added for 0.75 h in 20 mM phosphate buffer"
+      },
+      {
+        "subject": "Pulse II",
+        "relation": "involves",
+        "object": "40 mM formate added for 2.0 h in 20 mM phosphate buffer"
+      },
+      {
+        "subject": "Pulse III",
+        "relation": "involves",
+        "object": "40 mM formate added for 2.0 h in 100 mM phosphate buffer"
+      },
+      {
+        "subject": "Pulse IV",
+        "relation": "involves",
+        "object": "20 mM formate added continuously in 100 mM phosphate buffer"
+      },
+      {
+        "subject": "Pulse I",
+        "relation": "results in",
+        "object": "methanol accumulation peak"
+      },
+      {
+        "subject": "Pulse II",
+        "relation": "results in",
+        "object": "methanol accumulation peak"
+      },
+      {
+        "subject": "Pulse III",
+        "relation": "results in",
+        "object": "methanol accumulation peak"
+      },
+      {
+        "subject": "Pulse IV",
+        "relation": "results in",
+        "object": "methanol accumulation plateau"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 6,
+    "caption": "Figure 7. Operational stability of the immobilized cells in the \ncontinuous reactor: E/Eo, MMO activity measured at the indicated \ntime divided by enzyme activity of freshly immobilized cells.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 7. Operational stability of the immobilized cells in the \ncontinuous reactor: E/Eo, MMO activity measured at the indicated \ntime divided by enzyme activity of freshly immobilized cells.\n\nOutput JSON list only:\nassistant\n[\n  (\"Figure 7\", \"shows\", \"Operational stability of the immobilized cells in the continuous reactor\"),\n  (\"Figure 7\", \"measures\", \"E/Eo, MMO activity\"),\n  (\"E/Eo, MMO activity\", \"is defined as\", \"enzyme activity at indicated time divided by enzyme activity of freshly immobilized cells\")\n]"
+      }
+    ],
+    "source": "visual"
+  }
+]

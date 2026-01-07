@@ -1,0 +1,3974 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.8.0",
+  "name": "Copy of Xin et al. 2004",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 5414764037865623479,
+    "filename": "Copy of Xin et al. 2004.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.17293290204806,
+            "t": 717.0047124986494,
+            "r": 266.8872201785146,
+            "b": 683.3522149725827,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "Biotechnology, 3 (1): 67-71, 2004 ISSN 1682-2978 © 2004 Asian Network for Scientific Information",
+      "text": "Biotechnology, 3 (1): 67-71, 2004 ISSN 1682-2978 © 2004 Asian Network for Scientific Information"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 117.33836233443094,
+            "t": 667.3666978240302,
+            "r": 494.6616452120351,
+            "b": 653.558558377823,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "Biosynthesis of Methanol from CO, and CH, by Methanotrophic Bacteria",
+      "text": "Biosynthesis of Methanol from CO, and CH, by Methanotrophic Bacteria",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 86.27821126449503,
+            "t": 642.0517749179742,
+            "r": 528.0225553400159,
+            "b": 619.0382096001892,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,",
+      "text": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 188.66165885039558,
+            "t": 616.7368526315714,
+            "r": 423.33833528268724,
+            "b": 606.3807483646738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Chinese Academy of Sciences, Lanzhou 730000, China",
+      "text": "Chinese Academy of Sciences, Lanzhou 730000, China"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 100.08271942130516,
+            "t": 605.3850431148732,
+            "r": 509.61653289786767,
+            "b": 592.5726086920238,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051, China",
+      "text": "'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051, China"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.57893891646329,
+            "t": 580.0623723385156,
+            "r": 523.4210610835366,
+            "b": 381.9984808206502,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1509
+          ]
+        }
+      ],
+      "orig": "Abstract: Methanotrophs can oxidize methane to carbon dioxide through sequential reactions catalyzed by a series of enzymes including methane monooxygenase, methanol dehydrogenase, formaldehyde dehydrogenase and formate dehydrogenase. Reducing carbon dioxide to methanol is an opposite reaction of methanol dioxide to methanol was successfully achieved using resting cells of methanotrophic bacteria of Methylosinus trichosporium IMV 3011 as biocatalysts. Extracellular methanol accumulation has been found in the carbon dioxide incubations. The conversion of carbon dioxide to methanol is energy-intensive and requires reducing equivalent to push the reaction along against energy laws. For long-term maintenance of methanol synthesis, methane was selected as a substrate for regeneration of reducing equivalent. By alternate reaction and regeneration, the results show that resting cell of M. trichosporium IMV 3011 can be used for many times to catalyze the reduction of carbon dioxide, in which the origin of the reducing equivalent is methane. It is possible to theoretically deduce that the overall reaction for methanol synthesis can be completed by biocatalysis using greenhouse gases (carbon dioxide and methane) as raw materials without adding hydrogen. This new route should be environmentally benign and a selective process operating at room temperature and normal pressure. Also, it is theoretically possible that the overall reaction can produce methanol without adding to the greenhouse effect.",
+      "text": "Abstract: Methanotrophs can oxidize methane to carbon dioxide through sequential reactions catalyzed by a series of enzymes including methane monooxygenase, methanol dehydrogenase, formaldehyde dehydrogenase and formate dehydrogenase. Reducing carbon dioxide to methanol is an opposite reaction of methanol dioxide to methanol was successfully achieved using resting cells of methanotrophic bacteria of Methylosinus trichosporium IMV 3011 as biocatalysts. Extracellular methanol accumulation has been found in the carbon dioxide incubations. The conversion of carbon dioxide to methanol is energy-intensive and requires reducing equivalent to push the reaction along against energy laws. For long-term maintenance of methanol synthesis, methane was selected as a substrate for regeneration of reducing equivalent. By alternate reaction and regeneration, the results show that resting cell of M. trichosporium IMV 3011 can be used for many times to catalyze the reduction of carbon dioxide, in which the origin of the reducing equivalent is methane. It is possible to theoretically deduce that the overall reaction for methanol synthesis can be completed by biocatalysis using greenhouse gases (carbon dioxide and methane) as raw materials without adding hydrogen. This new route should be environmentally benign and a selective process operating at room temperature and normal pressure. Also, it is theoretically possible that the overall reaction can produce methanol without adding to the greenhouse effect."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 89.71313248340466,
+            "t": 369.4649525106249,
+            "r": 522.2866188115296,
+            "b": 346.327453934865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "Key words: Carbon dioxide reduction, methane oxidation, methanol production, methanotrophic bacteria, reducing equivalent regeneration",
+      "text": "Key words: Carbon dioxide reduction, methane oxidation, methanol production, methanotrophic bacteria, reducing equivalent regeneration"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 143.79699301876812,
+            "t": 332.5193140948659,
+            "r": 224.3233093436379,
+            "b": 323.31388779739433,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "INTRODUCTION",
+      "text": "INTRODUCTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 69.02255884284045,
+            "t": 308.5100434904031,
+            "r": 299.0977462517083,
+            "b": 87.26986372465274,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1029
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 312.90225420269013,
+            "t": 333.8327145528746,
+            "r": 541.82706521731,
+            "b": 144.9122599203273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            1030,
+            1913
+          ]
+        }
+      ],
+      "orig": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. It can be used directly as an alternative fuel source, as antifreeze and as a precursor to other compounds. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. For example, carbon dioxide is one of the greenhouse gases, which have been theorized to contribute to global warming. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. In the process, the ability of the dehydrogenases to catalyze the reverse reactions in the presence of an excess of reducing equivalent has been exploited to facilitate reductions of CO, that are difficult to achieve using traditional chemical methods. However, the process presents a number of technical problems, for example, in order to keep the conversion process going, costly reduced nicotinamide adenine dinucleotide (NADH) must be used as reducing equivalent for each dehydrogenase-catalyzed reaction. NADH is depleted in the reaction and subsequently more NADH must be added. Also, it is very difficult to control the multi-step reaction in a given reaction sequence and to proportion the suitable enzyme dosage. In addition, intermediates of the pathway may be used in other reactions, diluted and exposed to bulk solvent where they may be degraded.",
+      "text": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. It can be used directly as an alternative fuel source, as antifreeze and as a precursor to other compounds. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. For example, carbon dioxide is one of the greenhouse gases, which have been theorized to contribute to global warming. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. In the process, the ability of the dehydrogenases to catalyze the reverse reactions in the presence of an excess of reducing equivalent has been exploited to facilitate reductions of CO, that are difficult to achieve using traditional chemical methods. However, the process presents a number of technical problems, for example, in order to keep the conversion process going, costly reduced nicotinamide adenine dinucleotide (NADH) must be used as reducing equivalent for each dehydrogenase-catalyzed reaction. NADH is depleted in the reaction and subsequently more NADH must be added. Also, it is very difficult to control the multi-step reaction in a given reaction sequence and to proportion the suitable enzyme dosage. In addition, intermediates of the pathway may be used in other reactions, diluted and exposed to bulk solvent where they may be degraded."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 311.7212475882131,
+            "t": 147.004367512474,
+            "r": 541.9486335491462,
+            "b": 110.31132001401818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+      "text": "Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 314.05263210678055,
+            "t": 109.28772471980028,
+            "r": 540.6766962343846,
+            "b": 86.27028451377248,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "We have investigated whether intact microorganisms can be used as biocatalysts for the reduction of CO, to",
+      "text": "We have investigated whether intact microorganisms can be used as biocatalysts for the reduction of CO, to"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.17294039982782,
+            "t": 70.27701860641162,
+            "r": 516.518793825225,
+            "b": 48.286278047641986,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            187
+          ]
+        }
+      ],
+      "orig": "Corresponding Author: Shu-Ben Li, State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, China",
+      "text": "Corresponding Author: Shu-Ben Li, State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 300.24812057468597,
+            "t": 44.84974029499256,
+            "r": 311.75187932305835,
+            "b": 36.794992602462685,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "67",
+      "text": "67"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 236.9774429686306,
+            "t": 717.0047124008418,
+            "r": 373.8721776691514,
+            "b": 705.3390818461974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Biotechnology, 3 (1): 67-71, 2004",
+      "text": "Biotechnology, 3 (1): 67-71, 2004",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 71.32330423498706,
+            "t": 561.5042949433625,
+            "r": 540.6766977896746,
+            "b": 538.4907290361983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "Scheme 1: The pathway of methanol synthesis from carbon dioxide (a) and reducing equivalent regeneration by methane (b)",
+      "text": "Scheme 1: The pathway of methanol synthesis from carbon dioxide (a) and reducing equivalent regeneration by methane (b)"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 262.2857141939973,
+            "t": 683.476193836266,
+            "r": 288.74436033250646,
+            "b": 674.2707675387946,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "CH,OH",
+      "text": "CH,OH"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 115.03759402354065,
+            "t": 678.8734805816987,
+            "r": 129.99248141367738,
+            "b": 668.5173763148008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "cO,",
+      "text": "cO,"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 119.63909731562323,
+            "t": 664.0270184179476,
+            "r": 277.240598780467,
+            "b": 652.3652619645244,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "< NADH, NAD, NADH, NAD, PQQH, POQ X",
+      "text": "< NADH, NAD, NADH, NAD, PQQH, POQ X"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.9398504289425,
+            "t": 654.7092360284371,
+            "r": 161.05263068203496,
+            "b": 638.5997406433773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Co, L",
+      "text": "Co, L"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 235.82706795863908,
+            "t": 652.4078797432174,
+            "r": 279.54135221970677,
+            "b": 642.0517754763198,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "сн,Он)",
+      "text": "сн,Он)"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 138.04511343207875,
+            "t": 641.0366989943216,
+            "r": 161.05263092882356,
+            "b": 629.3749425408985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Fate DH",
+      "text": "Fate DH"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 182.9097743430466,
+            "t": 641.0366985429149,
+            "r": 207.06766974913384,
+            "b": 629.3749420894918,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Fad DH",
+      "text": "Fad DH"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 230.0751884241329,
+            "t": 642.0517753658607,
+            "r": 249.63157855067914,
+            "b": 632.8463490683891,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "MDH",
+      "text": "MDH"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 308.3007522415254,
+            "t": 684.6268720603202,
+            "r": 324.4060149978731,
+            "b": 674.2707677934225,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "CHA",
+      "text": "CHA"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 318.1477613090522,
+            "t": 669.8426781453983,
+            "r": 500.68285652389596,
+            "b": 644.0038846840941,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "NADH, MO POQ POOH, NAD NADH' NAD NADH",
+      "text": "NADH, MO POQ POOH, NAD NADH' NAD NADH"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 318.654135700172,
+            "t": 646.6544883163765,
+            "r": 334.7593984565196,
+            "b": 636.2983840494787,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "CH,",
+      "text": "CH,"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 333.60902289171077,
+            "t": 638.5997402933942,
+            "r": 354.3157896560337,
+            "b": 630.5449926008644,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "MMO",
+      "text": "MMO"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 375.02255706088107,
+            "t": 637.4490621683881,
+            "r": 394.5789471874273,
+            "b": 628.2436358709166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "MDH",
+      "text": "MDH"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 418.736842454188,
+            "t": 638.7043475192901,
+            "r": 440.5939845847218,
+            "b": 628.2436358465052,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Fald DH",
+      "text": "Fald DH"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 463.6015037115953,
+            "t": 646.6544879932708,
+            "r": 488.9097744838935,
+            "b": 630.544992608211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "FuDH",
+      "text": "FuDH"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 484.3082712746968,
+            "t": 651.2572012055227,
+            "r": 503.864661401243,
+            "b": 639.7504189691987,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": ".СО,",
+      "text": ".СО,"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 499.26315795823984,
+            "t": 686.9282288005344,
+            "r": 514.2180453483766,
+            "b": 677.722802503063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "cO,",
+      "text": "cO,"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 125.39097721049643,
+            "t": 606.3846222481632,
+            "r": 255.38345971375165,
+            "b": 593.7232866701609,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "Scheme 1a: Biocatalytic methanol",
+      "text": "Scheme 1a: Biocatalytic methanol"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 126.54135451592212,
+            "t": 596.0556379549063,
+            "r": 240.42857171969817,
+            "b": 584.3938815014832,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "synthesis from carbon dioxide",
+      "text": "synthesis from carbon dioxide"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 364.66917645157764,
+            "t": 616.7368523395464,
+            "r": 458.9999971709787,
+            "b": 605.2300701032224,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Assimllated into biomass",
+      "text": "Assimllated into biomass"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 346.263157661873,
+            "t": 600.7203405755473,
+            "r": 472.80450898023236,
+            "b": 585.6685390109635,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Scheme 1b: Reducing equivalent",
+      "text": "Scheme 1b: Reducing equivalent"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 347.41353575168614,
+            "t": 589.1205738620631,
+            "r": 445.195487655983,
+            "b": 575.3124344158559,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "regeneration by methane",
+      "text": "regeneration by methane"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 113.88722009702967,
+            "t": 537.4136630504993,
+            "r": 396.8796971702518,
+            "b": 513.090570792192,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "F. DH: Formate Dehydrogenase FadDH: Formaldehyde Dehydrogenase MDH: Methanol Dehydrogenase MMO: Methane monooxygenase",
+      "text": "F. DH: Formate Dehydrogenase FadDH: Formaldehyde Dehydrogenase MDH: Methanol Dehydrogenase MMO: Methane monooxygenase"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 71.32330401582199,
+            "t": 500.5183448796335,
+            "r": 297.94737324246745,
+            "b": 429.1259243486602,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            299
+          ]
+        }
+      ],
+      "orig": "methanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. Unfortunately, up to now, there are no known organisms whose normal biological role is reduction of CO, to methanol.",
+      "text": "methanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. Unfortunately, up to now, there are no known organisms whose normal biological role is reduction of CO, to methanol."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 71.32330401582199,
+            "t": 428.12634538031966,
+            "r": 297.94737324246745,
+            "b": 296.8482871095411,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            570
+          ]
+        }
+      ],
+      "orig": "There are microorganisms called methanotrophs that can utilize methane as their sole carbon source and energy source for growing. In these organisms, methane is oxidized via methanol, formaldehyde and formate to carbon dioxide formaldehyde incorporated into cell biomass. The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"",
+      "text": "There are microorganisms called methanotrophs that can utilize methane as their sole carbon source and energy source for growing. In these organisms, methane is oxidized via methanol, formaldehyde and formate to carbon dioxide formaldehyde incorporated into cell biomass. The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.0665258540899,
+            "t": 295.84870766566365,
+            "r": 299.09774716242254,
+            "b": 128.84925591088756,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            708
+          ]
+        }
+      ],
+      "orig": "Reducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.). Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations. For maintenance of methanol synthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration (Scheme 1b.).",
+      "text": "Reducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.). Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations. For maintenance of methanol synthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration (Scheme 1b.)."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 116.1879727067884,
+            "t": 115.0411162837637,
+            "r": 253.08270740730924,
+            "b": 104.59590196913712,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "MATERIALS AND METHODS",
+      "text": "MATERIALS AND METHODS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.17293089441948,
+            "t": 90.93498733847309,
+            "r": 297.9473726097607,
+            "b": 66.61189517957621,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.7518805089756,
+            "t": 500.5183448220995,
+            "r": 541.8270706240768,
+            "b": 332.49994246418663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            95,
+            856
+          ]
+        }
+      ],
+      "orig": "Culture of Methylosinus trichosporium IMV 3011: Methylosinus trichosporium IMV 3011 cells were obtained from the Institute of Microbiology and Virology (Kiev. USSR). The following nitrate mineral salt medium was used for the methanotroph large-scale cultivation, (gl): NH,Cl, 0.5; KHPO, 0.49; KH,РО47H,0, 0.40; MgSO,7H,0, 0.3; CaCl,2H,0, 0.02; KNO,, 1.6; NaCl, 0.3; FeSO,7H,0,0.004;CuSO,5H,0,0.004; MnSO,H,0, 0.0004; ZnSO,7 H,O, 0.00034; Na MoO, 2H,0, 0.00024; pH 7.0 Large-scale cultivation of cells was carried out in a 15 liter, continuous-gas feed fermentor (LH1075, UK) under an atmosphere of methane and air (1:10, v/v) at 32°C for about 96 h. Cells were harvested by centrifuge at 9,000 g for 10 min and washed twice with 20 mM phosphate buffer (pH 7.0). Cells were resuspended in the same buffer containing 5 mM MgCl, and used in batch experiments.",
+      "text": "Culture of Methylosinus trichosporium IMV 3011: Methylosinus trichosporium IMV 3011 cells were obtained from the Institute of Microbiology and Virology (Kiev. USSR). The following nitrate mineral salt medium was used for the methanotroph large-scale cultivation, (gl): NH,Cl, 0.5; KHPO, 0.49; KH,РО47H,0, 0.40; MgSO,7H,0, 0.3; CaCl,2H,0, 0.02; KNO,, 1.6; NaCl, 0.3; FeSO,7H,0,0.004;CuSO,5H,0,0.004; MnSO,H,0, 0.0004; ZnSO,7 H,O, 0.00034; Na MoO, 2H,0, 0.00024; pH 7.0 Large-scale cultivation of cells was carried out in a 15 liter, continuous-gas feed fermentor (LH1075, UK) under an atmosphere of methane and air (1:10, v/v) at 32°C for about 96 h. Cells were harvested by centrifuge at 9,000 g for 10 min and washed twice with 20 mM phosphate buffer (pH 7.0). Cells were resuspended in the same buffer containing 5 mM MgCl, and used in batch experiments."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.75187775092326,
+            "t": 319.86185281855677,
+            "r": 541.8270647284002,
+            "b": 164.06533494204632,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            690
+          ]
+        }
+      ],
+      "orig": "Analytical methods: Methanol formation from carbon dioxide was determined chromatographically using a gas chromatograph equipped with a capillary GC column (€0.23 mm × 30 m; stationary phase, SE-54) and a flame ionisation detector (FID). Pure nitrogen served as the carrier gas at a flow rate of 75 ml min'. The temperatures of the column, detector and injector were 60, 180 and 180°C, respectively. To evaluate the concentration of methanol produced as a result of the cell suspension catalyzed reaction, 0.5 ul of the reaction solution was used for GC measurements. The concentration of methanol was calculated by using peak areas for the characteristic methanol band in the chromatogram.",
+      "text": "Analytical methods: Methanol formation from carbon dioxide was determined chromatographically using a gas chromatograph equipped with a capillary GC column (€0.23 mm × 30 m; stationary phase, SE-54) and a flame ionisation detector (FID). Pure nitrogen served as the carrier gas at a flow rate of 75 ml min'. The temperatures of the column, detector and injector were 60, 180 and 180°C, respectively. To evaluate the concentration of methanol produced as a result of the cell suspension catalyzed reaction, 0.5 ul of the reaction solution was used for GC measurements. The concentration of methanol was calculated by using peak areas for the characteristic methanol band in the chromatogram."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.902252684194,
+            "t": 150.7121433244514,
+            "r": 540.676695984178,
+            "b": 67.86330646105807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            386
+          ]
+        }
+      ],
+      "orig": "Repetitive batch experiments: The batch experiments were conducted in a 100 ml sealed conical flasks (under atmospheric pressure) containing 10 ml washed cell suspension. The gaseous phase of the flask was replaced by carbon dioxide. The flasks were incubated and shaken at 32°C in a rotary shaker (150 rpm). Methanol synthesis was stopped after 24 h. The contents of the conical flasks",
+      "text": "Repetitive batch experiments: The batch experiments were conducted in a 100 ml sealed conical flasks (under atmospheric pressure) containing 10 ml washed cell suspension. The gaseous phase of the flask was replaced by carbon dioxide. The flasks were incubated and shaken at 32°C in a rotary shaker (150 rpm). Methanol synthesis was stopped after 24 h. The contents of the conical flasks"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 299.0977443683245,
+            "t": 47.151096726961555,
+            "r": 314.05263175846125,
+            "b": 35.64431449063761,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "68",
+      "text": "68"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 238.12782400717956,
+            "t": 717.0047125063206,
+            "r": 373.8721782552264,
+            "b": 705.339081951676,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Biotechnology, 3 (1): 67-71, 2004",
+      "text": "Biotechnology, 3 (1): 67-71, 2004"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 70.17293391990813,
+            "t": 693.8322980280357,
+            "r": 299.15272405065645,
+            "b": 600.6273568796213,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            419
+          ]
+        }
+      ],
+      "orig": "were centrifuged and the cells were resuspended in 20mM phosphate buffer (pH7.0) containing 5 mM MgCl (at a same cell concentration of 3 mg dry weight cell. ml '), then regenerated with methane and air (1:10, v/v) in a shaker operated at 32°C and 150 rpm. After 12 h regeneration, the cell suspension was reused for the next batch experiment. All values are average of three runs with a variation of 3-5% from the mean.",
+      "text": "were centrifuged and the cells were resuspended in 20mM phosphate buffer (pH7.0) containing 5 mM MgCl (at a same cell concentration of 3 mg dry weight cell. ml '), then regenerated with methane and air (1:10, v/v) in a shaker operated at 32°C and 150 rpm. After 12 h regeneration, the cell suspension was reused for the next batch experiment. All values are average of three runs with a variation of 3-5% from the mean."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 119.63909703671827,
+            "t": 584.5178605645397,
+            "r": 249.63157953997347,
+            "b": 575.3124342670683,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "RESULTS AND DISCUSSION",
+      "text": "RESULTS AND DISCUSSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 70.17293223074678,
+            "t": 560.4039826861225,
+            "r": 299.09774716242254,
+            "b": 211.73269297193224,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1533
+          ]
+        }
+      ],
+      "orig": "The feasibility of methanol bioconversion from carbon dioxide by methanotroph: The experiments were first conducted in a 100 ml sealed conical flasks (under atmospheric pressure) containing 10 ml cell suspension. The gaseous phase of the flask was replaced by gaseous CO2. The flasks were incubated and shaken at 32°C in a rotary shaker (150 rpm). Chromatographic determinations of the liquid phase were carried out at different reaction times. It has been found that resting cell suspensions of M. trichosporium IMV 3011 can reduce CO, to methanol, which accumulated in the reaction medium. No product peak other than methanol from CO, reduction was detected. For the whole cell-catalyzed pathway to synthesize methanol, three dehydrogenases catalyzing the sequential reduction of CO, to methanol are in close proximity to one another within the cell. Thus, reducing equivalents, substrates and intermediates have shorter distances to travel to each enzyme. So no formaldehyde or formic acid was observed in the CO, incubations. The oxidation of methane is catalyzed by methane monooxygenases (MMO), which are classical monooxygenases that utilize two reducing equivalents to split the O-O bonds of dioxygen. One of the oxygen atoms is reduced to form HO and the other is incorporated into methane to form CH,OH|3). In this study, methanol obtained from CO, reduction was accumulated and excreted out of the cells. The result led us to assume that the MMO is not able to catalyze the reverse reaction of the methane monooxygenation.",
+      "text": "The feasibility of methanol bioconversion from carbon dioxide by methanotroph: The experiments were first conducted in a 100 ml sealed conical flasks (under atmospheric pressure) containing 10 ml cell suspension. The gaseous phase of the flask was replaced by gaseous CO2. The flasks were incubated and shaken at 32°C in a rotary shaker (150 rpm). Chromatographic determinations of the liquid phase were carried out at different reaction times. It has been found that resting cell suspensions of M. trichosporium IMV 3011 can reduce CO, to methanol, which accumulated in the reaction medium. No product peak other than methanol from CO, reduction was detected. For the whole cell-catalyzed pathway to synthesize methanol, three dehydrogenases catalyzing the sequential reduction of CO, to methanol are in close proximity to one another within the cell. Thus, reducing equivalents, substrates and intermediates have shorter distances to travel to each enzyme. So no formaldehyde or formic acid was observed in the CO, incubations. The oxidation of methane is catalyzed by methane monooxygenases (MMO), which are classical monooxygenases that utilize two reducing equivalents to split the O-O bonds of dioxygen. One of the oxygen atoms is reduced to form HO and the other is incorporated into methane to form CH,OH|3). In this study, methanol obtained from CO, reduction was accumulated and excreted out of the cells. The result led us to assume that the MMO is not able to catalyze the reverse reaction of the methane monooxygenation."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 70.17293089441948,
+            "t": 210.55128921424455,
+            "r": 299.09774668024943,
+            "b": 114.92488612462773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            431
+          ]
+        }
+      ],
+      "orig": "Control experiments with heat-killed cells indicated that the methanol was produced enzymatically. The production of methanol from CO, reached a maximum after 24 h of incubation in batch experiments. The amount of methanol slowly declined after further incubation, perhaps through enzymatic or nonenzymatic degradation of methanol, depletion of intracellular reducing equivalents (eg. NAD(P)H or PQQH) or due to product inhibition.",
+      "text": "Control experiments with heat-killed cells indicated that the methanol was produced enzymatically. The production of methanol from CO, reached a maximum after 24 h of incubation in batch experiments. The amount of methanol slowly declined after further incubation, perhaps through enzymatic or nonenzymatic degradation of methanol, depletion of intracellular reducing equivalents (eg. NAD(P)H or PQQH) or due to product inhibition."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 71.32330854830313,
+            "t": 102.38365502907016,
+            "r": 297.9473726759073,
+            "b": 67.86330659913949,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "The effect of CO, concentrations: Various concentrations of CO, were used to examine the production of methanol by resting cell suspensions of M. trichosporium IMV",
+      "text": "The effect of CO, concentrations: Various concentrations of CO, were used to examine the production of methanol by resting cell suspensions of M. trichosporium IMV"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 313.9392742324095,
+            "t": 693.8322985549908,
+            "r": 540.7590577610554,
+            "b": 610.9834617299534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            373
+          ]
+        }
+      ],
+      "orig": "3011. Nitrogen was used to balance the rest of the gaseous phase. The amount of methanol produced was assayed after 6 h of incubation. A CO, concentration in the gaseous phase of 40% supported maximum methanol production. Higher CO, concentration did not stimulate nor inhibit the production of methanol. The reaction rate appears to be dependent upon the solubility of CO.",
+      "text": "3011. Nitrogen was used to balance the rest of the gaseous phase. The amount of methanol produced was assayed after 6 h of incubation. A CO, concentration in the gaseous phase of 40% supported maximum methanol production. Higher CO, concentration did not stimulate nor inhibit the production of methanol. The reaction rate appears to be dependent upon the solubility of CO."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.90225837855473,
+            "t": 597.1753218108047,
+            "r": 541.827063108945,
+            "b": 466.9462894774404,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            541
+          ]
+        }
+      ],
+      "orig": "The effect of methane on the production of methanol: Of course, in the methanotrophic bacteria, methane can also be oxidized into methanol, but the product methanol is subsequently oxidized by dehydrogenases(9) To obtained methanol from methane by methanotrophic bacteria, an inhibitor for methanol dehydrogenase must be used to prevent further oxidation. Also, equal molar reducer such as formate must be used to drive the reaction 8,9] This in turn perhaps consumes more expensive material, defeating the purpose of the initial conversion.",
+      "text": "The effect of methane on the production of methanol: Of course, in the methanotrophic bacteria, methane can also be oxidized into methanol, but the product methanol is subsequently oxidized by dehydrogenases(9) To obtained methanol from methane by methanotrophic bacteria, an inhibitor for methanol dehydrogenase must be used to prevent further oxidation. Also, equal molar reducer such as formate must be used to drive the reaction 8,9] This in turn perhaps consumes more expensive material, defeating the purpose of the initial conversion."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 314.0014845094774,
+            "t": 463.77800082258716,
+            "r": 540.7512607139045,
+            "b": 309.50574815894964,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            697
+          ]
+        }
+      ],
+      "orig": "In this paper, the effect of methane on the production of methanol was also studied. The production of methanol by cell suspension of M. trichosporium IMV 3011 was assayed in the presence of a given amount of methane. The initial concentration of CO, in the gaseous phase was kept constant (40%) in all of the experiments. As shown in Fig. 1. methane supply favors methanol accumulation. The result suggests that methane can be simultaneously oxidized into methanol during reduction of CO, to methanol and the further oxidation of methanol can be perfectly inhibited in the presence of an excess of CO,. In contrast, no methanol was produced when methane and oxygen were used solely as substrates.",
+      "text": "In this paper, the effect of methane on the production of methanol was also studied. The production of methanol by cell suspension of M. trichosporium IMV 3011 was assayed in the presence of a given amount of methane. The initial concentration of CO, in the gaseous phase was kept constant (40%) in all of the experiments. As shown in Fig. 1. methane supply favors methanol accumulation. The result suggests that methane can be simultaneously oxidized into methanol during reduction of CO, to methanol and the further oxidation of methanol can be perfectly inhibited in the presence of an excess of CO,. In contrast, no methanol was produced when methane and oxygen were used solely as substrates."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.9022543407353,
+            "t": 295.84870766566365,
+            "r": 540.6766940774299,
+            "b": 177.17774448391026,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            513
+          ]
+        }
+      ],
+      "orig": "The effect of cell concentrations: The cell density in reaction solution also influences the rate of methanol production. The amount of methanol accumulated after 6 h incubation increased as the concentration of cell was increased up to about 3 mg ml-' and no further increase in methanol production was observed at higher cell concentrations. This indicated that at cell concentrations higher than 3 mg ml', the solubility of the gaseous substrates becomes the rate-limiting factor in the production of methanol.",
+      "text": "The effect of cell concentrations: The cell density in reaction solution also influences the rate of methanol production. The amount of methanol accumulated after 6 h incubation increased as the concentration of cell was increased up to about 3 mg ml-' and no further increase in methanol production was observed at higher cell concentrations. This indicated that at cell concentrations higher than 3 mg ml', the solubility of the gaseous substrates becomes the rate-limiting factor in the production of methanol."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.902252684194,
+            "t": 162.23829828661064,
+            "r": 540.676695984178,
+            "b": 66.61189520790413,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            441
+          ]
+        }
+      ],
+      "orig": "Alternate reaction and regeneration of M. trichosporium IMV 3011: Converting CO, to methanol is essentially the reverse of the oxidation process. Whereas oxidation releases a large amount of reducing equivalent, logically the reverse would require a considerable amount. The ability of methanotrophs to transform CO, to methanol may be limited by reducing equivalent consumption. The transformation, however, is of no benefit to the cells as",
+      "text": "Alternate reaction and regeneration of M. trichosporium IMV 3011: Converting CO, to methanol is essentially the reverse of the oxidation process. Whereas oxidation releases a large amount of reducing equivalent, logically the reverse would require a considerable amount. The ability of methanotrophs to transform CO, to methanol may be limited by reducing equivalent consumption. The transformation, however, is of no benefit to the cells as"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 299.0977443683245,
+            "t": 47.151096726961555,
+            "r": 314.05263175846125,
+            "b": 35.64431449063761,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "69",
+      "text": "69"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 236.97744582060423,
+            "t": 717.0047125063206,
+            "r": 373.8721805211251,
+            "b": 705.339081951676,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Biotechnology, 3 (1): 67-71, 2004",
+      "text": "Biotechnology, 3 (1): 67-71, 2004",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 70.17293565774389,
+            "t": 489.100671737985,
+            "r": 487.7594021290981,
+            "b": 476.3541008489905,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Fig. 1: Time course of methanol production by cell suspensions of Methylosinus trichosporium IMV 3011",
+      "text": "Fig. 1: Time course of methanol production by cell suspensions of Methylosinus trichosporium IMV 3011"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 181.75940020973917,
+            "t": 698.4350114216865,
+            "r": 277.24060138161417,
+            "b": 682.3255160366267,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "257 -=- 40% CO,, 60% N,",
+      "text": "257 -=- 40% CO,, 60% N,"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 197.86466366854566,
+            "t": 674.3560031815846,
+            "r": 303.6992482225821,
+            "b": 662.6942467281614,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "= 40% N2, 30% CH., 30% 0,",
+      "text": "= 40% N2, 30% CH., 30% 0,"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 180.6090230094726,
+            "t": 665.0653409144868,
+            "r": 197.86466113203116,
+            "b": 654.7092366475891,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "20-",
+      "text": "20-"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 170.25563780690237,
+            "t": 604.0793915701025,
+            "r": 180.60902373219537,
+            "b": 570.7097215595262,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Mehanol",
+      "text": "Mehanol"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 180.60902262295397,
+            "t": 596.0246434486692,
+            "r": 196.71428537930169,
+            "b": 586.8192171511977,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "10-",
+      "text": "10-"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 187.51127842991818,
+            "t": 561.5042947339174,
+            "r": 193.26315780410437,
+            "b": 554.6002250108138,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 278.3909774200431,
+            "t": 526.9839455297745,
+            "r": 295.64661681416743,
+            "b": 512.0251281141411,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "3ò",
+      "text": "3ò"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 307.1503784176834,
+            "t": 525.8332676418547,
+            "r": 355.4661641435948,
+            "b": 513.0905708540815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "40 50",
+      "text": "40 50"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 282.9924810228336,
+            "t": 512.090991794927,
+            "r": 354.3157893317529,
+            "b": 501.66902367641666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Reaction tome (h)",
+      "text": "Reaction tome (h)"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 373.87218037545927,
+            "t": 525.8332677482924,
+            "r": 386.5263157616084,
+            "b": 513.1758062715114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "60",
+      "text": "60"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 70.17294299808896,
+            "t": 285.3415041291416,
+            "r": 425.63908883142227,
+            "b": 271.5256158449764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "Fig. 2: Repetitive batch synthesis of methanol from CO, with M. trichosporium IMV 3011",
+      "text": "Fig. 2: Repetitive batch synthesis of methanol from CO, with M. trichosporium IMV 3011"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 239.27820063911773,
+            "t": 466.11035178435264,
+            "r": 431.39097326281563,
+            "b": 444.1196110436119,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Election interCH, and air (1:10, v/during 12 h",
+      "text": "Election interCH, and air (1:10, v/during 12 h"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 240.42857531484682,
+            "t": 448.7843136477546,
+            "r": 424.48871528880517,
+            "b": 436.0803604142562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "• incubation in air during 12 h reaction interval",
+      "text": "• incubation in air during 12 h reaction interval"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 240.39095324332243,
+            "t": 437.4263674280776,
+            "r": 293.38348152294486,
+            "b": 426.6796055559005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "• no interval",
+      "text": "• no interval"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 176.0075186678076,
+            "t": 465.9979963772037,
+            "r": 190.96240605794435,
+            "b": 452.1898569309964,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "14-",
+      "text": "14-"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 176.00751913197655,
+            "t": 445.285786802427,
+            "r": 192.1127818883242,
+            "b": 434.92968253552925,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "12-",
+      "text": "12-"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 165.65413609425647,
+            "t": 432.6283254630782,
+            "r": 193.26315759897656,
+            "b": 414.2174728681353,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "[10-",
+      "text": "[10-"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 166.8045077816818,
+            "t": 417.66950752773283,
+            "r": 176.0075215196782,
+            "b": 352.080846747037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Methanol (u mol",
+      "text": "Methanol (u mol"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 179.45864661683345,
+            "t": 403.86136825339196,
+            "r": 188.66165399700108,
+            "b": 393.5052639864942,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 179.45864655812844,
+            "t": 385.4505158735952,
+            "r": 192.11278194427754,
+            "b": 372.7930543968143,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "6-",
+      "text": "6-"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 179.45864688408446,
+            "t": 363.58762792605427,
+            "r": 190.96240563245684,
+            "b": 353.2315236591565,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "4-",
+      "text": "4-"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 197.86466171138304,
+            "t": 315.2591394489214,
+            "r": 205.91729308955686,
+            "b": 303.7523572125975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 255.3834586775853,
+            "t": 314.10846125938764,
+            "r": 264.58646605775294,
+            "b": 303.75235699248987,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 304.84962484815424,
+            "t": 315.2591387859978,
+            "r": 333.6090217190852,
+            "b": 292.2455743133498,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "cycles",
+      "text": "cycles"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 404.9323310079808,
+            "t": 314.1084612306206,
+            "r": 412.98496238615456,
+            "b": 303.7523569637229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 70.17293790982141,
+            "t": 258.8759032421526,
+            "r": 299.0977425973214,
+            "b": 200.97194070820672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "they typically consume reducing equivalent from this transformation. As shown in Fig. 2, in the repetitive batch CO, conversion experiments, cells lost almost 100% of their initial methanol synthesis ability after 2 repetitions of the process.",
+      "text": "they typically consume reducing equivalent from this transformation. As shown in Fig. 2, in the repetitive batch CO, conversion experiments, cells lost almost 100% of their initial methanol synthesis ability after 2 repetitions of the process."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 71.32330626483304,
+            "t": 199.0406317502426,
+            "r": 304.8496244106339,
+            "b": 67.86330661927639,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            623
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 312.90225363325413,
+            "t": 258.8759028609501,
+            "r": 540.6766897759566,
+            "b": 188.56054860273548,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            624,
+            956
+          ]
+        }
+      ],
+      "orig": "For maintenance of methanol biosynthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration. The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32°C. After the regeneration process, the cell suspension was continuously (or immediately) used to produce methanol. As shown in Fig. 3, the rapid resumption of reduction activity of the inviable cells suggests that a rapid process (reducing equivalent regeneration) was responsible, rather than slower processes (generation of additional cells or of dehydrogenase enzyme). As shown in Fig. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane. It is suspected that the methanotrophic bacteria may rely on their endogenous reserves (eg., lipid inclusions) for a source of electrons and energy during starvation.",
+      "text": "For maintenance of methanol biosynthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration. The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32°C. After the regeneration process, the cell suspension was continuously (or immediately) used to produce methanol. As shown in Fig. 3, the rapid resumption of reduction activity of the inviable cells suggests that a rapid process (reducing equivalent regeneration) was responsible, rather than slower processes (generation of additional cells or of dehydrogenase enzyme). As shown in Fig. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane. It is suspected that the methanotrophic bacteria may rely on their endogenous reserves (eg., lipid inclusions) for a source of electrons and energy during starvation."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 312.902252684194,
+            "t": 187.56096923992538,
+            "r": 541.8270668160998,
+            "b": 140.24755751208897,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "As shown in Fig. 2, by alternate and intermittent regeneration of inviable cell, the repetitive batch methanol synthesis from CO, can be repeated 9 times with no obvious disappearance of methanol synthesis ability.",
+      "text": "As shown in Fig. 2, by alternate and intermittent regeneration of inviable cell, the repetitive batch methanol synthesis from CO, can be repeated 9 times with no obvious disappearance of methanol synthesis ability."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 304.8496220461663,
+            "t": 138.054682265893,
+            "r": 540.7483198569456,
+            "b": 67.34950699641013,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            329
+          ]
+        }
+      ],
+      "orig": "In the process of reducing equivalent regeneration, part of methane has been oxidized completely to CO,. Methane is a trace gas in the atmosphere, contributing significantly to the greenhouse effect. It is 26 times more efficient in absorbing and re-emitting infrared radiation than CO,\"1,12). The conversion of carbon dioxide to",
+      "text": "In the process of reducing equivalent regeneration, part of methane has been oxidized completely to CO,. Methane is a trace gas in the atmosphere, contributing significantly to the greenhouse effect. It is 26 times more efficient in absorbing and re-emitting infrared radiation than CO,\"1,12). The conversion of carbon dioxide to"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 300.24812026247054,
+            "t": 44.84974029035993,
+            "r": 312.90225564861964,
+            "b": 35.64431399288844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "70",
+      "text": "70"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 70.17294081733239,
+            "t": 539.7460141698563,
+            "r": 540.6766843069157,
+            "b": 514.0205184433707,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Fig. 3: Time course of methanol synthesis ability regeneration of cell of M. trichosporium IMV 3011 by methane and air (1:10, v/v)",
+      "text": "Fig. 3: Time course of methanol synthesis ability regeneration of cell of M. trichosporium IMV 3011 by methane and air (1:10, v/v)"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 236.9774429686306,
+            "t": 717.0047124008418,
+            "r": 373.8721776691514,
+            "b": 705.3390818461974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Biotechnology, 3 (1): 67-71, 2004",
+      "text": "Biotechnology, 3 (1): 67-71, 2004",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 182.909774456865,
+            "t": 697.2843331364128,
+            "r": 197.86466184700177,
+            "b": 685.7775509000887,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "16-",
+      "text": "16-"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 173.7067670420464,
+            "t": 681.174837462475,
+            "r": 199.0150378143446,
+            "b": 667.3666980162678,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "=14-",
+      "text": "=14-"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 163.35337898889023,
+            "t": 667.3666991483688,
+            "r": 173.70677031833768,
+            "b": 585.6685391695213,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Methanol production",
+      "text": "Methanol production"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 172.5563906207076,
+            "t": 668.5173763387114,
+            "r": 184.06015064064573,
+            "b": 655.8599148619305,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "24",
+      "text": "24"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 181.7593989033072,
+            "t": 666.2160194161826,
+            "r": 199.01503702586578,
+            "b": 655.8599151492849,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "i12-",
+      "text": "i12-"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 172.3780914010541,
+            "t": 654.931310527916,
+            "r": 185.41324192900822,
+            "b": 577.4434037711566,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "capability (umol L",
+      "text": "capability (umol L"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 181.75939841482023,
+            "t": 647.8051666434455,
+            "r": 194.4135338009693,
+            "b": 639.7039265586828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": ": 10",
+      "text": ": 10"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 186.36090225921802,
+            "t": 631.695670703739,
+            "r": 195.56390963938566,
+            "b": 622.4902444062676,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 186.36090229850709,
+            "t": 615.5861744163049,
+            "r": 194.41353367668088,
+            "b": 607.531426723775,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 310.601503582449,
+            "t": 567.2576862421504,
+            "r": 327.8571429765734,
+            "b": 553.4495467959432,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "30",
+      "text": "30"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 353.1654135513227,
+            "t": 564.9563295739342,
+            "r": 368.1203009414594,
+            "b": 552.2988680971533,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 395.72932368622605,
+            "t": 567.2576861462605,
+            "r": 409.5338344385861,
+            "b": 553.4495467000534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 282.992482109797,
+            "t": 554.7397008902883,
+            "r": 370.42105063193236,
+            "b": 541.9427635078396,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Regeneration time (h)",
+      "text": "Regeneration time (h)"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 70.1729322130008,
+            "t": 500.518344874839,
+            "r": 300.2481204448777,
+            "b": 416.4645889959372,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            356
+          ]
+        }
+      ],
+      "orig": "methanol is energy intensive and requires reducing equivalent to push the reaction along against energy laws. Herein, the origin of the reducing equivalent is methane. Therefore, it is theoretically possible that the overall reaction can produce methanol in an efficient, environmentally friendly, renewable process without adding to the greenhouse effect.",
+      "text": "methanol is energy intensive and requires reducing equivalent to push the reaction along against energy laws. Herein, the origin of the reducing equivalent is methane. Therefore, it is theoretically possible that the overall reaction can produce methanol in an efficient, environmentally friendly, renewable process without adding to the greenhouse effect."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 129.99248138711278,
+            "t": 403.86136821695385,
+            "r": 239.27819712604506,
+            "b": 393.50526395005613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "ACKNOWLEDGMENTS",
+      "text": "ACKNOWLEDGMENTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 70.17293274118596,
+            "t": 379.8133542730904,
+            "r": 299.0977353190437,
+            "b": 332.51931405042245,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "We thank the National Nature Science Foundation of Chinese (29933040), the Special Funds for Major State support.",
+      "text": "We thank the National Nature Science Foundation of Chinese (29933040), the Special Funds for Major State support."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 308.30075677301255,
+            "t": 500.51834493716734,
+            "r": 540.6766926454084,
+            "b": 451.0391785924374,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "5. Arakawa, H., 1998, Research and development on new synthetic routes for basic chemicals by catalytic hydrogenation of CO, Studies in Surface Science and Catalysis, 114: 19-30.",
+      "text": "Arakawa, H., 1998, Research and development on new synthetic routes for basic chemicals by catalytic hydrogenation of CO, Studies in Surface Science and Catalysis, 114: 19-30.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 312.902252684194,
+            "t": 448.7843140112579,
+            "r": 540.6766870917462,
+            "b": 399.13855078006213,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "6. Obert, R. and B.C. Dave, 1999, Enzymatic conversion of carbon dioxide to methanol: Enhanced methanol production in silica sol-gel matrices, J. Am. Chem. Soc., 121: 12192-12193",
+      "text": "Obert, R. and B.C. Dave, 1999, Enzymatic conversion of carbon dioxide to methanol: Enhanced methanol production in silica sol-gel matrices, J. Am. Chem. Soc., 121: 12192-12193",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 314.05263293893444,
+            "t": 396.9572985833186,
+            "r": 541.8270712184798,
+            "b": 358.8221924740323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "7. Hanson, R.S. and T.E. Hanson, 1996. Methanotrophic bacteria, Microbiological Reviews, Pp: 439-471.",
+      "text": "Hanson, R.S. and T.E. Hanson, 1996. Methanotrophic bacteria, Microbiological Reviews, Pp: 439-471.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 70.17293903424972,
+            "t": 357.8342363420777,
+            "r": 541.8270633381038,
+            "b": 309.5057481671686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            242
+          ]
+        }
+      ],
+      "orig": "Basic Research of China and the Royal Society of UK for 8. Furuto, T., M. Takeguchi and I. Okura, 1999. Semicontinuous methanol biosynthesis Methylosinus trichosporium OB3b, Journal of REFERENCES Molecular Catalysis A: Chemical, 144: 257-261.",
+      "text": "Basic Research of China and the Royal Society of UK for 8. Furuto, T., M. Takeguchi and I. Okura, 1999. Semicontinuous methanol biosynthesis Methylosinus trichosporium OB3b, Journal of REFERENCES Molecular Catalysis A: Chemical, 144: 257-261.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 70.17293279968598,
+            "t": 295.8487077489303,
+            "r": 299.0977414256225,
+            "b": 248.51979874747622,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "1. Cybulski, A., 1994. Liquid-Phase Methanol Synthesis-Catalysts, Mechanism, Kinetics, ChemicalEquilibria, Vapor-Liquid Equilibria and Modeling-A Review, Catalysis Reviews-Science and Engineering,",
+      "text": "Cybulski, A., 1994. Liquid-Phase Methanol Synthesis-Catalysts, Mechanism, Kinetics, ChemicalEquilibria, Vapor-Liquid Equilibria and Modeling-A Review, Catalysis Reviews-Science and Engineering,",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 71.3233034492619,
+            "t": 234.87438108309618,
+            "r": 297.94736757686604,
+            "b": 212.84877180747287,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "2. Lange, J.P., 2001. Methanol synthesis: a short review of technology improvements, Catalysis Today, 64:",
+      "text": "Lange, J.P., 2001. Methanol synthesis: a short review of technology improvements, Catalysis Today, 64:",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 70.17293314055458,
+            "t": 199.04063152438164,
+            "r": 299.0977378280546,
+            "b": 177.17774452226615,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "3. Rozovskii, A. Y., G.I. Lin, 1999, Catalytic synthesis of methanol, Kinetics and Catalysis, 40: 773-794.",
+      "text": "Rozovskii, A. Y., G.I. Lin, 1999, Catalytic synthesis of methanol, Kinetics and Catalysis, 40: 773-794.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.4736918192242,
+            "t": 174.89963373729893,
+            "r": 297.94736690843064,
+            "b": 128.84925596842152,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": "4. Marchionna, M., M. Di Girolamo, L. Tagliabue, M.J. Spangler and T.H. Fleisch, 1998. A review of low temperature methanol synthesis, Studies in Surface Science and Catalysis, 119: 539-544.",
+      "text": "Marchionna, M., M. Di Girolamo, L. Tagliabue, M.J. Spangler and T.H. Fleisch, 1998. A review of low temperature methanol synthesis, Studies in Surface Science and Catalysis, 119: 539-544.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 314.0526375579722,
+            "t": 307.2043910512914,
+            "r": 540.6766910260349,
+            "b": 243.87059340472763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "9. Mehta, P.K., S. Mishra and T.K. Ghose, 1991. Methanol Biosynthesis By Covalently Immobilized Cells Of Methylosinus-Trichosporium-Batch And Continuous Studies, Biotechnology and Bioengineering, 37: 551-556.",
+      "text": "Mehta, P.K., S. Mishra and T.K. Ghose, 1991. Methanol Biosynthesis By Covalently Immobilized Cells Of Methylosinus-Trichosporium-Batch And Continuous Studies, Biotechnology and Bioengineering, 37: 551-556.",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 312.90225420269013,
+            "t": 242.87101442456492,
+            "r": 540.6766886102422,
+            "b": 206.8692188008763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "11. Lelieveld, J., P.J. Crutzem and C. Bruhl, 1993. Climate Effects Of Atmospheric Methane, Chemosphere, 26: 739-768.",
+      "text": "Lelieveld, J., P.J. Crutzem and C. Bruhl, 1993. Climate Effects Of Atmospheric Methane, Chemosphere, 26: 739-768.",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 312.90225875817885,
+            "t": 203.64334475445685,
+            "r": 540.6766931657309,
+            "b": 166.82164015833382,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "12. Hogan, K.B., J.S. Hoffman and A.M. Thompson, 1991. Methane On The Greenhouse Agenda, Nature (London), 354: 181-182.",
+      "text": "Hogan, K.B., J.S. Hoffman and A.M. Thompson, 1991. Methane On The Greenhouse Agenda, Nature (London), 354: 181-182.",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 312.90225420269013,
+            "t": 164.57064933744698,
+            "r": 541.8270712184798,
+            "b": 128.53373233896207,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "13. Lipscomb, J.D., 1994. Biochemistry Of The Soluble Methane Monooxygenase, Annu. Rev. Microbiol., 48: 371-399.",
+      "text": "Lipscomb, J.D., 1994. Biochemistry Of The Soluble Methane Monooxygenase, Annu. Rev. Microbiol., 48: 371-399.",
+      "enumerated": true,
+      "marker": "13."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 227.6214141845703,
+            "t": 71.29266357421875,
+            "r": 312.4054870605469,
+            "b": 53.22119140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 112.5325927734375,
+            "t": 697.3372116088867,
+            "r": 514.3966064453125,
+            "b": 576.0543060302734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 170.35067749023438,
+            "t": 713.1114273071289,
+            "r": 446.06884765625,
+            "b": 501.4362487792969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 165.93983459472656,
+            "t": 464.5523681640625,
+            "r": 453.46600341796875,
+            "b": 293.7822265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 162.22891235351562,
+            "t": 716.8399429321289,
+            "r": 449.362060546875,
+            "b": 542.3509826660156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 540.0,
+        "height": 756.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 791.6399536132812
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 791.6399536132812
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 791.6399536132812
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 791.6399536132812
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 791.6399536132812
+      },
+      "page_no": 6
+    }
+  }
+}

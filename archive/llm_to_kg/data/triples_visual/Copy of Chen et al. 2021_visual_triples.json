@@ -1,0 +1,112 @@
+[
+  {
+    "page": 3,
+    "caption": "Fig. 1. Illustrations of systems for the gas-phase reaction and the aqueous \nphase reaction. (a) Conceptual design of a reactor capable of supplying gaseous \nsubstrates (CH4 and O2) and liquid nutrients continuously. (b) Configuration of \nthe system for the gas-phase reaction. (c) Batch-type vial system for the aqueous \nphase reaction.",
+    "triples": [
+      {
+        "subject": "Methanotrophs",
+        "relation": "consume",
+        "object": "CH4"
+      },
+      {
+        "subject": "Methanotrophs",
+        "relation": "consume",
+        "object": "O2"
+      },
+      {
+        "subject": "Methanotrophs",
+        "relation": "produce",
+        "object": "CO2"
+      },
+      {
+        "subject": "Methanotrophs",
+        "relation": "produce",
+        "object": "H2O"
+      },
+      {
+        "subject": "Gas phase",
+        "relation": "contains",
+        "object": "CH4"
+      },
+      {
+        "subject": "Gas phase",
+        "relation": "contains",
+        "object": "O2"
+      },
+      {
+        "subject": "Gas phase",
+        "relation": "contains",
+        "object": "CO2"
+      },
+      {
+        "subject": "Gas phase",
+        "relation": "contains",
+        "object": "H2O"
+      },
+      {
+        "subject": "Gas blender",
+        "relation": "mixes",
+        "object": "CH4"
+      },
+      {
+        "subject": "Gas blender",
+        "relation": "mixes",
+        "object": "Air"
+      },
+      {
+        "subject": "Gas blender",
+        "relation": "produces",
+        "object": "80% Air, 20% CH4"
+      },
+      {
+        "subject": "Peristaltic pump",
+        "relation": "transports",
+        "object": "80% Air, 20% CH4"
+      },
+      {
+        "subject": "Solution container",
+        "relation": "receives",
+        "object": "80% Air, 20% CH4"
+      },
+      {
+        "subject": "Shaker",
+        "relation": "vibrates",
+        "object": "vial"
+      },
+      {
+        "subject": "vial",
+        "relation": "contains",
+        "object": "80% Air, 20% CH4"
+      },
+      {
+        "subject": "vial",
+        "relation": "contains",
+        "object": "Bacterial solution"
+      },
+      {
+        "subject": "Gas phase",
+        "relation": "is above",
+        "object": "Aqueous phase"
+      },
+      {
+        "subject": "Gas phase",
+        "relation": "is above",
+        "object": "Solid phase"
+      },
+      {
+        "subject": "Aqueous phase",
+        "relation": "contains",
+        "object": "Nutrients"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous \nphase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the \ncontributing ratio of each score.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 2. (a) Principal component analysis and (b) hierarchical cluster analysis of 105 metabolites detected in Methylococcus capsulatus (Bath) cells catalyzing aqueous \nphase and gas-phase reactions for 3 h. PC1 and PC2 indicate first and second principal component scores, respectively. The numbers in the parentheses show the \ncontributing ratio of each score.\n\nOutput JSON list only:\nassistant\n[\n  (\"PC1 (66.2%)\", \"explains\", \"66.2% of variance\"),\n  (\"PC2 (11.6%)\", \"explains\", \"11.6% of variance\"),\n  (\"Principal component analysis\", \"analyzes\", \"105 metabolites\"),\n  (\"Hierarchical cluster analysis\", \"analyzes\", \"105 metabolites\"),\n  (\"Methylococcus capsulatus (Bath) cells\", \"catalyze\", \"aqueous phase reactions\"),\n  (\"Methylococcus capsulatus (Bath) cells\", \"catalyze\", \"gas-phase reactions\"),\n  (\"Aqueous\", \"classified as\", \"class 2\"),\n  (\"Gas\", \"classified as\", \"class 1\"),\n  (\"Principal component analysis\", \"visualized as\", \"scatter plot in (a)\"),\n  (\"Hierarchical cluster analysis\", \"visualized as\", \"heatmap in (b)\")\n]"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4118 @@
+{
+  "total_chunks": 2,
+  "errors": 0,
+  "entities": 108,
+  "relations": 90,
+  "cross_chunk_relations": 0,
+  "relations_with_spans": 90,
+  "sections": {
+    "Front Matter": {
+      "chunks": 1,
+      "entities": 9,
+      "relations": 9
+    },
+    "Supplemental Materials": {
+      "chunks": 1,
+      "entities": 103,
+      "relations": 81
+    }
+  },
+  "all_relations": [
+    {
+      "subject": "13.8",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 56,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "13.8"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.1",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 45,
+            "sentence_id": 0,
+            "matched_text": "1.1"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.7",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 3,
+            "sentence_id": 0,
+            "matched_text": "1.7"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.2",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "1.2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.6",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 10,
+            "sentence_id": 0,
+            "matched_text": "1.6"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.0",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 52,
+            "sentence_id": 0,
+            "matched_text": "1.0"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.3",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "1.3"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.4",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 26,
+            "sentence_id": 0,
+            "matched_text": "1.4"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "1.5",
+      "predicate": "-",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "1.7 -\n\n1.6 -\n\n1.5 -\n\n\u2022 1.4 -\n\n1.3-\n\n1.2-\n\n1.1 -\n\n1.0 -\n\n13.8",
+        "document_offsets": {
+          "start": 24,
+          "end": 84
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "1.5"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "I 1.5 -",
+      "predicate": "represents",
+      "object": "Carbon quotient (CQ)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 25,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 622,
+          "end": 3079
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Time",
+      "predicate": "represents",
+      "object": "14.2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "14.0\n\n14.2\n\nTime 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime The time of the shifts for the 0.15 g/L KNO 3 and 0.3 g/L KNO 3 cultures are indicated by the vertical dashed lines. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 98,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 16,
+            "sentence_id": 0,
+            "matched_text": "Time"
+          },
+          {
+            "start": 519,
+            "end": 523,
+            "sentence_id": 6,
+            "matched_text": "Time"
+          },
+          {
+            "start": 550,
+            "end": 554,
+            "sentence_id": 7,
+            "matched_text": "Time"
+          },
+          {
+            "start": 781,
+            "end": 785,
+            "sentence_id": 8,
+            "matched_text": "Time"
+          },
+          {
+            "start": 814,
+            "end": 818,
+            "sentence_id": 9,
+            "matched_text": "Time"
+          },
+          {
+            "start": 1233,
+            "end": 1237,
+            "sentence_id": 12,
+            "matched_text": "Time"
+          },
+          {
+            "start": 1839,
+            "end": 1843,
+            "sentence_id": 17,
+            "matched_text": "time"
+          },
+          {
+            "start": 2138,
+            "end": 2142,
+            "sentence_id": 20,
+            "matched_text": "Time"
+          },
+          {
+            "start": 2269,
+            "end": 2273,
+            "sentence_id": 22,
+            "matched_text": "time"
+          },
+          {
+            "start": 2595,
+            "end": 2599,
+            "sentence_id": 23,
+            "matched_text": "time"
+          },
+          {
+            "start": 2992,
+            "end": 2996,
+            "sentence_id": 26,
+            "matched_text": "Time"
+          },
+          {
+            "start": 3029,
+            "end": 3033,
+            "sentence_id": 27,
+            "matched_text": "Time"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 6,
+            "end": 10,
+            "sentence_id": 0,
+            "matched_text": "14.2"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Gas transfer rate [mmol/L/h]",
+      "predicate": "is measured for",
+      "object": "Nitrogen, humid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20",
+        "document_offsets": {
+          "start": 622,
+          "end": 765
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 66,
+            "sentence_id": 7,
+            "matched_text": "Nitrogen, humid"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "12",
+      "predicate": "represents",
+      "object": "time index",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 53,
+            "sentence_id": 6,
+            "matched_text": "12"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 332,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 336,
+            "end": 338,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 1743,
+            "end": 1745,
+            "sentence_id": 21,
+            "matched_text": "12"
+          },
+          {
+            "start": 2476,
+            "end": 2478,
+            "sentence_id": 25,
+            "matched_text": "12"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "\u2192= 1.00 g/L KNO3",
+      "predicate": "represents",
+      "object": "Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 12,
+        "sentence_end": 20,
+        "text_evidence": "Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime",
+        "document_offsets": {
+          "start": 1180,
+          "end": 2240
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1.0",
+      "predicate": "represents",
+      "object": "Carbon quotient (CQ)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime Due to sensor errors, the 1.0 g/L and 0.15 g/L KNO 3 culture MTR data are only shown as singular courses. [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 38,
+            "sentence_id": 6,
+            "matched_text": "1.0"
+          },
+          {
+            "start": 277,
+            "end": 280,
+            "sentence_id": 8,
+            "matched_text": "1.0"
+          },
+          {
+            "start": 1048,
+            "end": 1051,
+            "sentence_id": 15,
+            "matched_text": "1.0"
+          },
+          {
+            "start": 2408,
+            "end": 2411,
+            "sentence_id": 25,
+            "matched_text": "1.0"
+          },
+          {
+            "start": 2435,
+            "end": 2438,
+            "sentence_id": 25,
+            "matched_text": "1.0"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "-- 20 mL",
+      "predicate": "is volume of",
+      "object": "liquid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "--* 0.00 g/L KNO3",
+      "predicate": "represents",
+      "object": "Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 1180,
+          "end": 1335
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Nitrogen, humid",
+      "predicate": "has concentration",
+      "object": "20 % CO2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20",
+        "document_offsets": {
+          "start": 622,
+          "end": 765
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 66,
+            "sentence_id": 7,
+            "matched_text": "Nitrogen, humid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 76,
+            "sentence_id": 7,
+            "matched_text": "20 % CO2"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "OTRmax",
+      "predicate": "is the maximum value of",
+      "object": "Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 765,
+          "end": 1335
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 104,
+            "sentence_id": 8,
+            "matched_text": "OTRmax"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "5",
+      "predicate": "corresponds to",
+      "object": "time index 5",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime CQ of the cultivation shifts from around 0.5 during the exponential growth phase towards 0.7 during the transition phase into the O 2 limitation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime Due to sensor errors, the 1.0 g/L and 0.15 g/L KNO 3 culture MTR data are only shown as singular courses. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime The time of the shifts for the 0.15 g/L KNO 3 and 0.3 g/L KNO 3 cultures are indicated by the vertical dashed lines. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 64,
+            "end": 65,
+            "sentence_id": 6,
+            "matched_text": "5"
+          },
+          {
+            "start": 147,
+            "end": 148,
+            "sentence_id": 7,
+            "matched_text": "5"
+          },
+          {
+            "start": 260,
+            "end": 261,
+            "sentence_id": 8,
+            "matched_text": "5"
+          },
+          {
+            "start": 284,
+            "end": 285,
+            "sentence_id": 8,
+            "matched_text": "5"
+          },
+          {
+            "start": 499,
+            "end": 500,
+            "sentence_id": 10,
+            "matched_text": "5"
+          },
+          {
+            "start": 1482,
+            "end": 1483,
+            "sentence_id": 18,
+            "matched_text": "5"
+          },
+          {
+            "start": 1713,
+            "end": 1714,
+            "sentence_id": 20,
+            "matched_text": "5"
+          },
+          {
+            "start": 2238,
+            "end": 2239,
+            "sentence_id": 24,
+            "matched_text": "5"
+          },
+          {
+            "start": 2324,
+            "end": 2325,
+            "sentence_id": 25,
+            "matched_text": "5"
+          },
+          {
+            "start": 2400,
+            "end": 2401,
+            "sentence_id": 25,
+            "matched_text": "5"
+          },
+          {
+            "start": 2425,
+            "end": 2426,
+            "sentence_id": 25,
+            "matched_text": "5"
+          },
+          {
+            "start": 2449,
+            "end": 2450,
+            "sentence_id": 25,
+            "matched_text": "5"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "24",
+      "predicate": "represents",
+      "object": "time index",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 27,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 514,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 97,
+            "sentence_id": 6,
+            "matched_text": "24"
+          },
+          {
+            "start": 357,
+            "end": 359,
+            "sentence_id": 8,
+            "matched_text": "24"
+          },
+          {
+            "start": 390,
+            "end": 392,
+            "sentence_id": 9,
+            "matched_text": "24"
+          },
+          {
+            "start": 2568,
+            "end": 2570,
+            "sentence_id": 26,
+            "matched_text": "24"
+          },
+          {
+            "start": 2594,
+            "end": 2596,
+            "sentence_id": 27,
+            "matched_text": "24"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "22",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20",
+        "document_offsets": {
+          "start": 622,
+          "end": 765
+        },
+        "subject_positions": [
+          {
+            "start": 130,
+            "end": 132,
+            "sentence_id": 7,
+            "matched_text": "22"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "0",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "14.0\n\n14.2\n\nTime The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. CQ of the cultivation shifts from around 0.5 during the exponential growth phase towards 0.7 during the transition phase into the O 2 limitation. During the O 2 limitation, a CQ of around 0.9 can be measured. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime Due to sensor errors, the 1.0 g/L and 0.15 g/L KNO 3 culture MTR data are only shown as singular courses. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. The time of the shifts for the 0.15 g/L KNO 3 and 0.3 g/L KNO 3 cultures are indicated by the vertical dashed lines. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 98,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 3,
+            "end": 4,
+            "sentence_id": 0,
+            "matched_text": "0"
+          },
+          {
+            "start": 448,
+            "end": 449,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 453,
+            "end": 454,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 660,
+            "end": 661,
+            "sentence_id": 7,
+            "matched_text": "0"
+          },
+          {
+            "start": 695,
+            "end": 696,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 698,
+            "end": 699,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 709,
+            "end": 710,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 711,
+            "end": 712,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 716,
+            "end": 717,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 913,
+            "end": 914,
+            "sentence_id": 10,
+            "matched_text": "0"
+          },
+          {
+            "start": 961,
+            "end": 962,
+            "sentence_id": 10,
+            "matched_text": "0"
+          },
+          {
+            "start": 1060,
+            "end": 1061,
+            "sentence_id": 11,
+            "matched_text": "0"
+          },
+          {
+            "start": 1168,
+            "end": 1169,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 1184,
+            "end": 1185,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 1200,
+            "end": 1201,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 1466,
+            "end": 1467,
+            "sentence_id": 15,
+            "matched_text": "0"
+          },
+          {
+            "start": 1476,
+            "end": 1477,
+            "sentence_id": 15,
+            "matched_text": "0"
+          },
+          {
+            "start": 1668,
+            "end": 1669,
+            "sentence_id": 17,
+            "matched_text": "0"
+          },
+          {
+            "start": 1739,
+            "end": 1740,
+            "sentence_id": 17,
+            "matched_text": "0"
+          },
+          {
+            "start": 1776,
+            "end": 1777,
+            "sentence_id": 17,
+            "matched_text": "0"
+          },
+          {
+            "start": 2041,
+            "end": 2042,
+            "sentence_id": 20,
+            "matched_text": "0"
+          },
+          {
+            "start": 2044,
+            "end": 2045,
+            "sentence_id": 20,
+            "matched_text": "0"
+          },
+          {
+            "start": 2067,
+            "end": 2068,
+            "sentence_id": 20,
+            "matched_text": "0"
+          },
+          {
+            "start": 2084,
+            "end": 2085,
+            "sentence_id": 20,
+            "matched_text": "0"
+          },
+          {
+            "start": 2102,
+            "end": 2103,
+            "sentence_id": 20,
+            "matched_text": "0"
+          },
+          {
+            "start": 2296,
+            "end": 2297,
+            "sentence_id": 22,
+            "matched_text": "0"
+          },
+          {
+            "start": 2315,
+            "end": 2316,
+            "sentence_id": 22,
+            "matched_text": "0"
+          },
+          {
+            "start": 2424,
+            "end": 2425,
+            "sentence_id": 23,
+            "matched_text": "0"
+          },
+          {
+            "start": 2495,
+            "end": 2496,
+            "sentence_id": 23,
+            "matched_text": "0"
+          },
+          {
+            "start": 2532,
+            "end": 2533,
+            "sentence_id": 23,
+            "matched_text": "0"
+          },
+          {
+            "start": 2725,
+            "end": 2726,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2730,
+            "end": 2731,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2755,
+            "end": 2756,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2826,
+            "end": 2827,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2831,
+            "end": 2832,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2834,
+            "end": 2835,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2844,
+            "end": 2845,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2853,
+            "end": 2854,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2858,
+            "end": 2859,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2863,
+            "end": 2864,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2868,
+            "end": 2869,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2875,
+            "end": 2876,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2877,
+            "end": 2878,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2882,
+            "end": 2883,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2884,
+            "end": 2885,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2889,
+            "end": 2890,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2932,
+            "end": 2933,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2949,
+            "end": 2950,
+            "sentence_id": 25,
+            "matched_text": "0"
+          },
+          {
+            "start": 2966,
+            "end": 2967,
+            "sentence_id": 25,
+            "matched_text": "0"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "80 % H2",
+      "predicate": "is present in",
+      "object": "Gas mixture",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 62,
+            "sentence_id": 6,
+            "matched_text": "80 % H2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "4",
+      "predicate": "represents",
+      "object": "Carbon quotient (CQ)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO. T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 98,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 424,
+            "end": 425,
+            "sentence_id": 6,
+            "matched_text": "4"
+          },
+          {
+            "start": 547,
+            "end": 548,
+            "sentence_id": 7,
+            "matched_text": "4"
+          },
+          {
+            "start": 703,
+            "end": 704,
+            "sentence_id": 8,
+            "matched_text": "4"
+          },
+          {
+            "start": 1910,
+            "end": 1911,
+            "sentence_id": 18,
+            "matched_text": "4"
+          },
+          {
+            "start": 1916,
+            "end": 1917,
+            "sentence_id": 18,
+            "matched_text": "4"
+          },
+          {
+            "start": 1948,
+            "end": 1949,
+            "sentence_id": 18,
+            "matched_text": "4"
+          },
+          {
+            "start": 2126,
+            "end": 2127,
+            "sentence_id": 20,
+            "matched_text": "4"
+          },
+          {
+            "start": 2666,
+            "end": 2667,
+            "sentence_id": 24,
+            "matched_text": "4"
+          },
+          {
+            "start": 2672,
+            "end": 2673,
+            "sentence_id": 24,
+            "matched_text": "4"
+          },
+          {
+            "start": 2704,
+            "end": 2705,
+            "sentence_id": 24,
+            "matched_text": "4"
+          },
+          {
+            "start": 2723,
+            "end": 2724,
+            "sentence_id": 25,
+            "matched_text": "4"
+          },
+          {
+            "start": 2809,
+            "end": 2810,
+            "sentence_id": 25,
+            "matched_text": "4"
+          },
+          {
+            "start": 2860,
+            "end": 2861,
+            "sentence_id": 25,
+            "matched_text": "4"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "10 mL",
+      "predicate": "is volume of",
+      "object": "liquid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 23,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol;",
+        "document_offsets": {
+          "start": 514,
+          "end": 2741
+        },
+        "subject_positions": [
+          {
+            "start": 70,
+            "end": 75,
+            "sentence_id": 6,
+            "matched_text": "10 mL"
+          },
+          {
+            "start": 1340,
+            "end": 1345,
+            "sentence_id": 17,
+            "matched_text": "10 mL"
+          },
+          {
+            "start": 2096,
+            "end": 2101,
+            "sentence_id": 23,
+            "matched_text": "10 mL"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. CQ of the cultivation shifts from around 0.5 during the exponential growth phase towards 0.7 during the transition phase into the O 2 limitation. During the O 2 limitation, a CQ of around 0.9 can be measured. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO. T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 98,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 10,
+            "sentence_id": 0,
+            "matched_text": "2"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 4,
+            "matched_text": "2"
+          },
+          {
+            "start": 334,
+            "end": 335,
+            "sentence_id": 4,
+            "matched_text": "2"
+          },
+          {
+            "start": 437,
+            "end": 438,
+            "sentence_id": 6,
+            "matched_text": "2"
+          },
+          {
+            "start": 541,
+            "end": 542,
+            "sentence_id": 7,
+            "matched_text": "2"
+          },
+          {
+            "start": 658,
+            "end": 659,
+            "sentence_id": 7,
+            "matched_text": "2"
+          },
+          {
+            "start": 706,
+            "end": 707,
+            "sentence_id": 8,
+            "matched_text": "2"
+          },
+          {
+            "start": 1004,
+            "end": 1005,
+            "sentence_id": 10,
+            "matched_text": "2"
+          },
+          {
+            "start": 1031,
+            "end": 1032,
+            "sentence_id": 11,
+            "matched_text": "2"
+          },
+          {
+            "start": 1803,
+            "end": 1804,
+            "sentence_id": 17,
+            "matched_text": "2"
+          },
+          {
+            "start": 1925,
+            "end": 1926,
+            "sentence_id": 18,
+            "matched_text": "2"
+          },
+          {
+            "start": 1941,
+            "end": 1942,
+            "sentence_id": 18,
+            "matched_text": "2"
+          },
+          {
+            "start": 1957,
+            "end": 1958,
+            "sentence_id": 18,
+            "matched_text": "2"
+          },
+          {
+            "start": 2120,
+            "end": 2121,
+            "sentence_id": 20,
+            "matched_text": "2"
+          },
+          {
+            "start": 2559,
+            "end": 2560,
+            "sentence_id": 23,
+            "matched_text": "2"
+          },
+          {
+            "start": 2681,
+            "end": 2682,
+            "sentence_id": 24,
+            "matched_text": "2"
+          },
+          {
+            "start": 2697,
+            "end": 2698,
+            "sentence_id": 24,
+            "matched_text": "2"
+          },
+          {
+            "start": 2713,
+            "end": 2714,
+            "sentence_id": 24,
+            "matched_text": "2"
+          },
+          {
+            "start": 2728,
+            "end": 2729,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2812,
+            "end": 2813,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2821,
+            "end": 2822,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2829,
+            "end": 2830,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2870,
+            "end": 2871,
+            "sentence_id": 25,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Integrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations.",
+      "predicate": "is a graphical representation of",
+      "object": "Oxygen transfer rate [mmol/L/h] and Methane transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "[h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations.",
+        "document_offsets": {
+          "start": 2241,
+          "end": 2362
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "40 -",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "5 mL",
+      "predicate": "is volume of",
+      "object": "liquid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [
+          {
+            "start": 64,
+            "end": 68,
+            "sentence_id": 6,
+            "matched_text": "5 mL"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "16",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 13,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations.",
+        "document_offsets": {
+          "start": 622,
+          "end": 1441
+        },
+        "subject_positions": [
+          {
+            "start": 157,
+            "end": 159,
+            "sentence_id": 8,
+            "matched_text": "16"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1.6 .",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 .",
+        "document_offsets": {
+          "start": 445,
+          "end": 514
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "- OTR",
+      "predicate": "is a method for",
+      "object": "measuring Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 765,
+          "end": 883
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Nitrogen, humid",
+      "predicate": "is a type of",
+      "object": "environment",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20",
+        "document_offsets": {
+          "start": 622,
+          "end": 765
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 66,
+            "sentence_id": 7,
+            "matched_text": "Nitrogen, humid"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "10",
+      "predicate": "corresponds to",
+      "object": "time index 10",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 23,
+        "text_evidence": "The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol;",
+        "document_offsets": {
+          "start": 327,
+          "end": 2741
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 34,
+            "sentence_id": 4,
+            "matched_text": "10"
+          },
+          {
+            "start": 257,
+            "end": 259,
+            "sentence_id": 6,
+            "matched_text": "10"
+          },
+          {
+            "start": 1527,
+            "end": 1529,
+            "sentence_id": 17,
+            "matched_text": "10"
+          },
+          {
+            "start": 1806,
+            "end": 1808,
+            "sentence_id": 20,
+            "matched_text": "10"
+          },
+          {
+            "start": 1922,
+            "end": 1924,
+            "sentence_id": 21,
+            "matched_text": "10"
+          },
+          {
+            "start": 2283,
+            "end": 2285,
+            "sentence_id": 23,
+            "matched_text": "10"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "18-",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 622,
+          "end": 883
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "- CHA",
+      "predicate": "is present in",
+      "object": "Gas mixture",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 .",
+        "document_offsets": {
+          "start": 445,
+          "end": 514
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "CO2",
+      "predicate": "has concentration",
+      "object": "80 -",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20",
+        "document_offsets": {
+          "start": 445,
+          "end": 765
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 54,
+            "sentence_id": 5,
+            "matched_text": "CO2"
+          },
+          {
+            "start": 250,
+            "end": 253,
+            "sentence_id": 7,
+            "matched_text": "CO2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Time [h]",
+      "predicate": "is repeated at",
+      "object": "60",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 27,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 514,
+          "end": 3135
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 6,
+            "matched_text": "60"
+          },
+          {
+            "start": 117,
+            "end": 119,
+            "sentence_id": 7,
+            "matched_text": "60"
+          },
+          {
+            "start": 379,
+            "end": 381,
+            "sentence_id": 9,
+            "matched_text": "60"
+          },
+          {
+            "start": 408,
+            "end": 410,
+            "sentence_id": 9,
+            "matched_text": "60"
+          },
+          {
+            "start": 1574,
+            "end": 1576,
+            "sentence_id": 19,
+            "matched_text": "60"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Figure S6",
+      "predicate": "contains",
+      "object": "Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 884,
+          "end": 1335
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 51,
+            "sentence_id": 9,
+            "matched_text": "Figure S6"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "represents",
+      "object": "time index",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Due to sensor errors, the 1.0 g/L and 0.15 g/L KNO 3 culture MTR data are only shown as singular courses. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. The time of the shifts for the 0.15 g/L KNO 3 and 0.3 g/L KNO 3 cultures are indicated by the vertical dashed lines. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 98,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 371,
+            "end": 372,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 409,
+            "end": 410,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 422,
+            "end": 423,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 435,
+            "end": 436,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 451,
+            "end": 452,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 464,
+            "end": 465,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 674,
+            "end": 675,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 693,
+            "end": 694,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 1152,
+            "end": 1153,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 1464,
+            "end": 1465,
+            "sentence_id": 15,
+            "matched_text": "1"
+          },
+          {
+            "start": 1676,
+            "end": 1677,
+            "sentence_id": 17,
+            "matched_text": "1"
+          },
+          {
+            "start": 1778,
+            "end": 1779,
+            "sentence_id": 17,
+            "matched_text": "1"
+          },
+          {
+            "start": 1929,
+            "end": 1930,
+            "sentence_id": 18,
+            "matched_text": "1"
+          },
+          {
+            "start": 2050,
+            "end": 2051,
+            "sentence_id": 20,
+            "matched_text": "1"
+          },
+          {
+            "start": 2117,
+            "end": 2118,
+            "sentence_id": 20,
+            "matched_text": "1"
+          },
+          {
+            "start": 2432,
+            "end": 2433,
+            "sentence_id": 23,
+            "matched_text": "1"
+          },
+          {
+            "start": 2534,
+            "end": 2535,
+            "sentence_id": 23,
+            "matched_text": "1"
+          },
+          {
+            "start": 2685,
+            "end": 2686,
+            "sentence_id": 24,
+            "matched_text": "1"
+          },
+          {
+            "start": 2733,
+            "end": 2734,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2745,
+            "end": 2746,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2807,
+            "end": 2808,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2819,
+            "end": 2820,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2824,
+            "end": 2825,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2839,
+            "end": 2840,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2851,
+            "end": 2852,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2898,
+            "end": 2899,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2915,
+            "end": 2916,
+            "sentence_id": 25,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Figure S2",
+      "predicate": "contains",
+      "object": "Oxygen sensor value",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "[h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases.",
+        "document_offsets": {
+          "start": 115,
+          "end": 193
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "Figure S2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 51,
+            "sentence_id": 1,
+            "matched_text": "oxygen sensor value"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "\u2192 0.30 g/L KNO3",
+      "predicate": "represents",
+      "object": "Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 12,
+        "sentence_end": 20,
+        "text_evidence": "Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime",
+        "document_offsets": {
+          "start": 1180,
+          "end": 2240
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1.4 -",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Carbon quotient (CQ)",
+      "predicate": "is calculated for",
+      "object": "Nitrogen, humid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 25,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 622,
+          "end": 3079
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 66,
+            "sentence_id": 7,
+            "matched_text": "Nitrogen, humid"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methane transfer rate [mmol/L/h]",
+      "predicate": "is a measure of",
+      "object": "methane exchange between the environment and a biological system",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 1180,
+          "end": 1335
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Figure S2",
+      "predicate": "contains",
+      "object": "Flush phase",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "[h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. I: Equilibration phase, II: Measurement phase, III: Flush phase.",
+        "document_offsets": {
+          "start": 115,
+          "end": 258
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "Figure S2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 131,
+            "end": 142,
+            "sentence_id": 2,
+            "matched_text": "Flush phase"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "48",
+      "predicate": "corresponds to",
+      "object": "time index 48-",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 27,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 622,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 7,
+            "sentence_id": 7,
+            "matched_text": "48"
+          },
+          {
+            "start": 267,
+            "end": 269,
+            "sentence_id": 9,
+            "matched_text": "48"
+          },
+          {
+            "start": 286,
+            "end": 288,
+            "sentence_id": 9,
+            "matched_text": "48"
+          },
+          {
+            "start": 2478,
+            "end": 2480,
+            "sentence_id": 27,
+            "matched_text": "48"
+          },
+          {
+            "start": 2493,
+            "end": 2495,
+            "sentence_id": 27,
+            "matched_text": "48"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "0.0 +",
+      "predicate": "represents",
+      "object": "Carbon quotient (CQ)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 25,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 622,
+          "end": 3079
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "60 -",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 19,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer",
+        "document_offsets": {
+          "start": 514,
+          "end": 2116
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "14",
+      "predicate": "corresponds to",
+      "object": "time index 14",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations.",
+        "document_offsets": {
+          "start": 98,
+          "end": 2362
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 0,
+            "matched_text": "14"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "14"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "14"
+          },
+          {
+            "start": 28,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "14"
+          },
+          {
+            "start": 685,
+            "end": 687,
+            "sentence_id": 8,
+            "matched_text": "14"
+          },
+          {
+            "start": 2167,
+            "end": 2169,
+            "sentence_id": 21,
+            "matched_text": "14"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "8",
+      "predicate": "corresponds to",
+      "object": "time index 8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 27,
+        "text_evidence": "Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO. [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 445,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 27,
+            "sentence_id": 5,
+            "matched_text": "8"
+          },
+          {
+            "start": 225,
+            "end": 226,
+            "sentence_id": 7,
+            "matched_text": "8"
+          },
+          {
+            "start": 1449,
+            "end": 1450,
+            "sentence_id": 17,
+            "matched_text": "8"
+          },
+          {
+            "start": 1788,
+            "end": 1789,
+            "sentence_id": 20,
+            "matched_text": "8"
+          },
+          {
+            "start": 2205,
+            "end": 2206,
+            "sentence_id": 23,
+            "matched_text": "8"
+          },
+          {
+            "start": 2388,
+            "end": 2389,
+            "sentence_id": 25,
+            "matched_text": "8"
+          },
+          {
+            "start": 2489,
+            "end": 2490,
+            "sentence_id": 25,
+            "matched_text": "8"
+          },
+          {
+            "start": 2674,
+            "end": 2675,
+            "sentence_id": 27,
+            "matched_text": "8"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Figure S2",
+      "predicate": "contains",
+      "object": "Time [h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 27,
+        "text_evidence": "[h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 115,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "Figure S2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1.2 -",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Time [h]",
+      "predicate": "is repeated at",
+      "object": "48",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 27,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 622,
+          "end": 3135
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 5,
+            "end": 7,
+            "sentence_id": 7,
+            "matched_text": "48"
+          },
+          {
+            "start": 267,
+            "end": 269,
+            "sentence_id": 9,
+            "matched_text": "48"
+          },
+          {
+            "start": 286,
+            "end": 288,
+            "sentence_id": 9,
+            "matched_text": "48"
+          },
+          {
+            "start": 2478,
+            "end": 2480,
+            "sentence_id": 27,
+            "matched_text": "48"
+          },
+          {
+            "start": 2493,
+            "end": 2495,
+            "sentence_id": 27,
+            "matched_text": "48"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "corresponds to",
+      "object": "time index 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Due to sensor errors, the 1.0 g/L and 0.15 g/L KNO 3 culture MTR data are only shown as singular courses. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. The time of the shifts for the 0.15 g/L KNO 3 and 0.3 g/L KNO 3 cultures are indicated by the vertical dashed lines. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 98,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 371,
+            "end": 372,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 409,
+            "end": 410,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 422,
+            "end": 423,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 435,
+            "end": 436,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 451,
+            "end": 452,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 464,
+            "end": 465,
+            "sentence_id": 6,
+            "matched_text": "1"
+          },
+          {
+            "start": 674,
+            "end": 675,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 693,
+            "end": 694,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 1152,
+            "end": 1153,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 1464,
+            "end": 1465,
+            "sentence_id": 15,
+            "matched_text": "1"
+          },
+          {
+            "start": 1676,
+            "end": 1677,
+            "sentence_id": 17,
+            "matched_text": "1"
+          },
+          {
+            "start": 1778,
+            "end": 1779,
+            "sentence_id": 17,
+            "matched_text": "1"
+          },
+          {
+            "start": 1929,
+            "end": 1930,
+            "sentence_id": 18,
+            "matched_text": "1"
+          },
+          {
+            "start": 2050,
+            "end": 2051,
+            "sentence_id": 20,
+            "matched_text": "1"
+          },
+          {
+            "start": 2117,
+            "end": 2118,
+            "sentence_id": 20,
+            "matched_text": "1"
+          },
+          {
+            "start": 2432,
+            "end": 2433,
+            "sentence_id": 23,
+            "matched_text": "1"
+          },
+          {
+            "start": 2534,
+            "end": 2535,
+            "sentence_id": 23,
+            "matched_text": "1"
+          },
+          {
+            "start": 2685,
+            "end": 2686,
+            "sentence_id": 24,
+            "matched_text": "1"
+          },
+          {
+            "start": 2733,
+            "end": 2734,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2745,
+            "end": 2746,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2807,
+            "end": 2808,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2819,
+            "end": 2820,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2824,
+            "end": 2825,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2839,
+            "end": 2840,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2851,
+            "end": 2852,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2898,
+            "end": 2899,
+            "sentence_id": 25,
+            "matched_text": "1"
+          },
+          {
+            "start": 2915,
+            "end": 2916,
+            "sentence_id": 25,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Figure S2",
+      "predicate": "contains",
+      "object": "Measurement phase",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 4,
+        "text_evidence": "[h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. I: Equilibration phase, II: Measurement phase, III: Flush phase. Progress of the oxygen partial pressure during a measurement phase. The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient.",
+        "document_offsets": {
+          "start": 115,
+          "end": 445
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "Figure S2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 107,
+            "end": 124,
+            "sentence_id": 2,
+            "matched_text": "Measurement phase"
+          },
+          {
+            "start": 193,
+            "end": 210,
+            "sentence_id": 3,
+            "matched_text": "measurement phase"
+          },
+          {
+            "start": 260,
+            "end": 277,
+            "sentence_id": 4,
+            "matched_text": "measurement phase"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "6",
+      "predicate": "corresponds to",
+      "object": "time index 6",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 26,
+        "text_evidence": "[h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO. T\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 115,
+          "end": 3094
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 15,
+            "sentence_id": 1,
+            "matched_text": "6"
+          },
+          {
+            "start": 394,
+            "end": 395,
+            "sentence_id": 5,
+            "matched_text": "6"
+          },
+          {
+            "start": 549,
+            "end": 550,
+            "sentence_id": 7,
+            "matched_text": "6"
+          },
+          {
+            "start": 1777,
+            "end": 1778,
+            "sentence_id": 17,
+            "matched_text": "6"
+          },
+          {
+            "start": 2115,
+            "end": 2116,
+            "sentence_id": 20,
+            "matched_text": "6"
+          },
+          {
+            "start": 2533,
+            "end": 2534,
+            "sentence_id": 23,
+            "matched_text": "6"
+          },
+          {
+            "start": 2829,
+            "end": 2830,
+            "sentence_id": 25,
+            "matched_text": "6"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "- H2",
+      "predicate": "is present in",
+      "object": "Gas mixture",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Nitrogen, dry",
+      "predicate": "has concentration",
+      "object": "1.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 25,
+        "text_evidence": "Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 445,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 42,
+            "sentence_id": 5,
+            "matched_text": "Nitrogen, dry"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 27,
+            "sentence_id": 5,
+            "matched_text": "1.8"
+          },
+          {
+            "start": 2386,
+            "end": 2389,
+            "sentence_id": 25,
+            "matched_text": "1.8"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "0.5",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 25,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime CQ of the cultivation shifts from around 0.5 during the exponential growth phase towards 0.7 during the transition phase into the O 2 limitation. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 622,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 174,
+            "end": 177,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 389,
+            "end": 392,
+            "sentence_id": 10,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 2339,
+            "end": 2342,
+            "sentence_id": 25,
+            "matched_text": "0.5"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Figure S6",
+      "predicate": "contains",
+      "object": "Methane transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 884,
+          "end": 1335
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 51,
+            "sentence_id": 9,
+            "matched_text": "Figure S6"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Figure S2",
+      "predicate": "contains",
+      "object": "Equilibration phase",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "[h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. I: Equilibration phase, II: Measurement phase, III: Flush phase.",
+        "document_offsets": {
+          "start": 115,
+          "end": 258
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "Figure S2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 82,
+            "end": 101,
+            "sentence_id": 2,
+            "matched_text": "Equilibration phase"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Time",
+      "predicate": "represents",
+      "object": "14.0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "14.0\n\n14.2\n\nTime 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime The time of the shifts for the 0.15 g/L KNO 3 and 0.3 g/L KNO 3 cultures are indicated by the vertical dashed lines. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 98,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 16,
+            "sentence_id": 0,
+            "matched_text": "Time"
+          },
+          {
+            "start": 519,
+            "end": 523,
+            "sentence_id": 6,
+            "matched_text": "Time"
+          },
+          {
+            "start": 550,
+            "end": 554,
+            "sentence_id": 7,
+            "matched_text": "Time"
+          },
+          {
+            "start": 781,
+            "end": 785,
+            "sentence_id": 8,
+            "matched_text": "Time"
+          },
+          {
+            "start": 814,
+            "end": 818,
+            "sentence_id": 9,
+            "matched_text": "Time"
+          },
+          {
+            "start": 1233,
+            "end": 1237,
+            "sentence_id": 12,
+            "matched_text": "Time"
+          },
+          {
+            "start": 1839,
+            "end": 1843,
+            "sentence_id": 17,
+            "matched_text": "time"
+          },
+          {
+            "start": 2138,
+            "end": 2142,
+            "sentence_id": 20,
+            "matched_text": "Time"
+          },
+          {
+            "start": 2269,
+            "end": 2273,
+            "sentence_id": 22,
+            "matched_text": "time"
+          },
+          {
+            "start": 2595,
+            "end": 2599,
+            "sentence_id": 23,
+            "matched_text": "time"
+          },
+          {
+            "start": 2992,
+            "end": 2996,
+            "sentence_id": 26,
+            "matched_text": "Time"
+          },
+          {
+            "start": 3029,
+            "end": 3033,
+            "sentence_id": 27,
+            "matched_text": "Time"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 0,
+            "matched_text": "14.0"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "corresponds to",
+      "object": "time index B",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. The O 2 content decreases up to 10 % during the measurement phase, resulting in a dynamically changing O 2 gradient. Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. CQ of the cultivation shifts from around 0.5 during the exponential growth phase towards 0.7 during the transition phase into the O 2 limitation. During the O 2 limitation, a CQ of around 0.9 can be measured. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO. T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 98,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 10,
+            "sentence_id": 0,
+            "matched_text": "2"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 4,
+            "matched_text": "2"
+          },
+          {
+            "start": 334,
+            "end": 335,
+            "sentence_id": 4,
+            "matched_text": "2"
+          },
+          {
+            "start": 437,
+            "end": 438,
+            "sentence_id": 6,
+            "matched_text": "2"
+          },
+          {
+            "start": 541,
+            "end": 542,
+            "sentence_id": 7,
+            "matched_text": "2"
+          },
+          {
+            "start": 658,
+            "end": 659,
+            "sentence_id": 7,
+            "matched_text": "2"
+          },
+          {
+            "start": 706,
+            "end": 707,
+            "sentence_id": 8,
+            "matched_text": "2"
+          },
+          {
+            "start": 1004,
+            "end": 1005,
+            "sentence_id": 10,
+            "matched_text": "2"
+          },
+          {
+            "start": 1031,
+            "end": 1032,
+            "sentence_id": 11,
+            "matched_text": "2"
+          },
+          {
+            "start": 1803,
+            "end": 1804,
+            "sentence_id": 17,
+            "matched_text": "2"
+          },
+          {
+            "start": 1925,
+            "end": 1926,
+            "sentence_id": 18,
+            "matched_text": "2"
+          },
+          {
+            "start": 1941,
+            "end": 1942,
+            "sentence_id": 18,
+            "matched_text": "2"
+          },
+          {
+            "start": 1957,
+            "end": 1958,
+            "sentence_id": 18,
+            "matched_text": "2"
+          },
+          {
+            "start": 2120,
+            "end": 2121,
+            "sentence_id": 20,
+            "matched_text": "2"
+          },
+          {
+            "start": 2559,
+            "end": 2560,
+            "sentence_id": 23,
+            "matched_text": "2"
+          },
+          {
+            "start": 2681,
+            "end": 2682,
+            "sentence_id": 24,
+            "matched_text": "2"
+          },
+          {
+            "start": 2697,
+            "end": 2698,
+            "sentence_id": 24,
+            "matched_text": "2"
+          },
+          {
+            "start": 2713,
+            "end": 2714,
+            "sentence_id": 24,
+            "matched_text": "2"
+          },
+          {
+            "start": 2728,
+            "end": 2729,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2812,
+            "end": 2813,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2821,
+            "end": 2822,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2829,
+            "end": 2830,
+            "sentence_id": 25,
+            "matched_text": "2"
+          },
+          {
+            "start": 2870,
+            "end": 2871,
+            "sentence_id": 25,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "12",
+      "predicate": "corresponds to",
+      "object": "MTR max",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 53,
+            "sentence_id": 6,
+            "matched_text": "12"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 332,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 336,
+            "end": 338,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 1743,
+            "end": 1745,
+            "sentence_id": 21,
+            "matched_text": "12"
+          },
+          {
+            "start": 2476,
+            "end": 2478,
+            "sentence_id": 25,
+            "matched_text": "12"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 340,
+            "end": 347,
+            "sentence_id": 8,
+            "matched_text": "MTR max"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "- CTR",
+      "predicate": "is a method for",
+      "object": "measuring Carbon dioxide transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 765,
+          "end": 883
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "20",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 23,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol; [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime Cultivation conditions: NMS medium, c N : 0 g/L - 1 g/L KNO 3 , c buffer = 30 mM MOPS, T = 37 \u00b0C, n = 350 rpm, d 0 = 50 mm, V L = 10 mL, initial OD = 0.1, initial pH = 6.8, N = 2, Only every 20 th data point over time is indicated by the corresponding symbol;",
+        "document_offsets": {
+          "start": 514,
+          "end": 2741
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 28,
+            "sentence_id": 6,
+            "matched_text": "20"
+          },
+          {
+            "start": 88,
+            "end": 90,
+            "sentence_id": 6,
+            "matched_text": "20"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 7,
+            "matched_text": "20"
+          },
+          {
+            "start": 247,
+            "end": 249,
+            "sentence_id": 7,
+            "matched_text": "20"
+          },
+          {
+            "start": 1401,
+            "end": 1403,
+            "sentence_id": 17,
+            "matched_text": "20"
+          },
+          {
+            "start": 1613,
+            "end": 1615,
+            "sentence_id": 20,
+            "matched_text": "20"
+          },
+          {
+            "start": 2157,
+            "end": 2159,
+            "sentence_id": 23,
+            "matched_text": "20"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "MTR max",
+      "predicate": "is the maximum value of",
+      "object": "Methane transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 765,
+          "end": 1335
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 96,
+            "sentence_id": 8,
+            "matched_text": "MTR max"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "4",
+      "predicate": "corresponds to",
+      "object": "time index 4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. 60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO. T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 98,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 424,
+            "end": 425,
+            "sentence_id": 6,
+            "matched_text": "4"
+          },
+          {
+            "start": 547,
+            "end": 548,
+            "sentence_id": 7,
+            "matched_text": "4"
+          },
+          {
+            "start": 703,
+            "end": 704,
+            "sentence_id": 8,
+            "matched_text": "4"
+          },
+          {
+            "start": 1910,
+            "end": 1911,
+            "sentence_id": 18,
+            "matched_text": "4"
+          },
+          {
+            "start": 1916,
+            "end": 1917,
+            "sentence_id": 18,
+            "matched_text": "4"
+          },
+          {
+            "start": 1948,
+            "end": 1949,
+            "sentence_id": 18,
+            "matched_text": "4"
+          },
+          {
+            "start": 2126,
+            "end": 2127,
+            "sentence_id": 20,
+            "matched_text": "4"
+          },
+          {
+            "start": 2666,
+            "end": 2667,
+            "sentence_id": 24,
+            "matched_text": "4"
+          },
+          {
+            "start": 2672,
+            "end": 2673,
+            "sentence_id": 24,
+            "matched_text": "4"
+          },
+          {
+            "start": 2704,
+            "end": 2705,
+            "sentence_id": 24,
+            "matched_text": "4"
+          },
+          {
+            "start": 2723,
+            "end": 2724,
+            "sentence_id": 25,
+            "matched_text": "4"
+          },
+          {
+            "start": 2809,
+            "end": 2810,
+            "sentence_id": 25,
+            "matched_text": "4"
+          },
+          {
+            "start": 2860,
+            "end": 2861,
+            "sentence_id": 25,
+            "matched_text": "4"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "12",
+      "predicate": "corresponds to",
+      "object": "time index 12",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 53,
+            "sentence_id": 6,
+            "matched_text": "12"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 332,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 336,
+            "end": 338,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 1743,
+            "end": 1745,
+            "sentence_id": 21,
+            "matched_text": "12"
+          },
+          {
+            "start": 2476,
+            "end": 2478,
+            "sentence_id": 25,
+            "matched_text": "12"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "36",
+      "predicate": "represents",
+      "object": "time index",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 26,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime T\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 3094
+        },
+        "subject_positions": [
+          {
+            "start": 99,
+            "end": 101,
+            "sentence_id": 6,
+            "matched_text": "36"
+          },
+          {
+            "start": 361,
+            "end": 363,
+            "sentence_id": 8,
+            "matched_text": "36"
+          },
+          {
+            "start": 2572,
+            "end": 2574,
+            "sentence_id": 26,
+            "matched_text": "36"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "14",
+      "predicate": "represents",
+      "object": "Carbon quotient (CQ)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "14.0\n\n14.2\n\nTime [h]\n\n14.4\n\n14.6\n\nFigure S2: Raw oxygen sensor value during measurement phases. [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 98,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 0,
+            "matched_text": "14"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "14"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "14"
+          },
+          {
+            "start": 28,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "14"
+          },
+          {
+            "start": 685,
+            "end": 687,
+            "sentence_id": 8,
+            "matched_text": "14"
+          },
+          {
+            "start": 2167,
+            "end": 2169,
+            "sentence_id": 21,
+            "matched_text": "14"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "13",
+      "predicate": "corresponds to",
+      "object": "time index 13",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "[h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations.",
+        "document_offsets": {
+          "start": 2241,
+          "end": 2362
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 22,
+            "sentence_id": 21,
+            "matched_text": "13"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "2.0",
+      "predicate": "represents",
+      "object": "Carbon quotient (CQ)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 25,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 622,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 134,
+            "end": 137,
+            "sentence_id": 7,
+            "matched_text": "2.0"
+          },
+          {
+            "start": 2204,
+            "end": 2207,
+            "sentence_id": 25,
+            "matched_text": "2.0"
+          },
+          {
+            "start": 2305,
+            "end": 2308,
+            "sentence_id": 25,
+            "matched_text": "2.0"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1.0 +",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "- MTR",
+      "predicate": "is a method for",
+      "object": "measuring Methane transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 765,
+          "end": 883
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "12",
+      "predicate": "corresponds to",
+      "object": "OTRmax",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 53,
+            "sentence_id": 6,
+            "matched_text": "12"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 332,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 336,
+            "end": 338,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 1743,
+            "end": 1745,
+            "sentence_id": 21,
+            "matched_text": "12"
+          },
+          {
+            "start": 2476,
+            "end": 2478,
+            "sentence_id": 25,
+            "matched_text": "12"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 349,
+            "end": 355,
+            "sentence_id": 8,
+            "matched_text": "OTRmax"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "9",
+      "predicate": "corresponds to",
+      "object": "time index 9",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 11,
+        "sentence_end": 24,
+        "text_evidence": "During the O 2 limitation, a CQ of around 0.9 can be measured. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n144\n\n168\n\n192\n\n216\n\n(a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 . [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. c in-gas = 5.9 vol% CH 4 , 3.4 vol% O 2 , 1.3 vol% CO 2 , 89.4 vol% N 2 .",
+        "document_offsets": {
+          "start": 1116,
+          "end": 2816
+        },
+        "subject_positions": [
+          {
+            "start": 44,
+            "end": 45,
+            "sentence_id": 11,
+            "matched_text": "9"
+          },
+          {
+            "start": 882,
+            "end": 883,
+            "sentence_id": 18,
+            "matched_text": "9"
+          },
+          {
+            "start": 1130,
+            "end": 1131,
+            "sentence_id": 21,
+            "matched_text": "9"
+          },
+          {
+            "start": 1638,
+            "end": 1639,
+            "sentence_id": 24,
+            "matched_text": "9"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "- 15 mL",
+      "predicate": "is volume of",
+      "object": "liquid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 621
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Gas concentration",
+      "predicate": "is",
+      "object": "100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 19,
+        "text_evidence": "Gas concentration\n\n100\n\n1.8\n\nNitrogen, dry\n\n- CHA\n\nCO2\n\n80 -\n\n1.6 . [mmol/L]\n\ntransfer en\n\n100\n\n60 -\n\nOxyg\n\nMethane transfer",
+        "document_offsets": {
+          "start": 445,
+          "end": 2116
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 5,
+            "matched_text": "Gas concentration"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 22,
+            "sentence_id": 5,
+            "matched_text": "100"
+          },
+          {
+            "start": 1638,
+            "end": 1641,
+            "sentence_id": 19,
+            "matched_text": "100"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "- GGTR",
+      "predicate": "is a method for",
+      "object": "measuring Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime",
+        "document_offsets": {
+          "start": 765,
+          "end": 883
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "72",
+      "predicate": "corresponds to",
+      "object": "time index T",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 27,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 622,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 15,
+            "sentence_id": 7,
+            "matched_text": "72"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 9,
+            "matched_text": "72"
+          },
+          {
+            "start": 696,
+            "end": 698,
+            "sentence_id": 12,
+            "matched_text": "72"
+          },
+          {
+            "start": 2482,
+            "end": 2484,
+            "sentence_id": 27,
+            "matched_text": "72"
+          },
+          {
+            "start": 2501,
+            "end": 2503,
+            "sentence_id": 27,
+            "matched_text": "72"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "24",
+      "predicate": "corresponds to",
+      "object": "time index 8-",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 27,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. T\n\n24\n\n36\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 514,
+          "end": 3135
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 97,
+            "sentence_id": 6,
+            "matched_text": "24"
+          },
+          {
+            "start": 357,
+            "end": 359,
+            "sentence_id": 8,
+            "matched_text": "24"
+          },
+          {
+            "start": 390,
+            "end": 392,
+            "sentence_id": 9,
+            "matched_text": "24"
+          },
+          {
+            "start": 2568,
+            "end": 2570,
+            "sentence_id": 26,
+            "matched_text": "24"
+          },
+          {
+            "start": 2594,
+            "end": 2596,
+            "sentence_id": 27,
+            "matched_text": "24"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Time [h]",
+      "predicate": "is repeated at",
+      "object": "72",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 27,
+        "text_evidence": "[h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 [h]\n\n48\n\n60\n\n72\n\nT\n\n24\n\n48\n\nTime [h]\n\n60\n\nFigure S6: CQ of M. capsulatus cultivation. Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n48\n\n72\n\n24\n\nT\n\n48\n\n8-\n\n72\n\nTime [h]",
+        "document_offsets": {
+          "start": 622,
+          "end": 3135
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 15,
+            "sentence_id": 7,
+            "matched_text": "72"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 9,
+            "matched_text": "72"
+          },
+          {
+            "start": 696,
+            "end": 698,
+            "sentence_id": 12,
+            "matched_text": "72"
+          },
+          {
+            "start": 2482,
+            "end": 2484,
+            "sentence_id": 27,
+            "matched_text": "72"
+          },
+          {
+            "start": 2501,
+            "end": 2503,
+            "sentence_id": 27,
+            "matched_text": "72"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "20 -",
+      "predicate": "represents",
+      "object": "CO2 concentration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 20,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime",
+        "document_offsets": {
+          "start": 514,
+          "end": 2240
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "12",
+      "predicate": "represents",
+      "object": "Gas transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 25,
+        "text_evidence": "60 -\n\n1.4 -\n\n40 -\n\n1.2 -\n\n20 -\n\n0\n\n1.0 +\n\n- H2\n\n1\n\n12\n\n80 % H2\n\n5 mL\n\n10 mL\n\n- 15 mL\n\n\u2014 20 mL\n\n24\n\n36\n\nTime [h]\n\n48\n\n60\n\n72\n\n2\n\n3\n\n4\n\nTime [h]\n\n-\n\n5\n\n6\n\n7\n\n8\n\nNitrogen, humid\n\n20 % CO2\n\nCarbon quotient (CQ)\n\nGas transfer rate [mmol/L/h]\n\n22\n\n2.0\n\n20 18-\n\nI 1.5 -\n\n16\n\n14\n\n12\n\n1.0\n\n0.5\n\n4\n\n2\n\n0.0 +\n\n0\n\n- GGTR\n\n- OTR\n\n- MTR\n\n- CTR\n\n12\n\n12\n\nMTR max\n\nOTRmax\n\n24\n\n36\n\nTime Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations. = -\n\n4.0\n\n2.0\n\n1.8\n\n3.5\n\n$ 1.61\n\n\u2022 3.0 -\n\nCarbon Quotient (CQ)\n\nOxydation Quotient (OQ)\n\n1.4\n\n2\n\n.5\n\n1.2\n\n1.0\n\n2.0\n\n0.8\n\n1.5\n\n0.6 -\n\n1.0\n\n\u2022 0.4\n\n0.5\n\n0.2 -\n\n0.0 -\n\n0.0 +\n\n0\n\n12\n\n\u2192 1.00 g/L KNO\n\n== 1.00 g/L KNO3\n\n\u2022 0.30 q/L KNO.\n\n- 0.00 g/L KNO3\n\n= 0.15 g/L KNO.",
+        "document_offsets": {
+          "start": 514,
+          "end": 3079
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 53,
+            "sentence_id": 6,
+            "matched_text": "12"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 332,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 336,
+            "end": 338,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 1743,
+            "end": 1745,
+            "sentence_id": 21,
+            "matched_text": "12"
+          },
+          {
+            "start": 2476,
+            "end": 2478,
+            "sentence_id": 25,
+            "matched_text": "12"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "\u2192 0.15 g/L KNO3",
+      "predicate": "represents",
+      "object": "Oxygen transfer rate [mmol/L/h]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 12,
+        "sentence_end": 20,
+        "text_evidence": "Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime [mmol/L]\n\n20 -\n\n10 -\n\n0\n\n0\n\n\u2192= 1.00 g/L KNO3\n\n\u2192 0.30 g/L KNO3\n\n\u2192 0.15 g/L KNO3\n\n\u2014* 0.00 g/L KNO3\n\n1\n\n2\n\nB\n\n4\n\n5\n\n6\n\n8\n\nTime",
+        "document_offsets": {
+          "start": 1180,
+          "end": 2240
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Oxygen transfer rate [mmol/L/h]",
+      "predicate": "is a measure of",
+      "object": "oxygen exchange between the environment and a biological system",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "Oxygen transfer rate [mmol/L/h]\n\nMethane transfer rate [mmol/L/h]\n\n\u2192= 1.00 g/L KNO\n\n- 0.30 g/L KNO\n\n\u2192 0.15 g/L KNO\n\n- 0.00 g/L KNO\n\nVI W\n\n72\n\n96\n\n120\n\nTime",
+        "document_offsets": {
+          "start": 1180,
+          "end": 1335
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "11",
+      "predicate": "corresponds to",
+      "object": "time index 11",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "[h]\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nIntegrals of (a) OTR and (b) MTR courses of M. capsulatus under various KNO 3 concentrations.",
+        "document_offsets": {
+          "start": 2241,
+          "end": 2362
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 14,
+            "sentence_id": 21,
+            "matched_text": "11"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+  "summary": {
+    "total_chunks": 6,
+    "errors": 0,
+    "entities": 33,
+    "relations": 28,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 28,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 2,
+        "entities": 15,
+        "relations": 9
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 18,
+        "relations": 19
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 9 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Sahoo et al. 2022_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-15T01:29:36.041948"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "10% condition",
+        "Figure 1(b)",
+        "Biomass concentration (g·L⁻¹)",
+        "Time (h)",
+        "20% condition",
+        "Methane concentration (mmol·L⁻¹)",
+        "Figure 1(a)",
+        "le资讯(",
+        "48",
+        "5% condition",
+        "Figure 1(a) and Figure 1(b)",
+        "a50% 5%",
+        "15% condition"
+      ],
+      "relations": [
+        {
+          "subject": "Biomass concentration (g·L⁻¹)",
+          "predicate": "measured in",
+          "object": "Figure 1(a)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "Methane concentration (mmol·L⁻¹)",
+          "predicate": "measured in",
+          "object": "Figure 1(b)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "Time (h)",
+          "predicate": "measured in",
+          "object": "Figure 1(a) and Figure 1(b)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "5% condition",
+          "predicate": "associated with",
+          "object": "Figure 1(a) and Figure 1(b)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "10% condition",
+          "predicate": "associated with",
+          "object": "Figure 1(a) and Figure 1(b)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "15% condition",
+          "predicate": "associated with",
+          "object": "Figure 1(a) and Figure 1(b)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "20% condition",
+          "predicate": ",",
+          "object": "48",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        },
+        {
+          "subject": "a50% 5%",
+          "predicate": "5%x (b),",
+          "object": "le资讯(",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Sequential two-stage integrated process for bio-methanol production.",
+            "bbox_coordinates": {
+              "l": 174.161,
+              "t": 536.9889997695312,
+              "r": 425.355,
+              "b": 530.4089997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                931
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              76
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 174.161,
+                "t": 536.9889997695312,
+                "r": 425.355,
+                "b": 530.4089997695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "a) and (b) that are not shown in this figure. The caption also mentions experiments conducted under different headspace gas compositions",
+        "no (subject, relation, object"
+      ],
+      "relations": [
+        {
+          "subject": "a) and (b) that are not shown in this figure. The caption also mentions experiments conducted under different headspace gas compositions",
+          "predicate": "but the figure does not provide any data or graphs related to these dynamic profiles or concentrations.\n\nTherefore",
+          "object": "no (subject, relation, object",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Dynamic profile of (a) biomass and (b) methane concentration in the headspace. The organism was grown under different headspace gas compositions by varying the methane concentration from 5% to 80% v/v in an air-tight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 66.66499976953116,
+              "r": 559.744,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                796
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              239
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 37.587,
+                "t": 66.66499976953116,
+                "r": 559.744,
+                "b": 50.560999769531236,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 37.587,
+                "t": 390.5509997695312,
+                "r": 559.751,
+                "b": 374.3899997695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "Liquid to headspace volume ratio 20:80",
+        "Methanol titer",
+        "CO₂ concentration in the headspace at 60%",
+        "CO₂ concentration in the headspace",
+        "Liquid to headspace volume ratio 10:90",
+        "Process iii",
+        "Process i",
+        "CO₂ concentration in the headspace at 30%",
+        "CO₂ concentration in the headspace at 70%",
+        "Process ii",
+        "Liquid to headspace volume ratio",
+        "CO₂ concentration in the headspace at 50%",
+        "Liquid to headspace volume ratio 50:50",
+        "Liquid to headspace volume ratio 40:60",
+        "Liquid to headspace volume ratio 30:70",
+        "airtight batch reactor",
+        "CO₂ concentration in the headspace at 40%",
+        "Methanol productivity"
+      ],
+      "relations": [
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured under",
+          "object": "Process i",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured under",
+          "object": "Process ii",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured under",
+          "object": "Process iii",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol productivity",
+          "predicate": "measured under",
+          "object": "Process i",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol productivity",
+          "predicate": "measured under",
+          "object": "Process ii",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol productivity",
+          "predicate": "measured under",
+          "object": "Process iii",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "varies with",
+          "object": "CO₂ concentration in the headspace",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "varies with",
+          "object": "Liquid to headspace volume ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "CO₂ concentration in the headspace at 30%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "CO₂ concentration in the headspace at 40%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "CO₂ concentration in the headspace at 50%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "CO₂ concentration in the headspace at 60%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "CO₂ concentration in the headspace at 70%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "Liquid to headspace volume ratio 50:50",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "Liquid to headspace volume ratio 40:60",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "Liquid to headspace volume ratio 30:70",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "Liquid to headspace volume ratio 20:80",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured for",
+          "object": "Liquid to headspace volume ratio 10:90",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titer",
+          "predicate": "measured in",
+          "object": "airtight batch reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Methanol titer and productivity under three different process conditions; (b) methanol titer under varying concentration of CO2 in the headspace and (c) methanol titer under different liquid to headspace volume ratios. The organism was grown in airtight batch reactor.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 604.7939997695312,
+              "r": 559.795,
+              "b": 588.6899997695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1835,
+                513
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              280
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 37.587,
+                "t": 604.7939997695312,
+                "r": 559.795,
+                "b": 588.6899997695313,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 7 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 37.587,
+                "t": 112.92599976953124,
+                "r": 559.735,
+                "b": 96.76499976953119,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 5,
+      "section": "Figure 9 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/5",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 37.587,
+                "t": 239.46499976953123,
+                "r": 559.737,
+                "b": 213.7789997695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

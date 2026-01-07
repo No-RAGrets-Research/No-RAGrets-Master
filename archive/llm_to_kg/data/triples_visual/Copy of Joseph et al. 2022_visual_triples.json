@@ -1,0 +1,235 @@
+[
+  {
+    "page": 5,
+    "caption": "Figure 1. Different steps involved in sample processing for methanol\nanalysis: (a) thawing of the sample in a 15 mL falcon tube, (b)\ntransferring 700 μL of sample to a 1 mL Eppendorf tube, (c) addition\nof K2CO3 to 700 μL of sample, (d) vortexing the sample for 2 min,\n(e) addition of 700 μL of organic solvent, (f) vortexing the sample for\n15 min and centrifugation for 2 min, (g) analyte separated to the top\norganic layer, and (h) transfer of top organic layer to a GC vial for\nanalysis.",
+    "triples": [
+      {
+        "subject": "sample",
+        "relation": "thawed in",
+        "object": "15 mL falcon tube"
+      },
+      {
+        "subject": "sample",
+        "relation": "transferred to",
+        "object": "1 mL Eppendorf tube"
+      },
+      {
+        "subject": "sample",
+        "relation": "mixed with",
+        "object": "K2CO3"
+      },
+      {
+        "subject": "sample",
+        "relation": "vortexed for",
+        "object": "2 min"
+      },
+      {
+        "subject": "sample",
+        "relation": "mixed with",
+        "object": "organic solvent"
+      },
+      {
+        "subject": "sample",
+        "relation": "vortexed for",
+        "object": "15 min"
+      },
+      {
+        "subject": "sample",
+        "relation": "centrifuged for",
+        "object": "2 min"
+      },
+      {
+        "subject": "analyte",
+        "relation": "separated into",
+        "object": "top organic layer"
+      },
+      {
+        "subject": "top organic layer",
+        "relation": "transferred to",
+        "object": "GC vial"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 2. (a) Chromatogram showing the peak resolution of two\nanalytes of interest, methanol and ethanol extracted from aqueous\nmixtures using the SALLE technique. (b) Chromatogram of pure\nethyl acetate, indicating the presence of impurities in the solvent used\nfor sample treatment.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2. (a) Chromatogram showing the peak resolution of two\nanalytes of interest, methanol and ethanol extracted from aqueous\nmixtures using the SALLE technique. (b) Chromatogram of pure\nethyl acetate, indicating the presence of impurities in the solvent used\nfor sample treatment.\n\nOutput JSON list only:\nassistant\n[(\"Methanol\", \"detected in\", \"chromatogram a\"), (\"Ethanol\", \"detected in\", \"chromatogram a\"), (\"Ethyl acetate\", \"detected in\", \"chromatogram b\"), (\"Impurities\", \"present in\", \"ethyl acetate solvent\"), (\"Peak resolution\", \"shown in\", \"chromatogram a\"), (\"Ethyl acetate\", \"has impurities\", \"solvent used for sample treatment\")]"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Figure 3. Ethanol concentration in the extract as a function of the\nethanol concentration in the sample. The line represents the\nrelationship between both concentrations that is established in eq 2.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 3. Ethanol concentration in the extract as a function of the\nethanol concentration in the sample. The line represents the\nrelationship between both concentrations that is established in eq 2.\n\nOutput JSON list only:\nassistant\n[\n  (\"Concentration extract [ln(g/L)]\", \"is a function of\", \"Concentration sample [ln(g/L)]\"),\n  (\"Concentration extract [ln(g/L)]\", \"has a linear relationship with\", \"Concentration sample [ln(g/L)]\"),\n  (\"Concentration extract [ln(g/L)]\", \"is modeled by\", \"eq 2\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Figure 3. Ethanol concentration in the extract as a function of the\nethanol concentration in the sample. The line represents the\nrelationship between both concentrations that is established in eq 2.",
+    "triples": [
+      {
+        "subject": "Ethanol concentration in the extract",
+        "relation": "is a function of",
+        "object": "Ethanol concentration in the sample"
+      },
+      {
+        "subject": "The line in the figure",
+        "relation": "represents the relationship between",
+        "object": "Ethanol concentration in the extract and Ethanol concentration in the sample"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Linearity and Range. Linearity was analyzed from the\nregression of the calibration curves acquired from the ratio\nbetween the peak area and the concentration of the analyte.\nThe criteria for acceptance of linearity are marked for a\ncoefficient of determination (R2) of at least 0.99. In the\nconcentration range that was studied, which ranged from 0.049\nto 100 g/L, the analytical response was linear with an R2 value\nof 0.994 for methanol and 0.928 for ethanol, indicating a\nproportional increase of peak area to the analyte concentration.\nThe discrepancies noted from the EE calculation of methanol\nand ethanol specifically for extremely low concentrations\nindicate the need for its elimination from the calibration curve.\nThe linearity curve resulting from the elimination of these\nvalues (0.049 and 0.098 g/L) gives an R2 value of 1.000 for\nmethanol and 0.997 for ethanol samples. However, it should be\nconsidered that the linear parameters from the ethanol\ncalibration curve are estimated without considering the ethanol\npresent in ethyl acetate. Figure 4a,b shows the linearity\nachieved for methanol and ethanol in the concentration range\n0.195−100 g/L. Table 5 shows the parameters obtained for the\ncalibration curves of the two analytes extracted using K2CO3\nand ethyl acetate.\nThe constant EE attained for methanol extraction supports\nthe linearity of the calibration curve attained for this method.\nFurthermore, it is worthy to know the influence of CEtAc on the\ncalibration curve of ethanol. A linear correlation can be made\nbetween the concentration of ethanol in the extract estimated\npreviously (Cextract) and peak area. As can be seen in Figure 5,\nthe response is linear with an R2 value of 0.998, indicating a\ngood correlation. Table 5 shows the data indicating the\nlinearity parameters attained for methanol and ethanol\nconcentration studied.\nLimit of Quantification and Limit of Detection.\nAccording to the International Council for Harmonisation of\nTechnical Requirements for Pharmaceuticals for Human Use\n(ICH) guidelines,37 the LOQ is defined as the lowest\nconcentration of the analyte present in the sample that can\nbe detected and measured with an acceptable level of precision\nand accuracy. Therefore, the LOQ value is taken as the lowest\nvalue on the linearity curve that gives an R2 value higher than\n0.99. As a result, the LOQ estimated from the calibration curve\nis 0.195 g/L for both methanol and ethanol. To confirm the\nreproducibility and accuracy of the measurement, the selected\nconcentration (0.195 g/L) of methanol and ethanol was\nextracted 10 times, and each processed sample was injected\nthree times using the selected GC−FID method. The",
+    "triples": [
+      {
+        "subject": "ethanol calibration curve",
+        "relation": "has R2 value",
+        "object": "0.928"
+      },
+      {
+        "subject": "ethanol calibration curve (excluding 0.049 and 0.098 g/L)",
+        "relation": "has R2 value",
+        "object": "0.997"
+      },
+      {
+        "subject": "ethanol calibration curve (excluding 0.049 and 0.098 g/L)",
+        "relation": "has R2 value",
+        "object": "0.998"
+      },
+      {
+        "subject": "methanol calibration curve",
+        "relation": "has R2 value",
+        "object": "0.994"
+      },
+      {
+        "subject": "methanol calibration curve (excluding 0.049 and 0.098 g/L)",
+        "relation": "has R2 value",
+        "object": "1.000"
+      },
+      {
+        "subject": "ethanol",
+        "relation": "has linear correlation with",
+        "object": "peak area"
+      },
+      {
+        "subject": "methanol",
+        "relation": "has linear correlation with",
+        "object": "peak area"
+      },
+      {
+        "subject": "ethanol",
+        "relation": "has linear response to",
+        "object": "concentration"
+      },
+      {
+        "subject": "methanol",
+        "relation": "has linear response to",
+        "object": "concentration"
+      },
+      {
+        "subject": "ethanol",
+        "relation": "has limit of quantification",
+        "object": "0.195 g/L"
+      },
+      {
+        "subject": "methanol",
+        "relation": "has limit of quantification",
+        "object": "0.195 g/L"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "Figure 7. Linearity curve attained for methanol samples using HPLC\nin the concentration range of (a) 0.195−100 g/L with an R2 value of\n0.9419 and (b) 1.563−100 g/L with an R2 value of 0.991.",
+    "triples": []
+  },
+  {
+    "page": 10,
+    "caption": "Analysis of Methanol in the Fermentation Sample.\nTo check the applicability of the developed method, the\nbioreactor samples retrieved from a P. pastoris fermentation\nwere processed using K2CO3 and ethyl acetate. A batch\nbioreactor experiment was conducted with an initial methanol\nconcentration of 10 g/L. The entire bioprocess lasted for 96 h,\nand a sample was withdrawn every hour during the daytime\nthroughout the experiment. Each of these samples was treated\nusing K2CO3 and ethyl acetate to quantify the methanol\ncontent at each time point. The organic phase containing the\nanalyte of interest (methanol) was injected into the GC. The\nresults attained from these injections are shown in Figure 6. To",
+    "triples": [
+      {
+        "subject": "methanol",
+        "relation": "quantified in",
+        "object": "fermentation sample"
+      },
+      {
+        "subject": "fermentation sample",
+        "relation": "processed with",
+        "object": "K2CO3 and ethyl acetate"
+      },
+      {
+        "subject": "methanol",
+        "relation": "detected by",
+        "object": "GC"
+      },
+      {
+        "subject": "methanol",
+        "relation": "measured in",
+        "object": "bioreactor samples"
+      },
+      {
+        "subject": "bioreactor experiment",
+        "relation": "had initial concentration of",
+        "object": "10 g/L methanol"
+      },
+      {
+        "subject": "bioreactor experiment",
+        "relation": "lasted for",
+        "object": "96 h"
+      },
+      {
+        "subject": "sample withdrawal",
+        "relation": "occurred every",
+        "object": "hour during daytime"
+      },
+      {
+        "subject": "sample withdrawal",
+        "relation": "resulted in",
+        "object": "methanol quantification at each time point"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "caption": "Figure 8. Growth and substrate consumption of P. pastoris utilizing\nmethanol in the batch mode at a concentration of 10 g/L analyzed\nusing HPLC.",
+    "triples": [
+      {
+        "subject": "P. pastoris",
+        "relation": "utilizes",
+        "object": "methanol"
+      },
+      {
+        "subject": "P. pastoris",
+        "relation": "grows in",
+        "object": "batch mode"
+      },
+      {
+        "subject": "methanol",
+        "relation": "is consumed by",
+        "object": "P. pastoris"
+      },
+      {
+        "subject": "methanol",
+        "relation": "is measured by",
+        "object": "HPLC"
+      },
+      {
+        "subject": "P. pastoris",
+        "relation": "has cell density measured in",
+        "object": "CFU/mL"
+      },
+      {
+        "subject": "methanol",
+        "relation": "has concentration measured in",
+        "object": "g/L"
+      }
+    ]
+  }
+]

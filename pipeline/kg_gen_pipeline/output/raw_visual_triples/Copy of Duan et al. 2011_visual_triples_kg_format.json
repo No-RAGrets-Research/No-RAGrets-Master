@@ -1,0 +1,433 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 8,
+    "relations": 12,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 12,
+    "sections": {
+      "Figure 2 Analysis": {
+        "chunks": 1,
+        "entities": 8,
+        "relations": 12
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Duan et al. 2011_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T14:52:34.767185"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 2 Analysis",
+      "entities": [
+        "Methane gas reservoir",
+        "Methane",
+        "Magnetic stirrer",
+        "Membrane module",
+        "Oxygen gas reservoir",
+        "Oxygen",
+        "Sampling line",
+        "Water bath"
+      ],
+      "relations": [
+        {
+          "subject": "Methane",
+          "predicate": "injected into",
+          "object": "Membrane module",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen",
+          "predicate": "injected into",
+          "object": "Membrane module",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Membrane module",
+          "predicate": "is submerged in",
+          "object": "Water bath",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Membrane module",
+          "predicate": "is stirred by",
+          "object": "Magnetic stirrer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Membrane module",
+          "predicate": "is connected to",
+          "object": "Sampling line",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Membrane module",
+          "predicate": "is connected to",
+          "object": "Methane gas reservoir",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Membrane module",
+          "predicate": "is connected to",
+          "object": "Oxygen gas reservoir",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Water bath",
+          "predicate": "contains",
+          "object": "Membrane module",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Magnetic stirrer",
+          "predicate": "stirs",
+          "object": "Membrane module",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Sampling line",
+          "predicate": "collects from",
+          "object": "Membrane module",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Methane gas reservoir",
+          "predicate": "provides",
+          "object": "Methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        },
+        {
+          "subject": "Oxygen gas reservoir",
+          "predicate": "provides",
+          "object": "Oxygen",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane transformation into methanol.",
+            "bbox_coordinates": {
+              "l": 301.72,
+              "t": 535.9559887695312,
+              "r": 552.764,
+              "b": 521.4609887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                662,
+                498
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 301.72,
+                "t": 535.9559887695312,
+                "r": 552.764,
+                "b": 521.4609887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page2_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

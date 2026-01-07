@@ -1,0 +1,2 @@
+# knowledge_graph
+A knowledge graph for CarbonBridge providing a structured, queryable, and interpretable representation of key entities (like processes, chemicals, metrics, papers, and technologies) and their relationships.

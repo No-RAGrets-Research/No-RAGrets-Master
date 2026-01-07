@@ -1,0 +1,481 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 102,
+    "relations": 8,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Sahoo et al. 2021.json",
+    "processed_at": "2025-11-24T00:50:04.284788"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Methane-air mixture (50:50)",
+      "predicate": "provides substrate for",
+      "object": "Methylocella tundrae",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 39,
+        "text_evidence": "Product | Strain | Substrate | Yield/Titer | References\nMethanol | Methylocella tundrae | Methane-air mixture (50:50) | 5.18 mM | Mardina et al., 2016\nMethylosinus sporium | Methane-air mixture (50:50) Patel et al., 2016c\nMethylocystis bryophila | Methane-air mixture (50:50) Patel et al., 2016a\nEctoine | Methylomicrobium alcaliphilum ML1 | Methane-air mixture (50:50) GLYPH<0> 1 | Reshetnikov et al., 2011\nMethylobacter marinus 7C | Methane-air mixture (50:50) GLYPH<0> 1 | Reshetnikov et al., 2011\nMethylomicrobium kenyense AMO1 T | Methane-air mixture (50:50) GLYPH<0> | Ste \u00b8pniewska et al., 2014\nMethylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) GLYPH<0> | Cantera et al., 2018\nMethylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) | 12.3 mg g biomass GLYPH<0> 1 | Mustakhimov et al., 2019\nHydroxyectoine | Methylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) Cantera et al., 2018\nMethylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) GLYPH<0> 1 | Mustakhimov et al., 2019\nSucrose | Methylomicrobium alcaliphilum, Methylomicrobium buryatense , Methylobacter marinus | Methane-air mixture (50:50) | 30-60 mg/g dry cells | Khmelenina et al., 2010\nGlutamate | Methylomicrobium alcaliphilum, Methylomicrobium buryatense, Methylobacter marinus | Methane-air mixture (50:50) | 29% of dry weight | Rostkowski et al., 2013\nMethylocystis hirsuta | Methane-air mixture (4:96) | 34.6 %of dry weight | Garc\u00eda-P\u00e9rez et al., 2018\nMethylocystis hirsuta | Methanol: ethanol mixture (1:1) | 85% of dry weight | Ghoddosi et al., 2019\nLipids | Methylosphaera hansonii | Methane-air mixture (50:50) | Methane-air mixture (50:50) | Methane-air mixture (50:50) Methane-air mixture (50:50)",
+        "document_offsets": {
+          "start": 0,
+          "end": 3381
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 67,
+            "end": 87,
+            "sentence_id": 0,
+            "matched_text": "Methylocella tundrae"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotrophic bacterial consortium",
+      "predicate": "produces",
+      "object": "Extracellular polysaccharides",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 35,
+        "text_evidence": "GLYPH<0> 1 | Reshetnikov et al., 2011\nMethanotrophic bacterial consortium | Methane-air mixture (10:90) | 0.42-1.33 mg g biomass | 21.82% of dry cell weight | Rasouli et al., 2018\nExtracellular polysaccharides | Methylomicrobium alcaliphilum 20Z",
+        "document_offsets": {
+          "start": 926,
+          "end": 3153
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 73,
+            "sentence_id": 13,
+            "matched_text": "Methanotrophic bacterial consortium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2162,
+            "end": 2191,
+            "sentence_id": 35,
+            "matched_text": "Extracellular polysaccharides"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "produces",
+      "object": "5.18 mM",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 32,
+        "text_evidence": "Product | Strain | Substrate | Yield/Titer | References\nMethanol | Methylocella tundrae | Methane-air mixture (50:50) | 5.18 mM | Mardina et al., 2016\nMethylosinus sporium | Methane-air mixture (50:50) | 29% of dry weight | Rostkowski et al., 2013\nMethylocystis hirsuta | Methane-air mixture (4:96) | 34.6 %of dry weight | Garc\u00eda-P\u00e9rez et al., 2018\nMethylocystis hirsuta | Methanol: ethanol mixture (1:1) | 85% of dry weight | Ghoddosi et al., 2019\nLipids | Methylosphaera hansonii | Methane-air mixture (50:50)",
+        "document_offsets": {
+          "start": 0,
+          "end": 2818
+        },
+        "subject_positions": [
+          {
+            "start": 56,
+            "end": 64,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 2680,
+            "end": 2688,
+            "sentence_id": 32,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 120,
+            "end": 127,
+            "sentence_id": 1,
+            "matched_text": "5.18 mM"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methane-air mixture (50:50)",
+      "predicate": "provides substrate for",
+      "object": "Methylomicrobium buryatense",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 41,
+        "text_evidence": "Product | Strain | Substrate | Yield/Titer | References\nMethanol | Methylocella tundrae | Methane-air mixture (50:50) | 5.18 mM | Mardina et al., 2016\nMethylosinus sporium | Methane-air mixture (50:50) Patel et al., 2016c\nMethylocystis bryophila | Methane-air mixture (50:50) Patel et al., 2016a\nEctoine | Methylomicrobium alcaliphilum ML1 | Methane-air mixture (50:50) GLYPH<0> 1 | Reshetnikov et al., 2011\nMethylobacter marinus 7C | Methane-air mixture (50:50) GLYPH<0> 1 | Reshetnikov et al., 2011\nMethylomicrobium kenyense AMO1 T | Methane-air mixture (50:50) GLYPH<0> | Ste \u00b8pniewska et al., 2014\nMethylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) GLYPH<0> | Cantera et al., 2018\nMethylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) | 12.3 mg g biomass GLYPH<0> 1 | Mustakhimov et al., 2019\nHydroxyectoine | Methylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) Cantera et al., 2018\nMethylomicrobium alcaliphilum 20Z | Methane-air mixture (50:50) GLYPH<0> 1 | Mustakhimov et al., 2019\nSucrose | Methylomicrobium alcaliphilum, Methylomicrobium buryatense , Methylobacter marinus | Methane-air mixture (50:50) | 30-60 mg/g dry cells | Khmelenina et al., 2010\nGlutamate | Methylomicrobium alcaliphilum, Methylomicrobium buryatense, Methylobacter marinus | Methane-air mixture (50:50) | 29% of dry weight | Rostkowski et al., 2013\nMethylocystis hirsuta | Methane-air mixture (4:96) | 34.6 %of dry weight | Garc\u00eda-P\u00e9rez et al., 2018\nMethylocystis hirsuta | Methanol: ethanol mixture (1:1) | 85% of dry weight | Ghoddosi et al., 2019\nLipids | Methylosphaera hansonii | Methane-air mixture (50:50) | 57% of dry cell weight | Schouten et al., 2000\nMethylomicrobium buryatense | Methane-air mixture (20:80) | 10% of dry cell weight | Dong et al., 2017\nMethylococcus capsulatus | Methane: | Methane-air mixture (50:50) | Methane-air mixture (50:50) Methane-air mixture (50:50) GLYPH<0> 1 248 nmol (mg DCW) GLYPH<0> 1 | Khmelenina et al., 1999 Khmelenina et al., 1999\nProducts obtained from genetically engineered methanotrophs | Products obtained from genetically engineered methanotrophs\nLactate | Methylomicrobium buryatense | Methane-air mixture (20:80) | 0.8 g lactate/L",
+        "document_offsets": {
+          "start": 0,
+          "end": 3699
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 1632,
+            "end": 1659,
+            "sentence_id": 22,
+            "matched_text": "Methylomicrobium buryatense"
+          },
+          {
+            "start": 1806,
+            "end": 1833,
+            "sentence_id": 22,
+            "matched_text": "Methylomicrobium buryatense"
+          },
+          {
+            "start": 2868,
+            "end": 2895,
+            "sentence_id": 33,
+            "matched_text": "Methylomicrobium buryatense"
+          },
+          {
+            "start": 3624,
+            "end": 3651,
+            "sentence_id": 41,
+            "matched_text": "Methylomicrobium buryatense"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "produces",
+      "object": "Methylocella tundrae",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 32,
+        "text_evidence": "Product | Strain | Substrate | Yield/Titer | References\nMethanol | Methylocella tundrae | Methane-air mixture (50:50) | 29% of dry weight | Rostkowski et al., 2013\nMethylocystis hirsuta | Methane-air mixture (4:96) | 34.6 %of dry weight | Garc\u00eda-P\u00e9rez et al., 2018\nMethylocystis hirsuta | Methanol: ethanol mixture (1:1) | 85% of dry weight | Ghoddosi et al., 2019\nLipids | Methylosphaera hansonii | Methane-air mixture (50:50)",
+        "document_offsets": {
+          "start": 0,
+          "end": 2818
+        },
+        "subject_positions": [
+          {
+            "start": 56,
+            "end": 64,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 2680,
+            "end": 2688,
+            "sentence_id": 32,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 67,
+            "end": 87,
+            "sentence_id": 0,
+            "matched_text": "Methylocella tundrae"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomicrobium buryatense",
+      "predicate": "produces",
+      "object": "Extracellular polysaccharides",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 22,
+        "sentence_end": 41,
+        "text_evidence": "GLYPH<0> 1 | Mustakhimov et al., 2019\nSucrose | Methylomicrobium alcaliphilum, Methylomicrobium buryatense , Methylobacter marinus | Methane-air mixture (50:50) | 30-60 mg/g dry cells | Khmelenina et al., 2010\nGlutamate | Methylomicrobium alcaliphilum, Methylomicrobium buryatense, Methylobacter marinus | Methane-air mixture (50:50) | 57% of dry cell weight | Schouten et al., 2000\nMethylomicrobium buryatense | Methane-air mixture (20:80) | 10% of dry cell weight | Dong et al., 2017\nMethylococcus capsulatus | Methane: | 21.82% of dry cell weight | Rasouli et al., 2018\nExtracellular polysaccharides | Methylomicrobium alcaliphilum 20Z GLYPH<0> 1 248 nmol (mg DCW) GLYPH<0> 1 | Khmelenina et al., 1999 Khmelenina et al., 1999\nProducts obtained from genetically engineered methanotrophs | Products obtained from genetically engineered methanotrophs\nLactate | Methylomicrobium buryatense | Methane-air mixture (20:80) | 0.8 g lactate/L",
+        "document_offsets": {
+          "start": 1553,
+          "end": 3699
+        },
+        "subject_positions": [
+          {
+            "start": 79,
+            "end": 106,
+            "sentence_id": 22,
+            "matched_text": "Methylomicrobium buryatense"
+          },
+          {
+            "start": 253,
+            "end": 280,
+            "sentence_id": 22,
+            "matched_text": "Methylomicrobium buryatense"
+          },
+          {
+            "start": 1315,
+            "end": 1342,
+            "sentence_id": 33,
+            "matched_text": "Methylomicrobium buryatense"
+          },
+          {
+            "start": 2071,
+            "end": 2098,
+            "sentence_id": 41,
+            "matched_text": "Methylomicrobium buryatense"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1535,
+            "end": 1564,
+            "sentence_id": 35,
+            "matched_text": "Extracellular polysaccharides"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mardina et al., 2016",
+      "predicate": "cites",
+      "object": "5.18 mM",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 5.18 mM | Mardina et al., 2016\nMethylosinus sporium | Methane-air mixture (50:50)",
+        "document_offsets": {
+          "start": 118,
+          "end": 201
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "Mardina et al., 2016"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "5.18 mM"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methane-air mixture (10:90)",
+      "predicate": "provides substrate for",
+      "object": "Methanotrophic bacterial consortium",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 13,
+        "text_evidence": "GLYPH<0> 1 | Reshetnikov et al., 2011\nMethanotrophic bacterial consortium | Methane-air mixture (10:90) | 0.42-1.33 mg g biomass",
+        "document_offsets": {
+          "start": 926,
+          "end": 1054
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 38,
+            "end": 73,
+            "sentence_id": 13,
+            "matched_text": "Methanotrophic bacterial consortium"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 43.12531280517578,
+          "t": 704.1305084228516,
+          "r": 550.7145385742188,
+          "b": 220.23046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Methane-air mixture (10:90)",
+    "Methane-air mixture (50:50)",
+    "Methylocystis hirsuta",
+    "Methylosinus trichosporium OB3b",
+    "5.18 mM",
+    "Methylomicrobium buryatense",
+    "Dong et al., 2017",
+    "Extracellular polysaccharides",
+    ", ",
+    "Methane-air mixture (30:70)",
+    "Patel et al., 2016b",
+    "Reshetnikov et al., 2011",
+    "Methylomicrobium alcaliphilum ML1",
+    "57% of dry cell weight",
+    "Hydroxyectoine",
+    "34.6 %of dry weight",
+    "Methylosinus sporium",
+    "Rostkowski et al., 2013",
+    "Valverde-P\u00e9rez et al., 2020",
+    "Methylobacter modestohalophilus 10S Methylobacter alcaliphilus 20Z",
+    "85% of dry weight",
+    "Patel et al., 2016a",
+    "12.3 mg g biomass GLYPH<0> 1",
+    "Tao et al., 2007",
+    "> 50% of dry cell weight",
+    "Astaxanthin",
+    "0.8 g lactate/L",
+    "Methylomicrobium alcaliphilum, Methylomicrobium buryatense, Methylobacter marinus",
+    "Methylomonas sp. 16a",
+    "Schouten et al., 2000",
+    "Patel et al., 2016c",
+    "2.6 g L culture broth GLYPH<0> 1",
+    "4.63 mM",
+    "52.9 mM",
+    "52.52% of dry cell weight",
+    "Methylomicrobium alcaliphilum, Methylomicrobium buryatense , Methylobacter marinus",
+    "Khmelenina et al., 1999 Khmelenina et al., 1999",
+    "Patel et al., 2020c",
+    "Single cell protein",
+    "178 nmol (mg DCW) GLYPH<0> 1 248 nmol (mg DCW) GLYPH<0> 1",
+    "Poly- b -hydroxybutyrate (PHB)",
+    "Methylocystis bryophila",
+    "230 mg g biomass GLYPH<0> 1",
+    "Ghoddosi et al., 2019",
+    "CO 2 -air mixture (30:70)",
+    "Lactate",
+    "29% of dry weight",
+    "Methane-air mixture (4:96)",
+    "Methanotrophic bacterial consortium",
+    "Mardina et al., 2016",
+    "Methylocella tundrae",
+    "CO 2 -air mixture (50:40)",
+    "Products obtained from genetically engineered methanotrophs",
+    "5-Oxoproline",
+    "19.7 mg g biomass GLYPH<0> 1",
+    "Methylobacter marinus 7C",
+    "Methylomonas spp. and Methylophilus spp.",
+    "Methane-air mixture (20:80)",
+    "0.004 m mol/mg dry cell weight",
+    "Methane-O 2 mixture (40:60)",
+    "25-55 mg/g dry cells",
+    "60 mg g biomass GLYPH<0> 1",
+    "Methylococcus capsulatus",
+    "51% of the dry weight",
+    "Mustakhimov et al., 2019",
+    "13 mg g biomass GLYPH<0> 1",
+    "Methylomicrobium alcaliphilum 20Z",
+    "5.80 mM",
+    "Methane-O 2 mixture (50:50)",
+    "Methylomicrobium kenyense AMO1 T",
+    "Methylocystis parvus OBBP",
+    "70 mg g biomass GLYPH<0> 1",
+    "Tsapekos et al., 2020",
+    "Cantera et al., 2018",
+    "30-60 mg/g dry cells",
+    "Khmelenina et al., 2010",
+    "Methane: O 2 : CO 2 mixture (60:30:10)",
+    "Ste \u00b8pniewska et al., 2014",
+    "21.82% of dry cell weight",
+    "Ectoine",
+    "Methylomonas sp. and Methylocystis sp.",
+    "80% of total carotenoids",
+    "95% of total carotenoids",
+    "Methane-air mixture (25:75)",
+    "Sucrose",
+    "60% of dry weight",
+    "Lipids",
+    "0.33 mM",
+    "10% of dry cell weight",
+    "Garc\u00eda-P\u00e9rez et al., 2018",
+    "Methylosinus trichosporium IMV 3011",
+    "79.7-94.2 mg g biomass GLYPH<0>",
+    "Henard et al., 2016",
+    "Rick and Kelly, 2012",
+    "Xin et al., 2007",
+    "Glutamate",
+    "Methanol: ethanol mixture (1:1)",
+    "Rasouli et al., 2018",
+    "Methylosphaera hansonii",
+    "0.42-1.33 mg g biomass GLYPH<0>",
+    "Methanol",
+    "Methane-O 2 mixture"
+  ]
+}

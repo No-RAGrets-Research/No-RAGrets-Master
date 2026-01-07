@@ -1,0 +1,3684 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 47,
+    "relations": 55,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of A. Priyadarsini et al. 2023.json",
+    "processed_at": "2025-11-23T23:43:10.730715"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Methanol",
+      "predicate": "is produced under",
+      "object": "air",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 40,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) mM | Strain AS1 | CH 4 : air (1:1 v/v) | Fe 2 + Batch mode, 28 \u25e6 C, External loop airlift bioreactor, | 50 mM | (Ghaz- Jahanian et al., 2018) Methylosinus trichosporium OB3b | CH 4 : air (1:3 v/v) | reactor Batch mode, 25 \u25e6 C, pH 7.0, 100 mMNaCl, 1 mM EDTA, 20 mM sodium | 13.2 mM CH 4 : air (1:1 v /v) | formate Continuous mode | 13.7 mM | Encapsulated Methylomicrobium album | CH 4 : CO 2 (4:1 v /v) Raw | Batch mode, 30 \u25e6 C, pH 7.0 100 mM | 4.96 mM 6.92 mM | (Patel et al., 2020a)\nMixed methanotroph consortium from landfill soil | Artificial biogas: air (4:6 v / v) | Batch mode, 30 \u25e6 C, 100 mM NaCl | 1.49 g/g (g CH3OH per g CH4) | biogas (CH 4 30 %) | Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 +\nMethylosinus trichosporium OB3b | CH 4 : air (1:1 v/v) V gas /V liq = 9 | Batch mode, 25 \u25e6 C, pH 7.0, 12.9 mM phosphate, 20 mM sodium formate, 100 | 9.06 mM | (Pen et al., 2014) | Immobilized co- culture of Methylocystis bryophila and Methyloferula stellata | CH 4 : air (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,20mM MgCl 2 | 5.37 mM Methylosinus trichosporium OB3b | CH 4 : air (30:70 v / v) | mM NaCl, 1.0 mM EDTA Batch mode, 30 \u25e6 C, pH 6.3, 0.5 mM EDTA,40 mM formate, 5 \u03bc M | 12.28 | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 ) Methylocella tundrae | CH 4 : air (1:1 v /v) | Batch mode, 30 \u25e6 C, pH 7.0, 50 mM sodium formate, 50 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M 2 + | 5.18 mM | (Mardina et al., 2016) | M. tundrae M. tundrae immobilized on banana leaves | Raw biogas (CH 4 30 %) | Batch mode, 30 \u25e6 C, pH 6.8 - 7.0, 100 mM Formate, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 4.97 mM 6.05 mM | (Patel et al., 2021)\nStrain Methylocaldum sp. SAD2 | Biogas:air (1:2 v /v) | CO 2 and air (1:1 v/ v) | 30 \u25e6 C, pH 6.8, 20 mM phosphate buffer, 5 mM MgCl 2 , | 18.13 mM | (Sahoo et al., 2022)\nStrain Methylocaldum sp. 14B | Biogas:air (1:2.5 v / v) | Batch mode, 37 \u25e6 C, pH 6.6 - 6.8, 80 mM formate, 1 \u03bc M | 13.44 | Methylosinus trichosporium | CO 2 and air (1:1 v / | customized air- tight batch reactors Batch mode, 30 \u25e6 C pH 6.8, | 61.88 | CH 4 : air (40:60 v / v) | NCIMB 11131 | v) | 20 mM phosphate buffer medium, 5 mM MgCl 2 , 20 mM phosphate | 2023)\nMixed culture dominated by Methylocaldum | Biogas:air (1:2.5 v / v) | mM EDTA Trickle-bed reactor with Liquid | 28.13 | (Sheets et al., 2017) | buffer high pressure stirred tank reactor\nsp. 14B | circulation | mM/d | medium, | ( continued | on next page",
+        "document_offsets": {
+          "start": 0,
+          "end": 4640
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 542,
+            "end": 545,
+            "sentence_id": 5,
+            "matched_text": "air"
+          },
+          {
+            "start": 1225,
+            "end": 1228,
+            "sentence_id": 12,
+            "matched_text": "air"
+          },
+          {
+            "start": 1383,
+            "end": 1386,
+            "sentence_id": 13,
+            "matched_text": "air"
+          },
+          {
+            "start": 1651,
+            "end": 1654,
+            "sentence_id": 18,
+            "matched_text": "air"
+          },
+          {
+            "start": 1917,
+            "end": 1920,
+            "sentence_id": 19,
+            "matched_text": "air"
+          },
+          {
+            "start": 2134,
+            "end": 2137,
+            "sentence_id": 21,
+            "matched_text": "air"
+          },
+          {
+            "start": 2360,
+            "end": 2363,
+            "sentence_id": 22,
+            "matched_text": "air"
+          },
+          {
+            "start": 2510,
+            "end": 2513,
+            "sentence_id": 24,
+            "matched_text": "air"
+          },
+          {
+            "start": 2681,
+            "end": 2684,
+            "sentence_id": 26,
+            "matched_text": "air"
+          },
+          {
+            "start": 3187,
+            "end": 3190,
+            "sentence_id": 29,
+            "matched_text": "air"
+          },
+          {
+            "start": 3584,
+            "end": 3587,
+            "sentence_id": 30,
+            "matched_text": "air"
+          },
+          {
+            "start": 3754,
+            "end": 3757,
+            "sentence_id": 34,
+            "matched_text": "air"
+          },
+          {
+            "start": 3897,
+            "end": 3900,
+            "sentence_id": 34,
+            "matched_text": "air"
+          },
+          {
+            "start": 4047,
+            "end": 4050,
+            "sentence_id": 36,
+            "matched_text": "air"
+          },
+          {
+            "start": 4073,
+            "end": 4076,
+            "sentence_id": 36,
+            "matched_text": "air"
+          },
+          {
+            "start": 4185,
+            "end": 4188,
+            "sentence_id": 38,
+            "matched_text": "air"
+          },
+          {
+            "start": 4437,
+            "end": 4440,
+            "sentence_id": 40,
+            "matched_text": "air"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced under",
+      "object": "CO 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 36,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Immobilized Methylocystis bryophila | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 25.75 | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69 CH 4 : air (1:1 v /v) | formate Continuous mode | 13.7 mM | Encapsulated Methylomicrobium album | CH 4 : CO 2 (4:1 v /v) | Encapsulated M. album Encapsulated Methyloferula stellata | CH 4 : CO 2 (2:1 v/v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 7.46 mM 7.14 mM | (Patel et al., 2020d) | CO 2 and air (1:1 v/ v) | 30 \u25e6 C, pH 6.8, 20 mM phosphate buffer, 5 mM MgCl 2 , | 18.13 mM | (Sahoo et al., 2022)\nStrain Methylocaldum sp. 14B | Biogas:air (1:2.5 v / v) | Batch mode, 37 \u25e6 C, pH 6.6 - 6.8, 80 mM formate, 1 \u03bc M | 13.44 | Methylosinus trichosporium | CO 2 and air (1:1 v / | customized air- tight batch reactors Batch mode, 30 \u25e6 C pH 6.8, | 61.88",
+        "document_offsets": {
+          "start": 0,
+          "end": 4133
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 690,
+            "end": 694,
+            "sentence_id": 7,
+            "matched_text": "CO 2"
+          },
+          {
+            "start": 1018,
+            "end": 1022,
+            "sentence_id": 11,
+            "matched_text": "CO 2"
+          },
+          {
+            "start": 1749,
+            "end": 1753,
+            "sentence_id": 18,
+            "matched_text": "CO 2"
+          },
+          {
+            "start": 3043,
+            "end": 3047,
+            "sentence_id": 28,
+            "matched_text": "CO 2"
+          },
+          {
+            "start": 3745,
+            "end": 3749,
+            "sentence_id": 34,
+            "matched_text": "CO 2"
+          },
+          {
+            "start": 4038,
+            "end": 4042,
+            "sentence_id": 36,
+            "matched_text": "CO 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Mixed culture dominated by Methylocaldum",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 40,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | NCIMB 11131 | v) | 20 mM phosphate buffer medium, 5 mM MgCl 2 , 20 mM phosphate | 2023)\nMixed culture dominated by Methylocaldum | Biogas:air (1:2.5 v / v) | mM EDTA Trickle-bed reactor with Liquid | 28.13 | (Sheets et al., 2017) | buffer high pressure stirred tank reactor\nsp. 14B | circulation | mM/d | medium, | ( continued | on next page",
+        "document_offsets": {
+          "start": 0,
+          "end": 4640
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 4387,
+            "end": 4427,
+            "sentence_id": 40,
+            "matched_text": "Mixed culture dominated by Methylocaldum"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced with",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 39,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Immobilized Methylocystis bryophila | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 25.75 | formate Batch mode, 30 \u25e6 C, pH 7.0, 400 mM phosphate, 20 mM sodium | 35 mM | (Duan et al., 2011) | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69 | Batch mode, RT, pH 7.0, 120mM Formate,10mM MgCl 2, 5 \u03bc M Cu 2 + | 15.16 mM | (AlSayed et al., 2018) CH 4 : air (1:1 v /v) | formate Continuous mode | 13.7 mM | Encapsulated Methylomicrobium album | CH 4 : CO 2 (4:1 v /v) | biogas (CH 4 30 %) | Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 +\nMethylosinus trichosporium OB3b | CH 4 : air (1:1 v/v) V gas /V liq = 9 | Batch mode, 25 \u25e6 C, pH 7.0, 12.9 mM phosphate, 20 mM sodium formate, 100 | 9.06 mM | (Pen et al., 2014) | Immobilized co- culture of Methylocystis bryophila and Methyloferula stellata | CH 4 : air (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,20mM MgCl 2 | 5.37 mM Methylosinus trichosporium OB3b | CH 4 : air (30:70 v / v) | mM NaCl, 1.0 mM EDTA Batch mode, 30 \u25e6 C, pH 6.3, 0.5 mM EDTA,40 mM formate, 5 \u03bc M | 12.28 | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 ) | Encapsulated M. album Encapsulated Methyloferula stellata | CH 4 : CO 2 (2:1 v/v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 7.46 mM 7.14 mM | (Patel et al., 2020d) Methylocella tundrae | CH 4 : air (1:1 v /v) | Batch mode, 30 \u25e6 C, pH 7.0, 50 mM sodium formate, 50 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M 2 + | 5.18 mM | (Mardina et al., 2016) | M. tundrae M. tundrae immobilized on banana leaves | Raw biogas (CH 4 30 %) | Batch mode, 30 \u25e6 C, pH 6.8 - 7.0, 100 mM Formate, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 4.97 mM 6.05 mM | (Patel et al., 2021)\nStrain Methylocaldum sp. SAD2 | Biogas:air (1:2 v /v) | Fe Batch mode, 37 \u25e6 C, pH 6.7, 100 mM sodium formate, 5 \u03bc M Cu 2 + | 10.72 mM | CO 2 and air (1:1 v/ v) | 30 \u25e6 C, pH 6.8, 20 mM phosphate buffer, 5 mM MgCl 2 , | 18.13 mM | (Sahoo et al., 2022)\nStrain Methylocaldum sp. 14B | Biogas:air (1:2.5 v / v) | Batch mode, 37 \u25e6 C, pH 6.6 - 6.8, 80 mM formate, 1 \u03bc M | 13.44 | Cu 2 + Batch mode, 30 \u25e6 C, pH 7.0 40 mM sodium formate, 0.5 | 41.86 mM | (Hur et al., 2017)",
+        "document_offsets": {
+          "start": 0,
+          "end": 4296
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 746,
+            "end": 753,
+            "sentence_id": 7,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 859,
+            "end": 866,
+            "sentence_id": 10,
+            "matched_text": "formate"
+          },
+          {
+            "start": 1074,
+            "end": 1081,
+            "sentence_id": 11,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 1152,
+            "end": 1159,
+            "sentence_id": 11,
+            "matched_text": "formate"
+          },
+          {
+            "start": 1574,
+            "end": 1581,
+            "sentence_id": 17,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 1668,
+            "end": 1675,
+            "sentence_id": 18,
+            "matched_text": "formate"
+          },
+          {
+            "start": 2042,
+            "end": 2049,
+            "sentence_id": 21,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 2227,
+            "end": 2234,
+            "sentence_id": 21,
+            "matched_text": "formate"
+          },
+          {
+            "start": 2415,
+            "end": 2422,
+            "sentence_id": 22,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 2597,
+            "end": 2604,
+            "sentence_id": 24,
+            "matched_text": "formate"
+          },
+          {
+            "start": 2737,
+            "end": 2744,
+            "sentence_id": 26,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 3095,
+            "end": 3102,
+            "sentence_id": 28,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 3245,
+            "end": 3252,
+            "sentence_id": 29,
+            "matched_text": "formate"
+          },
+          {
+            "start": 3451,
+            "end": 3458,
+            "sentence_id": 30,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 3646,
+            "end": 3653,
+            "sentence_id": 31,
+            "matched_text": "formate"
+          },
+          {
+            "start": 3957,
+            "end": 3964,
+            "sentence_id": 34,
+            "matched_text": "formate"
+          },
+          {
+            "start": 4252,
+            "end": 4259,
+            "sentence_id": 39,
+            "matched_text": "formate"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "M. sporium",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 26,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 2858
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2822,
+            "end": 2832,
+            "sentence_id": 26,
+            "matched_text": "M. sporium"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "formate Continuous Bubble free membrane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69",
+        "document_offsets": {
+          "start": 0,
+          "end": 1199
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1152,
+            "end": 1191,
+            "sentence_id": 11,
+            "matched_text": "formate Continuous Bubble free membrane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Encapsulated Methyloferula stellata",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 28,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Encapsulated M. album Encapsulated Methyloferula stellata | CH 4 : CO 2 (2:1 v/v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 7.46 mM 7.14 mM | (Patel et al., 2020d)",
+        "document_offsets": {
+          "start": 0,
+          "end": 3157
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2998,
+            "end": 3033,
+            "sentence_id": 28,
+            "matched_text": "Encapsulated Methyloferula stellata"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "mixed culture",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 40,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Mixed culture | CH 4 : O 2 (4:1 v /v) | NCIMB 11131 | v) | 20 mM phosphate buffer medium, 5 mM MgCl 2 , 20 mM phosphate | 2023)\nMixed culture dominated by Methylocaldum | Biogas:air (1:2.5 v / v) | mM EDTA Trickle-bed reactor with Liquid | 28.13 | (Sheets et al., 2017) | buffer high pressure stirred tank reactor\nsp. 14B | circulation | mM/d | medium, | ( continued | on next page",
+        "document_offsets": {
+          "start": 0,
+          "end": 4640
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1504,
+            "end": 1517,
+            "sentence_id": 16,
+            "matched_text": "Mixed culture"
+          },
+          {
+            "start": 4387,
+            "end": 4400,
+            "sentence_id": 40,
+            "matched_text": "Mixed culture"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "co-culture ( M. tundrae and Methylomonas methanica)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69",
+        "document_offsets": {
+          "start": 0,
+          "end": 1199
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 24,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) Methylosinus trichosporium OB3b | CH 4 : O 2 (1:1 v /v) Methylosinus trichosporium OB3b | CH 4 : air (1:3 v/v) | reactor Batch mode, 25 \u25e6 C, pH 7.0, 100 mMNaCl, 1 mM EDTA, 20 mM sodium | 13.2 mM | biogas (CH 4 30 %) | Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 +\nMethylosinus trichosporium OB3b | CH 4 : air (1:1 v/v) V gas /V liq = 9 | Batch mode, 25 \u25e6 C, pH 7.0, 12.9 mM phosphate, 20 mM sodium formate, 100 | 9.06 mM | (Pen et al., 2014) Methylosinus trichosporium OB3b | CH 4 : air (30:70 v / v) | mM NaCl, 1.0 mM EDTA Batch mode, 30 \u25e6 C, pH 6.3, 0.5 mM EDTA,40 mM formate, 5 \u03bc M | 12.28",
+        "document_offsets": {
+          "start": 0,
+          "end": 2619
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 501,
+            "end": 532,
+            "sentence_id": 5,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 801,
+            "end": 832,
+            "sentence_id": 9,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1342,
+            "end": 1373,
+            "sentence_id": 13,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 2093,
+            "end": 2124,
+            "sentence_id": 21,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 2469,
+            "end": 2500,
+            "sentence_id": 24,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Strain Methylocaldum sp. SAD2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 30,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | M. tundrae M. tundrae immobilized on banana leaves | Raw biogas (CH 4 30 %) | Batch mode, 30 \u25e6 C, pH 6.8 - 7.0, 100 mM Formate, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 4.97 mM 6.05 mM | (Patel et al., 2021)\nStrain Methylocaldum sp. SAD2 | Biogas:air (1:2 v /v)",
+        "document_offsets": {
+          "start": 0,
+          "end": 3598
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 3545,
+            "end": 3574,
+            "sentence_id": 30,
+            "matched_text": "Strain Methylocaldum sp. SAD2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Methylocystis bryophila",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 26,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Immobilized Methylocystis bryophila | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 25.75 | Immobilized co- culture of Methylocystis bryophila and Methyloferula stellata | CH 4 : air (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,20mM MgCl 2 | 5.37 mM | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 2858
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 658,
+            "end": 681,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis bryophila"
+          },
+          {
+            "start": 2300,
+            "end": 2323,
+            "sentence_id": 22,
+            "matched_text": "Methylocystis bryophila"
+          },
+          {
+            "start": 2648,
+            "end": 2671,
+            "sentence_id": 26,
+            "matched_text": "Methylocystis bryophila"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Methylocella tundrae",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 29,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) Methylocella tundrae | CH 4 : air (1:1 v /v) | Batch mode, 30 \u25e6 C, pH 7.0, 50 mM sodium formate, 50 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M 2 + | 5.18 mM | (Mardina et al., 2016)",
+        "document_offsets": {
+          "start": 0,
+          "end": 3329
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 3157,
+            "end": 3177,
+            "sentence_id": 29,
+            "matched_text": "Methylocella tundrae"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced from",
+      "object": "CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 38,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Immobilized Methylocystis bryophila | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 25.75 Methylosinus trichosporium OB3b | CH 4 : O 2 (1:1 v /v) | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69 mM | Strain AS1 | CH 4 : air (1:1 v/v) | Fe 2 + Batch mode, 28 \u25e6 C, External loop airlift bioreactor, | 50 mM | (Ghaz- Jahanian et al., 2018) Methylosinus trichosporium OB3b | CH 4 : air (1:3 v/v) | reactor Batch mode, 25 \u25e6 C, pH 7.0, 100 mMNaCl, 1 mM EDTA, 20 mM sodium | 13.2 mM | Mixed culture | CH 4 : O 2 (4:1 v /v) CH 4 : air (1:1 v /v) | formate Continuous mode | 13.7 mM | Encapsulated Methylomicrobium album | CH 4 : CO 2 (4:1 v /v) | biogas (CH 4 30 %) | Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 +\nMethylosinus trichosporium OB3b | CH 4 : air (1:1 v/v) V gas /V liq = 9 | Batch mode, 25 \u25e6 C, pH 7.0, 12.9 mM phosphate, 20 mM sodium formate, 100 | 9.06 mM | (Pen et al., 2014) | Immobilized co- culture of Methylocystis bryophila and Methyloferula stellata | CH 4 : air (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,20mM MgCl 2 | 5.37 mM Methylosinus trichosporium OB3b | CH 4 : air (30:70 v / v) | mM NaCl, 1.0 mM EDTA Batch mode, 30 \u25e6 C, pH 6.3, 0.5 mM EDTA,40 mM formate, 5 \u03bc M | 12.28 | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 ) | Encapsulated M. album Encapsulated Methyloferula stellata | CH 4 : CO 2 (2:1 v/v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 7.46 mM 7.14 mM | (Patel et al., 2020d) Methylocella tundrae | CH 4 : air (1:1 v /v) | Batch mode, 30 \u25e6 C, pH 7.0, 50 mM sodium formate, 50 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M 2 + | 5.18 mM | (Mardina et al., 2016) | M. tundrae M. tundrae immobilized on banana leaves | Raw biogas (CH 4 30 %) | Batch mode, 30 \u25e6 C, pH 6.8 - 7.0, 100 mM Formate, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 4.97 mM 6.05 mM | (Patel et al., 2021)\nStrain Methylocaldum sp. SAD2 | Biogas:air (1:2 v /v) | CH 4 : air (40:60 v / v)",
+        "document_offsets": {
+          "start": 0,
+          "end": 4202
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 535,
+            "end": 539,
+            "sentence_id": 5,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 684,
+            "end": 688,
+            "sentence_id": 7,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 835,
+            "end": 839,
+            "sentence_id": 9,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 1012,
+            "end": 1016,
+            "sentence_id": 11,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 1218,
+            "end": 1222,
+            "sentence_id": 12,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 1376,
+            "end": 1380,
+            "sentence_id": 13,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 1520,
+            "end": 1524,
+            "sentence_id": 16,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 1644,
+            "end": 1648,
+            "sentence_id": 18,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 1742,
+            "end": 1746,
+            "sentence_id": 18,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 2029,
+            "end": 2033,
+            "sentence_id": 21,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 2127,
+            "end": 2131,
+            "sentence_id": 21,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 2353,
+            "end": 2357,
+            "sentence_id": 22,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 2503,
+            "end": 2507,
+            "sentence_id": 24,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 2674,
+            "end": 2678,
+            "sentence_id": 26,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 2852,
+            "end": 2856,
+            "sentence_id": 26,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 3036,
+            "end": 3040,
+            "sentence_id": 28,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 3180,
+            "end": 3184,
+            "sentence_id": 29,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 3397,
+            "end": 3401,
+            "sentence_id": 30,
+            "matched_text": "CH 4"
+          },
+          {
+            "start": 4178,
+            "end": 4182,
+            "sentence_id": 38,
+            "matched_text": "CH 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Strain Methylocaldum sp. 14B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 34,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | CO 2 and air (1:1 v/ v) | 30 \u25e6 C, pH 6.8, 20 mM phosphate buffer, 5 mM MgCl 2 , | 18.13 mM | (Sahoo et al., 2022)\nStrain Methylocaldum sp. 14B | Biogas:air (1:2.5 v / v) | Batch mode, 37 \u25e6 C, pH 6.6 - 6.8, 80 mM formate, 1 \u03bc M | 13.44",
+        "document_offsets": {
+          "start": 0,
+          "end": 3979
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 3859,
+            "end": 3887,
+            "sentence_id": 34,
+            "matched_text": "Strain Methylocaldum sp. 14B"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Encapsulated M. album",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 28,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Encapsulated M. album Encapsulated Methyloferula stellata | CH 4 : CO 2 (2:1 v/v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 7.46 mM 7.14 mM | (Patel et al., 2020d)",
+        "document_offsets": {
+          "start": 0,
+          "end": 3157
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2976,
+            "end": 2997,
+            "sentence_id": 28,
+            "matched_text": "Encapsulated M. album"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced with",
+      "object": "MgCl 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 40,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Immobilized Methylocystis bryophila | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 25.75 | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69 | Batch mode, RT, pH 7.0, 120mM Formate,10mM MgCl 2, 5 \u03bc M Cu 2 + | 15.16 mM | (AlSayed et al., 2018) | biogas (CH 4 30 %) | Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 +\nMethylosinus trichosporium OB3b | CH 4 : air (1:1 v/v) V gas /V liq = 9 | Batch mode, 25 \u25e6 C, pH 7.0, 12.9 mM phosphate, 20 mM sodium formate, 100 | 9.06 mM | (Pen et al., 2014) | Immobilized co- culture of Methylocystis bryophila and Methyloferula stellata | CH 4 : air (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,20mM MgCl 2 | 5.37 mM | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 ) | Cu 2 + Batch mode, 30 \u25e6 C, pH 7.0, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 6.68 mM | (Patel et al., 2016b) | Encapsulated M. album Encapsulated Methyloferula stellata | CH 4 : CO 2 (2:1 v/v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 | 7.46 mM 7.14 mM | (Patel et al., 2020d) Methylocella tundrae | CH 4 : air (1:1 v /v) | Batch mode, 30 \u25e6 C, pH 7.0, 50 mM sodium formate, 50 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M 2 + | 5.18 mM | (Mardina et al., 2016) | M. tundrae M. tundrae immobilized on banana leaves | Raw biogas (CH 4 30 %) | Batch mode, 30 \u25e6 C, pH 6.8 - 7.0, 100 mM Formate, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 4.97 mM 6.05 mM | (Patel et al., 2021)\nStrain Methylocaldum sp. SAD2 | Biogas:air (1:2 v /v) | CO 2 and air (1:1 v/ v) | 30 \u25e6 C, pH 6.8, 20 mM phosphate buffer, 5 mM MgCl 2 , | 18.13 mM | (Sahoo et al., 2022)\nStrain Methylocaldum sp. 14B | Biogas:air (1:2.5 v / v) | Batch mode, 37 \u25e6 C, pH 6.6 - 6.8, 80 mM formate, 1 \u03bc M | 13.44 | NCIMB 11131 | v) | 20 mM phosphate buffer medium, 5 mM MgCl 2 , 20 mM phosphate | 2023)\nMixed culture dominated by Methylocaldum | Biogas:air (1:2.5 v / v) | mM EDTA Trickle-bed reactor with Liquid | 28.13 | (Sheets et al., 2017) | buffer high pressure stirred tank reactor\nsp. 14B | circulation | mM/d | medium, | ( continued | on next page",
+        "document_offsets": {
+          "start": 0,
+          "end": 4640
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 759,
+            "end": 765,
+            "sentence_id": 7,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 1087,
+            "end": 1093,
+            "sentence_id": 11,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 1587,
+            "end": 1593,
+            "sentence_id": 17,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 2055,
+            "end": 2061,
+            "sentence_id": 21,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 2428,
+            "end": 2434,
+            "sentence_id": 22,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 2750,
+            "end": 2756,
+            "sentence_id": 26,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 2902,
+            "end": 2908,
+            "sentence_id": 27,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 3108,
+            "end": 3114,
+            "sentence_id": 28,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 3260,
+            "end": 3266,
+            "sentence_id": 29,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 3466,
+            "end": 3472,
+            "sentence_id": 30,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 3816,
+            "end": 3822,
+            "sentence_id": 34,
+            "matched_text": "MgCl 2"
+          },
+          {
+            "start": 4354,
+            "end": 4360,
+            "sentence_id": 40,
+            "matched_text": "MgCl 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced with",
+      "object": "Cu 2 +",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 39,
+        "text_evidence": "Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Summary of literature on methanol production by methanotrophs. | Microbial culture | Substrate | Fermentation | Methanol | References\nMicrobial culture | Substrate | Fermentation conditions | Methanol yield | References | conditions | yield\nMethylosinus trichosporium OB3b | CH 4 : air (1:5 v /v) | Co-culture ( M. tundrae and Methylomonas methanica) | CH 4 :CO 2 (30:70 v / v) | Batch mode, 30 \u25e6 C, pH 7.0, 100 mM Formate,50mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M | 9.65 mM | (Patel et al., 2018b)\nformate Continuous Bubble free membrane | 29.69 | Batch mode, RT, pH 7.0, 120mM Formate,10mM MgCl 2, 5 \u03bc M Cu 2 + | 15.16 mM | (AlSayed et al., 2018) | biogas (CH 4 30 %) | Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 +\nMethylosinus trichosporium OB3b | CH 4 : air (1:1 v/v) V gas /V liq = 9 | Batch mode, 25 \u25e6 C, pH 7.0, 12.9 mM phosphate, 20 mM sodium formate, 100 | 9.06 mM | (Pen et al., 2014) | Methylocystis bryophila | CH 4 : air (30:70 v / v) | Repeated batch mode, 30 \u25e6 C, 100 mM Formate,20mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 52.9 mM | (Patel et al., 2020c)\nM. sporium | Raw biogas (20 % CH 4 ) | Cu 2 + Batch mode, 30 \u25e6 C, pH 7.0, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 6.68 mM | (Patel et al., 2016b) Methylocella tundrae | CH 4 : air (1:1 v /v) | Batch mode, 30 \u25e6 C, pH 7.0, 50 mM sodium formate, 50 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M 2 + | 5.18 mM | (Mardina et al., 2016) | M. tundrae M. tundrae immobilized on banana leaves | Raw biogas (CH 4 30 %) | Batch mode, 30 \u25e6 C, pH 6.8 - 7.0, 100 mM Formate, 20 mM MgCl 2 , 5 \u03bc M Cu 2 + , 10 \u03bc M Fe 2 + | 4.97 mM 6.05 mM | (Patel et al., 2021)\nStrain Methylocaldum sp. SAD2 | Biogas:air (1:2 v /v) | Fe Batch mode, 37 \u25e6 C, pH 6.7, 100 mM sodium formate, 5 \u03bc M Cu 2 + | 10.72 mM | Cu 2 + Batch mode, 30 \u25e6 C, pH 7.0 40 mM sodium formate, 0.5 | 41.86 mM | (Hur et al., 2017)",
+        "document_offsets": {
+          "start": 0,
+          "end": 4296
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 220,
+            "end": 228,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 285,
+            "end": 293,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 372,
+            "end": 380,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 452,
+            "end": 460,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.63742446899414,
+          "t": 732.8916511535645,
+          "r": 558.4600219726562,
+          "b": 68.733642578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "operates at temperature",
+      "object": "30 \u25e6 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023) Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 0,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 316,
+            "end": 366,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "30 \u25e6 C"
+          },
+          {
+            "start": 400,
+            "end": 406,
+            "sentence_id": 1,
+            "matched_text": "30 \u25e6 C"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "has yield",
+      "object": "64.6 mM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 285,
+            "end": 292,
+            "sentence_id": 0,
+            "matched_text": "64.6 mM"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "operates under",
+      "object": "Batch mode",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023) Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 0,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 164,
+            "sentence_id": 0,
+            "matched_text": "Batch mode"
+          },
+          {
+            "start": 388,
+            "end": 398,
+            "sentence_id": 1,
+            "matched_text": "Batch mode"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "operates at pH",
+      "object": "7",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 177,
+            "end": 178,
+            "sentence_id": 0,
+            "matched_text": "7"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "has yield",
+      "object": "130 mM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 316,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 50,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 101,
+            "end": 107,
+            "sentence_id": 1,
+            "matched_text": "130 mM"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "contains",
+      "object": "Fe 2 + (10 \u03bc mol/L)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "produces",
+      "object": "Methanol yield",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023) Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 0,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 316,
+            "end": 366,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 58,
+            "end": 72,
+            "sentence_id": 0,
+            "matched_text": "Methanol yield"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "uses buffer",
+      "object": "100 mM phosphate buffer",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 180,
+            "end": 203,
+            "sentence_id": 0,
+            "matched_text": "100 mM phosphate buffer"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "is composed of",
+      "object": "M. sporium",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 97,
+            "end": 107,
+            "sentence_id": 0,
+            "matched_text": "M. sporium"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "uses",
+      "object": "CH 4 (30 %)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "contains",
+      "object": "Cu 2 + (5 \u03bc mol/L)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "operates under",
+      "object": "Batch mode",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023) Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 0,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 316,
+            "end": 366,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 164,
+            "sentence_id": 0,
+            "matched_text": "Batch mode"
+          },
+          {
+            "start": 388,
+            "end": 398,
+            "sentence_id": 1,
+            "matched_text": "Batch mode"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "uses",
+      "object": "formate (100 mM)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "uses",
+      "object": "H 2 (15%)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "is composed of",
+      "object": "M. bryophila",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 112,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "M. bryophila"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "contains",
+      "object": "MgCl 2 (20 MM)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "operates at temperature",
+      "object": "30 \u25e6 C",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023) Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 0,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "30 \u25e6 C"
+          },
+          {
+            "start": 400,
+            "end": 406,
+            "sentence_id": 1,
+            "matched_text": "30 \u25e6 C"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "is referenced in",
+      "object": "This study",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 316,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 50,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 120,
+            "sentence_id": 1,
+            "matched_text": "This study"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "uses",
+      "object": "CH 4 : air (1:1)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 316,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 50,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "is referenced in",
+      "object": "Patel et al., 2023",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 296,
+            "end": 314,
+            "sentence_id": 0,
+            "matched_text": "Patel et al., 2023"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enriched microbial consortium from rice field soil",
+      "predicate": "operates at pH",
+      "object": "6.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Enriched microbial consortium from rice field soil | CH 4 : air (1:1) | Batch mode, 30 \u25e6 C, pH 6.8 | 130 mM | This study",
+        "document_offsets": {
+          "start": 316,
+          "end": 436
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 50,
+            "sentence_id": 1,
+            "matched_text": "Enriched microbial consortium from rice field soil"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 98,
+            "sentence_id": 1,
+            "matched_text": "6.8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Co-culture M. sporium and M. bryophila",
+      "predicate": "produces",
+      "object": "Methanol yield",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbial culture | Substrate | Fermentation conditions | Methanol yield | References\nCo-culture M. sporium and M. bryophila | CH 4 (30 %) andH 2 (15%) | Batch mode, 30 \u25e6 C, pH 7, 100 mM phosphate buffer, Fe 2 + (10 \u03bc mol/L), Cu 2 + (5 \u03bc mol/L), formate (100 mM), and MgCl 2 (20 mM) | 64.6 mM | (Patel et al., 2023)",
+        "document_offsets": {
+          "start": 0,
+          "end": 316
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "Co-culture M. sporium and M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 58,
+            "end": 72,
+            "sentence_id": 0,
+            "matched_text": "Methanol yield"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.1063117980957,
+          "t": 731.2107238769531,
+          "r": 288.9056396484375,
+          "b": 590.0469818115234,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoC",
+      "predicate": "encodes",
+      "object": "Protein C, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "| AGTTCTTCGCCGAGGAGAACCA/TGCCCAGGGTGTAGGCGCGGCCGA | Protein B, sMMO | Common for all methanotrophs\nmmoC | mmoC f542/mmoC r986 | GGTTCTGCTGTGCCGCACC/ATCCCGTGCCGCCGGCGACG | Protein C, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 940,
+          "end": 1157
+        },
+        "subject_positions": [
+          {
+            "start": 99,
+            "end": 103,
+            "sentence_id": 10,
+            "matched_text": "mmoC"
+          },
+          {
+            "start": 106,
+            "end": 110,
+            "sentence_id": 10,
+            "matched_text": "mmoC"
+          },
+          {
+            "start": 116,
+            "end": 120,
+            "sentence_id": 10,
+            "matched_text": "mmoC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 171,
+            "end": 186,
+            "sentence_id": 10,
+            "matched_text": "Protein C, sMMO"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoX",
+      "predicate": "encodes",
+      "object": "\u03b1 subunit, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 6,
+        "text_evidence": "| Target | Target strain | References\nmmoX | mmoX1/mmoX2 | CGGTCCGCTGTGGAAGGGCATGAAGCGCGT/ GCCTCGACCTTGAACTTGGAGCCATACTCG | \u03b1 subunit, sMMO | Methylococcus capsulatus | (Miguez et al., 1997) mmoX | mmoX f882/mmoX r1403 | GGCTCCAAGTTCAAGGTCGAGC/TGGCACTCGTAGCGCTCCGGCTCG | \u03b1 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 2008, 1995)",
+        "document_offsets": {
+          "start": 39,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 42,
+            "sentence_id": 1,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 441,
+            "end": 445,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 448,
+            "end": 452,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 458,
+            "end": 462,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 139,
+            "sentence_id": 1,
+            "matched_text": "\u03b1 subunit, sMMO"
+          },
+          {
+            "start": 521,
+            "end": 536,
+            "sentence_id": 6,
+            "matched_text": "\u03b1 subunit, sMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoY",
+      "predicate": "encodes",
+      "object": "\u03b2 subunit, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 7,
+        "text_evidence": "mmoY | mmoY1/mmoY2 | CGAGACCACGGAGCTGCGCACCGTCGACTG/ CGGCCTTCGGCACCGCTGTGGACTCGTCGA | \u03b2 subunit, sMMO | Methylococcus capsulatus mmoY | mmoY f198/mmoY r820 | CCGACTGGATCGCCGGCGGCCT/CGCTGGAAGAACTCGCGGCGG | \u03b2 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 1995)",
+        "document_offsets": {
+          "start": 230,
+          "end": 788
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 409,
+            "end": 413,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 416,
+            "end": 420,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 426,
+            "end": 430,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 86,
+            "end": 101,
+            "sentence_id": 3,
+            "matched_text": "\u03b2 subunit, sMMO"
+          },
+          {
+            "start": 485,
+            "end": 500,
+            "sentence_id": 7,
+            "matched_text": "\u03b2 subunit, sMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoB",
+      "predicate": "encodes",
+      "object": "Protein B, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "mmoB | mmoB f77/mmoB r369 | AGTTCTTCGCCGAGGAGAACCA/TGCCCAGGGTGTAGGCGCGGCCGA | Protein B, sMMO | Common for all methanotrophs\nmmoC | mmoC f542/mmoC r986 | GGTTCTGCTGTGCCGCACC/ATCCCGTGCCGCCGGCGACG | Protein C, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 914,
+          "end": 1157
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 9,
+            "matched_text": "mmoB"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "sentence_id": 9,
+            "matched_text": "mmoB"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "sentence_id": 9,
+            "matched_text": "mmoB"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 78,
+            "end": 93,
+            "sentence_id": 10,
+            "matched_text": "Protein B, sMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoZ",
+      "predicate": "is associated with",
+      "object": "mmoZ f133/mmoZ r483",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "mmoZ | mmoZ f133/mmoZ r483 | CGCCGTTCCGCAAGAGCTACGA/TTGCGCAGCCCTTCCAGCGGCGTG | \u03b3 subunit, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 788,
+          "end": 914
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 8,
+            "matched_text": "mmoZ"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "sentence_id": 8,
+            "matched_text": "mmoZ"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "sentence_id": 8,
+            "matched_text": "mmoZ"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 26,
+            "sentence_id": 8,
+            "matched_text": "mmoZ f133/mmoZ r483"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Most methanogens",
+      "predicate": "encodes",
+      "object": "16S rRNA",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Met | met86f/met1340r | GCTCAGTAACACGTGG/CGGTGTGTGCAAGGAG | 16S rRNA | Most methanogens | (Narihiro and Sekiguchi, 2011)",
+        "document_offsets": {
+          "start": 359,
+          "end": 480
+        },
+        "subject_positions": [
+          {
+            "start": 71,
+            "end": 87,
+            "sentence_id": 5,
+            "matched_text": "Most methanogens"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 68,
+            "sentence_id": 4,
+            "matched_text": "16S rRNA"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoY",
+      "predicate": "is common for",
+      "object": "Common for all methanotrophs",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "mmoY | mmoY1/mmoY2 | CGAGACCACGGAGCTGCGCACCGTCGACTG/ mmoX | mmoX f882/mmoX r1403 | GGCTCCAAGTTCAAGGTCGAGC/TGGCACTCGTAGCGCTCCGGCTCG | \u03b1 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 2008, 1995) mmoY | mmoY f198/mmoY r820 | CCGACTGGATCGCCGGCGGCCT/CGCTGGAAGAACTCGCGGCGG | \u03b2 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 1995) mmoZ | mmoZ f133/mmoZ r483 | CGCCGTTCCGCAAGAGCTACGA/TTGCGCAGCCCTTCCAGCGGCGTG | \u03b3 subunit, sMMO | Common for all methanotrophs | AGTTCTTCGCCGAGGAGAACCA/TGCCCAGGGTGTAGGCGCGGCCGA | Protein B, sMMO | Common for all methanotrophs\nmmoC | mmoC f542/mmoC r986 | GGTTCTGCTGTGCCGCACC/ATCCCGTGCCGCCGGCGACG | Protein C, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 230,
+          "end": 1157
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 409,
+            "end": 413,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 416,
+            "end": 420,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 426,
+            "end": 430,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 348,
+            "end": 376,
+            "sentence_id": 6,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 503,
+            "end": 531,
+            "sentence_id": 7,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 655,
+            "end": 683,
+            "sentence_id": 8,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 780,
+            "end": 808,
+            "sentence_id": 10,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 899,
+            "end": 927,
+            "sentence_id": 10,
+            "matched_text": "Common for all methanotrophs"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus",
+      "predicate": "is associated with",
+      "object": "\u03b2 subunit, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text_evidence": "| Target | Target strain | References\nmmoX | mmoX1/mmoX2 | CGGTCCGCTGTGGAAGGGCATGAAGCGCGT/ GCCTCGACCTTGAACTTGGAGCCATACTCG | \u03b1 subunit, sMMO | Methylococcus capsulatus | (Miguez et al., 1997) CGGCCTTCGGCACCGCTGTGGACTCGTCGA | \u03b2 subunit, sMMO | Methylococcus capsulatus mmoY | mmoY f198/mmoY r820 | CCGACTGGATCGCCGGCGGCCT/CGCTGGAAGAACTCGCGGCGG | \u03b2 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 1995)",
+        "document_offsets": {
+          "start": 39,
+          "end": 788
+        },
+        "subject_positions": [
+          {
+            "start": 142,
+            "end": 166,
+            "sentence_id": 1,
+            "matched_text": "Methylococcus capsulatus"
+          },
+          {
+            "start": 295,
+            "end": 319,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 277,
+            "end": 292,
+            "sentence_id": 3,
+            "matched_text": "\u03b2 subunit, sMMO"
+          },
+          {
+            "start": 676,
+            "end": 691,
+            "sentence_id": 7,
+            "matched_text": "\u03b2 subunit, sMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoZ",
+      "predicate": "encodes",
+      "object": "\u03b3 subunit, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "mmoZ | mmoZ f133/mmoZ r483 | CGCCGTTCCGCAAGAGCTACGA/TTGCGCAGCCCTTCCAGCGGCGTG | \u03b3 subunit, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 788,
+          "end": 914
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 8,
+            "matched_text": "mmoZ"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "sentence_id": 8,
+            "matched_text": "mmoZ"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "sentence_id": 8,
+            "matched_text": "mmoZ"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 94,
+            "sentence_id": 8,
+            "matched_text": "\u03b3 subunit, sMMO"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoB",
+      "predicate": "is associated with",
+      "object": "mmoB f77/mmoB r369",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "mmoB | mmoB f77/mmoB r369",
+        "document_offsets": {
+          "start": 914,
+          "end": 939
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 9,
+            "matched_text": "mmoB"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "sentence_id": 9,
+            "matched_text": "mmoB"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "sentence_id": 9,
+            "matched_text": "mmoB"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 25,
+            "sentence_id": 9,
+            "matched_text": "mmoB f77/mmoB r369"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoX",
+      "predicate": "is common for",
+      "object": "Common for all methanotrophs",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 10,
+        "text_evidence": "| Target | Target strain | References\nmmoX | mmoX1/mmoX2 | CGGTCCGCTGTGGAAGGGCATGAAGCGCGT/ GCCTCGACCTTGAACTTGGAGCCATACTCG | \u03b1 subunit, sMMO | Methylococcus capsulatus | (Miguez et al., 1997) mmoX | mmoX f882/mmoX r1403 | GGCTCCAAGTTCAAGGTCGAGC/TGGCACTCGTAGCGCTCCGGCTCG | \u03b1 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 2008, 1995) mmoY | mmoY f198/mmoY r820 | CCGACTGGATCGCCGGCGGCCT/CGCTGGAAGAACTCGCGGCGG | \u03b2 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 1995) mmoZ | mmoZ f133/mmoZ r483 | CGCCGTTCCGCAAGAGCTACGA/TTGCGCAGCCCTTCCAGCGGCGTG | \u03b3 subunit, sMMO | Common for all methanotrophs | AGTTCTTCGCCGAGGAGAACCA/TGCCCAGGGTGTAGGCGCGGCCGA | Protein B, sMMO | Common for all methanotrophs\nmmoC | mmoC f542/mmoC r986 | GGTTCTGCTGTGCCGCACC/ATCCCGTGCCGCCGGCGACG | Protein C, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 39,
+          "end": 1157
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 42,
+            "sentence_id": 1,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 441,
+            "end": 445,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 448,
+            "end": 452,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 458,
+            "end": 462,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 539,
+            "end": 567,
+            "sentence_id": 6,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 694,
+            "end": 722,
+            "sentence_id": 7,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 846,
+            "end": 874,
+            "sentence_id": 8,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 971,
+            "end": 999,
+            "sentence_id": 10,
+            "matched_text": "Common for all methanotrophs"
+          },
+          {
+            "start": 1090,
+            "end": 1118,
+            "sentence_id": 10,
+            "matched_text": "Common for all methanotrophs"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoC",
+      "predicate": "is associated with",
+      "object": "mmoC f542/mmoC r986",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "| AGTTCTTCGCCGAGGAGAACCA/TGCCCAGGGTGTAGGCGCGGCCGA | Protein B, sMMO | Common for all methanotrophs\nmmoC | mmoC f542/mmoC r986 | GGTTCTGCTGTGCCGCACC/ATCCCGTGCCGCCGGCGACG | Protein C, sMMO | Common for all methanotrophs",
+        "document_offsets": {
+          "start": 940,
+          "end": 1157
+        },
+        "subject_positions": [
+          {
+            "start": 99,
+            "end": 103,
+            "sentence_id": 10,
+            "matched_text": "mmoC"
+          },
+          {
+            "start": 106,
+            "end": 110,
+            "sentence_id": 10,
+            "matched_text": "mmoC"
+          },
+          {
+            "start": 116,
+            "end": 120,
+            "sentence_id": 10,
+            "matched_text": "mmoC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 106,
+            "end": 125,
+            "sentence_id": 10,
+            "matched_text": "mmoC f542/mmoC r986"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus",
+      "predicate": "is associated with",
+      "object": "\u03b1 subunit, sMMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 6,
+        "text_evidence": "| Target | Target strain | References\nmmoX | mmoX1/mmoX2 | CGGTCCGCTGTGGAAGGGCATGAAGCGCGT/ GCCTCGACCTTGAACTTGGAGCCATACTCG | \u03b1 subunit, sMMO | Methylococcus capsulatus | (Miguez et al., 1997) CGGCCTTCGGCACCGCTGTGGACTCGTCGA | \u03b2 subunit, sMMO | Methylococcus capsulatus mmoX | mmoX f882/mmoX r1403 | GGCTCCAAGTTCAAGGTCGAGC/TGGCACTCGTAGCGCTCCGGCTCG | \u03b1 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 2008, 1995)",
+        "document_offsets": {
+          "start": 39,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 142,
+            "end": 166,
+            "sentence_id": 1,
+            "matched_text": "Methylococcus capsulatus"
+          },
+          {
+            "start": 295,
+            "end": 319,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 139,
+            "sentence_id": 1,
+            "matched_text": "\u03b1 subunit, sMMO"
+          },
+          {
+            "start": 521,
+            "end": 536,
+            "sentence_id": 6,
+            "matched_text": "\u03b1 subunit, sMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoY",
+      "predicate": "is associated with",
+      "object": "mmoY1/mmoY2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 7,
+        "text_evidence": "mmoY | mmoY1/mmoY2 | CGAGACCACGGAGCTGCGCACCGTCGACTG/ mmoY | mmoY f198/mmoY r820 | CCGACTGGATCGCCGGCGGCCT/CGCTGGAAGAACTCGCGGCGG | \u03b2 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 1995)",
+        "document_offsets": {
+          "start": 230,
+          "end": 788
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 409,
+            "end": 413,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 416,
+            "end": 420,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          },
+          {
+            "start": 426,
+            "end": 430,
+            "sentence_id": 7,
+            "matched_text": "mmoY"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "mmoY1/mmoY2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mmoX",
+      "predicate": "is associated with",
+      "object": "mmoX1/mmoX2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 6,
+        "text_evidence": "| Target | Target strain | References\nmmoX | mmoX1/mmoX2 | CGGTCCGCTGTGGAAGGGCATGAAGCGCGT/ GCCTCGACCTTGAACTTGGAGCCATACTCG | \u03b1 subunit, sMMO | Methylococcus capsulatus | (Miguez et al., 1997) mmoX | mmoX f882/mmoX r1403 | GGCTCCAAGTTCAAGGTCGAGC/TGGCACTCGTAGCGCTCCGGCTCG | \u03b1 subunit, sMMO | Common for all methanotrophs | (McDonald et al., 2008, 1995)",
+        "document_offsets": {
+          "start": 39,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 42,
+            "sentence_id": 1,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 441,
+            "end": 445,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 448,
+            "end": 452,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          },
+          {
+            "start": 458,
+            "end": 462,
+            "sentence_id": 6,
+            "matched_text": "mmoX"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 56,
+            "sentence_id": 1,
+            "matched_text": "mmoX1/mmoX2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 36.47996139526367,
+          "t": 208.10443115234375,
+          "r": 558.1204223632812,
+          "b": 51.95904541015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "mmoZ",
+    "CH 4",
+    "mmoC",
+    "Methylocella tundrae",
+    "Cu 2 +",
+    "CH 4 : air (1:1)",
+    "mmoX",
+    "Most methanogens",
+    "Methylosinus trichosporium OB3b",
+    "Fe 2 + (10 \u03bc mol/L)",
+    "Methylomonas methanica",
+    "Mixed culture dominated by Methylocaldum",
+    "Microbial culture",
+    "Common for all methanotrophs",
+    "M. sporium",
+    "Patel et al., 2023",
+    "pH 7",
+    "Methanotrophs",
+    "air",
+    "Batch mode",
+    "H 2 (15%)",
+    "pH 6.8",
+    "Cu 2 + (5 \u03bc mol/L)",
+    "Enriched microbial consortium from rice field soil",
+    "Methylocystis bryophila",
+    "Methylococcus capsulatus",
+    "Substrate",
+    "100 mM phosphate buffer",
+    "mmoY",
+    "M. bryophila",
+    "64.6 mM",
+    "mmoB",
+    "Methyloferula stellata",
+    "Strain Methylocaldum sp. 14B",
+    "CH 4 (30 %)",
+    "formate (100 MM)",
+    "Formate",
+    "Methylomonas sp. DH-1",
+    "Co-culture M. sporium and M. bryophila",
+    "30 \u25e6 C",
+    "Fermentation",
+    "Methanol yield",
+    "Methanol",
+    "MgCl 2 (20 MM)",
+    "MgCl 2",
+    "Strain Methylocaldum sp. SAD2",
+    "This study"
+  ]
+}

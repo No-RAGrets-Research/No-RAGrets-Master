@@ -1,0 +1,1154 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 42,
+    "relations": 26,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Hamilton et al. 2024.json",
+    "processed_at": "2025-11-24T00:04:46.932025"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Scenario 2",
+      "predicate": "requires supplemental power",
+      "object": "3.82 \u00d7 10 6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Scenario 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 231,
+            "end": 242,
+            "sentence_id": 0,
+            "matched_text": "3.82 \u00d7 10 6"
+          },
+          {
+            "start": 245,
+            "end": 256,
+            "sentence_id": 0,
+            "matched_text": "3.82 \u00d7 10 6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "BAU-uncontrolled emissions",
+      "predicate": "is associated with",
+      "object": "Scenario 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 65,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "BAU-uncontrolled emissions"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 11,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "Scenario 1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 3",
+      "predicate": "has residual emissions from the reactor",
+      "object": "1.88 \u00d7 10 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "Scenario 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 363,
+            "end": 374,
+            "sentence_id": 0,
+            "matched_text": "1.88 \u00d7 10 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 2",
+      "predicate": "has total GWP 100",
+      "object": "3.81 \u00d7 10 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Scenario 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 405,
+            "end": 416,
+            "sentence_id": 0,
+            "matched_text": "3.81 \u00d7 10 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 3",
+      "predicate": "has total GWP 100",
+      "object": "1.98 \u00d7 10 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "Scenario 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 419,
+            "end": 430,
+            "sentence_id": 0,
+            "matched_text": "1.98 \u00d7 10 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 1",
+      "predicate": "% reduction from BAU is",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "Scenario 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 69,
+            "sentence_id": 0,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 2",
+      "predicate": "has residual emissions from the reactor",
+      "object": "3.32 \u00d7 10 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Scenario 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 349,
+            "end": 360,
+            "sentence_id": 0,
+            "matched_text": "3.32 \u00d7 10 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Total GWP 100",
+      "predicate": "equals",
+      "object": "7.92 \u00d7 10 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 375,
+            "end": 388,
+            "sentence_id": 0,
+            "matched_text": "Total GWP 100"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 285,
+            "end": 296,
+            "sentence_id": 0,
+            "matched_text": "7.92 \u00d7 10 8"
+          },
+          {
+            "start": 391,
+            "end": 402,
+            "sentence_id": 0,
+            "matched_text": "7.92 \u00d7 10 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 3",
+      "predicate": "has media inputs",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "Scenario 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 69,
+            "sentence_id": 0,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "BAU-uncontrolled emissions",
+      "predicate": "emits",
+      "object": "7.92 \u00d7 10 8 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 65,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "BAU-uncontrolled emissions"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 285,
+            "end": 298,
+            "sentence_id": 0,
+            "matched_text": "7.92 \u00d7 10 8 a"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "LEAFs reactor",
+      "predicate": "requires supplemental power",
+      "object": "3.82 \u00d7 10 6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 102,
+            "end": 115,
+            "sentence_id": 0,
+            "matched_text": "LEAFs reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 231,
+            "end": 242,
+            "sentence_id": 0,
+            "matched_text": "3.82 \u00d7 10 6"
+          },
+          {
+            "start": 245,
+            "end": 256,
+            "sentence_id": 0,
+            "matched_text": "3.82 \u00d7 10 6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "LEAFs reactor",
+      "predicate": "has media inputs",
+      "object": "4.48 \u00d7 10 7",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 102,
+            "end": 115,
+            "sentence_id": 0,
+            "matched_text": "LEAFs reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 180,
+            "end": 191,
+            "sentence_id": 0,
+            "matched_text": "4.48 \u00d7 10 7"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 1",
+      "predicate": "has total GWP 100",
+      "object": "3.81 \u00d7 10 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "Scenario 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 405,
+            "end": 416,
+            "sentence_id": 0,
+            "matched_text": "3.81 \u00d7 10 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 2",
+      "predicate": "has media inputs",
+      "object": "5.86 \u00d7 10 6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Scenario 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 194,
+            "end": 205,
+            "sentence_id": 0,
+            "matched_text": "5.86 \u00d7 10 6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 3",
+      "predicate": "% reduction from BAU is",
+      "object": "75.0%",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "Scenario 3"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 2",
+      "predicate": "% reduction from BAU is",
+      "object": "51.9%",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Scenario 2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenario 3",
+      "predicate": "requires supplemental power",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Scenario | Scenario 1 | Scenario 2 | Scenario 3\nScenario brief | BAU-uncontrolled emissions | 1 large LEAFs reactor | 5 smaller LEAFs reactors in tandem\nReactor media inputs | - | 4.48 \u00d7 10 7 | 5.86 \u00d7 10 6\nSupplemental power | - | 3.82 \u00d7 10 6 | 3.82 \u00d7 10 6\nUncontrolled VAMemissions | 7.92 \u00d7 10 8 a | - | -\nResidual emissions from the reactor | - | 3.32 \u00d7 10 8 | 1.88 \u00d7 10 8\nTotal GWP 100 | 7.92 \u00d7 10 8 | 3.81 \u00d7 10 8 | 1.98 \u00d7 10 8\n%Reduction fromBAU | - | 51.9% | 75.0%",
+        "document_offsets": {
+          "start": 0,
+          "end": 469
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "Scenario 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 69,
+            "sentence_id": 0,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 117.72036743164062,
+          "t": 459.3323974609375,
+          "r": 553.1369018554688,
+          "b": 346.209228515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[25]",
+      "predicate": "cites",
+      "object": "a 30 788 cm 3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "[38]\n9 a 30 788 cm 3 | Landfill cover soil and earth worm cast | 6134 | 6134 | 100% | [25]",
+        "document_offsets": {
+          "start": 833,
+          "end": 923
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 20,
+            "sentence_id": 4,
+            "matched_text": "a 30 788 cm 3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "earth worm cast",
+      "predicate": "is part of",
+      "object": "Landfill cover soil",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "[38]\n9 a 30 788 cm 3 | Landfill cover soil and earth worm cast | 6134 | 6134 | 100% |",
+        "document_offsets": {
+          "start": 833,
+          "end": 918
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 62,
+            "sentence_id": 4,
+            "matched_text": "earth worm cast"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 23,
+            "end": 42,
+            "sentence_id": 4,
+            "matched_text": "Landfill cover soil"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Experimental set-up volume",
+      "predicate": "has value",
+      "object": "120 cm 3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Experimental set-up volume | Packing material | Inlet load (gCH 4 m - 3 d - 1 ) | Maximum CH 4 removal | Reference\n1 120 cm 3: 3%CH 4 | LEAFs | 777 6548 | 376 648 | 48% 10% | This Study\n2 120 cm 3: 5.5%CH 4 | LEAFs | 1648 8967 | 1068 2588 | 64.8% 28.8% | This Study\n3 600 cm 3: 5 tandem units (1%CH 4 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 339
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 26,
+            "sentence_id": 0,
+            "matched_text": "Experimental set-up volume"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 162,
+            "sentence_id": 2,
+            "matched_text": "120 cm 3"
+          },
+          {
+            "start": 225,
+            "end": 233,
+            "sentence_id": 2,
+            "matched_text": "120 cm 3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Inlet load (gCH 4 m - 3 d - 1)",
+      "predicate": "has value",
+      "object": "777",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Maximum CH 4 removal | Reference\n1 120 cm 3: 3%CH 4 | LEAFs | 777 6548 | 376 648 | 48% 10% | This Study\n2 120 cm 3: 5.5%CH 4 | LEAFs | 1648 8967 | 1068 2588 | 64.8% 28.8% | This Study\n3 600 cm 3: 5 tandem units (1%CH 4 )",
+        "document_offsets": {
+          "start": 117,
+          "end": 339
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 64,
+            "end": 67,
+            "sentence_id": 2,
+            "matched_text": "777"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Packing material",
+      "predicate": "is",
+      "object": "LEAFs",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Experimental set-up volume | Packing material | Inlet load (gCH 4 m - 3 d - 1 ) | Maximum CH 4 removal | Reference\n1 120 cm 3: 3%CH 4 | LEAFs | 777 6548 | 376 648 | 48% 10% | This Study\n2 120 cm 3: 5.5%CH 4 | LEAFs | 1648 8967 | 1068 2588 | 64.8% 28.8% | This Study\n3 600 cm 3: 5 tandem units (1%CH 4 ) | LEAFs | 788.4 | 663.1 | 84% | This Study\n4 600 cm 3: 5 tandem units (5%CH 4 ) | LEAFs | 3942 | 2792.5 | 70.4% | This Study\n5 1840 cm 3 : 0.1%CH 4 | LEAFs | 3.7 176.7 | 1.38 6.6 | 37% 3% | This Study\n6 1840 cm 3 :1%CH 4 | LEAFs | 316.2 1772.7 | 203.0 255.1 | 64% 14.4% | This Study\n7 1840 cm 3 :3%CH 4 | LEAFs | 772.6 | 445.7 | 57.7% | This Study\n8 a 166 897 cm 3 | Compost; recycling paper pellets; mixture of compost and paper pellets, mixture of wood chips and compost | 631 | 567 | 96% |",
+        "document_offsets": {
+          "start": 0,
+          "end": 832
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 45,
+            "sentence_id": 0,
+            "matched_text": "Packing material"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 173,
+            "end": 178,
+            "sentence_id": 2,
+            "matched_text": "LEAFs"
+          },
+          {
+            "start": 246,
+            "end": 251,
+            "sentence_id": 2,
+            "matched_text": "LEAFs"
+          },
+          {
+            "start": 342,
+            "end": 347,
+            "sentence_id": 3,
+            "matched_text": "LEAFs"
+          },
+          {
+            "start": 422,
+            "end": 427,
+            "sentence_id": 3,
+            "matched_text": "LEAFs"
+          },
+          {
+            "start": 490,
+            "end": 495,
+            "sentence_id": 3,
+            "matched_text": "LEAFs"
+          },
+          {
+            "start": 563,
+            "end": 568,
+            "sentence_id": 3,
+            "matched_text": "LEAFs"
+          },
+          {
+            "start": 645,
+            "end": 650,
+            "sentence_id": 3,
+            "matched_text": "LEAFs"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "[38]",
+      "predicate": "cites",
+      "object": "a 166 897 cm 3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "| LEAFs | 788.4 | 663.1 | 84% | This Study\n4 600 cm 3: 5 tandem units (5%CH 4 ) | LEAFs | 3942 | 2792.5 | 70.4% | This Study\n5 1840 cm 3 : 0.1%CH 4 | LEAFs | 3.7 176.7 | 1.38 6.6 | 37% 3% | This Study\n6 1840 cm 3 :1%CH 4 | LEAFs | 316.2 1772.7 | 203.0 255.1 | 64% 14.4% | This Study\n7 1840 cm 3 :3%CH 4 | LEAFs | 772.6 | 445.7 | 57.7% | This Study\n8 a 166 897 cm 3 | Compost; recycling paper pellets; mixture of compost and paper pellets, mixture of wood chips and compost | 631 | 567 | 96% | [38]\n9 a 30 788 cm 3 | Landfill cover soil and earth worm cast | 6134 | 6134 | 100% |",
+        "document_offsets": {
+          "start": 340,
+          "end": 918
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 350,
+            "end": 364,
+            "sentence_id": 3,
+            "matched_text": "a 166 897 cm 3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Load consumed (gCH 4 m - 3 d - 1)",
+      "predicate": "has value",
+      "object": "376",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Maximum CH 4 removal | Reference\n1 120 cm 3: 3%CH 4 | LEAFs | 777 6548 | 376 648 | 48% 10% | This Study\n2 120 cm 3: 5.5%CH 4 | LEAFs | 1648 8967 | 1068 2588 | 64.8% 28.8% | This Study\n3 600 cm 3: 5 tandem units (1%CH 4 )",
+        "document_offsets": {
+          "start": 117,
+          "end": 339
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 75,
+            "end": 78,
+            "sentence_id": 2,
+            "matched_text": "376"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reference",
+      "predicate": "is",
+      "object": "[This Study]",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Maximum CH 4 removal | Reference\n1 120 cm 3: 3%CH 4 | LEAFs | 777 6548 | 376 648 | 48% 10% | This Study\n2 120 cm 3: 5.5%CH 4 | LEAFs | 1648 8967 | 1068 2588 | 64.8% 28.8% | This Study\n3 600 cm 3: 5 tandem units (1%CH 4 )",
+        "document_offsets": {
+          "start": 117,
+          "end": 339
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 34,
+            "sentence_id": 2,
+            "matched_text": "Reference"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Maximum CH 4 removal",
+      "predicate": "is",
+      "object": "48%",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Maximum CH 4 removal | Reference\n1 120 cm 3: 3%CH 4 | LEAFs | 777 6548 | 376 648 | 48% 10% | This Study\n2 120 cm 3: 5.5%CH 4 | LEAFs | 1648 8967 | 1068 2588 | 64.8% 28.8% | This Study\n3 600 cm 3: 5 tandem units (1%CH 4 )",
+        "document_offsets": {
+          "start": 117,
+          "end": 339
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Maximum CH 4 removal"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page10_table1",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 117.79527282714844,
+          "t": 768.4867630004883,
+          "r": 552.9050903320312,
+          "b": 489.1599426269531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "-",
+    "4.48 \u00d7 10 7",
+    "mixture of wood chips and compost",
+    "5%CH 4",
+    "Compost",
+    "1.88 \u00d7 10 8",
+    "1%CH 4",
+    "Scenario 2",
+    "166 897 cm 3",
+    "Packing material",
+    "0.1%CH 4",
+    "recycling paper pellets",
+    "earth worm cast",
+    "5 tandem units",
+    "a",
+    "Maximum CH 4 removal",
+    "3.32 \u00d7 10 8",
+    "LEAFs reactor",
+    "[This Study]",
+    "Experimental set-up volume",
+    "Inlet load",
+    "5.5%CH 4",
+    "LEAFs",
+    "Load consumed",
+    "3.82 \u00d7 10 6",
+    "Scenario 3",
+    "600 cm 3",
+    "5.86 \u00d7 10 6",
+    "1840 cm 3",
+    "Reference",
+    "[38]",
+    "Landfill cover soil",
+    "[25]",
+    "120 cm 3",
+    "3%CH 4",
+    "Scenario 1",
+    "BAU-uncontrolled emissions",
+    "7.92 \u00d7 10 8 a",
+    "Total GWP 100",
+    "51.9%",
+    "mixture of compost and paper pellets",
+    "75.0%"
+  ]
+}

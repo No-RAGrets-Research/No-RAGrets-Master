@@ -1,0 +1,67 @@
+[
+  {
+    "page": 2,
+    "caption": "Figure 1. Proposed mechanism of methanol synthesis from carbon \ndioxide reduction by methanotrophic bacteria. \nFateDH: formate dehydrogenase; FaldDH: formaldehyde dehydro-\ngenase ate ald; MDH: methanol dehydrogenase; MMO: Methane \nmonooxygenase.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 1. Proposed mechanism of methanol synthesis from carbon \ndioxide reduction by methanotrophic bacteria. \nFateDH: formate dehydrogenase; FaldDH: formaldehyde dehydro-\ngenase ate ald; MDH: methanol dehydrogenase; MMO: Methane \nmonooxygenase.\n\nOutput JSON list only:\nassistant\n[\n  (\"CH₄\", \"is metabolized by\", \"MMO\"),\n  (\"CO₂\", \"is reduced to\", \"CH₃OH\"),\n  (\"CH₄\", \"is metabolized by\", \"Type I Methanotrophs\"),\n  (\"CH₄\", \"is metabolized by\", \"Type II Methanotrophs\"),\n  (\"CH₃OH\", \"is metabolized by\", \"MDH\"),\n  (\"HCHO\", \"is metabolized by\", \"FaldDH\"),\n  (\"HCOOH\", \"is metabolized by\", \"FateDH\"),\n  (\"CH₄\", \"is metabolized by\", \"Type I Methanotrophs via\", \"RMP PATHWAY\"),\n  (\"CH₄\", \"is metabolized by\", \"Type II Methanotrophs via\", \"SERINE PATHWAY\"),\n  (\"Acetyl-CoA\", \"is produced by\", \"Acetyl-CoA synthase\"),\n  (\"Acetyl-CoA\", \"is converted to\", \"Acetoacetyl-CoA\"),\n  (\"Acetoacetyl-CoA\", \"is reduced to\", \"β-Hydroxybutyryl-CoA\"),\n  (\"β-Hydroxybutyryl-CoA\", \"is converted to\", \"PHB\"),\n  (\"PHB\", \"is degraded by\", \"PHB depolymerase\"),\n  (\"β-Hydroxybutyrate\", \"is oxidized by\", \"β-hydroxybutyrate dehydrogenase\"),\n  (\"Acetyl-CoA\", \"is metabolized via\", \"PHB-Cycle\"),\n  (\"Acetoacetate\", \"is metabolized via\", \"PHB-Cycle\"),\n  (\"Acetoacetate\", \"is converted to\", \"β-Hydroxybutyrate\"),\n  (\"NADH₂\", \"is produced by\", \"Acetyl-CoA synthase\"),\n  (\"NADPH\", \"is produced by\", \"NADPH-linked acetacetyl-CoA reductase\"),\n  (\"NAD⁺\", \"is consumed by\", \"β-hydroxybutyrate dehydrogenase\"),\n  (\"NADH₂\", \"is consumed by\", \"β-hydroxybutyrate dehydrogenase\"),\n  (\"NAD⁺\", \"is consumed by\", \"Acetyl-CoA synthase\"),\n  (\"NADH₂\", \"is consumed by\", \"NADPH-linked acetacetyl-CoA reduct"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Figure 2. Time course of methanol production by cell suspensions \nof M. trichosporium IMV 3011. \nM. trichosporium IMV 3011 cells were obtained from routine fer-\nmentation conditions for 96 h. Cell concentration: 3.0 mg dry cell \nwt/ml.",
+    "triples": [
+      {
+        "subject": "M. trichosporium IMV 3011",
+        "relation": "produces",
+        "object": "methanol"
+      },
+      {
+        "subject": "M. trichosporium IMV 3011",
+        "relation": "has cell concentration of",
+        "object": "3.0 mg dry cell wt/ml"
+      },
+      {
+        "subject": "M. trichosporium IMV 3011",
+        "relation": "was obtained from",
+        "object": "routine fermentation conditions for 96 h"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Figure 3. Transmission electron micrograph of M. trichosporium IMV 3011.  \nLipid storage granules are the electron-dense (light-colored) inclusions inside the cells. M. trichosporium IMV 3011 contain PHB when \ngrown under the routine conditions used in these experiments.",
+    "triples": [
+      {
+        "subject": "M. trichosporium IMV 3011",
+        "relation": "contains",
+        "object": "PHB"
+      },
+      {
+        "subject": "M. trichosporium IMV 3011",
+        "relation": "has",
+        "object": "lipid storage granules"
+      },
+      {
+        "subject": "lipid storage granules",
+        "relation": "appear as",
+        "object": "electron-dense inclusions"
+      },
+      {
+        "subject": "lipid storage granules",
+        "relation": "are",
+        "object": "light-colored"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Figure 4. Repetitive batch synthesis of methanol from carbon \ndioxide with M. trichosporium IMV 3011 \nM. trichosporium IMV 3011 cells were obtained from routine fer-\nmentation conditions for 96 h. Cell concentration: 3.0 mg dry cell \nwt/ml. \n \n \nstate could then result in the higher methanol produc-\ntion capacities in the cells. The higher reducing power \nstate could be represented by a high NADH-to-NAD+ \nratio or, indirectly, by other metabolites with capacity \nto produce NADH.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4. Repetitive batch synthesis of methanol from carbon \ndioxide with M. trichosporium IMV 3011 \nM. trichosporium IMV 3011 cells were obtained from routine fer-\nmentation conditions for 96 h. Cell concentration: 3.0 mg dry cell \nwt/ml. \n \n \nstate could then result in the higher methanol produc-\ntion capacities in the cells. The higher reducing power \nstate could be represented by a high NADH-to-NAD+ \nratio or, indirectly, by other metabolites with capacity \nto produce NADH.\n\nOutput JSON list only:\nassistant\n[\n  (\"Methanol accumulated\", \"is measured in\", \"µmol/mg dry cell weight\"),\n  (\"Methanol accumulated\", \"varies with\", \"Cycle\"),\n  (\"Methanol accumulated\", \"varies with\", \"hydroxybutyrate addition\"),\n  (\"Methanol accumulated\", \"is affected by\", \"no hydroxybutyrate addition\"),\n  (\"Methanol accumulated\", \"is affected by\", \"1 mL hydroxybutyrate addition\"),\n  (\"Methanol accumulated\", \"is produced by\", \"M. trichosporium IMV 3011\"),\n  (\"M. trichosporium IMV 3011\", \"is used for\", \"repetitive batch synthesis of methanol from carbon dioxide\"),\n  (\"M. trichosporium IMV 3011\", \"has cell concentration\", \"3.0 mg dry cell wt/ml\"),\n  (\"M. trichosporium IMV 3011\", \"is obtained from\", \"routine fermentation conditions for 96 h\")\n]"
+      }
+    ]
+  }
+]

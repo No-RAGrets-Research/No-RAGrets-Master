@@ -1,0 +1,1085 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 26,
+    "relations": 27,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Takeguchi et al. 1997.json",
+    "processed_at": "2025-11-24T00:59:23.337536"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Propylene oxidation",
+      "predicate": "is associated with",
+      "object": "ilmol GLYPH<12>9",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 99,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Propylene oxidation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 137,
+            "sentence_id": 0,
+            "matched_text": "ilmol GLYPH<12>9"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Copper concentration",
+      "predicate": "is associated with",
+      "object": "I~M",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 20,
+            "sentence_id": 0,
+            "matched_text": "Copper concentration"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 37,
+            "end": 40,
+            "sentence_id": 0,
+            "matched_text": "I~M"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "rain1",
+      "predicate": "influences",
+      "object": "1.59 x 10-3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 66,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "rain1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 208,
+            "end": 219,
+            "sentence_id": 0,
+            "matched_text": "1.59 x 10-3"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "20",
+      "predicate": "influences",
+      "object": "1.39 x 10 .4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 231,
+            "end": 233,
+            "sentence_id": 0,
+            "matched_text": "20"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 236,
+            "end": 248,
+            "sentence_id": 0,
+            "matched_text": "1.39 x 10 .4"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Specific growth rate",
+      "predicate": "is equal to",
+      "object": "1.18 x 10-3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 43,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 178,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "1.18 x 10-3"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Naphthalene oxidation",
+      "predicate": "is associated with",
+      "object": "ilmol GLYPH<12>9",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 74,
+            "end": 95,
+            "sentence_id": 0,
+            "matched_text": "Naphthalene oxidation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 137,
+            "sentence_id": 0,
+            "matched_text": "ilmol GLYPH<12>9"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Specific growth rate",
+      "predicate": "is associated with",
+      "object": "rain1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 43,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "rain1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Copper concentration",
+      "predicate": "is negatively correlated with",
+      "object": "64.9",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 20,
+            "sentence_id": 0,
+            "matched_text": "Copper concentration"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 226,
+            "end": 230,
+            "sentence_id": 0,
+            "matched_text": "64.9"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Copper concentration",
+      "predicate": "influences",
+      "object": "0.21",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 20,
+            "sentence_id": 0,
+            "matched_text": "Copper concentration"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 171,
+            "end": 175,
+            "sentence_id": 0,
+            "matched_text": "0.21"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Specific growth rate",
+      "predicate": "is negatively correlated with",
+      "object": "98.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Copper concentration in the medium / I~M | Specific growth rate / rain1 | Naphthalene oxidation\" | Propylene oxidation / ilmol GLYPH<12>9 rain\"1 GLYPH<12>9 g dry - cell 1\n0.21 | 1.18 x 10-3 | + | 27.0\n1.25 | 1.59 x 10-3 | - | 64.9\n20 | 1.39 x 10 .4 | - | 98.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 259
+        },
+        "subject_positions": [
+          {
+            "start": 43,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Specific growth rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 255,
+            "end": 259,
+            "sentence_id": 0,
+            "matched_text": "98.6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 63.60166549682617,
+          "t": 315.7259521484375,
+          "r": 421.66070556640625,
+          "b": 227.4390869140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate buffer(pH 7.0)",
+      "predicate": "has concentration",
+      "object": "12.9 mM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "mM\nPhosphate buffer(pH 7.0) | 58.6 mM | 12.9 mM\nCyclopropanol | 251",
+        "document_offsets": {
+          "start": 124,
+          "end": 191
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 47,
+            "sentence_id": 2,
+            "matched_text": "12.9 mM"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides",
+      "object": "Temperature",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "/~M | 67.0 nM *\nTemperature | 30~ | 25~",
+        "document_offsets": {
+          "start": 192,
+          "end": 231
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 3,
+            "matched_text": "Temperature"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Sodium formate",
+      "predicate": "has concentration",
+      "object": "14.3 mM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [
+          {
+            "start": 92,
+            "end": 106,
+            "sentence_id": 0,
+            "matched_text": "Sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 116,
+            "sentence_id": 0,
+            "matched_text": "14.3 mM"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides",
+      "object": "Conventional",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 25,
+            "sentence_id": 0,
+            "matched_text": "Conventional"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "contains",
+      "object": "Conditions",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 0,
+            "matched_text": "Conditions"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conditions",
+      "predicate": "is associated with",
+      "object": "Cells",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 0,
+            "matched_text": "Conditions"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 36,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Cells"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides",
+      "object": "Phosphate buffer(pH 7.0)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "mM\nPhosphate buffer(pH 7.0)",
+        "document_offsets": {
+          "start": 124,
+          "end": 151
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Temperature",
+      "predicate": "has range",
+      "object": "30~",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "/~M | 67.0 nM *\nTemperature | 30~ | 25~",
+        "document_offsets": {
+          "start": 192,
+          "end": 231
+        },
+        "subject_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 3,
+            "matched_text": "Temperature"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate buffer(pH 7.0)",
+      "predicate": "has concentration",
+      "object": "58.6 mM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "mM\nPhosphate buffer(pH 7.0) | 58.6 mM | 12.9 mM\nCyclopropanol | 251",
+        "document_offsets": {
+          "start": 124,
+          "end": 191
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 37,
+            "sentence_id": 2,
+            "matched_text": "58.6 mM"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells",
+      "predicate": "has concentration",
+      "object": "3.46 x 10-2mg dry-cell/ml",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "3.46 x 10-2mg dry-cell/ml"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells",
+      "predicate": "has concentration",
+      "object": "1.39 mg dry-cell/ml",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "1.39 mg dry-cell/ml"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides",
+      "object": "Cyclopropanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| 58.6 mM | 12.9 mM\nCyclopropanol | 251",
+        "document_offsets": {
+          "start": 152,
+          "end": 191
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 2,
+            "matched_text": "Cyclopropanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cyclopropanol",
+      "predicate": "has concentration",
+      "object": "67.0 nM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| 58.6 mM | 12.9 mM\nCyclopropanol | 251 /~M | 67.0 nM *\nTemperature | 30~ | 25~",
+        "document_offsets": {
+          "start": 152,
+          "end": 231
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 2,
+            "matched_text": "Cyclopropanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 53,
+            "sentence_id": 3,
+            "matched_text": "67.0 nM"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides",
+      "object": "Sodium formate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 92,
+            "end": 106,
+            "sentence_id": 0,
+            "matched_text": "Sodium formate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cyclopropanol",
+      "predicate": "has concentration",
+      "object": "251 /~M",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| 58.6 mM | 12.9 mM\nCyclopropanol | 251",
+        "document_offsets": {
+          "start": 152,
+          "end": 191
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 2,
+            "matched_text": "Cyclopropanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Temperature",
+      "predicate": "has range",
+      "object": "25~",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "/~M | 67.0 nM *\nTemperature | 30~ | 25~",
+        "document_offsets": {
+          "start": 192,
+          "end": 231
+        },
+        "subject_positions": [
+          {
+            "start": 16,
+            "end": 27,
+            "sentence_id": 3,
+            "matched_text": "Temperature"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides",
+      "object": "Optimum",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conditions | Conventional | Optimum\nCells | 1.39 mg dry-cell/ml | 3.46 x 10-2mg dry-cell/ml\nSodium formate | 14.3 mM | 14.3",
+        "document_offsets": {
+          "start": 0,
+          "end": 123
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 28,
+            "end": 35,
+            "sentence_id": 0,
+            "matched_text": "Optimum"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 63.897342681884766,
+          "t": 619.7959289550781,
+          "r": 425.6432189941406,
+          "b": 531.7613067626953,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Conventional",
+    "1.39 mg dry-cell/ml",
+    "3.46 x 10-2mg dry-cell/ml",
+    "Copper concentration",
+    "Propylene oxidation",
+    "Phosphate buffer(pH 7.0)",
+    "251 /~M",
+    "g dry - cell 1",
+    "rain1",
+    "Specific growth rate",
+    "Optimum",
+    "Table page9_table1",
+    "Temperature",
+    "Conditions",
+    "30~",
+    "Cells",
+    "Sodium formate",
+    "25~",
+    "14.3 mM",
+    "67.0 nM",
+    "12.9 mM",
+    "ilmol GLYPH<12>9",
+    "58.6 mM",
+    "Naphthalene oxidation",
+    "I~M",
+    "Cyclopropanol"
+  ]
+}

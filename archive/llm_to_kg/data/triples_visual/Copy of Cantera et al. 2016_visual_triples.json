@@ -1,0 +1,65 @@
+[
+  {
+    "page": 4,
+    "caption": "Fig. 1. DGGE proﬁle of the cultures enriched at 300 rpm (A, B, C, D, E, F, G, H) and 650 rpm (I, J, K, L, M, N, O, P). L and H refer to low and high CH4 and Cu2þ concentrations,\nrespectively. The ShannoneWiener diversity indexes are indicated in the upper part of the gel. The sequenced bands are indicated by “<’’ and the corresponding number of each\nband.",
+    "triples": [
+      {
+        "subject": "gel lanes A to H",
+        "relation": "represent",
+        "object": "cultures enriched at 300 rpm"
+      },
+      {
+        "subject": "gel lanes I to P",
+        "relation": "represent",
+        "object": "cultures enriched at 650 rpm"
+      },
+      {
+        "subject": "L and H",
+        "relation": "indicate",
+        "object": "low and high CH4 and Cu2+ concentrations, respectively"
+      },
+      {
+        "subject": "Shannon-Wiener diversity indexes",
+        "relation": "indicated in",
+        "object": "upper part of the gel"
+      },
+      {
+        "subject": "sequenced bands",
+        "relation": "indicated by",
+        "object": "“<” symbol"
+      },
+      {
+        "subject": "band numbers",
+        "relation": "correspond to",
+        "object": "sequenced bands"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest\nrelatives (similarity >96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The\nscale bar indicates 10% sequence difference.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 2. Bacterial phylogenetic tree based on neighbor-joining analysis of the 16S rRNA sequences from the enriched populations at 650 rpm detected by PCR-DGGE and their closest\nrelatives (similarity >96%) in GenBank obtained by the Blast search tool. Accession numbers are indicated. Numbers on the nodes indicate bootstrap values (1000 replicates). The\nscale bar indicates 10% sequence difference.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"DGGE BAND 10-KP289232\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"DGGE BAND 11-KP289233\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"DGGE BAND 17-KP289239\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"DGGE BAND 18-KP289240\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"Methyloimonas scandinavica strain SR5-NR_041958\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"Methyloimonas rubra strain UCM B-3075-NR_115353\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"Methyloimonas methanica MC09 strain MC09-NR_074627\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"Methyloimonas rubra-AF150807\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"Methyloimonas rubra strain NCIMB 11913-NR_114588\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"DGGE BAND 5-KP289227\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"DGGE BAND 13-KP289235\",\n    \"relation\": \"belongs to\",\n    \"object\": \"High copper\"\n  },\n  {\n    \"subject\": \"DGGE BAND 12-KP2892"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 3. PCR proﬁle for the gene mmoX of the cultures enriched at 300 (a) and 650 rpm (c). Lanes: 1) HiperLadder II (50e2000 bp), 2) Methylosinus sporium, Methylocystis sp.\n(commercial strains mixed), 3) Inoculum (A mixture (50/50%/% on a volume basis) of fresh aerobic activated sludge and fresh cow manure), 4/5) High CH4-High Cu2þ, 6/7) High CH4-\nLow Cu2þ, 8/9) Low CH4-Low Cu2þ, 10/11) Low CH4-High Cu2þ, 12) C\u0003(negative control without DNA). PCR proﬁle for the gene pmoA of the cultures enriched at 300 (b) and 650 rpm\n(d). Lanes: 1) HiperLadder II (50e2000 bp), 2) Methylomonas and Methylobacter sp. mixed culture, 3) Inoculum, 4/5) High CH4-High Cu2þ, 6/7) High CH4-Low Cu2þ, 8/9) Low CH4-\nLow Cu2þ, 10/11) Low CH4-High Cu2þ, 12) C\u0003 (negative control without DNA).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 3. PCR proﬁle for the gene mmoX of the cultures enriched at 300 (a) and 650 rpm (c). Lanes: 1) HiperLadder II (50e2000 bp), 2) Methylosinus sporium, Methylocystis sp.\n(commercial strains mixed), 3) Inoculum (A mixture (50/50%/% on a volume basis) of fresh aerobic activated sludge and fresh cow manure), 4/5) High CH4-High Cu2þ, 6/7) High CH4-\nLow Cu2þ, 8/9) Low CH4-Low Cu2þ, 10/11) Low CH4-High Cu2þ, 12) C\u0003(negative control without DNA). PCR proﬁle for the gene pmoA of the cultures enriched at 300 (b) and 650 rpm\n(d). Lanes: 1) HiperLadder II (50e2000 bp), 2) Methylomonas and Methylobacter sp. mixed culture, 3) Inoculum, 4/5) High CH4-High Cu2þ, 6/7) High CH4-Low Cu2þ, 8/9) Low CH4-\nLow Cu2þ, 10/11) Low CH4-High Cu2þ, 12) C\u0003 (negative control without DNA).\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"lane 2\",\n    \"relation\": \"contains\",\n    \"object\": \"Methylosinus sporium, Methylocystis sp. (commercial strains mixed)\"\n  },\n  {\n    \"subject\": \"lane 3\",\n    \"relation\": \"contains\",\n    \"object\": \"Inoculum (A mixture (50/50%/% on a volume basis) of fresh aerobic activated sludge and fresh cow manure)\"\n  },\n  {\n    \"subject\": \"lane 4\",\n    \"relation\": \"contains\",\n    \"object\": \"High CH4-High Cu2+\"\n  },\n  {\n    \"subject\": \"lane 5\",\n    \"relation\": \"contains\",\n    \"object\": \"High CH4-High Cu2+\"\n  },\n  {\n    \"subject\": \"lane 6\",\n    \"relation\": \"contains\",\n    \"object\": \"High CH4-Low Cu2+\"\n  },\n  {\n    \"subject\": \"lane 7\",\n    \"relation\": \"contains\",\n    \"object\": \"High CH4-Low Cu2+\"\n  },\n  {\n    \"subject\": \"lane 8\",\n    \"relation\": \"contains\",\n    \"object\": \"Low CH4-Low Cu2+\"\n  },\n  {\n    \"subject\": \"lane 9\",\n    \"relation\": \"contains\",\n    \"object\": \"Low CH4-Low Cu2+\"\n  },\n  {\n    \"subject\": \"lane 10\",\n    \"relation\": \"contains\",\n    \"object\": \"Low CH4-High Cu2+\"\n  },\n  {\n    \"subject\": \"lane 11\",\n    \"relation\": \"contains\",\n    \"object\": \"Low CH4-High Cu2+\"\n  },\n  {\n    \"subject\": \"lane 12\",\n    \"relation\": \"contains\",\n    \"object\": \"C- (negative control without DNA)\"\n  },\n  {\n    \"subject\": \"lane 2\",\n    \"relation\": \"contains\",\n    \"object\": \"Methylomonas and Methylobacter sp. mixed culture\"\n  },\n  {\n    \"subject\": \"lane 3\",\n    \"relation\": \"contains\",\n    \"object\": \"Inoculum\"\n  },\n  {\n    \"subject\": \"lane 4\",\n    \"relation\": \"contains\",\n    \"object\": \"High CH4-High Cu2+\"\n  },\n"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from\nduplicate samples.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 4. Extracted DNA (A) and biomass (B) concentration from the cultures enriched under each particular condition tested. Error bars represent the standard deviations from\nduplicate samples.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"300 rpm, 8% CH4, 25μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"22 ng/μL\"\n  },\n  {\n    \"subject\": \"650 rpm, 8% CH4, 25μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"81 ng/μL\"\n  },\n  {\n    \"subject\": \"300 rpm, 8% CH4, 0.05μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"9 ng/μL\"\n  },\n  {\n    \"subject\": \"650 rpm, 8% CH4, 0.05μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"43 ng/μL\"\n  },\n  {\n    \"subject\": \"300 rpm, 1% CH4, 0.05μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"11 ng/μL\"\n  },\n  {\n    \"subject\": \"650 rpm, 1% CH4, 0.05μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"34 ng/μL\"\n  },\n  {\n    \"subject\": \"300 rpm, 1% CH4, 25μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"12 ng/μL\"\n  },\n  {\n    \"subject\": \"650 rpm, 1% CH4, 25μM Cu2+\",\n    \"relation\": \"DNA concentration\",\n    \"object\": \"27 ng/μL\"\n  },\n  {\n    \"subject\": \"300 rpm, 8% CH4, 25μM Cu2+\",\n    \"relation\": \"biomass concentration\",\n    \"object\": \"0.8 g/L\"\n  },\n  {\n    \"subject\": \"650 rpm, 8% CH4, 25μM Cu2+\",\n    \"relation\": \"biomass concentration\",\n    \"object\": \"1.2 g/L\"\n  },\n  {\n    \"subject\": \"300 rpm,"
+      }
+    ]
+  }
+]

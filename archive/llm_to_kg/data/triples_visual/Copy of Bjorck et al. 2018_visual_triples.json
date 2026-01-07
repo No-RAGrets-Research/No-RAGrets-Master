@@ -1,0 +1,87 @@
+[
+  {
+    "page": 5,
+    "caption": "Figure 1. Possible industrial transformations from methanol, including production \nprocesses and products [13].",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 1. Possible industrial transformations from methanol, including production \nprocesses and products [13].\n\nOutput JSON list only:\nassistant\n[\n  (\"Methanol\", \"can be transformed via\", \"Dehydrogenation oxidation\"),\n  (\"Methanol\", \"can be transformed via\", \"Dehydration\"),\n  (\"Methanol\", \"can be transformed via\", \"Homologation\"),\n  (\"Methanol\", \"can be transformed via\", \"Oligomerisation\"),\n  (\"Methanol\", \"can be transformed via\", \"Oligomerisation aromatisation\"),\n  (\"Methanol\", \"can be transformed via\", \"Direct use\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 2. Energies of indirect methanol formation from methane via syngas [24].",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2. Energies of indirect methanol formation from methane via syngas [24].\n\nOutput JSON list only:\nassistant\n[]"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 2. Energies of indirect methanol formation from methane via syngas [24].",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2. Energies of indirect methanol formation from methane via syngas [24].\n\nOutput JSON list only:\nassistant\n[]"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Figure 4. Pathways for the oxidation of methane and assimilation of formaldehyde in \nmethanotrophic bacteria [5,35].",
+    "triples": [
+      5,
+      35
+    ]
+  },
+  {
+    "page": 15,
+    "caption": "Figure 5. The MDH inhibited pathway of methane oxidation to methanol in \nmethanotrophic bacteria. Sections in red do not occur if 100% of produced methanol is \nextracted from the cell.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 5. The MDH inhibited pathway of methane oxidation to methanol in \nmethanotrophic bacteria. Sections in red do not occur if 100% of produced methanol is \nextracted from the cell.\n\nOutput JSON list only:\nassistant\n[\n  (\"MDH\", \"is inhibited by\", \"CytC_red\"),\n  (\"MDH\", \"produces\", \"HCHO\"),\n  (\"HCHO\", \"is converted to\", \"CH3OH\"),\n  (\"CH4\", \"is oxidized to\", \"CH3OH\"),\n  (\"CH3OH\", \"is assimilated via\", \"RuMP pathway\"),\n  (\"CH3OH\", \"is assimilated via\", \"Serine pathway\"),\n  (\"RuMP pathway\", \"is used by\", \"Type I methanotrophs\"),\n  (\"Serine pathway\", \"is used by\", \"Type II methanotrophs\"),\n  (\"CH3OH\", \"is extracted from cell\", \"if 100% extracted\"),\n  (\"MDH\", \"is part of\", \"methane oxidation pathway\"),\n  (\"CytC_red\", \"is involved in\", \"methane oxidation pathway\"),\n  (\"CytC_red\", \"is involved in\", \"methanol production\"),\n  (\"HCHO\", \"is produced from\", \"XH2\"),\n  (\"XH2\", \"is produced from\", \"FADH\"),\n  (\"FADH\", \"is produced from\", \"HCOOH\"),\n  (\"HCOOH\", \"is produced from\", \"FDH\"),\n  (\"FDH\", \"converts\", \"CO2 to HCOOH\"),\n  (\"CH3OH\", \"is not assimilated if\", \"MDH is inhibited\"),\n  (\"MDH inhibition\", \"prevents\", \"carbon assimilation\"),\n  (\"Carbon assimilation\", \"depends on\", \"methanol production\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "caption": "Figure 6 summarises the five main challenges faced in developing an industrially relevant \nbiocatalytic methane oxidation process, and the potential strategies to overcome these.",
+    "triples": [
+      {
+        "subject": "Gas-liquid mass transfer limitation",
+        "relation": "has potential strategy",
+        "object": "Reactor design"
+      },
+      {
+        "subject": "Gas-liquid mass transfer limitation",
+        "relation": "has potential strategy",
+        "object": "Addition of 'Methane vectors'"
+      },
+      {
+        "subject": "Over oxidation of methanol",
+        "relation": "has potential strategy",
+        "object": "MDH inhibitors"
+      },
+      {
+        "subject": "Biocatalyst methanol toxicity",
+        "relation": "has potential strategy",
+        "object": "ISPR"
+      },
+      {
+        "subject": "Exogenous energy source",
+        "relation": "has potential strategy",
+        "object": "Exploiting cellular regeneration pathways"
+      },
+      {
+        "subject": "Exogenous energy source",
+        "relation": "has potential strategy",
+        "object": "Microbial electrosynthesis"
+      },
+      {
+        "subject": "Toxicity of methane impurities",
+        "relation": "has potential strategy",
+        "object": "Using Methanotroph based microbial consortia"
+      }
+    ]
+  }
+]

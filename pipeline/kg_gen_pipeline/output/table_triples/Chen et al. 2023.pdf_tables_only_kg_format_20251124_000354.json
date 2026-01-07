@@ -1,0 +1,3790 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 32,
+    "relations": 90,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Chen et al. 2023.json",
+    "processed_at": "2025-11-24T00:03:54.495880"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "4.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 234,
+            "end": 237,
+            "sentence_id": 1,
+            "matched_text": "4.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "15.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 240,
+            "end": 244,
+            "sentence_id": 1,
+            "matched_text": "15.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "3.7",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 149,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "3.7"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "76",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 250,
+            "end": 252,
+            "sentence_id": 1,
+            "matched_text": "76"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "14",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 183,
+            "end": 185,
+            "sentence_id": 0,
+            "matched_text": "14"
+          },
+          {
+            "start": 197,
+            "end": 199,
+            "sentence_id": 1,
+            "matched_text": "14"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "4.4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 255,
+            "end": 258,
+            "sentence_id": 1,
+            "matched_text": "4.4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 144,
+            "end": 146,
+            "sentence_id": 0,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "2.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 170,
+            "end": 173,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 226,
+            "end": 228,
+            "sentence_id": 1,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "contains column",
+      "object": "Time (h)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "19",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 134,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "19"
+          },
+          {
+            "start": 155,
+            "end": 157,
+            "sentence_id": 0,
+            "matched_text": "19"
+          },
+          {
+            "start": 162,
+            "end": 164,
+            "sentence_id": 0,
+            "matched_text": "19"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "37",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 141,
+            "end": 143,
+            "sentence_id": 0,
+            "matched_text": "37"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 53,
+            "end": 54,
+            "sentence_id": 0,
+            "matched_text": "4"
+          },
+          {
+            "start": 103,
+            "end": 104,
+            "sentence_id": 0,
+            "matched_text": "4"
+          },
+          {
+            "start": 213,
+            "end": 214,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 222,
+            "end": 223,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 234,
+            "end": 235,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 257,
+            "end": 258,
+            "sentence_id": 1,
+            "matched_text": "4"
+          },
+          {
+            "start": 264,
+            "end": 265,
+            "sentence_id": 1,
+            "matched_text": "4"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "7.1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 128,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "7.1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "15",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 123,
+            "end": 125,
+            "sentence_id": 0,
+            "matched_text": "15"
+          },
+          {
+            "start": 240,
+            "end": 242,
+            "sentence_id": 1,
+            "matched_text": "15"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "16.4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 219,
+            "end": 223,
+            "sentence_id": 1,
+            "matched_text": "16.4"
+          },
+          {
+            "start": 261,
+            "end": 265,
+            "sentence_id": 1,
+            "matched_text": "16.4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "contains column",
+      "object": "CH 3 OHproduction rate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "4.1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 213,
+            "end": 216,
+            "sentence_id": 1,
+            "matched_text": "4.1"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "5.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 107,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "5.6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "8.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 204,
+            "end": 207,
+            "sentence_id": 1,
+            "matched_text": "8.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "64",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 229,
+            "end": 231,
+            "sentence_id": 1,
+            "matched_text": "64"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "27",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 0,
+            "matched_text": "27"
+          },
+          {
+            "start": 268,
+            "end": 270,
+            "sentence_id": 1,
+            "matched_text": "27"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "19.9",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 155,
+            "end": 159,
+            "sentence_id": 0,
+            "matched_text": "19.9"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "contains column",
+      "object": "Conversion",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 3 OHproduction rate",
+      "predicate": "has value",
+      "object": "1.2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 3 OHproduction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 191,
+            "end": 194,
+            "sentence_id": 0,
+            "matched_text": "1.2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "27",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 0,
+            "matched_text": "27"
+          },
+          {
+            "start": 268,
+            "end": 270,
+            "sentence_id": 1,
+            "matched_text": "27"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "40",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 186,
+            "end": 188,
+            "sentence_id": 0,
+            "matched_text": "40"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "29",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 247,
+            "end": 249,
+            "sentence_id": 1,
+            "matched_text": "29"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "14.3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 197,
+            "end": 201,
+            "sentence_id": 1,
+            "matched_text": "14.3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "18.1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 176,
+            "end": 180,
+            "sentence_id": 0,
+            "matched_text": "18.1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "has value",
+      "object": "26",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "Conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 120,
+            "end": 122,
+            "sentence_id": 0,
+            "matched_text": "26"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "contains column",
+      "object": "CH 4 consumption rate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "21.7",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "21.7"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Time (h)",
+      "predicate": "has value",
+      "object": "52",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2 | 14.3 | 8.5\n52 | 4.1 | 16.4 | 25\n64 | 4.5 | 15.5 | 29\n76 | 4.4 | 16.4 | 27",
+        "document_offsets": {
+          "start": 0,
+          "end": 270
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 208,
+            "end": 210,
+            "sentence_id": 1,
+            "matched_text": "52"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 consumption rate",
+      "predicate": "has value",
+      "object": "19.2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time (h) | CH 3 OHproduction rate (\u03bcmol h - 1 ) | CH 4 consumption rate (\u03bcmol h - 1 ) | Conversion (%)\n4 | 5.6 | 21.7 | 26\n15 | 7.1 | 19.2 | 37\n20 | 3.7 | 19.9 | 19\n27 | 2.5 | 18.1 | 14\n40 | 1.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "CH 4 consumption rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 134,
+            "end": 138,
+            "sentence_id": 0,
+            "matched_text": "19.2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 55.35704803466797,
+          "t": 194.81390380859375,
+          "r": 290.7725524902344,
+          "b": 65.97344970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "produces",
+      "object": "CH 3 OH productivity: 0.74 mmol L - 1 h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates with",
+      "object": "gas: continuous supply at 112 mL min - 1 (CH4 :O2 = 1: 1 v / v ) Aqueous: batch Reaction vol- ume: 300 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "operates with",
+      "object": "gas: continuous supply at 5 mL min - 1 (CH4 :O2 :N2 : CO2 = 1:1:1:2 v / v ) Aqueous: con- tinuous supply at 7 mL h - 1 Reaction vol- ume: 40 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Continuous stirred mem- brane reactor | Gas: continu-",
+        "document_offsets": {
+          "start": 1623,
+          "end": 1721
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pen et al. (2016)",
+      "predicate": "uses",
+      "object": "Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "produces",
+      "object": "CH 3 OH productivity: 2.90 \u00d7 10 -3 mmol L - 1 h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Continuous stirred mem- brane reactor | Gas: continu-",
+        "document_offsets": {
+          "start": 1623,
+          "end": 1721
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcuscapsulatus Bath",
+      "predicate": "overall conversion for",
+      "object": "Overall: 24",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "60 c Overall: 24 d\nDuan et al. (2011)",
+        "document_offsets": {
+          "start": 736,
+          "end": 773
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 5,
+            "end": 16,
+            "sentence_id": 6,
+            "matched_text": "Overall: 24"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "produces",
+      "object": "CH 3 OH productivity: 0.88 mmol L - 1 h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "uses",
+      "object": "external reducing agent: 20mM sodium formate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pen et al. (2014)",
+      "predicate": "uses",
+      "object": "Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Pen et al. (2014) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "uses (second instance)",
+      "object": "Inverse membrane bioreactor",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 72,
+            "sentence_id": 3,
+            "matched_text": "Inverse membrane bioreactor"
+          },
+          {
+            "start": 345,
+            "end": 372,
+            "sentence_id": 4,
+            "matched_text": "Inverse membrane bioreactor"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "uses (second instance)",
+      "object": "external reducing agent: 10mM sodium formate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "operates with (second instance)",
+      "object": "gas: continuous supply at 3 mL min - 1 (CH4 :air = 1: 4 v / v ) Aqueous: batch",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "has (second instance)",
+      "object": "Reaction volume: 5 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "produces (second instance)",
+      "object": "CH 3 OH productivity: 0.62 mmol L - 1 h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "has",
+      "object": "Reaction volume: 5 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Xin et al. (2004)",
+      "predicate": "uses",
+      "object": "Methylosinus trichosporium IMV 3011",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 15,
+        "text_evidence": "| N/D\nXin et al. (2004) [35] | Methylosinus trichosporium IMV 3011 | Continuous stirred mem- brane reactor | Gas: continu-",
+        "document_offsets": {
+          "start": 1599,
+          "end": 1721
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 66,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates with",
+      "object": "gas: continuous supply at 94 mL min - 1 (CH4 :O2 = 1: 1 v / v ) Aqueous: semi- batch Reaction vol- ume: 150 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "operates with",
+      "object": "gas: continuous supply at 0.2 mL min - 1 (CH4 :air = 1: 4 v / v ) Aqueous: continuous supply at 4 mL h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "achieves maximum conversion of",
+      "object": "Max: 37",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 271,
+            "end": 278,
+            "sentence_id": 4,
+            "matched_text": "Max: 37"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "reaches steady state conversion of",
+      "object": "Steady state: 27",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 281,
+            "end": 297,
+            "sentence_id": 4,
+            "matched_text": "Steady state: 27"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pen et al. (2014)",
+      "predicate": "does not provide data for",
+      "object": "N/D",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 17,
+        "text_evidence": "Pen et al. (2014) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) | N/D\nXin et al. (2004) tinuous supply at 7 mL h - 1 Reaction vol- ume: 40 mL | 198 | Carbon dioxide | Partial CH 3 OH oxidation for NADH regen- eration | 2.90 \u00d7 10 -3 | N/D",
+        "document_offsets": {
+          "start": 1030,
+          "end": 1953
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 274,
+            "end": 277,
+            "sentence_id": 10,
+            "matched_text": "N/D"
+          },
+          {
+            "start": 571,
+            "end": 574,
+            "sentence_id": 14,
+            "matched_text": "N/D"
+          },
+          {
+            "start": 920,
+            "end": 923,
+            "sentence_id": 17,
+            "matched_text": "N/D"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "This study",
+      "predicate": "involves",
+      "object": "Methylococcus capsulatus Bath",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 3,
+            "matched_text": "This study"
+          },
+          {
+            "start": 300,
+            "end": 310,
+            "sentence_id": 4,
+            "matched_text": "This study"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "operates with",
+      "object": "gas: continuous supply at 94 mL min - 1 (CH4 :O2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "produces",
+      "object": "CH 3 OH productivity: 0.38 mmol L - 1 h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "uses",
+      "object": "Inverse membrane bioreactor",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 72,
+            "sentence_id": 3,
+            "matched_text": "Inverse membrane bioreactor"
+          },
+          {
+            "start": 345,
+            "end": 372,
+            "sentence_id": 4,
+            "matched_text": "Inverse membrane bioreactor"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "uses",
+      "object": "external reducing agent: 10mM sodium formate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "uses",
+      "object": "Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 11,
+        "text_evidence": "60 c Overall: 24 d\nDuan et al. (2011) [34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 736,
+          "end": 1466
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 76,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 319,
+            "end": 350,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 597,
+            "end": 628,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "employs",
+      "object": "MDH inhibition method: 10 \u03bcM Cyclo- propanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "employs",
+      "object": "partial CH 3 OH oxidation for NADH regeneration",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "[35] | Methylosinus trichosporium IMV 3011 | Continuous stirred mem- brane reactor | Gas: continu-",
+        "document_offsets": {
+          "start": 1623,
+          "end": 1721
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 42,
+            "sentence_id": 15,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Xin et al. (2004)",
+      "predicate": "does not provide data for",
+      "object": "N/D",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 17,
+        "text_evidence": "[33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) | N/D\nXin et al. (2004) tinuous supply at 7 mL h - 1 Reaction vol- ume: 40 mL | 198 | Carbon dioxide | Partial CH 3 OH oxidation for NADH regen- eration | 2.90 \u00d7 10 -3 | N/D",
+        "document_offsets": {
+          "start": 1048,
+          "end": 1953
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 256,
+            "end": 259,
+            "sentence_id": 10,
+            "matched_text": "N/D"
+          },
+          {
+            "start": 553,
+            "end": 556,
+            "sentence_id": 14,
+            "matched_text": "N/D"
+          },
+          {
+            "start": 902,
+            "end": 905,
+            "sentence_id": 17,
+            "matched_text": "N/D"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "employs",
+      "object": "MDH inhibition method: 12.9 mM phosphate, 100 mM NaCl, and 1.0 mMEDTA",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "achieves maximum conversion of (second instance)",
+      "object": "Max: 60",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "produces",
+      "object": "CH 3 OH productivity: 8.15 \u00d7 10 -2 mmol L - 1 h - 1",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pen et al. (2016)",
+      "predicate": "does not provide data for",
+      "object": "N/D",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 17,
+        "text_evidence": "[33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) | N/D\nXin et al. (2004) tinuous supply at 7 mL h - 1 Reaction vol- ume: 40 mL | 198 | Carbon dioxide | Partial CH 3 OH oxidation for NADH regen- eration | 2.90 \u00d7 10 -3 | N/D",
+        "document_offsets": {
+          "start": 1048,
+          "end": 1953
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 256,
+            "end": 259,
+            "sentence_id": 10,
+            "matched_text": "N/D"
+          },
+          {
+            "start": 553,
+            "end": 556,
+            "sentence_id": 14,
+            "matched_text": "N/D"
+          },
+          {
+            "start": 902,
+            "end": 905,
+            "sentence_id": 17,
+            "matched_text": "N/D"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "employs",
+      "object": "MDH inhibition method: 40 mM phosphate and 10 mM MgCl2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococcus capsulatus Bath",
+      "predicate": "employs (second instance)",
+      "object": "MDH inhibition method: 10 \u03bcM Cyclo- propanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "This study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 0.2 mL min - 1 (CH 4 :air = 1: 4 v / v ) Aqueous: con- tinuous supply at 4 mL h - 1 Reaction vol- ume: 5 mL | 76 | 10 \u03bcM Cyclo- propanol | 10mM sodium formate | 0.88 | Max: 37 a Steady state: 27 b\nThis study | Methylococcus capsulatus Bath | Inverse membrane bioreactor | Gas: continu- ous supply at 3 mL min - 1 (CH 4 :air = 1: 4 v / v )",
+        "document_offsets": {
+          "start": 191,
+          "end": 632
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "Methylococcus capsulatus Bath"
+          },
+          {
+            "start": 313,
+            "end": 342,
+            "sentence_id": 4,
+            "matched_text": "Methylococcus capsulatus Bath"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "achieves conversion of",
+      "object": "64",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 11,
+        "text_evidence": "[34] | Methylosinus trichosporium OB3b | Bubble free membrane bioreactor | Gas: continu- ous supply at 112 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: batch Reaction vol- ume: 300 mL | 40 | 400 mMphos- phate 10 mMMgCl 2 | 20mM sodium formate | 0.74 | 64 [33] | Methylosinus trichosporium OB3b | Batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v ) Aqueous: Batch Reaction vol- ume: 50 mL | 24 | 12.9 mMphos- phate 100 mMNaCl 1.0 mMEDTA | 20mM sodium formate | 0.38 | N/D\nPen et al. (2016) [36] | Methylosinus trichosporium OB3b | Fed-batch membrane bioreactor | Gas: continu- ous supply at 94 mL min - 1 (CH 4 :O 2 = 1: 1 v / v )",
+        "document_offsets": {
+          "start": 774,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 38,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 281,
+            "end": 312,
+            "sentence_id": 10,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 559,
+            "end": 590,
+            "sentence_id": 11,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 253,
+            "end": 255,
+            "sentence_id": 8,
+            "matched_text": "64"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page11_table1",
+        "page_number": 11,
+        "bbox_coordinates": {
+          "l": 55.4225959777832,
+          "t": 690.3031616210938,
+          "r": 538.1953735351562,
+          "b": 145.4766845703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "O.D.",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Nitrate mineral salt\nN 2 | Nitrogen\nO 2 | Oxygen\nO.D. | Outer diameter\nPC | Polycarbonate\nPTFE | Polytetrafluoroethylene\nPVDF | Polyvinylidene difluoride",
+        "document_offsets": {
+          "start": 257,
+          "end": 410
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gas-to-liquid",
+      "predicate": "includes",
+      "object": "Methane",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "GTL | Methane Methanol Carbon dioxide\nGas-to-liquid\nI.D. | Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 18,
+          "end": 256
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 51,
+            "sentence_id": 1,
+            "matched_text": "Gas-to-liquid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 6,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 141,
+            "end": 148,
+            "sentence_id": 2,
+            "matched_text": "Methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gas-to-liquid",
+      "predicate": "includes",
+      "object": "Methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "GTL | Methane Methanol Carbon dioxide\nGas-to-liquid\nI.D. | Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 18,
+          "end": 256
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 51,
+            "sentence_id": 1,
+            "matched_text": "Gas-to-liquid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 169,
+            "end": 177,
+            "sentence_id": 2,
+            "matched_text": "Methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has row",
+      "object": "M. capsulatus",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 75,
+          "end": 256
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 135,
+            "end": 148,
+            "sentence_id": 2,
+            "matched_text": "M. capsulatus"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "I.D.",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "GTL | Methane Methanol Carbon dioxide\nGas-to-liquid\nI.D.",
+        "document_offsets": {
+          "start": 18,
+          "end": 74
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "MBR",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 75,
+          "end": 256
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 52,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "MBR"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has material",
+      "object": "PTFE",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Nitrate mineral salt\nN 2 | Nitrogen\nO 2 | Oxygen\nO.D. | Outer diameter\nPC | Polycarbonate\nPTFE | Polytetrafluoroethylene\nPVDF | Polyvinylidene difluoride",
+        "document_offsets": {
+          "start": 257,
+          "end": 410
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 90,
+            "end": 94,
+            "sentence_id": 3,
+            "matched_text": "PTFE"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "MDH",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 75,
+          "end": 256
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 106,
+            "end": 109,
+            "sentence_id": 2,
+            "matched_text": "MDH"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has material",
+      "object": "PC",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Nitrate mineral salt\nN 2 | Nitrogen\nO 2 | Oxygen\nO.D. | Outer diameter\nPC | Polycarbonate\nPTFE | Polytetrafluoroethylene\nPVDF | Polyvinylidene difluoride",
+        "document_offsets": {
+          "start": 257,
+          "end": 410
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 71,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "PC"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "O 2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "CH 4 CH 3 OH CO 2 Nitrate mineral salt\nN 2 | Nitrogen\nO 2 | Oxygen\nO.D. | Outer diameter\nPC | Polycarbonate\nPTFE | Polytetrafluoroethylene\nPVDF | Polyvinylidene difluoride",
+        "document_offsets": {
+          "start": 0,
+          "end": 410
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 293,
+            "end": 296,
+            "sentence_id": 3,
+            "matched_text": "O 2"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has material",
+      "object": "PVDF",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Nitrate mineral salt\nN 2 | Nitrogen\nO 2 | Oxygen\nO.D. | Outer diameter\nPC | Polycarbonate\nPTFE | Polytetrafluoroethylene\nPVDF | Polyvinylidene difluoride",
+        "document_offsets": {
+          "start": 257,
+          "end": 410
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 125,
+            "sentence_id": 3,
+            "matched_text": "PVDF"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "contains",
+      "object": "CH 4 CH 3 OH CO 2 GTL",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "N 2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Nitrate mineral salt\nN 2 | Nitrogen\nO 2 | Oxygen\nO.D. | Outer diameter\nPC | Polycarbonate\nPTFE | Polytetrafluoroethylene\nPVDF | Polyvinylidene difluoride",
+        "document_offsets": {
+          "start": 257,
+          "end": 410
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 24,
+            "sentence_id": 3,
+            "matched_text": "N 2"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gas-to-liquid",
+      "predicate": "includes",
+      "object": "Carbon dioxide",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "GTL | Methane Methanol Carbon dioxide\nGas-to-liquid\nI.D.",
+        "document_offsets": {
+          "start": 18,
+          "end": 74
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 51,
+            "sentence_id": 1,
+            "matched_text": "Gas-to-liquid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 23,
+            "end": 37,
+            "sentence_id": 1,
+            "matched_text": "Carbon dioxide"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "MMO",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 75,
+          "end": 256
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 78,
+            "end": 81,
+            "sentence_id": 2,
+            "matched_text": "MMO"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "NMS",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 75,
+          "end": 256
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 176,
+            "end": 179,
+            "sentence_id": 2,
+            "matched_text": "NMS"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table2",
+      "predicate": "has column",
+      "object": "IMBR",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| Inner diameter\nIMBR | Inverse membrane bioreactor\nMBR | Membrane bioreactor\nMMO | Methane monooxygenase\nMDH | Methanol dehydrogenase\nM. capsulatus | Methylococcus capsulatus\nNMS |",
+        "document_offsets": {
+          "start": 75,
+          "end": 256
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 21,
+            "sentence_id": 2,
+            "matched_text": "IMBR"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 CH 3 OH CO 2 GTL",
+      "predicate": "is",
+      "object": "Gas-to-liquid",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "GTL | Methane Methanol Carbon dioxide\nGas-to-liquid\nI.D.",
+        "document_offsets": {
+          "start": 18,
+          "end": 74
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 38,
+            "end": 51,
+            "sentence_id": 1,
+            "matched_text": "Gas-to-liquid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table2",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 303.3699645996094,
+          "t": 617.4247894287109,
+          "r": 466.11328125,
+          "b": 462.93560791015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Carbon dioxide",
+    "Continuous stirred mem-brane reactor",
+    "PVDF",
+    "N 2",
+    "Bubble free membrane bioreactor",
+    "PTFE",
+    "IMBR",
+    "Methylosinus trichosporium OB3b",
+    "NMS",
+    "MBR",
+    "Fed-batch membrane bioreactor",
+    "CH 4 consumption rate",
+    "CH 3 OHproduction rate",
+    "Table page10_table0",
+    "Batch membrane bioreactor",
+    "CH 4 CH 3 OH CO 2 GTL",
+    "MMO",
+    "I.D.",
+    "Gas-to-liquid",
+    "Inverse membrane bioreactor",
+    "Methylosinus trichosporium IMV 3011",
+    "Methane",
+    "PC",
+    "M. capsulatus",
+    "MDH",
+    "O.D.",
+    "O 2",
+    "Methanol",
+    "Methylococcus capsulatus Bath",
+    "Table page13_table2",
+    "Time (h)",
+    "Conversion"
+  ]
+}

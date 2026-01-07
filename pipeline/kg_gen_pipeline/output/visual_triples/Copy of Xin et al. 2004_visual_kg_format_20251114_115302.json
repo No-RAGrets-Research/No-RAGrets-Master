@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 3,
+    "entities": 0,
+    "relations": 0,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 0,
+    "sections": {
+      "Figure 3 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Xin et al. 2004_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 0.0,
+    "processed_at": "2025-11-14T12:02:19.555625"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 3 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 71.32330423498706,
+                "t": 561.5042949433625,
+                "r": 540.6766977896746,
+                "b": 538.4907290361983,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": false,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 70.17293565774389,
+                "t": 489.100671737985,
+                "r": 487.7594021290981,
+                "b": 476.3541008489905,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": false,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 70.17294081733239,
+                "t": 539.7460141698563,
+                "r": 540.6766843069157,
+                "b": 514.0205184433707,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": false,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

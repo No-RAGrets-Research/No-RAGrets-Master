@@ -1,0 +1,1274 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 4,
+    "relations": 25,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Sy et al 2023.json",
+    "processed_at": "2025-11-24T00:58:45.149935"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "4",
+      "predicate": "has",
+      "object": "1.70",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 150,
+            "end": 151,
+            "sentence_id": 0,
+            "matched_text": "4"
+          },
+          {
+            "start": 253,
+            "end": 254,
+            "sentence_id": 1,
+            "matched_text": "4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 158,
+            "sentence_id": 0,
+            "matched_text": "1.70"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3",
+      "predicate": "has_HorRat value",
+      "object": "0.39",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 127,
+            "end": 128,
+            "sentence_id": 0,
+            "matched_text": "3"
+          },
+          {
+            "start": 230,
+            "end": 231,
+            "sentence_id": 1,
+            "matched_text": "3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 145,
+            "end": 149,
+            "sentence_id": 0,
+            "matched_text": "0.39"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "has_RSD",
+      "object": "6.68",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 81,
+            "end": 82,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 99,
+            "end": 100,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 115,
+            "end": 116,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 138,
+            "end": 139,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 154,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 184,
+            "end": 185,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 207,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 92,
+            "end": 96,
+            "sentence_id": 0,
+            "matched_text": "6.68"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "6",
+      "predicate": "has_HorRat value",
+      "object": "0.28",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 92,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "6"
+          },
+          {
+            "start": 196,
+            "end": 197,
+            "sentence_id": 0,
+            "matched_text": "6"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 214,
+            "end": 218,
+            "sentence_id": 1,
+            "matched_text": "0.28"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "4",
+      "predicate": "has_HorRat value",
+      "object": "0.58",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 150,
+            "end": 151,
+            "sentence_id": 0,
+            "matched_text": "4"
+          },
+          {
+            "start": 253,
+            "end": 254,
+            "sentence_id": 1,
+            "matched_text": "4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 168,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "0.58"
+          },
+          {
+            "start": 200,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "0.58"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "has_HorRat value",
+      "object": "0.41",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "2"
+          },
+          {
+            "start": 161,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 122,
+            "end": 126,
+            "sentence_id": 0,
+            "matched_text": "0.41"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "8",
+      "predicate": "has_HorRat value",
+      "object": "0.86",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 242,
+            "end": 243,
+            "sentence_id": 1,
+            "matched_text": "8"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 260,
+            "end": 264,
+            "sentence_id": 1,
+            "matched_text": "0.86"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "5",
+      "predicate": "has",
+      "object": "0.49",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 173,
+            "end": 174,
+            "sentence_id": 0,
+            "matched_text": "5"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 177,
+            "end": 181,
+            "sentence_id": 0,
+            "matched_text": "0.49"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "has",
+      "object": "0.48",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "2"
+          },
+          {
+            "start": 161,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 112,
+            "sentence_id": 0,
+            "matched_text": "0.48"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "6",
+      "predicate": "has_RSD",
+      "object": "1.23",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 92,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "6"
+          },
+          {
+            "start": 196,
+            "end": 197,
+            "sentence_id": 0,
+            "matched_text": "6"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 207,
+            "end": 211,
+            "sentence_id": 1,
+            "matched_text": "1.23"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "5",
+      "predicate": "has_HorRat value",
+      "object": "0.23",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 173,
+            "end": 174,
+            "sentence_id": 0,
+            "matched_text": "5"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 191,
+            "end": 195,
+            "sentence_id": 0,
+            "matched_text": "0.23"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "has",
+      "object": "0.54",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 81,
+            "end": 82,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 99,
+            "end": 100,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 115,
+            "end": 116,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 138,
+            "end": 139,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 154,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 184,
+            "end": 185,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 207,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 85,
+            "end": 89,
+            "sentence_id": 0,
+            "matched_text": "0.54"
+          },
+          {
+            "start": 131,
+            "end": 135,
+            "sentence_id": 0,
+            "matched_text": "0.54"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "6",
+      "predicate": "has",
+      "object": "0.58",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 92,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "6"
+          },
+          {
+            "start": 196,
+            "end": 197,
+            "sentence_id": 0,
+            "matched_text": "6"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 168,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "0.58"
+          },
+          {
+            "start": 200,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "0.58"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "8",
+      "predicate": "has",
+      "object": "0.14",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 242,
+            "end": 243,
+            "sentence_id": 1,
+            "matched_text": "8"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 246,
+            "end": 250,
+            "sentence_id": 1,
+            "matched_text": "0.14"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "5",
+      "predicate": "has_RSD",
+      "object": "1.03",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 173,
+            "end": 174,
+            "sentence_id": 0,
+            "matched_text": "5"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 184,
+            "end": 188,
+            "sentence_id": 0,
+            "matched_text": "1.03"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "has_HorRat value",
+      "object": "1.52",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 81,
+            "end": 82,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 99,
+            "end": 100,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 115,
+            "end": 116,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 138,
+            "end": 139,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 154,
+            "end": 155,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 184,
+            "end": 185,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 207,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 99,
+            "end": 103,
+            "sentence_id": 0,
+            "matched_text": "1.52"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "8",
+      "predicate": "has_RSD",
+      "object": "4.62",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 242,
+            "end": 243,
+            "sentence_id": 1,
+            "matched_text": "8"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 253,
+            "end": 257,
+            "sentence_id": 1,
+            "matched_text": "4.62"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "7",
+      "predicate": "has_RSD",
+      "object": "3.76",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 219,
+            "end": 220,
+            "sentence_id": 1,
+            "matched_text": "7"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 230,
+            "end": 234,
+            "sentence_id": 1,
+            "matched_text": "3.76"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "4",
+      "predicate": "has_RSD",
+      "object": "2.14",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 150,
+            "end": 151,
+            "sentence_id": 0,
+            "matched_text": "4"
+          },
+          {
+            "start": 253,
+            "end": 254,
+            "sentence_id": 1,
+            "matched_text": "4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 161,
+            "end": 165,
+            "sentence_id": 0,
+            "matched_text": "2.14"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "7",
+      "predicate": "has_HorRat value",
+      "object": "0.75",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 219,
+            "end": 220,
+            "sentence_id": 1,
+            "matched_text": "7"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 237,
+            "end": 241,
+            "sentence_id": 1,
+            "matched_text": "0.75"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Water kefir sample",
+      "predicate": "has",
+      "object": "Mean ethanol concentration",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58",
+        "document_offsets": {
+          "start": 0,
+          "end": 204
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 0,
+            "matched_text": "Water kefir sample"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "Mean ethanol concentration"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3",
+      "predicate": "has_RSD",
+      "object": "1.72",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 127,
+            "end": 128,
+            "sentence_id": 0,
+            "matched_text": "3"
+          },
+          {
+            "start": 230,
+            "end": 231,
+            "sentence_id": 1,
+            "matched_text": "3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 138,
+            "end": 142,
+            "sentence_id": 0,
+            "matched_text": "1.72"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "has_RSD",
+      "object": "1.84",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "2"
+          },
+          {
+            "start": 161,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 115,
+            "end": 119,
+            "sentence_id": 0,
+            "matched_text": "1.84"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "7",
+      "predicate": "has",
+      "object": "0.22",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 219,
+            "end": 220,
+            "sentence_id": 1,
+            "matched_text": "7"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 223,
+            "end": 227,
+            "sentence_id": 1,
+            "matched_text": "0.22"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3",
+      "predicate": "has",
+      "object": "0.54",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Water kefir sample | Mean ethanol concentration (ABV, %) | RSD, % | HorRat value\n1 | 0.54 | 6.68 | 1.52\n2 | 0.48 | 1.84 | 0.41\n3 | 0.54 | 1.72 | 0.39\n4 | 1.70 | 2.14 | 0.58\n5 | 0.49 | 1.03 | 0.23\n6 | 0.58 | 1.23 | 0.28\n7 | 0.22 | 3.76 | 0.75\n8 | 0.14 | 4.62 | 0.86",
+        "document_offsets": {
+          "start": 0,
+          "end": 264
+        },
+        "subject_positions": [
+          {
+            "start": 127,
+            "end": 128,
+            "sentence_id": 0,
+            "matched_text": "3"
+          },
+          {
+            "start": 230,
+            "end": 231,
+            "sentence_id": 1,
+            "matched_text": "3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 85,
+            "end": 89,
+            "sentence_id": 0,
+            "matched_text": "0.54"
+          },
+          {
+            "start": 131,
+            "end": 135,
+            "sentence_id": 0,
+            "matched_text": "0.54"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table0",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 53.63405227661133,
+          "t": 461.0382080078125,
+          "r": 288.82177734375,
+          "b": 333.6097412109375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Water kefir sample",
+    "HorRat value",
+    "ethanol concentration",
+    "RSD"
+  ]
+}

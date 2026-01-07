@@ -1,0 +1,232 @@
+[
+  {
+    "page": 4,
+    "caption": "Fig. 1  a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the \nreactor",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 1  a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the \nreactor",
+    "triples": [
+      {
+        "subject": "bioreactor",
+        "relation": "is designed and fabricated as",
+        "object": "this study"
+      },
+      {
+        "subject": "bioreactor",
+        "relation": "has component",
+        "object": "transparent circular chamber"
+      },
+      {
+        "subject": "bioreactor",
+        "relation": "has component",
+        "object": "six hexagonal nuts"
+      },
+      {
+        "subject": "bioreactor",
+        "relation": "has component",
+        "object": "six threaded connectors"
+      },
+      {
+        "subject": "bioreactor",
+        "relation": "has component",
+        "object": "central white square element"
+      },
+      {
+        "subject": "bioreactor",
+        "relation": "has component",
+        "object": "two transparent tubes"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 1  a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the \nreactor",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 1  a Photo of the bioreactor designed and fabricated in this study. b Schematics of the reactor design. c Components for assembling the \nreactor\n\nOutput JSON list only:\nassistant\n[\n  (\"bioreactor\", \"has_component\", \"flange\"),\n  (\"bioreactor\", \"has_component\", \"filter\"),\n  (\"bioreactor\", \"has_component\", \"cylindrical_structure\"),\n  (\"bioreactor\", \"has_component\", \"circular_plate\"),\n  (\"bioreactor\", \"has_component\", \"threaded_component\"),\n  (\"bioreactor\", \"has_component\", \"perforated_plate\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 2  a Schematic of the operation of a conventional membrane \nbioreactor (MBR) assembled with a hydrophobic PVDF filter. b \nTime courses of ­CH4 concentration in the exhausted gas and the \naccumulated concentration of ­CH3OH in the solution container in \nthe conventional MBR. The gas phase and the aqueous phase in the \nbioreactor were conducted under continuous operation and batch \noperation, respectively",
+    "triples": [
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "composed of",
+        "object": "hydrophobic PVDF filter"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "operates under",
+        "object": "continuous operation"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "operates under",
+        "object": "batch operation"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "produces",
+        "object": "CH4 concentration in exhausted gas"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "accumulates",
+        "object": "CH3OH concentration in solution container"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 2  a Schematic of the operation of a conventional membrane \nbioreactor (MBR) assembled with a hydrophobic PVDF filter. b \nTime courses of ­CH4 concentration in the exhausted gas and the \naccumulated concentration of ­CH3OH in the solution container in \nthe conventional MBR. The gas phase and the aqueous phase in the \nbioreactor were conducted under continuous operation and batch \noperation, respectively",
+    "triples": [
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "assembled with",
+        "object": "hydrophobic PVDF filter"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "operates under",
+        "object": "continuous operation"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "operates under",
+        "object": "batch operation"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "produces",
+        "object": "CH4 concentration in exhausted gas"
+      },
+      {
+        "subject": "conventional membrane bioreactor",
+        "relation": "accumulates",
+        "object": "CH3OH concentration in solution container"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 4  a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration \nof exhausted ­CH4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+    "triples": [
+      {
+        "subject": "bioreactor",
+        "relation": "has gas chamber volume",
+        "object": "25 mL"
+      },
+      {
+        "subject": "IMBR",
+        "relation": "has gas chamber volume",
+        "object": "25 mL"
+      },
+      {
+        "subject": "IMBR",
+        "relation": "has gas chamber volume",
+        "object": "2.5 mL"
+      },
+      {
+        "subject": "IMBR",
+        "relation": "measures concentration of",
+        "object": "exhausted CH4"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 4  a Photo of the bioreactor with a 25 mL gas chamber. b Schematics of the IMBR with a 25 mL chamber. c Time courses of the concentration \nof exhausted ­CH4 in the IMBR with two sizes of the gas chamber, 2.5 mL and 25 mL",
+    "triples": [
+      {
+        "subject": "IMBR",
+        "relation": "has gas chamber size",
+        "object": "25 mL"
+      },
+      {
+        "subject": "IMBR",
+        "relation": "has gas chamber size",
+        "object": "2.5 mL"
+      },
+      {
+        "subject": "IMBR",
+        "relation": "measures concentration of",
+        "object": "exhausted CH4"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Fig. 7  a Schematic of the continuous operation for the bioconversion of ­CH4 to ­CH3OH in the IMBR. b Effects of the gas flow rate on the \nconsumption rate and consumption ratio of ­CH4. c Time courses of concentrations of ­CH4 and ­CH3OH at the outlet of the IMBR at 0.2 mL ­min−1 of \nthe gas flow rate and 4 mL ­h−1 of the liquid flow rate. d Time courses of the consumption ratio of ­CH4 and ­CH3OH productivity in the IMBR",
+    "triples": [
+      {
+        "subject": "IMBR",
+        "relation": "used for",
+        "object": "bioconversion of CH4 to CH3OH"
+      },
+      {
+        "subject": "Syringe pump",
+        "relation": "delivers",
+        "object": "Fresh Medium"
+      },
+      {
+        "subject": "Peristaltic pump",
+        "relation": "circulates",
+        "object": "Fresh Medium"
+      },
+      {
+        "subject": "Inlet gas flow rate",
+        "relation": "affects",
+        "object": "CH4 consumption rate"
+      },
+      {
+        "subject": "Inlet gas flow rate",
+        "relation": "affects",
+        "object": "CH4 consumption ratio"
+      },
+      {
+        "subject": "Gas flow rate of 0.2 mL min⁻¹",
+        "relation": "results in",
+        "object": "CH4 concentration at outlet of 16% (v/v) at 24 h"
+      },
+      {
+        "subject": "Gas flow rate of 0.2 mL min⁻¹",
+        "relation": "results in",
+        "object": "CH3OH concentration at outlet of 2.5 mM at 24 h"
+      },
+      {
+        "subject": "CH4 consumption ratio",
+        "relation": "decreases with",
+        "object": "increasing inlet gas flow rate"
+      },
+      {
+        "subject": "CH3OH productivity",
+        "relation": "peaks at",
+        "object": "12 h"
+      },
+      {
+        "subject": "CH3OH productivity",
+        "relation": "decreases after",
+        "object": "12 h"
+      },
+      {
+        "subject": "CH4 consumption ratio",
+        "relation": "peaks at",
+        "object": "12 h"
+      },
+      {
+        "subject": "CH4 consumption ratio",
+        "relation": "decreases after",
+        "object": "12 h"
+      },
+      {
+        "subject": "Liquid flow rate of 4 mL h⁻¹",
+        "relation": "is used with",
+        "object": "gas flow rate of 0.2 mL min⁻¹"
+      }
+    ]
+  }
+]

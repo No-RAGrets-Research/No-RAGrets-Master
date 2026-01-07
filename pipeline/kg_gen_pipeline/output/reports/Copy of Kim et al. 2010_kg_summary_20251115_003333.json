@@ -1,0 +1,4585 @@
+{
+  "total_chunks": 13,
+  "errors": 0,
+  "entities": 217,
+  "relations": 143,
+  "cross_chunk_relations": 0,
+  "relations_with_spans": 137,
+  "sections": {
+    "Optimization of Lab Scale Methanol Production by Methylosinus trichosporium OB3b": {
+      "chunks": 1,
+      "entities": 8,
+      "relations": 8
+    },
+    "1. Introduction": {
+      "chunks": 1,
+      "entities": 29,
+      "relations": 22
+    },
+    "2.1. Bacteria and cultivation conditions": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 10
+    },
+    "2.2. Enzyme assay": {
+      "chunks": 1,
+      "entities": 11,
+      "relations": 11
+    },
+    "2.3. Methanol production by M. trichosporium OB3b": {
+      "chunks": 1,
+      "entities": 24,
+      "relations": 11
+    },
+    "-ICM": {
+      "chunks": 1,
+      "entities": 2,
+      "relations": 2
+    },
+    "2.4. Electron microscopy": {
+      "chunks": 1,
+      "entities": 7,
+      "relations": 11
+    },
+    "3.1.  Effect  of  NaCl  on  cell  morphology  and  enzyme activity": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 12
+    },
+    "3.2.  Methanol  production  using  NaCl  and  EDTA  as MDH inhibitors": {
+      "chunks": 1,
+      "entities": 7,
+      "relations": 9
+    },
+    "3.3.  Effect  of  accumulated methanol on further methanol production": {
+      "chunks": 1,
+      "entities": 6,
+      "relations": 6
+    },
+    "3.4. Optimization of lab scale methanol production": {
+      "chunks": 1,
+      "entities": 14,
+      "relations": 11
+    },
+    "4. Conclusion": {
+      "chunks": 1,
+      "entities": 5,
+      "relations": 5
+    },
+    "References": {
+      "chunks": 1,
+      "entities": 118,
+      "relations": 25
+    }
+  },
+  "all_relations": [
+    {
+      "subject": "the methanol",
+      "predicate": "is further oxidized to formaldehyde by",
+      "object": "methanol dehydrogenase (MDH)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "The methanol is further oxidized to formaldehyde  by  methanol  dehydrogenase  (MDH).",
+        "document_offsets": {
+          "start": 469,
+          "end": 556
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 4,
+            "matched_text": "The methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "particulate methane monooxygenase (MMO)",
+      "predicate": "catalyzes the hydroxylation of",
+      "object": "methane to methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Abstract Methylosinus trichosporium OB3b is a methanotrophic bacterium containing particulate methane monooxygenase (MMO), which catalyzes the hydroxylation of methane to methanol.",
+        "document_offsets": {
+          "start": 288,
+          "end": 468
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 160,
+            "end": 179,
+            "sentence_id": 3,
+            "matched_text": "methane to methanol"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "is used as an inhibitor for",
+      "object": "methanol dehydrogenase (MDH)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 12,
+        "text_evidence": "Cells were harvested, washed,  and  resuspended  (0.6  mg  dry  cells/mL)  in  a 500 mL  flask  in  100  mL  of  10  mM  phosphate  buffer (pH 7.0)  containing  100  mM  NaCl  and  1  mM  EDTA  as MDH inhibitors,  and  20  mM  sodium  formate. Keywords: methane monooxygenase, methanol dehydrogenase, Methylosinus trichosporium OB3b, NaCl, EDTA",
+        "document_offsets": {
+          "start": 836,
+          "end": 1791
+        },
+        "subject_positions": [
+          {
+            "start": 170,
+            "end": 174,
+            "sentence_id": 7,
+            "matched_text": "NaCl"
+          },
+          {
+            "start": 945,
+            "end": 949,
+            "sentence_id": 12,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "is used as an inhibitor for",
+      "object": "methanol dehydrogenase (MDH)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 12,
+        "text_evidence": "Cells were harvested, washed,  and  resuspended  (0.6  mg  dry  cells/mL)  in  a 500 mL  flask  in  100  mL  of  10  mM  phosphate  buffer (pH 7.0)  containing  100  mM  NaCl  and  1  mM  EDTA  as MDH inhibitors,  and  20  mM  sodium  formate. Keywords: methane monooxygenase, methanol dehydrogenase, Methylosinus trichosporium OB3b, NaCl, EDTA",
+        "document_offsets": {
+          "start": 836,
+          "end": 1791
+        },
+        "subject_positions": [
+          {
+            "start": 188,
+            "end": 192,
+            "sentence_id": 7,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 951,
+            "end": 955,
+            "sentence_id": 12,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "is a methanotrophic bacterium containing",
+      "object": "particulate methane monooxygenase (MMO)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 12,
+        "text_evidence": "Abstract Methylosinus trichosporium OB3b is a methanotrophic bacterium containing particulate methane monooxygenase (MMO), which catalyzes the hydroxylation of methane to methanol. Keywords: methane monooxygenase, methanol dehydrogenase, Methylosinus trichosporium OB3b, NaCl, EDTA",
+        "document_offsets": {
+          "start": 288,
+          "end": 1791
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 40,
+            "sentence_id": 3,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1460,
+            "end": 1491,
+            "sentence_id": 12,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Gui Hwan Han",
+      "predicate": "is one of the authors",
+      "object": "the paper",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Hee Gon Kim, Gui Hwan Han, and Si Wouk Kim\n\nReceived: 4 February 2010 / Revised:",
+        "document_offsets": {
+          "start": 92,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 25,
+            "sentence_id": 0,
+            "matched_text": "Gui Hwan Han"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Si Wouk Kim",
+      "predicate": "is one of the authors",
+      "object": "the paper",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Hee Gon Kim, Gui Hwan Han, and Si Wouk Kim\n\nReceived: 4 February 2010 / Revised:",
+        "document_offsets": {
+          "start": 92,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 31,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "Si Wouk Kim"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Hee Gon Kim",
+      "predicate": "is one of the authors",
+      "object": "the paper",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Hee Gon Kim, Gui Hwan Han, and Si Wouk Kim\n\nReceived: 4 February 2010 / Revised:",
+        "document_offsets": {
+          "start": 92,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "Hee Gon Kim"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Investigators have explored the biological production of methanol under ambient conditions",
+      "predicate": "using",
+      "object": "methanotrophic bacteria",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Dimethyl ether (DME)",
+      "predicate": "is a good diesel fuel with a higher octane rating than",
+      "object": "regular diesel fuel",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Methanol is used as a fuel for heat engines and fuel cells and can be converted by dehydration to  dimethyl ether (DME), a good diesel fuel with a higher octane rating than regular diesel fuel.",
+        "document_offsets": {
+          "start": 2072,
+          "end": 2265
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 173,
+            "end": 192,
+            "sentence_id": 3,
+            "matched_text": "regular diesel fuel"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methane",
+      "predicate": "generates less carbon dioxide per unit energy than",
+      "object": "oil or coal",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "The  benefit  of  methane  as  an  energy  source  is  that  it produces  few  atmospheric  pollutants  and  generates  less carbon dioxide per unit energy than oil or coal. However, the use of methane is hindered by difficulties with storage and  transportation. These  problems  can  be  solved  by  the conversion of methane to methanol. Methanol is produced exclusively from methane, by processing syngas under conditions of high temperature and pressure. Methanotrophic  bacteria  are  able  to  grow  aerobically using methane as a sole source of carbon and energy. The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO, EC  1.14.13.25).",
+        "document_offsets": {
+          "start": 1730,
+          "end": 2763
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 25,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          },
+          {
+            "start": 194,
+            "end": 201,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 321,
+            "end": 328,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 852,
+            "end": 859,
+            "sentence_id": 6,
+            "matched_text": "methane"
+          },
+          {
+            "start": 935,
+            "end": 942,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          },
+          {
+            "start": 987,
+            "end": 994,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "oil or coal"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "At concentrations above 100 mM, NaCl significantly disrupts cell structure, including the slime layer and the intracytoplasmic membrane (ICM)",
+      "predicate": "significantly disrupts",
+      "object": "cell structure",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 16,
+        "sentence_end": 16,
+        "text_evidence": "However,  at  concentrations  above 100 mM, NaCl significantly disrupts cell structure, including  the  slime  layer  and  the  intracytoplasmic  membrane (ICM),  where  particulate  MMO  (pMMO)  binds.",
+        "document_offsets": {
+          "start": 3753,
+          "end": 3957
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 72,
+            "end": 86,
+            "sentence_id": 16,
+            "matched_text": "cell structure"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "In this study, we have further improved methanol production by introducing EDTA as an MDH inhibitor",
+      "predicate": "improved methanol production by",
+      "object": "introducing EDTA as an MDH inhibitor",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO)",
+      "predicate": "is coupled to",
+      "object": "the electron transport chain at the level of cytochrome c L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Methanol  is  converted  subsequently  to formaldehyde  by  methanol  dehydrogenase  (MDH,  EC 1.1.99.8), which is coupled to the electron transport chain at the level of cytochrome c L",
+        "document_offsets": {
+          "start": 2763,
+          "end": 2948
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 185,
+            "sentence_id": 8,
+            "matched_text": "the electron transport chain at the level of cytochrome c L"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The high salt concentration inhibits the transfer of electrons from MDH to cytochrome c L that occurs during the oxidation of methanol, resulting in the excretion of methanol to medium",
+      "predicate": "inhibits the transfer of electrons from MDH to cytochrome c L",
+      "object": "resulting in the excretion of methanol to medium",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Formaldehyde is assimilated into biomass or oxidized to carbon dioxide, thereby providing reducing power for MMO",
+      "predicate": "provides",
+      "object": "reducing power for MMO",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methane",
+      "predicate": "is an",
+      "object": "energy source",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "The  benefit  of  methane  as  an  energy  source  is  that  it produces  few  atmospheric  pollutants  and  generates  less carbon dioxide per unit energy than oil or coal. However, the use of methane is hindered by difficulties with storage and  transportation. These  problems  can  be  solved  by  the conversion of methane to methanol. Methanol is produced exclusively from methane, by processing syngas under conditions of high temperature and pressure. Methanotrophic  bacteria  are  able  to  grow  aerobically using methane as a sole source of carbon and energy. The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO, EC  1.14.13.25).",
+        "document_offsets": {
+          "start": 1730,
+          "end": 2763
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 25,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          },
+          {
+            "start": 194,
+            "end": 201,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 321,
+            "end": 328,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 852,
+            "end": 859,
+            "sentence_id": 6,
+            "matched_text": "methane"
+          },
+          {
+            "start": 935,
+            "end": 942,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          },
+          {
+            "start": 987,
+            "end": 994,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be converted by dehydration to",
+      "object": "dimethyl ether (DME)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 21,
+        "text_evidence": "These  problems  can  be  solved  by  the conversion of methane to methanol. Methanol is used as a fuel for heat engines and fuel cells and can be converted by dehydration to  dimethyl ether (DME), a good diesel fuel with a higher octane rating than regular diesel fuel. Methanol is produced exclusively from methane, by processing syngas under conditions of high temperature and pressure. In  recent  years,  however,  investigators  have  explored  the biological  production  of  methanol  under  ambient  conditions. The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO, EC  1.14.13.25). Methanol  is  converted  subsequently  to formaldehyde  by  methanol  dehydrogenase  (MDH,  EC 1.1.99.8), which is coupled to the electron transport chain at the level of cytochrome c L The  production  of methanol using a methanotrophic bacterium requires  that oxidation of methanol be prevented, so that methanol can be excreted into the medium [2,3]. We  have optimized methanol biosynthesis in M. trichosporium OB3b by  using  high  NaCl  concentrations  to  create  conditions inhibiting  MDH  activity,  while  retaining  MMO  activity [4]. The  high  salt  concentration  inhibits  the  transfer  of\n\nelectrons from MDH to cytochrome c L that occurs during the  oxidation  of  methanol,  resulting  in  the  excretion  of methanol  to  medium. In this study, we have further improved methanol production  by  introducing  EDTA  as  an  MDH  inhibitor, allowing  us  to  reduce  the  concentration  of  NaCl  and  its deleterious  effects  on  cell  morphology. In  addition,  we developed a repeated batch technique for the production of lab-scale batches of methanol.",
+        "document_offsets": {
+          "start": 1995,
+          "end": 4654
+        },
+        "subject_positions": [
+          {
+            "start": 67,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 77,
+            "end": 85,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 271,
+            "end": 279,
+            "sentence_id": 4,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 483,
+            "end": 491,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 768,
+            "end": 776,
+            "sentence_id": 8,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 828,
+            "end": 836,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1098,
+            "end": 1106,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1168,
+            "end": 1176,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1199,
+            "end": 1207,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1378,
+            "end": 1386,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1690,
+            "end": 1698,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1735,
+            "end": 1743,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2374,
+            "end": 2382,
+            "sentence_id": 20,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2650,
+            "end": 2658,
+            "sentence_id": 21,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Dithiothreitol, phenylhydrazine, iodoacetate, cyclopropane, cyclopropanol, and EDTA act as MDH inhibitors",
+      "predicate": "act as",
+      "object": "MDH inhibitors",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methane monooxygenase (MMO)",
+      "predicate": "converts",
+      "object": "methane to methanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "These  problems  can  be  solved  by  the conversion of methane to methanol.",
+        "document_offsets": {
+          "start": 1995,
+          "end": 2071
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "methane to methanol"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methane",
+      "predicate": "produces few",
+      "object": "atmospheric pollutants",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "The  benefit  of  methane  as  an  energy  source  is  that  it produces  few  atmospheric  pollutants  and  generates  less carbon dioxide per unit energy than oil or coal. However, the use of methane is hindered by difficulties with storage and  transportation. These  problems  can  be  solved  by  the conversion of methane to methanol. Methanol is produced exclusively from methane, by processing syngas under conditions of high temperature and pressure. Methanotrophic  bacteria  are  able  to  grow  aerobically using methane as a sole source of carbon and energy. The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO, EC  1.14.13.25).",
+        "document_offsets": {
+          "start": 1730,
+          "end": 2763
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 25,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          },
+          {
+            "start": 194,
+            "end": 201,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 321,
+            "end": 328,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 852,
+            "end": 859,
+            "sentence_id": 6,
+            "matched_text": "methane"
+          },
+          {
+            "start": 935,
+            "end": 942,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          },
+          {
+            "start": 987,
+            "end": 994,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methanol biosynthesis in M. trichosporium OB3b is optimized by using high NaCl concentrations to create conditions inhibiting MDH activity, while retaining MMO activity",
+      "predicate": "is optimized by",
+      "object": "using high NaCl concentrations",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced exclusively from",
+      "object": "methane, by processing syngas under conditions of high temperature and pressure",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 21,
+        "text_evidence": "These  problems  can  be  solved  by  the conversion of methane to methanol. Methanol is used as a fuel for heat engines and fuel cells and can be converted by dehydration to  dimethyl ether (DME), a good diesel fuel with a higher octane rating than regular diesel fuel. Methanol is produced exclusively from methane, by processing syngas under conditions of high temperature and pressure. In  recent  years,  however,  investigators  have  explored  the biological  production  of  methanol  under  ambient  conditions. The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO, EC  1.14.13.25). Methanol  is  converted  subsequently  to formaldehyde  by  methanol  dehydrogenase  (MDH,  EC 1.1.99.8), which is coupled to the electron transport chain at the level of cytochrome c L The  production  of methanol using a methanotrophic bacterium requires  that oxidation of methanol be prevented, so that methanol can be excreted into the medium [2,3]. We  have optimized methanol biosynthesis in M. trichosporium OB3b by  using  high  NaCl  concentrations  to  create  conditions inhibiting  MDH  activity,  while  retaining  MMO  activity [4]. The  high  salt  concentration  inhibits  the  transfer  of\n\nelectrons from MDH to cytochrome c L that occurs during the  oxidation  of  methanol,  resulting  in  the  excretion  of methanol  to  medium. In this study, we have further improved methanol production  by  introducing  EDTA  as  an  MDH  inhibitor, allowing  us  to  reduce  the  concentration  of  NaCl  and  its deleterious  effects  on  cell  morphology. In  addition,  we developed a repeated batch technique for the production of lab-scale batches of methanol.",
+        "document_offsets": {
+          "start": 1995,
+          "end": 4654
+        },
+        "subject_positions": [
+          {
+            "start": 67,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 77,
+            "end": 85,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 271,
+            "end": 279,
+            "sentence_id": 4,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 483,
+            "end": 491,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 768,
+            "end": 776,
+            "sentence_id": 8,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 828,
+            "end": 836,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1098,
+            "end": 1106,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1168,
+            "end": 1176,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1199,
+            "end": 1207,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1378,
+            "end": 1386,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1690,
+            "end": 1698,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1735,
+            "end": 1743,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2374,
+            "end": 2382,
+            "sentence_id": 20,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2650,
+            "end": 2658,
+            "sentence_id": 21,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 309,
+            "end": 388,
+            "sentence_id": 4,
+            "matched_text": "methane, by processing syngas under conditions of high temperature and pressure"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Difficulties with",
+      "predicate": "affect",
+      "object": "storage and transportation of methane",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "However, the use of methane is hindered by difficulties with storage and  transportation.",
+        "document_offsets": {
+          "start": 1904,
+          "end": 1995
+        },
+        "subject_positions": [
+          {
+            "start": 43,
+            "end": 60,
+            "sentence_id": 1,
+            "matched_text": "difficulties with"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is used as a fuel for",
+      "object": "heat engines and fuel cells",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 21,
+        "text_evidence": "These  problems  can  be  solved  by  the conversion of methane to methanol. Methanol is used as a fuel for heat engines and fuel cells and can be converted by dehydration to  dimethyl ether (DME), a good diesel fuel with a higher octane rating than regular diesel fuel. Methanol is produced exclusively from methane, by processing syngas under conditions of high temperature and pressure. In  recent  years,  however,  investigators  have  explored  the biological  production  of  methanol  under  ambient  conditions. The first step in the metabolism of methane is its conversion to methanol by the enzyme methane monooxygenase (MMO, EC  1.14.13.25). Methanol  is  converted  subsequently  to formaldehyde  by  methanol  dehydrogenase  (MDH,  EC 1.1.99.8), which is coupled to the electron transport chain at the level of cytochrome c L The  production  of methanol using a methanotrophic bacterium requires  that oxidation of methanol be prevented, so that methanol can be excreted into the medium [2,3]. We  have optimized methanol biosynthesis in M. trichosporium OB3b by  using  high  NaCl  concentrations  to  create  conditions inhibiting  MDH  activity,  while  retaining  MMO  activity [4]. The  high  salt  concentration  inhibits  the  transfer  of\n\nelectrons from MDH to cytochrome c L that occurs during the  oxidation  of  methanol,  resulting  in  the  excretion  of methanol  to  medium. In this study, we have further improved methanol production  by  introducing  EDTA  as  an  MDH  inhibitor, allowing  us  to  reduce  the  concentration  of  NaCl  and  its deleterious  effects  on  cell  morphology. In  addition,  we developed a repeated batch technique for the production of lab-scale batches of methanol.",
+        "document_offsets": {
+          "start": 1995,
+          "end": 4654
+        },
+        "subject_positions": [
+          {
+            "start": 67,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 77,
+            "end": 85,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 271,
+            "end": 279,
+            "sentence_id": 4,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 483,
+            "end": 491,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 699,
+            "end": 707,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 768,
+            "end": 776,
+            "sentence_id": 8,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 828,
+            "end": 836,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1098,
+            "end": 1106,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1168,
+            "end": 1176,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1199,
+            "end": 1207,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1378,
+            "end": 1386,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1690,
+            "end": 1698,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1735,
+            "end": 1743,
+            "sentence_id": 15,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2374,
+            "end": 2382,
+            "sentence_id": 20,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2650,
+            "end": 2658,
+            "sentence_id": 21,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 135,
+            "sentence_id": 3,
+            "matched_text": "heat engines and fuel cells"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The production of methanol using a methanotrophic bacterium requires that oxidation of methanol be prevented, so that methanol can be excreted into the medium",
+      "predicate": "requires",
+      "object": "that oxidation of methanol be prevented",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "The  production  of methanol using a methanotrophic bacterium requires  that oxidation of methanol be prevented, so that methanol can be excreted into the medium [2,3].",
+        "document_offsets": {
+          "start": 3073,
+          "end": 3243
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 72,
+            "end": 111,
+            "sentence_id": 11,
+            "matched_text": "that oxidation of methanol be prevented"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "We have reduced the concentration of NaCl and its deleterious effects on cell morphology by introducing EDTA as an MDH inhibitor",
+      "predicate": "reduced the concentration of NaCl and its deleterious effects on cell morphology",
+      "object": "by introducing EDTA as an MDH inhibitor",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol dehydrogenase (MDH)",
+      "predicate": "converts",
+      "object": "methanol subsequently to formaldehyde",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "In addition, we developed a repeated batch technique for the production of lab-scale batches of methanol",
+      "predicate": "developed a repeated batch technique for the production of",
+      "object": "lab-scale batches of methanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 21,
+        "sentence_end": 21,
+        "text_evidence": "In  addition,  we developed a repeated batch technique for the production of lab-scale batches of methanol.",
+        "document_offsets": {
+          "start": 4547,
+          "end": 4654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 77,
+            "end": 106,
+            "sentence_id": 21,
+            "matched_text": "lab-scale batches of methanol"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Problems with storage and transportation of methane",
+      "predicate": "can be solved by",
+      "object": "the conversion of methane to methanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "These  problems  can  be  solved  by  the conversion of methane to methanol.",
+        "document_offsets": {
+          "start": 1995,
+          "end": 2071
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 38,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "the conversion of methane to methanol"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the modified nitrate mineral salt (NMS) medium",
+      "predicate": "contained",
+      "object": "5 \u00b5 M CuSO 4",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "M. trichosporium OB3b was  cultured  in  a  modified  nitrate  mineral  salt  (NMS) medium containing 5 \u00b5 M CuSO 4 .",
+        "document_offsets": {
+          "start": 4834,
+          "end": 4950
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 102,
+            "end": 114,
+            "sentence_id": 2,
+            "matched_text": "5 \u00b5 M CuSO 4"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Air in the flask headspace",
+      "predicate": "was replaced with",
+      "object": "a methane/air mixture (1:1, v/v)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Air in the flask headspace was replaced with a methane/air mixture (1:1, v/v).",
+        "document_offsets": {
+          "start": 5151,
+          "end": 5231
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 26,
+            "sentence_id": 5,
+            "matched_text": "Air in the flask headspace"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "were mass-produced in",
+      "object": "a compulsory circulation diffusion system",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "Under these conditions, cells  synthesize  pMMO  as  the  predominate  form  of  the enzyme. Cells were cultured in a 500 mL Erlenmeyer flask containing 50 mL of medium at 30\u00b0C with a gas-tight seal. To achieve lab-scale production of methanol, cells were mass-produced in a compulsory circulation diffusion system as described by Kim et al . The pre-cultured cells were inoculated into a 5 L Erlenmeyer flask containing 3 L of medium.",
+        "document_offsets": {
+          "start": 4951,
+          "end": 5471
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 3,
+            "matched_text": "cells"
+          },
+          {
+            "start": 93,
+            "end": 98,
+            "sentence_id": 4,
+            "matched_text": "Cells"
+          },
+          {
+            "start": 325,
+            "end": 330,
+            "sentence_id": 6,
+            "matched_text": "cells"
+          },
+          {
+            "start": 445,
+            "end": 450,
+            "sentence_id": 8,
+            "matched_text": "cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 353,
+            "end": 394,
+            "sentence_id": 6,
+            "matched_text": "a compulsory circulation diffusion system"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "were cultured in",
+      "object": "a 500 mL Erlenmeyer flask containing 50 mL of medium at 30\u00b0C with a gas-tight seal",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "Under these conditions, cells  synthesize  pMMO  as  the  predominate  form  of  the enzyme. Cells were cultured in a 500 mL Erlenmeyer flask containing 50 mL of medium at 30\u00b0C with a gas-tight seal. To achieve lab-scale production of methanol, cells were mass-produced in a compulsory circulation diffusion system as described by Kim et al . The pre-cultured cells were inoculated into a 5 L Erlenmeyer flask containing 3 L of medium.",
+        "document_offsets": {
+          "start": 4951,
+          "end": 5471
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 3,
+            "matched_text": "cells"
+          },
+          {
+            "start": 93,
+            "end": 98,
+            "sentence_id": 4,
+            "matched_text": "Cells"
+          },
+          {
+            "start": 325,
+            "end": 330,
+            "sentence_id": 6,
+            "matched_text": "cells"
+          },
+          {
+            "start": 445,
+            "end": 450,
+            "sentence_id": 8,
+            "matched_text": "cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 116,
+            "end": 198,
+            "sentence_id": 4,
+            "matched_text": "a 500 mL Erlenmeyer flask containing 50 mL of medium at 30\u00b0C with a gas-tight seal"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Propane",
+      "predicate": "was obtained from",
+      "object": "Sigma Chemical Co.",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Methane  and  propane  were  obtained from Sigma Chemical Co. (USA).",
+        "document_offsets": {
+          "start": 4765,
+          "end": 4833
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "propane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methane",
+      "predicate": "was obtained from",
+      "object": "Sigma Chemical Co.",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 9,
+        "text_evidence": "Methane  and  propane  were  obtained from Sigma Chemical Co. (USA). Air in the flask headspace was replaced with a methane/air mixture (1:1, v/v). The methane/air mixture, maintained in a separated gas reservoir, was forced into the flask by an air pump.",
+        "document_offsets": {
+          "start": 4765,
+          "end": 5579
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 1,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 433,
+            "end": 440,
+            "sentence_id": 5,
+            "matched_text": "methane"
+          },
+          {
+            "start": 711,
+            "end": 718,
+            "sentence_id": 9,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the methane/air mixture",
+      "predicate": "was forced into the flask by",
+      "object": "an air pump",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "The methane/air mixture, maintained in a separated gas reservoir, was forced into the flask by an air pump.",
+        "document_offsets": {
+          "start": 5472,
+          "end": 5579
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 9,
+            "matched_text": "The methane/air mixture"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 106,
+            "sentence_id": 9,
+            "matched_text": "an air pump"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "was cultured in",
+      "object": "a modified nitrate mineral salt (NMS) medium",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "M. trichosporium OB3b was  cultured  in  a  modified  nitrate  mineral  salt  (NMS) medium containing 5 \u00b5 M CuSO 4 .",
+        "document_offsets": {
+          "start": 4834,
+          "end": 4950
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the pre-cultured cells",
+      "predicate": "were inoculated into",
+      "object": "a 5 L Erlenmeyer flask containing 3 L of medium",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "The pre-cultured cells were inoculated into a 5 L Erlenmeyer flask containing 3 L of medium.",
+        "document_offsets": {
+          "start": 5379,
+          "end": 5471
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 22,
+            "sentence_id": 8,
+            "matched_text": "The pre-cultured cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 91,
+            "sentence_id": 8,
+            "matched_text": "a 5 L Erlenmeyer flask containing 3 L of medium"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "synthesize",
+      "object": "pMMO as the predominate form of the enzyme",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "Under these conditions, cells  synthesize  pMMO  as  the  predominate  form  of  the enzyme. Cells were cultured in a 500 mL Erlenmeyer flask containing 50 mL of medium at 30\u00b0C with a gas-tight seal. To achieve lab-scale production of methanol, cells were mass-produced in a compulsory circulation diffusion system as described by Kim et al . The pre-cultured cells were inoculated into a 5 L Erlenmeyer flask containing 3 L of medium.",
+        "document_offsets": {
+          "start": 4951,
+          "end": 5471
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 29,
+            "sentence_id": 3,
+            "matched_text": "cells"
+          },
+          {
+            "start": 93,
+            "end": 98,
+            "sentence_id": 4,
+            "matched_text": "Cells"
+          },
+          {
+            "start": 325,
+            "end": 330,
+            "sentence_id": 6,
+            "matched_text": "cells"
+          },
+          {
+            "start": 445,
+            "end": 450,
+            "sentence_id": 8,
+            "matched_text": "cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "is present in",
+      "object": "reaction mixture",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The  reaction  mixture  (3 mL)  contained  100  mM  Tris-HCl  buffer  (pH  9.0),  13.4 mM  methanol,  1.1  mM  PES,  0.04  mM  DCPIP,  1  mM KCN, and 15 mM NH 4 Cl.",
+        "document_offsets": {
+          "start": 6234,
+          "end": 6398
+        },
+        "subject_positions": [
+          {
+            "start": 91,
+            "end": 99,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "KCN",
+      "predicate": "is present in",
+      "object": "reaction mixture",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The  reaction  mixture  (3 mL)  contained  100  mM  Tris-HCl  buffer  (pH  9.0),  13.4 mM  methanol,  1.1  mM  PES,  0.04  mM  DCPIP,  1  mM KCN, and 15 mM NH 4 Cl.",
+        "document_offsets": {
+          "start": 6234,
+          "end": 6398
+        },
+        "subject_positions": [
+          {
+            "start": 141,
+            "end": 144,
+            "sentence_id": 2,
+            "matched_text": "KCN"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "2,6-dichlorophenol indophenol (DCPIP)",
+      "predicate": "is used as",
+      "object": "terminal acceptor",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "PES",
+      "predicate": "is used as",
+      "object": "artificial primary electron acceptor",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "PO  concentration  was  determined  by  gas chromatography (Shimadzu GC-17A, Japan), using a 25% Sorbitol Gasport B (60/80) column (3 mm \u00d7 4 m) under the following conditions: column temperature = 80\u00b0C; injector temperature = 100\u00b0C;  detector  temperature = 100\u00b0C;  and carrier gas (He) flow rate = 30 mL/min. MDH activity was assayed spectrophotometrically at 30\u00b0C by a two-dye linked  assay  system,  in  which  PES  was  used  as  an  artificial primary electron acceptor, and 2,6-dichlorophenol indophenol\n\n(DCPIP) as  a  terminal  acceptor. The  reaction  mixture  (3 mL)  contained  100  mM  Tris-HCl  buffer  (pH  9.0),  13.4 mM  methanol,  1.1  mM  PES,  0.04  mM  DCPIP,  1  mM KCN, and 15 mM NH 4 Cl.",
+        "document_offsets": {
+          "start": 5687,
+          "end": 6398
+        },
+        "subject_positions": [
+          {
+            "start": 414,
+            "end": 417,
+            "sentence_id": 1,
+            "matched_text": "PES"
+          },
+          {
+            "start": 658,
+            "end": 661,
+            "sentence_id": 2,
+            "matched_text": "PES"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 438,
+            "end": 474,
+            "sentence_id": 1,
+            "matched_text": "artificial primary electron acceptor"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Tris-HCl buffer",
+      "predicate": "is present in",
+      "object": "reaction mixture",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "NH 4 Cl",
+      "predicate": "is present in",
+      "object": "reaction mixture",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The  reaction  mixture  (3 mL)  contained  100  mM  Tris-HCl  buffer  (pH  9.0),  13.4 mM  methanol,  1.1  mM  PES,  0.04  mM  DCPIP,  1  mM KCN, and 15 mM NH 4 Cl.",
+        "document_offsets": {
+          "start": 6234,
+          "end": 6398
+        },
+        "subject_positions": [
+          {
+            "start": 156,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "NH 4 Cl"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "He",
+      "predicate": "is used as",
+      "object": "carrier gas",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "pMMO activity was determined by measuring the amount of propylene oxide (PO) produced from the epoxidation of propylene  [9]. PO  concentration  was  determined  by  gas chromatography (Shimadzu GC-17A, Japan), using a 25% Sorbitol Gasport B (60/80) column (3 mm \u00d7 4 m) under the following conditions: column temperature = 80\u00b0C; injector temperature = 100\u00b0C;  detector  temperature = 100\u00b0C;  and carrier gas (He) flow rate = 30 mL/min. MDH activity was assayed spectrophotometrically at 30\u00b0C by a two-dye linked  assay  system,  in  which  PES  was  used  as  an  artificial primary electron acceptor, and 2,6-dichlorophenol indophenol\n\n(DCPIP) as  a  terminal  acceptor. The  reaction  mixture  (3 mL)  contained  100  mM  Tris-HCl  buffer  (pH  9.0),  13.4 mM  methanol,  1.1  mM  PES,  0.04  mM  DCPIP,  1  mM KCN, and 15 mM NH 4 Cl. Reactions were initiated by the addition  of  the  MDH,  and  the  reduction  of  DCPIP  was measured by monitoring the decrease in the absorbance at 600 nm [10].",
+        "document_offsets": {
+          "start": 5560,
+          "end": 6561
+        },
+        "subject_positions": [
+          {
+            "start": 410,
+            "end": 412,
+            "sentence_id": 1,
+            "matched_text": "He"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 397,
+            "end": 408,
+            "sentence_id": 1,
+            "matched_text": "carrier gas"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "pMMO",
+      "predicate": "performs",
+      "object": "epoxidation of propylene",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "pMMO activity was determined by measuring the amount of propylene oxide (PO) produced from the epoxidation of propylene  [9].",
+        "document_offsets": {
+          "start": 5560,
+          "end": 5687
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 0,
+            "matched_text": "pMMO"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 119,
+            "sentence_id": 0,
+            "matched_text": "epoxidation of propylene"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Sorbitol Gasport B (60/80) column",
+      "predicate": "is used as",
+      "object": "column in Shimadzu GC-17A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "PO  concentration  was  determined  by  gas chromatography (Shimadzu GC-17A, Japan), using a 25% Sorbitol Gasport B (60/80) column (3 mm \u00d7 4 m) under the following conditions: column temperature = 80\u00b0C; injector temperature = 100\u00b0C;  detector  temperature = 100\u00b0C;  and carrier gas (He) flow rate = 30 mL/min. MDH activity was assayed spectrophotometrically at 30\u00b0C by a two-dye linked  assay  system,  in  which  PES  was  used  as  an  artificial primary electron acceptor, and 2,6-dichlorophenol indophenol\n\n(DCPIP) as  a  terminal  acceptor.",
+        "document_offsets": {
+          "start": 5687,
+          "end": 6234
+        },
+        "subject_positions": [
+          {
+            "start": 97,
+            "end": 130,
+            "sentence_id": 1,
+            "matched_text": "Sorbitol Gasport B (60/80) column"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shimadzu GC-17A",
+      "predicate": "is used for",
+      "object": "determining PO concentration",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "PO  concentration  was  determined  by  gas chromatography (Shimadzu GC-17A, Japan), using a 25% Sorbitol Gasport B (60/80) column (3 mm \u00d7 4 m) under the following conditions: column temperature = 80\u00b0C; injector temperature = 100\u00b0C;  detector  temperature = 100\u00b0C;  and carrier gas (He) flow rate = 30 mL/min. MDH activity was assayed spectrophotometrically at 30\u00b0C by a two-dye linked  assay  system,  in  which  PES  was  used  as  an  artificial primary electron acceptor, and 2,6-dichlorophenol indophenol\n\n(DCPIP) as  a  terminal  acceptor.",
+        "document_offsets": {
+          "start": 5687,
+          "end": 6234
+        },
+        "subject_positions": [
+          {
+            "start": 60,
+            "end": 75,
+            "sentence_id": 1,
+            "matched_text": "Shimadzu GC-17A"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "PO",
+      "predicate": "is produced from",
+      "object": "epoxidation of propylene",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "pMMO activity was determined by measuring the amount of propylene oxide (PO) produced from the epoxidation of propylene  [9]. PO  concentration  was  determined  by  gas chromatography (Shimadzu GC-17A, Japan), using a 25% Sorbitol Gasport B (60/80) column (3 mm \u00d7 4 m) under the following conditions: column temperature = 80\u00b0C; injector temperature = 100\u00b0C;  detector  temperature = 100\u00b0C;  and carrier gas (He) flow rate = 30 mL/min. MDH activity was assayed spectrophotometrically at 30\u00b0C by a two-dye linked  assay  system,  in  which  PES  was  used  as  an  artificial primary electron acceptor, and 2,6-dichlorophenol indophenol\n\n(DCPIP) as  a  terminal  acceptor.",
+        "document_offsets": {
+          "start": 5560,
+          "end": 6234
+        },
+        "subject_positions": [
+          {
+            "start": 73,
+            "end": 75,
+            "sentence_id": 0,
+            "matched_text": "PO"
+          },
+          {
+            "start": 127,
+            "end": 129,
+            "sentence_id": 1,
+            "matched_text": "PO"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 119,
+            "sentence_id": 0,
+            "matched_text": "epoxidation of propylene"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Produced methanol",
+      "predicate": "is collected from",
+      "object": "reactor",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 11,
+        "sentence_end": 15,
+        "text_evidence": "Lab-scale  methanol  production  was  designed  in  a  3  L reactor with 1 L working volume. The reaction was carried out in a compulsory circulation diffusion system consisting of cylindrical reactor (\u00f8 110 \u00d7 h 400 mm), portable rubber gas  bag,  mixed  gas  reservoir  containing  gas  bubbler  and silica-gel trap (Fig. 1). Thereafter  the  mixture  was forced by an air pump through micro pores prepared in the bottom  of  reactor  and  dispersed  evenly  in  the  reaction mixture. Part  of  methane  mixture  in  the  reactor  was  fed back into the gas reservoir, mixed with fresh methane and re-circulated into the reactor, until fresh methane in the gas bag  was  consumed  completely.",
+        "document_offsets": {
+          "start": 8079,
+          "end": 9008
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 67,
+            "sentence_id": 11,
+            "matched_text": "reactor"
+          },
+          {
+            "start": 193,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "reactor"
+          },
+          {
+            "start": 659,
+            "end": 666,
+            "sentence_id": 14,
+            "matched_text": "reactor"
+          },
+          {
+            "start": 757,
+            "end": 764,
+            "sentence_id": 15,
+            "matched_text": "reactor"
+          },
+          {
+            "start": 856,
+            "end": 863,
+            "sentence_id": 15,
+            "matched_text": "reactor"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "carries out biosynthesis of",
+      "object": "Methanol",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 17,
+        "text_evidence": "Methanol  biosynthesis  by M.  trichosporium OB3b  in  a batch  reaction  was  carried  out  as  follows. Methanol was also produced in a repeated batch mode in a  500  mL  flask. In  this  process  methanol  was  removed periodically to prevent the accumulation of high concentrations,  which  can  retard  further  methanol  biosynthesis. After an 8 h reaction, 100 mL of the reaction mixture was centrifuged with sterilized tubes at 15,000 \u00d7 g , to separate the  newly  produced  methanol  from  the  reaction  suspension. Lab-scale  methanol  production  was  designed  in  a  3  L reactor with 1 L working volume. Produced  methanol  was\n\n2 Springer\n\nD\n\nConstant temperature chamber\n\nF",
+        "document_offsets": {
+          "start": 6597,
+          "end": 9140
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 725,
+            "end": 733,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 819,
+            "end": 827,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 937,
+            "end": 945,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1103,
+            "end": 1111,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1493,
+            "end": 1501,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2482,
+            "end": 2490,
+            "sentence_id": 17,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Newly produced methanol",
+      "predicate": "is separated from",
+      "object": "reaction suspension",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "is initiated by",
+      "object": "replacing air with methane/air mixture",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol  biosynthesis  by M.  trichosporium OB3b  in  a batch  reaction  was  carried  out  as  follows. After the flask was incubated for 5 min at 25\u00b0C, the reaction  was  initiated  by  replacing  200  mL  of  air  in  the head-space of the flask with the same volume of methane/ air mixture (1:1, v/v). After an 8 h reaction, 100 mL of the reaction mixture was centrifuged with sterilized tubes at 15,000 \u00d7 g , to separate the  newly  produced  methanol  from  the  reaction  suspension. In  the  following  reaction,  the  harvested  cells  were resuspended  in  the  12.9  mM  phosphate  buffer  and  introduced into the 500 mL flask. The reaction was carried out in a compulsory circulation diffusion system consisting of cylindrical reactor (\u00f8 110 \u00d7 h 400 mm), portable rubber gas  bag,  mixed  gas  reservoir  containing  gas  bubbler  and silica-gel trap (Fig. 1). The 1 L reaction mixture contained 100 mM NaCl, 1 mM EDTA, 20 mM sodium formate, and 0.6 mg dry cells/mL. A limited volume of fresh methane/ air mixture was introduced continuously from a rubber gas bag  into  the  gas  reservoir. Thereafter  the  mixture  was forced by an air pump through micro pores prepared in the bottom  of  reactor  and  dispersed  evenly  in  the  reaction mixture.",
+        "document_offsets": {
+          "start": 6597,
+          "end": 8799
+        },
+        "subject_positions": [
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 0,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 576,
+            "end": 584,
+            "sentence_id": 4,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 974,
+            "end": 982,
+            "sentence_id": 7,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 998,
+            "end": 1006,
+            "sentence_id": 7,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1124,
+            "end": 1132,
+            "sentence_id": 7,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1167,
+            "end": 1175,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1579,
+            "end": 1587,
+            "sentence_id": 12,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1817,
+            "end": 1825,
+            "sentence_id": 13,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 2183,
+            "end": 2191,
+            "sentence_id": 14,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Cells",
+      "predicate": "are resuspended in",
+      "object": "12.9 mM phosphate buffer",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 13,
+        "text_evidence": "Cells  were harvested in the middle stationary phase by centrifugation at 15,000 \u00d7 g for 10 min, washed with 12.9 mM phosphate buffer  (pH  7.0,  standard  buffer),  and  resuspended  in  the same buffer. The cell density was adjusted to 0.6 mg dry cells/mL. In  the  following  reaction,  the  harvested  cells  were resuspended  in  the  12.9  mM  phosphate  buffer  and  introduced into the 500 mL flask. The 1 L reaction mixture contained 100 mM NaCl, 1 mM EDTA, 20 mM sodium formate, and 0.6 mg dry cells/mL. A limited volume of fresh methane/ air mixture was introduced continuously from a rubber gas bag  into  the  gas  reservoir.",
+        "document_offsets": {
+          "start": 6704,
+          "end": 8638
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 1,
+            "matched_text": "Cells"
+          },
+          {
+            "start": 249,
+            "end": 254,
+            "sentence_id": 2,
+            "matched_text": "cells"
+          },
+          {
+            "start": 1087,
+            "end": 1092,
+            "sentence_id": 8,
+            "matched_text": "cells"
+          },
+          {
+            "start": 1798,
+            "end": 1803,
+            "sentence_id": 13,
+            "matched_text": "cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 133,
+            "sentence_id": 1,
+            "matched_text": "12.9 mM phosphate buffer"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Reaction mixture",
+      "predicate": "contains",
+      "object": "20 mM sodium formate",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 14,
+        "text_evidence": "The sample solution (100 mL), treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate, was introduced into a 500 mL Erlenmeyer flask with a screw cap. After an 8 h reaction, 100 mL of the reaction mixture was centrifuged with sterilized tubes at 15,000 \u00d7 g , to separate the  newly  produced  methanol  from  the  reaction  suspension. Thereafter, 20 mM sodium formate was included as a reducing agent for pMMO, and the  methane  mixture  was  introduced  to  the  flask. The 1 L reaction mixture contained 100 mM NaCl, 1 mM EDTA, 20 mM sodium formate, and 0.6 mg dry cells/mL. A limited volume of fresh methane/ air mixture was introduced continuously from a rubber gas bag  into  the  gas  reservoir. Thereafter  the  mixture  was forced by an air pump through micro pores prepared in the bottom  of  reactor  and  dispersed  evenly  in  the  reaction mixture.",
+        "document_offsets": {
+          "start": 6963,
+          "end": 8799
+        },
+        "subject_positions": [
+          {
+            "start": 632,
+            "end": 648,
+            "sentence_id": 7,
+            "matched_text": "reaction mixture"
+          },
+          {
+            "start": 1451,
+            "end": 1467,
+            "sentence_id": 13,
+            "matched_text": "reaction mixture"
+          },
+          {
+            "start": 1817,
+            "end": 1833,
+            "sentence_id": 14,
+            "matched_text": "reaction mixture"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 71,
+            "end": 91,
+            "sentence_id": 3,
+            "matched_text": "20 mM sodium formate"
+          },
+          {
+            "start": 942,
+            "end": 962,
+            "sentence_id": 9,
+            "matched_text": "20 mM sodium formate"
+          },
+          {
+            "start": 1502,
+            "end": 1522,
+            "sentence_id": 13,
+            "matched_text": "20 mM sodium formate"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced in a repeated batch mode",
+      "object": "500 mL flask",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 17,
+        "text_evidence": "Methanol  biosynthesis  by M.  trichosporium OB3b  in  a batch  reaction  was  carried  out  as  follows. Methanol was also produced in a repeated batch mode in a  500  mL  flask. In  this  process  methanol  was  removed periodically to prevent the accumulation of high concentrations,  which  can  retard  further  methanol  biosynthesis. After an 8 h reaction, 100 mL of the reaction mixture was centrifuged with sterilized tubes at 15,000 \u00d7 g , to separate the  newly  produced  methanol  from  the  reaction  suspension. In  the  following  reaction,  the  harvested  cells  were resuspended  in  the  12.9  mM  phosphate  buffer  and  introduced into the 500 mL flask. Lab-scale  methanol  production  was  designed  in  a  3  L reactor with 1 L working volume. Produced  methanol  was\n\n2 Springer\n\nD\n\nConstant temperature chamber\n\nF",
+        "document_offsets": {
+          "start": 6597,
+          "end": 9140
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 725,
+            "end": 733,
+            "sentence_id": 5,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 819,
+            "end": 827,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 937,
+            "end": 945,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1103,
+            "end": 1111,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1493,
+            "end": 1501,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 2482,
+            "end": 2490,
+            "sentence_id": 17,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1282,
+            "end": 1294,
+            "sentence_id": 8,
+            "matched_text": "500 mL flask"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Sample solution",
+      "predicate": "is introduced into",
+      "object": "500 mL Erlenmeyer flask",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "The sample solution (100 mL), treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate, was introduced into a 500 mL Erlenmeyer flask with a screw cap.",
+        "document_offsets": {
+          "start": 6963,
+          "end": 7119
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 19,
+            "sentence_id": 3,
+            "matched_text": "sample solution"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 115,
+            "end": 138,
+            "sentence_id": 3,
+            "matched_text": "500 mL Erlenmeyer flask"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Cells",
+      "predicate": "are harvested by",
+      "object": "centrifugation",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 13,
+        "text_evidence": "Cells  were harvested in the middle stationary phase by centrifugation at 15,000 \u00d7 g for 10 min, washed with 12.9 mM phosphate buffer  (pH  7.0,  standard  buffer),  and  resuspended  in  the same buffer. The cell density was adjusted to 0.6 mg dry cells/mL. In  the  following  reaction,  the  harvested  cells  were resuspended  in  the  12.9  mM  phosphate  buffer  and  introduced into the 500 mL flask. The 1 L reaction mixture contained 100 mM NaCl, 1 mM EDTA, 20 mM sodium formate, and 0.6 mg dry cells/mL. A limited volume of fresh methane/ air mixture was introduced continuously from a rubber gas bag  into  the  gas  reservoir.",
+        "document_offsets": {
+          "start": 6704,
+          "end": 8638
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 1,
+            "matched_text": "Cells"
+          },
+          {
+            "start": 249,
+            "end": 254,
+            "sentence_id": 2,
+            "matched_text": "cells"
+          },
+          {
+            "start": 1087,
+            "end": 1092,
+            "sentence_id": 8,
+            "matched_text": "cells"
+          },
+          {
+            "start": 1798,
+            "end": 1803,
+            "sentence_id": 13,
+            "matched_text": "cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 70,
+            "sentence_id": 1,
+            "matched_text": "centrifugation"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Cells",
+      "predicate": "are washed with",
+      "object": "12.9 mM phosphate buffer",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 13,
+        "text_evidence": "Cells  were harvested in the middle stationary phase by centrifugation at 15,000 \u00d7 g for 10 min, washed with 12.9 mM phosphate buffer  (pH  7.0,  standard  buffer),  and  resuspended  in  the same buffer. The cell density was adjusted to 0.6 mg dry cells/mL. In  the  following  reaction,  the  harvested  cells  were resuspended  in  the  12.9  mM  phosphate  buffer  and  introduced into the 500 mL flask. The 1 L reaction mixture contained 100 mM NaCl, 1 mM EDTA, 20 mM sodium formate, and 0.6 mg dry cells/mL. A limited volume of fresh methane/ air mixture was introduced continuously from a rubber gas bag  into  the  gas  reservoir.",
+        "document_offsets": {
+          "start": 6704,
+          "end": 8638
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 1,
+            "matched_text": "Cells"
+          },
+          {
+            "start": 249,
+            "end": 254,
+            "sentence_id": 2,
+            "matched_text": "cells"
+          },
+          {
+            "start": 1087,
+            "end": 1092,
+            "sentence_id": 8,
+            "matched_text": "cells"
+          },
+          {
+            "start": 1798,
+            "end": 1803,
+            "sentence_id": 13,
+            "matched_text": "cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 133,
+            "sentence_id": 1,
+            "matched_text": "12.9 mM phosphate buffer"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methane mixture",
+      "predicate": "is introduced to the flask",
+      "object": "through micro pores",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 14,
+        "sentence_end": 14,
+        "text_evidence": "Thereafter  the  mixture  was forced by an air pump through micro pores prepared in the bottom  of  reactor  and  dispersed  evenly  in  the  reaction mixture.",
+        "document_offsets": {
+          "start": 8638,
+          "end": 8799
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 52,
+            "end": 71,
+            "sentence_id": 14,
+            "matched_text": "through micro pores"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "B\u00dbCHI Rotavapor R-205",
+      "predicate": "is used for",
+      "object": "evaporation",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "concentrated  by  evaporation  (B\u00dbCHI  Rotavapor  R-205, Switzerland).",
+        "document_offsets": {
+          "start": 9099,
+          "end": 9169
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "evaporation"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "B\u00dbCHI Rotavapor R-205",
+      "predicate": "is located in",
+      "object": "Switzerland",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "concentrated  by  evaporation  (B\u00dbCHI  Rotavapor  R-205, Switzerland).",
+        "document_offsets": {
+          "start": 9099,
+          "end": 9169
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 68,
+            "sentence_id": 0,
+            "matched_text": "Switzerland"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the cells",
+      "predicate": "were washed two times with",
+      "object": "water",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "Briefly, the cells in the each reaction mixtures were initially fixed with  glutaraldehyde,  added  to  the  medium  at  a  final concentration of 2% (v/v). The cells were then subjected to an  additional  fixation  using  1%  (w/v)  OsO 4 in  0.1  M cacodylate buffer, and washed two times with water. After dehydration in a series of alcohols, the cells were embedded  with  Epon  resin  and  polymerized  at  60 o C  for  18  h. Sections of 70 ~ 80 nm thickness were prepared using an ultramicrotome (LKB 2128",
+        "document_offsets": {
+          "start": 9354,
+          "end": 9866
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "the cells"
+          },
+          {
+            "start": 157,
+            "end": 166,
+            "sentence_id": 2,
+            "matched_text": "The cells"
+          },
+          {
+            "start": 346,
+            "end": 355,
+            "sentence_id": 3,
+            "matched_text": "the cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 296,
+            "end": 301,
+            "sentence_id": 2,
+            "matched_text": "water"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "the cells",
+      "predicate": "were subjected to an additional fixation using",
+      "object": "1% (w/v) OsO4 in 0.1 M cacodylate buffer",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "Briefly, the cells in the each reaction mixtures were initially fixed with  glutaraldehyde,  added  to  the  medium  at  a  final concentration of 2% (v/v). The cells were then subjected to an  additional  fixation  using  1%  (w/v)  OsO 4 in  0.1  M cacodylate buffer, and washed two times with water. After dehydration in a series of alcohols, the cells were embedded  with  Epon  resin  and  polymerized  at  60 o C  for  18  h. Sections of 70 ~ 80 nm thickness were prepared using an ultramicrotome (LKB 2128",
+        "document_offsets": {
+          "start": 9354,
+          "end": 9866
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "the cells"
+          },
+          {
+            "start": 157,
+            "end": 166,
+            "sentence_id": 2,
+            "matched_text": "The cells"
+          },
+          {
+            "start": 346,
+            "end": 355,
+            "sentence_id": 3,
+            "matched_text": "the cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "induced changes in",
+      "object": "M. trichosporium Ob3b",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "NaCl-induced  changes  in M.  trichosporium Ob3b  cell morphology  were  observed  using  transmission  electron microscopy (TEM), as described previously [11].",
+        "document_offsets": {
+          "start": 9193,
+          "end": 9353
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium Ob3b",
+      "predicate": "cell morphology was observed using",
+      "object": "transmission electron microscopy (TEM)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the sections",
+      "predicate": "were viewed with",
+      "object": "a JEOL JEM-2000F X2 TEM operating at 80 kV",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Ultratome; LKB) and viewed with a JEOL JEM-2000F X2 TEM operating at 80 kV.",
+        "document_offsets": {
+          "start": 9867,
+          "end": 9942
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 74,
+            "sentence_id": 4,
+            "matched_text": "a JEOL JEM-2000F X2 TEM operating at 80 kV"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the cells",
+      "predicate": "underwent dehydration in a series of alcohols",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "Briefly, the cells in the each reaction mixtures were initially fixed with  glutaraldehyde,  added  to  the  medium  at  a  final concentration of 2% (v/v). The cells were then subjected to an  additional  fixation  using  1%  (w/v)  OsO 4 in  0.1  M cacodylate buffer, and washed two times with water. After dehydration in a series of alcohols, the cells were embedded  with  Epon  resin  and  polymerized  at  60 o C  for  18  h. Sections of 70 ~ 80 nm thickness were prepared using an ultramicrotome (LKB 2128",
+        "document_offsets": {
+          "start": 9354,
+          "end": 9866
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "the cells"
+          },
+          {
+            "start": 157,
+            "end": 166,
+            "sentence_id": 2,
+            "matched_text": "The cells"
+          },
+          {
+            "start": 346,
+            "end": 355,
+            "sentence_id": 3,
+            "matched_text": "the cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the cells",
+      "predicate": "were initially fixed with",
+      "object": "glutaraldehyde",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "Briefly, the cells in the each reaction mixtures were initially fixed with  glutaraldehyde,  added  to  the  medium  at  a  final concentration of 2% (v/v). The cells were then subjected to an  additional  fixation  using  1%  (w/v)  OsO 4 in  0.1  M cacodylate buffer, and washed two times with water. After dehydration in a series of alcohols, the cells were embedded  with  Epon  resin  and  polymerized  at  60 o C  for  18  h. Sections of 70 ~ 80 nm thickness were prepared using an ultramicrotome (LKB 2128",
+        "document_offsets": {
+          "start": 9354,
+          "end": 9866
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "the cells"
+          },
+          {
+            "start": 157,
+            "end": 166,
+            "sentence_id": 2,
+            "matched_text": "The cells"
+          },
+          {
+            "start": 346,
+            "end": 355,
+            "sentence_id": 3,
+            "matched_text": "the cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 76,
+            "end": 90,
+            "sentence_id": 1,
+            "matched_text": "glutaraldehyde"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Epon resin",
+      "predicate": "was polymerized at",
+      "object": "60 o C for 18 h",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the medium",
+      "predicate": "had glutaraldehyde added to it at a final concentration of",
+      "object": "2% (v/v)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Briefly, the cells in the each reaction mixtures were initially fixed with  glutaraldehyde,  added  to  the  medium  at  a  final concentration of 2% (v/v).",
+        "document_offsets": {
+          "start": 9354,
+          "end": 9510
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Sections of 70 ~ 80 nm thickness",
+      "predicate": "were prepared using",
+      "object": "an ultramicrotome (LKB 2128 Ultratome; LKB)",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "After dehydration in a series of alcohols, the cells were embedded  with  Epon  resin  and  polymerized  at  60 o C  for  18  h. Sections of 70 ~ 80 nm thickness were prepared using an ultramicrotome (LKB 2128",
+        "document_offsets": {
+          "start": 9657,
+          "end": 9866
+        },
+        "subject_positions": [
+          {
+            "start": 129,
+            "end": 161,
+            "sentence_id": 3,
+            "matched_text": "Sections of 70 ~ 80 nm thickness"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the cells",
+      "predicate": "were embedded with",
+      "object": "Epon resin",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "Briefly, the cells in the each reaction mixtures were initially fixed with  glutaraldehyde,  added  to  the  medium  at  a  final concentration of 2% (v/v). The cells were then subjected to an  additional  fixation  using  1%  (w/v)  OsO 4 in  0.1  M cacodylate buffer, and washed two times with water. After dehydration in a series of alcohols, the cells were embedded  with  Epon  resin  and  polymerized  at  60 o C  for  18  h. Sections of 70 ~ 80 nm thickness were prepared using an ultramicrotome (LKB 2128",
+        "document_offsets": {
+          "start": 9354,
+          "end": 9866
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "the cells"
+          },
+          {
+            "start": 157,
+            "end": 166,
+            "sentence_id": 2,
+            "matched_text": "The cells"
+          },
+          {
+            "start": 346,
+            "end": 355,
+            "sentence_id": 3,
+            "matched_text": "the cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Higher concentrations, however, caused",
+      "predicate": "the slime layer to disappear and disrupted the intracytoplasmic membrane structure",
+      "object": "Fig. 2",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Higher concentrations,  however,  caused  the  slime  layer  to  disappear and disrupted the intracytoplasmic membrane structure  (Fig. 2).",
+        "document_offsets": {
+          "start": 10556,
+          "end": 10697
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 131,
+            "end": 137,
+            "sentence_id": 4,
+            "matched_text": "Fig. 2"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The reduction in pMMO activity seen with high NaCl concentrations might be as a result of",
+      "predicate": "disruptions in the slime layer that allow direct contact of pMMO with oxygen",
+      "object": ""
+    },
+    {
+      "subject": "The optimal conditions",
+      "predicate": "include",
+      "object": "200 mM NaCl, 20 mM sodium formate, 0.6 mg dry cells/mL, 12.9 mM phosphate buffer (pH 7.0), at 25\u00b0C",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Our previous study established the optimal conditions for methanol  biosynthesis  by M.  trichosporium OB3b:  200 mM NaCl, 20 mM sodium formate, 0.6 mg dry cells/mL, 12.9  mM  phosphate  buffer  (pH  7.0),  at  25\u00b0C  [4].",
+        "document_offsets": {
+          "start": 9988,
+          "end": 10211
+        },
+        "subject_positions": [
+          {
+            "start": 31,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "the optimal conditions"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Under these conditions",
+      "predicate": "M. trichosporium OB3b accumulated",
+      "object": "a maximum concentration of 7.7 mM methanol after a 36 h reaction",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Under these  conditions, M.  trichosporium OB3b  accumulated  a maximum concentration of 7.7 mM methanol after a 36 h reaction.",
+        "document_offsets": {
+          "start": 10211,
+          "end": 10338
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 126,
+            "sentence_id": 1,
+            "matched_text": "a maximum concentration of 7.7 mM methanol after a 36 h reaction"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "To observe the effect of NaCl on cell morphology",
+      "predicate": "the ultra-structural features of M. trichosporium OB3b were observed by TEM",
+      "object": ""
+    },
+    {
+      "subject": "Our previous study",
+      "predicate": "established",
+      "object": "the optimal conditions for methanol biosynthesis by M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Our previous study established the optimal conditions for methanol  biosynthesis  by M.  trichosporium OB3b:  200 mM NaCl, 20 mM sodium formate, 0.6 mg dry cells/mL, 12.9  mM  phosphate  buffer  (pH  7.0),  at  25\u00b0C  [4].",
+        "document_offsets": {
+          "start": 9988,
+          "end": 10211
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 0,
+            "matched_text": "Our previous study"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "These results indicate that the optimum NaCl concentration for stable methanol production should be lower than",
+      "predicate": "200 mM",
+      "object": ""
+    },
+    {
+      "subject": "At the same time, NaCl inhibits the transfer",
+      "predicate": "of electrons from MDH to cytochrome c L in the process of methanol oxidation",
+      "object": ""
+    },
+    {
+      "subject": "We found that MDH and pMMO activities were reduced by",
+      "predicate": "%",
+      "object": "55 and 30%, respectively, in the presence of 200 mM NaCl",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "We  found  that  MDH  and  pMMO  activities were reduced by 55 and 30%, respectively, in the presence of 200 mM NaCl, but were reduced by only 25 and 20%, respectively, at 100 mM NaCl.",
+        "document_offsets": {
+          "start": 10697,
+          "end": 10881
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 116,
+            "sentence_id": 5,
+            "matched_text": "55 and 30%, respectively, in the presence of 200 mM NaCl"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "But were reduced by only",
+      "predicate": "%",
+      "object": "25 and 20%, respectively, at 100 mM NaCl",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "We  found  that  MDH  and  pMMO  activities were reduced by 55 and 30%, respectively, in the presence of 200 mM NaCl, but were reduced by only 25 and 20%, respectively, at 100 mM NaCl.",
+        "document_offsets": {
+          "start": 10697,
+          "end": 10881
+        },
+        "subject_positions": [
+          {
+            "start": 118,
+            "end": 142,
+            "sentence_id": 5,
+            "matched_text": "but were reduced by only"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 143,
+            "end": 183,
+            "sentence_id": 5,
+            "matched_text": "25 and 20%, respectively, at 100 mM NaCl"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "At a concentration of 100 mM, NaCl",
+      "predicate": "did not affect the normal cell morphology",
+      "object": ""
+    },
+    {
+      "subject": "To preserve the activity of pMMO",
+      "predicate": "the purification procedure should be done under anoxic conditions",
+      "object": ""
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "decreases concentration-related",
+      "object": "methanol production",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "To reduce the concentration of NaCl below the 200 mM level used in our previous work, EDTA was added as a coinhibitor of MDH. Because of EDTA is known to inhibit the transfer of electrons from MDH to cytochrome c L ,  by reacting with lysyl residues on MDH 3 shows the effects of different concentrations of EDTA and NaCl on the  production  of  methanol  in  a  20  mL  batch  reactor. In\n\n+ 51\n\nB\n\n100\n\n14\n\n2 Springer\n\n12\n\n80 -\n\n10\n\n60\n\n8\n\n6\n\n40\n\n2\n\n0\n\n0\n\nMethanol (mMI)\n\nMethanol (mM)\n\nRelative activity (%)\n\n0\n\npMMO activity\n\nO Methanol production\n\nA\n\nB\n\nE\n\nInhibitors\n\nF\n\n5\n\nInitial methanol concentration (mM)\n\n20\n\n4\n\n8\n\n12\n\n16\n\nTime (h)\n\n20\n\n24\n\n28\n\nthis  experiment,  the  highest  methanol  production  was achieved  using  100  mM  NaCl  and  1  mM  EDTA. There was a concentration-related decrease in methanol production  when  EDTA was increased to 2  and  3  mM. This  is likely due to the effects of EDTA on metalloprotein enzymes such as MDH and pMMO, whose activities are inhibited by the metal chelator. The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 11492,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 137,
+            "end": 141,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 319,
+            "end": 323,
+            "sentence_id": 4,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 772,
+            "end": 776,
+            "sentence_id": 5,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 852,
+            "end": 856,
+            "sentence_id": 6,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 927,
+            "end": 931,
+            "sentence_id": 7,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 1262,
+            "end": 1266,
+            "sentence_id": 9,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 544,
+            "end": 563,
+            "sentence_id": 5,
+            "matched_text": "Methanol production"
+          },
+          {
+            "start": 825,
+            "end": 844,
+            "sentence_id": 6,
+            "matched_text": "methanol production"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate",
+      "predicate": "peaked at",
+      "object": "13.2 mM methanol after 12 h",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 12640,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 144,
+            "sentence_id": 9,
+            "matched_text": "100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 155,
+            "end": 182,
+            "sentence_id": 9,
+            "matched_text": "13.2 mM methanol after 12 h"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "100 mM NaCl and 1 mM EDTA",
+      "predicate": "achieved in this experiment",
+      "object": "highest methanol production",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "NaCl",
+      "predicate": "used in this experiment",
+      "object": "highest methanol production",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "To reduce the concentration of NaCl below the 200 mM level used in our previous work, EDTA was added as a coinhibitor of MDH. 3 shows the effects of different concentrations of EDTA and NaCl on the  production  of  methanol  in  a  20  mL  batch  reactor. In\n\n+ 51\n\nB\n\n100\n\n14\n\n2 Springer\n\n12\n\n80 -\n\n10\n\n60\n\n8\n\n6\n\n40\n\n2\n\n0\n\n0\n\nMethanol (mMI)\n\nMethanol (mM)\n\nRelative activity (%)\n\n0\n\npMMO activity\n\nO Methanol production\n\nA\n\nB\n\nE\n\nInhibitors\n\nF\n\n5\n\nInitial methanol concentration (mM)\n\n20\n\n4\n\n8\n\n12\n\n16\n\nTime (h)\n\n20\n\n24\n\n28\n\nthis  experiment,  the  highest  methanol  production  was achieved  using  100  mM  NaCl  and  1  mM  EDTA. The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 11492,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 31,
+            "end": 35,
+            "sentence_id": 0,
+            "matched_text": "NaCl"
+          },
+          {
+            "start": 328,
+            "end": 332,
+            "sentence_id": 4,
+            "matched_text": "NaCl"
+          },
+          {
+            "start": 754,
+            "end": 758,
+            "sentence_id": 5,
+            "matched_text": "NaCl"
+          },
+          {
+            "start": 1251,
+            "end": 1255,
+            "sentence_id": 9,
+            "matched_text": "NaCl"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "inhibits the activity of",
+      "object": "metalloprotein enzymes such as MDH and pMMO",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "To reduce the concentration of NaCl below the 200 mM level used in our previous work, EDTA was added as a coinhibitor of MDH. Because of EDTA is known to inhibit the transfer of electrons from MDH to cytochrome c L ,  by reacting with lysyl residues on MDH 3 shows the effects of different concentrations of EDTA and NaCl on the  production  of  methanol  in  a  20  mL  batch  reactor. In\n\n+ 51\n\nB\n\n100\n\n14\n\n2 Springer\n\n12\n\n80 -\n\n10\n\n60\n\n8\n\n6\n\n40\n\n2\n\n0\n\n0\n\nMethanol (mMI)\n\nMethanol (mM)\n\nRelative activity (%)\n\n0\n\npMMO activity\n\nO Methanol production\n\nA\n\nB\n\nE\n\nInhibitors\n\nF\n\n5\n\nInitial methanol concentration (mM)\n\n20\n\n4\n\n8\n\n12\n\n16\n\nTime (h)\n\n20\n\n24\n\n28\n\nthis  experiment,  the  highest  methanol  production  was achieved  using  100  mM  NaCl  and  1  mM  EDTA. There was a concentration-related decrease in methanol production  when  EDTA was increased to 2  and  3  mM. This  is likely due to the effects of EDTA on metalloprotein enzymes such as MDH and pMMO, whose activities are inhibited by the metal chelator. The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 11492,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 137,
+            "end": 141,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 319,
+            "end": 323,
+            "sentence_id": 4,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 772,
+            "end": 776,
+            "sentence_id": 5,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 852,
+            "end": 856,
+            "sentence_id": 6,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 927,
+            "end": 931,
+            "sentence_id": 7,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 1262,
+            "end": 1266,
+            "sentence_id": 9,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 935,
+            "end": 978,
+            "sentence_id": 7,
+            "matched_text": "metalloprotein enzymes such as MDH and pMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "is added as a coinhibitor of",
+      "object": "MDH",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "To reduce the concentration of NaCl below the 200 mM level used in our previous work, EDTA was added as a coinhibitor of MDH. Because of EDTA is known to inhibit the transfer of electrons from MDH to cytochrome c L ,  by reacting with lysyl residues on MDH 3 shows the effects of different concentrations of EDTA and NaCl on the  production  of  methanol  in  a  20  mL  batch  reactor. In\n\n+ 51\n\nB\n\n100\n\n14\n\n2 Springer\n\n12\n\n80 -\n\n10\n\n60\n\n8\n\n6\n\n40\n\n2\n\n0\n\n0\n\nMethanol (mMI)\n\nMethanol (mM)\n\nRelative activity (%)\n\n0\n\npMMO activity\n\nO Methanol production\n\nA\n\nB\n\nE\n\nInhibitors\n\nF\n\n5\n\nInitial methanol concentration (mM)\n\n20\n\n4\n\n8\n\n12\n\n16\n\nTime (h)\n\n20\n\n24\n\n28\n\nthis  experiment,  the  highest  methanol  production  was achieved  using  100  mM  NaCl  and  1  mM  EDTA. There was a concentration-related decrease in methanol production  when  EDTA was increased to 2  and  3  mM. This  is likely due to the effects of EDTA on metalloprotein enzymes such as MDH and pMMO, whose activities are inhibited by the metal chelator. The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 11492,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 137,
+            "end": 141,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 319,
+            "end": 323,
+            "sentence_id": 4,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 772,
+            "end": 776,
+            "sentence_id": 5,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 852,
+            "end": 856,
+            "sentence_id": 6,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 927,
+            "end": 931,
+            "sentence_id": 7,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 1262,
+            "end": 1266,
+            "sentence_id": 9,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "MDH"
+          },
+          {
+            "start": 193,
+            "end": 196,
+            "sentence_id": 1,
+            "matched_text": "MDH"
+          },
+          {
+            "start": 253,
+            "end": 256,
+            "sentence_id": 1,
+            "matched_text": "MDH"
+          },
+          {
+            "start": 966,
+            "end": 969,
+            "sentence_id": 7,
+            "matched_text": "MDH"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate",
+      "predicate": "treated in the batch reaction for methanol synthesis from methane",
+      "object": "cell suspension",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 12640,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 144,
+            "sentence_id": 9,
+            "matched_text": "100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 37,
+            "end": 52,
+            "sentence_id": 9,
+            "matched_text": "cell suspension"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "is known to inhibit the transfer of electrons from",
+      "object": "MDH to cytochrome c L",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "To reduce the concentration of NaCl below the 200 mM level used in our previous work, EDTA was added as a coinhibitor of MDH. Because of EDTA is known to inhibit the transfer of electrons from MDH to cytochrome c L ,  by reacting with lysyl residues on MDH 3 shows the effects of different concentrations of EDTA and NaCl on the  production  of  methanol  in  a  20  mL  batch  reactor. In\n\n+ 51\n\nB\n\n100\n\n14\n\n2 Springer\n\n12\n\n80 -\n\n10\n\n60\n\n8\n\n6\n\n40\n\n2\n\n0\n\n0\n\nMethanol (mMI)\n\nMethanol (mM)\n\nRelative activity (%)\n\n0\n\npMMO activity\n\nO Methanol production\n\nA\n\nB\n\nE\n\nInhibitors\n\nF\n\n5\n\nInitial methanol concentration (mM)\n\n20\n\n4\n\n8\n\n12\n\n16\n\nTime (h)\n\n20\n\n24\n\n28\n\nthis  experiment,  the  highest  methanol  production  was achieved  using  100  mM  NaCl  and  1  mM  EDTA. There was a concentration-related decrease in methanol production  when  EDTA was increased to 2  and  3  mM. This  is likely due to the effects of EDTA on metalloprotein enzymes such as MDH and pMMO, whose activities are inhibited by the metal chelator. The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 11492,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 137,
+            "end": 141,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 319,
+            "end": 323,
+            "sentence_id": 4,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 772,
+            "end": 776,
+            "sentence_id": 5,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 852,
+            "end": 856,
+            "sentence_id": 6,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 927,
+            "end": 931,
+            "sentence_id": 7,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 1262,
+            "end": 1266,
+            "sentence_id": 9,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 193,
+            "end": 214,
+            "sentence_id": 1,
+            "matched_text": "MDH to cytochrome c L"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "reacts with lysyl residues on",
+      "object": "MDH",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "To reduce the concentration of NaCl below the 200 mM level used in our previous work, EDTA was added as a coinhibitor of MDH. Because of EDTA is known to inhibit the transfer of electrons from MDH to cytochrome c L ,  by reacting with lysyl residues on MDH 3 shows the effects of different concentrations of EDTA and NaCl on the  production  of  methanol  in  a  20  mL  batch  reactor. In\n\n+ 51\n\nB\n\n100\n\n14\n\n2 Springer\n\n12\n\n80 -\n\n10\n\n60\n\n8\n\n6\n\n40\n\n2\n\n0\n\n0\n\nMethanol (mMI)\n\nMethanol (mM)\n\nRelative activity (%)\n\n0\n\npMMO activity\n\nO Methanol production\n\nA\n\nB\n\nE\n\nInhibitors\n\nF\n\n5\n\nInitial methanol concentration (mM)\n\n20\n\n4\n\n8\n\n12\n\n16\n\nTime (h)\n\n20\n\n24\n\n28\n\nthis  experiment,  the  highest  methanol  production  was achieved  using  100  mM  NaCl  and  1  mM  EDTA. There was a concentration-related decrease in methanol production  when  EDTA was increased to 2  and  3  mM. This  is likely due to the effects of EDTA on metalloprotein enzymes such as MDH and pMMO, whose activities are inhibited by the metal chelator. The concentration of methanol in the cell suspension (100 mL, 0.6 mg dry cells/mL) treated with 100 mM NaCl, 1 mM EDTA, and 20 mM sodium formate peaked at 13.2 mM methanol after 12 h, and remained steady thereafter (Fig. 4).",
+        "document_offsets": {
+          "start": 11492,
+          "end": 12864
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 137,
+            "end": 141,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 319,
+            "end": 323,
+            "sentence_id": 4,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 772,
+            "end": 776,
+            "sentence_id": 5,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 852,
+            "end": 856,
+            "sentence_id": 6,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 927,
+            "end": 931,
+            "sentence_id": 7,
+            "matched_text": "EDTA"
+          },
+          {
+            "start": 1262,
+            "end": 1266,
+            "sentence_id": 9,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 124,
+            "sentence_id": 0,
+            "matched_text": "MDH"
+          },
+          {
+            "start": 193,
+            "end": 196,
+            "sentence_id": 1,
+            "matched_text": "MDH"
+          },
+          {
+            "start": 253,
+            "end": 256,
+            "sentence_id": 1,
+            "matched_text": "MDH"
+          },
+          {
+            "start": 966,
+            "end": 969,
+            "sentence_id": 7,
+            "matched_text": "MDH"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "High concentration of Methanol",
+      "predicate": "competitively inhibits",
+      "object": "MMO",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "It  has  been  reported  that  the  presence  of  a  low  concentration  of  methanol  improves  methane  oxidation  in  methanotrophic bacteria, whereas a high concentration of product  (methanol)  competitively  inhibits  MMO 5 shows  the  effect  of  initial  methanol  concentration  on pMMO activity in M. trichosporium OB3b, in the presence of 100 mM NaCl and 1 mM EDTA. Increasing the initial methanol concentration from 5 to 20 mM produced concentration-dependent  decreases  in  both  the  pMMO-catalyzed epoxidation of propene and the conversion of methane to methanol, indicating that high concentrations of methanol have an inhibitory effect on pMMO.",
+        "document_offsets": {
+          "start": 12868,
+          "end": 13543
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 224,
+            "end": 227,
+            "sentence_id": 0,
+            "matched_text": "MMO"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The results",
+      "predicate": "show that methanol synthesis was inhibited by approximately 60% at an initial methanol concentration of",
+      "object": "20 mM",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Increasing the initial methanol concentration from 5 to 20 mM produced concentration-dependent  decreases  in  both  the  pMMO-catalyzed epoxidation of propene and the conversion of methane to methanol, indicating that high concentrations of methanol have an inhibitory effect on pMMO. The results show that methanol synthesis was inhibited by approximately 60% at an  initial  methanol  concentration  of  20  mM.  This  result indicates that the removal of methanol accumulated in the reaction mixture is required in order to increase the overall methanol production.",
+        "document_offsets": {
+          "start": 13258,
+          "end": 13827
+        },
+        "subject_positions": [
+          {
+            "start": 286,
+            "end": 297,
+            "sentence_id": 5,
+            "matched_text": "The results"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 61,
+            "sentence_id": 4,
+            "matched_text": "20 mM"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The removal of methanol accumulated in the reaction mixture",
+      "predicate": "is required in order to increase",
+      "object": "the overall methanol production",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "The results show that methanol synthesis was inhibited by approximately 60% at an  initial  methanol  concentration  of  20  mM.  This  result indicates that the removal of methanol accumulated in the reaction mixture is required in order to increase the overall methanol production.",
+        "document_offsets": {
+          "start": 13544,
+          "end": 13827
+        },
+        "subject_positions": [
+          {
+            "start": 158,
+            "end": 217,
+            "sentence_id": 5,
+            "matched_text": "the removal of methanol accumulated in the reaction mixture"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 251,
+            "end": 282,
+            "sentence_id": 5,
+            "matched_text": "the overall methanol production"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "improves",
+      "object": "methane oxidation in methanotrophic bacteria",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "It  has  been  reported  that  the  presence  of  a  low  concentration  of  methanol  improves  methane  oxidation  in  methanotrophic bacteria, whereas a high concentration of product  (methanol)  competitively  inhibits  MMO 5 shows  the  effect  of  initial  methanol  concentration  on pMMO activity in M. trichosporium OB3b, in the presence of 100 mM NaCl and 1 mM EDTA. Increasing the initial methanol concentration from 5 to 20 mM produced concentration-dependent  decreases  in  both  the  pMMO-catalyzed epoxidation of propene and the conversion of methane to methanol, indicating that high concentrations of methanol have an inhibitory effect on pMMO. The results show that methanol synthesis was inhibited by approximately 60% at an  initial  methanol  concentration  of  20  mM.  This  result indicates that the removal of methanol accumulated in the reaction mixture is required in order to increase the overall methanol production.",
+        "document_offsets": {
+          "start": 12868,
+          "end": 13827
+        },
+        "subject_positions": [
+          {
+            "start": 77,
+            "end": 85,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 188,
+            "end": 196,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 276,
+            "end": 284,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 413,
+            "end": 421,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 583,
+            "end": 591,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 632,
+            "end": 640,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 698,
+            "end": 706,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 768,
+            "end": 776,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 849,
+            "end": 857,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 939,
+            "end": 947,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "High concentrations of Methanol",
+      "predicate": "have an inhibitory effect on",
+      "object": "pMMO",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "5 shows  the  effect  of  initial  methanol  concentration  on pMMO activity in M. trichosporium OB3b, in the presence of 100 mM NaCl and 1 mM EDTA. Increasing the initial methanol concentration from 5 to 20 mM produced concentration-dependent  decreases  in  both  the  pMMO-catalyzed epoxidation of propene and the conversion of methane to methanol, indicating that high concentrations of methanol have an inhibitory effect on pMMO.",
+        "document_offsets": {
+          "start": 13109,
+          "end": 13543
+        },
+        "subject_positions": [
+          {
+            "start": 368,
+            "end": 399,
+            "sentence_id": 4,
+            "matched_text": "high concentrations of methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "pMMO"
+          },
+          {
+            "start": 271,
+            "end": 275,
+            "sentence_id": 4,
+            "matched_text": "pMMO"
+          },
+          {
+            "start": 429,
+            "end": 433,
+            "sentence_id": 4,
+            "matched_text": "pMMO"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Increasing the initial methanol concentration",
+      "predicate": "produced concentration-dependent decreases",
+      "object": "both the pMMO-catalyzed epoxidation of propene and the conversion of methane to methanol",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Increasing the initial methanol concentration from 5 to 20 mM produced concentration-dependent  decreases  in  both  the  pMMO-catalyzed epoxidation of propene and the conversion of methane to methanol, indicating that high concentrations of methanol have an inhibitory effect on pMMO.",
+        "document_offsets": {
+          "start": 13258,
+          "end": 13543
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 45,
+            "sentence_id": 4,
+            "matched_text": "Increasing the initial methanol concentration"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "performs",
+      "object": "methanol synthesis",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "6 shows the time-dependent synthesis of methanol by M. trichosporium OB3b in the repeated batch mode.",
+        "document_offsets": {
+          "start": 13817,
+          "end": 13918
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 73,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Optimal reaction conditions",
+      "predicate": "are established in",
+      "object": "500 mL flask",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "After  establishing  the  optimal  reaction  conditions  in  a 500 mL flask, a larger lab-scale methanol production was carried out using a 3 L cylindrical reactor with a working volume of 1 L. There was no significant difference in the rate  of  cell  growth  between  lab-scale  reactor  and  flask (data  not  shown).",
+        "document_offsets": {
+          "start": 14440,
+          "end": 14762
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 75,
+            "sentence_id": 5,
+            "matched_text": "500 mL flask"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Larger lab-scale methanol production",
+      "predicate": "is carried out using",
+      "object": "3 L cylindrical reactor with a working volume of 1 L",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "After  establishing  the  optimal  reaction  conditions  in  a 500 mL flask, a larger lab-scale methanol production was carried out using a 3 L cylindrical reactor with a working volume of 1 L. There was no significant difference in the rate  of  cell  growth  between  lab-scale  reactor  and  flask (data  not  shown).",
+        "document_offsets": {
+          "start": 14440,
+          "end": 14762
+        },
+        "subject_positions": [
+          {
+            "start": 79,
+            "end": 115,
+            "sentence_id": 5,
+            "matched_text": "larger lab-scale methanol production"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 140,
+            "end": 192,
+            "sentence_id": 5,
+            "matched_text": "3 L cylindrical reactor with a working volume of 1 L"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Rate of cell growth",
+      "predicate": "is not significantly different between",
+      "object": "lab-scale reactor and flask",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The experiment",
+      "predicate": "spans over",
+      "object": "24 h period",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The 3 L reactor",
+      "predicate": "yields a methanol concentration of",
+      "object": "13.7 mM after 16 h",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Under  optimal  reaction  conditions,  the 3 L reactor yielded a methanol concentration of 13.7 mM after 16 h (Fig. 7).",
+        "document_offsets": {
+          "start": 14762,
+          "end": 14881
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 54,
+            "sentence_id": 6,
+            "matched_text": "the 3 L reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 91,
+            "end": 109,
+            "sentence_id": 6,
+            "matched_text": "13.7 mM after 16 h"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "operates in",
+      "object": "repeated batch mode",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "6 shows the time-dependent synthesis of methanol by M. trichosporium OB3b in the repeated batch mode.",
+        "document_offsets": {
+          "start": 13817,
+          "end": 13918
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 73,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 81,
+            "end": 100,
+            "sentence_id": 1,
+            "matched_text": "repeated batch mode"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Methanol production",
+      "predicate": "decreases for",
+      "object": "second and third cycles",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "While  there  was  a decrease in methanol production for the second and third cycles, productivity was 2.17 \u00b5 mol methanol/h/mg dry cell wt. After  establishing  the  optimal  reaction  conditions  in  a 500 mL flask, a larger lab-scale methanol production was carried out using a 3 L cylindrical reactor with a working volume of 1 L. There was no significant difference in the rate  of  cell  growth  between  lab-scale  reactor  and  flask (data  not  shown).",
+        "document_offsets": {
+          "start": 14031,
+          "end": 14762
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 52,
+            "sentence_id": 3,
+            "matched_text": "methanol production"
+          },
+          {
+            "start": 505,
+            "end": 524,
+            "sentence_id": 5,
+            "matched_text": "methanol production"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 84,
+            "sentence_id": 3,
+            "matched_text": "second and third cycles"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Each cycle",
+      "predicate": "lasts for",
+      "object": "8 h",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Productivity",
+      "predicate": "is",
+      "object": "2.17 \u00b5 mol methanol/h/mg dry cell wt.",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "While  there  was  a decrease in methanol production for the second and third cycles, productivity was 2.17 \u00b5 mol methanol/h/mg dry cell wt.",
+        "document_offsets": {
+          "start": 14031,
+          "end": 14173
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 98,
+            "sentence_id": 3,
+            "matched_text": "productivity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol production by repeated batch method",
+      "predicate": "affords higher overall yields than",
+      "object": "single batch",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Thus,  methanol  production  by  the  repeated  batch method affords higher overall yields than the single batch\n\nMethanol (mM)\n\nMethanol (mM)\n\n16\n\n2 Springer\n\n14\n\n12\n\n10\n\n10\n\n6\n\n2\n\n2\n\n0\n\n0\n\n0\n\n0\n\n4\n\n8\n\n12\n\nTime (h)\n\n16\n\n20\n\n24\n\n8\n\n12\n\nTime (h)\n\n16\n\n20\n\n24\n\nmethod.",
+        "document_offsets": {
+          "start": 14173,
+          "end": 14440
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 100,
+            "end": 112,
+            "sentence_id": 4,
+            "matched_text": "single batch"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "repeated batch methodology",
+      "predicate": "increases",
+      "object": "overall yield of methanol",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The use of repeated batch methodology increases the overall yield of methanol from a given cell biomass.",
+        "document_offsets": {
+          "start": 15225,
+          "end": 15329
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 37,
+            "sentence_id": 2,
+            "matched_text": "repeated batch methodology"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 52,
+            "end": 77,
+            "sentence_id": 2,
+            "matched_text": "overall yield of methanol"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "helps preserve",
+      "object": "cell morphology",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The introduction of EDTA helps preserve cell morphology, by reducing the requirement of NaCl in the  reaction  mixture,  and  increases  methanol  production from a single reaction.",
+        "document_offsets": {
+          "start": 15043,
+          "end": 15224
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 55,
+            "sentence_id": 1,
+            "matched_text": "cell morphology"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "increases",
+      "object": "methanol production",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The introduction of EDTA helps preserve cell morphology, by reducing the requirement of NaCl in the  reaction  mixture,  and  increases  methanol  production from a single reaction.",
+        "document_offsets": {
+          "start": 15043,
+          "end": 15224
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "EDTA",
+      "predicate": "reduces the requirement of",
+      "object": "NaCl in the reaction mixture",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The introduction of EDTA helps preserve cell morphology, by reducing the requirement of NaCl in the  reaction  mixture,  and  increases  methanol  production from a single reaction.",
+        "document_offsets": {
+          "start": 15043,
+          "end": 15224
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "EDTA"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium",
+      "predicate": "produces",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "In this study, we have introduced two new approaches for increasing  the  biological  production  of  methanol  by M. trichosporium beyond  those  obtainable  using  previously\n\ndefined methods. The introduction of EDTA helps preserve cell morphology, by reducing the requirement of NaCl in the  reaction  mixture,  and  increases  methanol  production from a single reaction. The use of repeated batch methodology increases the overall yield of methanol from a given cell biomass. These results provide straightforward means for  increasing  the  production  of  biological  methanol  and for  increasing the overall utility  of methane as an energy source.",
+        "document_offsets": {
+          "start": 14848,
+          "end": 15506
+        },
+        "subject_positions": [
+          {
+            "start": 115,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 102,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 332,
+            "end": 340,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 446,
+            "end": 454,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 576,
+            "end": 584,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Cox, J. M.",
+      "predicate": "co-authored with",
+      "object": "D. J. Day, C. Anthony (1992)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 43,
+        "sentence_end": 43,
+        "text_evidence": "Cox, J. M., D. J. Day, and C. Anthony (1992)",
+        "document_offsets": {
+          "start": 17329,
+          "end": 17373
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Furuto, T.",
+      "predicate": "co-authored",
+      "object": "Semicontinuous methanol biosynthesis by Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "Furuto, T., M. Takeguchi, and I. Okura (1999) Semicontinuous methanol biosynthesis by Methylosinus trichosporium OB3b.",
+        "document_offsets": {
+          "start": 15849,
+          "end": 15967
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 117,
+            "sentence_id": 10,
+            "matched_text": "Semicontinuous methanol biosynthesis by Methylosinus trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Mark, A. C.",
+      "predicate": "co-authored with",
+      "object": "M. H. Kevin, A. P. Roy, W. J. Colin (1984)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 22,
+        "sentence_end": 22,
+        "text_evidence": "Mark, A. C., M. H. Kevin, A. P. Roy, and W. J. Colin (1984)",
+        "document_offsets": {
+          "start": 16211,
+          "end": 16270
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Cox, J. M.",
+      "predicate": "studied",
+      "object": "The interaction of methanol dehydrogenase and its electron acceptor, cytochrome c in methylotrophic bacteria",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "multi_sentence",
+        "sentence_start": 43,
+        "sentence_end": 44,
+        "text_evidence": "Cox, J. M., D. J. Day, and C. Anthony (1992) The interaction of methanol dehydrogenase and its electron acceptor, cytochrome c in methylotrophic bacteria.",
+        "document_offsets": {
+          "start": 17329,
+          "end": 17483
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 153,
+            "sentence_id": 44,
+            "matched_text": "The interaction of methanol dehydrogenase and its electron acceptor, cytochrome c in methylotrophic bacteria"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Johannes, F. J.",
+      "predicate": "co-authored with",
+      "object": "H. K. Simon, P. E. J. V erwiel, A. J. Jacob, C. M. Antonia,  and  A.  D.  Johannis (1989)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "Johannes, F. J., H. K. Simon, P. E. J. V erwiel, A. J. Jacob, C. M. Antonia,  and  A.  D.  Johannis  (1989)",
+        "document_offsets": {
+          "start": 16453,
+          "end": 16562
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Lee, S. G .",
+      "predicate": "co-authored",
+      "object": "Optimization of methanol biosynthesis from methane using Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "Lee, S. G ., J. H. Goo, H. G .",
+        "document_offsets": {
+          "start": 16007,
+          "end": 16037
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Takeguchi, M.",
+      "predicate": "co-authored",
+      "object": "Optimization of methanol biosynthesis by Methylosinus trichosporium OB3b: An approach to improve methanol accumulation",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Takeguchi, M.",
+      "predicate": "co-authored with",
+      "object": "T. Furuto, D. Sugimori, I. Okura (1997)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Johannes, F. J.",
+      "predicate": "studied",
+      "object": "On the mechanism of inhibition of methanol dehydrogenase by cyclopropane-derived inhibitors",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "Johannes, F. J., H. K. Simon, P. E. J. V erwiel, A. J. Jacob, C. M. Antonia,  and  A.  D.  Johannis  (1989)",
+        "document_offsets": {
+          "start": 16453,
+          "end": 16562
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Burrows, K. J.",
+      "predicate": "studied",
+      "object": "Substrate specificities of the soluble and particulate methane mono-oxygenases of Methylosinus trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 39,
+        "sentence_end": 39,
+        "text_evidence": "Burrows, K. J., A. Cornish, D. Scott, and I. J. Higgins (1984)",
+        "document_offsets": {
+          "start": 17108,
+          "end": 17170
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Lee, S. G .",
+      "predicate": "co-authored with",
+      "object": "J. H. Goo, H. G . Kim, J. -I. Oh, Y . M. Kim, S. W. Kim (2004)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "Lee, S. G ., J. H. Goo, H. G .",
+        "document_offsets": {
+          "start": 16007,
+          "end": 16037
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "L 11. Kim, H. G .",
+      "predicate": "studied",
+      "object": "Isolation and taxonomic characterization of a novel type I methanotrophic bacterium",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Kim, H. G .",
+      "predicate": "co-authored with",
+      "object": "S. W. Kim (2006)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Jensen, S.",
+      "predicate": "studied",
+      "object": "Methanol improves methane uptake in starved methanotrophic microorganisms",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 58,
+        "sentence_end": 58,
+        "text_evidence": "Jensen, S., A. Prieme, and L. Bakken (1998) Methanol improves methane  uptake  in  starved  methanotrophic  microorganisms.",
+        "document_offsets": {
+          "start": 17859,
+          "end": 17982
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shimoda, M.",
+      "predicate": "co-authored with",
+      "object": "I. Okura (1991)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "L 11. Kim, H. G .",
+      "predicate": "co-authored with",
+      "object": "G . H. Han, C. Y . Eom, S. W. Kim (2008)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Dales, S. L.",
+      "predicate": "studied",
+      "object": "The interaction of methanol dehydrogenase and its cytochrome electron acceptor",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "multi_sentence",
+        "sentence_start": 54,
+        "sentence_end": 55,
+        "text_evidence": "Dales, S. L. and C. Anthony (1995) The interaction of methanol dehydrogenase and its cytochrome electron acceptor.",
+        "document_offsets": {
+          "start": 17717,
+          "end": 17831
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 113,
+            "sentence_id": 55,
+            "matched_text": "The interaction of methanol dehydrogenase and its cytochrome electron acceptor"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Furuto, T.",
+      "predicate": "co-authored with",
+      "object": "M. Takeguchi, I. Okura (1999)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "Furuto, T., M. Takeguchi, and I. Okura (1999) Semicontinuous methanol biosynthesis by Methylosinus trichosporium OB3b.",
+        "document_offsets": {
+          "start": 15849,
+          "end": 15967
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Jensen, S.",
+      "predicate": "co-authored with",
+      "object": "A. Prieme, L. Bakken (1998)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 58,
+        "sentence_end": 58,
+        "text_evidence": "Jensen, S., A. Prieme, and L. Bakken (1998) Methanol improves methane  uptake  in  starved  methanotrophic  microorganisms.",
+        "document_offsets": {
+          "start": 17859,
+          "end": 17982
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Dales, S. L.",
+      "predicate": "co-authored with",
+      "object": "C. Anthony (1995)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 54,
+        "sentence_end": 54,
+        "text_evidence": "Dales, S. L. and C. Anthony (1995)",
+        "document_offsets": {
+          "start": 17717,
+          "end": 17751
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shimoda, M.",
+      "predicate": "studied",
+      "object": "Selective inhibition of methanol dehydrogenase from Methylosinus trichosporium (OB3b) by cyclopropanol",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Burrows, K. J.",
+      "predicate": "co-authored with",
+      "object": "A. Cornish, D. Scott, I. J. Higgins (1984)",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 39,
+        "sentence_end": 39,
+        "text_evidence": "Burrows, K. J., A. Cornish, D. Scott, and I. J. Higgins (1984)",
+        "document_offsets": {
+          "start": 17108,
+          "end": 17170
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Kim, H. G .",
+      "predicate": "studied",
+      "object": "Purification and characterization of a methanol dehydrogenase derived from Methylomicrobium sp. HG-1 cultivated using a compulsory circulation diffusion system",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Anthony",
+      "predicate": "authored",
+      "object": "1986 Bacterial oxidation of methane and methanol",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 54,
+        "text_evidence": "Anthony,  C.  (1986)  Bacterial  oxidation  of  methane  and  methanol. Cox, J. M., D. J. Day, and C. Anthony (1992) Dales, S. L. and C. Anthony (1995)",
+        "document_offsets": {
+          "start": 15507,
+          "end": 17751
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Anthony"
+          },
+          {
+            "start": 1852,
+            "end": 1859,
+            "sentence_id": 43,
+            "matched_text": "Anthony"
+          },
+          {
+            "start": 2230,
+            "end": 2237,
+            "sentence_id": 54,
+            "matched_text": "Anthony"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Mark, A. C.",
+      "predicate": "studied",
+      "object": "The effect of EDTA and related chelating agents on the oxidation of methanol by the methylotrophic bacterium, Methylophilus methylotrophus .",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 22,
+        "sentence_end": 22,
+        "text_evidence": "Mark, A. C., M. H. Kevin, A. P. Roy, and W. J. Colin (1984)",
+        "document_offsets": {
+          "start": 16211,
+          "end": 16270
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    }
+  ]
+}

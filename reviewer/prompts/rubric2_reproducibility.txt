@@ -1,0 +1,49 @@
+RUBRIC 2 – Reproducibility & Traceability
+
+Goal:
+Determine whether materials, biological entities, and data can be sourced and replicated independently.
+
+---------------------------------------------------
+TIER 1 – Material & Reagent Traceability (Critical Layer)
+---------------------------------------------------
+Check for:
+- Each chemical/reagent lists name, supplier, and catalog/batch number.
+- Strains/plasmids/cell lines include collection and identifier (e.g., ATCC 3153).
+- Buffers and media traceable to cited or described compositions.
+- Commercial kits include name and supplier.
+- Instrument model/manufacturer mentioned for key steps.
+
+Cross-links:
+Depends on *Transparency Tier 1* data and informs *Data Consistency*.
+
+---------------------------------------------------
+TIER 2 – Procedural Reproducibility (Supportive Layer)
+---------------------------------------------------
+Check for:
+- Logical sequence of steps for reproduction.
+- Citations of standard or published methods.
+- Environmental and setup conditions reported or referenced.
+- Distinction between biological and technical replicates.
+
+Cross-links:
+Overlaps *Scientific Rigor* (replicate design) and *Transparency Tier 2* (context).
+
+---------------------------------------------------
+TIER 3 – Verification & Accessibility (Integrative Layer)
+---------------------------------------------------
+Check for:
+- Raw/processed data availability (supplement, repository).
+- Repository IDs or accession numbers (GenBank, Addgene, PDB).
+- Code or analysis pipeline DOI/version.
+- Internal validation (“performed twice independently”).
+- Legal/ethical compliance for material sourcing.
+
+Cross-links:
+Supports *Data Completeness & Consistency* and *Presentation*.
+
+---------------------------------------------------
+Output Format
+✅ Good Practices
+⚠️ Missing / Weak Points
+💡 Improvement Suggestions
+---------------------------------------------------

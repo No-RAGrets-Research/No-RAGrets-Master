@@ -1,0 +1,112 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 5,
+    "relations": 3,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Hou et al. 1984.json",
+    "processed_at": "2025-11-24T00:05:16.780415"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "produces",
+      "object": "Propyleneoxide",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Microbes | Propyleneoxideproduced (~mol/20 mg cells) | Propyleneoxideproduced (~mol/20 mg cells) | Propyleneoxideproduced (~mol/20 mg cells) CRL M1 | 120 | 18 | 6\nMethylosinus trichosporium OB3b | 135 | 40 | 10",
+        "document_offsets": {
+          "start": 0,
+          "end": 314
+        },
+        "subject_positions": [
+          {
+            "start": 267,
+            "end": 298,
+            "sentence_id": 3,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 306.73822021484375,
+          "t": 332.9363098144531,
+          "r": 538.5498657226562,
+          "b": 216.702880859375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylosinus sp.CRL 31",
+      "predicate": "produces",
+      "object": "Propyleneoxide",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbes | Propyleneoxideproduced (~mol/20 mg cells) | Propyleneoxideproduced (~mol/20 mg cells) | Propyleneoxideproduced (~mol/20 mg cells)",
+        "document_offsets": {
+          "start": 0,
+          "end": 141
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 306.73822021484375,
+          "t": 332.9363098144531,
+          "r": 538.5498657226562,
+          "b": 216.702880859375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylococussp.CRL M1",
+      "predicate": "produces",
+      "object": "Propyleneoxide",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Microbes | Propyleneoxideproduced (~mol/20 mg cells) | Propyleneoxideproduced (~mol/20 mg cells) | Propyleneoxideproduced (~mol/20 mg cells)",
+        "document_offsets": {
+          "start": 0,
+          "end": 141
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 306.73822021484375,
+          "t": 332.9363098144531,
+          "r": 538.5498657226562,
+          "b": 216.702880859375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Methylosinus trichosporium OB3b",
+    "Methylococussp.CRL M1",
+    "Methylosinus sp.CRL 31",
+    "Microbes",
+    "Propyleneoxide"
+  ]
+}

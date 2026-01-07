@@ -1,0 +1,3570 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 122,
+    "relations": 78,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Wohlgemuth et al. 2015.json",
+    "processed_at": "2025-11-24T01:03:11.344636"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Reaction",
+      "predicate": "involves",
+      "object": "reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 9,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate | [49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 76,
+          "end": 2033
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Reaction"
+          },
+          {
+            "start": 1304,
+            "end": 1312,
+            "sentence_id": 6,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1604,
+            "end": 1612,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1788,
+            "end": 1849,
+            "sentence_id": 9,
+            "matched_text": "Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biocatalyst",
+      "predicate": "is",
+      "object": "crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate |",
+        "document_offsets": {
+          "start": 76,
+          "end": 677
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 2,
+            "matched_text": "Biocatalyst"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 321,
+            "end": 404,
+            "sentence_id": 2,
+            "matched_text": "Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conventional stirred-tank reactor",
+      "predicate": "achieves",
+      "object": "39.5 wt% acrylamide in 245 min",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "[90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale |",
+        "document_offsets": {
+          "start": 2034,
+          "end": 2393
+        },
+        "subject_positions": [
+          {
+            "start": 261,
+            "end": 294,
+            "sentence_id": 10,
+            "matched_text": "conventional stirred-tank reactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Liquid/liquid two-phase system",
+      "predicate": "includes",
+      "object": "Phosphate aqueous buffer/ isooctane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | [17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio |",
+        "document_offsets": {
+          "start": 76,
+          "end": 1078
+        },
+        "subject_positions": [
+          {
+            "start": 149,
+            "end": 179,
+            "sentence_id": 2,
+            "matched_text": "Liquid/liquid two-phase system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 607,
+            "end": 642,
+            "sentence_id": 3,
+            "matched_text": "Phosphate aqueous buffer/ isooctane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Productivity",
+      "predicate": "reaches",
+      "object": "volumetric productivity of up to 48 mmol/(l.h)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 9,
+        "text_evidence": "[17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | [49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 678,
+          "end": 2033
+        },
+        "subject_positions": [
+          {
+            "start": 345,
+            "end": 357,
+            "sentence_id": 3,
+            "matched_text": "productivity"
+          },
+          {
+            "start": 632,
+            "end": 644,
+            "sentence_id": 6,
+            "matched_text": "productivity"
+          },
+          {
+            "start": 1261,
+            "end": 1273,
+            "sentence_id": 9,
+            "matched_text": "productivity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microscale reactor",
+      "predicate": "achieves",
+      "object": "up to 45.8 wt% acrylamide in 35 min",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 11,
+        "text_evidence": "[90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale | [91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2034,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 204,
+            "end": 222,
+            "sentence_id": 10,
+            "matched_text": "Microscale reactor"
+          },
+          {
+            "start": 511,
+            "end": 529,
+            "sentence_id": 11,
+            "matched_text": "Microscale reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 224,
+            "end": 259,
+            "sentence_id": 10,
+            "matched_text": "up to 45.8 wt% acrylamide in 35 min"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Productivity",
+      "predicate": "reaches",
+      "object": "volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 9,
+        "text_evidence": "[17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | [49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 678,
+          "end": 2033
+        },
+        "subject_positions": [
+          {
+            "start": 345,
+            "end": 357,
+            "sentence_id": 3,
+            "matched_text": "productivity"
+          },
+          {
+            "start": 632,
+            "end": 644,
+            "sentence_id": 6,
+            "matched_text": "productivity"
+          },
+          {
+            "start": 1261,
+            "end": 1273,
+            "sentence_id": 9,
+            "matched_text": "productivity"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 621,
+            "end": 710,
+            "sentence_id": 6,
+            "matched_text": "Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "involves",
+      "object": "stereoselective reduction of a / b -activated alkenes + NADPH regeneration",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | [17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 76,
+          "end": 1695
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Reaction"
+          },
+          {
+            "start": 1304,
+            "end": 1312,
+            "sentence_id": 6,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1604,
+            "end": 1612,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 853,
+            "end": 927,
+            "sentence_id": 3,
+            "matched_text": "Stereoselective reduction of a / b -activated alkenes + NADPH regeneration"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conventional bubble column",
+      "predicate": "achieves",
+      "object": "27% final conversion",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "[91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2394,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 207,
+            "end": 233,
+            "sentence_id": 11,
+            "matched_text": "conventional bubble column"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 235,
+            "end": 255,
+            "sentence_id": 11,
+            "matched_text": "27% final conversion"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "involves",
+      "object": "C-C bond formation for the synthesis of various enantiopure cyanohydrins",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 76,
+          "end": 1695
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Reaction"
+          },
+          {
+            "start": 1304,
+            "end": 1312,
+            "sentence_id": 6,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1604,
+            "end": 1612,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 407,
+            "end": 479,
+            "sentence_id": 2,
+            "matched_text": "C-C bond formation for the synthesis of various enantiopure cyanohydrins"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Maximum reaction rate",
+      "predicate": "is increased by",
+      "object": "30-fold",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 1438,
+          "end": 1695
+        },
+        "subject_positions": [
+          {
+            "start": 234,
+            "end": 255,
+            "sentence_id": 8,
+            "matched_text": "maximum reaction rate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 219,
+            "end": 226,
+            "sentence_id": 8,
+            "matched_text": "30-fold"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor",
+      "predicate": "is",
+      "object": "Falling film microreactor",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "| Microreactor characteristics | Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | [90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale | [91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 43,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "Microreactor"
+          },
+          {
+            "start": 98,
+            "end": 110,
+            "sentence_id": 2,
+            "matched_text": "microreactor"
+          },
+          {
+            "start": 2074,
+            "end": 2086,
+            "sentence_id": 10,
+            "matched_text": "microreactor"
+          },
+          {
+            "start": 2423,
+            "end": 2435,
+            "sentence_id": 11,
+            "matched_text": "microreactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2410,
+            "end": 2435,
+            "sentence_id": 11,
+            "matched_text": "Falling film microreactor"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enzyme",
+      "predicate": "catalyzes",
+      "object": "oxidation of b -D- glucose to gluconic acid",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "[91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2394,
+          "end": 2695
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 105,
+            "end": 148,
+            "sentence_id": 11,
+            "matched_text": "Oxidation of b -D- glucose to gluconic acid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enzymes",
+      "predicate": "are",
+      "object": "TADH from Thermus sp. + FDH from Candida boidinii",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "[49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 1696,
+          "end": 2033
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 116,
+            "end": 165,
+            "sentence_id": 9,
+            "matched_text": "TADH from Thermus sp. + FDH from Candida boidinii"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor",
+      "predicate": "is",
+      "object": "stainless steel membrane dispersion microreactor",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "| Microreactor characteristics | Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | [90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale | [91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 43,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "Microreactor"
+          },
+          {
+            "start": 98,
+            "end": 110,
+            "sentence_id": 2,
+            "matched_text": "microreactor"
+          },
+          {
+            "start": 2074,
+            "end": 2086,
+            "sentence_id": 10,
+            "matched_text": "microreactor"
+          },
+          {
+            "start": 2423,
+            "end": 2435,
+            "sentence_id": 11,
+            "matched_text": "microreactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2038,
+            "end": 2086,
+            "sentence_id": 10,
+            "matched_text": "Stainless steel membrane dispersion microreactor"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Surface-to-volume ratio",
+      "predicate": "is",
+      "object": "10 times higher",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "[17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio |",
+        "document_offsets": {
+          "start": 678,
+          "end": 1078
+        },
+        "subject_positions": [
+          {
+            "start": 375,
+            "end": 398,
+            "sentence_id": 3,
+            "matched_text": "surface-to-volume ratio"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 359,
+            "end": 374,
+            "sentence_id": 3,
+            "matched_text": "10 times higher"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Solvent",
+      "predicate": "is",
+      "object": "Citric acid aqueous buffer",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Multiphase system and fluid flow | Solvent Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate |",
+        "document_offsets": {
+          "start": 0,
+          "end": 677
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "Solvent"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 258,
+            "end": 284,
+            "sentence_id": 2,
+            "matched_text": "Citric acid aqueous buffer"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enzyme",
+      "predicate": "contains",
+      "object": "Rhodococcus ruber resting cells containing nitrile hydratase",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "[90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale |",
+        "document_offsets": {
+          "start": 2034,
+          "end": 2393
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 98,
+            "end": 158,
+            "sentence_id": 10,
+            "matched_text": "Rhodococcus ruber resting cells containing nitrile hydratase"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Comparison",
+      "predicate": "shows",
+      "object": "faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate |",
+        "document_offsets": {
+          "start": 76,
+          "end": 677
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 35,
+            "sentence_id": 2,
+            "matched_text": "Comparison"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 482,
+            "end": 599,
+            "sentence_id": 2,
+            "matched_text": "Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gas/liquid two-phase system",
+      "predicate": "includes",
+      "object": "Oxygen/aqueous buffer",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "[91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2394,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 32,
+            "sentence_id": 11,
+            "matched_text": "Gas/liquid two-phase system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 56,
+            "sentence_id": 11,
+            "matched_text": "Oxygen/aqueous buffer"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "involves",
+      "object": "esterification of isoamyl alcohol and acetic anhydride",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 76,
+          "end": 1695
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Reaction"
+          },
+          {
+            "start": 1304,
+            "end": 1312,
+            "sentence_id": 6,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1604,
+            "end": 1612,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1166,
+            "end": 1220,
+            "sentence_id": 6,
+            "matched_text": "Esterification of isoamyl alcohol and acetic anhydride"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enzyme",
+      "predicate": "is",
+      "object": "alcohol dehydrogenase from Saccharomyces cerevisiae",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 1438,
+          "end": 1695
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 131,
+            "end": 182,
+            "sentence_id": 8,
+            "matched_text": "Alcohol dehydrogenase from Saccharomyces cerevisiae"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enzyme",
+      "predicate": "is",
+      "object": "Candida antarctica lipase-B aqueous solution",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction |",
+        "document_offsets": {
+          "start": 1109,
+          "end": 1390
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 86,
+            "end": 130,
+            "sentence_id": 6,
+            "matched_text": "Candida antarctica lipase-B aqueous solution"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor characteristics",
+      "predicate": "consists of",
+      "object": "PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "| Microreactor characteristics | [17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio |",
+        "document_offsets": {
+          "start": 43,
+          "end": 1078
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Microreactor characteristics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 678,
+            "end": 806,
+            "sentence_id": 3,
+            "matched_text": "PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor characteristics",
+      "predicate": "consists of",
+      "object": "glass T-shaped micromixer, PTFE tubes of various diameters and lengths",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 9,
+        "text_evidence": "| Microreactor characteristics | [49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 43,
+          "end": 2033
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Microreactor characteristics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1696,
+            "end": 1766,
+            "sentence_id": 9,
+            "matched_text": "Glass T-shaped micromixer, PTFE tubes of various diameters and lengths"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor characteristics",
+      "predicate": "consists of",
+      "object": "glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "| Microreactor characteristics | Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate |",
+        "document_offsets": {
+          "start": 43,
+          "end": 677
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Microreactor characteristics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 250,
+            "end": 351,
+            "sentence_id": 2,
+            "matched_text": "Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "involves",
+      "object": "oxidation of hexanol to hexanal",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 76,
+          "end": 1695
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Reaction"
+          },
+          {
+            "start": 1304,
+            "end": 1312,
+            "sentence_id": 6,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1604,
+            "end": 1612,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1547,
+            "end": 1578,
+            "sentence_id": 8,
+            "matched_text": "Oxidation of hexanol to hexanal"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Aqueous phase with cells",
+      "predicate": "reacts with",
+      "object": "acrylonitrile",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "[90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale |",
+        "document_offsets": {
+          "start": 2034,
+          "end": 2393
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 29,
+            "sentence_id": 10,
+            "matched_text": "Aqueous phase with cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 44,
+            "sentence_id": 10,
+            "matched_text": "acrylonitrile"
+          },
+          {
+            "start": 174,
+            "end": 187,
+            "sentence_id": 10,
+            "matched_text": "acrylonitrile"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Aqueous Bis-Tris buffer",
+      "predicate": "reacts with",
+      "object": "hexadecane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "[49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 1696,
+          "end": 2033
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 28,
+            "sentence_id": 9,
+            "matched_text": "Aqueous Bis-Tris buffer"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 40,
+            "sentence_id": 9,
+            "matched_text": "hexadecane"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor characteristics",
+      "predicate": "consists of",
+      "object": "glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 6,
+        "text_evidence": "| Microreactor characteristics | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction |",
+        "document_offsets": {
+          "start": 43,
+          "end": 1390
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Microreactor characteristics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1068,
+            "end": 1149,
+            "sentence_id": 6,
+            "matched_text": "Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(bmpyr)[dca]",
+      "predicate": "reacts with",
+      "object": "n -heptane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "[bmpyr][dca]/ n -heptane",
+        "document_offsets": {
+          "start": 1084,
+          "end": 1108
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 14,
+            "end": 24,
+            "sentence_id": 5,
+            "matched_text": "n -heptane"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Conversion",
+      "predicate": "reaches",
+      "object": "up to 50% final conversion in 25 s",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "[91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2394,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 187,
+            "end": 197,
+            "sentence_id": 11,
+            "matched_text": "conversion"
+          },
+          {
+            "start": 245,
+            "end": 255,
+            "sentence_id": 11,
+            "matched_text": "conversion"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 171,
+            "end": 205,
+            "sentence_id": 11,
+            "matched_text": "up to 50% final conversion in 25 s"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Enzymes",
+      "predicate": "are",
+      "object": "pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "[17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio |",
+        "document_offsets": {
+          "start": 678,
+          "end": 1078
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 174,
+            "end": 248,
+            "sentence_id": 3,
+            "matched_text": "Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microreactor characteristics",
+      "predicate": "consists of",
+      "object": "glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "| Microreactor characteristics | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate |",
+        "document_offsets": {
+          "start": 43,
+          "end": 1695
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Microreactor characteristics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1404,
+            "end": 1523,
+            "sentence_id": 8,
+            "matched_text": "Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microscale reactor",
+      "predicate": "provides",
+      "object": "much higher interfacial area at microscale",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 11,
+        "text_evidence": "[90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale | [91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2034,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 204,
+            "end": 222,
+            "sentence_id": 10,
+            "matched_text": "Microscale reactor"
+          },
+          {
+            "start": 511,
+            "end": 529,
+            "sentence_id": 11,
+            "matched_text": "Microscale reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 617,
+            "end": 659,
+            "sentence_id": 11,
+            "matched_text": "much higher interfacial area at microscale"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Multiphase system",
+      "predicate": "is associated with",
+      "object": "fluid flow",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Multiphase system and fluid flow | Solvent",
+        "document_offsets": {
+          "start": 0,
+          "end": 42
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "Multiphase system"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 22,
+            "end": 32,
+            "sentence_id": 0,
+            "matched_text": "fluid flow"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Microscale reactor",
+      "predicate": "offers",
+      "object": "better temperature control",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 11,
+        "text_evidence": "[90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale | [91]\nGas/liquid two-phase system | Oxygen/aqueous buffer | Falling film microreactor | Glucose oxidase | Oxidation of b -D- glucose to gluconic acid | Microscale reactor: up to 50% final conversion in 25 s; conventional bubble column: 27% final conversion; much higher interfacial area at microscale |",
+        "document_offsets": {
+          "start": 2034,
+          "end": 2695
+        },
+        "subject_positions": [
+          {
+            "start": 204,
+            "end": 222,
+            "sentence_id": 10,
+            "matched_text": "Microscale reactor"
+          },
+          {
+            "start": 511,
+            "end": 529,
+            "sentence_id": 11,
+            "matched_text": "Microscale reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 317,
+            "end": 343,
+            "sentence_id": 10,
+            "matched_text": "better temperature control"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Glycine- pyrophosphate aqueous buffer",
+      "predicate": "reacts with",
+      "object": "n- hexane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[36]\nGlycine- pyrophosphate aqueous buffer/ n-",
+        "document_offsets": {
+          "start": 1391,
+          "end": 1437
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 42,
+            "sentence_id": 7,
+            "matched_text": "Glycine- pyrophosphate aqueous buffer"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Productivity",
+      "predicate": "is increased by",
+      "object": "up to 2.5 times",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 9,
+        "text_evidence": "[17]\nPhosphate aqueous buffer/ isooctane | PC channels with hydrophobic coating; tapered inlet channel, electrostatic phase separation; recirculation of substrate solution | Pentaerythritol tetranitrate reductase + glucose 6-phosphate dehydrogenase | Stereoselective reduction of a / b -activated alkenes + NADPH regeneration | Up to 2.5 higher productivity; 10 times higher surface-to-volume ratio | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | [49]\nAqueous Bis-Tris buffer/ hexadecane | Glass T-shaped micromixer, PTFE tubes of various diameters and lengths | TADH from Thermus sp. + FDH from Candida boidinii | Reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration | Volumetric productivity of up to 48 mmol/(l.h); eliminated emulsion formation: reduced downstream costs |",
+        "document_offsets": {
+          "start": 678,
+          "end": 2033
+        },
+        "subject_positions": [
+          {
+            "start": 345,
+            "end": 357,
+            "sentence_id": 3,
+            "matched_text": "productivity"
+          },
+          {
+            "start": 632,
+            "end": 644,
+            "sentence_id": 6,
+            "matched_text": "productivity"
+          },
+          {
+            "start": 1261,
+            "end": 1273,
+            "sentence_id": 9,
+            "matched_text": "productivity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "involves",
+      "object": "hydration of acrylonitrile to acrylamide",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "Biocatalyst | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nLiquid/liquid two-phase system | Citric acid aqueous buffer/ MTBE | Glass microchannel with Y-shaped inlet and outlet; pillar structure in the middle of the microchannel | Crude cell lysate with ( S )-selective hydroxynitrile lyase from Hevea brasiliensis | C-C bond formation for the synthesis of various enantiopure cyanohydrins | Faster and cheaper catalyst screening: two process parameters estimated in 4 h with only 150 m l of crude cell lysate | | Glass X-shaped micromixer; silanized PFA tube; integrated membrane microseparator | Candida antarctica lipase-B aqueous solution | Esterification of isoamyl alcohol and acetic anhydride | Volumetric productivity of 29.8 g/(m 3 .s), the highest reported so far for this reaction | hexane | Glass microchannels with Y-shaped inlets and outlets of various geometries; one of these equipped with swirl micromixer | Alcohol dehydrogenase from Saccharomyces cerevisiae | Oxidation of hexanol to hexanal | 30-fold higher maximum reaction rate | [90]\nAqueous phase with cells/ acrylonitrile | Stainless steel membrane dispersion microreactor | Rhodococcus ruber resting cells containing nitrile hydratase | Hydration of acrylonitrile to acrylamide | Microscale reactor: up to 45.8 wt% acrylamide in 35 min; conventional stirred-tank reactor: 39.5 wt% in 245 min; better temperature control at microscale |",
+        "document_offsets": {
+          "start": 76,
+          "end": 2393
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Reaction"
+          },
+          {
+            "start": 1304,
+            "end": 1312,
+            "sentence_id": 6,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 1604,
+            "end": 1612,
+            "sentence_id": 8,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2119,
+            "end": 2159,
+            "sentence_id": 10,
+            "matched_text": "Hydration of acrylonitrile to acrylamide"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 41.55095291137695,
+          "t": 720.6941299438477,
+          "r": 563.2469482421875,
+          "b": 224.50604248046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pectin lyase",
+      "predicate": "depolymerizes",
+      "object": "Pectin",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "[52]\nPMMA and PDMS-based membrane microreactor | Pectin lyase | Pectin depolymerization | Faster and cheaper process development, better understanding of the enzyme-catalyzed reaction dynamics; similar kinetic profiles in micro- and laboratory-scale operations |",
+        "document_offsets": {
+          "start": 1264,
+          "end": 1526
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 61,
+            "sentence_id": 6,
+            "matched_text": "Pectin lyase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 55,
+            "sentence_id": 6,
+            "matched_text": "Pectin"
+          },
+          {
+            "start": 64,
+            "end": 70,
+            "sentence_id": 6,
+            "matched_text": "Pectin"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Saccharomyces cerevisiae cells",
+      "predicate": "undergoes L-Malic acid synthesis",
+      "object": "with fumaric acid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[53]\nDissolved enzyme in a two- phase system | See Table 1 | See Table 1 | See Table 1 | See Table 1 | See Table 1\nBiocatalyst immobilized on the inner surface of the | Perfluoroalkoxy microchannel with silanized inner surface | Saccharomyces cerevisiae cells; covalent binding with glutaraldehyde as a crosslinker | L-Malic acid synthesis from fumaric acid | Four times higher specific volumetric productivity than in the bench-scale membrane reactor; attractive alternative for process development studies or for synthesis |",
+        "document_offsets": {
+          "start": 1527,
+          "end": 2053
+        },
+        "subject_positions": [
+          {
+            "start": 229,
+            "end": 259,
+            "sentence_id": 7,
+            "matched_text": "Saccharomyces cerevisiae cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Invertase",
+      "predicate": "hydrolyzes",
+      "object": "sucrose",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 17,
+        "sentence_end": 17,
+        "text_evidence": "[60]\nMonolithic silica rods exhibiting very open and uniform 3D hierarchical pore structure | Invertase; covalent immobilization using glutaraldehyde crosslinking | Sucrose hydrolysis | Over 1000 times faster hydrolysis; notably larger enzyme affinity to the substrate |",
+        "document_offsets": {
+          "start": 3963,
+          "end": 4233
+        },
+        "subject_positions": [
+          {
+            "start": 94,
+            "end": 103,
+            "sentence_id": 17,
+            "matched_text": "Invertase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 172,
+            "sentence_id": 17,
+            "matched_text": "Sucrose"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Fumarase from porcine heart",
+      "predicate": "synthesizes",
+      "object": "L-Malic acid",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 9,
+        "text_evidence": "[53]\nDissolved enzyme in a two- phase system | See Table 1 | See Table 1 | See Table 1 | See Table 1 | See Table 1\nBiocatalyst immobilized on the inner surface of the | Perfluoroalkoxy microchannel with silanized inner surface | Saccharomyces cerevisiae cells; covalent binding with glutaraldehyde as a crosslinker | L-Malic acid synthesis from fumaric acid | Four times higher specific volumetric productivity than in the bench-scale membrane reactor; attractive alternative for process development studies or for synthesis | Fumarase from porcine heart; covalent binding with glutaraldehyde as a crosslinker | L-Malic acid synthesis from fumaric acid | Volumetric productivity in a microreactor up to 2.57 mmol/(l.min) with 80% conversion; in a laboratory-scale membrane reactor, up to 0.81 mmol/(l.min) productivity with 68% conversion; known reaction area enables accurate process description |",
+        "document_offsets": {
+          "start": 1527,
+          "end": 2526
+        },
+        "subject_positions": [
+          {
+            "start": 628,
+            "end": 655,
+            "sentence_id": 9,
+            "matched_text": "Fumarase from porcine heart"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 317,
+            "end": 329,
+            "sentence_id": 7,
+            "matched_text": "L-Malic acid"
+          },
+          {
+            "start": 713,
+            "end": 725,
+            "sentence_id": 9,
+            "matched_text": "L-Malic acid"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TK (wild type and mutant)",
+      "predicate": "synthesizes",
+      "object": "L-Erythrulose",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "[51]\nPMMA microreactor with a filtration unit based on PDMS gasket and regenerated cellulose filter | TK (wild type and mutant) | L-Erythrulose synthesis from hydroxypyruvate (HPA) and glycolaldehyde; (3S)-1,3- dihydroxypentan-2-one synthesis from HPA and propanal | Complete substrate-to-product conversion, complete enzyme retention and product separation; the reaction rate is comparable to batch reactors, facilitating high-throughput evaluation of process conditions and rapid process development |",
+        "document_offsets": {
+          "start": 760,
+          "end": 1263
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 130,
+            "end": 143,
+            "sentence_id": 5,
+            "matched_text": "L-Erythrulose"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pseudomonas syringae",
+      "predicate": "performs phenol degradation",
+      "object": "at least 20-fold higher volumetric productivity than the packed-bed reactor",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 15,
+        "text_evidence": "[57]\nBiocatalyst immobilized on the inner surface | Disks from microcellular polymers with various pore structures | Pseudomonas syringae | Phenol degradation | At least 20-fold higher volumetric productivity than the packed-bed reactor; monolayered biofilm |",
+        "document_offsets": {
+          "start": 3459,
+          "end": 3718
+        },
+        "subject_positions": [
+          {
+            "start": 117,
+            "end": 137,
+            "sentence_id": 14,
+            "matched_text": "Pseudomonas syringae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 161,
+            "end": 236,
+            "sentence_id": 15,
+            "matched_text": "At least 20-fold higher volumetric productivity than the packed-bed reactor"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "His-tagged TK and TA",
+      "predicate": "are used for",
+      "object": "synthesis of 2-amino-1,3,4- butanetriol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "[54]\nFused silica capillary with NTA surface derivatization | His-tagged TK and TA immobilized on functionalized surface | TK-TA coupled reaction for synthesis of 2-amino-1,3,4- butanetriol from lithium hydroxypyruvate, glycolaldehyde and (S)- a -methylbenzylamine",
+        "document_offsets": {
+          "start": 2527,
+          "end": 2791
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 82,
+            "sentence_id": 10,
+            "matched_text": "His-tagged TK and TA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 150,
+            "end": 189,
+            "sentence_id": 10,
+            "matched_text": "synthesis of 2-amino-1,3,4- butanetriol"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "LACCASE from Trametes sp.",
+      "predicate": "is used for",
+      "object": "Oxidation of catechol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Biocatalyst configuration | Microreactor characteristics | Biocatalyst and immobilization technique | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nDissolved enzyme in a | Glass microreactor with Y-shaped inlet and outlet | LACCASE from Trametes sp. | Oxidation of catechol |",
+        "document_offsets": {
+          "start": 0,
+          "end": 364
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 341,
+            "end": 362,
+            "sentence_id": 1,
+            "matched_text": "Oxidation of catechol"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Planktonic bacterium Escherichia coli BL21 star (DE3)",
+      "predicate": "performs enantioselective reduction of ethyl acetoacetate",
+      "object": "to R-( /C0 )ethyl hydroxybutyrate",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 13,
+        "text_evidence": "[21,56]\nCapillary column with highly cationic chemically modified bovine serum albumin (cBSA-147) | Planktonic bacterium Escherichia coli BL21 star (DE3); electrostatically mediated immobilization | Enantioselective reduction of ethyl acetoacetate to R-( /C0 )ethyl hydroxybutyrate | 30% higher productivity than the conventional batch system |",
+        "document_offsets": {
+          "start": 3114,
+          "end": 3458
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 248,
+            "end": 281,
+            "sentence_id": 13,
+            "matched_text": "to R-( /C0 )ethyl hydroxybutyrate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Benzoylformate decarboxylase from Pseudomonas putida",
+      "predicate": "synthesizes",
+      "object": "(S)-2-Hydroxypropiophenone",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Benzoylformate decarboxylase from Pseudomonas putida | (S)-2-Hydroxypropiophenone synthesis from benzoylformate and acetaldehyde | Up to 72-fold higher volumetric productivities than in ultrafiltration membrane reactor |",
+        "document_offsets": {
+          "start": 537,
+          "end": 759
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Benzoylformate decarboxylase from Pseudomonas putida"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page6_table1",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 32.49042510986328,
+          "t": 555.6058807373047,
+          "r": 735.8743896484375,
+          "b": 51.39892578125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Aluminum microchannel",
+      "predicate": "is covered with",
+      "object": "Kapton film",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst configuration | Microreactor characteristics | Biocatalyst and immobilization technique | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nBiocatalyst in the packed-bed microreactor | Aluminum microchannel covered with Kapton film using a thermally cured epoxy | Novozym 435 | Ring-opening polymerization of e - caprolactone | At least one order of magnitude higher apparent reaction rate; extended biocatalyst stability |",
+        "document_offsets": {
+          "start": 0,
+          "end": 520
+        },
+        "subject_positions": [
+          {
+            "start": 282,
+            "end": 303,
+            "sentence_id": 0,
+            "matched_text": "Aluminum microchannel"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 317,
+            "end": 328,
+            "sentence_id": 0,
+            "matched_text": "Kapton film"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "FEP tube with a microfilter assembly at the end",
+      "predicate": "contains",
+      "object": "His-tagged TK and TA",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[67]\nFEP tube with a microfilter assembly at the end | His-tagged TK and TA immobilized on Ni-NTA agarose beads | TK-TA coupled reaction for synthesis of 2-amino-1,3,4- butanetriol from lithium hydroxypyruvate, glycolaldehyde, and (S)- a -methylbenzylamine | Short process time (83%conversion in 20 min); fast and inexpensive immobilization and biocatalyst stability evaluation |",
+        "document_offsets": {
+          "start": 1972,
+          "end": 2351
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 52,
+            "sentence_id": 7,
+            "matched_text": "FEP tube with a microfilter assembly at the end"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 55,
+            "end": 75,
+            "sentence_id": 7,
+            "matched_text": "His-tagged TK and TA"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Novozym 435",
+      "predicate": "undergoes chemoenzymatic oxidation of",
+      "object": "aromatic and aliphatic alkenes",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Biocatalyst configuration | Microreactor characteristics | Biocatalyst and immobilization technique | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nBiocatalyst in the packed-bed microreactor | Aluminum microchannel covered with Kapton film using a thermally cured epoxy | Novozym 435 | Ring-opening polymerization of e - caprolactone | At least one order of magnitude higher apparent reaction rate; extended biocatalyst stability | [32]\nBorosilicate glass capillary | Novozym 435 | Chemoenzymatic oxidation of aromatic and aliphatic alkenes | Up to 381-fold reduction in reaction time; possibility of using higher quantities of H 2 O 2 over prolonged periods of time | Novozym 435 | Transesterification of 1-butanol and vinyl butyrate and esterification of isoamyl alcohol and acetic anhydride | Isoamyl acetate: volumetric productivity 20 mmol/l.min in a microreactor, 9.1 mmol/",
+        "document_offsets": {
+          "start": 0,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 361,
+            "end": 372,
+            "sentence_id": 0,
+            "matched_text": "Novozym 435"
+          },
+          {
+            "start": 557,
+            "end": 568,
+            "sentence_id": 1,
+            "matched_text": "Novozym 435"
+          },
+          {
+            "start": 1256,
+            "end": 1267,
+            "sentence_id": 4,
+            "matched_text": "Novozym 435"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 599,
+            "end": 629,
+            "sentence_id": 1,
+            "matched_text": "aromatic and aliphatic alkenes"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stainless steel tubular mesoscale reactor",
+      "predicate": "is used for",
+      "object": "kinetic resolution of racemic secondary alcohols and cycloalkanols",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "[62]\nStainless steel tubular mesoscale reactor | Various lipases; immobilization on beads of various materials | Kinetic resolution of racemic secondary alcohols and cycloalkanols | Similar enantiomer selectivities but higher productivities compared with batch production of various esters: e.g., 8.3 vs 7.0 mmol/(g.min) at 51-52% conversion, 5.6 vs 3.9 mmol/(g.min) at 24-29% conversion, 6.1 vs 4.9 mmol/(g.min) at 53-54% conversion | [65,66]\nStainless steel tubular mesoscale reactor | E. coli cells containing overexpressed v -TA and PLP immobilized on methacrylate polymeric resin beads | Asymmetric amination of various non-natural ketones to chiral amines | High throughput (30-60 min), clean production, high enzyme stability (the packed- bed reactor can be continuously operated for 1 /C0 10 days), and excellent mass recovery |",
+        "document_offsets": {
+          "start": 758,
+          "end": 1971
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 46,
+            "sentence_id": 2,
+            "matched_text": "Stainless steel tubular mesoscale reactor"
+          },
+          {
+            "start": 821,
+            "end": 862,
+            "sentence_id": 6,
+            "matched_text": "Stainless steel tubular mesoscale reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 179,
+            "sentence_id": 2,
+            "matched_text": "Kinetic resolution of racemic secondary alcohols and cycloalkanols"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stainless steel tubular mesoscale reactor",
+      "predicate": "is used for",
+      "object": "Asymmetric amination of various non-natural ketones to chiral amines",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "[62]\nStainless steel tubular mesoscale reactor | Various lipases; immobilization on beads of various materials | Kinetic resolution of racemic secondary alcohols and cycloalkanols | Similar enantiomer selectivities but higher productivities compared with batch production of various esters: e.g., 8.3 vs 7.0 mmol/(g.min) at 51-52% conversion, 5.6 vs 3.9 mmol/(g.min) at 24-29% conversion, 6.1 vs 4.9 mmol/(g.min) at 53-54% conversion | [65,66]\nStainless steel tubular mesoscale reactor | E. coli cells containing overexpressed v -TA and PLP immobilized on methacrylate polymeric resin beads | Asymmetric amination of various non-natural ketones to chiral amines | High throughput (30-60 min), clean production, high enzyme stability (the packed- bed reactor can be continuously operated for 1 /C0 10 days), and excellent mass recovery |",
+        "document_offsets": {
+          "start": 758,
+          "end": 1971
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 46,
+            "sentence_id": 2,
+            "matched_text": "Stainless steel tubular mesoscale reactor"
+          },
+          {
+            "start": 821,
+            "end": 862,
+            "sentence_id": 6,
+            "matched_text": "Stainless steel tubular mesoscale reactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 970,
+            "end": 1038,
+            "sentence_id": 6,
+            "matched_text": "Asymmetric amination of various non-natural ketones to chiral amines"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biocatalyst immobilized on nanostructures",
+      "predicate": "is used in",
+      "object": "hydrolysis of o-nitrophenyl b -D- galactosylpyranoside",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "[68]\nBiocatalyst immobilized on nanostructures | Microchannel with inserted mat of silicon dioxide nanosprings functionalized with thiol groups | b disulfide linkages between thiolated nanosprings and the modified enzyme | Hydrolysis of o-nitrophenyl b -D- galactosylpyranoside | Microreactor: 37% conversion in 14 s, batch: 10% conversion in 10 min; high solvent- accessible surface area with goodpermeability and mechanical stability |",
+        "document_offsets": {
+          "start": 2352,
+          "end": 2805
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 46,
+            "sentence_id": 8,
+            "matched_text": "Biocatalyst immobilized on nanostructures"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 239,
+            "end": 293,
+            "sentence_id": 10,
+            "matched_text": "Hydrolysis of o-nitrophenyl b -D- galactosylpyranoside"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biocatalyst immobilized on magnetic particles",
+      "predicate": "is used for",
+      "object": "NADH oxidation",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "[23]\nBiocatalyst immobilized on magnetic particles | Magnetic field-assisted PTFE tubular microreactor with silanized magnetic nanoparticles | Alcohol dehydrogenase; immobilization on nanoparticles via glutaraldehyde crosslinking | NADH oxidation | Very simple technique for biocatalyst localization; two times higher volumetric productivity |",
+        "document_offsets": {
+          "start": 3173,
+          "end": 3516
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 50,
+            "sentence_id": 12,
+            "matched_text": "Biocatalyst immobilized on magnetic particles"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 232,
+            "end": 246,
+            "sentence_id": 12,
+            "matched_text": "NADH oxidation"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Plates or discs with silicon dioxide nanosprings functionalized with thiol or epoxy groups",
+      "predicate": "are used for",
+      "object": "Cleavage of L-threonine to glycine and acetaldehyde",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "[22]\nPlates or discs with silicon dioxide nanosprings functionalized with thiol or epoxy groups | Threonine aldolase; linkages between thiolated nanosprings and the modified enzyme | Cleavage of L-threonine to glycine and acetaldehyde | Larger specific surface area and enzyme availability; a new flow reactor concept with tight packing of stacked nanospring disks |",
+        "document_offsets": {
+          "start": 2806,
+          "end": 3172
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 95,
+            "sentence_id": 11,
+            "matched_text": "Plates or discs with silicon dioxide nanosprings functionalized with thiol or epoxy groups"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 183,
+            "end": 234,
+            "sentence_id": 11,
+            "matched_text": "Cleavage of L-threonine to glycine and acetaldehyde"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Layers of olefin-based film between two PMMA plates",
+      "predicate": "are used for",
+      "object": "Transesterification of 1-butanol and vinyl butyrate and esterification of isoamyl alcohol and acetic anhydride",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "[63,64]\nLayers of olefin-based film between two PMMA plates | Novozym 435 | Transesterification of 1-butanol and vinyl butyrate and esterification of isoamyl alcohol and acetic anhydride | Isoamyl acetate: volumetric productivity 20 mmol/l.min in a microreactor, 9.1 mmol/",
+        "document_offsets": {
+          "start": 1194,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 8,
+            "end": 59,
+            "sentence_id": 3,
+            "matched_text": "Layers of olefin-based film between two PMMA plates"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 76,
+            "end": 186,
+            "sentence_id": 4,
+            "matched_text": "Transesterification of 1-butanol and vinyl butyrate and esterification of isoamyl alcohol and acetic anhydride"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Novozym 435",
+      "predicate": "is used in",
+      "object": "Ring-opening polymerization of e - caprolactone",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Biocatalyst configuration | Microreactor characteristics | Biocatalyst and immobilization technique | Reaction | Comparison of a continuous process in a microreactor with a batch process in a conventional laboratory-scale reactor | Refs\nBiocatalyst in the packed-bed microreactor | Aluminum microchannel covered with Kapton film using a thermally cured epoxy | Novozym 435 | Ring-opening polymerization of e - caprolactone | At least one order of magnitude higher apparent reaction rate; extended biocatalyst stability | [32]\nBorosilicate glass capillary | Novozym 435 | Chemoenzymatic oxidation of aromatic and aliphatic alkenes | Up to 381-fold reduction in reaction time; possibility of using higher quantities of H 2 O 2 over prolonged periods of time | Novozym 435 | Transesterification of 1-butanol and vinyl butyrate and esterification of isoamyl alcohol and acetic anhydride | Isoamyl acetate: volumetric productivity 20 mmol/l.min in a microreactor, 9.1 mmol/",
+        "document_offsets": {
+          "start": 0,
+          "end": 1466
+        },
+        "subject_positions": [
+          {
+            "start": 361,
+            "end": 372,
+            "sentence_id": 0,
+            "matched_text": "Novozym 435"
+          },
+          {
+            "start": 557,
+            "end": 568,
+            "sentence_id": 1,
+            "matched_text": "Novozym 435"
+          },
+          {
+            "start": 1256,
+            "end": 1267,
+            "sentence_id": 4,
+            "matched_text": "Novozym 435"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 375,
+            "end": 422,
+            "sentence_id": 0,
+            "matched_text": "Ring-opening polymerization of e - caprolactone"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 32.30791091918945,
+          "t": 552.3259773254395,
+          "r": 735.3445434570312,
+          "b": 157.93142700195312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "More stable enzymes",
+      "predicate": "are due to",
+      "object": "lower pressure drop compared with large-scale packed-bed reactors",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 875,
+            "end": 894,
+            "sentence_id": 0,
+            "matched_text": "More stable enzymes"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 902,
+            "end": 967,
+            "sentence_id": 0,
+            "matched_text": "lower pressure drop compared with large-scale packed-bed reactors"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acceleration of bioprocess development",
+      "predicate": "results in",
+      "object": "reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 1396,
+            "end": 1434,
+            "sentence_id": 0,
+            "matched_text": "Acceleration of bioprocess development"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1437,
+            "end": 1564,
+            "sentence_id": 0,
+            "matched_text": "Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters"
+          },
+          {
+            "start": 1567,
+            "end": 1694,
+            "sentence_id": 0,
+            "matched_text": "Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction intensification",
+      "predicate": "is achieved by",
+      "object": "use of non-aqueous solvents suppressing hydrolytic reaction",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 415,
+            "end": 439,
+            "sentence_id": 0,
+            "matched_text": "Reaction intensification"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Process intensification",
+      "predicate": "allows for",
+      "object": "enzyme recycling within closed-loop reactors",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 968,
+            "end": 991,
+            "sentence_id": 0,
+            "matched_text": "Process intensification"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1116,
+            "end": 1160,
+            "sentence_id": 0,
+            "matched_text": "Enzyme recycling within closed-loop reactors"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Process intensification",
+      "predicate": "allows for",
+      "object": "enzyme and solvent recycling",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 968,
+            "end": 991,
+            "sentence_id": 0,
+            "matched_text": "Process intensification"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 994,
+            "end": 1022,
+            "sentence_id": 0,
+            "matched_text": "Enzyme and solvent recycling"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction intensification",
+      "predicate": "allows for",
+      "object": "higher substrate concentrations or use of poorly water-soluble reactants",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 415,
+            "end": 439,
+            "sentence_id": 0,
+            "matched_text": "Reaction intensification"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 501,
+            "end": 573,
+            "sentence_id": 0,
+            "matched_text": "Higher substrate concentrations or use of poorly water-soluble reactants"
+          },
+          {
+            "start": 678,
+            "end": 750,
+            "sentence_id": 0,
+            "matched_text": "Higher substrate concentrations or use of poorly water-soluble reactants"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Integration of miniaturized reactor and a microseparator",
+      "predicate": "is possible",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 1330,
+            "end": 1386,
+            "sentence_id": 0,
+            "matched_text": "Integration of miniaturized reactor and a microseparator"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biocatalyst",
+      "predicate": "is used in",
+      "object": "two-liquid-phase systems",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "Biocatalyst"
+          },
+          {
+            "start": 82,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "biocatalyst"
+          },
+          {
+            "start": 137,
+            "end": 148,
+            "sentence_id": 0,
+            "matched_text": "biocatalyst"
+          },
+          {
+            "start": 1263,
+            "end": 1274,
+            "sentence_id": 0,
+            "matched_text": "Biocatalyst"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Two-liquid-phase systems"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Transport intensification",
+      "predicate": "results in",
+      "object": "reduced diffusion length within microreactors",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 149,
+            "end": 174,
+            "sentence_id": 0,
+            "matched_text": "Transport intensification"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 177,
+            "end": 222,
+            "sentence_id": 0,
+            "matched_text": "Reduced diffusion length within microreactors"
+          },
+          {
+            "start": 225,
+            "end": 270,
+            "sentence_id": 0,
+            "matched_text": "Reduced diffusion length within microreactors"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biocatalyst",
+      "predicate": "is used in",
+      "object": "non-aqueous media",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "Biocatalyst"
+          },
+          {
+            "start": 82,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "biocatalyst"
+          },
+          {
+            "start": 137,
+            "end": 148,
+            "sentence_id": 0,
+            "matched_text": "biocatalyst"
+          },
+          {
+            "start": 1263,
+            "end": 1274,
+            "sentence_id": 0,
+            "matched_text": "Biocatalyst"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 96,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Non-aqueous media"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Larger and controlled interfacial area",
+      "predicate": "allows for",
+      "object": "efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 271,
+            "end": 309,
+            "sentence_id": 0,
+            "matched_text": "Larger and controlled interfacial area"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 312,
+            "end": 414,
+            "sentence_id": 0,
+            "matched_text": "Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Increased enzyme loads in microreactors",
+      "predicate": "are compared with",
+      "object": "traditional batch reactors",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 794,
+            "end": 833,
+            "sentence_id": 0,
+            "matched_text": "Increased enzyme loads in microreactors"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 848,
+            "end": 874,
+            "sentence_id": 0,
+            "matched_text": "traditional batch reactors"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Process intensification",
+      "predicate": "simplifies",
+      "object": "downstream processing",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 968,
+            "end": 991,
+            "sentence_id": 0,
+            "matched_text": "Process intensification"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1182,
+            "end": 1203,
+            "sentence_id": 0,
+            "matched_text": "downstream processing"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Efficient use of resources",
+      "predicate": "is achieved by",
+      "object": "lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 1695,
+            "end": 1721,
+            "sentence_id": 0,
+            "matched_text": "Efficient use of resources"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1724,
+            "end": 1853,
+            "sentence_id": 0,
+            "matched_text": "Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters"
+          },
+          {
+            "start": 1856,
+            "end": 1985,
+            "sentence_id": 0,
+            "matched_text": "Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Process intensification",
+      "predicate": "enables",
+      "object": "in situ product extraction",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 968,
+            "end": 991,
+            "sentence_id": 0,
+            "matched_text": "Process intensification"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1089,
+            "end": 1115,
+            "sentence_id": 0,
+            "matched_text": "In situ product extraction"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Non-aqueous media",
+      "predicate": "contain",
+      "object": "immobilized biocatalyst",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 113,
+            "sentence_id": 0,
+            "matched_text": "Non-aqueous media"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 125,
+            "end": 148,
+            "sentence_id": 0,
+            "matched_text": "immobilized biocatalyst"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biocatalyst immobilization",
+      "predicate": "facilitates",
+      "object": "easier enzyme-product separation",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 1263,
+            "end": 1289,
+            "sentence_id": 0,
+            "matched_text": "Biocatalyst immobilization"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1297,
+            "end": 1329,
+            "sentence_id": 0,
+            "matched_text": "easier enzyme-product separation"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Two-liquid-phase systems",
+      "predicate": "contain",
+      "object": "free biocatalyst",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Biocatalyst format and reaction medium | Two-liquid-phase systems containing free biocatalyst | Non-aqueous media containing immobilized biocatalyst\nTransport intensification | Reduced diffusion length within microreactors | Reduced diffusion length within microreactors\nLarger and controlled interfacial area | Efficient contact between liquid phase and enzyme within the carrier enabled by suitable flow regimens\nReaction intensification | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents | Use of non-aqueous solvents suppresses hydrolytic reaction Higher substrate concentrations or use of poorly water-soluble reactants enabled by the use of non-aqueous solvents\nIncreased enzyme loads in microreactors compared with traditional batch reactors More stable enzymes due to lower pressure drop compared with large-scale packed-bed reactors\nProcess intensification | Enzyme and solvent recycling possible with miniaturized reactor integrated with microseparator In situ product extraction Enzyme recycling within closed-loop reactors More straightforward downstream processing due to fewer possibilities for stable emulsion formation | Biocatalyst immobilization offers easier enzyme-product separation Integration of miniaturized reactor and a microseparator possible\nAcceleration of bioprocess development | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Reduced time consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters\nEfficient use of resources | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters | Lower material consumption for kinetic data evaluation, test of enzyme activity and stability, optimization of process parameters",
+        "document_offsets": {
+          "start": 0,
+          "end": 1985
+        },
+        "subject_positions": [
+          {
+            "start": 41,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Two-liquid-phase systems"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 77,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "free biocatalyst"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.54430389404297,
+          "t": 709.5139923095703,
+          "r": 569.4979858398438,
+          "b": 498.48809814453125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "pillar structure",
+    "hexadecane",
+    "oxidation of b -D- glucose to gluconic acid",
+    "[69]",
+    "Planktonic bacterium Escherichia coli BL21 star (DE3)",
+    "glucose 6-phosphate dehydrogenase",
+    "Candida antarctica lipase-B aqueous solution",
+    "Aqueous Bis-Tris buffer",
+    "Kinetic resolution of racemic secondary alcohols and cycloalkanols",
+    "Invertase",
+    "E. coli cells containing overexpressed v -TA and PLP",
+    "MTBE",
+    "PC channels with hydrophobic coating",
+    "Asymmetric amination of various non-natural ketones to chiral amines",
+    "Y-shaped inlet and outlet",
+    "alcohol dehydrogenase",
+    "Fumarase from porcine heart",
+    "closed-loop reactors",
+    "30-fold higher maximum reaction rate",
+    "TADH from Thermus sp. + FDH from Candida boidinii",
+    "[32]",
+    "Saccharomyces cerevisiae cells",
+    "fluid flow",
+    "stainless steel membrane dispersion microreactor",
+    "Phosphate aqueous buffer",
+    "glass T-shaped micromixer",
+    "[23]",
+    "Chemoenzymatic oxidation of aromatic and aliphatic alkenes",
+    "Ni-NTA agarose beads",
+    "[49]",
+    "pentaerythritol tetranitrate reductase",
+    "hydration of acrylonitrile to acrylamide",
+    "His-tagged TK and TA",
+    "C-C bond formation",
+    "esterification of isoamyl alcohol and acetic anhydride",
+    "glass microchannel",
+    "Rhodococcus ruber resting cells containing nitrile hydratase",
+    "e-caprolactone",
+    "( S )-selective hydroxynitrile lyase from Hevea brasiliensis",
+    "Benzoylformate decarboxylase from Pseudomonas putida",
+    "integrated membrane microseparator",
+    "Novozym 435",
+    "[63,64]",
+    "[89]",
+    "[17]",
+    "Aluminum microchannel",
+    "FEP tube with a microfilter assembly at the end",
+    "Pectin lyase",
+    "Multiphase system",
+    "epoxy",
+    "Gas/liquid two-phase system",
+    "stereoselective reduction of a / b -activated alkenes + NADPH regeneration",
+    "n -heptane",
+    "PTFE tubes of various diameters and lengths",
+    "electrostatic phase separation",
+    "acrylonitrile",
+    "[91]",
+    "microreactors",
+    "n- hexane",
+    "Biocatalyst",
+    "volumetric productivity of 29.8 g/(m 3 .s)",
+    "Plates or discs with silicon dioxide nanosprings functionalized with thiol or epoxy groups",
+    "oxidation of hexanol to hexanal",
+    "microseparator",
+    "various enantiopure cyanohydrins",
+    "(bmpyr)[dca]",
+    "b -Galactosidase",
+    "recirculation of substrate solution",
+    "Liquid/liquid two-phase system",
+    "[65,66]",
+    "non-aqueous media",
+    "product",
+    "aqueous phase with cells",
+    "Falling film microreactor",
+    "Stainless steel tubular mesoscale reactor",
+    "volumetric productivity of up to 48 mmol/(l.h)",
+    "one of these equipped with swirl micromixer",
+    "two-liquid-phase systems",
+    "Borosilicate glass capillary",
+    "[62]",
+    "immobilization on beads of various materials",
+    "[68]",
+    "LACCASE from Trametes sp.",
+    "[92]",
+    "[67]",
+    "faster and cheaper catalyst screening",
+    "reduction of 1-heptaldehyde to 1-heptanol + NADH regeneration",
+    "substrate",
+    "Oxygen",
+    "Magnetic field-assisted PTFE tubular microreactor with silanized magnetic nanoparticles",
+    "Biocatalyst immobilized on magnetic particles",
+    "enzyme",
+    "Kapton film",
+    "Pseudomonas syringae",
+    "Microchannel with inserted mat of silicon dioxide nanosprings functionalized with thiol groups",
+    "NADH oxidation",
+    "Glucose oxidase",
+    "Glycine- pyrophosphate aqueous buffer",
+    "Various lipases",
+    "packed-bed reactors",
+    "isooctane",
+    "TK-TA coupled reaction for synthesis of 2-amino-1,3,4- butanetriol from lithium hydroxypyruvate, glycolaldehyde, and (S)- a -methylbenzylamine",
+    "alcohol dehydrogenase from Saccharomyces cerevisiae",
+    "[90]",
+    "TK (wild type and mutant)",
+    "silanized PFA tube",
+    "methacrylate polymeric resin beads",
+    "[22]",
+    "glass microchannels with Y-shaped inlets and outlets of various geometries",
+    "glass X-shaped micromixer",
+    "Threonine aldolase",
+    "Transesterification of 1-butanol and vinyl butyrate and esterification of isoamyl alcohol and acetic anhydride",
+    "bioprocess development",
+    "Biocatalyst immobilized on nanostructures",
+    "aqueous buffer",
+    "Layers of olefin-based film between two PMMA plates",
+    "Citric acid aqueous buffer",
+    "[36]",
+    "crude cell lysate",
+    "hydrolysis of o-nitrophenyl b -D- galactosylpyranoside",
+    "solvent",
+    "tapered inlet channel"
+  ]
+}

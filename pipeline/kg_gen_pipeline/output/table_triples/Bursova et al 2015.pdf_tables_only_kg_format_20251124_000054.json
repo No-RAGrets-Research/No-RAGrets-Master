@@ -1,0 +1,3146 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 22,
+    "relations": 59,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Bursova et al 2015.json",
+    "processed_at": "2025-11-24T00:00:54.973382"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Derivatization",
+      "predicate": "uses",
+      "object": "sulfuric acid",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA /",
+        "document_offsets": {
+          "start": 0,
+          "end": 173
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "Derivatization"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "sulfuric acid"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "requires",
+      "object": "incubation time",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 215,
+            "end": 230,
+            "sentence_id": 2,
+            "matched_text": "Incubation time"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reagent sequence",
+      "predicate": "includes",
+      "object": "B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "Reagent sequence"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Derivatization",
+      "predicate": "requires concentration",
+      "object": "isopropanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA /",
+        "document_offsets": {
+          "start": 0,
+          "end": 173
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "Derivatization"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 121,
+            "sentence_id": 0,
+            "matched_text": "isopropanol"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reagent sequence",
+      "predicate": "includes",
+      "object": "I",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0 | 2.5 | 5\nC: Separation\nSplit ratio | 1:10 | 1:55 | 1:100\nInjection temperature ( 8 C) | 150 | 200 | 250\nInitial temperature ( 8 C) | 40 | 50 | 60\nCarrier gas linear velocity (cm / s)",
+        "document_offsets": {
+          "start": 0,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "Reagent sequence"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 174,
+            "end": 175,
+            "sentence_id": 1,
+            "matched_text": "I"
+          },
+          {
+            "start": 187,
+            "end": 188,
+            "sentence_id": 2,
+            "matched_text": "I"
+          },
+          {
+            "start": 191,
+            "end": 192,
+            "sentence_id": 2,
+            "matched_text": "I"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reagent sequence",
+      "predicate": "includes",
+      "object": "SA",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "Reagent sequence"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 169,
+            "end": 171,
+            "sentence_id": 0,
+            "matched_text": "SA"
+          },
+          {
+            "start": 178,
+            "end": 180,
+            "sentence_id": 1,
+            "matched_text": "SA"
+          },
+          {
+            "start": 195,
+            "end": 197,
+            "sentence_id": 2,
+            "matched_text": "SA"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "requires",
+      "object": "injection speed",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 395,
+            "end": 410,
+            "sentence_id": 2,
+            "matched_text": "Injection speed"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "C",
+      "predicate": "uses",
+      "object": "carrier gas linear velocity",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0 | 2.5 | 5\nC: Separation\nSplit ratio | 1:10 | 1:55 | 1:100\nInjection temperature ( 8 C) | 150 | 200 | 250\nInitial temperature ( 8 C) | 40 | 50 | 60\nCarrier gas linear velocity (cm / s)",
+        "document_offsets": {
+          "start": 0,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 283,
+            "end": 284,
+            "sentence_id": 2,
+            "matched_text": "C"
+          },
+          {
+            "start": 466,
+            "end": 467,
+            "sentence_id": 3,
+            "matched_text": "C"
+          },
+          {
+            "start": 540,
+            "end": 541,
+            "sentence_id": 4,
+            "matched_text": "C"
+          },
+          {
+            "start": 585,
+            "end": 586,
+            "sentence_id": 5,
+            "matched_text": "C"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 603,
+            "end": 630,
+            "sentence_id": 6,
+            "matched_text": "Carrier gas linear velocity"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reagent sequence",
+      "predicate": "follows",
+      "object": "SA / B / I",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA /",
+        "document_offsets": {
+          "start": 0,
+          "end": 173
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "Reagent sequence"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "C",
+      "predicate": "uses",
+      "object": "split ratio",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0 | 2.5 | 5\nC: Separation\nSplit ratio | 1:10 | 1:55 | 1:100\nInjection temperature ( 8 C) | 150 | 200 | 250\nInitial temperature ( 8 C) | 40 | 50 | 60\nCarrier gas linear velocity (cm / s)",
+        "document_offsets": {
+          "start": 0,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 283,
+            "end": 284,
+            "sentence_id": 2,
+            "matched_text": "C"
+          },
+          {
+            "start": 466,
+            "end": 467,
+            "sentence_id": 3,
+            "matched_text": "C"
+          },
+          {
+            "start": 540,
+            "end": 541,
+            "sentence_id": 4,
+            "matched_text": "C"
+          },
+          {
+            "start": 585,
+            "end": 586,
+            "sentence_id": 5,
+            "matched_text": "C"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 480,
+            "end": 491,
+            "sentence_id": 3,
+            "matched_text": "Split ratio"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Derivatization",
+      "predicate": "requires",
+      "object": "volume of sulfuric acid",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA /",
+        "document_offsets": {
+          "start": 0,
+          "end": 173
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "Derivatization"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "Volume of sulfuric acid"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "C",
+      "predicate": "requires",
+      "object": "injection temperature",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0 | 2.5 | 5\nC: Separation\nSplit ratio | 1:10 | 1:55 | 1:100\nInjection temperature ( 8 C) | 150 | 200 | 250\nInitial temperature ( 8 C) | 40 | 50 | 60\nCarrier gas linear velocity (cm / s)",
+        "document_offsets": {
+          "start": 0,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 283,
+            "end": 284,
+            "sentence_id": 2,
+            "matched_text": "C"
+          },
+          {
+            "start": 466,
+            "end": 467,
+            "sentence_id": 3,
+            "matched_text": "C"
+          },
+          {
+            "start": 540,
+            "end": 541,
+            "sentence_id": 4,
+            "matched_text": "C"
+          },
+          {
+            "start": 585,
+            "end": 586,
+            "sentence_id": 5,
+            "matched_text": "C"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 514,
+            "end": 535,
+            "sentence_id": 4,
+            "matched_text": "Injection temperature"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "requires",
+      "object": "shaking",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 438,
+            "end": 445,
+            "sentence_id": 2,
+            "matched_text": "Shaking"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "uses",
+      "object": "headspace aliquot",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 312,
+            "end": 329,
+            "sentence_id": 2,
+            "matched_text": "headspace aliquot"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reagent sequence",
+      "predicate": "follows",
+      "object": "I / SA / B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "Reagent sequence"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 191,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "I / SA / B"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reagent sequence",
+      "predicate": "follows",
+      "object": "B / SA / I",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA /",
+        "document_offsets": {
+          "start": 0,
+          "end": 173
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "Reagent sequence"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "requires",
+      "object": "temperature of incubation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 253,
+            "end": 278,
+            "sentence_id": 2,
+            "matched_text": "Temperature of incubation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "C",
+      "predicate": "requires",
+      "object": "initial temperature",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0 | 2.5 | 5\nC: Separation\nSplit ratio | 1:10 | 1:55 | 1:100\nInjection temperature ( 8 C) | 150 | 200 | 250\nInitial temperature ( 8 C) | 40 | 50 | 60\nCarrier gas linear velocity (cm / s)",
+        "document_offsets": {
+          "start": 0,
+          "end": 639
+        },
+        "subject_positions": [
+          {
+            "start": 283,
+            "end": 284,
+            "sentence_id": 2,
+            "matched_text": "C"
+          },
+          {
+            "start": 466,
+            "end": 467,
+            "sentence_id": 3,
+            "matched_text": "C"
+          },
+          {
+            "start": 540,
+            "end": 541,
+            "sentence_id": 4,
+            "matched_text": "C"
+          },
+          {
+            "start": 585,
+            "end": 586,
+            "sentence_id": 5,
+            "matched_text": "C"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 561,
+            "end": 580,
+            "sentence_id": 5,
+            "matched_text": "Initial temperature"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "requires",
+      "object": "fill speed",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Parameters | Level | High\nA: Derivatization\nVolume of sulfuric acid ( m L) | 5 | 503 | 1,000\nConcentration of isopropanol (%, v / v) | 1 | 5 | 10\nReagent sequence | B / SA / I | SA / B / I | I / SA / B\nB: Headspace\nIncubation time (min) | 5 | 32.5 | 60\nTemperature of incubation ( 8 C) | 60 | 90 | 120\nVolume of headspace aliquot ( m L) | 100 | 550 | 1,000\nFill speed (mL / min) | 10 | 55 | 100\nInjection speed (mL / min) | 10 | 55 | 100\nShaking (min) | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 455
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 166,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 200,
+            "end": 201,
+            "sentence_id": 2,
+            "matched_text": "B"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 357,
+            "end": 367,
+            "sentence_id": 2,
+            "matched_text": "Fill speed"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 302.0481872558594,
+          "t": 240.57696533203125,
+          "r": 553.28955078125,
+          "b": 80.9219970703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has precision (between-day)",
+      "object": "9.4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 10.8 | 9.4 | 11.4 | 9.7 | 10.5 | 12.0 | 8.8 | 5.4 | 11.1\nAccuracy (%) | 99.8",
+        "document_offsets": {
+          "start": 0,
+          "end": 778
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 709,
+            "end": 712,
+            "sentence_id": 9,
+            "matched_text": "9.4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has concentration nominal",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD)",
+        "document_offsets": {
+          "start": 0,
+          "end": 581
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 138,
+            "end": 140,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 157,
+            "end": 159,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 2,
+            "matched_text": "50"
+          },
+          {
+            "start": 504,
+            "end": 506,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 523,
+            "end": 525,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 542,
+            "end": 544,
+            "sentence_id": 7,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration measured (between-day)",
+      "object": "110 + 10",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 49 + 5 | 110 + 10 | 1,037 + 118 | 52 + 5 | 101 + 11 | 1,015 + 122 | 46 + 4 | 89 + 5 | 1,042 + 116\nPrecision (RSD %)",
+        "document_offsets": {
+          "start": 0,
+          "end": 699
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 593,
+            "end": 601,
+            "sentence_id": 8,
+            "matched_text": "110 + 10"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has precision",
+      "object": "7.3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 7.3 | 7.8 | 11.5 | 6.2 | 7.6 | 10.7 | 9.6 | 7.8 | 10.0\nAccuracy (%)",
+        "document_offsets": {
+          "start": 0,
+          "end": 401
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 334,
+            "end": 337,
+            "sentence_id": 3,
+            "matched_text": "7.3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration nominal (between-day)",
+      "object": "100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD) | 100.3 | 111.4 | 114.4 | 99.8 | 100.6 | 113.9 | 97.4 | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD)",
+        "document_offsets": {
+          "start": 0,
+          "end": 581
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 143,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "100"
+          },
+          {
+            "start": 162,
+            "end": 165,
+            "sentence_id": 1,
+            "matched_text": "100"
+          },
+          {
+            "start": 181,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "100"
+          },
+          {
+            "start": 404,
+            "end": 407,
+            "sentence_id": 4,
+            "matched_text": "100"
+          },
+          {
+            "start": 435,
+            "end": 438,
+            "sentence_id": 5,
+            "matched_text": "100"
+          },
+          {
+            "start": 509,
+            "end": 512,
+            "sentence_id": 7,
+            "matched_text": "100"
+          },
+          {
+            "start": 528,
+            "end": 531,
+            "sentence_id": 7,
+            "matched_text": "100"
+          },
+          {
+            "start": 547,
+            "end": 550,
+            "sentence_id": 7,
+            "matched_text": "100"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration measured (between-day)",
+      "object": "49 + 5",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 49 + 5 | 110 + 10 | 1,037 + 118 | 52 + 5 | 101 + 11 | 1,015 + 122 | 46 + 4 | 89 + 5 | 1,042 + 116\nPrecision (RSD %)",
+        "document_offsets": {
+          "start": 0,
+          "end": 699
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 584,
+            "end": 590,
+            "sentence_id": 8,
+            "matched_text": "49 + 5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has concentration measured (between-day)",
+      "object": "52 + 5",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 49 + 5 | 110 + 10 | 1,037 + 118 | 52 + 5 | 101 + 11 | 1,015 + 122 | 46 + 4 | 89 + 5 | 1,042 + 116\nPrecision (RSD %)",
+        "document_offsets": {
+          "start": 0,
+          "end": 699
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 8,
+            "matched_text": "52 + 5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has accuracy",
+      "object": "100.3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 100.3 | 111.4",
+        "document_offsets": {
+          "start": 0,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 404,
+            "end": 409,
+            "sentence_id": 4,
+            "matched_text": "100.3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has accuracy",
+      "object": "111.4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 100.3 | 111.4",
+        "document_offsets": {
+          "start": 0,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 412,
+            "end": 417,
+            "sentence_id": 4,
+            "matched_text": "111.4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has precision",
+      "object": "6.2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 7.3 | 7.8 | 11.5 | 6.2 | 7.6 | 10.7 | 9.6 | 7.8 | 10.0\nAccuracy (%)",
+        "document_offsets": {
+          "start": 0,
+          "end": 401
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 353,
+            "end": 356,
+            "sentence_id": 3,
+            "matched_text": "6.2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration nominal (between-day)",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD)",
+        "document_offsets": {
+          "start": 0,
+          "end": 581
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 138,
+            "end": 140,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 157,
+            "end": 159,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 2,
+            "matched_text": "50"
+          },
+          {
+            "start": 504,
+            "end": 506,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 523,
+            "end": 525,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 542,
+            "end": 544,
+            "sentence_id": 7,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has accuracy (between-day)",
+      "object": "109.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 10,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 109.8 | 103.7 | 104.0 | 101.0 | 101.5 | 91.3 | 89.0 | 104.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 840
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 781,
+            "end": 786,
+            "sentence_id": 10,
+            "matched_text": "109.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration nominal",
+      "object": "100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD) | 100.3 | 111.4 | 114.4 | 99.8 | 100.6 | 113.9 | 97.4 | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD)",
+        "document_offsets": {
+          "start": 0,
+          "end": 581
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 143,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "100"
+          },
+          {
+            "start": 162,
+            "end": 165,
+            "sentence_id": 1,
+            "matched_text": "100"
+          },
+          {
+            "start": 181,
+            "end": 184,
+            "sentence_id": 1,
+            "matched_text": "100"
+          },
+          {
+            "start": 404,
+            "end": 407,
+            "sentence_id": 4,
+            "matched_text": "100"
+          },
+          {
+            "start": 435,
+            "end": 438,
+            "sentence_id": 5,
+            "matched_text": "100"
+          },
+          {
+            "start": 509,
+            "end": 512,
+            "sentence_id": 7,
+            "matched_text": "100"
+          },
+          {
+            "start": 528,
+            "end": 531,
+            "sentence_id": 7,
+            "matched_text": "100"
+          },
+          {
+            "start": 547,
+            "end": 550,
+            "sentence_id": 7,
+            "matched_text": "100"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration measured",
+      "object": "111 + 9",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %)",
+        "document_offsets": {
+          "start": 0,
+          "end": 331
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 227,
+            "end": 234,
+            "sentence_id": 2,
+            "matched_text": "111 + 9"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has concentration nominal (between-day)",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD)",
+        "document_offsets": {
+          "start": 0,
+          "end": 581
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 138,
+            "end": 140,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 157,
+            "end": 159,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 2,
+            "matched_text": "50"
+          },
+          {
+            "start": 504,
+            "end": 506,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 523,
+            "end": 525,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 542,
+            "end": 544,
+            "sentence_id": 7,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has accuracy (between-day)",
+      "object": "99.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 114.4 | 99.8 | 100.6 | 113.9 | 97.4 | 10.8 | 9.4 | 11.4 | 9.7 | 10.5 | 12.0 | 8.8 | 5.4 | 11.1\nAccuracy (%) | 99.8",
+        "document_offsets": {
+          "start": 0,
+          "end": 778
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 428,
+            "end": 432,
+            "sentence_id": 5,
+            "matched_text": "99.8"
+          },
+          {
+            "start": 774,
+            "end": 778,
+            "sentence_id": 9,
+            "matched_text": "99.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has precision (between-day)",
+      "object": "9.7",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 10.8 | 9.4 | 11.4 | 9.7 | 10.5 | 12.0 | 8.8 | 5.4 | 11.1\nAccuracy (%) | 99.8",
+        "document_offsets": {
+          "start": 0,
+          "end": 778
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 722,
+            "end": 725,
+            "sentence_id": 9,
+            "matched_text": "9.7"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has precision (between-day)",
+      "object": "10.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 10.8 | 9.4 | 11.4 | 9.7 | 10.5 | 12.0 | 8.8 | 5.4 | 11.1\nAccuracy (%) | 99.8",
+        "document_offsets": {
+          "start": 0,
+          "end": 778
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 702,
+            "end": 706,
+            "sentence_id": 9,
+            "matched_text": "10.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has accuracy",
+      "object": "99.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 114.4 | 99.8 | 100.6 | 113.9 | 97.4 | 10.8 | 9.4 | 11.4 | 9.7 | 10.5 | 12.0 | 8.8 | 5.4 | 11.1\nAccuracy (%) | 99.8",
+        "document_offsets": {
+          "start": 0,
+          "end": 778
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 428,
+            "end": 432,
+            "sentence_id": 5,
+            "matched_text": "99.8"
+          },
+          {
+            "start": 774,
+            "end": 778,
+            "sentence_id": 9,
+            "matched_text": "99.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has precision",
+      "object": "7.8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 7.3 | 7.8 | 11.5 | 6.2 | 7.6 | 10.7 | 9.6 | 7.8 | 10.0\nAccuracy (%)",
+        "document_offsets": {
+          "start": 0,
+          "end": 401
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 340,
+            "end": 343,
+            "sentence_id": 3,
+            "matched_text": "7.8"
+          },
+          {
+            "start": 378,
+            "end": 381,
+            "sentence_id": 3,
+            "matched_text": "7.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has concentration measured",
+      "object": "49 + 3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %)",
+        "document_offsets": {
+          "start": 0,
+          "end": 331
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 251,
+            "end": 257,
+            "sentence_id": 2,
+            "matched_text": "49 + 3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formic acid",
+      "predicate": "has accuracy (between-day)",
+      "object": "104.0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 10,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 109.8 | 103.7 | 104.0 | 101.0 | 101.5 | 91.3 | 89.0 | 104.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 840
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 66,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          },
+          {
+            "start": 94,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "Formic acid"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 797,
+            "end": 802,
+            "sentence_id": 10,
+            "matched_text": "104.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration nominal",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %) | 50 | 100 | 1,000 | 50 | 100 | 1,000 | 50 | 100 | 1,000\nc measured (mean + SD)",
+        "document_offsets": {
+          "start": 0,
+          "end": 581
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 138,
+            "end": 140,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 157,
+            "end": 159,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 1,
+            "matched_text": "50"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 2,
+            "matched_text": "50"
+          },
+          {
+            "start": 504,
+            "end": 506,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 523,
+            "end": 525,
+            "sentence_id": 7,
+            "matched_text": "50"
+          },
+          {
+            "start": 542,
+            "end": 544,
+            "sentence_id": 7,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration measured",
+      "object": "50 + 4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Methanol | Methanol | Ethanol | Ethanol | Ethanol | Formic acid | Formic acid | Formic acid | Formic acid\nWithin-day\nc nominal (mg / L) | 50 + 4 | 111 + 9 | 1,144 + 131 | 49 + 3 | 101 + 8 | 1,140 + 122 | 48 + 5 | 94 + 7 | 1,033 + 103\nPrecision (RSD %)",
+        "document_offsets": {
+          "start": 0,
+          "end": 331
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 218,
+            "end": 224,
+            "sentence_id": 2,
+            "matched_text": "50 + 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table1",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 41.42974090576172,
+          "t": 177.98638916015625,
+          "r": 559.0006103515625,
+          "b": 74.2919921875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient4",
+      "predicate": "has concentration of",
+      "object": "formic acid",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "formic acid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient2",
+      "predicate": "has concentration of",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient4",
+      "predicate": "has concentration of",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient3",
+      "predicate": "has concentration of",
+      "object": "ethanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient5",
+      "predicate": "has concentration of",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient5a",
+      "predicate": "has concentration of",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient1",
+      "predicate": "has concentration of",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient5",
+      "predicate": "does not have concentration of",
+      "object": "ethanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient1",
+      "predicate": "does not have concentration of",
+      "object": "ethanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient2",
+      "predicate": "has concentration of",
+      "object": "ethanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient3",
+      "predicate": "has concentration of",
+      "object": "formic acid",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "formic acid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient4",
+      "predicate": "has concentration of",
+      "object": "ethanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "ethanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient3",
+      "predicate": "has concentration of",
+      "object": "methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient2",
+      "predicate": "has concentration of",
+      "object": "formic acid",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "formic acid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient5a",
+      "predicate": "has concentration of",
+      "object": "formic acid",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "formic acid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Patient1",
+      "predicate": "has concentration of",
+      "object": "formic acid",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Patient | c (methanol) mg / L | c (ethanol) mg / L | c (formic acid) mg / L\n1 | 420 | - | 380\n2 | 910 | 1,410 | 650\n3 | 280 | 120 | 60\n4 | 1,540",
+        "document_offsets": {
+          "start": 0,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "formic acid"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page3_table2",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 307.81787109375,
+          "t": 300.10394287109375,
+          "r": 558.6358032226562,
+          "b": 235.4923095703125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "temperature of incubation",
+    "headspace aliquot",
+    "carrier gas linear velocity",
+    "injection temperature",
+    "Patient",
+    "ethanol",
+    "methanol",
+    "fill speed",
+    "injection speed",
+    "incubation time",
+    "Ethanol",
+    "sulfuric acid",
+    "headspace",
+    "initial temperature",
+    "split ratio",
+    "separation",
+    "formic acid",
+    "shaking",
+    "Formic acid",
+    "Methanol",
+    "isopropanol",
+    "Derivatization"
+  ]
+}

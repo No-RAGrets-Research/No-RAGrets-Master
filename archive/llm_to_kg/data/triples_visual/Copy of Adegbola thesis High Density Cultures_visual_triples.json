@@ -1,0 +1,297 @@
+[
+  {
+    "page": 16,
+    "caption": "Figure 2-1: Oxidation of methane to formaldehyde (Hanson and Hanson, 1996). MDH is \nmethanol dehydrogynase, MMO is methane monooxygenase (s: soluble, p: particulate). \nCytC is cytochrome (red –reduced, ox -oxidized).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2-1: Oxidation of methane to formaldehyde (Hanson and Hanson, 1996). MDH is \nmethanol dehydrogynase, MMO is methane monooxygenase (s: soluble, p: particulate). \nCytC is cytochrome (red –reduced, ox -oxidized).\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"CH4\",\n    \"relation\": \"oxidized by\",\n    \"object\": \"sMMO\"\n  },\n  {\n    \"subject\": \"CH4\",\n    \"relation\": \"oxidized by\",\n    \"object\": \"pMMO\"\n  },\n  {\n    \"subject\": \"sMMO\",\n    \"relation\": \"produces\",\n    \"object\": \"CH3OH\"\n  },\n  {\n    \"subject\": \"pMMO\",\n    \"relation\": \"produces\",\n    \"object\": \"CH3OH\"\n  },\n  {\n    \"subject\": \"CH3OH\",\n    \"relation\": \"oxidized by\",\n    \"object\": \"MDH\"\n  },\n  {\n    \"subject\": \"MDH\",\n    \"relation\": \"produces\",\n    \"object\": \"HCHO\"\n  },\n  {\n    \"subject\": \"sMMO\",\n    \"relation\": \"consumes\",\n    \"object\": \"NADH + H+\"\n  },\n  {\n    \"subject\": \"sMMO\",\n    \"relation\": \"consumes\",\n    \"object\": \"O2\"\n  },\n  {\n    \"subject\": \"sMMO\",\n    \"relation\": \"produces\",\n    \"object\": \"H2O\"\n  },\n  {\n    \"subject\": \"sMMO\",\n    \"relation\": \"produces\",\n    \"object\": \"NAD+\"\n  },\n  {\n    \"subject\": \"pMMO\",\n    \"relation\": \"consumes\",\n    \"object\": \"NADH + H+\"\n  },\n  {\n    \"subject\": \"pMMO\",\n    \"relation\": \"consumes\",\n    \"object\": \"O2\"\n  },\n  {\n    \"subject\": \"pMMO\",\n    \"relation\": \"produces\",\n    \"object\": \"H2O\"\n  },\n  {\n    \"subject\": \"pMMO\",\n    \"relation\": \"produces\",\n    \"object\": \"NAD+\"\n  },\n  {\n    \"subject\": \"MDH\",\n    \"relation\": \"consumes\",\n    \"object\": \"CytC_red\"\n  },\n  {\n    \"subject\": \"MDH\",\n    \"relation\": \"produces\",\n    \"object\": \"CytC_ox\"\n  },\n  {\n    \"subject\": \"CytC_red\",\n    \"relation\": \"reduces\",\n    \"object\": \"MDH"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "caption": "Figure 2-2: Serine pathway for the assimilation of formaldehyde in Type II methanotrophs \n(Hanson and Hanson, 1996). Reactions catalyzed by enzymes unique to Type II \nmenthanotrophs are: Serine hydroxymethyl transferase (STHM), hydroxypyruvate \nreductase (HPR), malate thiokinase (MTK), and malyl coenzyme A lyase (MCL).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2-2: Serine pathway for the assimilation of formaldehyde in Type II methanotrophs \n(Hanson and Hanson, 1996). Reactions catalyzed by enzymes unique to Type II \nmenthanotrophs are: Serine hydroxymethyl transferase (STHM), hydroxypyruvate \nreductase (HPR), malate thiokinase (MTK), and malyl coenzyme A lyase (MCL).\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"acetyl-CoA\",\n    \"relation\": \"converted to\",\n    \"object\": \"2 glyoxylate\"\n  },\n  {\n    \"subject\": \"malyl-CoA\",\n    \"relation\": \"converted to\",\n    \"object\": \"2 glyoxylate\"\n  },\n  {\n    \"subject\": \"2 glyoxylate\",\n    \"relation\": \"converted to\",\n    \"object\": \"2 glycine\"\n  },\n  {\n    \"subject\": \"2HCHO\",\n    \"relation\": \"converted to\",\n    \"object\": \"2 glycine\"\n  },\n  {\n    \"subject\": \"2HCHO\",\n    \"relation\": \"converted to\",\n    \"object\": \"2 serine\"\n  },\n  {\n    \"subject\": \"2 hydroxypyruvate\",\n    \"relation\": \"converted to\",\n    \"object\": \"2 glyceraldehyde\"\n  },\n  {\n    \"subject\": \"malate\",\n    \"relation\": \"converted to\",\n    \"object\": \"oxaloacetate\"\n  },\n  {\n    \"subject\": \"oxaloacetate\",\n    \"relation\": \"converted to\",\n    \"object\": \"phosphoenolpyruvate\"\n  },\n  {\n    \"subject\": \"phosphoenolpyruvate\",\n    \"relation\": \"converted to\",\n    \"object\": \"2-phosphoglycerate\"\n  },\n  {\n    \"subject\": \"2-phosphoglycerate\",\n    \"relation\": \"converted to\",\n    \"object\": \"CELL MATERIAL\"\n  },\n  {\n    \"subject\": \"2HCHO\",\n    \"relation\": \"converted to\",\n    \"object\": \"2-phosphoglycerate\"\n  },\n  {\n    \"subject\": \"CO2\",\n    \"relation\": \"converted to\",\n    \"object\": \"2-phosphoglycerate\"\n  },\n  {\n    \"subject\": \"3ATP\",\n    \"relation\": \"converted to\",\n    \"object\": \"2-phosphoglycerate\"\n  },\n  {\n    \"subject\": \"2NADH\",\n    \"relation\": \"converted to\",\n    \"object\": \"2-phosphoglycerate\"\n  },\n  {\n    \"subject\": \"2ADP\",\n    \"relation\": \"converted to\",\n    \"object\": \"2-phosphoglycerate\"\n  },\n  {\n    \"subject\": \"Pi\",\n    \"relation\": \"converted to\",\n"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "caption": "Figure 2-3: Hypothetical structure of the active-site of MMOH (Lipscomb, 1994).",
+    "triples": [
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "Glu114"
+      },
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "His147"
+      },
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "Glu144"
+      },
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "Asp242"
+      },
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "Glu243"
+      },
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "Asp209"
+      },
+      {
+        "subject": "Fe",
+        "relation": "bound to",
+        "object": "His246"
+      },
+      {
+        "subject": "His147",
+        "relation": "interacts with",
+        "object": "Asp242"
+      },
+      {
+        "subject": "Glu144",
+        "relation": "bridges",
+        "object": "Fe atoms"
+      },
+      {
+        "subject": "Small Ligand Site",
+        "relation": "bound to",
+        "object": "Fe"
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "caption": "Figure 3-1: (A) Methanol control system.    \n(B) Schematic of methanol probe",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 3-1: (A) Methanol control system.    \n(B) Schematic of methanol probe\n\nOutput JSON list only:\nassistant\n[\n  (\"methanol vapor\", \"diffuses through\", \"silicone membrane\"),\n  (\"silicone membrane\", \"has thickness of\", \"0.05\\\"\"),\n  (\"PTFE tubing\", \"has internal diameter of\", \"1/32\\\"\"),\n  (\"stainless steel case\", \"has outer diameter of\", \"1/4\\\"\"),\n  (\"carrier air\", \"flows through\", \"PTFE tubing\"),\n  (\"methanol vapor\", \"is generated from\", \"aqueous methanol solution\"),\n  (\"PTFE tubing\", \"is contained within\", \"stainless steel case\"),\n  (\"carrier air\", \"is directed to\", \"sensor\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "caption": "Figure 3-2: Response time of sensor to a step change in methanol concentration from 1 to \n2g/L at 0 min. The effect of 19 mL/min ( ), 40 mL/min (\n) and 60 mL/min ( )carrier air \nflow rates, is shown.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 3-2: Response time of sensor to a step change in methanol concentration from 1 to \n2g/L at 0 min. The effect of 19 mL/min ( ), 40 mL/min (\n) and 60 mL/min ( )carrier air \nflow rates, is shown.\n\nOutput JSON list only:\nassistant\n[(\"sensor output (V)\", \"increases with time\", \"1.2 V\"), (\"sensor output (V)\", \"increases with time\", \"1.1 V\"), (\"sensor output (V)\", \"increases with time\", \"1.0 V\"), (\"sensor output (V)\", \"increases with time\", \"0.9 V\"), (\"sensor output (V)\", \"increases with time\", \"0.8 V\"), (\"sensor output (V)\", \"is affected by\", \"carrier air flow rate of 19 mL/min\"), (\"sensor output (V)\", \"is affected by\", \"carrier air flow rate of 40 mL/min\"), (\"sensor output (V)\", \"is affected by\", \"carrier air flow rate of 60 mL/min\"), (\"sensor output (V)\", \"is measured at\", \"step change in methanol concentration from 1 to 2 g/L\"), (\"sensor output (V)\", \"is measured at\", \"0 min\"), (\"sensor output (V)\", \"is measured at\", \"20 min\"), (\"sensor output (V)\", \"is measured at\", \"15 min\"), (\"sensor output (V)\", \"is measured at\", \"10 min\"), (\"sensor output (V)\", \"is measured at\", \"5 min\"), (\"sensor output (V)\", \"is measured at\", \"0 min\"), (\"sensor output (V)\", \"is measured at\", \"25 min\"), (\"sensor output (V)\", \"is measured at\", \"20 min\"), (\"sensor output (V)\", \"is measured at\", \"15 min\"), (\"sensor output (V)\", \"is measured at\", \"10 min\"), (\"sensor output (V)\", \"is measured at\", \"5 min\"), (\"sensor output (V)\", \"is measured at\", \"0 min\"), (\"sensor output (V)\", \"is measured at\", \"25 min\"), (\"sensor output (V)\", \"is measured at\", \"20 min\"), (\"sensor output (V)\", \"is measured at\", \"15 min\"), (\"sensor output (V)\", \"is measured at\", \"10 min\"), (\"sensor output (V)\", \"is measured at\", \"5 min\"), (\"sensor output (V)\", \"is measured at\", \"0 min\"), (\"sensor output (V)\", \"is measured at\", \"25 min\"), (\"sensor output (V)\", \"is measured at\", \"20 min\"), (\"sensor output (V)\", \"is measured at\", \""
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "caption": "Figure 3-2: Response time of sensor to a step change in methanol concentration from 1 to \n2g/L at 0 min. The effect of 19 mL/min ( ), 40 mL/min (\n) and 60 mL/min ( )carrier air \nflow rates, is shown.",
+    "triples": [
+      {
+        "subject": "sensor",
+        "relation": "responds to",
+        "object": "step change in methanol concentration"
+      },
+      {
+        "subject": "sensor",
+        "relation": "has response time measured at",
+        "object": "0 min"
+      },
+      {
+        "subject": "sensor",
+        "relation": "is affected by",
+        "object": "carrier air flow rate"
+      },
+      {
+        "subject": "19 mL/min carrier air flow rate",
+        "relation": "is represented by",
+        "object": "solid circle symbol"
+      },
+      {
+        "subject": "40 mL/min carrier air flow rate",
+        "relation": "is represented by",
+        "object": "triangle symbol"
+      },
+      {
+        "subject": "60 mL/min carrier air flow rate",
+        "relation": "is represented by",
+        "object": "square symbol"
+      },
+      {
+        "subject": "methanol concentration",
+        "relation": "is varied from",
+        "object": "1 g/L to 2 g/L"
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "caption": "Figure 3-4: Sensor performance during fermentation. Methanol measured with sensor (\n), \nwith gas chromatography ( ) and total airflow rate through the bioreactor ( ).",
+    "triples": [
+      {
+        "subject": "Methanol concentration (g/L)",
+        "relation": "measured with",
+        "object": "sensor"
+      },
+      {
+        "subject": "Methanol concentration (g/L)",
+        "relation": "measured with",
+        "object": "gas chromatography"
+      },
+      {
+        "subject": "Gas flowrate (L/min)",
+        "relation": "measured as",
+        "object": "total airflow rate through the bioreactor"
+      }
+    ]
+  },
+  {
+    "page": 47,
+    "caption": "g/L, the methanol feed pump is turned off (Figure 4-2).",
+    "triples": [
+      {
+        "subject": "methanol feed pump",
+        "relation": "is turned off",
+        "object": "g/L"
+      }
+    ]
+  },
+  {
+    "page": 47,
+    "caption": "g/L, the methanol feed pump is turned off (Figure 4-2).",
+    "triples": [
+      {
+        "subject": "methanol feed pump",
+        "relation": "is turned off",
+        "object": "Figure 4-2"
+      }
+    ]
+  },
+  {
+    "page": 47,
+    "caption": "g/L, the methanol feed pump is turned off (Figure 4-2).",
+    "triples": []
+  },
+  {
+    "page": 50,
+    "caption": "Figure 4-3: Inhibitory effect of methanol on growth of M. trichosporium OB3b: Shake flasks \ncontaining 100 mL medium C and varying levels of methanol were prepared with equal \nvolumes of actively growing biomass from the same inoculum.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4-3: Inhibitory effect of methanol on growth of M. trichosporium OB3b: Shake flasks \ncontaining 100 mL medium C and varying levels of methanol were prepared with equal \nvolumes of actively growing biomass from the same inoculum.\n\nOutput JSON list only:\nassistant\n[(\"Methanol concentration (g/L)\", \"inhibits\", \"initial specific growth rate (1/h)\"), (\"M. trichosporium OB3b\", \"exhibits growth inhibition by\", \"methanol\"), (\"M. trichosporium OB3b\", \"grows in\", \"medium C\"), (\"medium C\", \"contains\", \"methanol\"), (\"medium C\", \"is inoculated with\", \"actively growing biomass\")]"
+      }
+    ]
+  },
+  {
+    "page": 50,
+    "caption": "Figure 4-4: Inhibitory effect of increasing ammonium levels on growth rate of  \nM. trichosporium OB3b",
+    "triples": [
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "exhibits inhibitory effect on",
+        "object": "initial specific growth rate"
+      },
+      {
+        "subject": "ammonium concentration",
+        "relation": "inhibits",
+        "object": "initial specific growth rate"
+      }
+    ]
+  },
+  {
+    "page": 54,
+    "caption": "Figure 4-5: Fermentation 1: Biomass, methanol, CCP, CMC and YCO2/CH3OH profiles. \nCCP = cumulative carbon dioxide production.  \nCMC = cumulative methanol consumed. \nYCO2/CH3OH = yield of carbon dioxide to methanol",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4-5: Fermentation 1: Biomass, methanol, CCP, CMC and YCO2/CH3OH profiles. \nCCP = cumulative carbon dioxide production.  \nCMC = cumulative methanol consumed. \nYCO2/CH3OH = yield of carbon dioxide to methanol\n\nOutput JSON list only:\nassistant\n[(\"Biomass (g/L)\", \"changes over\", \"Time (h)\"), (\"Methanol (g/L)\", \"changes over\", \"Time (h)\"), (\"YCO2/CH3OH (g/g)\", \"changes over\", \"Time (h)\"), (\"CCP (g)\", \"changes over\", \"Time (h)\"), (\"CMC (g)\", \"changes over\", \"Time (h)\"), (\"YCO2/CH3OH\", \"is defined as\", \"yield of carbon dioxide to methanol\"), (\"CCP\", \"is defined as\", \"cumulative carbon dioxide production\"), (\"CMC\", \"is defined as\", \"cumulative methanol consumed\")]"
+      }
+    ]
+  },
+  {
+    "page": 56,
+    "caption": "higher growth rates were achieved at low methanol concentrations (Figure 4-3), feeding",
+    "triples": []
+  },
+  {
+    "page": 60,
+    "caption": "Figure 4-7: Fermentation 2: Biomass, methanol, YCO2/CH3OH, CCP and CMC profiles.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4-7: Fermentation 2: Biomass, methanol, YCO2/CH3OH, CCP and CMC profiles.\n\nOutput JSON list only:\nassistant\n[\n  (\"Biomass (g/L)\", \"varies with\", \"Time (h)\"),\n  (\"Methanol (g/L)\", \"varies with\", \"Time (h)\"),\n  (\"YCO2/CH3OH (g/g)\", \"varies with\", \"Time (h)\"),\n  (\"CCP (g)\", \"varies with\", \"Time (h)\"),\n  (\"CMC (g)\", \"varies with\", \"Time (h)\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 62,
+    "caption": "Figure 4-8: Ammonium and phosphate concentration profiles.",
+    "triples": [
+      {
+        "subject": "NH₄ concentration",
+        "relation": "decreases over time",
+        "object": "from 0.4 g/L to 0.0 g/L"
+      },
+      {
+        "subject": "PO₄ concentration",
+        "relation": "increases over time",
+        "object": "from 0.0 g/L to 0.4 g/L"
+      },
+      {
+        "subject": "NH₄ concentration",
+        "relation": "peaks at",
+        "object": "around 40 hours"
+      },
+      {
+        "subject": "PO₄ concentration",
+        "relation": "peaks at",
+        "object": "around 120 hours"
+      },
+      {
+        "subject": "NH₄ concentration",
+        "relation": "starts at",
+        "object": "0.4 g/L"
+      },
+      {
+        "subject": "PO₄ concentration",
+        "relation": "starts at",
+        "object": "0.0 g/L"
+      }
+    ]
+  },
+  {
+    "page": 62,
+    "caption": "Figure 4-9: Fermentation 2: Effect of ammonium on growth rate.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4-9: Fermentation 2: Effect of ammonium on growth rate.\n\nOutput JSON list only:\nassistant\n[(\"Specific growth rate (h⁻¹)\", \"depends on\", \"NH₄ (g/L)\"), (\"Specific growth rate (h⁻¹)\", \"decreases with\", \"increasing NH₄ (g/L)\"), (\"Specific growth rate (h⁻¹)\", \"stabilizes at\", \"NH₄ (g/L) = 0.15 g/L\")]"
+      }
+    ]
+  },
+  {
+    "page": 69,
+    "caption": "Figure 5-1: Recovery of sMMO activity in subcultures grown on methane.",
+    "triples": [
+      {
+        "subject": "sMMO activity",
+        "relation": "recovery in",
+        "object": "subcultures grown on methane"
+      },
+      {
+        "subject": "Bioreactor",
+        "relation": "has sMMO activity",
+        "object": "low"
+      },
+      {
+        "subject": "Subculture",
+        "relation": "has sMMO activity",
+        "object": "high"
+      }
+    ]
+  }
+]

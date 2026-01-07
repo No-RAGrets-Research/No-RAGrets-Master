@@ -1,0 +1,43 @@
+[
+  {
+    "page": 2,
+    "caption": "Fig.\n 1.\n TBR\n set\n up\n for\n biogas\n conversion\n to\n methanol:\n solid\n lines\n show\n direction\n of\nliquid",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig.\n 1.\n TBR\n set\n up\n for\n biogas\n conversion\n to\n methanol:\n solid\n lines\n show\n direction\n of\nliquid\n\nOutput JSON list only:\nassistant\n[(\"1\", \"is part of\", \"TBR setup\"), (\"2\", \"is part of\", \"TBR setup\"), (\"3\", \"is part of\", \"TBR setup\"), (\"4\", \"is part of\", \"TBR setup\"), (\"5\", \"is part of\", \"TBR setup\"), (\"6\", \"is part of\", \"TBR setup\"), (\"7\", \"is part of\", \"TBR setup\"), (\"8\", \"is part of\", \"TBR setup\"), (\"9\", \"is part of\", \"TBR setup\"), (\"1\", \"is used for\", \"biogas conversion to methanol\"), (\"2\", \"is used for\", \"biogas conversion to methanol\"), (\"3\", \"is used for\", \"biogas conversion to methanol\"), (\"4\", \"is used for\", \"biogas conversion to methanol\"), (\"5\", \"is used for\", \"biogas conversion to methanol\"), (\"6\", \"is used for\", \"biogas conversion to methanol\"), (\"7\", \"is used for\", \"biogas conversion to methanol\"), (\"8\", \"is used for\", \"biogas conversion to methanol\"), (\"9\", \"is used for\", \"biogas conversion to methanol\")]"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig.\n 2.\n Dynamics\n of\n CH4 removal\n in\n the\n TBR\n during\n Phase\n 1.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig.\n 2.\n Dynamics\n of\n CH4 removal\n in\n the\n TBR\n during\n Phase\n 1.\n\nOutput JSON list only:\nassistant\n[\n  (\"Methane-initial\", \"composition percentage\", \"17.5%\"),\n  (\"Methane-final\", \"composition percentage\", \"0.5%\"),\n  (\"OD\", \"value at time 0 d\", \"0.5\"),\n  (\"OD\", \"value at time 28 d\", \"0.6\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig.\n 2.\n Dynamics\n of\n CH4 removal\n in\n the\n TBR\n during\n Phase\n 1.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig.\n 2.\n Dynamics\n of\n CH4 removal\n in\n the\n TBR\n during\n Phase\n 1.\n\nOutput JSON list only:\nassistant\n[(\"Methane removal\", \"measured at\", \"1:28 biogas:air ratio\"), (\"Methane removal\", \"measured at\", \"1:6.0 biogas:air ratio\"), (\"Methane removal\", \"measured at\", \"1:2.5 biogas:air ratio\"), (\"Oxygen removal\", \"measured at\", \"1:28 biogas:air ratio\"), (\"Oxygen removal\", \"measured at\", \"1:6.0 biogas:air ratio\"), (\"Oxygen removal\", \"measured at\", \"1:2.5 biogas:air ratio\"), (\"Carbon dioxide production\", \"measured at\", \"1:28 biogas:air ratio\"), (\"Carbon dioxide production\", \"measured at\", \"1:6.0 biogas:air ratio\"), (\"Carbon dioxide production\", \"measured at\", \"1:2.5 biogas:air ratio\")]"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "to\n known\n genera\n (Table\n 5),\n the\n orders\n Burkholderiales,\nRickettsiales,\n Rhodospirales,\n and\n Rhizobiales\n were\n very\n prevalent\n in\nthose\n samples",
+    "triples": []
+  },
+  {
+    "page": 9,
+    "caption": "Fig.\n 5.\n Major\n bacterial\n phyla\n (bolded,\n each\n representing\n >0.5%\n of\n total\n sequences\n in\n≥1",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig.\n 5.\n Major\n bacterial\n phyla\n (bolded,\n each\n representing\n >0.5%\n of\n total\n sequences\n in\n≥1\n\nOutput JSON list only:\nassistant\n[(\"Phase 1.1-1\", \"has bacterial phyla\", \"Methylococcaceae\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Burkholderiales\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Rhizobiales\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Rickettsiales\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Saprospirales\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Flavobacteriales\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Other Bacteroidetes\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Chlorobi\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Actinobacteria\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Firmicutes\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Chloroflexi\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Gemmatimonadetes\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Other Bacterial Phyla\"), (\"Phase 1.1-1\", \"has bacterial phyla\", \"Unassigned\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Methylococcaceae\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Burkholderiales\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Rhizobiales\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Rickettsiales\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Saprospirales\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Flavobacteriales\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Other Bacteroidetes\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Chlorobi\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Actinobacteria\"), (\"Phase 1.1-2\", \"has bacterial phyla\", \"Firmic"
+      }
+    ]
+  }
+]

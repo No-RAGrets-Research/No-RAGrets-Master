@@ -1,0 +1,2368 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 68,
+    "relations": 60,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Park et al. 1991.json",
+    "processed_at": "2025-11-24T00:40:39.374520"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "(1) IOOX salt solutionb",
+      "predicate": "contains",
+      "object": "NaN03",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Substance | Amount (g/L)\n(1) IOOX salt solutionb\nNaN03 | 85\n17\nMgS04 ' 7Hz0 | 3.7\nCaClz.2Hz0",
+        "document_offsets": {
+          "start": 0,
+          "end": 92
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 54,
+            "sentence_id": 0,
+            "matched_text": "NaN03"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "MnS04.7H20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "trace metals solutionb ZnS04.7Hz0 | 0.287\nMnS04.7H20 | 0.223\nH3BO3 | 0.062\nNaMo04.2H20 | 0.048\nCoClz.6H20",
+        "document_offsets": {
+          "start": 198,
+          "end": 303
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 52,
+            "sentence_id": 3,
+            "matched_text": "MnS04.7H20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "KI",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| 0.048\nKI | 0.083\ncUso4.5H20 | 0.125\n1 mLof 1 mMHzS04per liter of trace metals\nFeS04.7H20 | 11.2\n5 mLof 1mM per 100mL iron",
+        "document_offsets": {
+          "start": 304,
+          "end": 427
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 10,
+            "sentence_id": 4,
+            "matched_text": "KI"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(1) IOOX salt solutionb",
+      "predicate": "contains",
+      "object": "MgS04",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Substance | Amount (g/L)\n(1) IOOX salt solutionb\nNaN03 | 85\n17\nMgS04 ' 7Hz0 | 3.7\nCaClz.2Hz0",
+        "document_offsets": {
+          "start": 0,
+          "end": 92
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 68,
+            "sentence_id": 0,
+            "matched_text": "MgS04"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "CoClz.6H20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "trace metals solutionb ZnS04.7Hz0 | 0.287\nMnS04.7H20 | 0.223\nH3BO3 | 0.062\nNaMo04.2H20 | 0.048\nCoClz.6H20",
+        "document_offsets": {
+          "start": 198,
+          "end": 303
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 95,
+            "end": 105,
+            "sentence_id": 3,
+            "matched_text": "CoClz.6H20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(2) 1 0 0 ~ phosphate buffer solutionb",
+      "predicate": "contains",
+      "object": "Na2HP04",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 0.7\n(2) 1 0 0 ~ phosphate buffer solutionb\nKHzP04 | 53\nNa2HP04 | 86",
+        "document_offsets": {
+          "start": 93,
+          "end": 163
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 64,
+            "sentence_id": 1,
+            "matched_text": "Na2HP04"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "ZnS04.7Hz0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "trace metals solutionb ZnS04.7Hz0 | 0.287\nMnS04.7H20 | 0.223\nH3BO3 | 0.062\nNaMo04.2H20 | 0.048\nCoClz.6H20",
+        "document_offsets": {
+          "start": 198,
+          "end": 303
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 23,
+            "end": 33,
+            "sentence_id": 3,
+            "matched_text": "ZnS04.7Hz0"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "cUso4.5H20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| 0.048\nKI | 0.083\ncUso4.5H20 | 0.125\n1 mLof 1 mMHzS04per liter of trace metals\nFeS04.7H20 | 11.2\n5 mLof 1mM per 100mL iron",
+        "document_offsets": {
+          "start": 304,
+          "end": 427
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 29,
+            "sentence_id": 4,
+            "matched_text": "cUso4.5H20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "1 mLof 1 mMHzS04",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| 0.048\nKI | 0.083\ncUso4.5H20 | 0.125\n1 mLof 1 mMHzS04per liter of trace metals\nFeS04.7H20 | 11.2\n5 mLof 1mM per 100mL iron",
+        "document_offsets": {
+          "start": 304,
+          "end": 427
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(2) 1 0 0 ~ phosphate buffer solutionb",
+      "predicate": "contains",
+      "object": "KHzP04",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 0.7\n(2) 1 0 0 ~ phosphate buffer solutionb\nKHzP04 | 53\nNa2HP04 | 86",
+        "document_offsets": {
+          "start": 93,
+          "end": 163
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 51,
+            "sentence_id": 1,
+            "matched_text": "KHzP04"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "FeS04.7H20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| 0.048\nKI | 0.083\ncUso4.5H20 | 0.125\n1 mLof 1 mMHzS04per liter of trace metals\nFeS04.7H20 | 11.2\n5 mLof 1mM per 100mL iron",
+        "document_offsets": {
+          "start": 304,
+          "end": 427
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 80,
+            "end": 90,
+            "sentence_id": 4,
+            "matched_text": "FeS04.7H20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "H3BO3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "trace metals solutionb ZnS04.7Hz0 | 0.287\nMnS04.7H20 | 0.223\nH3BO3 | 0.062\nNaMo04.2H20 | 0.048\nCoClz.6H20",
+        "document_offsets": {
+          "start": 198,
+          "end": 303
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "H3BO3"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(3) 500~ trace metals solutionb",
+      "predicate": "contains",
+      "object": "NaMo04.2H20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "trace metals solutionb ZnS04.7Hz0 | 0.287\nMnS04.7H20 | 0.223\nH3BO3 | 0.062\nNaMo04.2H20 | 0.048\nCoClz.6H20",
+        "document_offsets": {
+          "start": 198,
+          "end": 303
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 75,
+            "end": 86,
+            "sentence_id": 3,
+            "matched_text": "NaMo04.2H20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 308.78265380859375,
+          "t": 731.7155075073242,
+          "r": 550.684814453125,
+          "b": 486.5324401855469,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction (without CuS04)",
+      "predicate": "has value",
+      "object": "20.04",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04) | 0.54 20.04 (0.69 k0.07)",
+        "document_offsets": {
+          "start": 378,
+          "end": 641
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 231,
+            "end": 236,
+            "sentence_id": 3,
+            "matched_text": "20.04"
+          },
+          {
+            "start": 245,
+            "end": 250,
+            "sentence_id": 4,
+            "matched_text": "20.04"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction (with CuS04)",
+      "predicate": "has dry weight",
+      "object": "0.52 k0.07",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "MMO activity",
+      "predicate": "is associated with",
+      "object": "nmol propene oxide/mg protein-min",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total)",
+        "document_offsets": {
+          "start": 0,
+          "end": 297
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 51,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 102,
+            "end": 114,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 14,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "nmol propene oxide/mg protein-min"
+          },
+          {
+            "start": 65,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "nmol propene oxide/mg protein-min"
+          },
+          {
+            "start": 116,
+            "end": 149,
+            "sentence_id": 0,
+            "matched_text": "nmol propene oxide/mg protein-min"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (with CuS04)",
+      "predicate": "has dry weight",
+      "object": "0.13 kO",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 378,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 114,
+            "end": 121,
+            "sentence_id": 3,
+            "matched_text": "0.13 kO"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction (with CuS04)",
+      "predicate": "has value",
+      "object": "50.01",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 378,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 145,
+            "end": 150,
+            "sentence_id": 3,
+            "matched_text": "50.01"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (with CuS04)",
+      "predicate": "is associated with",
+      "object": "dry wt",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total) | Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 0,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 211,
+            "end": 217,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 402,
+            "end": 408,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 430,
+            "end": 436,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (without CuS04)",
+      "predicate": "is associated with",
+      "object": "dry wt",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total) | Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 0,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 211,
+            "end": 217,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 402,
+            "end": 408,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 430,
+            "end": 436,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction (without CuS04)",
+      "predicate": "is associated with",
+      "object": "dry wt",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total) | Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 0,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 211,
+            "end": 217,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 402,
+            "end": 408,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 430,
+            "end": 436,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (without CuS04)",
+      "predicate": "has value",
+      "object": "0.6",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04) | 0.54 20.04 (0.69 k0.07)",
+        "document_offsets": {
+          "start": 378,
+          "end": 641
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 180,
+            "end": 183,
+            "sentence_id": 3,
+            "matched_text": "0.6"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (without CuS04)",
+      "predicate": "has dry weight",
+      "object": "0.13 k0.02",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 378,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 214,
+            "end": 224,
+            "sentence_id": 3,
+            "matched_text": "0.13 k0.02"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction (with CuS04)",
+      "predicate": "is associated with",
+      "object": "dry wt",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total) | Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 0,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 172,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 211,
+            "end": 217,
+            "sentence_id": 0,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 402,
+            "end": 408,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          },
+          {
+            "start": 430,
+            "end": 436,
+            "sentence_id": 3,
+            "matched_text": "dry wt"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (with CuS04)",
+      "predicate": "represents",
+      "object": "(72)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 378,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (with CuS04)",
+      "predicate": "has value",
+      "object": "61.6",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 378,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 83,
+            "sentence_id": 3,
+            "matched_text": "61.6"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction (without CuS04)",
+      "predicate": "represents",
+      "object": "(2)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 378,
+          "end": 615
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Particulate fraction",
+      "predicate": "constitutes",
+      "object": "percent of total",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total) | Particulate fraction (percent of total) | Soluble fraction (percent of total) | Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 0,
+          "end": 615
+        },
+        "subject_positions": [
+          {
+            "start": 258,
+            "end": 278,
+            "sentence_id": 0,
+            "matched_text": "Particulate fraction"
+          },
+          {
+            "start": 300,
+            "end": 320,
+            "sentence_id": 1,
+            "matched_text": "Particulate fraction"
+          },
+          {
+            "start": 380,
+            "end": 400,
+            "sentence_id": 3,
+            "matched_text": "Particulate fraction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 280,
+            "end": 296,
+            "sentence_id": 0,
+            "matched_text": "percent of total"
+          },
+          {
+            "start": 322,
+            "end": 338,
+            "sentence_id": 1,
+            "matched_text": "percent of total"
+          },
+          {
+            "start": 360,
+            "end": 376,
+            "sentence_id": 2,
+            "matched_text": "percent of total"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction (without CuS04)",
+      "predicate": "has dry weight",
+      "object": "0.69 k0.07",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| 0.54 20.04 (0.69 k0.07)",
+        "document_offsets": {
+          "start": 616,
+          "end": 641
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 14,
+            "end": 24,
+            "sentence_id": 4,
+            "matched_text": "0.69 k0.07"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Soluble fraction",
+      "predicate": "constitutes",
+      "object": "percent of total",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total) | Particulate fraction (percent of total) | Soluble fraction (percent of total) | Particulate fraction (dry wt) | Soluble fraction (dry wt)\nWith 10 pM CuS04 | 61.6 25.4 | (72) | 8.8 22.3 (28) | 0.13 kO.01 (0.27 20.01) | 0.41 50.01 (0.52 20.01)\nWithout CuS04 | 0.6 20.3 | (2) | 36.0 k3.2 (98) | 0.13 k0.02 (0.24 20.04)",
+        "document_offsets": {
+          "start": 0,
+          "end": 615
+        },
+        "subject_positions": [
+          {
+            "start": 342,
+            "end": 358,
+            "sentence_id": 2,
+            "matched_text": "Soluble fraction"
+          },
+          {
+            "start": 412,
+            "end": 428,
+            "sentence_id": 3,
+            "matched_text": "Soluble fraction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 280,
+            "end": 296,
+            "sentence_id": 0,
+            "matched_text": "percent of total"
+          },
+          {
+            "start": 322,
+            "end": 338,
+            "sentence_id": 1,
+            "matched_text": "percent of total"
+          },
+          {
+            "start": 360,
+            "end": 376,
+            "sentence_id": 2,
+            "matched_text": "percent of total"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "MMO activity",
+      "predicate": "is associated with",
+      "object": "Culture medium",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | MMO activity (nmol propene oxide/mg protein-min) | Protein (and dry wt) yields/mg dry cell wt | Protein (and dry wt) yields/mg dry cell wt\nCulture medium | Particulate fraction (percent of total)",
+        "document_offsets": {
+          "start": 0,
+          "end": 297
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 51,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 102,
+            "end": 114,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 241,
+            "end": 255,
+            "sentence_id": 0,
+            "matched_text": "Culture medium"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 48.039615631103516,
+          "t": 739.2700157165527,
+          "r": 546.29248046875,
+          "b": 632.3426971435547,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "contains",
+      "object": "PH",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "PH | PH | Specific growth rate (h-')",
+        "document_offsets": {
+          "start": 0,
+          "end": 36
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 0,
+            "matched_text": "PH"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "PH"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "Initial PH",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "MMO activity (nmol propene oxide/ mg dry cell wt-min) Final",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "Specific growth rate (h-') Initial",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "Final PH",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "Lag time (h) Final",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "MMO activity (nmol propene oxide/ mg dry cell wt-min) Initial",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "Lag time (h) Initial",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table2",
+      "predicate": "has_column",
+      "object": "Specific growth rate (h-') Final",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table2",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 309.89825439453125,
+          "t": 216.2271728515625,
+          "r": 549.76123046875,
+          "b": 111.4288330078125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "119 2 3",
+      "predicate": "corresponds to",
+      "object": "1.58-1.66",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 366,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 17,
+            "end": 24,
+            "sentence_id": 3,
+            "matched_text": "119 2 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 36,
+            "sentence_id": 3,
+            "matched_text": "1.58-1.66"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(> 180 h)",
+      "predicate": "provides",
+      "object": "MMO~",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 122,
+          "end": 366
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "provides",
+      "object": "MMO~",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 122,
+          "end": 366
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "160 25",
+      "predicate": "provides",
+      "object": "3.6",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 366,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 113,
+            "end": 119,
+            "sentence_id": 3,
+            "matched_text": "160 25"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 122,
+            "end": 125,
+            "sentence_id": 3,
+            "matched_text": "3.6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "measures",
+      "object": "cell density",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 122,
+          "end": 366
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 27,
+            "sentence_id": 2,
+            "matched_text": "Cell density"
+          },
+          {
+            "start": 38,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "Cell density"
+          },
+          {
+            "start": 61,
+            "end": 73,
+            "sentence_id": 2,
+            "matched_text": "Cell density"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "contains",
+      "object": "medium Fe (PmovL)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "40",
+      "predicate": "corresponds to",
+      "object": "0.31-0.64",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h | h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 0,
+          "end": 366
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 37,
+            "sentence_id": 0,
+            "matched_text": "40"
+          },
+          {
+            "start": 223,
+            "end": 225,
+            "sentence_id": 2,
+            "matched_text": "40"
+          },
+          {
+            "start": 344,
+            "end": 346,
+            "sentence_id": 2,
+            "matched_text": "40"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 349,
+            "end": 358,
+            "sentence_id": 2,
+            "matched_text": "0.31-0.64"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "139 25",
+      "predicate": "provides",
+      "object": "1.94-2.10",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 366,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 92,
+            "end": 98,
+            "sentence_id": 3,
+            "matched_text": "139 25"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 101,
+            "end": 110,
+            "sentence_id": 3,
+            "matched_text": "1.94-2.10"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "149 2 7",
+      "predicate": "provides",
+      "object": "1.17-1.38",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 366,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 70,
+            "end": 77,
+            "sentence_id": 3,
+            "matched_text": "149 2 7"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 80,
+            "end": 89,
+            "sentence_id": 3,
+            "matched_text": "1.17-1.38"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "18",
+      "predicate": "corresponds to",
+      "object": "0.40-0.78",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 122,
+          "end": 366
+        },
+        "subject_positions": [
+          {
+            "start": 94,
+            "end": 96,
+            "sentence_id": 2,
+            "matched_text": "18"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 99,
+            "end": 108,
+            "sentence_id": 2,
+            "matched_text": "0.40-0.78"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(> 180 h)",
+      "predicate": "has",
+      "object": "cell density",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 122,
+          "end": 366
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 27,
+            "sentence_id": 2,
+            "matched_text": "Cell density"
+          },
+          {
+            "start": 38,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "Cell density"
+          },
+          {
+            "start": 61,
+            "end": 73,
+            "sentence_id": 2,
+            "matched_text": "Cell density"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "has",
+      "object": "Bioreactor culture time",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 68,
+            "sentence_id": 0,
+            "matched_text": "Bioreactor culture time"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "150 ?lo",
+      "predicate": "provides",
+      "object": "1.15-1.25",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 366,
+          "end": 491
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 5,
+            "end": 14,
+            "sentence_id": 3,
+            "matched_text": "1.15-1.25"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "has duration",
+      "object": "70-80 h",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 100,
+            "end": 107,
+            "sentence_id": 0,
+            "matched_text": "70-80 h"
+          },
+          {
+            "start": 110,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "70-80 h"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "uses",
+      "object": "batch",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 71,
+            "end": 76,
+            "sentence_id": 0,
+            "matched_text": "batch"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "80",
+      "predicate": "corresponds to",
+      "object": "0.33-0.64",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h | h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ? lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 0,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 103,
+            "end": 105,
+            "sentence_id": 0,
+            "matched_text": "80"
+          },
+          {
+            "start": 113,
+            "end": 115,
+            "sentence_id": 0,
+            "matched_text": "80"
+          },
+          {
+            "start": 419,
+            "end": 421,
+            "sentence_id": 3,
+            "matched_text": "80"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 424,
+            "end": 433,
+            "sentence_id": 3,
+            "matched_text": "0.33-0.64"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "120 +lo",
+      "predicate": "provides",
+      "object": "2.6",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "lo | 1.15-1.25 | 119 2 3 | 1.58-1.66 | 120 +lo | 2.6\n80 | 0.33-0.64 | 149 2 7 | 1.17-1.38 | 139 25 | 1.94-2.10 | 160 25 | 3.6",
+        "document_offsets": {
+          "start": 366,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 46,
+            "sentence_id": 3,
+            "matched_text": "120 +lo"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 52,
+            "sentence_id": 3,
+            "matched_text": "2.6"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "has unit",
+      "object": "h",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h | h | h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 0,
+          "end": 366
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "h"
+          },
+          {
+            "start": 106,
+            "end": 107,
+            "sentence_id": 0,
+            "matched_text": "h"
+          },
+          {
+            "start": 116,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "h"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 1,
+            "matched_text": "h"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 2,
+            "matched_text": "h"
+          },
+          {
+            "start": 213,
+            "end": 214,
+            "sentence_id": 2,
+            "matched_text": "h"
+          },
+          {
+            "start": 342,
+            "end": 343,
+            "sentence_id": 2,
+            "matched_text": "h"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "50 Fe added",
+      "predicate": "occurs at",
+      "object": "90 h",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| h | density\"\nCell density\" | MMO~ | Cell density\" | MMO~ | Cell density\" | MMO~ | (> 180 h)\n18 | 0.40-0.78 | 105 ?5 | 1.50-1.64 | 47 ?3 | - | -\n+Additional\n50 Fe added | - | - | - | - | 2.55-3.57 | 126 2 4 | 5.4\nat 90 h\n40 | 0.31-0.64 | 150 ?",
+        "document_offsets": {
+          "start": 122,
+          "end": 366
+        },
+        "subject_positions": [
+          {
+            "start": 158,
+            "end": 169,
+            "sentence_id": 2,
+            "matched_text": "50 Fe added"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 217,
+            "end": 221,
+            "sentence_id": 2,
+            "matched_text": "90 h"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table3",
+      "predicate": "provides",
+      "object": "110-120",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Initally added medium Fe (PmovL) | 40-50 h | Bioreactor culture time | batch | 110-120 | Final cell\n70-80 h | 70-80 h",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 86,
+            "sentence_id": 0,
+            "matched_text": "110-120"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 49.11033630371094,
+          "t": 224.6534423828125,
+          "r": 546.9114379882812,
+          "b": 91.9713134765625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "-",
+    "150 ?lo",
+    "1 mL",
+    "1 0 0 ~ phosphate buffer solution",
+    "Table page5_table2",
+    "90 h",
+    "0.33-0.64",
+    "MMO~",
+    "CaClz.2Hz0",
+    "propene oxide",
+    "KI",
+    "139 25",
+    "at 90 h",
+    "Specific growth rate",
+    "H3BO3",
+    "2.55-3.57",
+    "1.94-2.10",
+    "Bioreactor culture time",
+    "k7",
+    "dry wt",
+    "110-120",
+    "cUso4.5H20",
+    "mg protein-min",
+    "Table page9_table3",
+    "NaN03",
+    "Culture medium",
+    "70-80 h",
+    "5.4",
+    "MnS04.7H20",
+    "0.31-0.64",
+    "3.6",
+    "1.58-1.66",
+    "50 Fe added",
+    "Soluble fraction",
+    "126 2 4",
+    "Fe",
+    "Lag time",
+    "149 2 7",
+    "80",
+    "h",
+    "FeS04.7H20",
+    "1.17-1.38",
+    "KHzP04",
+    "CuS04",
+    "Particulate fraction",
+    "k2",
+    "(2) 1 0 0 ~ phosphate buffer solutionb",
+    "160 25",
+    "ZnS04.7Hz0",
+    "CoClz.6H20",
+    "119 2 3",
+    "1 mLof 1 mMHzS04",
+    "2.6",
+    "PH",
+    "IOOX salt solution",
+    "Na2HP04",
+    "NaMo04.2H20",
+    "(3) 500~ trace metals solutionb",
+    "MMO activity",
+    "MgS04",
+    "cell density",
+    "1.15-1.25",
+    "batch",
+    "120 +lo",
+    "(1) IOOX salt solutionb",
+    "40",
+    "kO",
+    "medium Fe (PmovL)"
+  ]
+}

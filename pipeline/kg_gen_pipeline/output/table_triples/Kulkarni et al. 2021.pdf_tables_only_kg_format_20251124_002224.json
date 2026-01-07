@@ -1,0 +1,1695 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 7,
+    "relations": 34,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Kulkarni et al. 2021.json",
+    "processed_at": "2025-11-24T00:22:24.002384"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "M. bryophila",
+      "predicate": "has_speci_methanol_productivity",
+      "object": "0.69 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| 1 | 14\nM. bryophila",
+        "document_offsets": {
+          "start": 349,
+          "end": 370
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 21,
+            "sentence_id": 4,
+            "matched_text": "M. bryophila"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. tundrae",
+      "predicate": "produces_max_methanol",
+      "object": "0.17",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "| 0.60 a | 20 | 11\nM. tundrae | Pure methane | 0.17",
+        "document_offsets": {
+          "start": 462,
+          "end": 513
+        },
+        "subject_positions": [
+          {
+            "start": 19,
+            "end": 29,
+            "sentence_id": 9,
+            "matched_text": "M. tundrae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 47,
+            "end": 51,
+            "sentence_id": 10,
+            "matched_text": "0.17"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomonas DH-1",
+      "predicate": "has_speci_methanol_productivity",
+      "object": "75.20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| 25 | 19.90 a | 3 | 21\nMethylomonas DH-1 | Pure methane | 1.34 | e | 75.20",
+        "document_offsets": {
+          "start": 273,
+          "end": 348
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 41,
+            "sentence_id": 2,
+            "matched_text": "Methylomonas DH-1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 70,
+            "end": 75,
+            "sentence_id": 3,
+            "matched_text": "75.20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomonas DH-1",
+      "predicate": "produces_max_methanol",
+      "object": "1.34",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| 25 | 19.90 a | 3 | 21\nMethylomonas DH-1 | Pure methane | 1.34 | e | 75.20",
+        "document_offsets": {
+          "start": 273,
+          "end": 348
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 41,
+            "sentence_id": 2,
+            "matched_text": "Methylomonas DH-1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 59,
+            "end": 63,
+            "sentence_id": 3,
+            "matched_text": "1.34"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocaldum genus",
+      "predicate": "has_methane_to_methanol_conversion",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 25 | 19.90 a | 3 | 21\nMethylomonas DH-1",
+        "document_offsets": {
+          "start": 224,
+          "end": 314
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "Methylocaldum genus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 53,
+            "sentence_id": 2,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. tundrae",
+      "predicate": "has_speci_methanol_productivity",
+      "object": "0.38 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "| 0.60 a | 20 | 11\nM. tundrae | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e",
+        "document_offsets": {
+          "start": 462,
+          "end": 585
+        },
+        "subject_positions": [
+          {
+            "start": 19,
+            "end": 29,
+            "sentence_id": 9,
+            "matched_text": "M. tundrae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 58,
+            "end": 64,
+            "sentence_id": 12,
+            "matched_text": "0.38 a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "uses_reaction_volume",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 228,
+            "end": 231,
+            "sentence_id": 1,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "produces_max_methanol",
+      "object": "1.13",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 207,
+            "end": 211,
+            "sentence_id": 0,
+            "matched_text": "1.13"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "uses_second_reaction_volume",
+      "object": "4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | Pure methane | 1.34 | e | 75.20 | 1 | 14\nM. bryophila | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e | 4 | 23",
+        "document_offsets": {
+          "start": 0,
+          "end": 657
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 651,
+            "end": 652,
+            "sentence_id": 14,
+            "matched_text": "4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. sporium",
+      "predicate": "has_speci_methanol_productivity",
+      "object": "0.60 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 9,
+        "text_evidence": "a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e | 0.60 a | 20 | 11\nM. tundrae",
+        "document_offsets": {
+          "start": 404,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 22,
+            "sentence_id": 8,
+            "matched_text": "M. sporium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 66,
+            "sentence_id": 9,
+            "matched_text": "0.60 a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "produces_max_methanol_2",
+      "object": "0.12",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 635,
+            "end": 639,
+            "sentence_id": 13,
+            "matched_text": "0.12"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has_methane_to_methanol_conversion_2",
+      "object": "82",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 642,
+            "end": 644,
+            "sentence_id": 13,
+            "matched_text": "82"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. tundrae",
+      "predicate": "uses_reaction_volume",
+      "object": "2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 14,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 25 | 19.90 a | 3 | 21\nMethylomonas DH-1 | Pure methane | 1.34 | e | 75.20 a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e | 0.60 a | 20 | 11\nM. tundrae | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e | 4 | 23",
+        "document_offsets": {
+          "start": 224,
+          "end": 657
+        },
+        "subject_positions": [
+          {
+            "start": 257,
+            "end": 267,
+            "sentence_id": 9,
+            "matched_text": "M. tundrae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 305,
+            "end": 306,
+            "sentence_id": 12,
+            "matched_text": "2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocaldum genus",
+      "predicate": "uses_reaction_volume",
+      "object": "3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 25 | 19.90 a | 3 | 21\nMethylomonas DH-1 | Pure methane | 1.34 | e | 75.20 a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e | 4 | 23",
+        "document_offsets": {
+          "start": 0,
+          "end": 657
+        },
+        "subject_positions": [
+          {
+            "start": 237,
+            "end": 256,
+            "sentence_id": 1,
+            "matched_text": "Methylocaldum genus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 290,
+            "end": 291,
+            "sentence_id": 2,
+            "matched_text": "3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. bryophila",
+      "predicate": "uses_reaction_volume",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 9,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | Pure methane | 1.34 | e | 75.20 | 1 | 14\nM. bryophila a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e | 0.60 a | 20 | 11\nM. tundrae",
+        "document_offsets": {
+          "start": 224,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 134,
+            "end": 146,
+            "sentence_id": 4,
+            "matched_text": "M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 12,
+            "sentence_id": 1,
+            "matched_text": "20"
+          },
+          {
+            "start": 122,
+            "end": 124,
+            "sentence_id": 3,
+            "matched_text": "20"
+          },
+          {
+            "start": 184,
+            "end": 186,
+            "sentence_id": 8,
+            "matched_text": "20"
+          },
+          {
+            "start": 249,
+            "end": 251,
+            "sentence_id": 9,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. sporium",
+      "predicate": "produces_max_methanol",
+      "object": "0.23",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e",
+        "document_offsets": {
+          "start": 404,
+          "end": 461
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 22,
+            "sentence_id": 8,
+            "matched_text": "M. sporium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 53,
+            "sentence_id": 8,
+            "matched_text": "0.23"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotrophic consortia",
+      "predicate": "uses_reaction_volume",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 13,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 224,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 312,
+            "end": 336,
+            "sentence_id": 12,
+            "matched_text": "Methanotrophic consortia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 364,
+            "end": 366,
+            "sentence_id": 13,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. bryophila",
+      "predicate": "produces_max_methanol",
+      "object": "0.15",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "| 1 | 14\nM. bryophila | Pure methane | 0.15",
+        "document_offsets": {
+          "start": 349,
+          "end": 392
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 21,
+            "sentence_id": 4,
+            "matched_text": "M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 43,
+            "sentence_id": 5,
+            "matched_text": "0.15"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. sporium",
+      "predicate": "uses_reaction_volume",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 9,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | Pure methane | 1.34 | e | 75.20 a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e | 0.60 a | 20 | 11\nM. tundrae",
+        "document_offsets": {
+          "start": 224,
+          "end": 491
+        },
+        "subject_positions": [
+          {
+            "start": 192,
+            "end": 202,
+            "sentence_id": 8,
+            "matched_text": "M. sporium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 12,
+            "sentence_id": 1,
+            "matched_text": "20"
+          },
+          {
+            "start": 122,
+            "end": 124,
+            "sentence_id": 3,
+            "matched_text": "20"
+          },
+          {
+            "start": 184,
+            "end": 186,
+            "sentence_id": 8,
+            "matched_text": "20"
+          },
+          {
+            "start": 249,
+            "end": 251,
+            "sentence_id": 9,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has_methane_to_methanol_conversion",
+      "object": "60",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 0.60 a | 20 | 11\nM. tundrae | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 214,
+            "end": 216,
+            "sentence_id": 0,
+            "matched_text": "60"
+          },
+          {
+            "start": 221,
+            "end": 223,
+            "sentence_id": 0,
+            "matched_text": "60"
+          },
+          {
+            "start": 466,
+            "end": 468,
+            "sentence_id": 9,
+            "matched_text": "60"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. sporium",
+      "predicate": "has_C_source",
+      "object": "Synthetic gas mixture",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e",
+        "document_offsets": {
+          "start": 404,
+          "end": 461
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 22,
+            "sentence_id": 8,
+            "matched_text": "M. sporium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 46,
+            "sentence_id": 8,
+            "matched_text": "Synthetic gas mixture"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocaldum genus",
+      "predicate": "has_speci_methanol_productivity",
+      "object": "19.90 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 25 | 19.90 a | 3 | 21\nMethylomonas DH-1",
+        "document_offsets": {
+          "start": 224,
+          "end": 314
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "Methylocaldum genus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 63,
+            "sentence_id": 2,
+            "matched_text": "19.90 a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocaldum genus",
+      "predicate": "has_C_source",
+      "object": "Biogas",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 12,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e",
+        "document_offsets": {
+          "start": 224,
+          "end": 585
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "Methylocaldum genus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Biogas"
+          },
+          {
+            "start": 339,
+            "end": 345,
+            "sentence_id": 12,
+            "matched_text": "Biogas"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. tundrae",
+      "predicate": "has_C_source",
+      "object": "Pure methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | Pure methane | 1.34 | e | 75.20 | Pure methane | 0.15 | 0.60 a | 20 | 11\nM. tundrae | Pure methane | 0.17 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 481,
+            "end": 491,
+            "sentence_id": 9,
+            "matched_text": "M. tundrae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 192,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 317,
+            "end": 329,
+            "sentence_id": 3,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 373,
+            "end": 385,
+            "sentence_id": 5,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 494,
+            "end": 506,
+            "sentence_id": 10,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 620,
+            "end": 632,
+            "sentence_id": 13,
+            "matched_text": "Pure methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotrophic consortia",
+      "predicate": "has_methane_to_methanol_conversion",
+      "object": "47",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "| 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e",
+        "document_offsets": {
+          "start": 518,
+          "end": 585
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 42,
+            "sentence_id": 12,
+            "matched_text": "Methanotrophic consortia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 63,
+            "sentence_id": 12,
+            "matched_text": "47"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. bryophila",
+      "predicate": "has_C_source",
+      "object": "Pure methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | Pure methane | 1.34 | e | 75.20 | 1 | 14\nM. bryophila | Pure methane | 0.15 | Pure methane | 0.17 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 358,
+            "end": 370,
+            "sentence_id": 4,
+            "matched_text": "M. bryophila"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 192,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 317,
+            "end": 329,
+            "sentence_id": 3,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 373,
+            "end": 385,
+            "sentence_id": 5,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 494,
+            "end": 506,
+            "sentence_id": 10,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 620,
+            "end": 632,
+            "sentence_id": 13,
+            "matched_text": "Pure methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has_second_C_source",
+      "object": "Pure methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | Pure methane | 1.34 | e | 75.20 | Pure methane | 0.15 | Pure methane | 0.17 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 192,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 317,
+            "end": 329,
+            "sentence_id": 3,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 373,
+            "end": 385,
+            "sentence_id": 5,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 494,
+            "end": 506,
+            "sentence_id": 10,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 620,
+            "end": 632,
+            "sentence_id": 13,
+            "matched_text": "Pure methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomonas DH-1",
+      "predicate": "uses_reaction_volume",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 25 | 19.90 a | 3 | 21\nMethylomonas DH-1 | Pure methane | 1.34 | e | 75.20 | 1 | 14\nM. bryophila | Pure methane | 0.15 a | 20 | 15\nM. sporium | Synthetic gas mixture | 0.23 | e | 0.60 a | 20 | 11\nM. tundrae | Pure methane | 0.17 | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 297,
+            "end": 314,
+            "sentence_id": 2,
+            "matched_text": "Methylomonas DH-1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 207,
+            "end": 208,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 219,
+            "end": 220,
+            "sentence_id": 0,
+            "matched_text": "1"
+          },
+          {
+            "start": 313,
+            "end": 314,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 332,
+            "end": 333,
+            "sentence_id": 3,
+            "matched_text": "1"
+          },
+          {
+            "start": 351,
+            "end": 352,
+            "sentence_id": 4,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotrophic consortia",
+      "predicate": "has_C_source",
+      "object": "Biogas",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 12,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43 | 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e",
+        "document_offsets": {
+          "start": 224,
+          "end": 585
+        },
+        "subject_positions": [
+          {
+            "start": 312,
+            "end": 336,
+            "sentence_id": 12,
+            "matched_text": "Methanotrophic consortia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Biogas"
+          },
+          {
+            "start": 339,
+            "end": 345,
+            "sentence_id": 12,
+            "matched_text": "Biogas"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has_C_source",
+      "object": "Pure methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | Pure methane | 1.34 | e | 75.20 | Pure methane | 0.15 | Pure methane | 0.17 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 192,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 317,
+            "end": 329,
+            "sentence_id": 3,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 373,
+            "end": 385,
+            "sentence_id": 5,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 494,
+            "end": 506,
+            "sentence_id": 10,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 620,
+            "end": 632,
+            "sentence_id": 13,
+            "matched_text": "Pure methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomonas DH-1",
+      "predicate": "has_C_source",
+      "object": "Pure methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 25 | 19.90 a | 3 | 21\nMethylomonas DH-1 | Pure methane | 1.34 | e | 75.20 | Pure methane | 0.15 | Pure methane | 0.17 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 297,
+            "end": 314,
+            "sentence_id": 2,
+            "matched_text": "Methylomonas DH-1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 192,
+            "end": 204,
+            "sentence_id": 0,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 317,
+            "end": 329,
+            "sentence_id": 3,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 373,
+            "end": 385,
+            "sentence_id": 5,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 494,
+            "end": 506,
+            "sentence_id": 10,
+            "matched_text": "Pure methane"
+          },
+          {
+            "start": 620,
+            "end": 632,
+            "sentence_id": 13,
+            "matched_text": "Pure methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocaldum genus",
+      "predicate": "produces_max_methanol",
+      "object": "0.43",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "a | 300 | 20\nMethylocaldum genus | Biogas | 0.43",
+        "document_offsets": {
+          "start": 224,
+          "end": 272
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 32,
+            "sentence_id": 1,
+            "matched_text": "Methylocaldum genus"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 48,
+            "sentence_id": 1,
+            "matched_text": "0.43"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has_speci_methanol_productivity",
+      "object": "1.60 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "Organism | C source | Max. methanol (g/L) | Methane to methanol conversion (%) | Speci /uniFB01 c methanol productivity (mg/g DCW/h) | Reaction volume (mL) | Reference\nM. trichosporium OB3b | Pure methane | 1.13 | 60 | 1.60 | 30 | 22\nM. trichosporium OB3b | Pure methane | 0.12 | 82 | e",
+        "document_offsets": {
+          "start": 0,
+          "end": 648
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 189,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 596,
+            "end": 617,
+            "sentence_id": 13,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotrophic consortia",
+      "predicate": "produces_max_methanol",
+      "object": "0.33",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "| 0.38 a | 2 | 17\nMethanotrophic consortia | Biogas | 0.33 | 47 | e",
+        "document_offsets": {
+          "start": 518,
+          "end": 585
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 42,
+            "sentence_id": 12,
+            "matched_text": "Methanotrophic consortia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 58,
+            "sentence_id": 12,
+            "matched_text": "0.33"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.73268127441406,
+          "t": 146.31964111328125,
+          "r": 563.4476318359375,
+          "b": 50.84674072265625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "M. bryophila",
+    "M. tundrae",
+    "Methylomonas DH-1",
+    "M. sporium",
+    "Methanotrophic consortia",
+    "Methylocaldum genus",
+    "M. trichosporium OB3b"
+  ]
+}

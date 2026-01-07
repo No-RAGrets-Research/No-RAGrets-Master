@@ -1,0 +1,29 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Strong et al. 2016.pdf",
+    "start_time": "2025-11-14 12:18:54.973375",
+    "end_time": "2025-11-14 12:52:56.190850",
+    "total_duration": 2041.217475,
+    "success": false
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 881,
+    "relations": 446,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Strong et al. 2016_kg_results_20251114_121854.json"
+  },
+  "visual_extraction": {
+    "attempted": true,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Strong et al. 2016_kg_results_20251114_121854.json",
+    "visual_kg": null
+  },
+  "errors": [
+    "Visual extraction failed: Visual extraction process failed"
+  ]
+}

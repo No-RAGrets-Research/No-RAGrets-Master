@@ -1,0 +1,2504 @@
+{
+  "summary": {
+    "total_chunks": 7,
+    "errors": 0,
+    "entities": 79,
+    "relations": 70,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 70,
+    "sections": {
+      "Figure 3 Analysis": {
+        "chunks": 2,
+        "entities": 25,
+        "relations": 19
+      },
+      "Figure 4 Analysis": {
+        "chunks": 3,
+        "entities": 48,
+        "relations": 38
+      },
+      "Figure 5 Analysis": {
+        "chunks": 2,
+        "entities": 18,
+        "relations": 13
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Kim et al. 2010_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-15T00:46:38.354876"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 3 Analysis",
+      "entities": [
+        "rubber gas bag",
+        "silica-gel trap",
+        "air pump",
+        "3 L reactor",
+        "methane/air",
+        "gas reservoir",
+        "lab-scale compulsory circulation diffusion system for methanol production",
+        "1:1 v/v",
+        "25°C",
+        "air filter"
+      ],
+      "relations": [
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has component",
+          "object": "rubber gas bag",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has component",
+          "object": "air filter",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has component",
+          "object": "gas reservoir",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has component",
+          "object": "air pump",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has component",
+          "object": "silica-gel trap",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has component",
+          "object": "3 L reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "operates at temperature",
+          "object": "25°C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "uses mixture",
+          "object": "methane/air",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        },
+        {
+          "subject": "lab-scale compulsory circulation diffusion system for methanol production",
+          "predicate": "has mixture ratio",
+          "object": "1:1 v/v",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig.  1. Schematic  diagram  of  lab-scale  compulsory  circulation diffusion system for methanol production. This system was set up in  an  incubator  at  25°C.  A,  rubber  gas  bag;  B,  air  filter;  C,  gas reservoir;  D,  air  pump;  E,  silica-gel  trap;  F,  3  L  reactor.  Arrow indicates flow of methane/air mixture (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 501.928,
+              "r": 297.787,
+              "b": 453.559,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              338
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 59.52,
+                "t": 501.928,
+                "r": 297.787,
+                "b": 453.559,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 3 Analysis",
+      "entities": [
+        "A",
+        "200 mM NaCl condition",
+        "constant temperature chamber",
+        "container F",
+        "D",
+        "C",
+        "E",
+        "100 mM NaCl condition",
+        "B",
+        "containing particles",
+        "F",
+        "control condition",
+        "container E",
+        "with granular material",
+        "container C"
+      ],
+      "relations": [
+        {
+          "subject": "A",
+          "predicate": "represents",
+          "object": "control condition",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "B",
+          "predicate": "represents",
+          "object": "100 mM NaCl condition",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "C",
+          "predicate": "represents",
+          "object": "200 mM NaCl condition",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "D",
+          "predicate": "is located in",
+          "object": "container C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "E",
+          "predicate": "is a container",
+          "object": "with granular material",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "F",
+          "predicate": "is a container",
+          "object": "containing particles",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "C",
+          "predicate": "is connected to",
+          "object": "container E",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "C",
+          "predicate": "is connected to",
+          "object": "container F",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "E",
+          "predicate": "is connected to",
+          "object": "container F",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "F",
+          "predicate": "is located in",
+          "object": "constant temperature chamber",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig2",
+            "page_number": 3,
+            "caption_evidence": "Fig.  2. Morphological  changes  of  intracytoplasmic  membrane  (ICM)  and  slime  layer  (SL)  of M.  trichosporium OB3b  by  NaCl.  A, control; B, 100 mM NaCl; C, 200 mM NaCl. Scale bar indicates 0.5 µ m.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 78.02800000000002,
+              "r": 550.168,
+              "b": 59.601,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                496,
+                430
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 59.52,
+                "t": 78.02800000000002,
+                "r": 550.168,
+                "b": 59.601,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "200 mM",
+        "3 mM",
+        "20 mM",
+        "EDTA",
+        "phosphate buffer",
+        "reaction mixture",
+        "100 mM",
+        "6 mL",
+        "dry cells",
+        "2 mM",
+        "sodium formate",
+        "0.6 mg/mL",
+        "1 mM",
+        "7.0",
+        "NaCl",
+        "12.9 mM"
+      ],
+      "relations": [
+        {
+          "subject": "NaCl",
+          "predicate": "concentration in reaction mixture",
+          "object": "100 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "NaCl",
+          "predicate": "concentration in reaction mixture",
+          "object": "200 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "EDTA",
+          "predicate": "concentration in reaction mixture",
+          "object": "1 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "EDTA",
+          "predicate": "concentration in reaction mixture",
+          "object": "2 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "EDTA",
+          "predicate": "concentration in reaction mixture",
+          "object": "3 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "sodium formate",
+          "predicate": "concentration in reaction mixture",
+          "object": "20 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "phosphate buffer",
+          "predicate": "pH",
+          "object": "7.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "phosphate buffer",
+          "predicate": "concentration in reaction mixture",
+          "object": "12.9 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "dry cells",
+          "predicate": "concentration in reaction mixture",
+          "object": "0.6 mg/mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "volume",
+          "object": "6 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of  NaCl  and  EDTA  concentrations  on  methanol production.  The  reaction  mixture  (6  mL)  contained  0.6  mg  dry cells/mL, 20 mM sodium formate, 12.9 mM phosphate buffer (pH 7.0),  NaCl and EDTA in the following concentrations. A, 1 mM EDTA + 100 mM NaCl; B, 2 mM EDTA + 100 mM NaCl; C, 3 mM EDTA + 100 mM NaCl; D, 1 mM EDTA + 200 mM NaCl; E,  2  mM  EDTA  + 200  mM  NaCl; F,  3  mM  EDTA  +  200  mM NaCl.",
+            "bbox_coordinates": {
+              "l": 59.517,
+              "t": 539.428,
+              "r": 297.861,
+              "b": 461.057,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              432
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 59.517,
+                "t": 539.428,
+                "r": 297.861,
+                "b": 461.057,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "reaction mixture",
+        "EDTA",
+        "mM",
+        "phosphate buffer",
+        "replacing air with methane/air",
+        "methane/air",
+        "methanol production",
+        "dry cells",
+        "sodium formate",
+        "reaction initiation",
+        "inhibitors",
+        "M. trichosporium OB3b",
+        "methanol",
+        "25°C",
+        "1:1, v/v",
+        "NaCl",
+        "reaction temperature"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "methanol",
+          "predicate": "measured in",
+          "object": "mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "influenced by",
+          "object": "inhibitors",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "inhibitors",
+          "predicate": "apply to",
+          "object": "M. trichosporium OB3b",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "dry cells",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "sodium formate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "NaCl",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "EDTA",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "phosphate buffer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction temperature",
+          "predicate": "is",
+          "object": "25°C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "reaction initiation",
+          "predicate": "involves",
+          "object": "replacing air with methane/air",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        },
+        {
+          "subject": "methane/air",
+          "predicate": "ratio",
+          "object": "1:1, v/v",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 4. Time-dependent methanol production by M. trichosporium OB3b in a 500 mL flask. The reaction mixture (6 mL) contained 0.6  mg  dry  cells/mL,  20  mM  sodium  formate,  and  various concentrations of NaCl and EDTA in 12.9 mM phosphate buffer (pH 7.0). The reaction was carried out at 25°C. The reaction was initiated by replacing 200 mL of air in the head-space of the flask with the same volume of methane/air (1:1, v/v).",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 129.08799999999997,
+              "r": 297.858,
+              "b": 60.678999999999974,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                353
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              429
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 59.52,
+                "t": 129.08799999999997,
+                "r": 297.858,
+                "b": 60.678999999999974,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "28 hours",
+        "time",
+        "4 hours",
+        "graph with circular markers",
+        "12 hours",
+        "mM",
+        "8 hours",
+        "methanol production",
+        "20 hours",
+        "12.5 mM after 24 hours",
+        "propene epoxidation",
+        "0 hours",
+        "16 hours",
+        "24 hours",
+        "hours"
+      ],
+      "relations": [
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "0 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "4 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "8 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "12 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "16 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "20 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "24 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured at",
+          "object": "28 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "concentration unit",
+          "object": "mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "time unit",
+          "object": "hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "measured by",
+          "object": "graph with circular markers",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "related to",
+          "object": "propene epoxidation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "propene epoxidation",
+          "predicate": "measured by",
+          "object": "graph with circular markers",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "increases with",
+          "object": "time",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "plateaus after",
+          "object": "12 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        },
+        {
+          "subject": "methanol production",
+          "predicate": "stabilized at",
+          "object": "12.5 mM after 24 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig3",
+            "page_number": 4,
+            "caption_evidence": "Fig. 5. Effect of initial methanol  concentration  on  propene epoxidation ( ● ) and methanol production ( ○ ).",
+            "bbox_coordinates": {
+              "l": 311.82,
+              "t": 538.828,
+              "r": 549.975,
+              "b": 519.199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                350
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 311.82,
+                "t": 538.828,
+                "r": 549.975,
+                "b": 519.199,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig3",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 5,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "Total duration of repetitions",
+        "Methanol production",
+        "Methanol removal",
+        "Methanol synthesis",
+        "8 hours",
+        "three times",
+        "Methanol synthesis and removal",
+        "repeated batch mode",
+        "Repetition interval",
+        "24 hours"
+      ],
+      "relations": [
+        {
+          "subject": "Methanol production",
+          "predicate": "mode of production",
+          "object": "repeated batch mode",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 6. Methanol production in the repeated batch mode. Methanol synthesis and removal was repeated three times at 8 h intervals for 24 h.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 540.388,
+              "r": 297.788,
+              "b": 511.999,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              138
+            ]
+          }
+        },
+        {
+          "subject": "Methanol synthesis",
+          "predicate": "occurs during",
+          "object": "repeated batch mode",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 6. Methanol production in the repeated batch mode. Methanol synthesis and removal was repeated three times at 8 h intervals for 24 h.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 540.388,
+              "r": 297.788,
+              "b": 511.999,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              138
+            ]
+          }
+        },
+        {
+          "subject": "Methanol removal",
+          "predicate": "occurs during",
+          "object": "repeated batch mode",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 6. Methanol production in the repeated batch mode. Methanol synthesis and removal was repeated three times at 8 h intervals for 24 h.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 540.388,
+              "r": 297.788,
+              "b": 511.999,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              138
+            ]
+          }
+        },
+        {
+          "subject": "Methanol synthesis and removal",
+          "predicate": "repeated",
+          "object": "three times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 6. Methanol production in the repeated batch mode. Methanol synthesis and removal was repeated three times at 8 h intervals for 24 h.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 540.388,
+              "r": 297.788,
+              "b": 511.999,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              138
+            ]
+          }
+        },
+        {
+          "subject": "Repetition interval",
+          "predicate": "duration",
+          "object": "8 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 6. Methanol production in the repeated batch mode. Methanol synthesis and removal was repeated three times at 8 h intervals for 24 h.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 540.388,
+              "r": 297.788,
+              "b": 511.999,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              138
+            ]
+          }
+        },
+        {
+          "subject": "Total duration of repetitions",
+          "predicate": "equals",
+          "object": "24 hours",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 6. Methanol production in the repeated batch mode. Methanol synthesis and removal was repeated three times at 8 h intervals for 24 h.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 540.388,
+              "r": 297.788,
+              "b": 511.999,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                88,
+                24
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              138
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/5",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 59.52,
+                "t": 540.388,
+                "r": 297.788,
+                "b": 511.999,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 6,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "1 L",
+        "up to 10 mmol at 16 h",
+        "mmol",
+        "Lab scale methanol production",
+        "up to 9 mmol at 24 h",
+        "time (h)",
+        "up to 12 mmol at 8 h",
+        "3 L cylindrical reactor"
+      ],
+      "relations": [
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "takes place in",
+          "object": "3 L cylindrical reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        },
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "has working volume of",
+          "object": "1 L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        },
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "is measured in",
+          "object": "mmol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        },
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "is recorded over",
+          "object": "time (h)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        },
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "shows increasing methanol concentration",
+          "object": "up to 12 mmol at 8 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        },
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "shows increasing methanol concentration",
+          "object": "up to 10 mmol at 16 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        },
+        {
+          "subject": "Lab scale methanol production",
+          "predicate": "shows increasing methanol concentration",
+          "object": "up to 9 mmol at 24 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 7. Lab scale methanol production in a 3 L cylindrical reactor with a working volume of 1 L.",
+            "bbox_coordinates": {
+              "l": 59.52,
+              "t": 323.608,
+              "r": 297.783,
+              "b": 305.179,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                473,
+                354
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              96
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/6",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 59.52,
+                "t": 323.608,
+                "r": 297.783,
+                "b": 305.179,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

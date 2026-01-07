@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-11-20T13:41:56.532656",
+  "total_relations": 94,
+  "by_model": {
+    "llama3.1:8b": {
+      "text_accuracy_rate": 0.9787234042553191,
+      "text_avg_faithfulness": 4.648936170212766,
+      "text_avg_boundary": 4.914893617021277,
+      "text_avg_inference_time": 8.924590344124653,
+      "text_error_count": 0
+    },
+    "mistral:7b": {
+      "text_accuracy_rate": 0.7872340425531915,
+      "text_avg_faithfulness": 1.8297872340425532,
+      "text_avg_boundary": 1.851063829787234,
+      "text_avg_inference_time": 7.056981236376661,
+      "text_error_count": 0
+    },
+    "phi3:3.8b": {
+      "text_accuracy_rate": 0.6595744680851063,
+      "text_avg_faithfulness": 3.223404255319149,
+      "text_avg_boundary": 3.6702127659574466,
+      "text_avg_inference_time": 6.5739001898055385,
+      "text_error_count": 0
+    },
+    "gemma2:9b": {
+      "text_accuracy_rate": 0.8829787234042553,
+      "text_avg_faithfulness": 3.0,
+      "text_avg_boundary": 4.5212765957446805,
+      "text_avg_inference_time": 7.778896286132488,
+      "text_error_count": 0
+    },
+    "qwen2.5:1.5b": {
+      "text_accuracy_rate": 1.0,
+      "text_avg_faithfulness": 3.9893617021276597,
+      "text_avg_boundary": 3.0106382978723403,
+      "text_avg_inference_time": 4.8101463520780525,
+      "text_error_count": 0
+    },
+    "deepseek-coder:6.7b": {
+      "text_accuracy_rate": 0.8404255319148937,
+      "text_avg_faithfulness": 3.9680851063829787,
+      "text_avg_boundary": 4.180851063829787,
+      "text_avg_inference_time": 12.350581549583598,
+      "text_error_count": 0
+    }
+  }
+}

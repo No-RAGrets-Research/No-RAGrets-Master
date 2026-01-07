@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Jiang et al. 2023.pdf",
+    "start_time": "2025-11-13 17:01:10.995849",
+    "end_time": "2025-11-13 17:35:57.347051",
+    "total_duration": 2086.351202,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 544,
+    "relations": 421,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Jiang et al. 2023_kg_results_20251113_170110.json"
+  },
+  "visual_extraction": {
+    "attempted": true,
+    "success": true,
+    "entities": 6,
+    "relations": 9,
+    "output_file": "kg_gen_pipeline/output/visual_triples/Copy of Jiang et al. 2023_visual_kg_format_20251113_170110.json"
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Jiang et al. 2023_kg_results_20251113_170110.json",
+    "visual_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/visual_triples/Copy of Jiang et al. 2023_visual_kg_format_20251113_170110.json"
+  },
+  "errors": []
+}

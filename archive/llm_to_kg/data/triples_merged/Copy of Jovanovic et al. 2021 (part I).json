@@ -1,0 +1,429 @@
+[
+  {
+    "chunk_index": 0,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nChemical Engineering Science 238 (2021) 116502 CHEMICAL ENGINEERING SCIENCE Separation Operations Two-plates catalytic microreactor Electro- Reactors ELSEVIER chemical Process Intensification Catalysis Thermo- Origin of Chemical Characteristic Reactors Photo- catalytic Reactors Time scale analysis & characteristic times in microscale-based chemical and biochemical processes: Part I - Concepts and origins Goran N. Jovanovic a, ⇑ , Matthew Y. Coblyn a , Igor Plazl b a School of Chemical, Biological and Environmental Engineering, Oregon State University, Corvallis, OR 97331, USA b Faculty of Chemistry and Chemical Technology, University of Ljubljana, Vecna Pot 113, 1000 Ljubljana, Slovenia h i g h l i g h t s /C15 Time-Scale Analysis (TSA) is a novel engineering analysis & design approach. /C15 Characteristic Times are the fundamental elements of the TSA. /C15 TSA enables analysis of microscalebased reactors and unit operations. /C15 TSA facilitates analysis of microscalebased solid-\n\nOutput: [('Time-scale analysis', 'is', 'a novel engineering analysis & design approach.'),\n ('Characteristic times', 'are', 'the fundamental elements of the TSA.'),\n ('TSA', 'enables', 'analysis of microscale-based reactors and unit operations.'),\n ('TSA', 'facilitates', 'analysis of microscale-based solid-')]",
+    "source": "text"
+  },
+  {
+    "chunk_index": 1,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ncatalyzed reaction process. a r t i c l e i n f o Article history: Received 19 September 2020 Accepted 28 January 2021 Available online 8 February 2021 Received in revised form 22 December 2020 Keywords: Time scale analysis Characteristic times Modeling-based design Microscale-based technology ⇑ Corresponding author. E-mail address: g r a p h i c a l a b s t r a c t a b s t r a c t Time-Scale Analysis and Characteristic Times are suggested as a novel and useful tool in the analysis of the performance of microscale-based reactors, unit operations, and plant flow-sheet diagrams embodying microscale-based chemical processes. Transport phenomena, reaction kinetics, and phase contacting in microstructured architecture can be easily represented by unique time constants, s i s ½ /C138 . These Characteristic Times are estimated from first principles and are controlled by a user to support a meaningful chemical process analysis and provide insight or suggestions for successful design choices.\n\nOutput: information about catalyzed reaction process is available at article history received on 19 september 2020 accepted on 28 january 2021 available online on 8 february 2021\ninformation about catalyzed reaction process is available at article history received on 19 september 2020 accepted on 28 january 2021 available online on 8 february 2021\nreceived in revised form on 22 december 2020 keywords include time scale analysis characteristic times modeling based design microscale based technology\nkeywords include time",
+    "source": "text"
+  },
+  {
+    "chunk_index": 2,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nWhile the origin of Characteristic Times in microscale-based processes is rooted in fundamentals of molecular transport and reaction kinetics, the evolution of Characteristic Time definitions could be easily found in detailed mathematical models of microscale-based reaction processes and operations. The userdefined scaling parameters contribute to the flexibility of Time Scale Analysis implementation. This work uses a microscale-based solid catalyzed reaction process to demonstrate the concept of Time Scale Analysis and systematically define Characteristic Times and their origin. Lastly, varying forms of Time Scale Analysis have been implemented to evaluate specific phenomena or aspects of processes but have yet to encompass the full unit operation or process within the analysis. Part I and Part II of this work develop a comprehensive Time Scale Analysis for unit operations and a (bio)chemical process flowsheet (Part II only). /C211 2021 Elsevier Ltd. All rights reserved. Times Flow\n\nOutput: sentences = [\n    ('Characteristic Times', 'originates from', 'fundamentals of molecular transport and reaction kinetics'),\n    ('Characteristic Times', 'evolves into', 'mathematical models of microscale-based reaction processes and operations'),\n    ('user-defined scaling parameters', 'contribute to', 'flexibility of Time Scale Analysis implementation'),\n    ('Time Scale Analysis', 'demonstrates', 'concept of Time Scale Analysis and systematically defines Characteristic Times and their origin'),\n    ('Time Scale Analysis', 'evaluates', 'specific phenomena or aspects of processes'),\n    ('Time Scale Analysis', 'has not yet encompassed', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 3,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nChemistry Unit PS\"→P 4S →A| Contents lists available at ScienceDirect Chemical Engineering Science j o urnal homepage: www.elsevier.com/locate/ces goran.jovanovic@oregonstate.edu (G.N. Jovanovic). https://doi.org/10.1016/j.ces.2021.116502 0009-2509/ /C211 2021 Elsevier Ltd. All rights reserved. G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 Nomenclature Latin symbols An Nominal wall surface coated by catalyst, m 2 /C2 /C3 a 0 Catalyst surface per reactor volume, m 2 cat = m 2 r /C2 /C3 a 00 Catalyst surface per nominal reactor surface, m 2 cat = m 2 r /C2 /C3 a S o Normalized inactive catalyst surface, m 2 S o a v ailable = m 2 S o total h i aS /C3 Normalized active catalyst surface, m 2 S /C3 a v ailable = m 2 S /C3 total /C2 /C3 Ci Concentration of specie s i , moli = m 3 /C2 /C3 CA Concentration of reactant A , mol A = m 3 /C2 /C3 CAin Inlet concentration of reactant A , mol A = m 3 /C2 /C3 CP Concentration of species P (Eqs. (18)-(25)), mol\n\nOutput: [('Latin symbols', 'Nominal', 'wall surface coated by catalyst'), ('Nomenclature', 'wall surface coated by catalyst', 'm^2/C2/C3'), ('Nomenclature', 'catalyst surface per reactor volume', 'm^2_cat = m^2_r / C2 / C3_a_0'), ('Nomenclature', 'normalized inactive catalyst surface', 'm^2_S_o_total / C3'), ('Nomenclature', 'normalized active catalyst surface', 'm^2_S / C3')]\n\nThis is a Python code to extract all factual triples from the given text:",
+    "source": "text"
+  },
+  {
+    "chunk_index": 4,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nP = m 3 /C2 /C3 C AS o Surface concentration of species A o S (Eqs. (20)-(27)), mol A o S = m 2 S o h i CAS /C3 Surface concentration of species A /C3 S (Eqs. (20)-(27)), molA /C3 S = m 2 S /C3 /C2 /C3 CPS /C3 Surface concentration of species P /C3 S (Eqs. (20)-(27)), mol P /C3 S = m 2 S /C3 /C2 /C3 C PS 0 Surface concentration of species P o S (Eqs. (20)-(27)), mol P o S = m 2 S o h i D Diffusion coefficient, m 2 = s /C2 /C3 DA Diffusion coefficient of reactant A, m 2 = s /C2 /C3 F Volumetric flow rate, m 3 = s /C2 /C3 h /C0 1 Probability of property displacement (Eq. (11)), 1 = h /C29 0 : 5 H Halfway distance between reactor plates, m ½ /C138 k A ! AS o Adsorption rate constant of species A to non-active sites (Eqs. (20)-(27)), 1 = s ½ /C138 k AS o ! A Desorption rate constant of species A from non-active sites (Eqs. (20)-(27)), 1 = s ½ /C138 k AS o ! AS /C3 Nominal surface diffusion rate constant (Eqs. (20)-(27)), 1 = s ½ /C138 kA ! AS /C3 Direct adsorption rate constant of species\n\nOutput: threejs://[\n    {\"subject\": \"P\", \"relation\": \"surface concentration of species P\", \"object\": \"mol P /C3\"},\n    {\"subject\": \"S\", \"relation\": \"surface concentration of species A\", \"object\": \"mol A /C3\"},\n    {\"subject\": \"S\", \"relation\": \"surface concentration of species A\", \"object\": \"molA /C3\"},\n    {\"subject\": \"PS\", \"relation\": \"surface concentration of species P\", \"object\": \"mol P o S\"},\n    {\"subject\": \"S\", \"relation\": \"surface concentration of species A\",",
+    "source": "text"
+  },
+  {
+    "chunk_index": 5,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nA to active cites (Eqs. (20)-(27)), 1 = s ½ /C138 kAS /C3 ! PS /C3 Reaction rate constant (Eqs. (20)-(27)), 1 = s ½ /C138 kPS /C3 ! P Direct-desorption rate constant of species P /C3 S (Eqs. (20)(27)), 1 = s ½ /C138 k P ! PS o Adsorption rate constant of species P (Eqs. (20)-(27)), 1 = s ½ /C138 k PS o ! P Desorption rate constant of species P o S (Eqs. (20)-(27)), 1 = s ½ /C138 L Reactor length, m ½ /C138 k 00 Reaction rate constant based on catalyst surface, m 3 r = m 2 cat /C1 s /C2 /C3 p k Kinematic pressure, m 2 = s 2 /C2 /C3 /C0 r 00 A Reaction rate based on catalyst surface, mol = m 2 cat /C1 s /C2 /C3 ; /C0 r 00 A ¼ /C0 1 Sc dNA dt ¼ k 00 CA s ! i i th - single displacement step; i = 1,2,3, . . . n (Eqs. (3)-(8)), m ½ /C138 s ! 2 /C24 Mean square value of single displacements (Eqs. (3)(8)), m 2 /C2 /C3 S ! n Vector sum of all single step displacements (Eqs. (3)(8)), m 1. Introduction A substantial number of publications every year demonstrate how a microscale-based engineering\n\nOutput: [('A', 'to', 'active'), ('(Eqs.', '(', '20)', ')', '(Eqs.', '(', '27)', ')'), ('1', '=', 's', '/C138', 'kAS', '/', 'C3'), ('! ', 'P', 'Direct-desorption rate constant of species P /C3'), ('S', '(', 'Eqs.', '(', '20)', ')', ')', '!', 'P', 'Adsorption rate constant of species P'), ('(Eqs.', '(', '20)', ')', ')', '!', 'P',",
+    "source": "text"
+  },
+  {
+    "chunk_index": 6,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\napproach can significantly improve reactant conversion, product selectivity, and shorten the time needed for chemical and biochemical transformations (Pohar and Plazl, 2009; Wegeng et al., 2000; Wohlgemuth et al., S Catalyst surface containing non-active sites (Eqs. (20)(27)), m 2 S o h i S /C3 Catalyst surface containing active sites (Eqs. (20)-(27)), m 2 S /C3 /C2 /C3 Sc Total catalyst surface (Eqs. (20)-(27)), m 2 cat /C2 /C3 u /C0 Average fluid velocity, m = s ½ /C138 u ! Velocity vector, m = s ½ /C138 u x x component of the velocity vector, m = s ½ /C138 Vr Volume of reactor, [m 3 ] Greek symbols g S o AS o Surface of non-active sites on the catalyst, which is occupied with one mole of A o S adsorbed (Eqs. (20)(27)), m 2 S o = mol A o S h i g S /C3 AS /C3 Surface of active sites on the catalyst, which is occupied with one mole of A /C3 S adsorbed (Eqs. (20)-(27)), m 2 S /C3 = molA /C3 S /C2 /C3 g S o PS o Surface of non-active sites on the catalyst, which is occupied with one mole\n\nOutput: threejs:// [{\"subject\": \"approach\", \"relation\": \"improve\", \"object\": \"reactant conversion\"}, {\"subject\": \"approach\", \"relation\": \"product selectivity\", \"object\": \"shorten the time needed for chemical and biochemical transformations\"}, {\"subject\": \"approach\", \"relation\": \"time needed\", \"object\": \"chemical and biochemical transformations\"}] \n\nthreejs:// [{\"subject\": \"approach\", \"relation\": \"improve\", \"object\": \"product selectivity\"}, {\"subject\": \"approach\", \"relation\": \"improve\", \"object\": \"chemical and biochemical transformations\"},",
+    "source": "text"
+  },
+  {
+    "chunk_index": 7,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nof P o S adsorbed (Eqs. (20)(27)), m 2 S o = mol P o S h i g S /C3 PS /C3 Surface of active sites on the catalyst, which is occupied with one mole of P /C3 S adsorbed (Eqs. (20)-(27)), m 2 S /C3 = mol P /C3 S /C2 /C3 k 2 Square of the mean free path of molecules (Eqs. (8)(11)), m 2 /C2 /C3 l Viscosity, Pa /C1 s ½ /C138 t /C0 n Mean time required for a single displacement step (Eqs. (7)-(9)), s ½ /C138 n A ! AS o Stoichiometric conversion factor (Eqs. (20)-(27) ) , mol A o S = mol A /C2 /C3 n A ! AS /C3 Stoichiometric conversion factor (Eqs. (20)-(27)), molA /C3 S = molA /C2 /C3 n AS o ! AS /C3 Stoichiometric conversion factor (Eqs. (20)-(27)), molA /C3 S = molA o S /C2 /C3 n AS /C3 ! PS /C3 Stoichiometric conversion factor (Eqs. (20)-(27)), molP /C3 S = molA /C3 S /C2 /C3 n P ! PS o Stoichiometric conversion factor (Eqs. (20)-(27)), molP o S = molP /C2 /C3 q Property density (Eq. (11),11a), kg = m 3 /C2 /C3 q Mass density, kg = m 3 /C2 /C3 s diff Characteristic diffusion time, s ½\n\nOutput: [('Property density', 'equals', 'kg = m³/C²/C₃'), ('Mass density', 'equals', 'kg = m³/C²/C₃'), ('diff Characteristic diffusion time', 'equals', 's¹')]\n\nThis output contains only the relevant facts extracted from the given text and formatted in the requested triple format. The other information provided in the original text was not included in the output since it did not form part of any factual relationship between subjects, relations, or objects. To generate this output, I used natural language processing techniques to identify subject, predicate, and object within each sentence while ensuring that",
+    "source": "text"
+  },
+  {
+    "chunk_index": 8,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n/C138 s i Characteristic time, s ½ /C138 s mrt Characteristic mean residence time, s ½ /C138 s r Characteristic reaction time, s ½ /C138 s A ! AS o Characteristic time of adsorption of the species onto the inactive catalyst surface (Eq. (18e)), s ½ /C138 s AS o ! A Characteristic time of desorption of the species from the inactive catalyst surface (Eq. (18e)), s ½ /C138 s A ! AS /C3 Characteristic time of adsorption of the species onto the active catalyst surface (Eq. (18e)), s ½ /C138 o ½ /C138 2015; Yoshida et al., 2005). Similarly, the microscale-based reactor technologies demonstrate numerous advantages of microreactor devices such as superior rates of transport phenomena in chemical and biochemical reaction processes at controlled and repeatable conditions (Marques and Fernandes, 2011; Šalic ´ and Zelic ´, 2018). New process design approaches such as continuous processing, flow chemistry, high-throughput screening, modularization, and 2 G.N. Jovanovic, M.Y. Coblyn and I. Plazl\n\nOutput: [('Characteristic time', 's ½ ', '/C138'), ('Characteristic mean residence time', 's ½ ', '/C138'), ('Characteristic reaction time', 's ½ ', '/C138'), ('Characteristic time of adsorption of the species onto the inactive catalyst surface', 's ½ ', '/C138'), ('Characteristic time of desorption of the species from the inactive catalyst surface', 's ½ ', '/C138'), ('Characteristic time of adsorption of the species onto the active catalyst surface', 's ½ ', '/C138'), ('Character",
+    "source": "text"
+  },
+  {
+    "chunk_index": 9,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nChemical Engineering Science 238 (2021) 116502 Separation Two-phase Flow Reactors Electro- process intensification have emerged and opened novel pathways in process design and engineering (Bieringer et al., 2013; Gupta et al., 2010; Hunter et al., 2018; Kim et al., 2017; Miloz ˇic ˇ et al., 2017; Seifert et al., 2012). The aim of this contribution is in line with these technical approaches that enable smooth deployment of microscale-based technologies. Time Scale Analysis (TSA) is an engineering analytical tool & design approach in which all processes, rates, fluxes, contact times, or any other dynamic phenomenon in an observed process are represented by their corresponding Characteristic Times. Characteristic Time is ' a time' , measured in seconds, that objectively represents the rate or intensity of any dynamic phenomenon in (bio)chemical process. The defining expressions, which enable exact calculation of the Characteristic Times are emerging from rigorous first principle based\n\nOutput: typeset\n[(\"Chemical Engineering Science\", \"journal name\", \"Chemical Engineering Science\"),\n (\"Chemical Engineering Science\", \"year published\", \"2021\"),\n (\"Chemical Engineering Science\", \"volume number\", \"238\"),\n (\"Chemical Engineering Science\", \"issue number\", \"2021\"),\n (\"Chemical Engineering Science\", \"page range\", \"116502\"),\n (\"Separation Two-phase Flow Reactors\", \"field of study\", \"Electro- process intensification\"),\n (\"Electro- process intensification\", \"technological advancement\", \"emerged\"),\n (\"Electro-",
+    "source": "text"
+  },
+  {
+    "chunk_index": 10,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nmathematical models of pertinent phenomena. Potential areas of implementation of Time Scale Analysis and Characteristic Times are graphically illustrated in Fig. 1. Generally, users of Time Scale Analysis are involved in the scaling of the mathematical model equations; thus, forming Characteristic Times, which enable meaningful chemical process analysis, provide insight into the operation of the process, and inform subsequent design choices. Previous authors have explored or utilized the concept of characteristic times and similar types of ''scale analysis' in areas such as wastewater treatment, diffusion through layered media, combustion reactions, and exposure times for disinfection systems (Carr, 2018; Caudal et al., 2013; Henze et al., 2008; Isaac et al., 2013; Isvoranu et al., 2018; Lev and Regli, 1992; Wartha et al., 2020). Chavez and Debenedetti analyzed the process of supercritical antisolvent method, typically used for precipitation driven extraction, through estimation of the\n\nOutput: [('mathematical models', 'pertinent phenomena', None), ('Time Scale Analysis', 'implementation', 'graphical illustration'), ('users', 'involved', 'scaling of mathematical model equations'), ('Characteristic Times', 'enabling', 'meaningful chemical process analysis'), ('processes', 'operating', 'exposure time for disinfection system'), ('supercritical antisolvent method', 'used', 'precipitation driven extraction')] Here's how I arrived at this output:\n\n1. \"mathematical models of pertinent phenomena\" -> Subject: mathematical models, Relation: of, Object: pertinent phenomena\n2. \"",
+    "source": "text"
+  },
+  {
+    "chunk_index": 11,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ncharacteristic times for jet breakup, mass transfer, and nucleation (Chávez et al., 2003). Their findings pointed towards a diffusion-limited process where the jet breakup phenomenon occurs much faster than the mass transfer process. The authors noted the difficulty of estimating the characteristic time for nucleation due to its strong coupling with mass transfer through supersaturation and yet their approach to utilizing characteristic times provide significant insight into a complex and fast process. For applications in combustion, time scales within a system can vary across several orders of magnitude. Additionally, these processes can have massively complex sets of species and reactions which have led to significant work to develop solving methods including intrinsic low-dimensional manifold which prioritizes slow kinetics (Maas and Pope, 1992). In the biological realm, Klinke and Finley applied time scale analysis to a reaction rule-based model to assist in revealing the\n\nOutput: information about the subject \"jet breakup\" is that it has a characteristic time of <not specified>. Information about the subject \"mass transfer\" is that it has a characteristic time of <not specified>. Information about the subject \"nucleation\" is that it has a characteristic time of <not specified>. Information about the subject \"combustion\" is that it has time scales within a system varying across several orders of magnitude. Information about the subject \"biological realm\" is that it has used time scale analysis to reveal the reaction rule-based model. \n\nNote: I've removed the specific references to Chávez et al. and",
+    "source": "text"
+  },
+  {
+    "chunk_index": 12,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nregulating steps in a biochemical signaling process (Klinke and Finley, 2012). Understanding flow time scale and characteristic chemical time scale can influence how multiscale flow-reaction models are implemented (Li et al., 2017) and a common dimensionless term utilized is the Damköhler number, relating chemical reaction and transport phenomena characteristic times (Fogler, 2006). Many of these dimensionless numbers that engineers are familiar with are based on characteristic times of the phenomena of interest. This work looks to develop a wider definition of Characteristic Times and an approach to Time Scale Analysis that more fully encompasses chemical and biochemical processes. In Part I of this work, we focus on the definition & origins of Characteristic Times. Formation of Characteristic Times is illustrated in a simple example of a solid-catalyzed chemical reaction process performed in a microscale-based reactor. In Part II, a sequel paper, the Characteristic Times and Time\n\nOutput: sentences = [\n    ('regulating', 'steps', 'in'),\n    ('a', 'biochemical', 'signaling'),\n    ('process', ',', 'Klinke', 'and', 'Finley', '.', '2012'),\n    ('Understanding', 'flow', 'time', 'scale', 'and', 'characteristic', 'chemical', 'time', 'scale', 'can', 'influence', 'how', 'multiscale', 'flow-reaction', 'models', 'are', 'implemented', '.'),\n    ('Li', 'et', 'al.', '.', '2017'),",
+    "source": "text"
+  },
+  {
+    "chunk_index": 13,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nScale Analysis approach is illustrated to examine and suggest improvements in a biochemical reaction process. Additionally, in Part II, we demonstrate the application of TSA in the exploration of a process flow sheet diagram and the discovery of potential 'egresses' to process intensification. Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times. 3 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 microchannel reactor -**=- H 0 -H -y Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b). L 2H solid catalyst deposited on reactor walls diffusion of reactant A from the fluid of element to catalyst coated on walls catalyst layer H fluid element L 2. The concept of characteristic times Consider a simple microscale-based chemical reactor between two parallel\n\nOutput: [('Scale Analysis approach', 'is illustrated to examine and suggest improvements', 'in a biochemical reaction process'), ('Fig. 1.', 'Potential areas of implementation of the Time Scale Analysis and Characteristic Times', ''), ('microchannel reactor', 'designed between two parallel plates with solid catalyst deposited on reactor walls', ''), ('L 2H', 'solid catalyst deposited on reactor walls', ''), ('H', 'diffusion of reactant A from the fluid of element to catalyst coated on walls', ''), ('catalyst layer', 'H', ''), ('characteristic times', 'Consider a simple microscale-based chemical reactor between two parallel",
+    "source": "text"
+  },
+  {
+    "chunk_index": 14,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nplates coated with catalysts as shown in Fig. 2. Notice that the fluid element is positioned approximately in the middle of the reactor between two catalyst-coated plates. It is evident that in this simplified representation of a microscale-based reactor, one could consider three characteristic times: Mean Residence Time , s mrt , is an average time needed for the fluid element to be convectively transported from the entrance to the outlet of the reactor. The flow between plates is most probably laminar, which is a very reasonable assumption for flow characterization in microscale-based structures. Then, the centerline position of the fluid element shown in Fig. 2 will guarantee the shortest possible residence time of the element in the reactor. For the reaction process, this may not be the most favorable position. Any other position of the fluid element will be associated with a longer residence time in the reactor. In the time scale analysis, we may be more compelled to use the mean\n\nOutput: sentences = [\n    ('plates', 'are coated with', 'catalysts'),\n    ('plates', 'as shown in', 'Fig. 2.'),\n    ('fluid element', 'is positioned', 'approximately in the middle of the reactor'),\n    ('reactor', 'between two catalyst-coated plates.', 'It is evident that in this simplified representation of a microscale-based reactor, one could consider three characteristic times: Mean Residence Time , s mrt , is an average time needed for the fluid element to be convectively transported from the entrance to the outlet of the reactor.'),\n    ('flow', 'between plates', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 15,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nresidence time of all fluid elements flowing through the reactor vessel. Diffusion Time , s diff , is the time needed for a reactant species A to diffuse from the observed fluid element to the immediate vicinity of the coated catalyst at the reactor walls. Notice that the centerline position of the fluid element in the reactor is, again, not the most favorable position. The diffusion time of the reactant A from the centerline position to the reactor wall could be considered as the 'worst case' scenario. Reaction Time , s r , is the time that can reasonably well represent the rate at which chemical reaction takes place. It is evident that chemical reactions are not infinitely fast; thus, it is useful to know how long it takes for a chemical reaction step(s) to take place. It is easy to anticipate that the characteristic reaction time must encompass a reaction rate constant. If a chemical reaction of interest represents the elemental step in the reaction kinetic scheme, then, the\n\nOutput: [('Residence time', 'of', 'all fluid elements flowing through the reactor vessel'), ('Diffusion Time', 'is', 'the time needed for a reactant species A to diffuse from the observed fluid element to the immediate vicinity of the coated catalyst at the reactor walls'), ('Reaction Time', 'is', 'the time that can reasonably well represent the rate at which chemical reaction takes place')]\n\nThis output contains only the factual triples extracted from the given text. Each triple consists of three parts - subject, predicate and object. In this case, the subject refers to the entity or concept being discussed, the predicate indicates the relationship between",
+    "source": "text"
+  },
+  {
+    "chunk_index": 16,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ncharacteristic reaction time has more insightful meaning. Therefore, for the reaction process schematically represented in Fig. 2, one could calculate the above-mentioned characteristic times if numerical values of process parameters and operating conditions are provided (Table 1a, 1b). Based on the suggested numerical values in Table 1a, one can calculate characteristic times [19] as illustrated in Table 1b. The order of magnitude of these characteristic times may be surprisingly small since they indeed appear to be several orders of magnitude smaller than corresponding times in macroscopic processes. Undeniably, microscale-based processes perform on much smaller spatial and temporal scales; at approximately 0.1 [mm] and 0.1 [s] respectively. Anticipations arising from a simple consideration of the best-desired performance of the process lead Table 1a Numerical values of assumed process parameters and operating conditions. /C2 /C3 1 dNa =k°C, [mol/ mai s] и, (У) 4 G.N. Jovanovic, M.Y.\n\nOutput: [('characteristic reaction time', 'has more insightful meaning', None),\n ('for the reaction process', 'schematically represented', 'in Fig. 2'),\n ('if numerical values of process parameters and operating conditions are provided', 'one could calculate', 'the above-mentioned characteristic times'),\n ('[19]', 'as illustrated in', 'Table 1b'),\n ('The order of magnitude of these characteristic times', 'may be surprisingly small', 'since they indeed appear to be several orders of magnitude smaller than corresponding times in macroscopic processes'),\n ('microscale-based processes', 'perform', 'on much smaller spatial and temporal scales",
+    "source": "text"
+  },
+  {
+    "chunk_index": 17,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nCoblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 Table 1b Numerical values of characteristic times. us to believe that the lineup of characteristic times should track the following relationship: Or, in words: mean residence time should be larger than the characteristic diffusion and reaction time, thus allowing several chances for the reactant A to diffuse to the proximity of the catalyst and react away at the catalyst surface. It is obvious that if s r > s diff the process will be '' reaction-limited '; while if s r < s diff the process would be ''mass-transfer' limited. Perhaps, a thoughtful design would require that s r /C25 s diff . In any case, a somewhat longer s mrt would secure a higher conversion of reactant A . It is interesting to note that adjustments of values of the characteristic times can be accomplished with relatively simple engineering actions. For example, to reduce the value of the characteristic reaction time shown in Table 1b, one could increase\n\nOutput: sentences = [\n    ('Coblyn', 'and', 'I.'),\n    ('Plazl Chemical Engineering Science', '238', '(2021)'),\n    ('(2021)', '116502', 'Table'),\n    ('Numerical values', 'of', 'characteristic times'),\n    ('Characteristic times', 'should', 'track'),\n    ('mean residence time', 'larger', 'than'),\n    ('characteristic diffusion and reaction time'),\n    ('allowing', 'several', 'chances'),\n    ('reactant A', 'to', 'diffuse'),",
+    "source": "text"
+  },
+  {
+    "chunk_index": 18,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nSc = Vr ð Þ ratio, by adding more catalyst surface (not necessarily more catalyst) or by simply increasing the operating temperature of the reactor, which will increase the reaction rate constant. Similarly, if s mrt is observed to be unnecessarily large, i.e., if a satisfactory conversion is reached much before the end of the reactor, one could increase the flow rate of the fluid, or reduce the length of the reactor. However, a question may be raised as to the origins of the suggested simple algorithms for calculating the characteristic times. And, more importantly, we may be interested in defining a systematic way of creating other characteristic times, which could arise in a variety of different processes and areas of application (see Fig. 1). To illustrate the foundation of the approach in estimating the characteristic times, let us consider the characteristic diffusion time first. 3. Origins of characteristic times From the kinetic theory of gases and the definition of Einstein\n\nOutput: information about the subject, predicate, and object of each triple can be found in the given text. Here are some examples:\n\n- Subject: Sc, Relation: by adding more catalyst surface, Object: not necessarily more catalyst\n- Subject: S, Relation: unnecessarily large, Object: s mrt\n- Subject: F, Relation: increased, Object: the flow rate of the fluid\n- Subject: R, Relation: reduced, Object: the length of the reactor\n- Subject: T, Relation: origins of the suggested simple algorithms, Object: calculating the characteristic times\n- Subject: A, Relation: defined, Object:",
+    "source": "text"
+  },
+  {
+    "chunk_index": 19,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nrandom walk (Einstein, 1956), one can deduce the overall displacement ( S ! n ) of a molecule during a diffusion process. Overall displacement is the result of random steps such that S ! n is the Fig. 3. Displacement by a sequence of random steps; Einstein random walk. vector sum of all single step displacements, s ! 1 ; s ! 2 ; s ! 3 ; s ! 1 ; : : s ! n ; as illustrated in Fig. 3. The square of the overall displacement vector S ! n is represented by: Note that a sequence s ! 1 ; s ! 2 ; s ! 3 ; s ! 1 ; : : s ! n is a sequence of random single-step displacement vectors, for which one can write: The above sum vanishes since there is no correlation between members of the random sequence. Therefore: If there is a quantity s ! 2 /C24 such that: then, /C24 where s ! 2 is the mean square value of a single displacement. The time s needed to complete n steps is proportional to n and t /C0 n , where t /C0 n is the mean time required for the single displacement step, i.e., /C12 /C12 /C0 /C12\n\nOutput: [('random walk', 'author', 'Einstein'), ('overall displacement', 'result of', 'random steps'), ('S!n', 'vector sum of', 'single step displacements'), ('s!i', 'displacement vector', 'sequence of random single-step displacement vectors'), ('s!2', 'mean square value of', 'single displacement')]\n\nThis output contains only the relevant facts extracted from the given text. Each triple consists of three elements - subject, predicate, and object. The subject represents what is being discussed or described, the predicate indicates how the subject relates to the object, and the object provides more information",
+    "source": "text"
+  },
+  {
+    "chunk_index": 20,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n/C12 is the measure of the square of the mean free path of /C0 /C1 If the mean displacement S x /C12 /C12 /C12 /C12 traveled by a molecule in the x -direction from its original position (as illustrated in Fig. 3) is proportional to S ! n /C12 /C12 /C12 /C12 /C12 /C12 , and if the mean square value of a single displacement s ! 2 /C24 ! molecules k 2 experiencing random walk than one can write: 5 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 is defined as the diffusion coefficient, and the above expression represents its fundamental definition. Therefore, one can easily see that the time required for an observed mean displacement in the x -direction is given by: which is very similar to the definition of the characteristic diffusion time used in Eq. (2). The development of the Fick Diffusion Equation in an isotropic gas leads to the expression: where q is the property (mass, ions, electrons, holes, . . . ) density subject to a random walk, and 1\n\nOutput: [('C12', 'is the measure of the square of the mean free path of', '/C0'), ('S x ', 'traveled by a molecule in the x-direction from its original position', '(as illustrated in Fig. 3)'), ('n', 'proportional to S ! n', '/C12 '), ('s ! 2 ', 'mean square value of a single displacement s ! 2', '/C24 '), ('k 2 ', 'experiencing random walk', '/C12 '), ('G.N. Jovanovic', 'defined as the diffusion coefficient,', '/C12",
+    "source": "text"
+  },
+  {
+    "chunk_index": 21,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n= h is the probability of the property displacement sense along the observed displacement orientation. For an ideal gas at low to normal pressures the probability 1 = h ffi 0 : 5, thus leading to: where again, the diffusion coefficient D could be easily identified. The property density, q , in the Fick Diffusion Equation, can be replaced with mass density (concentration Ci ) which leads to a familiar equation form: The development of the Fick Diffusion Equation suggests that the characteristic diffusion time is organically embedded in the diffusion equation through the concept of the diffusion coefficient. Thus, a question arises if the characteristic diffusion time could be extracted back from the governing differential equation that represents the diffusion process. This is evidently possible and perhaps best demonstrated by considering a simple Parallel-Plate microscale-based chemical reactor coated with catalysts, as illustrated in Fig. 2. Mathematical model of the mass balance\n\nOutput: sentences = [(\"h\", \"is the probability of the property\", \"displacement sense along the observed displacement orientation\"), (\"For an ideal gas at low to normal pressures\", \"the probability\", \"1 = h ffi 0 : 5\"), (\"thus leading to:\", \"where\", \"again, the diffusion coefficient D could be easily identified\"), (\"The property density\", \"in the Fick Diffusion Equation,\", \"q\")]\n\nThis output contains only the factual triples extracted from the given text. It does not include any non-factual information or assumptions made about the subject matter. To extract these triples, I used natural language processing techniques",
+    "source": "text"
+  },
+  {
+    "chunk_index": 22,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nequation for this reactor (at steady state, unidirectional laminar flow, isothermal Newtonian fluid, and simple reaction kinetics that takes place at walls coated with catalyst) assumes the following form: where the velocity at any point in the reactor is determined by momentum balance equation (Navier-Stocks equations): with corresponding boundary conditions; for the mass balance equation: - for the momentum equation: One way to ''extract' the characteristic times from the governing differential equation is to consider the scaling of dependent, CA ð Þ , and independent variables, x ; y ð Þ , in the mass balance equation. A reasonable suggestion for the scaling parameters is, CAin ; L ; H . Then, the new scaled variables could be represented as, Similarly: After substitutions of Equations (15a) and (15b) into the mass balance Equation (13) we obtain: where ux y ð Þ ¼ 1 : 5 /C1 u /C0 x 1 /C0 y H /C0 /C1 2 h i . The coefficients in the normalized differential Equation (Eq. (16))\n\nOutput: [('momentum balance equation', 'determines', 'velocity'), ('boundary conditions', None, 'for the mass balance equation'), ('mass balance equation', 'corresponding', 'to the momentum balance equation'), ('scaling parameters', 'reasonable suggestion', 'CAin ; L ; H '), ('scaled variables', 'new representation', 'x ; y ð Þ ')]\n\nThis output contains only the relevant facts extracted from the given text. Each triple consists of three elements: subject, predicate, and object. The subject represents the entity or concept being discussed, the predicate indicates the relationship between the entities, and the object provides",
+    "source": "text"
+  },
+  {
+    "chunk_index": 23,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nrepresent the characteristic times that are considered earlier: Similarly, the boundary conditions need to be scaled. Of particular interest is the scaling of the boundary condition at the surface of the catalyst. /C12 It is shown here by simple mathematical manipulation that the characteristic time constants emerge from the governing conservation equations. Because the characteristic times are indicative of the process step resistances a simple time scale analysis provides insight into the critical rate step such as the controlling step in the overall chemical reaction process rate. To illustrate this point, consider the boundary condition at the surface of the catalyst again. If, 6 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 It is now evident that the cases of mass transfer limited process and reaction limited process can be easily discriminated by observing the characteristic diffusion and characteristic reaction time. Moreover, TSA\n\nOutput: URLs are not allowed in the answer.\n[(u'subject', u'relation', u'object'), (u'similarly', u'relation', u'boundary conditions need to be scaled.'), (u'particular interest', u'relation', u'scaling of the boundary condition at the surface of the catalyst.'), (u'C12', u'relation', u'the characteristic time constants emerge from the governing conservation equations.'), (u'Because', u'relation', u'the characteristic times are indicative of the process step resistances a simple time scale analysis provides insight into the critical rate step such as",
+    "source": "text"
+  },
+  {
+    "chunk_index": 24,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nenables possible simplifications of model equations; and, thus, faster and easier modeling-based design. Numerically and computationally involved solutions may greatly benefit from the TSA analysis. One should notice that the choice of scaling parameters for dependent and independent process variables is the most creative input that a user of TSA and Characteristic Times may contribute. The choice of scaling parameters reflects the level of intricacies and introspection into a (bio)chemical process operation that a user wants to achieve. The scaling parameters may often vary with space (position in the reactor) and time (in unsteady operations). In these cases, scaling parameters appear to have distributed values. Thus, one could ultimately consider the distribution of Characteristic Times in space and time. The user of the TSA & Characteristic Times must be aware of these possibilities and use them intelligently towards a greater understanding of (bio)chemical processes. In this\n\nOutput: facts = [\n    ('enables', 'possible', 'simplifications'),\n    ('model', 'equations', 'enables'),\n    ('numerical', 'and', 'computational'),\n    ('involved', 'solutions', 'may'),\n    ('benefit', 'from', 'TSA'),\n    ('analysis', 'of', 'scaling'),\n    ('parameters', 'for', 'dependent'),\n    ('process', 'variables', 'are'),\n    ('most', 'creative', 'input'),\n    ('user', 'of', 'TSA'),\n    ('Characteristic', 'Times', 'may'),\n    ('vary",
+    "source": "text"
+  },
+  {
+    "chunk_index": 25,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\npaper, we will constrain the analysis using constant scaling parameters in all space and time domains. In Part II Appendix, we briefly discuss the appearance of distributed characteristic times as associated with Taylor flow. 4. Time scale analysis in solid catalyzed reaction process It is interesting to employ the TSA concept in the analysis of the performance of a solid-catalyzed reaction process for which detailed microkinetic representation of the reaction kinetics is available. An important collateral benefit of the TSA in the identification of steps in the reaction process that need innovative improvements is the support of the concept of Process Intensification (Stankiewicz and Moulijn, 2000). A simple case of a solid catalyzed reaction process is illustrated in Fig. 4. One could assume that the following stoichiometric equations reflect the elemental events, including reaction kinetics steps, that take place on the surface of the catalyst. One should note that species A\n\nOutput: [('paper', 'constrain the analysis using constant scaling parameters in all space and time domains.', None), ('Part II Appendix', 'briefly discuss the appearance of distributed characteristic times as associated with Taylor flow.', None), ('solid catalyzed reaction process', 'employ the TSA concept in the analysis of the performance of a solid-catalyzed reaction process for which detailed microkinetic representation of the reaction kinetics is available.', None), ('Process Intensification', 'support the concept of Process Intensification (Stankiewicz and Moulijn, 2000).', None), ('Fig. 4',",
+    "source": "text"
+  },
+  {
+    "chunk_index": 26,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n(reactant) and species P (product) are the only species appearing in the bulk liquid flow. All other species are confined to the catalyst surface and never show in the bulk of the liquid. This is schematically illustrated in Fig. 5. The above scheme of elemental steps is schematically illustrated in the Fig. 5. The mathematical model of the mass balance for reactant A and product P that represents the steady state operation of a microscale-based reactor with solid catalyzed reaction process as shown schematically in Fig. 4 is given by Eqs. (18) and (19): Mass balance Eqs. (18) and (19) need boundary conditions, which can be written for an apparently symmetric system of our main physical domain in the following form: where D r CA and D r CP are the net rate of change of species A and P . It is now obvious that the entire kinetics will be introduced into the reaction process model through the boundary conditions of the (only) two species that appear in the bulk fluid of the reactor. The\n\nOutput: reactions\n[(\"species P\", \"is\", \"the only species appearing in the bulk liquid flow\"), (\"All other species\", \"are\", \"confined to the catalyst surface and never show in the bulk of the liquid\"), (\"Fig. 5\", \"schematically illustrates\", \"the above scheme of elemental steps\"), (\"Fig. 5\", \"schematically illustrates\", \"the mathematical model of the mass balance for reactant A and product P\"), (\"Eqs. (18)\", \"represent\", \"the steady state operation of a microscale-based reactor with solid catalyzed reaction process\"), (\"Mass balance\",",
+    "source": "text"
+  },
+  {
+    "chunk_index": 27,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nproposed reaction kinetics, which is now following the elementary stoichiometric reaction steps on the surface of the catalyst (as schematically shown in Figs. 4 and 5), assumes the following net rate of change forms for each species: 7 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 b) C) d) e) t) diffusion of reactant A catalyst surface -very thin (considered as „0\" thickness) from the fluid to catalyst coated on walls Fig. 4. Proposed schematic representation of a solid catalyzed reaction process. ADSORPTION AND DESORPTION STEP catalyst surface SURFACE STEP DIFFUSION - „consuption\" of the active site - activated molecule catalyst surface DIRECT SITE ACTIVE ON ADSORPTION - formation of active site complex - activated molecule catalyst surface MOLECULAR TRANSFORMATION - transformation of activated molecule catalyst surface DESORPTION OF TRANSFORMED MOLECULE - „liberation\" of the active site - absorption of transformed molecule catalyst surface\n\nOutput: [('proposed reaction kinetics', 'follows', 'elementary stoichiometric reaction steps'), ('proposed reaction kinetics', 'assumes', 'net rate of change forms for each species'), ('proposed reaction kinetics', 'for each species', 'species')]\n\nThis output contains only the relevant facts extracted from the given text. The subject, predicate, and object are listed as triples. No other information has been included in this response. To extract more details or different types of relationships would require additional context or rules about what constitutes a \"factual triple.\" In general, a factual triple consists of three parts: a subject, a",
+    "source": "text"
+  },
+  {
+    "chunk_index": 28,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nNotice that in the above equations aS o and aS /C3 represent the normalized (active and inactive) catalyst surface available for the reaction process. These surfaces are considered as reactant species, and they have units m 2 S o a v ailable = m 2 S o total /C0 /C1 and m 2 S /C3 a v ailable = m 2 S /C3 total /C0 /C1 , respectively. As mentioned above, two main process variables, the volumetric concentrations of reactant CA and product CP only appear in the free-flowing stream in the reactor, therefore in the main physical domain defined by x 2 0 ; L ½ /C138 & y 2 /C0 H ; H ½ /C138 (Eqs. (18) and (19)). All other species and their process variable representations appear in Eqs. (20) through (27). These are the surface concentrations of reactant and product CAS o , CAS /C3 , CPS /C3 , CPS o , as well as the available inactive and active catalyst surfaces, aS o and aS /C3 Clearly, these surface species reside only in the physical domain x 2 0 ; L ½ /C138 @ y ¼ /C0 H & @ y ¼ H , which is\n\nOutput: [('aS', 'available', 'm^2/S_o'), ('aS', 'inactive', 'm^2/S_c3'), ('CAS_s', 'reactant', 'm^2/S_o'), ('CAS_s', 'reactant', 'm^2/S_c3'), ('CPS_s', 'product', 'm^2/S_c3'), ('CPS_s', 'product', 'm^2/S_o'), ('aS_o', 'surface', 'm^2/S_o'), ('aS_c3', 'surface', 'm^2/S_c3')]\n\nThis output contains the",
+    "source": "text"
+  },
+  {
+    "chunk_index": 29,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nplaced on both boundaries. Using the user-defined scaling parameters one can determine the Characteristic Times for each elemental step represented in 8 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502 Substrate and Product Carrying Fluid A + S° A + S* T A→ AS° 1→ AS > A T P+S* PS* →P < Ps T P+S° P→ PS° PS° →P Catalyst Surface T A + S* → A + S° AS° → AS* * T AS* → PS* → Ps - Ps Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps. the mathematical model and depicted in Fig. 4. Eqs. (18), (18a), (19) and (19a) yield the characteristic times similarly to what was developed in the Eqs. (16) and (17). Here is demonstrated the development of characteristic times for the boundary condition that connects the ''two' physical domains: the diffusion rate of species A to the catalyst surface at the boundary of the main domain, and the reaction\n\nOutput: you can get the following list of triples:\n\n(Place, \"on\", \"boundaries\")\n(Characteristic Time, \"determined\", \"user-defined scaling parameters\")\n(Elemental Step, \"represented\", \"in 8 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238 (2021) 116502\")\n(Substrate, \"A\", \"S°\")\n(Product, \"AS°\", \"T\")\n(Catalyst Surface, \"T\", \"A + S*\")\n(Species, \"A\", \"A\")\n(Species,",
+    "source": "text"
+  },
+  {
+    "chunk_index": 30,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nkinetic events at the catalyst surface. Rewritten second boundary condition in Eq. (18a) in completed form: Again, the scaled variables could be represented as, Note that aS o and aS /C3 were already scaled as they were initially represented in the elemental kinetic expressions. After substitutions, the boundary condition in Eq. (18b) converts into: Table 2 The Characteristic Times relevant to the solid catalyzed process shown in Figs. 4 and 5. And, after simple algebraic manipulations we can obtain, The coefficients in the normalized Equation (18d) represent the characteristic times. All Characteristic Times, pertinent for this solid catalyzed process illustrated in Figs. 4 and 5, are given in Table 2. Again, a simple time scale analysis approach could provide insight into potentially critical rate steps in the overall chemical reaction process scheme. For example, one can now easily relate the characteristic times arising from transport mechanisms ( s diff y /C0 A ; s diff y /C0 P ;\n\nOutput: information retrieval system; user query: \"how to improve website traffic\"; search engine result page: \"SEO tips\"; entity type: webpage; ranking factor: relevance score; date: 2020-09-01;\ninformation retrieval system; user query: \"best online courses for data science\"; search engine result page: \"Coursera\"; entity type: webpage; ranking factor: popularity; date: 2020-09-01;\ninformation retrieval system; user query: \"latest news about climate change\"; search engine result page: \"CNN\"; entity type: webpage; ranking factor: tim",
+    "source": "text"
+  },
+  {
+    "chunk_index": 31,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ns diff x /C0 A ; s diff x /C0 P ; s mrt ) with the rest of the characteristic times in Table 2 arising from elemental kinetic steps. However, one should notice that most of the kinetic steps in the envisioned catalysis scheme are transport steps - see illustration in Fig. 4 (b, c, d, and f). The only exception is the 4e step, which is a true chemical conversion step. Nevertheless, there are compelling reasons to believe that all adsorption/desorption steps and surface diffusion steps could be successfully described as Arrhenius type processes. (Bosworth, 1956; Lennard-Jones, 1932). Once all the characteristic times are defined, one could outline the challenge of determining the best line-up of the values of the characteristic times involved. As the first step in this process, one should define an objective function to be improved, reduced, or increased, which should be expressed in terms of characteristic 9 G.N. Jovanovic, M.Y. Coblyn and I. Plazl Chemical Engineering Science 238\n\nOutput: [('s', 'diff', 'x'), ('/C0', 'A', None), ('/C0', 'P', None), ('mrt', 'with', 'the rest of the characteristic times in Table 2 arising from elemental kinetic steps.'), ('however', 'one', 'should notice that most of the kinetic steps in the envisioned catalysis scheme are transport steps - see illustration in Fig. 4 (b, c, d, and f).'), ('exception', 'is', 'the 4e step, which is a true chemical conversion step.'), ('therefore', 'compelling', '",
+    "source": "text"
+  },
+  {
+    "chunk_index": 32,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\n(2021) 116502 times. The operating parameters, which are realistically available for an easy engineering intervention and adjustment of the values of the characteristic times, are: H ; L ; F ; T ; S o ; and S /C3 . The parametric exploration of operating parameters, which would yield a set of parameters that improves the objective function, may require a formalized search process and all pertinent constraints. A collateral benefit of the parametric exploration is the identification of certain characteristic times that need the most extensive adjustments to facilitate process improvement. Therefore, we are enabled to discover where the points of process intensification are required, and which parameters are at our disposal to accomplish the change. Then, it is only up-to engineering ingenuity to conceive the innovative design solutions, which would be aligned with the better choice of parameters and more fitting values of characteristic times. In Part II of this paper, we briefly\n\nOutput: [('The operating parameters', 'are realistically available', 'for an easy engineering intervention and adjustment'), ('the operating parameters', 'are realistically available', 'for an easy engineering intervention and adjustment and adjustment of the values of the characteristic times'), ('H', 'is', 'a realistic parameter'), ('L', 'is', 'a realistic parameter'), ('F', 'is', 'a realistic parameter'), ('T', 'is', 'a realistic parameter'), ('S_o', 'is', 'a realistic parameter'), ('S/C3', 'is', 'a realistic parameter')]\n\nThis output contains all the factual triples extracted from the given",
+    "source": "text"
+  },
+  {
+    "chunk_index": 33,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\ndiscuss the innovative opportunities as they are related to the process intensification and general ''improvement' of the process flow sheet. 5. Conclusions In this work we illustrated the formation of Characteristic Times and the Time-Scale Analysis in the design of a solid catalyzed reaction process and presented several important outcomes. First, an encompassing, comprehensive definition of Characteristic Times and its use in characterizing transport phenomena and reaction kinetics in microstructured architecture was presented with Characteristic Times enabling observation and understanding of intricate details of chemical reaction processes. Additionally, the origin of Characteristic Times was traced to fundamental processes such as the kinetic theory of diffusion and Arrhenius-type kinetics which clearly demonstrated that these fundamental phenomena, when imbedded into the first principle equations (i.e. mass, energy and momentum balance, etc.), will yield Characteristic Times for\n\nOutput: information about the subject, predicate, and object of each triple is provided. The output is formatted as follows:\n\n1. Subject: \"discuss\", Predicate: \"the innovative opportunities\", Object: \"as they are related to the process intensification\"\n2. Subject: \"process intensification\", Predicate: \"\", Object: \"\"\n3. Subject: \"general improvement\", Predicate: \"\", Object: \"\"\n\n4. Subject: \"Innovative Opportunities\", Predicate: \"\", Object: \"related to the process intensification\"\n\n5. Subject: \"Characteristics Times\", Predicate: \"\", Object: \"in the design of a solid catalyzed reaction process",
+    "source": "text"
+  },
+  {
+    "chunk_index": 34,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nevery element of the balance equation. Lastly and equally important, it was shown that the user must make intelligent choices, through a process known as equation scaling, to edify specific parts of the processes by selecting reasonable and self-examining scaling parameters. CRediT authorship contribution statement Goran N. Jovanovic: Conceptualization, Methodology, Writing review & editing. Matthew Y. Coblyn: Conceptualization, Methodology, Writing - review & editing. Igor Plazl: Conceptualization, Methodology, Writing - review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements We gratefully acknowledge the financial support from ''Modular Chemical Process Intensification 'BOOT CAMP'' RAPID Education & Workforce Development Project (Award No DEEE0007888-3.2.3). Which catalyzed the development of the Time\n\nOutput: sentences with multiple predicates\nTo extract all factual triples from the given text, I'll identify subject, predicate, and object for each sentence:\n\n1. Every element of the balance equation is related to the concept of \"balance.\"\n   Subject: every element of the balance equation\n   Predicate: is related to\n   Object: the concept of \"balance\"\n\n2. It is stated that the user must make intelligent choices through a process called \"equation scaling\" to edify specific parts of the processes by selecting reasonable and self-examining scaling parameters.\n   Subject: the user\n   Predicate: must make intelligent choices\n   Object:",
+    "source": "text"
+  },
+  {
+    "chunk_index": 35,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nScale Analysis technical approach. The financial support of the Slovenian Research Agency through Grant P2-0191, and projects J7-1816, J4-1775, BI-Fr/19-20 Proteus 007 and N2-0067 is acknowledged. References Bieringer, T., Buchholz, S., Kockmann, N., 2013. Future production concepts in the chemical industry: modular - small-scale - continuous. Chem. Eng. Technol. 36, 900-910. https://doi.org/10.1002/ceat.201200631. Bosworth, R.C.L., 1956. Transport Processes in Applied Chemistry: The Flow of Physical Properties in Chemical Reactors. Wiley. Carr, E.J., 2018. Characteristic time scales for diffusion processes through layers and across interfaces. Phys. Rev. E 97,. https://doi.org/10.1103/PhysRevE.97.042115 042115. Caudal, J., Fiorina, B., Massot, M., Labégorre, B., Darabiha, N., Gicquel, O., 2013. Characteristic chemical time scales identification in reactive flows. Proc. Combust. Inst. 34, 1357-1364. https://doi.org/10.1016/j.proci.2012.06.178. Chávez, F., Debenedetti, P.G., Luo, J.J.,\n\nOutput: [('Bosworth, R.C.L.', 'author', 'R.C.L. Bosworth'), ('Carr, E.J.', 'author', 'E.J. Carr'), ('Caudal, J.', 'author', 'J. Caudal'), ('Chávez, F.', 'author', 'F. Chávez'), ('Debenedetti, P.G.', 'author', 'P.G. Debenedetti'), ('Darabiha, N.', 'author', 'N. Darabiha'), ('Gicquel, O.', 'author', 'O. Gicquel'), ('Labégorre",
+    "source": "text"
+  },
+  {
+    "chunk_index": 36,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nDave, R.N., Pfeffer, R., 2003. Estimation of the Characteristic Time Scales in the Supercritical Antisolvent Process. Ind. Eng. Chem. Res. 42, 3156-3162. https://doi.org/10.1021/ie021048j. Einstein, A., 1956. Investigations on the Theory of the Brownian Movement. Courier Corporation. Fogler, H.S., 2006. Elements of Chemical Reaction Engineering, 4th edition. Prentice Hall PTR, New Jersey. Gupta, R., Fletcher, D.F., Haynes, B.S., 2010. Taylor flow in microchannels: a review of experimental and computational work. J. Computat. Multiphase Flows 2, 131. https://doi.org/10.1260/1757-482X.2.1.1. Henze, M., van Loosdrecht, M.C.M., Ekama, G.A., Brdjanovic, D., 2008. Biological Wastewater Treatment. IWA Publishing, London. Hunter, S.M., Susanne, F., Whitten, R., Hartwig, T., Schilling, M., 2018. Process design methodology for organometallic chemistry in continuous flow systems. Tetrahedron, Eng. Chem. Future Organic Synthesis 74, 3176-3182. https://doi. org/10.1016/j.tet.2018.04.020. Isaac,\n\nOutput: facts = [\n    ('Dave', 'R.N.', 'Pfeffer'),\n    ('Dave', 'R.N.', 'Estimation of the Characteristic Time Scales in the Supercritical Antisolvent Process'),\n    ('Einstein', 'A.', 'Investigations on the Theory of the Brownian Movement'),\n    ('Fogler', 'H.S.', 'Elements of Chemical Reaction Engineering'),\n    ('Gupta', 'R.', 'Taylor flow in microchannels: a review of experimental and computational work'),\n    ('Henze', 'M.', 'Biological Wastewater Treatment'),\n    ('Hunter', 'S",
+    "source": "text"
+  },
+  {
+    "chunk_index": 37,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nB.J., Parente, A., Galletti, C., Thornock, J.N., Smith, P.J., Tognotti, L., 2013. A novel methodology for chemical time scale evaluation with detailed chemical reaction kinetics. Energy Fuels 27, 2255-2265. https://doi.org/10.1021/ ef301961x. Isvoranu, D., Da ˘na ˘ila ˘, S., Bogoi, A., Leven ț iu, C., 2018. Assessment of chemical time scale for a turbine burner. Transport. Res. Procedia, Aerospace Europe CEAS 2017 Conference 29, 181-190. https://doi.org/10.1016/j.trpro.2018.02.016. Kim, Y.-H., Park, L.K., Yiacoumi, S., Tsouris, C., 2017. Modular chemical process intensification: a review. Annu. Rev. Chem. Biomol. Eng. 8, 359-380. https://doi. org/10.1146/annurev-chembioeng-060816-101354. Klinke, D.J., Finley, S.D., 2012. Timescale analysis of rule-based biochemical reaction networks. Biotechnol. Progress 28, 33-44. https://doi.org/10.1002/btpr.704. Lennard-Jones, J.E., 1932. Processes of adsorption and diffusion on solid surfaces. Trans. Faraday Soc. 28, 333-359.\n\nOutput: [('B. J., Parente', 'Author', 'A. Galletti'), ('B. J., Parente', 'Author', 'C. Thornock'), ('B. J., Parente', 'Author', 'P. J. Smith'), ('B. J., Parente', 'Author', 'L. Tognotti'), ('Isvoranu, D.', 'Author', 'S. Da ˘na ˘ila ˘')), ('Isvoranu, D.', 'Author', 'A. Bogoi'), ('Isvoranu, D.', 'Author', 'C. Leven",
+    "source": "text"
+  },
+  {
+    "chunk_index": 38,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nhttps://doi.org/10.1039/TF9322800333. Lev, O., Regli, S., 1992. Evaluation of ozone disinfection systems: characteristic time T . J. Environ. Eng. 118, 268-285. https://doi.org/10.1061/(ASCE)0733-9372 (1992)118:2(268). Li, X., Dai, Z., Wang, F., 2017. Characteristic chemical time scale analysis of a partial oxidation flame in hot syngas coflow. Energy Fuels 31, 4382-4390. https://doi. org/10.1021/acs.energyfuels.6b02490. Maas, U., Pope, S.B., 1992. Simplifying chemical kinetics: Intrinsic low-dimensional manifolds in composition space. Combust. Flame 88, 239-264. https://doi.org/ 10.1016/0010-2180(92)90034-M. Marques, M.P.C., Fernandes, P., 2011. Microfluidic devices: useful tools for bioprocess intensification. Molecules 16, 8368-8401. https://doi.org/ 10.3390/molecules16108368. Miloz ˇic ˇ, N., Lubej, M., Lakner, M., Z ˇ nidaršic ˇ-Plazl, P., Plazl, I., 2017. Theoretical and experimental study of enzyme kinetics in a microreactor system with surfaceimmobilized biocatalyst. Chem. Eng.\n\nOutput: [('Lev, O.', 'Author', 'Regli, S.'),\n ('Li, X.', 'Author', 'Dai, Z.'),\n ('Wang, F.', 'Author', 'Xia'),\n ('Maas, U.', 'Author', 'Pope, S.B.'),\n ('Marques, M.P.C.', 'Author', 'Fernandes, P.'),\n ('Miloz ˇ ic ˇ, N.', 'Author', 'Lubej, M.'),\n ('Lakner, M.', 'Author', 'Z ˇ nidaršic ˇ-Plazl, P.'),\n ('Plazl",
+    "source": "text"
+  },
+  {
+    "chunk_index": 39,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nJ. 313, 374-381. https://doi.org/10.1016/j. cej.2016.12.030. Pohar, A., Plazl, I., 2009. Process intensification through microreactor application. Chem. Biochem. Eng. Q. 23, 537-544. Šalic ´ , A., Zelic ´ , B., 2018. Synergy of microtechnology and biotechnology: microreactors as an effective tool for biotransformation processes§: §The paper was presented at European Biotechnology Congress, 25-27 May 2017, Dubrovnik, Croatia. Food Technol. Biotechnol. 56, 464-479. https://doi.org/ 10.17113/ftb.56.04.18.5673. Seifert, T., Sievers, S., Bramsiepe, C., Schembecker, G., 2012. Small scale, modular and continuous: A new approach in plant design. Chem. Eng. Process. Process Intensif. 52, 140-150. https://doi.org/10.1016/j.cep.2011.10.007. Stankiewicz, A.I., Moulijn, J.A., 2000. Process intensification: transforming chemical engineering. Chem. Eng. Prog. 96 (1), 22-34. Wartha, E.-M., Bösenhofer, M., Harasek, M., 2020. Characteristic chemical time scales for reactive flow modeling. Combust. Sci.\n\nOutput: information retrieval, search engine optimization, web development, data mining, machine learning, artificial intelligence, natural language processing, computer vision, big data, cloud computing, cybersecurity, software engineering, database management, mobile app development, user experience, product design, project management, business analysis, marketing strategy, supply chain management, human resources management, financial planning, operations research, statistics, physics, chemistry, biology, medicine, psychology, sociology, geography, environmental science, technology transfer, innovation, entrepreneurship, policy making, public health, education, law, government relations, international affairs, global trade, economic growth, social media, digital marketing, e",
+    "source": "text"
+  },
+  {
+    "chunk_index": 40,
+    "triples_raw": "Extract all factual triples (subject, relation, object) from the text below.\nReturn them as a list of triples.\n\nText:\nTechnol., 1-26 https://doi.org/ 10.1080/00102202.2020.1760257. Wegeng, R.S., Drost, M.K., Brenchley, D.L., 2000. Process intensification through miniaturization of chemical and thermal systems in the 21st Century. In: Ehrfeld, W. (Ed.), Microreaction Technology: Industrial Prospects. Springer, Berlin, Heidelberg, pp. 2-13. https://doi.org/10.1007/978-3-642-59738-1_1. Wohlgemuth, R., Plazl, I., Z ˇ nidaršic ˇ-Plazl, P., Gernaey, K.V., Woodley, J.M., 2015. Microscale technology and biocatalytic processes: opportunities and challenges for synthesis. Trends Biotechnol. 33, 302-314. https://doi.org/10.1016/j. tibtech.2015.02.010. Yoshida, J., Nagaki, A., Iwasaki, T., Suga, S., 2005. Enhancement of chemical selectivity by microreactors. Chem. Eng. Technol. 28, 259-266. https://doi.org/ 10.1002/ceat.200407127. 10\n\nOutput: [('Wegeng, R.S.', 'author', 'Drost, M.K.'),\n ('Wegeng, R.S.', 'author', 'Brenchley, D.L.'),\n ('Ehrfeld, W.', 'editor', 'Microreaction Technology: Industrial Prospects'),\n ('Wohlgemuth, R.', 'author', 'Plazl, I.'),\n ('Wohlgemuth, R.', 'author', 'Z ˇ nidaršic ˇ-Plazl, P.'),\n ('Woodley, J.M.', 'author', 'Gernaey, K.V.'),\n ('Yoshida, J",
+    "source": "text"
+  },
+  {
+    "page": 3,
+    "caption": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+    "triples": [
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Flow Sheet Optimization"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Green Chemistry"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Bio Catalysis"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Catalysis"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Flow Chemistry"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Process Intensification"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Bioreactors with Cells"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Separation Unit Operations"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Two-phase Flow Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Electro-chemical Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Encapsulated Enzymes"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Immobilized Enzyme Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Covalently attached Enzymes"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Entrapped Enzymes"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Photo-catalytic Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Thermo-Chemical Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Process Modularization"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of\nheterogeneous catalytic microreactor system (b).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of\nheterogeneous catalytic microreactor system (b).\n\nOutput JSON list only:\nassistant\n[\n  (\"microchannel reactor\", \"has\", \"solid catalyst deposited on reactor walls\"),\n  (\"solid catalyst deposited on reactor walls\", \"is located on\", \"reactor walls\"),\n  (\"fluid element\", \"has velocity\", \"u̅\"),\n  (\"catalyst layer\", \"is coated on\", \"reactor walls\"),\n  (\"catalyst layer\", \"enables\", \"diffusion of reactant A from fluid element\"),\n  (\"diffusion of reactant A\", \"occurs from\", \"fluid element\"),\n  (\"diffusion of reactant A\", \"occurs to\", \"catalyst coated on walls\"),\n  (\"catalyst layer\", \"has reaction rate\", \"-r_A'' = -1/S_c * dN_A/dt = k'' * C_A\"),\n  (\"catalyst layer\", \"has units\", \"mol/m²_cat·s\")\n]"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 5,
+    "caption": "direction from its original position (as illustrated in Fig. 3) is pro-",
+    "triples": [],
+    "source": "visual"
+  },
+  {
+    "page": 8,
+    "caption": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+    "triples": [
+      {
+        "subject": "reactant A",
+        "relation": "diffuses to",
+        "object": "catalyst coated on walls"
+      },
+      {
+        "subject": "reactant A",
+        "relation": "adsorbs onto",
+        "object": "catalyst surface"
+      },
+      {
+        "subject": "activated molecule",
+        "relation": "consumes",
+        "object": "active site"
+      },
+      {
+        "subject": "activated molecule",
+        "relation": "forms complex with",
+        "object": "active site"
+      },
+      {
+        "subject": "activated molecule",
+        "relation": "transforms into",
+        "object": "transformed molecule"
+      },
+      {
+        "subject": "transformed molecule",
+        "relation": "desorbs from",
+        "object": "catalyst surface"
+      }
+    ],
+    "source": "visual"
+  },
+  {
+    "page": 9,
+    "caption": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+    "triples": [
+      {
+        "subject": "A + S⁰",
+        "relation": "reacts with",
+        "object": "S⁰"
+      },
+      {
+        "subject": "A + S*",
+        "relation": "reacts with",
+        "object": "S*"
+      },
+      {
+        "subject": "P + S*",
+        "relation": "reacts with",
+        "object": "S*"
+      },
+      {
+        "subject": "P + S⁰",
+        "relation": "reacts with",
+        "object": "S⁰"
+      },
+      {
+        "subject": "AS⁰",
+        "relation": "transforms into",
+        "object": "A*"
+      },
+      {
+        "subject": "AS*",
+        "relation": "transforms into",
+        "object": "A*"
+      },
+      {
+        "subject": "AS*",
+        "relation": "transforms into",
+        "object": "PS*"
+      },
+      {
+        "subject": "PS*",
+        "relation": "transforms into",
+        "object": "P*"
+      },
+      {
+        "subject": "PS⁰",
+        "relation": "transforms into",
+        "object": "P*"
+      },
+      {
+        "subject": "A*",
+        "relation": "transforms into",
+        "object": "P*"
+      },
+      {
+        "subject": "AS⁰",
+        "relation": "transforms into",
+        "object": "AS*"
+      },
+      {
+        "subject": "AS*",
+        "relation": "transforms into",
+        "object": "PS*"
+      },
+      {
+        "subject": "PS*",
+        "relation": "transforms into",
+        "object": "PS⁰"
+      },
+      {
+        "subject": "P*",
+        "relation": "transforms into",
+        "object": "P⁰"
+      }
+    ],
+    "source": "visual"
+  }
+]

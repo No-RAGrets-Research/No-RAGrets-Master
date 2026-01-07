@@ -1,0 +1,48 @@
+RUBRIC 4 – Data Completeness & Consistency
+
+Goal:
+Ensure that all data, figures, tables, and quantitative results are complete, internally consistent, and aligned with the described methods.
+
+---------------------------------------------------
+TIER 1 – Data Presence & Alignment (Critical Layer)
+---------------------------------------------------
+Check for:
+- All figures/tables are referenced in text.
+- Axes, units, and legends are labeled.
+- Numeric values in text match figures/tables.
+- Each method described has corresponding data.
+- Sample size (n) and error metrics shown.
+
+Cross-links:
+Depends on *Transparency* for units and *Rigor* for statistical context.
+
+---------------------------------------------------
+TIER 2 – Numerical & Logical Consistency (Supportive Layer)
+---------------------------------------------------
+Check for:
+- Consistency of values across text/tables/figures.
+- Mathematically consistent derived metrics (ratios, yields).
+- Replicate count uniformity across methods and results.
+- Figure panel labeling and referencing correct.
+
+Cross-links:
+Supports *Presentation* and *Rigor*.
+
+---------------------------------------------------
+TIER 3 – Data Accessibility & Metadata (Integrative Layer)
+---------------------------------------------------
+Check for:
+- Data availability statements and repositories.
+- File formats, metadata, and versioning.
+- Supplementary tables include raw or summarized data.
+- Composite figures clearly identified.
+
+Cross-links:
+Integrates with *Reproducibility Tier 3* and *Presentation Tier 3*.
+
+---------------------------------------------------
+Output Format
+✅ Good Practices
+⚠️ Missing / Weak Points
+💡 Improvement Suggestions
+---------------------------------------------------

@@ -1,0 +1,2141 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 60,
+    "relations": 63,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 63,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 21,
+        "relations": 20
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 23,
+        "relations": 29
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 21,
+        "relations": 14
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Burrows et al 1984_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T05:18:35.446006"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "protein profiles with copper medium",
+        "by electrophoresis",
+        "polypeptide of mol. wt 53000",
+        "three polypeptides",
+        "by purified methanol dehydrogenase",
+        "M. trichosporium OB3b",
+        "low copper medium",
+        "by SDS-PAGE",
+        "in continuous culture",
+        "particulate MMO at high biomass density",
+        "soluble MMO at low biomass density",
+        "MO activity with copper medium",
+        "polypeptide of mol. wt 23000",
+        "polypeptide of mol. wt 45000",
+        "methanol dehydrogenase",
+        "particulate MMO",
+        "methane mono-oxygenase",
+        "at intervals of 3-4 h",
+        "soluble MMO",
+        "by molecular weight markers",
+        "high copper medium"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "methane mono-oxygenase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "methanol dehydrogenase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "grows in",
+          "object": "low copper medium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "grows in",
+          "object": "high copper medium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is grown",
+          "object": "in continuous culture",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "has",
+          "object": "soluble MMO",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "has",
+          "object": "particulate MMO",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "shows",
+          "object": "three polypeptides",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "has",
+          "object": "polypeptide of mol. wt 53000",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "has",
+          "object": "polypeptide of mol. wt 45000",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "has",
+          "object": "polypeptide of mol. wt 23000",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "contains",
+          "object": "particulate MMO at high biomass density",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "contains",
+          "object": "soluble MMO at low biomass density",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "varies",
+          "object": "MO activity with copper medium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "varies",
+          "object": "protein profiles with copper medium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is analyzed",
+          "object": "by SDS-PAGE",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is analyzed",
+          "object": "by electrophoresis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is analyzed",
+          "object": "by molecular weight markers",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is analyzed",
+          "object": "by purified methanol dehydrogenase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is analyzed",
+          "object": "at intervals of 3-4 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. SDS-PAGE of cell-free extracts from M.   trichosporium OB3b during a switch from low to high copper medium. Cells were grown in continuous culture on low copper medium (1 p ~ - C u ' + ; dilution rate, 0.04 h-' ; biomass density, 1-6-14 g dry wt 1-I). The concentration of Cu2+  was raised to 5 PM by addition of CuSO, solution to the chemostat and the feed was switched to high copper medium ( 5 VMCu?+).  Samples were taken at intervals of  3-4  h for analysis of  the cell-free extracts by SDS-PAGE. Electrophoresis was carried out as described in Methods. The numbers above each track indicate the time (h) after the switch to high copper medium. Track A shows the molecular weight markers (mol. wt 66000,45000,36000,29000,24000,20 100 and 14200) and track B is purified methanol dehydrogenase from M. rrichosporium OB3b (subunit mol.  wt  60000).",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 309.356,
+              "r": 433.324,
+              "b": 228.002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              859
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 80.3,
+                "t": 309.356,
+                "r": 433.324,
+                "b": 228.002,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "Butane",
+        "Butanal",
+        "M. trichosporium OB3b",
+        "Butan-2-ol",
+        "Pentane",
+        "Styrene",
+        "Butan-1-ol",
+        "Propane",
+        "Ethylbenzene",
+        "Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions of M. trichosporium OB3b containing either soluble or particulate MMO",
+        "Benzene",
+        "Table 1",
+        "Propan-1-ol",
+        "Propanal",
+        "particulate MMO",
+        "Pentanal",
+        "Phenol",
+        "soluble MMO",
+        "Propan-2-ol",
+        "Ethanol",
+        "Pentan-2-ol",
+        "Ethane",
+        "Cyclohexane"
+      ],
+      "relations": [
+        {
+          "subject": "Table 1",
+          "predicate": "describes",
+          "object": "Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions of M. trichosporium OB3b containing either soluble or particulate MMO",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "contains",
+          "object": "soluble MMO",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "contains",
+          "object": "particulate MMO",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Ethane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Propane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Butane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Pentane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Benzene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Ethylbenzene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Styrene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "soluble MMO",
+          "predicate": "oxidizes",
+          "object": "Cyclohexane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Ethane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Propane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Butane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Pentane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Benzene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Ethylbenzene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Styrene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "particulate MMO",
+          "predicate": "oxidizes",
+          "object": "Cyclohexane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Ethane",
+          "predicate": "produces",
+          "object": "Ethanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Propane",
+          "predicate": "produces",
+          "object": "Propanal",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Propane",
+          "predicate": "produces",
+          "object": "Propan-1-ol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Propane",
+          "predicate": "produces",
+          "object": "Propan-2-ol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Butane",
+          "predicate": "produces",
+          "object": "Butanal",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Butane",
+          "predicate": "produces",
+          "object": "Butan-1-ol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Butane",
+          "predicate": "produces",
+          "object": "Butan-2-ol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Pentane",
+          "predicate": "produces",
+          "object": "Pentanal",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Pentane",
+          "predicate": "produces",
+          "object": "Pentan-2-ol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        },
+        {
+          "subject": "Benzene",
+          "predicate": "produces",
+          "object": "Phenol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Table  1. Oxidation of n-alkanes, and aromatic and alicyclic compounds by suspensions oj' M. trichosporium OB3b containing either soluble or particulate  MMO",
+            "bbox_coordinates": {
+              "l": 76.8,
+              "t": 651.017,
+              "r": 432.954,
+              "b": 631.214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 76.8,
+                "t": 651.017,
+                "r": 432.954,
+                "b": 631.214,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "ethyl benzene concentration",
+        "ethyl benzene",
+        "M. trichosporium OB3b",
+        "30 °C",
+        "sodium formate concentration",
+        "20 mM",
+        "sodium formate as source of reducing equivalents",
+        "4-hydroxethylbenzene",
+        "low copper medium",
+        "CuSO₄ solution",
+        "feed is switched to",
+        "1 µM to 10 µM",
+        "10 µl",
+        "1-phenylethanol",
+        "biomass density",
+        "1.6–1.8 g dry wt l⁻¹",
+        "dilution rate",
+        "250 ml conical flasks",
+        "Cu²⁺ concentration",
+        "0.04 h⁻¹",
+        "10 µM Cu²⁺"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "oxidizes",
+          "object": "ethyl benzene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is grown in",
+          "object": "low copper medium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is incubated in",
+          "object": "250 ml conical flasks",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is incubated at",
+          "object": "30 °C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "uses",
+          "object": "sodium formate as source of reducing equivalents",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "4-hydroxethylbenzene",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "1-phenylethanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "Cu²⁺ concentration",
+          "predicate": "is raised from",
+          "object": "1 µM to 10 µM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "Cu²⁺ concentration",
+          "predicate": "is added via",
+          "object": "CuSO₄ solution",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "feed is switched to",
+          "predicate": "high copper medium",
+          "object": "10 µM Cu²⁺",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "dilution rate",
+          "predicate": "is",
+          "object": "0.04 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "biomass density",
+          "predicate": "is",
+          "object": "1.6–1.8 g dry wt l⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "ethyl benzene concentration",
+          "predicate": "is",
+          "object": "10 µl",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        },
+        {
+          "subject": "sodium formate concentration",
+          "predicate": "is",
+          "object": "20 mM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2.  Oxidation of ethyl benzene by M.  trichosporium OB3b during a switch from low to high copper medium.  Cells were grown in continuous culture on low copper medium ( 1 p~-Cu*+; dilution  rate, 0.04 h-' ; biomass density, 1 6 - 1 4 g dry wt I - ' ) . The concentration of Cu2+ was raised to 10 p~ by addition of   CuSO,  solution to the chemostat  and the  feed was switched to high copper  medium (10 PMCu'+). Samples (10 ml) were taken at intervals for determination of whole cell ethyl benzene oxidation rates.  Organisms  were  incubated  with  shaking at 30 \"C in 250 ml conical  flasks in  the  presence of ethyl  benzene  (10 pl)  and  sodium  formate (20 mM)  as a  source of  reducing  equivalents.  Products, 4-hydroxethylbenzene (0) and 1 -phenylethanol (e), were analysed as described  in  Methods.",
+            "bbox_coordinates": {
+              "l": 80.3,
+              "t": 488.656,
+              "r": 427.382,
+              "b": 416.576,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2600,
+                3999
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              816
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 80.3,
+                "t": 488.656,
+                "r": 427.382,
+                "b": 416.576,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

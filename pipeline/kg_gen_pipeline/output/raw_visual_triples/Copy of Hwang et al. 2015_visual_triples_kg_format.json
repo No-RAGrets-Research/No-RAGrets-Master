@@ -1,0 +1,1363 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 30,
+    "relations": 38,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 38,
+    "sections": {
+      "Figure 3 Analysis": {
+        "chunks": 1,
+        "entities": 4,
+        "relations": 2
+      },
+      "Figure 4 Analysis": {
+        "chunks": 2,
+        "entities": 10,
+        "relations": 12
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 18,
+        "relations": 24
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Hwang et al. 2015_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T13:10:44.201718"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 3 Analysis",
+      "entities": [
+        "γ subunits",
+        "a gel electrophoresis image of protein bands labeled sMMO and pMMO).\n\nThe figure depicts bands of proteins (α",
+        "175",
+        "58, 46, 30, 23 kDa"
+      ],
+      "relations": [
+        {
+          "subject": "a gel electrophoresis image of protein bands labeled sMMO and pMMO).\n\nThe figure depicts bands of proteins (α",
+          "predicate": "β",
+          "object": "γ subunits",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Table 1. Effect of air-to-methane ratio on cell growth of M. trichosporium OB3b.",
+            "bbox_coordinates": {
+              "l": 46.8,
+              "t": 733.277,
+              "r": 350.328,
+              "b": 724.007,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1012
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "175",
+          "predicate": "80",
+          "object": "58, 46, 30, 23 kDa",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Table 1. Effect of air-to-methane ratio on cell growth of M. trichosporium OB3b.",
+            "bbox_coordinates": {
+              "l": 46.8,
+              "t": 733.277,
+              "r": 350.328,
+              "b": 724.007,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1012
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 46.8,
+                "t": 733.277,
+                "r": 350.328,
+                "b": 724.007,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "black bars",
+        "methanol production",
+        "Potassium phosphate (mM)",
+        "M. trichosporium OB3b",
+        "EDTA concentration",
+        "EDTA (mM)",
+        "Potassium phosphate concentration",
+        "gray bars"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "shows methane consumption as",
+          "object": "black bars",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "shows methanol production as",
+          "object": "gray bars",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "exhibits methane consumption in response to",
+          "object": "Potassium phosphate concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "exhibits methanol production in response to",
+          "object": "Potassium phosphate concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "exhibits methane consumption in response to",
+          "object": "EDTA concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "exhibits methanol production in response to",
+          "object": "EDTA concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "has conversion ratio related to",
+          "object": "methanol production",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "Potassium phosphate (mM)",
+          "predicate": "affects methane consumption of",
+          "object": "M. trichosporium OB3b",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "Potassium phosphate (mM)",
+          "predicate": "affects methanol production of",
+          "object": "M. trichosporium OB3b",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "EDTA (mM)",
+          "predicate": "affects methane consumption of",
+          "object": "M. trichosporium OB3b",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        },
+        {
+          "subject": "EDTA (mM)",
+          "predicate": "affects methanol production of",
+          "object": "M. trichosporium OB3b",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig.  2. Effect  of  sodium  formate  concentration  on  methane consumption  and  methanol  production  by  growing  and resulting cells of M. trichosporium OB3b (symbols: black bars, methane consumption; gray bars, methanol production).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 148.82299999999998,
+              "r": 286.055,
+              "b": 102.10699999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                1710
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              238
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 46.44,
+                "t": 148.82299999999998,
+                "r": 286.055,
+                "b": 102.10699999999997,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "black bars) and methanol production (gray bars) as a function of sodium formate concentration (mM)",
+        "no valid (subject, relation, object"
+      ],
+      "relations": [
+        {
+          "subject": "black bars) and methanol production (gray bars) as a function of sodium formate concentration (mM)",
+          "predicate": "with error bars indicating variability.\n\nTherefore",
+          "object": "no valid (subject, relation, object",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig.  3. Effects  of potassium phosphate ( A )  and  EDTA ( B )  as MDH  inhibitors  on  methane  consumption  and  methanol production by growing and resulting cells of M. trichosporium OB3b  (symbols: black bars,  methane  consumption;  gray bars,  methanol production; line graph, methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 307.08,
+              "t": 169.40300000000002,
+              "r": 546.676,
+              "b": 97.72699999999998,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1339,
+                901
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              316
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 307.08,
+                "t": 169.40300000000002,
+                "r": 546.676,
+                "b": 97.72699999999998,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "A",
+        "methanol production",
+        "formate",
+        "Control experiment in the absence of formate and MDH inhibitor",
+        "MDH inhibitor",
+        "potassium phosphate",
+        "methane",
+        "methanol",
+        "D",
+        "M. trichosporium OB3b",
+        "methane to methanol",
+        "Control experiment in the presence of 40 mM formate",
+        "methane production",
+        "Control experiment in the presence of 100 mM potassium phosphate",
+        "B",
+        "C",
+        "Control experiment in the presence of 0.5 mM EDTA",
+        "EDTA"
+      ],
+      "relations": [
+        {
+          "subject": "Control experiment in the absence of formate and MDH inhibitor",
+          "predicate": "methanol production",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the absence of formate and MDH inhibitor",
+          "predicate": "methane production",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the absence of formate and MDH inhibitor",
+          "predicate": "methane-to-methanol conversion ratio",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 40 mM formate",
+          "predicate": "methanol production",
+          "object": "B",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 40 mM formate",
+          "predicate": "methane production",
+          "object": "B",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 40 mM formate",
+          "predicate": "methane-to-methanol conversion ratio",
+          "object": "B",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 100 mM potassium phosphate",
+          "predicate": "methanol production",
+          "object": "C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 100 mM potassium phosphate",
+          "predicate": "methane production",
+          "object": "C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 100 mM potassium phosphate",
+          "predicate": "methane-to-methanol conversion ratio",
+          "object": "C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 0.5 mM EDTA",
+          "predicate": "methanol production",
+          "object": "D",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 0.5 mM EDTA",
+          "predicate": "methane production",
+          "object": "D",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "Control experiment in the presence of 0.5 mM EDTA",
+          "predicate": "methane-to-methanol conversion ratio",
+          "object": "D",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "produces",
+          "object": "methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "converts",
+          "object": "methane to methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "inhibited by",
+          "object": "MDH inhibitor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "stimulated by",
+          "object": "formate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "affected by",
+          "object": "potassium phosphate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "affected by",
+          "object": "EDTA",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "formate",
+          "predicate": "stimulates",
+          "object": "methanol production",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "formate",
+          "predicate": "inhibits",
+          "object": "methane production",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "potassium phosphate",
+          "predicate": "affects",
+          "object": "methanol production",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "potassium phosphate",
+          "predicate": "affects",
+          "object": "methane production",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        },
+        {
+          "subject": "EDTA",
+          "predicate": "affects",
+          "object": "methanol production",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 4. Batch time course of methanol production at the optimized reaction condition by M. trichosporium OB3b. Control experiment in the absence of formate and MDH inhibitor ( A ), and in the presence of 40 mM formate ( B ), 100 mM potassium phosphate ( C ), and 0.5 mM EDTA ( D ). The experiments of ( C ) and ( D ) were conducted in the presence of 40 mM formate (Symbols: ● , remaining methane; ○ , produced methanol; ■ , methane-to-methanol conversion).",
+            "bbox_coordinates": {
+              "l": 46.44,
+              "t": 435.017,
+              "r": 547.02,
+              "b": 390.306,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2756,
+                1620
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              457
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 46.44,
+                "t": 435.017,
+                "r": 547.02,
+                "b": 390.306,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

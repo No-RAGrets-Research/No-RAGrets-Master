@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Markowska & Michalkiewicz 2009.pdf",
+    "start_time": "2025-11-13 19:24:46.925278",
+    "end_time": "2025-11-13 20:09:20.512837",
+    "total_duration": 2673.587559,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 325,
+    "relations": 218,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Markowska & Michalkiewicz 2009_kg_results_20251113_192446.json"
+  },
+  "visual_extraction": {
+    "attempted": true,
+    "success": true,
+    "entities": 10,
+    "relations": 15,
+    "output_file": "kg_gen_pipeline/output/visual_triples/Copy of Markowska & Michalkiewicz 2009_visual_kg_format_20251113_192446.json"
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Markowska & Michalkiewicz 2009_kg_results_20251113_192446.json",
+    "visual_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/visual_triples/Copy of Markowska & Michalkiewicz 2009_visual_kg_format_20251113_192446.json"
+  },
+  "errors": []
+}

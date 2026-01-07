@@ -1,0 +1,132 @@
+[
+  {
+    "page": 5,
+    "caption": "Figure 1. (a) Methane metabolism in methanotrophs (sMMO, soluble methane monooxygenase;\npMMO, particulate methane monooxygenase; NADH, nicotinamide adenine dinucleotide; and PQQ,\npyrroloquinoline quinone), and (b) stoichiometry reaction for the conversion of methane to methanol\nby methanotrophs (0.5 mol of O2 is required to produce 1 mol of methanol).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 1. (a) Methane metabolism in methanotrophs (sMMO, soluble methane monooxygenase;\npMMO, particulate methane monooxygenase; NADH, nicotinamide adenine dinucleotide; and PQQ,\npyrroloquinoline quinone), and (b) stoichiometry reaction for the conversion of methane to methanol\nby methanotrophs (0.5 mol of O2 is required to produce 1 mol of methanol).\n\nOutput JSON list only:\nassistant\n[\n  (\"Methane\", \"is converted to\", \"Methanol\"),\n  (\"Methane\", \"is converted to\", \"Formaldehyde\"),\n  (\"Methanol\", \"is converted to\", \"Formaldehyde\"),\n  (\"Formaldehyde\", \"is converted to\", \"Formate\"),\n  (\"Formate\", \"is converted to\", \"Carbon dioxide\"),\n  (\"Methane\", \"is converted to\", \"Formate\"),\n  (\"Methane\", \"is converted to\", \"Carbon dioxide\"),\n  (\"Methane\", \"is metabolized by\", \"Methanotrophs\"),\n  (\"Oxygen\", \"is consumed by\", \"Methanotrophs\"),\n  (\"Methanotrophs\", \"produce\", \"Methanol\"),\n  (\"Methane (1 mol)\", \"reacts with\", \"Oxygen (1/2 mol)\"),\n  (\"Methane (1 mol)\", \"produces\", \"Methanol (1 mol)\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Figure 2. Schematic of methanotrophs grown in nitrate mineral salt (NMS) medium containing\nnanoparticles (NPs) using a simulated biogas [(methane (CH4) and carbon dioxide (CO2)) as feed to\nproduce methanol by free and encapsulated cells within an NP-containing polymer matrix.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2. Schematic of methanotrophs grown in nitrate mineral salt (NMS) medium containing\nnanoparticles (NPs) using a simulated biogas [(methane (CH4) and carbon dioxide (CO2)) as feed to\nproduce methanol by free and encapsulated cells within an NP-containing polymer matrix.\n\nOutput JSON list only:\nassistant\n[\n  (\"methanotrophs\", \"grown in\", \"nitrate mineral salt (NMS) medium\"),\n  (\"methanotrophs\", \"use\", \"simulated biogas\"),\n  (\"simulated biogas\", \"contains\", \"methane (CH4)\"),\n  (\"simulated biogas\", \"contains\", \"carbon dioxide (CO2)\"),\n  (\"methanotrophs\", \"produce\", \"methanol\"),\n  (\"methanotrophs\", \"are grown as\", \"free cells\"),\n  (\"methanotrophs\", \"are grown as\", \"encapsulated cells\"),\n  (\"encapsulated cells\", \"are within\", \"NP-containing polymer matrix\"),\n  (\"nanoparticles (NPs)\", \"are present in\", \"NP-containing polymer matrix\"),\n  (\"methanotrophs\", \"are cultured in\", \"conical flask\"),\n  (\"methanotrophs\", \"are stored in\", \"test tube\"),\n  (\"methanotrophs\", \"are mixed with\", \"nanoparticles (NPs)\"),\n  (\"methanotrophs\", \"are mixed with\", \"simulated biogas\"),\n  (\"methanotrophs\", \"are mixed with\", \"nanoparticles (NPs) in polymer matrix\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 3. Photographs of encapsulated M. bryophila within an NP-containing polymer matrix: pure\npolymeric matrix (a), Cu–polymeric matrix (b), Fe3O4–polymeric matrix (c), and CuFe2O4–polymeric\nmatrix (d).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 3. Photographs of encapsulated M. bryophila within an NP-containing polymer matrix: pure\npolymeric matrix (a), Cu–polymeric matrix (b), Fe3O4–polymeric matrix (c), and CuFe2O4–polymeric\nmatrix (d).\n\nOutput JSON list only:\nassistant\n[\n  (\"a\", \"contains\", \"pure polymeric matrix\"),\n  (\"b\", \"contains\", \"Cu–polymeric matrix\"),\n  (\"c\", \"contains\", \"Fe3O4–polymeric matrix\"),\n  (\"d\", \"contains\", \"CuFe2O4–polymeric matrix\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 3. Photographs of encapsulated M. bryophila within an NP-containing polymer matrix: pure\npolymeric matrix (a), Cu–polymeric matrix (b), Fe3O4–polymeric matrix (c), and CuFe2O4–polymeric\nmatrix (d).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 3. Photographs of encapsulated M. bryophila within an NP-containing polymer matrix: pure\npolymeric matrix (a), Cu–polymeric matrix (b), Fe3O4–polymeric matrix (c), and CuFe2O4–polymeric\nmatrix (d).\n\nOutput JSON list only:\nassistant\n[\n  (\"Figure 3a\", \"shows\", \"pure polymeric matrix\"),\n  (\"Figure 3b\", \"shows\", \"Cu–polymeric matrix with cell encapsulated within polymeric matrix\"),\n  (\"Figure 3c\", \"shows\", \"Fe3O4–polymeric matrix with cell's\"),\n  (\"Figure 3d\", \"shows\", \"X-ray diffraction pattern with peaks at 20.2, 30.2, 35.8, 43.2, 53.6, and 62.6 degrees\"),\n  (\"Figure 3d\", \"corresponds to\", \"CuFe2O4–polymeric matrix\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Figure 5. Effects of pH (a,b) and temperature (c,d) on methanol accumulation by methanotrophs\nencapsulated within an NP-based polymer matrix: M. bryophila (a,c) and M. stellata (b,d).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 5. Effects of pH (a,b) and temperature (c,d) on methanol accumulation by methanotrophs\nencapsulated within an NP-based polymer matrix: M. bryophila (a,c) and M. stellata (b,d).\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"M. bryophila\",\n    \"relation\": \"shows methanol accumulation under pH variation\",\n    \"object\": \"Figure 5a\"\n  },\n  {\n    \"subject\": \"M. bryophila\",\n    \"relation\": \"shows methanol accumulation under temperature variation\",\n    \"object\": \"Figure 5c\"\n  },\n  {\n    \"subject\": \"M. stellata\",\n    \"relation\": \"shows methanol accumulation under pH variation\",\n    \"object\": \"Figure 5b\"\n  },\n  {\n    \"subject\": \"M. stellata\",\n    \"relation\": \"shows methanol accumulation under temperature variation\",\n    \"object\": \"Figure 5d\"\n  },\n  {\n    \"subject\": \"Free cells\",\n    \"relation\": \"produces methanol at pH 6.0\",\n    \"object\": \"4 mmol/L\"\n  },\n  {\n    \"subject\": \"Free cells\",\n    \"relation\": \"produces methanol at pH 6.8\",\n    \"object\": \"6 mmol/L\"\n  },\n  {\n    \"subject\": \"Free cells\",\n    \"relation\": \"produces methanol at pH 8.0\",\n    \"object\": \"6 mmol/L\"\n  },\n  {\n    \"subject\": \"Pure silica\",\n    \"relation\": \"produces methanol at pH 6.0\",\n    \"object\": \"4 mmol/L\"\n  },\n  {\n    \"subject\": \"Pure silica\",\n    \"relation\": \"produces methanol at pH 6.8\",\n    \"object\": \"8 mmol/L\"\n  },\n  {\n    \"subject\": \"Pure silica\",\n    \"relation\": \"produces methanol at pH 8.0\",\n    \"object\": \"8 mmol/L\"\n  },\n  {\n    \"subject\": \"Cu\",\n    \"relation\": \"produces methanol at pH 6.0\",\n    \"object\": \"8 mmol/L\"\n  },\n  {\n    \"subject\": \"Cu\",\n    \"relation\": \"produces methanol at pH 6.8\",\n    \"object\": \"12 mmol/L\"\n  },\n  {\n    \"subject\": \"Cu\",\n    \"relation\": \"produces methanol at pH 8.0\",\n    \"object\": \"12 mmol/L\"\n  },\n  {\n    \"subject\": \"Fe3O4\",\n    \"relation\":"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Figure 6. Methanol accumulation proﬁle of free and encapsulated M. bryophila within a CuFe2O4–\npolymeric matrix (a), MDH activity (b), reusability (c), and MMO activity (d). The maximum\nbiocatalytic activity was considered to be 100% for free or encapsulated cells.",
+    "triples": [
+      {
+        "subject": "Free cells",
+        "relation": "methanol accumulation",
+        "object": "increases over time"
+      },
+      {
+        "subject": "Pure silica",
+        "relation": "methanol accumulation",
+        "object": "increases over time"
+      },
+      {
+        "subject": "CuFe2O4",
+        "relation": "methanol accumulation",
+        "object": "increases over time"
+      },
+      {
+        "subject": "Free cells",
+        "relation": "MDH activity",
+        "object": "decreases over time"
+      },
+      {
+        "subject": "Pure silica",
+        "relation": "MDH activity",
+        "object": "decreases over time"
+      },
+      {
+        "subject": "CuFe2O4",
+        "relation": "MDH activity",
+        "object": "decreases over time"
+      },
+      {
+        "subject": "Free cells",
+        "relation": "reusability",
+        "object": "maintains activity across cycles"
+      },
+      {
+        "subject": "Pure silica",
+        "relation": "reusability",
+        "object": "maintains activity across cycles"
+      },
+      {
+        "subject": "CuFe2O4",
+        "relation": "reusability",
+        "object": "maintains activity across cycles"
+      },
+      {
+        "subject": "Free cells",
+        "relation": "MMO activity",
+        "object": "decreases over cycles"
+      },
+      {
+        "subject": "Pure silica",
+        "relation": "MMO activity",
+        "object": "decreases over cycles"
+      },
+      {
+        "subject": "CuFe2O4",
+        "relation": "MMO activity",
+        "object": "decreases over cycles"
+      },
+      {
+        "subject": "Free cells",
+        "relation": "maximum biocatalytic activity",
+        "object": "100%"
+      },
+      {
+        "subject": "Encapsulated cells",
+        "relation": "maximum biocatalytic activity",
+        "object": "100%"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "Figure 7. The inﬂuence of various CH4 vectors on methanol accumulation by M. bryophila within a\nCuFe2O4–polymeric matrix (a) and its reusability in the presence of parafﬁn oil (b).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 7. The inﬂuence of various CH4 vectors on methanol accumulation by M. bryophila within a\nCuFe2O4–polymeric matrix (a) and its reusability in the presence of parafﬁn oil (b).\n\nOutput JSON list only:\nassistant\n[\n  (\"Fee cells\", \"methanol accumulation in presence of Control\", \"8 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation in presence of Brij 35\", \"9 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation in presence of Paraffin oil\", \"9 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation in presence of Silicon oil\", \"9 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation in presence of Control\", \"13 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation in presence of Brij 35\", \"14 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation in presence of Paraffin oil\", \"17 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation in presence of Silicon oil\", \"16 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 1\", \"8 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 2\", \"8 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 3\", \"7 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 4\", \"6 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 5\", \"4 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 6\", \"2 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 7\", \"1 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 8\", \"1 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 9\", \"0 mmol/L\"),\n  (\"Fee cells\", \"methanol accumulation after cycle 10\", \"0 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation after cycle 1\", \"16 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation after cycle 2\", \"16 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation after cycle 3\", \"16 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation after cycle 4\", \"15 mmol/L\"),\n  (\"CuFe2O4\", \"methanol accumulation after cycle 5\", \"15 mmol"
+      }
+    ]
+  }
+]

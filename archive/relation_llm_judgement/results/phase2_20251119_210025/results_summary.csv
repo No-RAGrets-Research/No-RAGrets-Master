@@ -1,0 +1,1007 @@
+relation_id,subject,predicate,object,hub_entity,hub_connectivity,confidence,section,source_paper,source_text,llama3.2_3b_text_accuracy,llama3.2_3b_text_faithfulness,llama3.2_3b_text_boundary_quality,llama3.2_3b_text_justification,llama3.2_3b_text_inference_time,llama3.2_3b_text_error,mistral_7b_text_accuracy,mistral_7b_text_faithfulness,mistral_7b_text_boundary_quality,mistral_7b_text_justification,mistral_7b_text_inference_time,mistral_7b_text_error,llama3.1_8b_text_accuracy,llama3.1_8b_text_faithfulness,llama3.1_8b_text_boundary_quality,llama3.1_8b_text_justification,llama3.1_8b_text_inference_time,llama3.1_8b_text_error
+0x625,Mignan,is author of,"Mignan, A., Spada, M., Burgherr, P., Wang, Z., Sornette, D., 2022",,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"Mignan, A., Spada, M., Burgherr, P., Wang, Z., Sornette, D., 2022.",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Mignan is the author of the given publication. The entity boundaries are also correctly identified, with the subject being characters 0-6 and the object being characters 0-65, which matches the source sentence's structure.",5.4032769203186035,,True,,,"The relation ""is author of"" is accurately represented in the sentence, as the authors are explicitly listed. The extraction correctly identifies the subject and object entities, with no errors in boundary identification.",7.026216983795166,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that Mignan is an author of the listed publication. The entity boundaries are also correctly identified, with ""Mignan"" clearly marked as both subject and object.",8.39260482788086,
+0x3f1,Gvakharia,is author of,"Hakobyan, A., Liesack, W., 2020",,,,References,Copy of A. Priyadarsini et al. 202320251115.pdf,"Gvakharia, A., Kort, E.A., Brandt, A., Peischl, J., Ryerson, T.B., Schwarz, J.P., Smith, M. L., Sweeney, C., 2017. Hakobyan, A., Liesack, W., 2020.",True,4.0,3.0,"The relation is accurately represented in the sentence, as both entities (Gvakharia and Hakobyan, A., Liesack, W., 2020) are correctly linked to each other. However, the boundary quality could be improved by more precise identification of the subject and object positions, as the provided boundaries slightly overlap.",3.9821038246154785,,True,5.0,5.0,"The relation ""is author of"" is directly stated in the source sentence, as the authors from the 2017 paper are listing another work by Hakobyan and Liesack (from 2020) at the end. The subject and object boundaries are correctly identified, as they correspond to the authors mentioned in their respective positions.",5.829094886779785,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Gvakharia"" explicitly mentioned as the author and ""Hakobyan, A., Liesack, W., 2020"" as the publication. The entity boundaries are also correctly identified, with ""Gvakharia"" starting at character 0 and ""Hakobyan..."" starting at character 343.",6.824485778808594,
+0x382,Conrado,is author of,2014,,,,References,Copy of A. Priyadarsini et al. 202320251115.pdf,"Conrado, R.J., Gonzalez, R., 2014. https://doi.org/10.1126/SCIENCE.1246929/SUPPL_ FILE/CONRADO.SM.PDF. Fei, Q., Guarnieri, M.T., Tao, L., Laurens, L.M.L., Dowe, N., Pienkos, P.T., 2014. Adv. 32, 596 -614. https://doi.org/10.1016/j.biotechadv.2014.03.011. Ge, X., Yang, L., Sheets, J.P., Yu, Z., Li, Y., 2014a. org/10.1016/J.BIOTECHADV.2014.09.004.
+
+GGFR, 2022.",True,5.0,4.0,"The relation ""is author of"" is directly stated in the source sentence, with Conrado being mentioned before the year 2014. The entity boundaries are mostly correct, but there might be some minor issues with punctuation or formatting that could affect accuracy.",4.238847017288208,,True,5.0,5.0,"The relation ""Conrado is author of 2014"" is directly stated in the sentence as Conrado is listed as an author for a paper published in 2014. The year 2014 can be found in the DOI link provided, which indicates the publication date. The entity boundaries are correctly identified as ""Conrado"" is the subject and ""2014"" is the object of the relation.",6.656050205230713,,True,4.0,5.0,"The relation is accurately represented in the sentence, with Conrado being correctly identified as the subject and 2014 as the object. The entity boundaries are also perfectly identified, with no overlap or missing characters.",4.9005608558654785,
+0xe48,Wagner,is author of,Biotechnol. Techniques,,,,Bibliography,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Wagner,L.W., Matheson,N.H., Heisey,R.F., and Schneider,K. 1997.",True,5.0,5.0,"The relation ""is author of"" is directly stated in the source sentence, with Wagner explicitly mentioned as the subject. The entity boundaries (subject and object) are correctly identified, with Wagner being the subject and Biotechnol. Techniques being the object.",2.415224075317383,,False,,,"The relation ""is author of"" cannot be directly found in the sentence, but it can be inferred from the context that Wagner is an author of a paper. The subject and object boundaries are correctly identified as Wagner is the subject and Biotechnol. Techniques could potentially be the object (title of the paper). However, without explicit confirmation, this relation cannot be considered accurate.",7.284796953201294,,True,4.0,5.0,"The relation is accurately represented in the sentence, as Wagner is indeed an author of ""Biotechnol. Techniques"". The entity boundaries are correctly identified, with Wagner being the subject and ""Biotechnol. Techniques"" being the object.",4.55889892578125,
+0x451,Patel,is author of,"Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c",,,,References,Copy of A. Priyadarsini et al. 202320251115.pdf,"Patel, S.K.S., Jeong, J.H., Mehariya, S., Otari, S.V., Madan, B., Haw, J.R., Lee, J.K., Zhang, L., Kim, I.W., 2016a. Patel, S.K.S., Mardina, P., Kim, D., Kim, S.Y., Kalia, V.C., Kim, I.W., Lee, J.K., 2016b. Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c. Patel, S.K.S., Singh, R.K., Kumar, A., Jeong, J.H., Jeong, S.H., Kalia, V.C., Kim, I.W., Lee, J.K., 2017. Patel, S.K.S., Kondaveeti, S., Otari, S.V., Pagolu, R.T., Jeong, S.H., Kim, S.C., Cho, B.K., Kang, Y.C., Lee, J.K., 2018a. Patel, S.K.S., Kumar, V., Mardina, P., Li, J., Lestari, R., Kalia, V.C., Lee, J.K., 2018b. Patel, S.K.S., Jeon, M.S., Gupta, R.K., Jeon, Y., Kalia, V.C., Kim, S.C., Cho, B.K., Kim, D. R., Lee, J.K., 2019. Patel, S.K.S., Gupta, R.K., Kondaveeti, S., Otari, S.V., Kumar, A., Kalia, V.C., Lee, J.K., 2020a. Patel, S.K.S., Gupta, R.K., Kumar, V., Kondaveeti, S., Kumar, A., Das, D., Kalia, V.C., Lee, J.K., 2020b. https://doi.org/10.1007/ s12088-020-00883-6.
+
+Patel, S.K.S., Kalia, V.C., Joo, J.B., Kang, Y.C., Lee, J.K., 2020c. Patel, S.K.S., Shanmugam, R., Kalia, V.C., Lee, J.K., 2020d.",True,5.0,5.0,"The relation ""is author of"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified. The extracted relation accurately represents the relationship between Patel and his publications.",3.365633010864258,,True,5.0,5.0,"The relation ""Patel is author of"" is directly stated in the sentence as the authors are listed for multiple publications, and the extracted object matches the authors listed for the publication year 2016c. The entity boundaries are correctly identified as the subject and object positions match the characters of the author's name and the authors' list respectively.",7.42788290977478,,True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Patel is the author of the paper ""Patel, S.K.S., Mardina, P., Kim, S.Y., Lee, J.K., Kim, I.W., 2016c"". The entity boundaries are also correctly identified, with ""Patel"" being the subject and the long list of authors being the object.",7.762542009353638,
+0xd4e,SMMO activity,is,400 -,,,,5.2.3 Effect of methane on sMMO activity of methanol grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"In  copper  free  media,  at  high  cell  densities,  there  is  an  increased competition for the carbon source, methane which stimulates the cells to produce more sMMO for survival.
+
+SMMO activity
+
+(umol naphthol/cell dry wt. - h)
+
+700
+
+600
+
+500
+
+400 -
+
+300
+
+200
+
+100
+
+0
+
+Bioreactor
+
+Subculture",True,4.0,3.0,"The relation ""SMMO activity"" is accurately represented in the sentence, as it mentions that there is an increased competition for the carbon source (methane) which stimulates cells to produce more sMMO. However, the faithfulness rating is not a perfect 5 because while the relation is stated, the context and surrounding information provide additional details about the relation, making it partially supported by other sentences in the text. The entity boundaries are mostly correct, with the subject being ""SMMO activity"" but the object could be more precisely defined as ""methane"".",4.168504238128662,,True,,,"The extracted relation ""SMMO activity is"" directly corresponds to the subject ""SMMO activity"" in the sentence, and it is explicitly stated that there is an increased competition for methane which stimulates the cells to produce more sMMO for survival. Therefore, the relation is accurately represented in the sentence. Additionally, the entity boundaries are correctly identified as the subject ""SMMO activity"" and the object is not present in this specific sentence, but it can be inferred that the absence of a value for ""400 -"" implies no SMMO activity at that point.",7.566003084182739,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""SMMO activity"" being the subject and ""400 -"" being the object. The entity boundaries are correctly identified as the subject starts at character 185 (""SMMO activity"") and ends at character 198, and the object is directly stated after the predicate ""is"".",5.661952018737793,
+0xd42,SMMO activity,is,700,,,,5.2.3 Effect of methane on sMMO activity of methanol grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"In  copper  free  media,  at  high  cell  densities,  there  is  an  increased competition for the carbon source, methane which stimulates the cells to produce more sMMO for survival.
+
+SMMO activity
+
+(umol naphthol/cell dry wt. - h)
+
+700
+
+600
+
+500
+
+400 -
+
+300
+
+200
+
+100
+
+0
+
+Bioreactor
+
+Subculture",True,5.0,5.0,"The relation ""SMMO activity is"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as ""SMMO activity"" and ""700"", respectively.",2.3966410160064697,,True,,,"The extracted relation ""SMMO activity is 700"" is directly mentioned in the source sentence, with the subject and object clearly identified. The values for SMMO activity are presented as a list, where ""SMMO activity (umol naphthol/cell dry wt. - h) 700"" is one of the data points.",5.760327100753784,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""SMMO activity"" being the subject and ""700"" being the object. The entity boundaries are correctly identified as the subject starts at character 185 and ends at 198, and the object starts at character 234 and ends at 237.",5.191115856170654,
+0x931,vapor silicone,is,"membrane (0.05"" thick)",,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,13.204698085784912,,False,,,"The relation ""vapor silicone is membrane"" is not directly stated in the sentence. Instead, it can be inferred that the vapor could potentially pass through a silicone membrane, but there's no explicit statement confirming this relationship. The entity boundaries are correctly identified, as the subject and object are accurately defined within the given context of the sentence.",7.238571882247925,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""vapor silicone"" explicitly mentioned as a component. The subject and object boundaries are also correctly identified, with ""vapor silicone"" being the subject and ""membrane (0.05"" thick)"" being the object of the predicate ""is"".",6.063752174377441,
+0x885,component B,is,15.8kDa,,,,2.4.1 Enzyme structure,Copy of Adegbola thesis High Density Cultures20251113.pdf,"The MMO enzyme consists of three components, component A which is a hydroxylase (MMOH, 245 kDa) containing non-haem iron, component B (15.8kDa) and component C
+
+Small
+
+Ligand
+
+Site
+
+0 Gl414
+
+His, 47
+
+Fe
+
+07
+
+Fe
+
+Glu 243
+
+•
+
+which is a reductase (38.4 kDa) containing FAD and an Fe2S2 cluster (Fox et al., 1989). Although  component  B  is  not  required  in  the  oxygenase reaction,  the  specific  activity  of  the  sMMO  enzyme  is  increased  by  150  fold  when component B is present (Fox et al., 1989).",True,5.0,5.0,"The relation ""is"" is accurately represented in the sentence, and the object ""15.8kDa"" is directly stated as part of component B. The entity boundaries are also correctly identified, with ""component B"" being the subject and ""15.8kDa"" being the object.",3.0028018951416016,,True,5.0,5.0,"The relation ""component B is 15.8kDa"" is directly stated in the sentence, as it clearly mentions the component's identity and its weight. The entity boundaries are correctly identified, as they correspond to the actual positions of the subject and object in the source sentence.",5.3264000415802,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""component B"" being the subject and ""15.8kDa"" being the object of the predicate ""is"". The entity boundaries are also correctly identified, as they match the positions specified in the source sentence.",5.444962739944458,
+0x1034,The membrane,is,0.05' thick silicone which is permeable only to gases,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"One length of PTFE tubing transports air into  the  membrane  chamber  while  another  conveys  the  air/methanol  mixture  from  the membrane  chamber  to  the  sensor. During operation, the membrane end of the probe is immersed in the liquid medium and methanol diffuses through the membrane to the sensor.",True,4.0,3.0,"The extracted relation accurately represents the source sentence, as it correctly states that the membrane is permeable to gases. However, the faithfulness rating is not a perfect 5 because the sentence also mentions methanol diffusing through the membrane, which is not explicitly stated in the extracted relation.",4.131149053573608,,True,,,"The subject ""The membrane"" is directly mentioned in the sentence, and the relation ""is"" can be inferred as the membrane's properties are being described. However, the specific thickness and material of the membrane are not explicitly stated but can be inferred from the context. The object ""0.05' thick silicone which is permeable only to gases"" is a reasonable interpretation given the context of the sentence.",7.720672845840454,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it describes a property of the membrane. The entity boundaries are correctly identified, with ""the membrane"" clearly being the subject and ""0.05' thick silicone which is permeable only to gases"" being the object.",5.038399934768677,
+0xc61,The initial methanol concentration in the bioreactor,was,2g/L,,,,4.2.3 High cell density fed-batch cultivation (Fermentation 2),Copy of Adegbola thesis High Density Cultures20251113.pdf,"The  initial  methanol  concentration  in  the  bioreactor  was  2g/L.  Since higher growth rates were achieved at low methanol concentrations (Figure 4-3), feeding began  once  the  initial  methanol  concentration  decreased  to  0.4  g/L.  Sigma  SE-15  was used as the antifoam agent.",True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that ""the initial methanol concentration in the bioreactor was 2g/L"" which directly corresponds to the extracted relation. The source sentence explicitly mentions the initial concentration and its value, indicating a direct statement of the relation.",2.73809814453125,,True,,,"The extracted relation accurately reflects the sentence, as it directly states the initial methanol concentration in the bioreactor. The subject, object, and predicate are all clearly defined and correctly identified in the source sentence.",4.722256898880005,,True,5.0,5.0,"The relation is directly stated in the sentence, with no ambiguity or need for inference. The entity boundaries (subject and object) are also correctly identified as ""The initial methanol concentration in the bioreactor"" and ""2g/L"", respectively.",5.028162002563477,
+0xc1e,Initial specific growth rate,was,0.016 -,,,,4.2.1.2 Effect of ammonium on methanol-grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Initial specific growth rate (1/h)
+
+0.028
+
+0.05
+
+0.026
+
+0.04 -
+
+0.024
+
+0.03
+
+0.022
+
+0.020 -
+
+0.02 -
+
+0.018
+
+0.01
+
+0.016 -
+
+0.00
+
+0.00
+
+0.1
+
+0.014
+
+0.05
+
+Fioure 4_4.",True,4.0,3.0,"The relation is accurately represented in the sentence, as it states that the initial specific growth rate ""was"" a certain value. However, the faithfulness rating is not a perfect 5 because the relation could be more directly stated if the values were explicitly compared to the extracted relation (e.g., ""was equal to 0.016-""). The boundary quality rating of 3 indicates that the subject and object boundaries are generally correct, but there might be some minor issues with the exact positioning or formatting of the entity names.",4.043971061706543,,True,,,"The extracted relation ""Initial specific growth rate was 0.016 -"" is accurately represented in the sentence as it directly states the initial specific growth rate values, and the subject and object boundaries are correctly identified. The subject ""Initial specific growth rate"" is the topic of the sentence, and the object ""0.016 -"" is one of the provided values for the initial specific growth rate.",7.384682893753052,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Initial specific growth rate"" as the subject and ""0.016 -"" as the object. The entity boundaries are correctly identified, with no overlap or missing entities.",4.557774066925049,
+0x205,Carrier gas flow rate,was,2 mL/min,,,,2.5.1. Gas chromatography,Copy of A. Priyadarsini et al. 202320251115.pdf,Nitrogen gas was used as carrier at 2 mL/min flow rate and split ratio 20:1.,True,4.0,3.0,"The relation is accurately represented in the sentence, as ""Nitrogen gas was used as carrier"" implies a specific flow rate. However, the faithfulness rating is not perfect because the source sentence also mentions a split ratio, which is not mentioned in the extracted relation. The entity boundaries are mostly correct, but the object position could be more precise (characters 35-45 would be more accurate).",3.133431911468506,,True,5.0,5.0,"The relation ""Carrier gas flow rate was 2 mL/min"" is directly stated in the source sentence. The subject, object, and predicate are correctly identified and the values align with the sentence.",3.946349859237671,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""2 mL/min"" explicitly mentioned as the flow rate of the carrier gas. The entity boundaries are also correctly identified, with ""Carrier gas flow rate"" being the subject and ""2 mL/min"" being the object.",4.525323867797852,
+0xc1f,Initial specific growth rate,was,0.05,,,,4.2.1.2 Effect of ammonium on methanol-grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Initial specific growth rate (1/h)
+
+0.028
+
+0.05
+
+0.026
+
+0.04 -
+
+0.024
+
+0.03
+
+0.022
+
+0.020 -
+
+0.02 -
+
+0.018
+
+0.01
+
+0.016 -
+
+0.00
+
+0.00
+
+0.1
+
+0.014
+
+0.05
+
+Fioure 4_4.",True,4.0,3.0,"The relation is accurately represented in the sentence, as it states that ""Initial specific growth rate"" was equal to 0.05. However, the faithfulness rating is not a perfect score because the sentence does not explicitly state that the value of 0.05 is the initial specific growth rate; instead, it appears as one of multiple values listed. The boundary quality rating is partially correct because the subject and object boundaries are identified, but they could be more precisely defined.",3.6868460178375244,,True,,,"The extracted relation ""Initial specific growth rate was 0.05"" is directly stated in the source sentence, where the subject and object are clearly identified and separated by a space. The values listed in the sentence represent different initial specific growth rates, with ""0.05"" being one of them, which aligns with the extracted relation.",5.712242126464844,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Initial specific growth rate"" clearly being the subject and ""0.05"" explicitly mentioned as an object of the verb ""was"". The entity boundaries are also correctly identified, with no overlap or underlap between the subject and object positions.",5.243575096130371,
+0x589,Hold time of oven at 100 ◦ C,was,5 min,,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"The initial oven temperature was 40 ◦ C with a hold time of 3 min, which increased to 100 ◦ C with a hold time of 5 min at 5 ◦ C/min ramp rate, and finally the temperature increased to 200 ◦ C with a hold time of 3 min at 5 ◦ C/min ramp rate.",True,4.0,3.0,,4.3109540939331055,,True,5.0,5.0,"The relation ""Subject: Hold time of oven at 100 ◦ C, Predicate: was, Object: 5 min"" is accurately represented in the sentence. It directly states that the hold time for the oven at 100 ◦ C is 5 min. The entity boundaries are also correctly identified as the subject (oven) and object (5 min) are clearly defined in the sentence.",5.774955987930298,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""hold time of 5 min"" being a clear and explicit statement. The entity boundaries are also correctly identified, as ""Hold time of oven at 100 ◦ C"" is the subject, ""was"" is the predicate, and ""5 min"" is the object.",5.5821638107299805,
+0x923,Na2H2PO4.7 H2O,was present in,the culture medium,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,14.730446100234985,,False,,,"The extracted relation ""was present in"" is partially supported by the sentence, as it implies that the compound Na2H2PO4.7 H2O is part of the culture medium, which is true. However, the sentence does not explicitly state that the compound was added to or present in the culture medium; rather, it mentions the composition of the modified culture medium.",9.583924055099487,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject: Na2H2PO4.7 H2O, object: the culture medium) are correctly identified as they appear together with the predicate ""was present in"".",5.959959030151367,
+0x921,KH2PO4,was present in,the culture medium,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,"The extracted relation accurately reflects the content of the sentence, and the entity boundaries are clearly defined.",14.525688886642456,,True,5.0,5.0,"The subject ""KH2PO4"" and the object ""the culture medium"" are directly mentioned in the sentence as the components of the culture medium. The relation ""was present in"" is accurately represented as KH2PO4 is indeed present in the culture medium.",5.923681020736694,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""KH2PO4"" explicitly mentioned as part of the composition of the culture medium. The entity boundaries are also correctly identified, with ""KH2PO4"" serving as the subject and ""the culture medium"" as the object.",6.234711170196533,
+0x924,CaCl2.2H2O,was present in,the culture medium,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,14.846887350082397,,True,5.0,5.0,"The subject ""CaCl2.2H2O"" and the object ""the culture medium"" are directly mentioned in the sentence as the components of the culture medium, making the relation ""was present in"" accurately represented. The faithfulness is high because the relation is explicitly stated in the source. The boundary quality is perfect since the subject and object are correctly identified within the given characters.",6.97800612449646,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries are correctly identified as ""CaCl2.2H2O"" (subject) and ""the culture medium"" (object).",5.408978223800659,
+0x92f,KI,was present in,the culture medium,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,13.907324314117432,,True,5.0,5.0,"The relation ""KI was present in the culture medium"" is directly stated in the sentence as KI (characters 449-451) is listed among the components of the culture medium (characters 54-72). The entity boundaries are correctly identified, as both subject and object are accurately defined.",6.334364891052246,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""KI"" explicitly mentioned as being present in ""the culture medium"". The entity boundaries are also correctly identified, with ""KI"" clearly marked as the subject and ""the culture medium"" as the object.",5.514041900634766,
+0x930,MgSO4.7 H2O,was present in,the culture medium,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,14.40238904953003,,True,,,"The extracted relation ""MgSO4.7 H2O was present in the culture medium"" is directly stated in the source sentence, as MgSO4.7 H2O is listed among the components of the culture medium. The subject and object boundaries are correctly identified, as they correspond to the specific compound and its context within the sentence.",6.889573097229004,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""the culture medium"" explicitly mentioned as the object of the predicate ""was present in"". The subject and object boundaries are also correctly identified, with ""MgSO4.7 H2O"" being the subject and ""the culture medium"" being the object.",6.1253509521484375,
+0xfa2,King,and,(1994),,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"King  and  Schnell  (1994)  and  Whittenbury  et  al.,  (1970)  have  shown  that  ammonium inhibits methane uptake rates, since ammonia and methane compete for the same active site on MMO. According to Hubley et al., (1975) and King and Schnell (1994), the first product  obtained  from  the  oxidation  of  ammonium,  hydroxylamine  has  a  reversible
+
+inhibitory effect on MMO at concentrations as low as 0.1 mM. Furthermore, nitrite which is  easily  produced  from  hydroxylamine  also  negatively  affects  the  growth  of  cells  by inhibiting  formate  dehydrogenase  (Jollie  and  Lipscomb,  1991),  which  catalyzes  the production of NADH.",True,4.0,3.0,"The relation is accurately represented in the sentence, as it correctly states that King and Schnell (1994) are mentioned together. However, the faithfulness rating is not a perfect 5 because while the relation is stated, there's no explicit statement of ""King"" being related to Schnell (1994).",4.007757902145386,,True,,,"The relation 'King and' is accurately extracted from the sentence as King is indeed mentioned along with 'and'. However, the faithfulness rating is lower because the sentence does not explicitly state that they are connected by 'and', but rather implies it through their collaboration context. The boundary quality is perfect as the subject and object are correctly identified.",7.345635175704956,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""King"" as the subject and ""(1994)"" as the object. The entity boundaries are correctly identified, with no extraneous characters included or omitted.",4.754939794540405,
+0x6fb,The scholarly articles,and,the expression of sMMO,,,,Chapter 2 Literature Review,Copy of Adegbola thesis High Density Cultures20251113.pdf,This chapter provides a summary of scholarly articles concerning the cultivation of M. trichosporium OB3b and the expression of sMMO.,True,5.0,4.0,"The relation ""and"" is accurately represented in the sentence, as it connects two clauses. The object ""the expression of sMMO"" is directly stated in the source sentence, indicating a high level of faithfulness. However, the boundary quality could be improved by more precise entity identification, as the subject ""scholarly articles"" and object ""expression of sMMO"" are not explicitly linked with their respective entities in the original sentence.",3.330080032348633,,True,,,"The relation ""The scholarly articles and the expression of sMMO"" is directly stated in the source sentence. The subject, ""The scholarly articles,"" and object, ""the expression of sMMO,"" are correctly identified with no errors in boundary quality as they correspond to the subjects and objects mentioned in the sentence.",5.010908126831055,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""the expression of sMMO"" being a clear object to the predicate ""and"". The subject and object boundaries are also correctly identified as they correspond to the noun phrase ""scholarly articles"" and the prepositional phrase ""the expression of sMMO"", respectively.",5.122781753540039,
+0x7cc,Whittenbury et al.,and,(1970),,,,2.3.1.1 Ammonium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"King  and  Schnell  (1994)  and  Whittenbury  et  al.,  (1970)  have  shown  that  ammonium inhibits methane uptake rates, since ammonia and methane compete for the same active site on MMO. Whittenbury at al. (1970) reported that with an initial ammonium chloride concentration of 9.4 mM, the concentration of nitrite produced (7µM) was noninhibitory to cell growth or methane uptake rates of M. trichosporium OB3b .",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as Whittenbury et al. are indeed mentioned together with King and Schnell in the source sentence. The relation ""and"" correctly connects the three entities, and ""(1970)"" is also present in the original text to specify the year of publication for Whittenbury et al.'s work.",2.906161069869995,,True,,,"The relation 'Whittenbury et al. and (1970)' is present in the sentence, although it is not directly stated that they are connected with 'and'. However, the context implies that Whittenbury et al. are part of a list of researchers who have shown certain findings, similar to King and Schnell. The subject and object entities are correctly identified as Whittenbury et al. and (1970) respectively.",7.974067211151123,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Whittenbury et al., (1970)"" explicitly mentioned as an object of the predicate ""and"". The entity boundaries are also correctly identified, with ""Whittenbury et al."" being a clear subject and ""(1970)"" being its corresponding year.",5.254436016082764,
+0xf97,Schnell,and,(1994),,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"King  and  Schnell  (1994)  and  Whittenbury  et  al.,  (1970)  have  shown  that  ammonium inhibits methane uptake rates, since ammonia and methane compete for the same active site on MMO. According to Hubley et al., (1975) and King and Schnell (1994), the first product  obtained  from  the  oxidation  of  ammonium,  hydroxylamine  has  a  reversible
+
+inhibitory effect on MMO at concentrations as low as 0.1 mM. Furthermore, nitrite which is  easily  produced  from  hydroxylamine  also  negatively  affects  the  growth  of  cells  by inhibiting  formate  dehydrogenase  (Jollie  and  Lipscomb,  1991),  which  catalyzes  the production of NADH.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as ""Schnell"" is correctly identified as the subject and is directly connected to the predicate ""and"". The object ""(1994)"" also matches the year mentioned in the source sentence.",2.826162815093994,,True,,,"The relation ""Schnell and"" is mentioned in the sentence, although it is not explicitly stated as such. However, the context implies that Schnell is associated with the year 1994, which suggests a conjunction (""and""). The entity boundaries are correctly identified as characters 11-18 for the subject ""Schnell"".",7.173976898193359,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""King and Schnell (1994)"" explicitly mentioned as a reference. The entity boundaries are also correctly identified, with ""Schnell"" being the subject of the relation.",5.013362169265747,
+0xf93,King,and,Whittenbury et al.,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"King  and  Schnell  (1994)  and  Whittenbury  et  al.,  (1970)  have  shown  that  ammonium inhibits methane uptake rates, since ammonia and methane compete for the same active site on MMO. According to Hubley et al., (1975) and King and Schnell (1994), the first product  obtained  from  the  oxidation  of  ammonium,  hydroxylamine  has  a  reversible
+
+inhibitory effect on MMO at concentrations as low as 0.1 mM. Furthermore, nitrite which is  easily  produced  from  hydroxylamine  also  negatively  affects  the  growth  of  cells  by inhibiting  formate  dehydrogenase  (Jollie  and  Lipscomb,  1991),  which  catalyzes  the production of NADH.",True,4.0,3.0,"The relation is accurately represented in the sentence, as it correctly states that King and Whittenbury et al. are mentioned together. However, the faithfulness rating is not a perfect 5 because while the relation is stated, there's no explicit statement of ""King and Whittenbury et al. have shown"" which would make it more directly supported by the source sentence. The boundary quality is rated as 3 because the subject position (characters 0-4) does not perfectly match the extracted relation, but it's close enough to be considered correct.",4.1393022537231445,,False,,,"The relation ""King and"" does not correspond to any binary relationship in the sentence. King is a subject, but there's no object related to it in the given context. Instead, the sentence discusses relationships between King, Schnell (1994), Whittenbury et al., (1970), Hubley et al., (1975), and other entities, but not with ""and"" as an explicit predicate. The ""and"" in this case is a conjunction connecting multiple subjects, not a binary relation between King and another entity.",7.652861833572388,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""King"" correctly identified as the subject and ""Whittenbury et al."" as the object. The predicate ""and"" is also correct.",4.747104167938232,
+0x105d,Watson,provided,explanation for non-linear response of the sensor,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"The  explanation  for  the  non-linear response  of  the  sensor  has  been  provided  in  detail  elsewhere  (Figaro  Engineering  Inc. 2004;  Guarna  et  al.,  1997;  Heiland  1982;  Jones  et  al.,  1985;  Morrison  1982;  Watson 1984).",True,5.0,5.0,"The relation is accurately represented in the sentence as ""The explanation for the non-linear response of the sensor has been provided in detail elsewhere"". The subject ""Watson"" is correctly identified and directly stated to have provided the explanation.",2.3795177936553955,,True,,,"The relation ""Watson provided explanation"" is explicitly mentioned in the sentence, making it a direct statement. The subject and object boundaries are correctly identified as Watson is the one providing the explanation, and the explanation pertains to the non-linear response of the sensor.",4.987400054931641,,True,5.0,5.0,"The relation is directly stated in the sentence, with Watson being the subject performing the action of providing an explanation. The entity boundaries are also correctly identified, as ""Watson"" clearly starts at character 226 and ends at character 232.",4.612728118896484,
+0x9e0,Figaro Engineering Inc.,provided,explanation for non-linear response of the sensor,,,,3.2.1 Sensor characterization,Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0x9f3,Jones et al.,provided,explanation for non-linear response of the sensor,,,,3.2.1 Sensor characterization,Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0x1052,Guarna et al.,provided,explanation for non-linear response of the sensor,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"When  methanol  is  in contact with the detector, it adsorbs to the surface and the semiconductor catalyzes the reduction of surface-bound oxygen, producing the more weakly interacting formaldehyde that  desorbs  and  frees  surface  conduction  band  electrons  which  in  turn,  increases  the measured conductivity (Guarna et al., 1997).",True,4.0,3.0,"The relation ""provided"" is accurately represented in the sentence, as it describes how the semiconductor catalyzes the reduction of surface-bound oxygen. However, the faithfulness rating is not a perfect 5 because while the relation is stated, the explanation for non-linear response of the sensor is not explicitly provided; instead, it's mentioned that this leads to an increase in measured conductivity.",3.115382194519043,,True,,,"The relation is accurately represented in the sentence as it discusses Guarna et al. explaining the non-linear response of the sensor, even though the word ""provided"" is not explicitly used. However, the faithfulness rating is lower because the sentence does not directly state that they provided an explanation. The entity boundaries are correctly identified as the subject and object of the relation.",7.2668797969818115,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""Guarna et al."" as the subject and ""explanation for non-linear response of the sensor"" as the object. The predicate ""provided"" is also correctly identified, although it's not explicitly stated in the sentence; however, the context implies that Guarna et al. provided an explanation for the observed phenomenon.",5.979694128036499,
+0x9e1,Heiland,provided,explanation for non-linear response of the sensor,,,,3.2.1 Sensor characterization,Copy of Adegbola thesis High Density Cultures20251113.pdf,"The  explanation  for  the  non-linear response  of  the  sensor  has  been  provided  in  detail  elsewhere  (Figaro  Engineering  Inc. 2004;  Guarna  et  al.,  1997;  Heiland  1982;  Jones  et  al.,  1985;  Morrison  1982;  Watson 1984).",True,5.0,5.0,"The relation is accurately represented in the sentence as ""Heiland provided explanation for non-linear response of the sensor"" directly matches the extracted relation. The subject and object boundaries are also correctly identified, with ""Heiland"" being the exact match for the subject position (Characters 169-176) and ""explanation for non-linear response of the sensor"" being a clear object.",3.232455015182495,,True,,,"The sentence explicitly states that ""Heiland provided an explanation for the non-linear response of the sensor"", making it a direct and accurate representation. The subject and object are correctly identified as ""Heiland"" and ""explanation for non-linear response of the sensor"" respectively, as they appear in the original sentence.",5.575257778167725,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Heiland"" as the subject and ""explanation for non-linear response of the sensor"" as the object. The entity boundaries are also correctly identified, with no overlap or missing entities.",4.717465162277222,
+0x68c,I,thanks,Dr. Bruce,,,,Acknowledgements,Copy of Adegbola thesis High Density Cultures20251113.pdf,"I  would  like  to  extend  my  sincerest  gratitude  to  my  supervisors  Dr.  Bruce  and  Juliana Ramsay for their continued guidance and criticism on this project. I  would  also  like  to  thank  Yinghao  Yu  and  Zhiyong  Sun  for  their  help  with getting me acquainted with all the laboratory equipment, as well as my other colleagues Paul  Phillipe,  Bohzi  Sun,  Jade  Jiang,  Selvia  Soegiaman  and  Heather  Mclean  for  their feedback and making my lab experience a memorable one. My appreciation  to  Ed  Maracle,  for  his  technical  guidance  with  setting  up  the Figaro sensor and making sure the circuitry was in compliance with Canadian regulations as well as for providing his expertise in repairing electronic malfunctions with laboratory equipment. Furthermore,  my  thanks  to  Queen's  University  for  the  Queen's  Entrance  and Graduate student awards for financial aid. Finally  to  Lexi,  my  parents,  siblings,  loved  ones  and  friends  for  their  support, encouragement and most importantly for understanding the time commitment involved with this project.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states ""I thanks Dr. Bruce"" and also mentions other individuals who are thanked. The faithfulness rating is 5 because the relation is explicitly stated in the source sentence. The boundary quality rating is 5 because the subject (""I"") and object (""Dr. Bruce"") boundaries are correctly identified.",3.312718152999878,,True,,,"The subject ""I"" is clearly stated at the beginning of the sentence, and the object ""Dr. Bruce"" can be inferred from the context as he is one of the supervisors mentioned in the sentence. However, the relation is not directly stated but implied due to the general nature of the verb ""thanks"".",7.270423889160156,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""I"" as the subject and ""Dr. Bruce"" as the object of the predicate ""thanks"". The entity boundaries are correctly identified, with no errors in subject or object identification.",4.872375965118408,
+0xf24,I,thanks,Queen's University,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"I  would  like  to  extend  my  sincerest  gratitude  to  my  supervisors  Dr.  Bruce  and  Juliana Ramsay for their continued guidance and criticism on this project. I  would  also  like  to  thank  Yinghao  Yu  and  Zhiyong  Sun  for  their  help  with getting me acquainted with all the laboratory equipment, as well as my other colleagues Paul  Phillipe,  Bohzi  Sun,  Jade  Jiang,  Selvia  Soegiaman  and  Heather  Mclean  for  their feedback and making my lab experience a memorable one. My appreciation  to  Ed  Maracle,  for  his  technical  guidance  with  setting  up  the Figaro sensor and making sure the circuitry was in compliance with Canadian regulations as well as for providing his expertise in repairing electronic malfunctions with laboratory equipment. Furthermore,  my  thanks  to  Queen's  University  for  the  Queen's  Entrance  and Graduate student awards for financial aid. Finally  to  Lexi,  my  parents,  siblings,  loved  ones  and  friends  for  their  support, encouragement and most importantly for understanding the time commitment involved with this project.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states ""I thanks Queen's University"" without any ambiguity. The faithfulness rating of 5 indicates that the relation is explicitly stated in the source sentence, with no additional information or context needed to understand its meaning. Similarly, the entity boundaries are correctly identified, with the subject being ""I"" and the object being ""Queen's University"".",3.5467867851257324,,False,,,"The relation ""I thanks Queen's University"" is not directly stated in the sentence. Instead, the gratitude towards Queen's University is expressed through the mention of the ""Queen's Entrance and Graduate student awards for financial aid."" Therefore, it is a hallucinated relation.",5.609483003616333,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""I"" as the subject and ""Queen's University"" as the object of the verb ""thanks"". The entity boundaries are correctly identified, with no extraneous characters included or missing.",4.884116888046265,
+0xf2c,I,thanks,Juliana Ramsay,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"I  would  like  to  extend  my  sincerest  gratitude  to  my  supervisors  Dr.  Bruce  and  Juliana Ramsay for their continued guidance and criticism on this project. I  would  also  like  to  thank  Yinghao  Yu  and  Zhiyong  Sun  for  their  help  with getting me acquainted with all the laboratory equipment, as well as my other colleagues Paul  Phillipe,  Bohzi  Sun,  Jade  Jiang,  Selvia  Soegiaman  and  Heather  Mclean  for  their feedback and making my lab experience a memorable one. My appreciation  to  Ed  Maracle,  for  his  technical  guidance  with  setting  up  the Figaro sensor and making sure the circuitry was in compliance with Canadian regulations as well as for providing his expertise in repairing electronic malfunctions with laboratory equipment. Furthermore,  my  thanks  to  Queen's  University  for  the  Queen's  Entrance  and Graduate student awards for financial aid. Finally  to  Lexi,  my  parents,  siblings,  loved  ones  and  friends  for  their  support, encouragement and most importantly for understanding the time commitment involved with this project.",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states ""thanks"" to Juliana Ramsay. The extracted object position (92-106) matches the actual word ""Ramsay"" in the source sentence, indicating a direct match.",2.8344430923461914,,True,5.0,5.0,"The relation ""I thanks Juliana Ramsay"" is directly stated in the sentence. The subject and object boundaries are correctly identified as the system has accurately pinpointed the position of the subject ""I"" and the object ""Juliana Ramsay"".",5.236208915710449,,True,5.0,5.0,"The relation is accurately represented in the sentence, with ""I"" as the subject and ""Juliana Ramsay"" as the object of the predicate ""thanks"". The entity boundaries are correctly identified, with ""I"" starting at character 0 and ""Juliana Ramsay"" ending at character 106.",5.921232223510742,
+0x68e,I,thanks,Heather Mclean,,,,Acknowledgements,Copy of Adegbola thesis High Density Cultures20251113.pdf,"I  would  like  to  extend  my  sincerest  gratitude  to  my  supervisors  Dr.  Bruce  and  Juliana Ramsay for their continued guidance and criticism on this project. I  would  also  like  to  thank  Yinghao  Yu  and  Zhiyong  Sun  for  their  help  with getting me acquainted with all the laboratory equipment, as well as my other colleagues Paul  Phillipe,  Bohzi  Sun,  Jade  Jiang,  Selvia  Soegiaman  and  Heather  Mclean  for  their feedback and making my lab experience a memorable one. My appreciation  to  Ed  Maracle,  for  his  technical  guidance  with  setting  up  the Figaro sensor and making sure the circuitry was in compliance with Canadian regulations as well as for providing his expertise in repairing electronic malfunctions with laboratory equipment. Furthermore,  my  thanks  to  Queen's  University  for  the  Queen's  Entrance  and Graduate student awards for financial aid. Finally  to  Lexi,  my  parents,  siblings,  loved  ones  and  friends  for  their  support, encouragement and most importantly for understanding the time commitment involved with this project.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states ""I thanks"" and also mentions other individuals who are thanked. The faithfulness rating is 5 because the relation is explicitly stated in the source sentence. The boundary quality rating is 5 because the subject (""I"") and object (""Heather Mclean"") boundaries are correctly identified.",3.4045259952545166,,True,,,"The subject ""I"" is indeed expressing gratitude, and while it's not explicitly stated that ""I"" thanks Heather Mclean, she is mentioned in the context of those who have contributed to a memorable lab experience. Therefore, the relation is partially supported. The entity boundaries are correctly identified as both ""I"" (subject) and ""Heather Mclean"" (object) are present in the sentence.",8.274390935897827,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""I"" as the subject and ""Heather Mclean"" as the object of the verb ""thank"". The entity boundaries are correctly identified, with no errors.",5.07519793510437,
+0xf22,I,thanks,Paul Phillipe,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"I  would  like  to  extend  my  sincerest  gratitude  to  my  supervisors  Dr.  Bruce  and  Juliana Ramsay for their continued guidance and criticism on this project. I  would  also  like  to  thank  Yinghao  Yu  and  Zhiyong  Sun  for  their  help  with getting me acquainted with all the laboratory equipment, as well as my other colleagues Paul  Phillipe,  Bohzi  Sun,  Jade  Jiang,  Selvia  Soegiaman  and  Heather  Mclean  for  their feedback and making my lab experience a memorable one. My appreciation  to  Ed  Maracle,  for  his  technical  guidance  with  setting  up  the Figaro sensor and making sure the circuitry was in compliance with Canadian regulations as well as for providing his expertise in repairing electronic malfunctions with laboratory equipment. Furthermore,  my  thanks  to  Queen's  University  for  the  Queen's  Entrance  and Graduate student awards for financial aid. Finally  to  Lexi,  my  parents,  siblings,  loved  ones  and  friends  for  their  support, encouragement and most importantly for understanding the time commitment involved with this project.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states ""I thanks"" and also mentions other individuals who are thanked. The faithfulness rating is 5 because the relation is explicitly stated in the source sentence. The boundary quality rating is 5 because the subject (""I"") and object (""Paul Phillipe"") boundaries are correctly identified.",3.462730884552002,,True,,,"The relation ""I thanks Paul Phillipe"" is present in the sentence, although it's not explicitly stated. However, Paul Phillipe is mentioned as one of the people who provided feedback and made the lab experience memorable for the subject, implying a form of gratitude or thanks. The subject and object are correctly identified as ""I"" and ""Paul Phillipe"", respectively.",7.842164993286133,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""I"" as the subject and ""Paul Phillipe"" as the object of the verb ""thank"". The entity boundaries are correctly identified, with no errors.",5.157088994979858,
+0xd2f,a biomass sample,contains,62 g/L M. trichosporium OB3b,,,,5.2.3 Effect of methane on sMMO activity of methanol grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"To investigate the effect of methane exposure to methanol grown cells, a biomass sample containing 62 g/L M. trichosporium OB3b obtained from a methanol fed-batch bioreactor (Fermentation 2) was resuspended (0.67% v/v) in NMS medium C (Table 4-1) containing 15µM allylthiourea and cultivated for a week before being subcultured (33% v/v) into a similar medium and grown for four days.",True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that the biomass sample ""contains"" M. trichosporium OB3b. The source sentence directly mentions this relation, making it a direct statement. The entity boundaries are also correctly identified, with the subject being ""a biomass sample"" and the object being ""62 g/L M. trichosporium OB3b"".",3.543027877807617,,True,5.0,5.0,"The relation ""contains"" is directly stated in the sentence, as it describes that the biomass sample contains M. trichosporium OB3b at a concentration of 62 g/L. The subject and object boundaries are correctly identified, as they correspond to the noun phrases ""a biomass sample"" and ""62 g/L M. trichosporium OB3b"", respectively.",6.885963201522827,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""a biomass sample"" being the subject and ""62 g/L M. trichosporium OB3b"" being the object of the predicate ""containing"". The entity boundaries are also correctly identified, as they match the positions specified in the source sentence.",6.131351947784424,
+0xafe,Reagent 1,contains,5 g of phenol with 25 g of sodium nitroprusside per 500 mL of water,,,,4.1.2.7 Ammonium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Reagent 1(2.5 mL) containing 5 g of phenol with 25 g of sodium nitroprusside per 500 mL of water was added to 40 µL of sample, followed  by  the  addition  of  2.5  mL  reagent  2  (2.5  g  sodium  hydroxide  and  4.2  mL sodium hypochlorite per 500 ml solution).",True,4.0,5.0,"The relation is accurately represented in the sentence, as it states that Reagent 1 contains a specific amount of phenol and sodium nitroprusside. The faithfulness rating is 4 because while the relation is stated directly, there are some minor discrepancies in wording (e.g., ""contains"" vs. ""containing"") and additional information not present in the extracted relation (e.g., the addition of reagent 2). However, these differences do not significantly impact the overall accuracy of the extraction. The entity boundaries are correctly identified, as the subject is accurately represented by the phrase ""Reagent 1"" and the object is accurately represented by the phrase ""5 g of phenol with 25 g of sodium nitroprusside per 500 mL of water"".",5.527692079544067,,True,5.0,5.0,"The relation ""Reagent 1 contains 5 g of phenol with 25 g of sodium nitroprusside per 500 mL of water"" is directly stated in the sentence. The subject and object boundaries are correctly identified as the system has accurately extracted the reagent and its composition from the given sentence.",5.466954946517944,,True,4.0,5.0,"The relation is accurate because it reflects the content of the sentence. However, the faithfulness rating is not perfect due to the minor rephrasing mentioned earlier. The boundary quality is excellent since the system correctly identifies both the subject and object phrases in the source sentence.",8.585544109344482,
+0x91f,aqueous methanol solution,contains,methanol,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"A  study  by  Ramon  et  al.,  (2004)  showed  an  offset  in  methanol  measurements  by  the TGS822 sensor when determining methanol concentration in culture medium rather than distilled  water. Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,14.594351291656494,,True,5.0,5.0,"The relation ""aqueous methanol solution contains methanol"" is directly stated in the sentence as the methanol is one of the components listed in the composition of the aqueous methanol solution. The entity boundaries are also correctly identified, as the subject and object are clearly defined in the sentence.",6.470546007156372,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it clearly states that an aqueous methanol solution contains methanol. The entity boundaries are correctly identified, with ""aqueous methanol solution"" serving as the subject and ""methanol"" as the object.",5.9134931564331055,
+0x8fc,The autoclavable probe,contains,a Figaro TGS822 sensor,,,,3.1.1 Online methanol control,Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0x91e,"steel case (1/4""' O.D)",contains,sensor,,,,3.1.2.1 Growth medium,Copy of Adegbola thesis High Density Cultures20251113.pdf,"A  study  by  Ramon  et  al.,  (2004)  showed  an  offset  in  methanol  measurements  by  the TGS822 sensor when determining methanol concentration in culture medium rather than distilled  water. Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,,14.281600952148438,,False,,,"The sentence does not mention any relation between the ""sensor"" and a ""steel case (1/4'' O.D)"" containing it. Instead, it discusses various components of a methanol sensor setup, but there is no direct statement or implication that the sensor is contained within a steel case.",6.60748815536499,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it mentions a ""steel case (1/4""' O.D)"" that contains a sensor. The faithfulness rating is high because the sentence directly states the presence of a sensor within the steel case. The entity boundaries are correctly identified, with the subject being the ""steel case"" and the object being the ""sensor"".",6.836824893951416,
+0x6ea,soluble form of sMMO,possesses a broader range of substrate specificity,resulting in faster degradation rates of chlorinated ethenes than the particulate form,,,,Chapter 1 Introduction,Copy of Adegbola thesis High Density Cultures20251113.pdf,"The  soluble  form  has  been  shown  to  possess  a  broader  range  of  substrate specificity (Colby, et al., 1977; Hanson  and  Hanson,  1996), resulting in faster degradation rates of chlorinated ethenes than the particulate form (DiSpirito et al., 1991;",True,5.0,5.0,"The extracted relation accurately represents the source sentence, with no significant changes or additions. The object position is also correctly identified, as the phrase ""resulting in faster degradation rates of chlorinated ethenes than the particulate form"" directly follows the predicate and precedes the subject.",2.8662269115448,,True,,,"The relation is accurately represented in the sentence, as it directly states that the soluble form has a broader range of substrate specificity and faster degradation rates for chlorinated ethenes than the particulate form. This information is presented consecutively in the source sentence, making it a direct statement. The entity boundaries are correctly identified, as both the subject (soluble form of sMMO) and object (""resulting in faster degradation rates of chlorinated ethenes than the particulate form"") are explicitly mentioned in the sentence.",7.510937213897705,,True,5.0,5.0,"The relation is directly stated in the sentence, with the subject (""soluble form of sMMO"") and object (""faster degradation rates of chlorinated ethenes than the particulate form"") clearly identified.",4.559194087982178,
+0x551,cultures,were incubated for,5 days,,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"The cultures were then incubated at 30 ◦ C and 200 rpm for 5 days to produce a mixed culture. After 5 days, 1 mL from the mixed culture was inoculated into fresh sterile NMS medium in triplicate and incubated for 3 days with methane as before.",True,4.0,3.0,"The relation is accurately represented in the sentence, as it states that the cultures were incubated for a specific duration. However, the faithfulness rating is not a perfect score because the sentence also mentions additional details (temperature, rpm, and inoculation) that are not part of the extracted relation. The boundary quality rating is 3 because the subject ""cultures"" is correctly identified as characters 4-12, but the object ""5 days"" could be more precisely defined as a specific duration rather than just being part of the sentence's content.",3.9412760734558105,,True,5.0,5.0,"The relation ""cultures were incubated for"" is directly stated in the sentence. The subject and object boundaries are correctly identified as ""cultures"" and ""5 days"", respectively, which correspond to the entities involved in the relation.",4.413290739059448,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject: ""cultures"", object: ""5 days"") are correctly identified.",3.9389171600341797,
+0xe4b,D.,is co-author of,Gen. Microbiol.,,,,Bibliography,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Stanley, S.H., Prior, S.D., Leak, D.J., and Dalton, H. 1983. Stephen, D., Prior, D., and Dalton, H. 1985. Gen. Microbiol. Sullivan, J.P., Dickinson, D., and Chase, H.A. 1998. Gen. Microbiol. 61 (2): 205-218.",True,5.0,5.0,"The relation is accurately represented in the sentence as it states that D. is a co-author of Gen. Microbiol., which matches the extracted relation. The source sentence directly mentions Stephen, D., Prior, D., and Dalton, H. as authors of Gen. Microbiol., indicating that this relation is directly stated. The entity boundaries (subject and object) are correctly identified as D. is the subject and Gen. Microbiol. is the object.",3.5825819969177246,,True,5.0,5.0,"The relation ""is co-author of"" is directly stated in the sentence as D. (Dalton, H.) is listed as a co-author in both publications with Gen. Microbiol. Therefore, the extraction is accurate and directly supported by the source. The entity boundaries are also correctly identified as the subject Dalton, H., is correctly associated with the publication Gen. Microbiol. as the object.",5.733094215393066,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""D."" correctly identified as the subject and ""Gen. Microbiol."" as the object. The entity boundaries are perfectly identified, with no errors in character positions or entity identification.",4.465393781661987,
+0x5c6,Methanotrophs,use,methane monooxygenase enzymes,,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,Methanotrophs efficiently convert methane to methanol in a single step using methane monooxygenase enzymes at ambient reaction conditions.,True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that methanotrophs ""use"" methane monooxygenase enzymes to convert methane. The entity boundaries are also correctly identified, with the subject being ""Methanotrophs"" and the object being ""methane monooxygenase enzymes"".",2.8410539627075195,,True,5.0,5.0,"The relation ""Methanotrophs use methane monooxygenase enzymes"" is directly stated in the sentence. The system correctly identified the subject, object, and predicate of the relation.",4.280749082565308,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Methanotrophs"" using ""methane monooxygenase enzymes"" to convert methane. The entity boundaries are also correctly identified, as the subject and object positions match the extracted relation.",4.871462106704712,
+0xec6,M. trichosporium OB3b,is subject to,fed-batch cultivation,,,,Appendix D Method for estimating specific growth rate in Fed-batch studies,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Since there was no distinguishable lag phase observed during the fed-batch cultivation of M. trichosporium OB3b , a polynomial model was fit to the growth data to obtain a time relationship of biomass growth.",True,4.0,5.0,"The relation ""is subject to"" is accurately represented in the sentence, as it describes a condition or limitation imposed on M. trichosporium OB3b during its cultivation. The faithfulness rating of 4 indicates that while the relation is stated directly, there might be some implicit assumptions about the nature of this limitation (e.g., whether it's a requirement or an observation).",3.3906750679016113,,True,,,"The relation ""M. trichosporium OB3b is subject to fed-batch cultivation"" can be inferred from the sentence as the cultivation process being referred to is clearly stated as ""fed-batch cultivation"". However, this relation is not directly stated but rather implied by the context. The entity boundaries are correctly identified as the subject and object positions match with the extracted relation.",6.750508069992065,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""M. trichosporium OB3b"" being the subject and ""fed-batch cultivation"" being the object of the predicate ""is subject to"". The entity boundaries are also correctly identified as per the source sentence.",5.4575231075286865,
+0x10d1,Incubator shaker,is,Innova 44,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"o
+
+Cultures cultivated in shake flasks were incubated at 30
+
+C and 200 rpm in an incubator shaker (Innova 44, New Brunswick Scientific, Edison, NJ USA).",True,5.0,5.0,"The relation ""is"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as ""incubator shaker"" and ""Innova 44"", respectively.",2.408808946609497,,True,,,"The relation ""Incubator shaker is Innova 44"" is explicitly mentioned in the source sentence. The subject and object boundaries are correctly identified as ""incubator shaker"" and ""Innova 44"", respectively, which are directly stated in the text.",5.074717283248901,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""incubator shaker"" being the subject and ""Innova 44"" being the object. The entity boundaries are correctly identified as they match the positions specified in the source sentence.",4.796390056610107,
+0xe77,Nitrate,is,18,,,,Appendix B Calibration curves,Copy of Adegbola thesis High Density Cultures20251113.pdf,"0.04
+
+0.06
+
+Biomass (g/L)
+
+0.08
+
+0.10
+
+0.12
+
+y = 0.046x
+
+R2 = 0.998
+
+6
+
+8
+
+10
+
+12
+
+Nitrate (mg/L)
+
+14
+
+16
+
+18
+
+20
+
+Optical density at 220 nm
+
+2
+
+4
+
+concentration protle or growin nutrients in Ferme
+
+1.0
+
+0.35
+
+0.8
+
+0.30 -
+
+0.25
+
+(m
+
++
+
+₴ 0.20
+
+0.4
+
+0.2
+
+0.15 -
+
+0.0
+
+0.10
+
+0
+
+0
+
+20
+
+20",True,4.0,3.0,"The relation ""is"" is accurately represented in the sentence, as it indicates a quantitative relationship between Nitrate and its concentration. However, the faithfulness rating is not a perfect score because the object position (18) is not explicitly stated as a quantity or unit, which could be considered a minor detail.",2.9650769233703613,,False,,,"The relation ""Nitrate is 18"" is not explicitly stated in the sentence. However, it can be inferred as one of the Nitrate concentrations listed in the table. The subject and object boundaries are correctly identified as ""Nitrate"" and ""18"", respectively.",6.318670272827148,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""Nitrate"" being the subject and ""18"" being the object. The entity boundaries are correctly identified as the subject starts at character 83 (""Nitrate"") and the object ends at character 109 (""18"").",5.136592864990234,
+0xd6f,The CCP strategy,was effective at providing an adaptive control of,methanol concentration,,,,Chapter 6 Conclusions,Copy of Adegbola thesis High Density Cultures20251113.pdf,The  CCP  strategy  was  effective  at providing an adaptive control of methanol concentration.,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that the CCP strategy was effective at providing an adaptive control of methanol concentration. The entity boundaries (subject and object) are correctly identified, with ""The CCP strategy"" being the subject and ""methanol concentration"" being the object.",2.6716978549957275,,True,,,"The extracted relation accurately reflects the subject, predicate, and object in the given sentence. The relation ""The CCP strategy was effective at providing an adaptive control of methanol concentration"" is directly stated in the source text. Furthermore, the entity boundaries for the subject (""The CCP strategy"") and object (""methanol concentration"") are correctly identified.",5.768641233444214,,True,5.0,5.0,"The relation is directly stated in the sentence, with no need for inference or interpretation. The subject and object boundaries are also correctly identified as ""The CCP strategy"" and ""methanol concentration"", respectively.",4.043773889541626,
+0x207,Air,was fed at,450 mL/min,,,,2.5.1. Gas chromatography,Copy of A. Priyadarsini et al. 202320251115.pdf,"Air and hydrogen were fed at 450 mL/min and 45 mL/min, respectively.",True,4.0,3.0,"The relation ""was fed at"" is accurately represented in the sentence, but it's not directly stated that air was fed at a specific rate. The source sentence mentions two different rates for air and hydrogen, which might suggest that the system could have been more precise in its extraction.",2.71370005607605,,True,5.0,5.0,"The relation ""Air was fed at"" is directly stated in the sentence, and the subject and object boundaries are correctly identified as ""Air"" and ""450 mL/min"", respectively. The sentence explicitly mentions that air is being fed at a certain rate, which matches the extracted relation.",4.652547121047974,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Air"" as the subject and ""450 mL/min"" as the object. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",4.459600925445557,
+0xc9a,Figure 4-8,shows,Ammonium concentration in the bioreactor,,,,4.2.3 High cell density fed-batch cultivation (Fermentation 2),Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0xd2c,SMMO activity,is,200,,,,5.2.3 Effect of methane on sMMO activity of methanol grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"In  copper  free  media,  at  high  cell  densities,  there  is  an  increased competition for the carbon source, methane which stimulates the cells to produce more sMMO for survival.
+
+SMMO activity
+
+(umol naphthol/cell dry wt. - h)
+
+700
+
+600
+
+500
+
+400 -
+
+300
+
+200
+
+100
+
+0
+
+Bioreactor
+
+Subculture",True,4.0,3.0,"The relation ""SMMO activity is"" is accurately represented in the sentence, as it states that there is an increased competition for the carbon source (methane) which stimulates cells to produce more sMMO. However, the faithfulness rating is not a perfect 5 because while the relation is stated directly, the context and surrounding information provide additional support for the extraction. The entity boundaries are generally correct, but could be improved with more precise identification of the subject and object in the sentence.",3.8699071407318115,,True,,,"The sentence mentions that at certain cell densities, SMMO production increases. While the exact value of SMMO activity is given as ""200"" in a table, it can be inferred from the context that this value represents the amount of SMMO produced per unit time or per cell. Therefore, the relation ""SMMO activity is 200"" can be inferred from the sentence. However, it's not directly stated. The entity boundaries are correctly identified as ""SMMO activity"" and ""200"".",7.8770012855529785,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""SMMO activity"" being the subject and ""200"" being the object. The entity boundaries are correctly identified as the subject starts at character 185 and ends at 198, and the object starts at character 261 and ends at 264.",5.481691837310791,
+0x502,Methane,persists in the atmosphere for shorter duration,as compared to carbon dioxide (CO2),,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"Methane  is  the  smallest  of  the  hydrocarbon  family  in  its  most reduced form, which means it is packed with potential energy. It is also a major greenhouse gas (GHG) which is also called a short-term enforcer, i.e. it persists in the atmosphere for shorter duration, as compared to carbon dioxide (CO2) that can stay in atmosphere for thousand years, but its heating effect is much more potent than that of CO2. Thus, even with a shorter lifespan, methane has 28 -34 times higher global warming potential over a period of 100 years than that of CO2  due to its higher solar  radiation  capturing  efficiency  (Priyadarsini  et  al.,  2020).",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that methane persists in the atmosphere for a shorter duration compared to carbon dioxide (CO2). The source explicitly mentions this characteristic of methane.",2.4679131507873535,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that methane persists in the atmosphere for a shorter duration compared to carbon dioxide (CO2). The entity boundaries are correctly identified, with ""Methane"" as the subject and ""carbon dioxide (CO2)"" as the object.",5.417025089263916,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject: Methane, object: carbon dioxide) are correctly identified.",4.173160791397095,
+0xafb,Ammonium ion concentration,was determined by,the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967),,,,4.1.2.7 Ammonium,Copy of Adegbola thesis High Density Cultures20251113.pdf,Biomass  samples  were  centrifuged  at  10000  x g for  10  min  and  ammonium  ion concentration in the supernatant was determined by the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967).,True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that the ammonium ion concentration was determined by a specific method. The faithfulness rating of 5 indicates that this relation is directly stated in the source sentence without any additional information or inference. The entity boundaries are correctly identified, with ""ammonium ion concentration"" being the subject and ""the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967)"" being the object.",3.622767925262451,,True,5.0,5.0,"The relation ""Ammonium ion concentration was determined by the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967)"" is directly stated in the source sentence. The subject, object, and predicate are all accurately identified and clearly defined within the given context.",4.768618106842041,,True,5.0,5.0,"The relation is directly stated in the sentence, with no ambiguity or indirect inference required to understand it. The entity boundaries (subject, predicate, and object) are also correctly identified as ""Ammonium ion concentration"", ""was determined by"", and ""the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967)"" respectively.",5.617279052734375,
+0xf28,I,would like to thank,Zhiyong Sun,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"I  would  like  to  extend  my  sincerest  gratitude  to  my  supervisors  Dr.  Bruce  and  Juliana Ramsay for their continued guidance and criticism on this project. I  would  also  like  to  thank  Yinghao  Yu  and  Zhiyong  Sun  for  their  help  with getting me acquainted with all the laboratory equipment, as well as my other colleagues Paul  Phillipe,  Bohzi  Sun,  Jade  Jiang,  Selvia  Soegiaman  and  Heather  Mclean  for  their feedback and making my lab experience a memorable one. My appreciation  to  Ed  Maracle,  for  his  technical  guidance  with  setting  up  the Figaro sensor and making sure the circuitry was in compliance with Canadian regulations as well as for providing his expertise in repairing electronic malfunctions with laboratory equipment. Furthermore,  my  thanks  to  Queen's  University  for  the  Queen's  Entrance  and Graduate student awards for financial aid. Finally  to  Lexi,  my  parents,  siblings,  loved  ones  and  friends  for  their  support, encouragement and most importantly for understanding the time commitment involved with this project.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence as it directly states ""I would like to thank"" followed by the names of individuals who are being thanked. The faithfulness rating is 5 because the relation is explicitly stated, and the entity boundaries (subject and object) are correctly identified with the subject being ""I"" and the objects being Zhiyong Sun and others mentioned in the sentence.",3.495415210723877,,True,,,"The relation ""I would like to thank Zhiyong Sun"" is explicitly stated in the sentence, although it's part of a longer list of people being thanked. The subject and object are accurately identified as ""I"" and ""Zhiyong Sun"", respectively.",7.3756489753723145,,True,5.0,5.0,"The relation is directly stated in the sentence, and the subject ""I"" and object ""Zhiyong Sun"" are correctly identified. The extracted relation matches the source sentence exactly, with no additional or missing information.",5.492613792419434,
+0x599,genomic DNA,was used as a template and checked for the presence of,soluble methane monooxygenase genes,,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,The best genomic DNA extracted yielded 63.7 ng of DNA/ μ L with 260/280 ratio of 1.61 among the duplicate isolations from 300 mg rice field soil. The genomic DNA was used as a template  and  checked  for  the  presence  of  soluble  methane  monooxygenase genes.,True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that ""The genomic DNA was used as a template and checked for the presence of soluble methane monooxygenase genes."" The entity boundaries (subject and object) are correctly identified, with ""genomic DNA"" being the subject and ""soluble methane monooxygenase genes"" being the object.",3.1245172023773193,,True,5.0,5.0,"The relation ""genomic DNA was used as a template and checked for the presence of soluble methane monooxygenase genes"" is directly stated in the sentence. The subject, object, and predicate are all accurately identified and correctly represented in the source.",4.7844061851501465,,True,5.0,5.0,"The relation is directly stated in the sentence, with no ambiguity or need for inference. The entity boundaries (subject and object) are also correctly identified as ""genomic DNA"" and ""soluble methane monooxygenase genes"", respectively.",4.70868992805481,
+0x4f2,Aradhana Priyadarsini,is affiliated with,School for Energy Science and Engineering,,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"Aradhana Priyadarsini a , Rekha Singh c , Lepakshi Barbora a , Subhrangsu Sundar Maitra c , Vijayanand Suryakant Moholkar a,b,*
+
+a School for Energy Science and Engineering, Guwahati 781 039, Assam, India
+
+b Department of Chemical Engineering, Indian Institute of Technology Guwahati, Guwahati 781 039, Assam, India
+
+c School of Biotechnology, Jawaharlal Nehru University, New Delhi 110 067, India",True,5.0,5.0,"The relation ""is affiliated with"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified. The subject ""Aradhana Priyadarsini"" starts at position 0-21, and the object ""School for Energy Science and Engineering"" starts at position 131-172, which matches the extracted relation.",3.1655478477478027,,True,,,"The relation ""Aradhana Priyadarsini is affiliated with School for Energy Science and Engineering"" is explicitly mentioned in the source sentence. The subject, Aradhana Priyadarsini, and the object, School for Energy Science and Engineering, are correctly identified and their positions in the sentence directly indicate the relation between them.",5.781487941741943,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it clearly states that Aradhana Priyadarsini is affiliated with School for Energy Science and Engineering. The entity boundaries are also correctly identified, with the subject starting at character 0 and the object starting at character 131.",5.173793077468872,
+0x953,agitation speed,was set to,500 rpm,,,,3.1.2.2 Bioreactor,Copy of Adegbola thesis High Density Cultures20251113.pdf,The pH was controlled at 6.8 ± 0.02 and agitation speed at 500 rpm.,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""agitation speed"" was set to ""500 rpm"". The entity boundaries are also correctly identified.",2.1082749366760254,,True,5.0,5.0,"The relation ""agitation speed was set to 500 rpm"" is directly stated in the sentence. The subject, object, and their boundaries are correctly identified as they correspond to the actual entities mentioned in the source.",4.078391790390015,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""agitation speed"" as the subject and ""500 rpm"" as the object. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",4.274726867675781,
+0x775,mтk 1,catalyzes the conversion of,malyl-CoA to malate,,,,2.2.2 Methanol metabolism,Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0x5cc,enriched cultures from rice field soil,can produce,"similar quantities of methanol (130 mM, 160 mM and 132.5 mM, respectively)",,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"Here, we have shown that the use of enriched cultures from rice field soil in place of pure cultures ( M. buryatense and M. capsulatus ) can also produce similar quantities (130 mM, 160 mM and 132.5 mM, respectively) of methanol.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that enriched cultures from rice field soil can produce similar quantities of methanol. The subject and object boundaries are also correctly identified, with no extraneous information or missing entities.",2.444567918777466,,True,,,"The relation ""enriched cultures from rice field soil can produce similar quantities of methanol"" is explicitly mentioned in the source sentence. The subject and object are correctly identified, with the subject being the entity ""enriched cultures from rice field soil"" and the object being the quantities of methanol (130 mM, 160 mM, and 132.5 mM).",6.081745147705078,,True,5.0,5.0,"The relation is directly stated in the sentence, with no need for inference. The subject and object boundaries are also correctly identified as ""enriched cultures from rice field soil"" and ""similar quantities of methanol (130 mM, 160 mM and 132.5 mM, respectively)"", respectively.",5.512108087539673,
+0x10ba,Ammonium ion concentration,was determined by,the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967),,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,Biomass  samples  were  centrifuged  at  10000  x g for  10  min  and  ammonium  ion concentration in the supernatant was determined by the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967).,True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that the ammonium ion concentration was determined by a specific method. The faithfulness rating of 5 indicates that this relation is directly stated in the source sentence without any additional information or inference. The entity boundaries are correctly identified, with ""ammonium ion concentration"" being the subject and ""the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967)"" being the object.",3.9395251274108887,,True,5.0,5.0,"The relation ""Ammonium ion concentration was determined by the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967)"" is directly stated in the source sentence. The subject, object, and predicate are all accurately identified and clearly defined within the given context.",5.227190017700195,,True,5.0,5.0,"The relation is directly stated in the sentence, with no ambiguity or indirect inference required to understand it. The entity boundaries (subject, predicate, and object) are also correctly identified as ""Ammonium ion concentration"", ""was determined by"", and ""the colorimetric phenol-hypochlorite reaction developed by Weatherburn (1967)"" respectively.",6.102053165435791,
+0xd45,The enzyme activity,increased,70- fold when cells obtained from the bioreactor were subcultured on methane,,,,5.2.3 Effect of methane on sMMO activity of methanol grown cells,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methane was utilized as the sole carbon source in this experiment and was fed along with air (4:1) to the shake flasks daily at a flow rate of 3 L/min.
+
+The enzyme activity increased 70- fold when cells obtained from the bioreactor were subcultured on methane (Figure 5-1).",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""The enzyme activity increased 70- fold when cells obtained from the bioreactor were subcultured on methane"". The source sentence explicitly mentions this relationship between the enzyme activity and the condition of being subcultured on methane.",3.0034289360046387,,True,,,"The extracted relation accurately represents the information in the sentence, as it clearly states that the enzyme activity increased 70-fold when cells were subcultured on methane. This relation is directly stated in the source and the subject and object boundaries are correctly identified, as they correspond to the entities ""The enzyme activity"" and ""70-fold when cells obtained from the bioreactor were subcultured on methane"", respectively.",6.929379224777222,,True,5.0,5.0,"The relation is directly stated in the sentence, with no ambiguity or need for inference. The entity boundaries are also correctly identified, as the subject ""The enzyme activity"" and object ""70- fold when cells obtained from the bioreactor were subcultured on methane"" match the specified character positions.",5.329607009887695,
+0xe8a,concentration,is,0.0,,,,Appendix B Calibration curves,Copy of Adegbola thesis High Density Cultures20251113.pdf,"0.04
+
+0.06
+
+Biomass (g/L)
+
+0.08
+
+0.10
+
+0.12
+
+y = 0.046x
+
+R2 = 0.998
+
+6
+
+8
+
+10
+
+12
+
+Nitrate (mg/L)
+
+14
+
+16
+
+18
+
+20
+
+Optical density at 220 nm
+
+2
+
+4
+
+concentration protle or growin nutrients in Ferme
+
+1.0
+
+0.35
+
+0.8
+
+0.30 -
+
+0.25
+
+(m
+
++
+
+₴ 0.20
+
+0.4
+
+0.2
+
+0.15 -
+
+0.0
+
+0.10
+
+0
+
+0
+
+20
+
+20",True,4.0,3.0,"The relation ""concentration is 0.0"" is accurately represented in the sentence, as it directly states the value of concentration. However, the faithfulness rating is not a perfect score because the object position (0.0) could be considered slightly ambiguous due to its decimal format.",2.887589931488037,,False,,,"The relation ""concentration is 0.0"" is not directly stated in the sentence. Instead, it's an inference from the context that the concentration might be referring to a specific value among the listed ones. However, the provided values do not match the extracted object (0.0). The boundary quality is good because the subject and object are correctly identified in the sentence.",6.329309940338135,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""concentration"" as the subject and ""0.0"" as the object. The entity boundaries are correctly identified, with ""concentration"" being at character position 148-161 and ""0.0"" being at character position 262-265.",5.516771078109741,
+0xb74,Sigma O-30,has concentration,0 % v/v,,,,4.1.3.4 Effect of antifoam on growth,Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0x565,PCR program,consisted of,35 cycles,,,,Cross-chunk Analysis,Copy of A. Priyadarsini et al. 202320251115.pdf,"The PCR program started with initial denaturation at 95 ◦ C for 5 min. Then, the program cycled through 94 ◦ C for 30 s, 54 ◦ C for 45 s and 72 ◦ C for 60 s for 35 cycles.",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that the PCR program consists of 35 cycles. The entity boundaries are also correctly identified, with ""PCR program"" being the subject and ""35 cycles"" being the object.",2.4888739585876465,,True,,,"The PCR program consists of a series of cycles, one of which includes 35 cycles. Although the sentence does not explicitly state that the PCR program consisted of 35 cycles, it can be inferred from the cycling part of the sentence. The subject and object boundaries are correctly identified as ""PCR program"" and ""35 cycles"", respectively.",6.5911219120025635,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""consisted of"" being a clear and accurate representation of the relationship between the PCR program and the number of cycles. The entity boundaries are also correctly identified, with the subject (""PCR program"") starting at character 4 and the object (""35 cycles"") starting at character 161.",5.391498804092407,
+0xe7d,concentration,is,1.0,,,,Appendix B Calibration curves,Copy of Adegbola thesis High Density Cultures20251113.pdf,"0.04
+
+0.06
+
+Biomass (g/L)
+
+0.08
+
+0.10
+
+0.12
+
+y = 0.046x
+
+R2 = 0.998
+
+6
+
+8
+
+10
+
+12
+
+Nitrate (mg/L)
+
+14
+
+16
+
+18
+
+20
+
+Optical density at 220 nm
+
+2
+
+4
+
+concentration protle or growin nutrients in Ferme
+
+1.0
+
+0.35
+
+0.8
+
+0.30 -
+
+0.25
+
+(m
+
++
+
+₴ 0.20
+
+0.4
+
+0.2
+
+0.15 -
+
+0.0
+
+0.10
+
+0
+
+0
+
+20
+
+20",True,4.0,3.0,"The relation ""concentration is 1.0"" is accurately represented in the sentence, as it directly states the value of concentration. However, the faithfulness rating is not a perfect score because the object position (1.0) is not explicitly stated as the concentration value; instead, it's implied by the context.",3.1265857219696045,,True,5.0,5.0,"The relation ""concentration is 1.0"" is directly stated in the sentence, as it appears explicitly in the text: ""concentration protle or growin nutrients in Ferme 1.0"". Therefore, the faithfulness and boundary quality are both rated at 5, as the relation is accurately represented and correctly identified in the source sentence.",6.128000974655151,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""concentration"" as the subject and ""1.0"" as the object. The entity boundaries are correctly identified, with ""concentration"" being at character position 148-161 and ""1.0"" at character position 199-202.",5.876207113265991,
+0x646,Department of Chemical Engineering,In conformity with the requirements for,the degree of Master of Science (Engineering),,,,High cell density methanol cultivation of Methylosinus trichosporium OB3b,Copy of Adegbola thesis High Density Cultures20251113.pdf,"by Olufemi Adegbola
+
+A thesis submitted to the Department of Chemical Engineering In conformity with the requirements for the degree of Master of Science (Engineering)
+
+Queen's University Kingston, Ontario, Canada (August, 2008)",True,5.0,5.0,"The extracted relation accurately represents the sentence, as it correctly identifies the subject (Department of Chemical Engineering), predicate (In conformity with the requirements for), and object (the degree of Master of Science (Engineering)). The entity boundaries are also perfectly identified.",2.5203592777252197,,True,5.0,5.0,"The relation ""Department of Chemical Engineering is In conformity with the requirements for the degree of Master of Science (Engineering)"" is directly stated in the source sentence. The subject and object boundaries are correctly identified as the Department of Chemical Engineering is the subject, and the degree of Master of Science (Engineering) is the object.",5.12039589881897,,True,5.0,5.0,"The relation is directly stated in the sentence, with the subject and object clearly identified. The entity boundaries are also perfectly matched to the source sentence.",3.775597095489502,
+0x1011,carrier air,is,in,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"A  study  by  Ramon  et  al.,  (2004)  showed  an  offset  in  methanol  measurements  by  the TGS822 sensor when determining methanol concentration in culture medium rather than distilled  water. Therefore  the  liquid  medium  used  for  characterizing  the  probe  was  the same as that used in cultivating M. trichosporium OB3b . Since ammonium hydroxide was utilized for pH control, the culture medium which was based on that of Cornish et al., (1984)  was  modified  to  use  ammonium  sulfate  as  the  nitrogen  source;  0.66  g/L (NH4)2SO4, 0.53 g/L KH2PO4, 1.62 g/L Na2HPO4.7 H2O, 7 mg/L CaCl2.2H2O, 37 mg/L MgSO4.7  H2O,  11.2 mg/L  FeSO4.7H2O, 0.574 mg/L  ZnSO4.7H2O, 0.446 mg/L MnSO4.7H2O, 0.124 mg/L H3BO3, 0.096 mg/L NaMoO4.2H2O, 0.096 mg/L CoCl2.6H2O, and 0.166 mg/L KI.
+
+carrier air in
+
+aqueous methanol
+
+solution methanol
+
+vapor silicone
+
+membrane (0.05"" thick)
+
+A.
+
+to sensor stainless
+
+→ steel case
+
+(1/4""' O.D)
+
+PTFE
+
+tubing
+
+(1/32"" I.D)
+
+ADRboard
+
+analog/digital
+
+CO2
+
+analyzer
+
+Air
+
+in
+
+Exhaust
+
+air
+
+Substrate
+
+feed
+
+pump
+
+Methanol
+
+sensor
+
+Computer
+
+with
+
+Labview6.1
+
+B.",,,,"The extracted relation is a direct quote from the source sentence, making it an accurate representation of the original text.",16.804483890533447,,False,,,"The extracted relation ""carrier air in"" is not present in the source sentence. The sentence does mention ""carrier air,"" but it doesn't specify that this air is ""in"" anything. Instead, it discusses various components of a methanol solution and other materials used for characterizing a probe, but there is no mention of the carrier air being ""in"" any of these components or materials.",7.480923891067505,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""carrier air"" as the subject and ""in"" as the predicate. The entity boundaries are correctly identified, with ""carrier air"" starting at character 789 and ""in"" starting at character 59.",5.777408838272095,
+0xf78,Anthony,provided research on,the hydroxylation of Methane to methanol,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methane  is  hydroxylated  to  methanol  by  methane  monooxygenase  in  a  NAD(P)H dependent  reaction  (Anthony  1982;  Cornish  et  al.,  1984;  Hanson  and  Hanson,  1996; Lipscomb 1994; Sullivan et al., 1998).",True,4.0,3.0,"The relation is accurately represented in the sentence, as it states that Anthony provided research on the hydroxylation of Methane to methanol. However, the faithfulness rating is not a perfect score because while the relation is stated, there are additional sentences providing supporting evidence for this claim, indicating some level of support rather than direct statement. The boundary quality rating is partially correct as the subject position (106-113) and object phrase (""the hydroxylation of Methane to methanol"") could be more precisely identified, but overall, they align well with the relation.",4.0760931968688965,,True,5.0,5.0,"The relation ""Anthony provided research on the hydroxylation of Methane to methanol"" is directly stated in the sentence, as Anthony's work is mentioned alongside other researchers who have studied the same topic. The subject and object boundaries are correctly identified, as the subject ""Anthony"" is the one providing the research, and the object ""the hydroxylation of Methane to methanol"" is the topic of the research.",6.120873928070068,,True,4.0,5.0,"The relation is accurately represented in the sentence, with Anthony being mentioned as a researcher. The faithfulness rating is high because the sentence directly mentions Anthony's involvement in research on methane hydroxylation to methanol. The entity boundaries are correctly identified, with ""Anthony"" clearly marked as the subject and ""the hydroxylation of Methane to methanol"" as the object.",6.077091932296753,
+0xf88,Intermediate products of the serine pathway,consist of,Carboxylic acids and amines,,,,Cross-chunk Analysis,Copy of Adegbola thesis High Density Cultures20251113.pdf,,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation,,,,,,Could not create prompt from relation
+0x1b7,nitrate mineral salt medium (NMS),composed of,"[MgSO4 ⋅ 7H2O, KNO3, KH2PO4, Na2H2PO4, CaCl2 ⋅ 2H2O, chelated Fe solution, trace element solution]",,,,2.4.3. PCR program,Copy of A. Priyadarsini et al. 202320251115.pdf,"The soil samples were diluted in distilled water (1 g in 10 mL) and seeded in nitrate mineral salt medium (NMS) composed of MgSO4 ⋅ 7H2O (1.0 g/L), KNO3 (1.0  g/L),  KH2PO4 (0.272  g/L),  Na2HPO4 (0.284  g/L),  CaCl2 ⋅ 2H2O (0.134 g/L), chelated Fe solution (0.2 % v /v), and a trace element solution (0.05 % v/v) (Sheets et al., 2016).",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that the NMS ""composed of"" contains specific components. The source sentence explicitly lists each component, making the extraction faithful and accurate in terms of entity boundaries.",2.7038967609405518,,True,5.0,5.0,"The relation ""composed of"" is directly stated in the sentence, and the subject (nitrate mineral salt medium) and object (MgSO4 ⋅ 7H2O, KNO3, KH2PO4, Na2H2PO4, CaCl2 ⋅ 2H2O, chelated Fe solution, trace element solution) are correctly identified as the components of the NMS. The sentence explicitly lists each component and their concentrations, which aligns with the extracted relation.",6.97964882850647,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject and object) are correctly identified as ""nitrate mineral salt medium (NMS)"" and the list of compounds it is composed of.",4.680110692977905,

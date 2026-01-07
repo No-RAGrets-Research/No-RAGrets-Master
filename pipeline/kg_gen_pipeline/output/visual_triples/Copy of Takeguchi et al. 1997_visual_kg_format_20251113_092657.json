@@ -1,0 +1,2284 @@
+{
+  "summary": {
+    "total_chunks": 6,
+    "errors": 0,
+    "entities": 67,
+    "relations": 64,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 64,
+    "sections": {
+      "Figure 2 Analysis": {
+        "chunks": 1,
+        "entities": 8,
+        "relations": 6
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 13,
+        "relations": 12
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 6,
+        "relations": 3
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 22,
+        "relations": 22
+      },
+      "Figure 8 Analysis": {
+        "chunks": 1,
+        "entities": 10,
+        "relations": 8
+      },
+      "Figure 9 Analysis": {
+        "chunks": 1,
+        "entities": 13,
+        "relations": 13
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Takeguchi et al. 1997_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T09:38:24.329830"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 2 Analysis",
+      "entities": [
+        "oxidation of methane to methanol",
+        "Formaldehyde dehydrogenase",
+        "Formate dehydrogenase",
+        "methanol synthesis",
+        "Pyrroquinoline quinone",
+        "Methane monooxygenase",
+        "M. trichosporium OB3b",
+        "Methanol dehydrogenase"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is used in",
+          "object": "methanol synthesis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Scheme 1. The  pathway of methanol synthesis with M. trichosporium OB3b.  MMO, methane  monooxygenase; MDH,  methanol  dehydrogenase;  FADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase; PQQ, pyrroquinoline quinone.",
+            "bbox_coordinates": {
+              "l": 63.0,
+              "t": 444.3839682617188,
+              "r": 445.172,
+              "b": 410.8189682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "Methane monooxygenase",
+          "predicate": "catalyzes",
+          "object": "oxidation of methane to methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Scheme 1. The  pathway of methanol synthesis with M. trichosporium OB3b.  MMO, methane  monooxygenase; MDH,  methanol  dehydrogenase;  FADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase; PQQ, pyrroquinoline quinone.",
+            "bbox_coordinates": {
+              "l": 63.0,
+              "t": 444.3839682617188,
+              "r": 445.172,
+              "b": 410.8189682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "Methanol dehydrogenase",
+          "predicate": "is involved in",
+          "object": "methanol synthesis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Scheme 1. The  pathway of methanol synthesis with M. trichosporium OB3b.  MMO, methane  monooxygenase; MDH,  methanol  dehydrogenase;  FADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase; PQQ, pyrroquinoline quinone.",
+            "bbox_coordinates": {
+              "l": 63.0,
+              "t": 444.3839682617188,
+              "r": 445.172,
+              "b": 410.8189682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "Formaldehyde dehydrogenase",
+          "predicate": "is involved in",
+          "object": "methanol synthesis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Scheme 1. The  pathway of methanol synthesis with M. trichosporium OB3b.  MMO, methane  monooxygenase; MDH,  methanol  dehydrogenase;  FADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase; PQQ, pyrroquinoline quinone.",
+            "bbox_coordinates": {
+              "l": 63.0,
+              "t": 444.3839682617188,
+              "r": 445.172,
+              "b": 410.8189682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "Formate dehydrogenase",
+          "predicate": "is involved in",
+          "object": "methanol synthesis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Scheme 1. The  pathway of methanol synthesis with M. trichosporium OB3b.  MMO, methane  monooxygenase; MDH,  methanol  dehydrogenase;  FADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase; PQQ, pyrroquinoline quinone.",
+            "bbox_coordinates": {
+              "l": 63.0,
+              "t": 444.3839682617188,
+              "r": 445.172,
+              "b": 410.8189682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        },
+        {
+          "subject": "Pyrroquinoline quinone",
+          "predicate": "is involved in",
+          "object": "methanol synthesis",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Scheme 1. The  pathway of methanol synthesis with M. trichosporium OB3b.  MMO, methane  monooxygenase; MDH,  methanol  dehydrogenase;  FADH, formaldehyde dehydrogenase; FDH, formate dehydrogenase; PQQ, pyrroquinoline quinone.",
+            "bbox_coordinates": {
+              "l": 63.0,
+              "t": 444.3839682617188,
+              "r": 445.172,
+              "b": 410.8189682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              225
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 63.0,
+                "t": 444.3839682617188,
+                "r": 445.172,
+                "b": 410.8189682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page2_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "methane-air (1:4 v/v%)",
+        "20 μM Cu concentration",
+        "120 rpm",
+        "rotary shaker table",
+        "○ symbol in Fig. 1",
+        "▲ symbol in Fig. 1",
+        "mineral salts medium",
+        "□ symbol in Fig. 1",
+        "0.21 μM Cu concentration",
+        "30°C",
+        "flask",
+        "M. trichosporium OB3b",
+        "1.25 μM Cu concentration"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown in",
+          "object": "mineral salts medium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown at",
+          "object": "30°C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown under",
+          "object": "methane-air (1:4 v/v%)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown in",
+          "object": "flask",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "flask",
+          "predicate": "was agitated on",
+          "object": "rotary shaker table",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "rotary shaker table",
+          "predicate": "was maintained at",
+          "object": "120 rpm",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown with",
+          "object": "0.21 μM Cu concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown with",
+          "object": "1.25 μM Cu concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "was grown with",
+          "object": "20 μM Cu concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "0.21 μM Cu concentration",
+          "predicate": "corresponds to",
+          "object": "□ symbol in Fig. 1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "1.25 μM Cu concentration",
+          "predicate": "corresponds to",
+          "object": "○ symbol in Fig. 1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        },
+        {
+          "subject": "20 μM Cu concentration",
+          "predicate": "corresponds to",
+          "object": "▲ symbol in Fig. 1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1.  Effect of  Cu concentration on  the growth  of M. trichosporium OB3b. M. trichosporium OB3b was grown  in  the mineral salts medium at  30~  under  methane-air (1:4 v/v%).  The  flask, were  agitated on  a  rotary shaker table maintained at  120  rpm. Cu concentration in  the medium:  [], 0.21 ~tM;  GLYPH<14>9  1.25 ~tM;  A,  20  ~tM.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.9559682617188,
+              "r": 436.5,
+              "b": 356.0399682617188,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              345
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 63.48,
+                "t": 400.9559682617188,
+                "r": 436.5,
+                "b": 356.0399682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "Fig. 2C",
+        "cell density on methanol accumulation",
+        "sodium formate concentration on methanol accumulation",
+        "temperature on methanol accumulation",
+        "Fig. 2B",
+        "Fig. 2A"
+      ],
+      "relations": [
+        {
+          "subject": "Fig. 2A",
+          "predicate": "shows the effect of",
+          "object": "cell density on methanol accumulation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig.  2.  Factors affecting methanol  accumulation. (A) the  effect of  cell density; (B)  the  effect of  temperature; (C)  the  effect of  sodium  formate concentration.",
+            "bbox_coordinates": {
+              "l": 63.72,
+              "t": 469.0049682617188,
+              "r": 434.584,
+              "b": 448.07996826171876,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              171
+            ]
+          }
+        },
+        {
+          "subject": "Fig. 2B",
+          "predicate": "shows the effect of",
+          "object": "temperature on methanol accumulation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig.  2.  Factors affecting methanol  accumulation. (A) the  effect of  cell density; (B)  the  effect of  temperature; (C)  the  effect of  sodium  formate concentration.",
+            "bbox_coordinates": {
+              "l": 63.72,
+              "t": 469.0049682617188,
+              "r": 434.584,
+              "b": 448.07996826171876,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              171
+            ]
+          }
+        },
+        {
+          "subject": "Fig. 2C",
+          "predicate": "shows the effect of",
+          "object": "sodium formate concentration on methanol accumulation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig.  2.  Factors affecting methanol  accumulation. (A) the  effect of  cell density; (B)  the  effect of  temperature; (C)  the  effect of  sodium  formate concentration.",
+            "bbox_coordinates": {
+              "l": 63.72,
+              "t": 469.0049682617188,
+              "r": 434.584,
+              "b": 448.07996826171876,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              171
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 63.72,
+                "t": 469.0049682617188,
+                "r": 434.584,
+                "b": 448.07996826171876,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 7 Analysis",
+      "entities": [
+        "reaction conditions",
+        "phosphate buffer (12.9 mM), pH 7.0",
+        "pMMO activity",
+        "3.5 mL",
+        "79.3%",
+        "reaction mixture for MDH activity",
+        "sodium formate (14.3 mM)",
+        "cell suspension (34.6 mg dry cell/mL)",
+        "MDH activity at 6.18 μM cyclopropanol",
+        "high concentration of phosphate ions",
+        "phosphate buffer (22 mM), pH 7.0",
+        "MDH activity",
+        "reaction mixture for pMMO activity",
+        "various concentrations of cyclopropanol",
+        "cyclopropanol",
+        "methanol (18 μmol)",
+        "propene epoxidation assay",
+        "methanol oxidation assay",
+        "propylene (112 μmol)",
+        "irreversible inhibitor of MDH",
+        "30°C",
+        "cyclopropanol concentration"
+      ],
+      "relations": [
+        {
+          "subject": "pMMO activity",
+          "predicate": "measured by",
+          "object": "propene epoxidation assay",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "MDH activity",
+          "predicate": "measured by",
+          "object": "methanol oxidation assay",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "pMMO activity",
+          "predicate": "affected by",
+          "object": "cyclopropanol concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "MDH activity",
+          "predicate": "affected by",
+          "object": "cyclopropanol concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "pMMO activity",
+          "predicate": "inhibited by",
+          "object": "high concentration of phosphate ions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "MDH activity",
+          "predicate": "inhibited by",
+          "object": "high concentration of phosphate ions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "cyclopropanol",
+          "predicate": "inhibits",
+          "object": "MDH activity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "cyclopropanol",
+          "predicate": "inhibits",
+          "object": "pMMO activity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "cyclopropanol",
+          "predicate": "is",
+          "object": "irreversible inhibitor of MDH",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for pMMO activity",
+          "predicate": "contains",
+          "object": "cell suspension (34.6 mg dry cell/mL)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for pMMO activity",
+          "predicate": "contains",
+          "object": "propylene (112 μmol)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for pMMO activity",
+          "predicate": "contains",
+          "object": "sodium formate (14.3 mM)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for pMMO activity",
+          "predicate": "contains",
+          "object": "various concentrations of cyclopropanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for pMMO activity",
+          "predicate": "contains",
+          "object": "phosphate buffer (12.9 mM), pH 7.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for MDH activity",
+          "predicate": "contains",
+          "object": "cell suspension (34.6 mg dry cell/mL)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for MDH activity",
+          "predicate": "contains",
+          "object": "methanol (18 μmol)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for MDH activity",
+          "predicate": "contains",
+          "object": "various concentrations of cyclopropanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for MDH activity",
+          "predicate": "contains",
+          "object": "phosphate buffer (22 mM), pH 7.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for pMMO activity",
+          "predicate": "total volume",
+          "object": "3.5 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture for MDH activity",
+          "predicate": "total volume",
+          "object": "3.5 mL",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "reaction conditions",
+          "predicate": "temperature",
+          "object": "30°C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        },
+        {
+          "subject": "MDH activity at 6.18 μM cyclopropanol",
+          "predicate": "decreased by",
+          "object": "79.3%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. Effect of  cyclopropanol concentration on  pMMO activity and  MDH activity. The  pMMO activity (o) was measured  by  propene  epoxidation assay. The reaction mixture  contains cell suspension (34.6 mg dry  cell/mL), propylene (112  ~tmol), sodium  formate (14.3 mM), and  various concentrations of  cyclopropanol in  phosphate buffer (12.9 mM), pH 7.0. The  MDH activity (GLYPH<14> 9   was  measured by  methanol oxidation assay. The reaction mixture contains cell suspension (34.6 mg dry  cell/mL), methanol (18 ~tmol), and  various concentrations of cyclopropanol in phosphate buffer (22  mM), pH 7.0. The  reaction was carried out  at 30~  The  total volume  of  reaction mixture was  3.5 mL.",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 400.0599682617188,
+              "r": 441.768,
+              "b": 298.31996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              703
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 63.48,
+                "t": 400.0599682617188,
+                "r": 441.768,
+                "b": 298.31996826171877,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 8 Analysis",
+      "entities": [
+        "effect of cyclopropanol concentration on methanol accumulation",
+        "reaction mixture",
+        "Fig. 4",
+        "7.0",
+        "phosphate buffer (58.6 mM)",
+        "cell suspension (1.39 g dry cell/mL)",
+        "oxygen (103 μmol)",
+        "30°C",
+        "sodium formate (14.3 mM)",
+        "methane (112 μmol)"
+      ],
+      "relations": [
+        {
+          "subject": "Fig. 4",
+          "predicate": "illustrates",
+          "object": "effect of cyclopropanol concentration on methanol accumulation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "cell suspension (1.39 g dry cell/mL)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "methane (112 μmol)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "oxygen (103 μmol)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "contains",
+          "object": "sodium formate (14.3 mM)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "is in",
+          "object": "phosphate buffer (58.6 mM)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "has pH",
+          "object": "7.0",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        },
+        {
+          "subject": "reaction mixture",
+          "predicate": "was carried out at",
+          "object": "30°C",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4  Effect of  cyclopropanol concentration on  methanol  accumulation. The  reaction of mixture contains cell suspension (1.39 g  dry cell/mL), methane  (112 ~tmol), oxygen  (103 ~tmol), and  sodium  formate (14.3 raM)  in phosphate buffer (58.6 mM), pH 7.0. The  reaction was  carried out  at 30~",
+            "bbox_coordinates": {
+              "l": 63.48,
+              "t": 403.34396826171877,
+              "r": 434.906,
+              "b": 358.25996826171877,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              301
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 63.48,
+                "t": 403.34396826171877,
+                "r": 434.906,
+                "b": 358.25996826171877,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page8_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 5,
+      "section": "Figure 9 Analysis",
+      "entities": [
+        "251 μM cyclopropanol under conventional conditions",
+        "optimum conditions",
+        "conventional conditions",
+        "67.0 nM cyclopropanol under optimum conditions",
+        "under both conventional and optimum conditions",
+        "58.6 mM phosphate buffer (pH 7.0) under conventional conditions",
+        ",",
+        "14.3 mM sodium formate under conventional conditions",
+        "12.9 mM phosphate buffer (pH 7.0) under optimum conditions",
+        "3.46 × 10² mg dry-cell/ml cells under optimum conditions",
+        "14.3 mM sodium formate under optimum conditions",
+        "M. trichosporium OB3b",
+        "1.39 mg dry-cell/ml cells under conventional conditions"
+      ],
+      "relations": [
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "performs methanol synthesis under",
+          "object": "conventional conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "performs methanol synthesis under",
+          "object": "optimum conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "1.39 mg dry-cell/ml cells under conventional conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "3.46 × 10² mg dry-cell/ml cells under optimum conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "14.3 mM sodium formate under conventional conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "14.3 mM sodium formate under optimum conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "58.6 mM phosphate buffer (pH 7.0) under conventional conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "12.9 mM phosphate buffer (pH 7.0) under optimum conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "251 μM cyclopropanol under conventional conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "requires",
+          "object": "67.0 nM cyclopropanol under optimum conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "is incubated with cyclopropanol at 20°C for 5 min before reaction",
+          "object": "under both conventional and optimum conditions",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "),\n    (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium OB3b",
+          "predicate": "),\n    (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Table 2 The  Reaction Condition of Methanol  Synthesis by M. trichosporium OB3b",
+            "bbox_coordinates": {
+              "l": 86.76,
+              "t": 647.5879682617187,
+              "r": 404.328,
+              "b": 624.0599682617187,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2040,
+                2985
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/5",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 86.76,
+                "t": 647.5879682617187,
+                "r": 404.328,
+                "b": 624.0599682617187,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

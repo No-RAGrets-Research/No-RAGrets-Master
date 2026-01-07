@@ -1,0 +1,3081 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 9,
+    "relations": 55,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Pontes et al 2009.json",
+    "processed_at": "2025-11-24T00:48:03.991093"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Acetone",
+      "predicate": "has_LOQ",
+      "object": "0.15",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 307,
+            "end": 314,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 317,
+            "end": 324,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 473,
+            "end": 477,
+            "sentence_id": 0,
+            "matched_text": "0.15"
+          },
+          {
+            "start": 530,
+            "end": 534,
+            "sentence_id": 0,
+            "matched_text": "0.15"
+          },
+          {
+            "start": 543,
+            "end": 547,
+            "sentence_id": 0,
+            "matched_text": "0.15"
+          },
+          {
+            "start": 585,
+            "end": 589,
+            "sentence_id": 0,
+            "matched_text": "0.15"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "0.38",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 486,
+            "end": 490,
+            "sentence_id": 0,
+            "matched_text": "0.38"
+          },
+          {
+            "start": 513,
+            "end": 517,
+            "sentence_id": 0,
+            "matched_text": "0.38"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has_LOD",
+      "object": "B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 277,
+            "end": 289,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 292,
+            "end": 304,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 413,
+            "end": 414,
+            "sentence_id": 0,
+            "matched_text": "B"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has_LOD",
+      "object": "2.8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 307,
+            "end": 314,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 317,
+            "end": 324,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 424,
+            "end": 427,
+            "sentence_id": 0,
+            "matched_text": "2.8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "0.75",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 430,
+            "end": 434,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 443,
+            "end": 447,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 456,
+            "end": 460,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 500,
+            "end": 504,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 556,
+            "end": 560,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 598,
+            "end": 602,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has_LOQ",
+      "object": "CCM",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 307,
+            "end": 314,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 317,
+            "end": 324,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 467,
+            "end": 470,
+            "sentence_id": 0,
+            "matched_text": "CCM"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has_LOQ",
+      "object": "0.75",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 327,
+            "end": 335,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 338,
+            "end": 346,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 430,
+            "end": 434,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 443,
+            "end": 447,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 456,
+            "end": 460,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 500,
+            "end": 504,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 556,
+            "end": 560,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          },
+          {
+            "start": 598,
+            "end": 602,
+            "sentence_id": 0,
+            "matched_text": "0.75"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "0.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 480,
+            "end": 483,
+            "sentence_id": 0,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 537,
+            "end": 540,
+            "sentence_id": 0,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 550,
+            "end": 553,
+            "sentence_id": 0,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 592,
+            "end": 595,
+            "sentence_id": 0,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 611,
+            "end": 614,
+            "sentence_id": 0,
+            "matched_text": "0.5"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "VH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 525,
+            "end": 527,
+            "sentence_id": 0,
+            "matched_text": "VH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has_LOD",
+      "object": "B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 327,
+            "end": 335,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 338,
+            "end": 346,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 413,
+            "end": 414,
+            "sentence_id": 0,
+            "matched_text": "B"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "2.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 437,
+            "end": 440,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 450,
+            "end": 453,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 463,
+            "end": 466,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 507,
+            "end": 510,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 563,
+            "end": 566,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 605,
+            "end": 608,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "CCM",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 467,
+            "end": 470,
+            "sentence_id": 0,
+            "matched_text": "CCM"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "0.25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 569,
+            "end": 573,
+            "sentence_id": 0,
+            "matched_text": "0.25"
+          },
+          {
+            "start": 624,
+            "end": 628,
+            "sentence_id": 0,
+            "matched_text": "0.25"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has_LOQ",
+      "object": "VH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 327,
+            "end": 335,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 338,
+            "end": 346,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 525,
+            "end": 527,
+            "sentence_id": 0,
+            "matched_text": "VH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has_LOQ",
+      "object": "2.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 327,
+            "end": 335,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 338,
+            "end": 346,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 437,
+            "end": 440,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 450,
+            "end": 453,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 463,
+            "end": 466,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 507,
+            "end": 510,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 563,
+            "end": 566,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          },
+          {
+            "start": 605,
+            "end": 608,
+            "sentence_id": 0,
+            "matched_text": "2.5"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has_LOQ",
+      "object": "0.84",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 277,
+            "end": 289,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 292,
+            "end": 304,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 417,
+            "end": 421,
+            "sentence_id": 0,
+            "matched_text": "0.84"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOQ",
+      "object": "U",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 581,
+            "end": 582,
+            "sentence_id": 0,
+            "matched_text": "U"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has_LOD",
+      "object": "B",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L | Table I. LOD and LOQ in mg/L\nAcetaldehyde | Acetaldehyde | Acetone | Acetone | Methanol | Methanol | Ethanol | Ethanol\nLOD | LOQ | LOD | LOQ | LOD | LOQ | LOD | LOQ\nB | 0.84 | 2.8 | 0.75 | 2.5 | 0.75 | 2.5 | 0.75 | 2.5\nCCM | 0.15 | 0.5 | 0.38 | 1.23 | 0.75 | 2.5 | 0.38 | 1.23\nVH | 0.15 | 0.5 | 0.15 | 0.5 | 0.75 | 2.5 | 0.25 | 0.83\nU | 0.15 | 0.5 | 0.75 | 2.5 | 0.5 | 1.67 | 0.25 | 0.83",
+        "document_offsets": {
+          "start": 0,
+          "end": 635
+        },
+        "subject_positions": [
+          {
+            "start": 349,
+            "end": 356,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 359,
+            "end": 366,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 413,
+            "end": 414,
+            "sentence_id": 0,
+            "matched_text": "B"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 56.82638931274414,
+          "t": 651.2438354492188,
+          "r": 387.5419921875,
+          "b": 531.0076293945312,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "0.193",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 24,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | -13.7\n60 | 0.193 \u00b1 0.006 | 3.078 | 18.0 | 0.166 \u00b1 0.016",
+        "document_offsets": {
+          "start": 0,
+          "end": 1266
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1222,
+            "end": 1227,
+            "sentence_id": 24,
+            "matched_text": "0.193"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "U",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0",
+        "document_offsets": {
+          "start": 0,
+          "end": 739
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 670,
+            "end": 671,
+            "sentence_id": 11,
+            "matched_text": "U"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "15",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 35,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | CV% | A%\nCM \u00a7 | 15 | 0.258 \u00b1 0.021 | 8.094 | -0.3 | 0.326 \u00b1 0.025 | 7.588 | -9.4 | 0.249 \u00b1 0.020 | 7.920 | 2.8 | 150 | 3.359 \u00b1 0.213 | 6.327 | 2.0\n60 | 0.788 \u00b1 0.063 | 8.060 | -10.5 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0 | 150 | 3.738 \u00b1 0.276 | 7.385 | 3.3\n60 | 0.859 \u00b1 0.085 | 9.869 | 1.582 \u00b1 0.039 | 2.445 | 6.7 | 1200 | 23.732 \u00b1 2.179 | 9.180 | -1.9\nB** | 15 | 0.077 \u00b1 0.007 | 9.113 | 18.0 | 150 | 0.401 \u00b1 0.055 | -11.7 | 0.122 \u00b1 0.019 | 15.286 | 11.584 | 9.8\nVH** | 15 | 0.054 \u00b1 0.009 | 10.886 | 150 | 0.644 \u00b1 0.078",
+        "document_offsets": {
+          "start": 0,
+          "end": 1615
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 270,
+            "end": 272,
+            "sentence_id": 6,
+            "matched_text": "15"
+          },
+          {
+            "start": 676,
+            "end": 678,
+            "sentence_id": 11,
+            "matched_text": "15"
+          },
+          {
+            "start": 1080,
+            "end": 1082,
+            "sentence_id": 19,
+            "matched_text": "15"
+          },
+          {
+            "start": 1301,
+            "end": 1303,
+            "sentence_id": 26,
+            "matched_text": "15"
+          },
+          {
+            "start": 1495,
+            "end": 1497,
+            "sentence_id": 33,
+            "matched_text": "15"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "0.122",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 26,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | -11.7 | 0.122 \u00b1 0.019 | 15.286",
+        "document_offsets": {
+          "start": 60,
+          "end": 1307
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1225,
+            "end": 1230,
+            "sentence_id": 26,
+            "matched_text": "0.122"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "0.788",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | -9.4 | 0.249 \u00b1 0.020 | 7.920 | 2.8 | 150 | 3.359 \u00b1 0.213 | 6.327 | 2.0\n60 | 0.788 \u00b1 0.063 | 8.060 | -10.5",
+        "document_offsets": {
+          "start": 0,
+          "end": 435
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 406,
+            "end": 411,
+            "sentence_id": 7,
+            "matched_text": "0.788"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has concentration",
+      "object": "1.099",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 1.099 \u00b1 0.100 | 9.088 | -1.0 | 0.799 \u00b1 0.038",
+        "document_offsets": {
+          "start": 0,
+          "end": 482
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 438,
+            "end": 443,
+            "sentence_id": 8,
+            "matched_text": "1.099"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has concentration",
+      "object": "600",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 40,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0 | 600 | 12.284 \u00b1 1.183 | 9.629 | -2.9 | 600 | 1.685 \u00b1 0.177 | 10.483 | 600 | 1.751 \u00b1 0.114 | 6.496 | -17.0\n120 | 0.284 \u00b1 0.002 | 0.818",
+        "document_offsets": {
+          "start": 0,
+          "end": 1797
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 501,
+            "end": 504,
+            "sentence_id": 11,
+            "matched_text": "600"
+          },
+          {
+            "start": 903,
+            "end": 906,
+            "sentence_id": 15,
+            "matched_text": "600"
+          },
+          {
+            "start": 1317,
+            "end": 1320,
+            "sentence_id": 27,
+            "matched_text": "600"
+          },
+          {
+            "start": 1734,
+            "end": 1737,
+            "sentence_id": 40,
+            "matched_text": "600"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "1.830",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0",
+        "document_offsets": {
+          "start": 0,
+          "end": 739
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 544,
+            "end": 549,
+            "sentence_id": 11,
+            "matched_text": "1.830"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "VH",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 33,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 11.584 | 9.8\nVH** | 15 | 0.054 \u00b1 0.009 | 10.886",
+        "document_offsets": {
+          "start": 60,
+          "end": 1522
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1428,
+            "end": 1430,
+            "sentence_id": 33,
+            "matched_text": "VH"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has concentration",
+      "object": "15.79",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021",
+        "document_offsets": {
+          "start": 0,
+          "end": 184
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has concentration",
+      "object": "-0.3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | CV% | A%\nCM \u00a7 | 15 | 0.258 \u00b1 0.021 | 8.094 | -0.3 | 0.326 \u00b1 0.025 | 7.588",
+        "document_offsets": {
+          "start": 0,
+          "end": 327
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has concentration",
+      "object": "2.444",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 17,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 2.444 \u00b1 0.131",
+        "document_offsets": {
+          "start": 0,
+          "end": 989
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 976,
+            "end": 981,
+            "sentence_id": 17,
+            "matched_text": "2.444"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "VH",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 33,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | 11.584 | 9.8\nVH** | 15 | 0.054 \u00b1 0.009 | 10.886",
+        "document_offsets": {
+          "start": 0,
+          "end": 1522
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1488,
+            "end": 1490,
+            "sentence_id": 33,
+            "matched_text": "VH"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration",
+      "object": "3.359",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | -9.4 | 0.249 \u00b1 0.020 | 7.920 | 2.8 | 150 | 3.359 \u00b1 0.213 | 6.327 | 2.0\n60 | 0.788 \u00b1 0.063 | 8.060 | -10.5",
+        "document_offsets": {
+          "start": 60,
+          "end": 435
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 82,
+            "end": 89,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 313,
+            "end": 318,
+            "sentence_id": 7,
+            "matched_text": "3.359"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "has concentration",
+      "object": "2.288",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0",
+        "document_offsets": {
+          "start": 0,
+          "end": 739
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 574,
+            "end": 579,
+            "sentence_id": 11,
+            "matched_text": "2.288"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "has concentration",
+      "object": "0.278",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 28,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone | 0.3\n120 | 0.278 \u00b1 0.041",
+        "document_offsets": {
+          "start": 0,
+          "end": 1371
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1358,
+            "end": 1363,
+            "sentence_id": 28,
+            "matched_text": "0.278"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration",
+      "object": "150",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 35,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | -9.4 | 0.249 \u00b1 0.020 | 7.920 | 2.8 | 150 | 3.359 \u00b1 0.213 | 6.327 | 2.0\n60 | 0.788 \u00b1 0.063 | 8.060 | -10.5 | 150 | 3.738 \u00b1 0.276 | 7.385 | 3.3\n60 | 0.859 \u00b1 0.085 | 9.869 | 150 | 0.401 \u00b1 0.055 | 150 | 0.644 \u00b1 0.078",
+        "document_offsets": {
+          "start": 60,
+          "end": 1615
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 82,
+            "end": 89,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 307,
+            "end": 310,
+            "sentence_id": 7,
+            "matched_text": "150"
+          },
+          {
+            "start": 713,
+            "end": 716,
+            "sentence_id": 13,
+            "matched_text": "150"
+          },
+          {
+            "start": 1120,
+            "end": 1123,
+            "sentence_id": 22,
+            "matched_text": "150"
+          },
+          {
+            "start": 1536,
+            "end": 1539,
+            "sentence_id": 35,
+            "matched_text": "150"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "-9.4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | -9.4 | 0.249 \u00b1 0.020 | 7.920 | 2.8 | 150 | 3.359 \u00b1 0.213 | 6.327 | 2.0\n60 | 0.788 \u00b1 0.063 | 8.060 | -10.5",
+        "document_offsets": {
+          "start": 60,
+          "end": 435
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "0.249",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | -9.4 | 0.249 \u00b1 0.020 | 7.920 | 2.8 | 150 | 3.359 \u00b1 0.213 | 6.327 | 2.0\n60 | 0.788 \u00b1 0.063 | 8.060 | -10.5",
+        "document_offsets": {
+          "start": 60,
+          "end": 435
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 277,
+            "end": 282,
+            "sentence_id": 7,
+            "matched_text": "0.249"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration",
+      "object": "600",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 40,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0 | 600 | 12.284 \u00b1 1.183 | 9.629 | -2.9 | 600 | 1.685 \u00b1 0.177 | 10.483 | 600 | 1.751 \u00b1 0.114 | 6.496 | -17.0\n120 | 0.284 \u00b1 0.002 | 0.818",
+        "document_offsets": {
+          "start": 60,
+          "end": 1797
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 82,
+            "end": 89,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 441,
+            "end": 444,
+            "sentence_id": 11,
+            "matched_text": "600"
+          },
+          {
+            "start": 843,
+            "end": 846,
+            "sentence_id": 15,
+            "matched_text": "600"
+          },
+          {
+            "start": 1257,
+            "end": 1260,
+            "sentence_id": 27,
+            "matched_text": "600"
+          },
+          {
+            "start": 1674,
+            "end": 1677,
+            "sentence_id": 40,
+            "matched_text": "600"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "1.813",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0",
+        "document_offsets": {
+          "start": 60,
+          "end": 739
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 544,
+            "end": 549,
+            "sentence_id": 11,
+            "matched_text": "1.813"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page4_table1",
+      "predicate": "contains",
+      "object": "Acetaldehyde",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Conc | Acetaldehyde | Acetaldehyde | Acetaldehyde | Acetone",
+        "document_offsets": {
+          "start": 0,
+          "end": 59
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "has concentration",
+      "object": "1200",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 44,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0 | 1.582 \u00b1 0.039 | 2.445 | 6.7 | 1200 | 23.732 \u00b1 2.179 | 9.180 | -1.9\nB** | 15 | 0.077 \u00b1 0.007 | 9.113 | 18.0 | 6.9 | 0.257 \u00b1 0.056 | 21.934 | 10.4 | 1200 | 3.622 \u00b1 0.420 | 1200 | 4.310 \u00b1 0.750 | 17.413 | 3.9",
+        "document_offsets": {
+          "start": 60,
+          "end": 1905
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          },
+          {
+            "start": 82,
+            "end": 89,
+            "sentence_id": 1,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 574,
+            "end": 578,
+            "sentence_id": 11,
+            "matched_text": "1200"
+          },
+          {
+            "start": 977,
+            "end": 981,
+            "sentence_id": 19,
+            "matched_text": "1200"
+          },
+          {
+            "start": 1392,
+            "end": 1396,
+            "sentence_id": 32,
+            "matched_text": "1200"
+          },
+          {
+            "start": 1810,
+            "end": 1814,
+            "sentence_id": 44,
+            "matched_text": "1200"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "U",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 600 | 10.951 \u00b1 0.955 | 8.722 | -22.3\n120 | 1.830 \u00b1 0.148 | 8.075 | 7.1 | 2.288 \u00b1 0.184 | 8.061 | 5.1 | 1.813 \u00b1 0.034 | 1.878 | 2.8 | 1200 | 29.410 \u00b1 1.562 | 5.311 | 3.2\nU \u00a7 | 15 | 0.248 \u00b1 0.009 | 3.787 | 6.2 | 0.319 \u00b1 0.021 | 6.464 | -3.0",
+        "document_offsets": {
+          "start": 60,
+          "end": 739
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 610,
+            "end": 611,
+            "sentence_id": 11,
+            "matched_text": "U"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "0.257",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 32,
+        "text_evidence": "| Acetone | Acetone | Methanol | Methanol | Methanol | Conc | Ethanol | Ethanol | Ethanol\n(mg/L) | Mean \u00b1 SD* | CV% \u2020 | A% \u2021 | 6.9 | 0.257 \u00b1 0.056 | 21.934 | 10.4 | 1200 | 3.622 \u00b1 0.420",
+        "document_offsets": {
+          "start": 60,
+          "end": 1472
+        },
+        "subject_positions": [
+          {
+            "start": 22,
+            "end": 30,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1360,
+            "end": 1365,
+            "sentence_id": 32,
+            "matched_text": "0.257"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 57.1202392578125,
+          "t": 312.3594055175781,
+          "r": 557.8873901367188,
+          "b": 109.74920654296875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethanol",
+      "predicate": "is paired with",
+      "object": "Ethanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207",
+        "document_offsets": {
+          "start": 0,
+          "end": 575
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 36,
+            "end": 43,
+            "sentence_id": 0,
+            "matched_text": "Ethanol"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "has inter-day precision",
+      "object": "11.572",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 292,
+            "end": 293,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 609,
+            "end": 610,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 926,
+            "end": 927,
+            "sentence_id": 1,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 930,
+            "end": 936,
+            "sentence_id": 1,
+            "matched_text": "11.572"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CCM",
+      "predicate": "has inter-day precision",
+      "object": "9.025",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 222,
+            "end": 225,
+            "sentence_id": 0,
+            "matched_text": "CCM"
+          },
+          {
+            "start": 539,
+            "end": 542,
+            "sentence_id": 0,
+            "matched_text": "CCM"
+          },
+          {
+            "start": 856,
+            "end": 859,
+            "sentence_id": 1,
+            "matched_text": "CCM"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 862,
+            "end": 867,
+            "sentence_id": 1,
+            "matched_text": "9.025"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetaldehyde",
+      "predicate": "is paired with",
+      "object": "Acetaldehyde",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207",
+        "document_offsets": {
+          "start": 0,
+          "end": 575
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "Acetaldehyde"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "U",
+      "predicate": "has inter-day precision",
+      "object": "5.543",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 258,
+            "end": 259,
+            "sentence_id": 0,
+            "matched_text": "U"
+          },
+          {
+            "start": 575,
+            "end": 576,
+            "sentence_id": 1,
+            "matched_text": "U"
+          },
+          {
+            "start": 892,
+            "end": 893,
+            "sentence_id": 1,
+            "matched_text": "U"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 896,
+            "end": 901,
+            "sentence_id": 1,
+            "matched_text": "5.543"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is paired with",
+      "object": "Methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207",
+        "document_offsets": {
+          "start": 0,
+          "end": 575
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "B",
+      "predicate": "has intra-day precision",
+      "object": "9.017",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 292,
+            "end": 293,
+            "sentence_id": 0,
+            "matched_text": "B"
+          },
+          {
+            "start": 609,
+            "end": 610,
+            "sentence_id": 1,
+            "matched_text": "B"
+          },
+          {
+            "start": 926,
+            "end": 927,
+            "sentence_id": 1,
+            "matched_text": "B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 296,
+            "end": 301,
+            "sentence_id": 0,
+            "matched_text": "9.017"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Acetone",
+      "predicate": "is paired with",
+      "object": "Acetone",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207",
+        "document_offsets": {
+          "start": 0,
+          "end": 575
+        },
+        "subject_positions": [
+          {
+            "start": 15,
+            "end": 22,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 22,
+            "sentence_id": 0,
+            "matched_text": "Acetone"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "VH",
+      "predicate": "has inter-day precision",
+      "object": "12.254",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 326,
+            "end": 328,
+            "sentence_id": 0,
+            "matched_text": "VH"
+          },
+          {
+            "start": 643,
+            "end": 645,
+            "sentence_id": 1,
+            "matched_text": "VH"
+          },
+          {
+            "start": 962,
+            "end": 964,
+            "sentence_id": 1,
+            "matched_text": "VH"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 967,
+            "end": 973,
+            "sentence_id": 1,
+            "matched_text": "12.254"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CCM",
+      "predicate": "has intra-day precision",
+      "object": "5.138",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 222,
+            "end": 225,
+            "sentence_id": 0,
+            "matched_text": "CCM"
+          },
+          {
+            "start": 539,
+            "end": 542,
+            "sentence_id": 0,
+            "matched_text": "CCM"
+          },
+          {
+            "start": 856,
+            "end": 859,
+            "sentence_id": 1,
+            "matched_text": "CCM"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 228,
+            "end": 233,
+            "sentence_id": 0,
+            "matched_text": "5.138"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "U",
+      "predicate": "has intra-day precision",
+      "object": "2.322",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 258,
+            "end": 259,
+            "sentence_id": 0,
+            "matched_text": "U"
+          },
+          {
+            "start": 575,
+            "end": 576,
+            "sentence_id": 1,
+            "matched_text": "U"
+          },
+          {
+            "start": 892,
+            "end": 893,
+            "sentence_id": 1,
+            "matched_text": "U"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 262,
+            "end": 267,
+            "sentence_id": 0,
+            "matched_text": "2.322"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "VH",
+      "predicate": "has intra-day precision",
+      "object": "4.718",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Acetaldehyde | Acetone | Methanol | Ethanol\nIntra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID | Intra-day precision of the GC-FID\nCCM | 5.138 | 5.168 | 6.292 | 3.404\nU | 2.322 | 2.060 | 3.839 | 1.957\nB | 9.017 | 4.134 | 6.342 | 2.202\nVH | 4.718 | 2.410 | 6.663 | 4.518\nIntra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method | Intra-day precision of the method\nCCM | 5.978 | 5.042 | 5.697 | 6.207 U | 5.699 | 4.485 | 7.003 | 6.235\nB | 3.797 | 5.262 | 8.829 | 2.973\nVH | 8.051 | 7.871 | 8.267 | 5.901\nInter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method | Inter-day precision of the method\nCCM | 9.025 | 7.526 | 5.179 | 6.668\nU | 5.543 | 5.253 | 6.802 | 8.336\nB | 11.572 | 8.621 | 10.728 | 8.684\nVH | 12.254",
+        "document_offsets": {
+          "start": 0,
+          "end": 973
+        },
+        "subject_positions": [
+          {
+            "start": 326,
+            "end": 328,
+            "sentence_id": 0,
+            "matched_text": "VH"
+          },
+          {
+            "start": 643,
+            "end": 645,
+            "sentence_id": 1,
+            "matched_text": "VH"
+          },
+          {
+            "start": 962,
+            "end": 964,
+            "sentence_id": 1,
+            "matched_text": "VH"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 331,
+            "end": 336,
+            "sentence_id": 0,
+            "matched_text": "4.718"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 57.76487731933594,
+          "t": 275.5189208984375,
+          "r": 386.4254150390625,
+          "b": 51.3685302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Ethanol",
+    "VH",
+    "B",
+    "Acetaldehyde",
+    "Acetone",
+    "Table page4_table1",
+    "Methanol",
+    "CCM",
+    "U"
+  ]
+}

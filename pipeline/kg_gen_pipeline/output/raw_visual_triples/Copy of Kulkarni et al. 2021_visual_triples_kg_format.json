@@ -1,0 +1,4207 @@
+{
+  "summary": {
+    "total_chunks": 6,
+    "errors": 0,
+    "entities": 125,
+    "relations": 124,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 124,
+    "sections": {
+      "Figure 2 Analysis": {
+        "chunks": 1,
+        "entities": 25,
+        "relations": 18
+      },
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 38,
+        "relations": 36
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 19,
+        "relations": 18
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 22,
+        "relations": 16
+      },
+      "Figure 7 Analysis": {
+        "chunks": 2,
+        "entities": 36,
+        "relations": 36
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Kulkarni et al. 2021_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T13:07:28.365849"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 2 Analysis",
+      "entities": [
+        "A1: 6 strains",
+        "15 strains",
+        "B1: 11 strains and B2: 2 strains (only sMMO)",
+        "A2: 22 strains",
+        "M. trichosporium",
+        "13 strains",
+        "B1: 10 strains",
+        "M. methanica",
+        "Criteria 2",
+        "pmoA / sMMO sequence availability",
+        "M. silvestris",
+        "Criteria 4",
+        "28 strains",
+        "Criteria 3",
+        "33 strains",
+        "representative selection",
+        "B2: 2 strains (only sMMO)",
+        "Mesophilic methanotrophs",
+        "A1: 6 strains and A2: 22 strains",
+        "M. alkaliphilum",
+        "Group A",
+        "sub-grouping based on phylogenetic analysis of pmoA",
+        "Group B",
+        "45 strains",
+        "Criteria 1"
+      ],
+      "relations": [
+        {
+          "subject": "Group A",
+          "predicate": "contains",
+          "object": "45 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group A",
+          "predicate": "qualifies as",
+          "object": "Mesophilic methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group B",
+          "predicate": "contains",
+          "object": "15 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group B",
+          "predicate": "qualifies as",
+          "object": "Mesophilic methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group A",
+          "predicate": "after Criteria 1",
+          "object": "33 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group B",
+          "predicate": "after Criteria 1",
+          "object": "13 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group A",
+          "predicate": "after Criteria 2",
+          "object": "28 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group B",
+          "predicate": "after Criteria 2",
+          "object": "B1: 11 strains and B2: 2 strains (only sMMO)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group A",
+          "predicate": "after Criteria 3",
+          "object": "A1: 6 strains and A2: 22 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Group B",
+          "predicate": "after Criteria 3",
+          "object": "B1: 10 strains",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "A1: 6 strains",
+          "predicate": "selected as representative",
+          "object": "M. methanica",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "A2: 22 strains",
+          "predicate": "selected as representative",
+          "object": "M. alkaliphilum",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "B1: 10 strains",
+          "predicate": "selected as representative",
+          "object": "M. trichosporium",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "B2: 2 strains (only sMMO)",
+          "predicate": "selected as representative",
+          "object": "M. silvestris",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Criteria 1",
+          "predicate": "applies to",
+          "object": "Mesophilic methanotrophs",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Criteria 2",
+          "predicate": "applies to",
+          "object": "pmoA / sMMO sequence availability",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Criteria 3",
+          "predicate": "applies to",
+          "object": "sub-grouping based on phylogenetic analysis of pmoA",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        },
+        {
+          "subject": "Criteria 4",
+          "predicate": "applies to",
+          "object": "representative selection",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "FIG. 1. Primary segregation and selection criteria for selection of representative methanotrophs for evaluation of methanol production ability.",
+            "bbox_coordinates": {
+              "l": 311.584,
+              "t": 481.86998876953123,
+              "r": 562.654,
+              "b": 467.36998876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                832,
+                940
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 311.584,
+                "t": 481.86998876953123,
+                "r": 562.654,
+                "b": 467.36998876953123,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page2_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "M. koyamae",
+        "Group B1",
+        "M. sporium",
+        "M. rosea",
+        "M. acidiphila",
+        "M. alcaliphilum",
+        "M. buryatense",
+        "M. trichosporium",
+        "M. crimeensis",
+        "M. aurea",
+        "M. methanica",
+        "M. kenyense",
+        "M. palsearum",
+        "M. pelagicum",
+        "Group A1",
+        "M. echinoides",
+        "M. difficile",
+        "M. vadi",
+        "M. miyakonense",
+        "M. japanense",
+        "M. oryzae",
+        "M. hirsuta",
+        "M. whittenburyi",
+        "M. fibra",
+        "M. lacus",
+        "M. parvus",
+        "M. tuteus",
+        "M. bryophila",
+        "M. ishizawai",
+        "M. album",
+        "M. murrelli",
+        "M. heyeri",
+        "M. agile",
+        "M. marinus",
+        "M. quiskuillarum",
+        "M. psychrotolerans",
+        "M. capsulatus",
+        "M. tunbridaludum"
+      ],
+      "relations": [
+        {
+          "subject": "M. koyamae",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. vadi",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. tunbridaludum",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. murrelli",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. quiskuillarum",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. oryzae",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. capsulatus",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. ishizawai",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. crimeensis",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. pelagicum",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. fibra",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. lacus",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. agile",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. album",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. difficile",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. miyakonense",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. psychrotolerans",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. japanense",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. kenyense",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. buryatense",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. whittenburyi",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. tuteus",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. marinus",
+          "predicate": "belongs to",
+          "object": "Group A1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. bryophila",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. palsearum",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. aurea",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. acidiphila",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. sporium",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. parvus",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. echinoides",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. hirsuta",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. rosea",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        },
+        {
+          "subject": "M. heyeri",
+          "predicate": "belongs to",
+          "object": "Group B1",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gammaproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+            "bbox_coordinates": {
+              "l": 42.52,
+              "t": 67.72898876953127,
+              "r": 562.643,
+              "b": 53.22898876953127,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1847
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              335
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 42.52,
+                "t": 67.72898876953127,
+                "r": 562.643,
+                "b": 53.22898876953127,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "0.10 h⁻¹ at 6% methanol",
+        "0.07 h⁻¹ at 3% methanol",
+        "0.10 h⁻¹ at 1% methanol",
+        "0.05 h⁻¹ at 0% methanol",
+        "M. alcaliphilum",
+        "0.08 h⁻¹ at 0% methanol",
+        "M. trichosporium",
+        "M. methanica",
+        "0.03 h⁻¹ at 5% methanol",
+        "0.08 h⁻¹ at 4% methanol",
+        "0.10 h⁻¹ at 0% methanol",
+        "0.01 h⁻¹ at 6% methanol",
+        "0.06 h⁻¹ at 5% methanol",
+        "0.09 h⁻¹ at 2% methanol",
+        "0.13 h⁻¹ at 3% methanol",
+        "0.12 h⁻¹ at 1% methanol",
+        "0.04 h⁻¹ at 4% methanol",
+        "0.10 h⁻¹ at 2% methanol",
+        "0.13 h⁻¹ at 2% methanol"
+      ],
+      "relations": [
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.05 h⁻¹ at 0% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.10 h⁻¹ at 1% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.10 h⁻¹ at 2% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.07 h⁻¹ at 3% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.04 h⁻¹ at 4% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.03 h⁻¹ at 5% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "maximum specific growth rate",
+          "object": "0.01 h⁻¹ at 6% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.10 h⁻¹ at 0% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.12 h⁻¹ at 1% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.13 h⁻¹ at 2% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.13 h⁻¹ at 3% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.08 h⁻¹ at 4% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.06 h⁻¹ at 5% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "maximum specific growth rate",
+          "object": "0.10 h⁻¹ at 6% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "maximum specific growth rate",
+          "object": "0.08 h⁻¹ at 0% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "maximum specific growth rate",
+          "object": "0.10 h⁻¹ at 1% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "maximum specific growth rate",
+          "object": "0.09 h⁻¹ at 2% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "maximum specific growth rate",
+          "object": "0.07 h⁻¹ at 3% methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "FIG. 3. Methanol tolerance data of (A) M. methanica , (B) M. alcaliphilum , (C) M. trichosporium and (D) M. silvestris . Maximum speci /uniFB01 c growth rate (h /C0 1 ) in the presence of methane ( /uniFB01 lled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 32.596,
+              "t": 469.0529887695312,
+              "r": 552.709,
+              "b": 452.96998876953126,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1000
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              342
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 32.596,
+                "t": 469.0529887695312,
+                "r": 552.709,
+                "b": 452.96998876953126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "three replicates",
+        "NaCl concentration",
+        "M. alcaliphilum",
+        "biotransformation reaction",
+        "2 g dry cells/L",
+        "Potassium phosphate concentration",
+        "standard deviation",
+        "M. methanica",
+        "error bar",
+        "Sodium formate concentration",
+        "M. silvestris",
+        "Optimum inhibitor level",
+        "EDTA concentration",
+        "Sodium formate",
+        "Methanol",
+        "Sodium phosphate buffer (pH 6.8)",
+        "MgCl2 concentration",
+        "each strain",
+        "NH4Cl concentration",
+        "data collection",
+        "40 mmol L⁻¹",
+        "Methanol production"
+      ],
+      "relations": [
+        {
+          "subject": "Methanol production",
+          "predicate": "affected by",
+          "object": "Potassium phosphate concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Methanol production",
+          "predicate": "affected by",
+          "object": "NaCl concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Methanol production",
+          "predicate": "affected by",
+          "object": "MgCl2 concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Methanol production",
+          "predicate": "affected by",
+          "object": "EDTA concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Methanol production",
+          "predicate": "affected by",
+          "object": "NH4Cl concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Methanol production",
+          "predicate": "affected by",
+          "object": "Sodium formate concentration",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "produces",
+          "object": "Methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "produces",
+          "object": "Methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "M. silvestris",
+          "predicate": "produces",
+          "object": "Methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Sodium phosphate buffer (pH 6.8)",
+          "predicate": "used in",
+          "object": "biotransformation reaction",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Sodium formate",
+          "predicate": "used in",
+          "object": "biotransformation reaction",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "2 g dry cells/L",
+          "predicate": "used in",
+          "object": "biotransformation reaction",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "40 mmol L⁻¹",
+          "predicate": "used in",
+          "object": "biotransformation reaction",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "Optimum inhibitor level",
+          "predicate": "defined for",
+          "object": "each strain",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "three replicates",
+          "predicate": "used for",
+          "object": "data collection",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        },
+        {
+          "subject": "standard deviation",
+          "predicate": "represented as",
+          "object": "error bar",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L /C0 1 sodium formate with inhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level for each strain. M. methanica ( /uniFB01 lled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+            "bbox_coordinates": {
+              "l": 42.517,
+              "t": 342.0609887695312,
+              "r": 562.727,
+              "b": 308.8009887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1659,
+                1529
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              575
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 42.517,
+                "t": 342.0609887695312,
+                "r": 562.727,
+                "b": 308.8009887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 7 Analysis",
+      "entities": [
+        "200 mmol/L potassium phosphate",
+        "0.2-0.4 U/mg protein",
+        "80-100 nmol/mg/min",
+        "M. alcaliphilum",
+        "60-80 nmol/mg/min",
+        "100-150 mg/L",
+        "M. trichosporium",
+        "M. methanica",
+        "M. silvestris",
+        "0.1-0.3 U/mg protein",
+        "40-60 nmol/mg/min",
+        "100 mmol/L potassium phosphate",
+        "10 mmol/L MgCl2",
+        "150-200 mg/L",
+        "0.5-0.8 U/mg protein",
+        "20 mmol/L ammonium chloride",
+        "10-30 nmol/mg/min",
+        "1.0-1.5 U/mg protein",
+        "400 mmol/L potassium phosphate",
+        "40 mmol/L",
+        "80 mmol/L",
+        "200-300 mg/L"
+      ],
+      "relations": [
+        {
+          "subject": "M. methanica",
+          "predicate": "has MMO activity",
+          "object": "10-30 nmol/mg/min",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "has FDH activity",
+          "object": "0.1-0.3 U/mg protein",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has MMO activity",
+          "object": "60-80 nmol/mg/min",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has FDH activity",
+          "object": "1.0-1.5 U/mg protein",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "has MMO activity",
+          "object": "80-100 nmol/mg/min",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "has FDH activity",
+          "object": "0.5-0.8 U/mg protein",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. silvestris",
+          "predicate": "has MMO activity",
+          "object": "40-60 nmol/mg/min",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. silvestris",
+          "predicate": "has FDH activity",
+          "object": "0.2-0.4 U/mg protein",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "produces methanol",
+          "object": "100-150 mg/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "produces methanol",
+          "object": "200-300 mg/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "produces methanol",
+          "object": "200-300 mg/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. silvestris",
+          "predicate": "produces methanol",
+          "object": "150-200 mg/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "has inhibitor",
+          "object": "200 mmol/L potassium phosphate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "has inhibitor",
+          "object": "100 mmol/L potassium phosphate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. silvestris",
+          "predicate": "has inhibitor",
+          "object": "200 mmol/L potassium phosphate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has inhibitor",
+          "object": "20 mmol/L ammonium chloride",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "has inhibitor",
+          "object": "400 mmol/L potassium phosphate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. trichosporium",
+          "predicate": "has inhibitor",
+          "object": "10 mmol/L MgCl2",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. methanica",
+          "predicate": "has sodium formate",
+          "object": "40 mmol/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has sodium formate",
+          "object": "80 mmol/L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A) Speci /uniFB01 c FDH enzyme activity (open bars) and total MMO activity of methanotrophs ( /uniFB01 lled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L /C0 1 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, inhibitors (200 and 100 mmol L /C0 1 potassium phosphate for M. methanica and M. silvestris ; 20 mmol L /C0 1 ammonium chloride for M. alcaliphilum ; 400 mmol L /C0 1 potassium phosphate and 10 mmol L /C0 1 MgCl2 for M. trichosporium ) and sodium formate (40 mmol L /C0 1 for M. methanica ; 80 mmol L /C0 1 for M. alcaliphilum ; 20 mmol L /C0 1 for M. trichosporium and 20 mmol L /C0 1 for M. silvestris ). Carbon sources used were methane ( /uniFB01 lled bars), biogas from sugarcane bagasse (bars with horizontal lines) and biogas from rice straw (open bars). Data is mean representation of three replicates and standard deviation is displayed as error bars.",
+            "bbox_coordinates": {
+              "l": 32.597,
+              "t": 432.32098876953125,
+              "r": 283.738,
+              "b": 332.15798876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1146
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              977
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 32.597,
+                "t": 432.32098876953125,
+                "r": 283.738,
+                "b": 332.15798876953124,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 5,
+      "section": "Figure 7 Analysis",
+      "entities": [
+        "using biogas",
+        "Formic acid",
+        "without sodium formate inhibitors",
+        "M. alcaliphilum",
+        "Pure methane",
+        "with sodium formate inhibitors",
+        "with sodium formate",
+        "Sodium formate",
+        "in the presence of inhibitors",
+        "Methanol",
+        "without sodium formate",
+        "using pure methane",
+        ",",
+        "Redox regeneration efficiency"
+      ],
+      "relations": [
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "produces methanol",
+          "object": "with sodium formate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "produces methanol",
+          "object": "without sodium formate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has redox regeneration efficiency",
+          "object": "with sodium formate inhibitors",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has redox regeneration efficiency",
+          "object": "without sodium formate inhibitors",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "produces methanol",
+          "object": "using pure methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "produces methanol",
+          "object": "using biogas",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "utilizes methane",
+          "object": "using pure methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "utilizes methane",
+          "object": "using biogas",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has residual formic acid",
+          "object": "using pure methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "M. alcaliphilum",
+          "predicate": "has residual formic acid",
+          "object": "using biogas",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "Sodium formate",
+          "predicate": "affects methanol production in M. alcaliphilum",
+          "object": "in the presence of inhibitors",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "Sodium formate",
+          "predicate": "affects redox regeneration efficiency in M. alcaliphilum",
+          "object": "in the presence of inhibitors",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "Pure methane",
+          "predicate": "),\n    (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "Methanol",
+          "predicate": "),\n    (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "Formic acid",
+          "predicate": "),\n    (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        },
+        {
+          "subject": "Redox regeneration efficiency",
+          "predicate": "),\n    (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig2",
+            "page_number": 7,
+            "caption_evidence": "FIG. 6. (A) Effect of sodium formate on M. alcaliphilum methanol production in the presence of inhibitors (open bars) and in the absence of inhibitors ( /uniFB01 lled bars). Redox regeneration ef /uniFB01 ciency, in the presence of inhibitors (circles) and in the absence of inhibitors (squares). Mean of triplicate data is represented with standard deviation for bar chart. Line chart is mean representation of triplicate data for which standard deviation is within /C6 5% range. (B) Methanol production at 14 L fermentor using methane and biogas from sugarcane bagasse by M. alcaliphilum . Methanol titer using pure methane ( /uniFB01 lled squares) and biogas (open squares); methane utilized using pure methane ( /uniFB01 lled circles) and biogas (open circles); residual formic acid in pure methane ( /uniFB01 lled triangles) and biogas (open triangles). Data is mean representation of three replicates and standard deviation /C20 10%.",
+            "bbox_coordinates": {
+              "l": 301.662,
+              "t": 415.93698876953124,
+              "r": 552.841,
+              "b": 319.4809887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                951,
+                1215
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              939
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/5",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 301.662,
+                "t": 415.93698876953124,
+                "r": 552.841,
+                "b": 319.4809887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

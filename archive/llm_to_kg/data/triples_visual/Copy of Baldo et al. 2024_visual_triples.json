@@ -1,0 +1,154 @@
+[
+  {
+    "page": 2,
+    "caption": "FIGURE 1\nGeneral metabolic pathway for CH4 assimilation in methanotrophic bacteria.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: FIGURE 1\nGeneral metabolic pathway for CH4 assimilation in methanotrophic bacteria.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"Methanotrophic cell\",\n    \"relation\": \"contains\",\n    \"object\": \"MMO\"\n  },\n  {\n    \"subject\": \"Methanotrophic cell\",\n    \"relation\": \"contains\",\n    \"object\": \"MDH\"\n  },\n  {\n    \"subject\": \"Methanotrophic cell\",\n    \"relation\": \"contains\",\n    \"object\": \"FDH\"\n  },\n  {\n    \"subject\": \"Methanotrophic cell\",\n    \"relation\": \"contains\",\n    \"object\": \"FADH\"\n  },\n  {\n    \"subject\": \"MMO\",\n    \"relation\": \"catalyzes\",\n    \"object\": \"conversion of CH4 to CH3OH\"\n  },\n  {\n    \"subject\": \"MDH\",\n    \"relation\": \"catalyzes\",\n    \"object\": \"conversion of CH3OH to CH2O\"\n  },\n  {\n    \"subject\": \"FDH\",\n    \"relation\": \"catalyzes\",\n    \"object\": \"conversion of HCOO- to CO2\"\n  },\n  {\n    \"subject\": \"FADH\",\n    \"relation\": \"catalyzes\",\n    \"object\": \"conversion of CH2O to HCOO-\"\n  },\n  {\n    \"subject\": \"MMO\",\n    \"relation\": \"requires\",\n    \"object\": \"O2\"\n  },\n  {\n    \"subject\": \"MMO\",\n    \"relation\": \"produces\",\n    \"object\": \"H2O\"\n  },\n  {\n    \"subject\": \"MDH\",\n    \"relation\": \"requires\",\n    \"object\": \"NAD+\"\n  },\n  {\n    \"subject\": \"MDH\",\n    \"relation\": \"produces\",\n    \"object\": \"NADH + H+\"\n  },\n  {\n    \"subject\": \"FDH\",\n    \"relation\": \"requires\",\n    \"object\": \"NAD+\"\n  },\n  {\n    \"subject\": \"FDH\",\n    \"relation\": \"produces\",\n    \"object\": \"NADH + H+\"\n  },\n  {\n    \"subject\": \"FADH\",\n    \"relation\": \"produces\",\n    \"object\": \"NAD+\"\n  },\n  {\n    \"subject\": \"CH4\",\n    \"relation\": \"converted to\",\n    \"object\": \"CH3OH\"\n  },\n  {\n"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "FIGURE 2\nMeOH production kinetics by M. trichosporium OB3b in the\nbatch mode under the reference conditions (results of four\nindependent assays).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: FIGURE 2\nMeOH production kinetics by M. trichosporium OB3b in the\nbatch mode under the reference conditions (results of four\nindependent assays).\n\nOutput JSON list only:\nassistant\n[(\"MeOH production\", \"kinetics\", \"M. trichosporium OB3b\"), (\"MeOH production\", \"measured in\", \"mg/L\"), (\"MeOH production\", \"over time\", \"reaction time (h)\"), (\"MeOH production\", \"under conditions\", \"batch mode\"), (\"MeOH production\", \"repeated\", \"four independent assays\")]"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "FIGURE 3\nCH4 hydroxylation by M. trichosporium OB3b in the batch mode under the reference conditions with 13C-formate: nuclear magnetic resonance\nspectra at (A) t = 0 h, (B) 4 h, (C) 20 h, and (D) 48 h; (E) gas chromatography mass spectrometry quantiﬁcations of 12C-MeOH, 13C-labeled MeOH,\n12C-formate, and 13C-labeled formate.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: FIGURE 3\nCH4 hydroxylation by M. trichosporium OB3b in the batch mode under the reference conditions with 13C-formate: nuclear magnetic resonance\nspectra at (A) t = 0 h, (B) 4 h, (C) 20 h, and (D) 48 h; (E) gas chromatography mass spectrometry quantiﬁcations of 12C-MeOH, 13C-labeled MeOH,\n12C-formate, and 13C-labeled formate.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"NMR spectrum A\",\n    \"relation\": \"corresponds to\",\n    \"object\": \"t = 0 h\"\n  },\n  {\n    \"subject\": \"NMR spectrum B\",\n    \"relation\": \"corresponds to\",\n    \"object\": \"t = 4 h\"\n  },\n  {\n    \"subject\": \"NMR spectrum C\",\n    \"relation\": \"corresponds to\",\n    \"object\": \"t = 20 h\"\n  },\n  {\n    \"subject\": \"NMR spectrum D\",\n    \"relation\": \"corresponds to\",\n    \"object\": \"t = 48 h\"\n  },\n  {\n    \"subject\": \"Table E\",\n    \"relation\": \"contains quantification of\",\n    \"object\": \"12C-MeOH\"\n  },\n  {\n    \"subject\": \"Table E\",\n    \"relation\": \"contains quantification of\",\n    \"object\": \"13C-MeOH\"\n  },\n  {\n    \"subject\": \"Table E\",\n    \"relation\": \"contains quantification of\",\n    \"object\": \"12C-formate\"\n  },\n  {\n    \"subject\": \"Table E\",\n    \"relation\": \"contains quantification of\",\n    \"object\": \"13C-formate\"\n  },\n  {\n    \"subject\": \"12C-MeOH\",\n    \"relation\": \"is quantified in\",\n    \"object\": \"Table E\"\n  },\n  {\n    \"subject\": \"13C-MeOH\",\n    \"relation\": \"is quantified in\",\n    \"object\": \"Table E\"\n  },\n  {\n    \"subject\": \"12C-formate\",\n    \"relation\": \"is quantified in\",\n    \"object\": \"Table E\"\n  },\n  {\n    \"subject\": \"13C-formate\",\n    \"relation\": \"is quantified in\",\n    \"object\": \"Table E\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"performs\",\n    \"object\": \"CH4 hydroxylation\"\n  },\n  {\n    \"subject\": \"CH4 hydroxylation\",\n    \"relation\": \"occurs under\",\n    \"object\": \"batch mode\"\n  },\n  {\n    \"subject\": \"CH4 hydroxylation\",\n    \"relation\": \"uses\",\n    \"object\": \"13C-formate"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "FIGURE 4\nMeOH production by M. trichosporium OB3b in the batch mode\nunder the reference conditions (ﬁlled circles) and with headspace\nrenewals at 6 and 24 h (empty circles).",
+    "triples": [
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "produces",
+        "object": "MeOH"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "under reference conditions",
+        "object": "filled circles"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "under headspace renewals",
+        "object": "empty circles"
+      },
+      {
+        "subject": "MeOH",
+        "relation": "measured in",
+        "object": "mg/L"
+      },
+      {
+        "subject": "Reaction time",
+        "relation": "measured in",
+        "object": "h"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "FIGURE 5\nMeOH production by M. trichosporium OB3b in the nitrate mineral salt (NMS) culture medium in the batch mode (A) under the reference conditions\n(ﬁlled circles) and in fresh NMS supplemented with formate and methanol dehydrogenase (MDH) inhibitors, i.e., NaCl and EDTA (empty circles); (B) under\nthe reference conditions (ﬁlled circles) and in the native NMS culture medium supplemented with formate and MDH inhibitors (empty circles).",
+    "triples": [
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "produces",
+        "object": "MeOH"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "in",
+        "object": "nitrate mineral salt (NMS) culture medium"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "in",
+        "object": "batch mode"
+      },
+      {
+        "subject": "Reference conditions",
+        "relation": "results in",
+        "object": "[MeOH] (mg/L) values for filled circles"
+      },
+      {
+        "subject": "Reaction induction in fresh NMS",
+        "relation": "results in",
+        "object": "[MeOH] (mg/L) values for empty circles"
+      },
+      {
+        "subject": "Reference conditions",
+        "relation": "results in",
+        "object": "higher [MeOH] than reaction induction in fresh NMS"
+      },
+      {
+        "subject": "Reaction induction in native NMS",
+        "relation": "results in",
+        "object": "[MeOH] (mg/L) values for empty circles in panel B"
+      },
+      {
+        "subject": "Reference conditions",
+        "relation": "results in",
+        "object": "higher [MeOH] than reaction induction in native NMS"
+      },
+      {
+        "subject": "formate",
+        "relation": "supplemented with",
+        "object": "fresh NMS"
+      },
+      {
+        "subject": "formate",
+        "relation": "supplemented with",
+        "object": "native NMS"
+      },
+      {
+        "subject": "MDH inhibitors",
+        "relation": "supplemented with",
+        "object": "fresh NMS"
+      },
+      {
+        "subject": "MDH inhibitors",
+        "relation": "supplemented with",
+        "object": "native NMS"
+      },
+      {
+        "subject": "NaCl",
+        "relation": "is",
+        "object": "an MDH inhibitor"
+      },
+      {
+        "subject": "EDTA",
+        "relation": "is",
+        "object": "an MDH inhibitor"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "FIGURE 6\nKinetics of CH4 hydroxylation by M. trichosporium OB3b in the batch reactor in the reference reaction medium (MeOH concentration [MeOH] in\nﬁlled circles; dry biomass concentration [Dry biomass] in ﬁlled squares) and in the reaction medium supplemented with 300 mg/L of MeOH at t = 0 h\n(MeOH concentration [MeOH] in empty circles; dry biomass concentration [Dry biomass] in empty squares).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: FIGURE 6\nKinetics of CH4 hydroxylation by M. trichosporium OB3b in the batch reactor in the reference reaction medium (MeOH concentration [MeOH] in\nﬁlled circles; dry biomass concentration [Dry biomass] in ﬁlled squares) and in the reaction medium supplemented with 300 mg/L of MeOH at t = 0 h\n(MeOH concentration [MeOH] in empty circles; dry biomass concentration [Dry biomass] in empty squares).\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"[MeOH] in reference conditions\", \"relation\": \"represented by\", \"object\": \"filled circles\"}, {\"subject\": \"[Dry biomass] in reference conditions\", \"relation\": \"represented by\", \"object\": \"filled squares\"}, {\"subject\": \"[MeOH] in MeOH-supplemented at t=0h conditions\", \"relation\": \"represented by\", \"object\": \"empty circles\"}, {\"subject\": \"[Dry biomass] in MeOH-supplemented at t=0h conditions\", \"relation\": \"represented by\", \"object\": \"empty squares\"}]"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "FIGURE 7\nCH4 hydroxylation by M. trichosporium OB3b in the batch mode: (A) under the reference conditions (ﬁlled circles for MeOH concentration and ﬁlled\ntriangles for formate concentration) and formate-free conditions (empty circles for MeOH concentration and empty triangles for formate concentration);\n(B) under the reference conditions (ﬁlled circles for MeOH concentration and empty circles for formate concentration), [formate]×2 conditions (ﬁlled\nsquares for MeOH concentration and empty squares for formate concentration), and [formate]/4 conditions (ﬁlled triangles for MeOH\nconcentration and empty triangles for formate concentration).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: FIGURE 7\nCH4 hydroxylation by M. trichosporium OB3b in the batch mode: (A) under the reference conditions (ﬁlled circles for MeOH concentration and ﬁlled\ntriangles for formate concentration) and formate-free conditions (empty circles for MeOH concentration and empty triangles for formate concentration);\n(B) under the reference conditions (ﬁlled circles for MeOH concentration and empty circles for formate concentration), [formate]×2 conditions (ﬁlled\nsquares for MeOH concentration and empty squares for formate concentration), and [formate]/4 conditions (ﬁlled triangles for MeOH\nconcentration and empty triangles for formate concentration).\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"[MeOH] reference conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"mg/L\"\n  },\n  {\n    \"subject\": \"[Formate] reference conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"g/L\"\n  },\n  {\n    \"subject\": \"[MeOH] no formate conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"mg/L\"\n  },\n  {\n    \"subject\": \"[Formate] no formate conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"g/L\"\n  },\n  {\n    \"subject\": \"[MeOH] in reference conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"mg/L\"\n  },\n  {\n    \"subject\": \"[Formate] in reference conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"g/L\"\n  },\n  {\n    \"subject\": \"[MeOH] in [formate]×2 conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"mg/L\"\n  },\n  {\n    \"subject\": \"[Formate] in [formate]×2 conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"g/L\"\n  },\n  {\n    \"subject\": \"[MeOH] in [formate]/4 conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"mg/L\"\n  },\n  {\n    \"subject\": \"[Formate] in [formate]/4 conditions\",\n    \"relation\": \"has concentration measured as\",\n    \"object\": \"g/L\"\n  }\n]"
+      }
+    ]
+  }
+]

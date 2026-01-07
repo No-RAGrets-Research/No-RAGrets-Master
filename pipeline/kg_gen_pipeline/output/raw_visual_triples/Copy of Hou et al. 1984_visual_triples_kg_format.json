@@ -1,0 +1,187 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 4,
+    "relations": 2,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 2,
+    "sections": {
+      "Figure 1 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 2 Analysis": {
+        "chunks": 1,
+        "entities": 2,
+        "relations": 1
+      },
+      "Figure 3 Analysis": {
+        "chunks": 1,
+        "entities": 2,
+        "relations": 1
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Hou et al. 1984_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T17:01:10.540838"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 1 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 305.28,
+                "t": 68.30100000000004,
+                "r": 541.2,
+                "b": 50.879999999999995,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page1_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 2 Analysis",
+      "entities": [
+        ".\n\n(1, 0, 777, 3, 40, 2,0220, 92, 02, 288, 2, 2 20, 7, 1, 1, 2). ally .. and the0, 2 90, 3, 7,  22, 00010, 150, 020, 2 3, 777) 74 2,1 01, 2, (",
+        "bioreactor"
+      ],
+      "relations": [
+        {
+          "subject": "bioreactor",
+          "predicate": "Nuclear 199,).\n\n(2,2,10,",
+          "object": ".\n\n(1, 0, 777, 3, 40, 2,0220, 92, 02, 288, 2, 2 20, 7, 1, 1, 2). ally .. and the0, 2 90, 3, 7,  22, 00010, 150, 020, 2 3, 777) 74 2,1 01, 2, (",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig.  2.  Schematic  diagram  of  the  gas-solid bioreactor system  with  biocatalyst regeneration capacity. Cell  paste  of  methane-grown Methylosinus sp.  CRL  31 was coated  on glass beads  and packed in  the  bioreactor, 1  bioreactor; 2 jacket; 3 temperature control device; 4  liquid for  product  recovery; 5  ice, 6  water  at  40 °  C; 7methanol  for  biocatalyst regeneration; 8  gaseous  substrate mixture; 9  water",
+            "bbox_coordinates": {
+              "l": 363.84,
+              "t": 175.49299999999994,
+              "r": 545.048,
+              "b": 81.24000000000001,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2475,
+                3270
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              427
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 363.84,
+                "t": 175.49299999999994,
+                "r": 545.048,
+                "b": 81.24000000000001,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page2_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 3 Analysis",
+      "entities": [
+        "000",
+        "prop"
+      ],
+      "relations": [
+        {
+          "subject": "prop",
+          "predicate": "0.5",
+          "object": "000",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 3.  Production of  propylene oxide from  propylene by  cells of methanegrown Methylosinus sp.  CRL  31 packed  in  a gas-solid bioreactor and  the regeneration of  the biocatalyst. Twenty  mg cell paste was  coated on  glass beads  and  was  packed  in the  bioreactor. The flow  rate of  gaseous substrates supplied was 0.5  ml/min. Product  propylene  oxide was assayed by gas  chromatography. Regeneration of  the  biocatalyst was conducted after 12  h of operation",
+            "bbox_coordinates": {
+              "l": 307.2,
+              "t": 452.793,
+              "r": 551.51,
+              "b": 375.66,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2475,
+                3270
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              473
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 307.2,
+                "t": 452.793,
+                "r": 551.51,
+                "b": 375.66,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

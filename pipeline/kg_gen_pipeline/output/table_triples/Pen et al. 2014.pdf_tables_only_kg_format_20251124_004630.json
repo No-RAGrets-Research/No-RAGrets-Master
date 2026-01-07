@@ -1,0 +1,3064 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 36,
+    "relations": 74,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Pen et al. 2014.json",
+    "processed_at": "2025-11-24T00:46:30.122027"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "has_temperature",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 313,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 91,
+            "sentence_id": 8,
+            "matched_text": "25"
+          },
+          {
+            "start": 175,
+            "end": 177,
+            "sentence_id": 9,
+            "matched_text": "25"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 10,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "has_temperature",
+      "object": "35",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 6,
+        "text_evidence": "Mehta et al. (1991) | Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285",
+        "document_offsets": {
+          "start": 156,
+          "end": 246
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 41,
+            "sentence_id": 6,
+            "matched_text": "35"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "uses_medium",
+      "object": "formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 313,
+          "end": 474
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 94,
+            "end": 156,
+            "sentence_id": 8,
+            "matched_text": "formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "produces_max_pressure",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 313,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 91,
+            "sentence_id": 8,
+            "matched_text": "25"
+          },
+          {
+            "start": 175,
+            "end": 177,
+            "sentence_id": 9,
+            "matched_text": "25"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 10,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "uses_medium",
+      "object": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "| 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 475,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 116,
+            "end": 172,
+            "sentence_id": 10,
+            "matched_text": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2 20mM sodium formate",
+      "predicate": "has_v_gas_liq",
+      "object": "40",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 313,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 451,
+            "end": 498,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2 20mM sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 430,
+            "end": 432,
+            "sentence_id": 12,
+            "matched_text": "40"
+          },
+          {
+            "start": 501,
+            "end": 503,
+            "sentence_id": 12,
+            "matched_text": "40"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "produces_t_prod",
+      "object": "280 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 247,
+          "end": 474
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 112,
+            "end": 117,
+            "sentence_id": 8,
+            "matched_text": "280 a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "produces_max_pressure",
+      "object": "280 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 247,
+          "end": 474
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 112,
+            "end": 117,
+            "sentence_id": 8,
+            "matched_text": "280 a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "has_cell_state",
+      "object": "Free cells",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 176,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 12,
+            "sentence_id": 6,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 209,
+            "end": 219,
+            "sentence_id": 8,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 315,
+            "end": 325,
+            "sentence_id": 9,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 360,
+            "end": 370,
+            "sentence_id": 10,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 515,
+            "end": 525,
+            "sentence_id": 12,
+            "matched_text": "Free cells"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "has_temperature",
+      "object": "2.5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 247,
+          "end": 474
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 100,
+            "end": 103,
+            "sentence_id": 8,
+            "matched_text": "2.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "has_t_pdvty",
+      "object": "8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 10,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 176,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 333,
+            "end": 334,
+            "sentence_id": 9,
+            "matched_text": "8"
+          },
+          {
+            "start": 479,
+            "end": 480,
+            "sentence_id": 10,
+            "matched_text": "8"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "produces_t_prod",
+      "object": "40",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 313,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 430,
+            "end": 432,
+            "sentence_id": 12,
+            "matched_text": "40"
+          },
+          {
+            "start": 501,
+            "end": 503,
+            "sentence_id": 12,
+            "matched_text": "40"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "has_temperature",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 313,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 91,
+            "sentence_id": 8,
+            "matched_text": "25"
+          },
+          {
+            "start": 175,
+            "end": 177,
+            "sentence_id": 9,
+            "matched_text": "25"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 10,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "has_cell_state",
+      "object": "100mM phosphate 5mM MgCl 2 After adding 40mM sodium",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2",
+        "document_offsets": {
+          "start": 247,
+          "end": 312
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "uses",
+      "object": "3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 176,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 177,
+            "end": 178,
+            "sentence_id": 8,
+            "matched_text": "3"
+          },
+          {
+            "start": 222,
+            "end": 223,
+            "sentence_id": 8,
+            "matched_text": "3"
+          },
+          {
+            "start": 580,
+            "end": 581,
+            "sentence_id": 12,
+            "matched_text": "3"
+          },
+          {
+            "start": 648,
+            "end": 649,
+            "sentence_id": 12,
+            "matched_text": "3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "produces_t_prod",
+      "object": "36",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 313,
+          "end": 474
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 159,
+            "end": 161,
+            "sentence_id": 8,
+            "matched_text": "36"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "produces_max_pressure",
+      "object": "80 b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "| 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010)",
+        "document_offsets": {
+          "start": 475,
+          "end": 533
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "has_cell_volume",
+      "object": "17.3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 12,
+        "text_evidence": "b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 668,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 85,
+            "end": 89,
+            "sentence_id": 12,
+            "matched_text": "17.3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "produces_rm_composition",
+      "object": "3.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 247,
+          "end": 474
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 106,
+            "end": 109,
+            "sentence_id": 8,
+            "matched_text": "3.6"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2",
+      "predicate": "has_medium",
+      "object": "20mM sodium formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 313,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 400,
+            "end": 427,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2"
+          },
+          {
+            "start": 451,
+            "end": 478,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 145,
+            "sentence_id": 8,
+            "matched_text": "20mM sodium formate"
+          },
+          {
+            "start": 295,
+            "end": 314,
+            "sentence_id": 10,
+            "matched_text": "20mM sodium formate"
+          },
+          {
+            "start": 479,
+            "end": 498,
+            "sentence_id": 12,
+            "matched_text": "20mM sodium formate"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2 20mM sodium formate",
+      "predicate": "has_cell_volume",
+      "object": "3 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 689,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 75,
+            "end": 122,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2 20mM sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 135,
+            "end": 138,
+            "sentence_id": 12,
+            "matched_text": "3 a"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "uses",
+      "object": "6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 12,
+        "text_evidence": "| T ( /C176 C) | RM composition | t prod (h) | t pdvty (h) | | Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 48,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 191,
+            "end": 192,
+            "sentence_id": 6,
+            "matched_text": "6"
+          },
+          {
+            "start": 292,
+            "end": 293,
+            "sentence_id": 8,
+            "matched_text": "6"
+          },
+          {
+            "start": 307,
+            "end": 308,
+            "sentence_id": 8,
+            "matched_text": "6"
+          },
+          {
+            "start": 370,
+            "end": 371,
+            "sentence_id": 8,
+            "matched_text": "6"
+          },
+          {
+            "start": 436,
+            "end": 437,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 613,
+            "end": 614,
+            "sentence_id": 10,
+            "matched_text": "6"
+          },
+          {
+            "start": 656,
+            "end": 657,
+            "sentence_id": 12,
+            "matched_text": "6"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "uses_medium",
+      "object": "100mM phosphate 5mM MgCl 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "Mehta et al. (1991) | Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2",
+        "document_offsets": {
+          "start": 156,
+          "end": 312
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 70,
+            "sentence_id": 6,
+            "matched_text": "100mM phosphate 5mM MgCl 2"
+          },
+          {
+            "start": 130,
+            "end": 156,
+            "sentence_id": 7,
+            "matched_text": "100mM phosphate 5mM MgCl 2"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "uses",
+      "object": "5",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 10,
+        "text_evidence": "Mehta et al. (1991) | Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 156,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 36,
+            "sentence_id": 6,
+            "matched_text": "5"
+          },
+          {
+            "start": 193,
+            "end": 194,
+            "sentence_id": 8,
+            "matched_text": "5"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_v_gas_liq",
+      "object": "8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 176,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 12,
+            "sentence_id": 6,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 209,
+            "end": 219,
+            "sentence_id": 8,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 315,
+            "end": 325,
+            "sentence_id": 9,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 360,
+            "end": 370,
+            "sentence_id": 10,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 515,
+            "end": 525,
+            "sentence_id": 12,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 333,
+            "end": 334,
+            "sentence_id": 9,
+            "matched_text": "8"
+          },
+          {
+            "start": 479,
+            "end": 480,
+            "sentence_id": 10,
+            "matched_text": "8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "uses",
+      "object": "100mM phosphate 5mM MgCl 2 After adding 40mM sodium",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2",
+        "document_offsets": {
+          "start": 247,
+          "end": 312
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "has_cell_volume",
+      "object": "0.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 10,
+        "text_evidence": "Mehta et al. (1991) | Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 156,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 81,
+            "end": 84,
+            "sentence_id": 6,
+            "matched_text": "0.6"
+          },
+          {
+            "start": 326,
+            "end": 329,
+            "sentence_id": 9,
+            "matched_text": "0.6"
+          },
+          {
+            "start": 503,
+            "end": 506,
+            "sentence_id": 10,
+            "matched_text": "0.6"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "produces_t_prod",
+      "object": "24",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "| 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 475,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 175,
+            "end": 177,
+            "sentence_id": 10,
+            "matched_text": "24"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "has_cell_volume",
+      "object": "0.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 10,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 176,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 64,
+            "sentence_id": 6,
+            "matched_text": "0.6"
+          },
+          {
+            "start": 306,
+            "end": 309,
+            "sentence_id": 9,
+            "matched_text": "0.6"
+          },
+          {
+            "start": 483,
+            "end": 486,
+            "sentence_id": 10,
+            "matched_text": "0.6"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "has_cell_volume",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2",
+        "document_offsets": {
+          "start": 247,
+          "end": 312
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lee et al. (2004)",
+      "predicate": "has_t_pdvty",
+      "object": "15",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 9,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010)",
+        "document_offsets": {
+          "start": 313,
+          "end": 533
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 164,
+            "end": 166,
+            "sentence_id": 9,
+            "matched_text": "15"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "produces_max_pressure",
+      "object": "4 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 12,
+        "text_evidence": "b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 668,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 92,
+            "end": 95,
+            "sentence_id": 12,
+            "matched_text": "4 a"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "produces_no_t_prod",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Mehta et al. (1991)",
+        "document_offsets": {
+          "start": 156,
+          "end": 175
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2 20mM sodium formate",
+      "predicate": "has_temperature",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 689,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 75,
+            "end": 122,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2 20mM sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 21,
+            "sentence_id": 12,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "produces_max_pressure",
+      "object": "285 a",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Mehta et al. (1991)",
+        "document_offsets": {
+          "start": 156,
+          "end": 175
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "has_temperature",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 12,
+        "text_evidence": "b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 668,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 42,
+            "sentence_id": 12,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2",
+      "predicate": "adds",
+      "object": "Duan et al. (2011)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 12,
+        "text_evidence": "b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 668,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 72,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2"
+          },
+          {
+            "start": 96,
+            "end": 123,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2 20mM sodium formate",
+      "predicate": "produces_t_prod",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 313,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 451,
+            "end": 498,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2 20mM sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 506,
+            "end": 508,
+            "sentence_id": 12,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "uses_medium",
+      "object": "400mM phosphate 10mM MgCl 2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 12,
+        "text_evidence": "b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 668,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 72,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2"
+          },
+          {
+            "start": 96,
+            "end": 123,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells immobilized on DAE-cellulose",
+      "predicate": "has_v_gas_liq",
+      "object": "6 14",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "a\nCells immobilized on DAE-cellulose | 100mM phosphate 5mM MgCl 2 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36",
+        "document_offsets": {
+          "start": 247,
+          "end": 474
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "Cells immobilized on DAE-cellulose"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 93,
+            "end": 97,
+            "sentence_id": 8,
+            "matched_text": "6 14"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "400mM phosphate 10mM MgCl 2 20mM sodium formate",
+      "predicate": "adds",
+      "object": "Duan et al. (2011)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 12,
+        "text_evidence": "b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 668,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 143,
+            "sentence_id": 12,
+            "matched_text": "400mM phosphate 10mM MgCl 2 20mM sodium formate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "has_cell_state",
+      "object": "Free cells",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 b\nDuan et al. (2011) | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 176,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 12,
+            "sentence_id": 6,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 209,
+            "end": 219,
+            "sentence_id": 8,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 315,
+            "end": 325,
+            "sentence_id": 9,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 360,
+            "end": 370,
+            "sentence_id": 10,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 515,
+            "end": 525,
+            "sentence_id": 12,
+            "matched_text": "Free cells"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "has_cell_volume",
+      "object": "0.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 10,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 176,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 64,
+            "sentence_id": 6,
+            "matched_text": "0.6"
+          },
+          {
+            "start": 306,
+            "end": 309,
+            "sentence_id": 9,
+            "matched_text": "0.6"
+          },
+          {
+            "start": 483,
+            "end": 486,
+            "sentence_id": 10,
+            "matched_text": "0.6"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_temperature",
+      "object": "12",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 176,
+          "end": 827
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 12,
+            "sentence_id": 6,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 209,
+            "end": 219,
+            "sentence_id": 8,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 315,
+            "end": 325,
+            "sentence_id": 9,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 360,
+            "end": 370,
+            "sentence_id": 10,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 515,
+            "end": 525,
+            "sentence_id": 12,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 246,
+            "end": 248,
+            "sentence_id": 8,
+            "matched_text": "12"
+          },
+          {
+            "start": 328,
+            "end": 330,
+            "sentence_id": 9,
+            "matched_text": "12"
+          },
+          {
+            "start": 415,
+            "end": 417,
+            "sentence_id": 10,
+            "matched_text": "12"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "has_cell_state",
+      "object": "Free cells",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 12,
+        "text_evidence": "Mehta et al. (1991) | Free cells | 5 | 35 | 100mM phosphate 5mM MgCl 2 | - | - | 0.6 | 285 After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 156,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 22,
+            "end": 32,
+            "sentence_id": 6,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 229,
+            "end": 239,
+            "sentence_id": 8,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 335,
+            "end": 345,
+            "sentence_id": 9,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 380,
+            "end": 390,
+            "sentence_id": 10,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 535,
+            "end": 545,
+            "sentence_id": 12,
+            "matched_text": "Free cells"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "has_cell_state",
+      "object": "Free cells with repeated methanol removal b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "| 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80",
+        "document_offsets": {
+          "start": 475,
+          "end": 667
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 104,
+            "sentence_id": 10,
+            "matched_text": "Free cells with repeated methanol removal b"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "uses",
+      "object": "4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 12,
+        "text_evidence": "After adding 40mM sodium | 6 14 | 2.5 | 3.6 | 280 a\nLee et al. (2004) | Free cells | 3 | 25 | formate at 6 h 12.9mM phosphate 20mM sodium formate 200mM NaCl | 36 | 15 | 0.6 | 25\nFree cells | 12 | 8 | 75\nKim et al. (2010) | Free cells with repeated methanol removal b | 4 | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 24 | 8 | 0.6 | 80 | Free cells | 6 | 30 | 400mM phosphate 10mM MgCl 2 | 40 | 10 | 17.3 | 4 a\n400mM phosphate 10mM MgCl 2 20mM sodium formate | 40 | 20 | 3 a",
+        "document_offsets": {
+          "start": 313,
+          "end": 827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 269,
+            "end": 270,
+            "sentence_id": 10,
+            "matched_text": "4"
+          },
+          {
+            "start": 447,
+            "end": 448,
+            "sentence_id": 12,
+            "matched_text": "4"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 31.963842391967773,
+          "t": 240.1131591796875,
+          "r": 553.8043212890625,
+          "b": 58.32354736328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "+",
+      "object": "1400",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 14,
+            "sentence_id": 0,
+            "matched_text": "1400"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "-",
+      "object": "290",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "290"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "%",
+      "object": "49",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 34,
+            "sentence_id": 0,
+            "matched_text": "49"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "-",
+      "object": "120",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 24,
+            "sentence_id": 0,
+            "matched_text": "120"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "%",
+      "object": "35",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 50,
+            "sentence_id": 0,
+            "matched_text": "35"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "/",
+      "object": "23",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 0,
+            "matched_text": "23"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "$",
+      "object": "700",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 3,
+            "sentence_id": 0,
+            "matched_text": "700"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "$",
+      "object": "270",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 6,
+            "end": 9,
+            "sentence_id": 0,
+            "matched_text": "270"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "/",
+      "object": "4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 52,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "4"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "/",
+      "object": "8",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 37,
+            "end": 38,
+            "sentence_id": 0,
+            "matched_text": "8"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "$",
+      "object": "170",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 20,
+            "sentence_id": 0,
+            "matched_text": "170"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table1",
+      "predicate": "/",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "700 $ 270 1400 $ 170 120 \u00f7 30 | 49 \u00f7 8 290 \u00f7 23 35 \u00f74",
+        "document_offsets": {
+          "start": 0,
+          "end": 53
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 29,
+            "sentence_id": 0,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 151.71949768066406,
+          "t": 324.0536804199219,
+          "r": 438.3802185058594,
+          "b": 220.54498291015625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "operates with",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 14,
+        "text_evidence": "After adding 4 pulses of sodium formate from 15 | 11 70 | 5 37 | 2 | 32 a 80 a\nKim et al. (2010) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 14 | 3 | 0.2 (eq. 11 u/ml) | 75 \u00b1 25 (eq. 1500",
+        "document_offsets": {
+          "start": 224,
+          "end": 691
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 123,
+            "sentence_id": 9,
+            "matched_text": "25"
+          },
+          {
+            "start": 357,
+            "end": 359,
+            "sentence_id": 13,
+            "matched_text": "25"
+          },
+          {
+            "start": 455,
+            "end": 457,
+            "sentence_id": 14,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "uses",
+      "object": "Fed-batch (sparger)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "After adding 4 pulses of sodium formate from 15 | 11 70 | 5 37 | 2 | 32 a 80 a\nKim et al. (2010) | Fed-batch (sparger)",
+        "document_offsets": {
+          "start": 224,
+          "end": 342
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "operates with",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 11,
+        "text_evidence": "| 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) | 30 | 400mM phosphate 10mM MgCl2 | 40 | 20 | 17.3 | 2",
+        "document_offsets": {
+          "start": 343,
+          "end": 530
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 135,
+            "end": 137,
+            "sentence_id": 11,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "uses",
+      "object": "Fed-batch (dense membranes)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "| 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) | Fed-batch (dense membranes)",
+        "document_offsets": {
+          "start": 343,
+          "end": 475
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "This work",
+      "predicate": "produces",
+      "object": "0.2 (eq. 11 u/ml)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 14,
+        "text_evidence": "a\nThis work | Fed-batch (macroporous membranes) | 3 | 0.2 (eq. 11 u/ml) | 75 \u00b1 25 (eq. 1500",
+        "document_offsets": {
+          "start": 531,
+          "end": 691
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 11,
+            "sentence_id": 12,
+            "matched_text": "This work"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "This work",
+      "predicate": "produces",
+      "object": "14",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 13,
+        "text_evidence": "a\nThis work | Fed-batch (macroporous membranes) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 14",
+        "document_offsets": {
+          "start": 531,
+          "end": 647
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 11,
+            "sentence_id": 12,
+            "matched_text": "This work"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 114,
+            "end": 116,
+            "sentence_id": 13,
+            "matched_text": "14"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kim et al. (2010)",
+      "predicate": "uses",
+      "object": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 13,
+        "text_evidence": "After adding 4 pulses of sodium formate from 15 | 11 70 | 5 37 | 2 | 32 a 80 a\nKim et al. (2010) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 14",
+        "document_offsets": {
+          "start": 224,
+          "end": 647
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 182,
+            "sentence_id": 9,
+            "matched_text": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA"
+          },
+          {
+            "start": 362,
+            "end": 418,
+            "sentence_id": 13,
+            "matched_text": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "uses",
+      "object": "100mM phosphate 5mM MgCl2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Mehta et al. (1991)",
+        "document_offsets": {
+          "start": 125,
+          "end": 144
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "uses",
+      "object": "Continuous (sparger and immobilized cells)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Mehta et al. (1991) | Continuous (sparger and immobilized cells)",
+        "document_offsets": {
+          "start": 125,
+          "end": 189
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "operates with",
+      "object": "35",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 6,
+        "text_evidence": "Mehta et al. (1991) | 35 | 100mM phosphate 5mM MgCl 2",
+        "document_offsets": {
+          "start": 125,
+          "end": 223
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 67,
+            "end": 69,
+            "sentence_id": 6,
+            "matched_text": "35"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Mehta et al. (1991)",
+      "predicate": "adds",
+      "object": "4 pulses of sodium formate from 15",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 7,
+        "text_evidence": "Mehta et al. (1991) After adding 4 pulses of sodium formate from 15 | 11 70 | 5 37 | 2 | 32 a 80 a\nKim et al. (2010)",
+        "document_offsets": {
+          "start": 125,
+          "end": 320
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 112,
+            "end": 146,
+            "sentence_id": 7,
+            "matched_text": "4 pulses of sodium formate from 15"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "This work",
+      "predicate": "uses",
+      "object": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text_evidence": "| 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) a\nThis work | Fed-batch (macroporous membranes) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 14",
+        "document_offsets": {
+          "start": 343,
+          "end": 647
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 199,
+            "sentence_id": 12,
+            "matched_text": "This work"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 63,
+            "sentence_id": 9,
+            "matched_text": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA"
+          },
+          {
+            "start": 243,
+            "end": 299,
+            "sentence_id": 13,
+            "matched_text": "12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Duan et al. (2011)",
+      "predicate": "uses",
+      "object": "400mM phosphate 10mM MgCl2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 11,
+        "text_evidence": "| 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) | 30 | 400mM phosphate 10mM MgCl2 | 40 | 20 | 17.3 | 2",
+        "document_offsets": {
+          "start": 343,
+          "end": 530
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 140,
+            "end": 166,
+            "sentence_id": 11,
+            "matched_text": "400mM phosphate 10mM MgCl2"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "This work",
+      "predicate": "operates with",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 14,
+        "text_evidence": "| 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 16 | 8 | 0.6 | 75\nDuan et al. (2011) a\nThis work | Fed-batch (macroporous membranes) | 25 | 12.9mM phosphate 20mM sodium formate 100mM NaCl 1mM EDTA | 14 | 3 | 0.2 (eq. 11 u/ml) | 75 \u00b1 25 (eq. 1500",
+        "document_offsets": {
+          "start": 343,
+          "end": 691
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 199,
+            "sentence_id": 12,
+            "matched_text": "This work"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 4,
+            "sentence_id": 9,
+            "matched_text": "25"
+          },
+          {
+            "start": 238,
+            "end": 240,
+            "sentence_id": 13,
+            "matched_text": "25"
+          },
+          {
+            "start": 336,
+            "end": 338,
+            "sentence_id": 14,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "This work",
+      "predicate": "uses",
+      "object": "Fed-batch (macroporous membranes)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "a\nThis work | Fed-batch (macroporous membranes)",
+        "document_offsets": {
+          "start": 531,
+          "end": 578
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 11,
+            "sentence_id": 12,
+            "matched_text": "This work"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 31.704700469970703,
+          "t": 690.7427444458008,
+          "r": 553.1298828125,
+          "b": 531.4245910644531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "phosphate",
+    "t prod (h)",
+    "270",
+    "23",
+    "Kim",
+    "Duan et al. (2011)",
+    "Table page7_table1",
+    "Fed-batch (sparger)",
+    "170",
+    "Fed-batch (dense membranes)",
+    "290",
+    "Mehta et al. (1991)",
+    "NaCl",
+    "Kim et al. (2010)",
+    "EDTA",
+    "1400",
+    "P max (mg g /C0 1 h /C0 1)",
+    "Lee et al. (2004)",
+    "30",
+    "4",
+    "t pdvty (h)",
+    "This work",
+    "MgCl2",
+    "120",
+    "49",
+    "sodium formate",
+    "Mehta",
+    "Fed-batch (macroporous membranes)",
+    "35",
+    "Continuous (sparger and immobilized cells)",
+    "700",
+    "25",
+    "[cell] (dry g/L)",
+    "8",
+    "Duan",
+    "MgCl 2"
+  ]
+}

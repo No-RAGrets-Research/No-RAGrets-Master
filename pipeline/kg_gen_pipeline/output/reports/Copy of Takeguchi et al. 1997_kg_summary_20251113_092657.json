@@ -1,0 +1,4340 @@
+{
+  "total_chunks": 14,
+  "errors": 0,
+  "entities": 161,
+  "relations": 125,
+  "cross_chunk_relations": 0,
+  "relations_with_spans": 122,
+  "sections": {
+    "by Methylosinus trichosporium OB3b: An Approach  to  Improve Methanol Accumulation": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 4
+    },
+    "ABSTRACT": {
+      "chunks": 1,
+      "entities": 23,
+      "relations": 14
+    },
+    "INTRODUCTION": {
+      "chunks": 1,
+      "entities": 6,
+      "relations": 7
+    },
+    "Materials": {
+      "chunks": 1,
+      "entities": 11,
+      "relations": 5
+    },
+    "Culture  of M. trichosporium OB3b": {
+      "chunks": 1,
+      "entities": 6,
+      "relations": 7
+    },
+    "Naphthalene Hydroxylation  Assay": {
+      "chunks": 1,
+      "entities": 6,
+      "relations": 9
+    },
+    "Propene Epoxidation  Assay": {
+      "chunks": 1,
+      "entities": 7,
+      "relations": 3
+    },
+    "Methanol Synthesis": {
+      "chunks": 2,
+      "entities": 17,
+      "relations": 18
+    },
+    "SDS  Polyacrylamide  Gel Electrophoresis": {
+      "chunks": 1,
+      "entities": 8,
+      "relations": 11
+    },
+    "Effect of  Cu Concentration  in  Growth  Medium": {
+      "chunks": 1,
+      "entities": 21,
+      "relations": 24
+    },
+    "Optimization  of  Methanol Biosynthesis": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 8
+    },
+    "ACKNOWLEDGMENTS": {
+      "chunks": 1,
+      "entities": 5,
+      "relations": 4
+    },
+    "REFERENCES": {
+      "chunks": 1,
+      "entities": 52,
+      "relations": 11
+    }
+  },
+  "all_relations": [
+    {
+      "subject": "Daisuke Sugimori",
+      "predicate": "is affiliated with",
+      "object": "Department of Bioengineering, Tokyo Institute of Technology",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MASAYUKI TAKEGUCHI, TAKAKO FURUTO, DAISUKE SUGIMORI,  AND  ICHIRO OKURA*\n\nDepartment  of  Bioengineering, Tokyo  Institute of  Technology, Nagatsuta,  Midori-ku, Yokohama,  226,  Japan\n\nReceived September 4,  1996;  Accepted  May 27,  1997",
+        "document_offsets": {
+          "start": 94,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "DAISUKE SUGIMORI"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Takako Furuto",
+      "predicate": "is affiliated with",
+      "object": "Department of Bioengineering, Tokyo Institute of Technology",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MASAYUKI TAKEGUCHI, TAKAKO FURUTO, DAISUKE SUGIMORI,  AND  ICHIRO OKURA*\n\nDepartment  of  Bioengineering, Tokyo  Institute of  Technology, Nagatsuta,  Midori-ku, Yokohama,  226,  Japan\n\nReceived September 4,  1996;  Accepted  May 27,  1997",
+        "document_offsets": {
+          "start": 94,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "TAKAKO FURUTO"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Ichiro Okura",
+      "predicate": "is affiliated with",
+      "object": "Department of Bioengineering, Tokyo Institute of Technology",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MASAYUKI TAKEGUCHI, TAKAKO FURUTO, DAISUKE SUGIMORI,  AND  ICHIRO OKURA*\n\nDepartment  of  Bioengineering, Tokyo  Institute of  Technology, Nagatsuta,  Midori-ku, Yokohama,  226,  Japan\n\nReceived September 4,  1996;  Accepted  May 27,  1997",
+        "document_offsets": {
+          "start": 94,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 59,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "ICHIRO OKURA"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Masayuki Takeguchi",
+      "predicate": "is affiliated with",
+      "object": "Department of Bioengineering, Tokyo Institute of Technology",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MASAYUKI TAKEGUCHI, TAKAKO FURUTO, DAISUKE SUGIMORI,  AND  ICHIRO OKURA*\n\nDepartment  of  Bioengineering, Tokyo  Institute of  Technology, Nagatsuta,  Midori-ku, Yokohama,  226,  Japan\n\nReceived September 4,  1996;  Accepted  May 27,  1997",
+        "document_offsets": {
+          "start": 94,
+          "end": 333
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 0,
+            "matched_text": "MASAYUKI TAKEGUCHI"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the final methanol concentration",
+      "predicate": "is below",
+      "object": "2.96 mmol/g dry cell",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the methanol concentration",
+      "predicate": "is",
+      "object": "51 times higher than that of the conventional reaction",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the product",
+      "predicate": "is subsequently oxidized by",
+      "object": "methanol dehydrogenase",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Index  Entries: Methanol  synthesis; methane  monooxygenase; methanol dehydrogenase, cyclopropanol; Methylosinus trichosporium OB3b.",
+        "document_offsets": {
+          "start": 1284,
+          "end": 1418
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 83,
+            "sentence_id": 7,
+            "matched_text": "methanol dehydrogenase"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "methanol production efficiency",
+      "predicate": "was",
+      "object": "61%",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "This  level was 51  times higher than  that of  the  conventional reaction, and the  methanol  production efficiency was 61%.",
+        "document_offsets": {
+          "start": 1157,
+          "end": 1284
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cell suspension",
+      "predicate": "was treated with",
+      "object": "cyclopropanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "To prevent further oxidation of  methanol, the  cell suspension was treated by cyclopropanol, an irreversible inhibitor for  methanol  dehydrogenase, leading to  extracellular methanol  accumulation. Index  Entries: Methanol  synthesis; methane  monooxygenase; methanol dehydrogenase, cyclopropanol; Methylosinus trichosporium OB3b. CH4 + 02\n\nMMO\n\n- \u0421\u041d\u041e\u041d + \u041d20\n\nNADH + H+\n\nNAD+\n\nFDH\n\nFADH\n\nCP\n\nMDH\n\nHCOO-\n\nCarbon assimilation\n\nCO2\n\nHCOO\"\n\nD \u043e\u043d\n\nCyclopropanol (CP)",
+        "document_offsets": {
+          "start": 543,
+          "end": 1548
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 63,
+            "sentence_id": 2,
+            "matched_text": "cell suspension"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 92,
+            "sentence_id": 2,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 826,
+            "end": 839,
+            "sentence_id": 7,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 987,
+            "end": 1000,
+            "sentence_id": 8,
+            "matched_text": "Cyclopropanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "methane dehydrogenase",
+      "predicate": "is inhibited by",
+      "object": "cyclopropanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "To prevent further oxidation of  methanol, the  cell suspension was treated by cyclopropanol, an irreversible inhibitor for  methanol  dehydrogenase, leading to  extracellular methanol  accumulation. Index  Entries: Methanol  synthesis; methane  monooxygenase; methanol dehydrogenase, cyclopropanol; Methylosinus trichosporium OB3b. CH4 + 02\n\nMMO\n\n- \u0421\u041d\u041e\u041d + \u041d20\n\nNADH + H+\n\nNAD+\n\nFDH\n\nFADH\n\nCP\n\nMDH\n\nHCOO-\n\nCarbon assimilation\n\nCO2\n\nHCOO\"\n\nD \u043e\u043d\n\nCyclopropanol (CP)",
+        "document_offsets": {
+          "start": 543,
+          "end": 1548
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 92,
+            "sentence_id": 2,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 826,
+            "end": 839,
+            "sentence_id": 7,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 987,
+            "end": 1000,
+            "sentence_id": 8,
+            "matched_text": "Cyclopropanol"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "methanol concentration",
+      "predicate": "reached",
+      "object": "152 mmol/g dry cell",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "accumulates due to",
+      "object": "inhibition of methanol dehydrogenase by cyclopropanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methylosinus trichosporium OB3b  is  a methanotrophic bacterium containing methane  mono-oxygenase, catalyzing hydroxylation of  methane to  methanol. When methane  is oxidized, the  product is  subsequently oxidized  by methanol  dehydrogenase contained in  the  same bacterium. To prevent further oxidation of  methanol, the  cell suspension was treated by cyclopropanol, an irreversible inhibitor for  methanol  dehydrogenase, leading to  extracellular methanol  accumulation. However,  the  reaction was terminated at  approx  3  h with  a  final methanol  concentration below 2.96  mmol/g dry  cell. The  methanol  production efficiency (the ratio of  the produced  methanol  per  methane  consumption) was 2.90%. By selecting the  culture conditions and  the  reaction conditions, the  reaction continued for  100  h,  resulting in  a  methanol  concentration of  152  mmol/g dry  cell. This  level was 51  times higher than  that of  the  conventional reaction, and the  methanol  production efficiency was 61%. Index  Entries: Methanol  synthesis; methane  monooxygenase; methanol dehydrogenase, cyclopropanol; Methylosinus trichosporium OB3b.",
+        "document_offsets": {
+          "start": 263,
+          "end": 1418
+        },
+        "subject_positions": [
+          {
+            "start": 141,
+            "end": 149,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 221,
+            "end": 229,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 313,
+            "end": 321,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 405,
+            "end": 413,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 456,
+            "end": 464,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 551,
+            "end": 559,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 610,
+            "end": 618,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 671,
+            "end": 679,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 843,
+            "end": 851,
+            "sentence_id": 5,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 979,
+            "end": 987,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1037,
+            "end": 1045,
+            "sentence_id": 7,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 1082,
+            "end": 1090,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "methanol production efficiency",
+      "predicate": "was",
+      "object": "2.90%",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "The  methanol  production efficiency (the ratio of  the produced  methanol  per  methane  consumption) was 2.90%.",
+        "document_offsets": {
+          "start": 868,
+          "end": 983
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the reaction conditions and culture conditions",
+      "predicate": "allowed the reaction to continue for",
+      "object": "100 h",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "methanotrophic bacterium",
+      "predicate": "catalyzes",
+      "object": "hydroxylation of methane to methanol",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Methylosinus trichosporium OB3b  is  a methanotrophic bacterium containing methane  mono-oxygenase, catalyzing hydroxylation of  methane to  methanol.",
+        "document_offsets": {
+          "start": 263,
+          "end": 413
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "methanotrophic bacterium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium OB3b",
+      "predicate": "contains",
+      "object": "methane mono-oxygenase",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methylosinus trichosporium OB3b  is  a methanotrophic bacterium containing methane  mono-oxygenase, catalyzing hydroxylation of  methane to  methanol. Index  Entries: Methanol  synthesis; methane  monooxygenase; methanol dehydrogenase, cyclopropanol; Methylosinus trichosporium OB3b.",
+        "document_offsets": {
+          "start": 263,
+          "end": 1418
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          },
+          {
+            "start": 1121,
+            "end": 1152,
+            "sentence_id": 7,
+            "matched_text": "Methylosinus trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the reaction",
+      "predicate": "was terminated at",
+      "object": "approx 3 h",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "methane",
+      "predicate": "is oxidized by",
+      "object": "methanotrophic bacterium",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Methylosinus trichosporium OB3b  is  a methanotrophic bacterium containing methane  mono-oxygenase, catalyzing hydroxylation of  methane to  methanol. When methane  is oxidized, the  product is  subsequently oxidized  by methanol  dehydrogenase contained in  the  same bacterium. The  methanol  production efficiency (the ratio of  the produced  methanol  per  methane  consumption) was 2.90%. Index  Entries: Methanol  synthesis; methane  monooxygenase; methanol dehydrogenase, cyclopropanol; Methylosinus trichosporium OB3b.",
+        "document_offsets": {
+          "start": 263,
+          "end": 1418
+        },
+        "subject_positions": [
+          {
+            "start": 75,
+            "end": 82,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          },
+          {
+            "start": 129,
+            "end": 136,
+            "sentence_id": 0,
+            "matched_text": "methane"
+          },
+          {
+            "start": 156,
+            "end": 163,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 686,
+            "end": 693,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1058,
+            "end": 1065,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 63,
+            "sentence_id": 0,
+            "matched_text": "methanotrophic bacterium"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methane mono-oxygenase (MMO)",
+      "predicate": "catalyzes",
+      "object": "the single-step oxidation of methane to methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The present process",
+      "predicate": "consists of",
+      "object": "a two step process through syngas",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Cyclopropanol",
+      "predicate": "is an irreversible inhibitor for MDH",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "When  the  cell suspension was treated by cyclopropanol, which  was an  irreversible inhibitor for  MDH,  it led  to  extracellular methanol  accumulation, as  shown in  Scheme 1 (1).",
+        "document_offsets": {
+          "start": 2019,
+          "end": 2202
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 55,
+            "sentence_id": 3,
+            "matched_text": "cyclopropanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The production of methanol from methane",
+      "predicate": "was tried with methanotroph",
+      "object": "None",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methane mono-oxygenase (MMO)",
+      "predicate": "is not suitable in methanol synthesis reaction",
+      "object": "because of its instability",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Cell suspension",
+      "predicate": "was treated by cyclopropanol",
+      "object": "It led to extracellular methanol accumulation",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "When  the  cell suspension was treated by cyclopropanol, which  was an  irreversible inhibitor for  MDH,  it led  to  extracellular methanol  accumulation, as  shown in  Scheme 1 (1).",
+        "document_offsets": {
+          "start": 2019,
+          "end": 2202
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 26,
+            "sentence_id": 3,
+            "matched_text": "cell suspension"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Direct oxidation of methane to methanol",
+      "predicate": "is",
+      "object": "highly attractive compared to the present process",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "naphthalene",
+      "predicate": "was obtained from",
+      "object": "Kanto",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "Naphthalene and copper  sulfate pentahydrate were  obtained from Kanto (Tokyo,  Japan). The other chemicals were  purchased from  Kanto.",
+        "document_offsets": {
+          "start": 2595,
+          "end": 2799
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Naphthalene"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 65,
+            "end": 70,
+            "sentence_id": 3,
+            "matched_text": "Kanto"
+          },
+          {
+            "start": 198,
+            "end": 203,
+            "sentence_id": 5,
+            "matched_text": "Kanto"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "nitrogen",
+      "predicate": "was purchased from",
+      "object": "Fujiibussan",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Methane and nitrogen were purchased  from Fujiibussan (Tokyo, Japan).",
+        "document_offsets": {
+          "start": 2435,
+          "end": 2504
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 20,
+            "sentence_id": 1,
+            "matched_text": "nitrogen"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 53,
+            "sentence_id": 1,
+            "matched_text": "Fujiibussan"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Methane",
+      "predicate": "was purchased from",
+      "object": "Fujiibussan",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Methane and nitrogen were purchased  from Fujiibussan (Tokyo, Japan).",
+        "document_offsets": {
+          "start": 2435,
+          "end": 2504
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 1,
+            "matched_text": "Methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 53,
+            "sentence_id": 1,
+            "matched_text": "Fujiibussan"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Tetrazotized o-dianisidine",
+      "predicate": "was obtained from",
+      "object": "Sigma-Aldrich Japan K.K.",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "copper sulfate pentahydrate",
+      "predicate": "was obtained from",
+      "object": "Kanto",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "Naphthalene and copper  sulfate pentahydrate were  obtained from Kanto (Tokyo,  Japan). The other chemicals were  purchased from  Kanto.",
+        "document_offsets": {
+          "start": 2595,
+          "end": 2799
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 65,
+            "end": 70,
+            "sentence_id": 3,
+            "matched_text": "Kanto"
+          },
+          {
+            "start": 198,
+            "end": 203,
+            "sentence_id": 5,
+            "matched_text": "Kanto"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "was cultivated as",
+      "object": "described by Fox et al.",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "M. trichosporium OB3b was cultivated as  described by  Fox  et al. (3), but  the concentration of  copper (Cu)  in  the medium was different, as  indicated in  the text.",
+        "document_offsets": {
+          "start": 2918,
+          "end": 3087
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "were harvested in logarithmic phase or initial stationary phase",
+      "object": "by centrifugation at 6,800g for 10 min",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Cells were  harvested in logarithmetic phase  or  initial stationary phase  by  centrifugation at  6,800g  for 10  min,  washed  with 10  mM  phosphate buffer, pH 7.0, and  resuspended in  the 10  mM  phosphate buffer, pH 7.0.",
+        "document_offsets": {
+          "start": 3162,
+          "end": 3388
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 3,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "were resuspended in",
+      "object": "the 10 mM phosphate buffer, pH 7.0",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Cells were  harvested in logarithmetic phase  or  initial stationary phase  by  centrifugation at  6,800g  for 10  min,  washed  with 10  mM  phosphate buffer, pH 7.0, and  resuspended in  the 10  mM  phosphate buffer, pH 7.0.",
+        "document_offsets": {
+          "start": 3162,
+          "end": 3388
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 3,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the concentration of copper (Cu) in the medium",
+      "predicate": "was different",
+      "object": "as indicated in the text",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "was provided by",
+      "object": "J. D. Lipscomb",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "M. trichosporium OB3b was cultivated as  described by  Fox  et al. (3), but  the concentration of  copper (Cu)  in  the medium was different, as  indicated in  the text.",
+        "document_offsets": {
+          "start": 2918,
+          "end": 3087
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cells",
+      "predicate": "were washed with",
+      "object": "10 mM phosphate buffer, pH 7.0",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Cells were  harvested in logarithmetic phase  or  initial stationary phase  by  centrifugation at  6,800g  for 10  min,  washed  with 10  mM  phosphate buffer, pH 7.0, and  resuspended in  the 10  mM  phosphate buffer, pH 7.0.",
+        "document_offsets": {
+          "start": 3162,
+          "end": 3388
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 3,
+            "matched_text": "Cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "cell densities",
+      "predicate": "were determined by",
+      "object": "measuring the absorbance at 660 nm",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Cell densities were  determined by  measuring the absorbance at 660  nm.",
+        "document_offsets": {
+          "start": 3088,
+          "end": 3162
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 14,
+            "sentence_id": 2,
+            "matched_text": "Cell densities"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Naphthalene hydroxylation assay",
+      "predicate": "is used as an indicator for",
+      "object": "sMMO activity potential in methanotrophs",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Naphthalene hydroxylation assay  has  been  used  as  an  indicator for soluble MMO (sMMO)  activity potential in  methanotrophs (4).",
+        "document_offsets": {
+          "start": 3391,
+          "end": 3524
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "Naphthalene hydroxylation assay"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "2-naphthol",
+      "predicate": "is also a reaction product of",
+      "object": "oxidation of naphthalene by sMMO",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "This  assay is based  on  the  ability of  sMMO to  oxidize naphthalene to  1-naphthol and 2-naphthol. Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3525,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 91,
+            "end": 101,
+            "sentence_id": 1,
+            "matched_text": "2-naphthol"
+          },
+          {
+            "start": 414,
+            "end": 424,
+            "sentence_id": 3,
+            "matched_text": "2-naphthol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "phosphate buffer",
+      "predicate": "has a pH of",
+      "object": "7.0",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3686,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 176,
+            "end": 192,
+            "sentence_id": 3,
+            "matched_text": "phosphate buffer"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 197,
+            "end": 200,
+            "sentence_id": 3,
+            "matched_text": "7.0"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "sMMO",
+      "predicate": "has the ability to oxidize",
+      "object": "naphthalene",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Naphthalene hydroxylation assay  has  been  used  as  an  indicator for soluble MMO (sMMO)  activity potential in  methanotrophs (4). This  assay is based  on  the  ability of  sMMO to  oxidize naphthalene to  1-naphthol and 2-naphthol. Oxidation  of  naphthalene was performed  as follows (4). Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3391,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 85,
+            "end": 89,
+            "sentence_id": 0,
+            "matched_text": "sMMO"
+          },
+          {
+            "start": 177,
+            "end": 181,
+            "sentence_id": 1,
+            "matched_text": "sMMO"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "Naphthalene"
+          },
+          {
+            "start": 194,
+            "end": 205,
+            "sentence_id": 1,
+            "matched_text": "naphthalene"
+          },
+          {
+            "start": 252,
+            "end": 263,
+            "sentence_id": 2,
+            "matched_text": "naphthalene"
+          },
+          {
+            "start": 309,
+            "end": 320,
+            "sentence_id": 3,
+            "matched_text": "naphthalene"
+          },
+          {
+            "start": 420,
+            "end": 431,
+            "sentence_id": 3,
+            "matched_text": "naphthalene"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "naphthalene",
+      "predicate": "is present in approximately",
+      "object": "10 rag in the assay",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Naphthalene hydroxylation assay  has  been  used  as  an  indicator for soluble MMO (sMMO)  activity potential in  methanotrophs (4). This  assay is based  on  the  ability of  sMMO to  oxidize naphthalene to  1-naphthol and 2-naphthol. Oxidation  of  naphthalene was performed  as follows (4). Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3391,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "Naphthalene"
+          },
+          {
+            "start": 194,
+            "end": 205,
+            "sentence_id": 1,
+            "matched_text": "naphthalene"
+          },
+          {
+            "start": 252,
+            "end": 263,
+            "sentence_id": 2,
+            "matched_text": "naphthalene"
+          },
+          {
+            "start": 309,
+            "end": 320,
+            "sentence_id": 3,
+            "matched_text": "naphthalene"
+          },
+          {
+            "start": 420,
+            "end": 431,
+            "sentence_id": 3,
+            "matched_text": "naphthalene"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "1-naphthol",
+      "predicate": "is a reaction product of",
+      "object": "oxidation of naphthalene by sMMO",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "This  assay is based  on  the  ability of  sMMO to  oxidize naphthalene to  1-naphthol and 2-naphthol. Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3525,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 76,
+            "end": 86,
+            "sentence_id": 1,
+            "matched_text": "1-naphthol"
+          },
+          {
+            "start": 398,
+            "end": 408,
+            "sentence_id": 3,
+            "matched_text": "1-naphthol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "cell suspension",
+      "predicate": "contains",
+      "object": "dry cells",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3686,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 84,
+            "end": 99,
+            "sentence_id": 3,
+            "matched_text": "cell suspension"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "oxidation of naphthalene",
+      "predicate": "is carried out at",
+      "object": "30~ for 30 min",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "o-dianisidine",
+      "predicate": "forms purple diazo dyes from tetrazotized",
+      "object": "naphthols (1-naphthol and 2-naphthol)",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Oxidation of  naphthalene was carried out  in  a  10-mL Erlenmeyer flask containing cell suspension (1.97 mg dry  cell) and  naphthalene (approx 10  rag) in 2  mL  of  10  mM  phosphate buffer, pH 7.0, at  30~  for  30  min.  Naphthols (1-naphthol and  2-naphthol) as  the  reaction products were  detected by  the formation of  purple diazo dyes  from  tetrazotized o-dianisidine.",
+        "document_offsets": {
+          "start": 3686,
+          "end": 4067
+        },
+        "subject_positions": [
+          {
+            "start": 367,
+            "end": 380,
+            "sentence_id": 3,
+            "matched_text": "o-dianisidine"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "specific activity",
+      "predicate": "was defined as",
+      "object": "the activity per total amount of dry cell in the sample",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Specific activity was defined as  the  activity per  total amount  of dry  cell in  the  sample.",
+        "document_offsets": {
+          "start": 4225,
+          "end": 4321
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 2,
+            "matched_text": "Specific activity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "MMO activity",
+      "predicate": "was measured by",
+      "object": "propene epoxidation",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "MMO activity was  measured  by  propene  epoxidation (5). MMO activity was determined from  the  initial slope of  a  time-course of  propene  oxide formation.",
+        "document_offsets": {
+          "start": 4065,
+          "end": 4224
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 58,
+            "end": 70,
+            "sentence_id": 1,
+            "matched_text": "MMO activity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "MMO activity",
+      "predicate": "was determined from",
+      "object": "the initial slope of a time-course of propene oxide formation",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "MMO activity was  measured  by  propene  epoxidation (5). MMO activity was determined from  the  initial slope of  a  time-course of  propene  oxide formation.",
+        "document_offsets": {
+          "start": 4065,
+          "end": 4224
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 58,
+            "end": 70,
+            "sentence_id": 1,
+            "matched_text": "MMO activity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The sample solution",
+      "predicate": "is treated with",
+      "object": "cyclopropanol and sodium formate",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The sample  solution (3.5 mL) containing the  cell suspension was treated with  cyclopropanol and sodium formate  in  phosphate  buffer, pH 7.0, and  was then  introduced into a  10-mL screw-capped Erlenmeyer flask.",
+        "document_offsets": {
+          "start": 4393,
+          "end": 4608
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 80,
+            "end": 112,
+            "sentence_id": 1,
+            "matched_text": "cyclopropanol and sodium formate"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The sample solution",
+      "predicate": "contains",
+      "object": "cell suspension",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The sample  solution (3.5 mL) containing the  cell suspension was treated with  cyclopropanol and sodium formate  in  phosphate  buffer, pH 7.0, and  was then  introduced into a  10-mL screw-capped Erlenmeyer flask.",
+        "document_offsets": {
+          "start": 4393,
+          "end": 4608
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 46,
+            "end": 61,
+            "sentence_id": 1,
+            "matched_text": "cell suspension"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol is measured by",
+      "predicate": "gas chromatography using",
+      "object": "Sorbitol 25% Gasport B column",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The solution is in",
+      "predicate": "phosphate buffer",
+      "object": "pH 7.0",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The sample  solution (3.5 mL) containing the  cell suspension was treated with  cyclopropanol and sodium formate  in  phosphate  buffer, pH 7.0, and  was then  introduced into a  10-mL screw-capped Erlenmeyer flask.",
+        "document_offsets": {
+          "start": 4393,
+          "end": 4608
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 137,
+            "end": 143,
+            "sentence_id": 1,
+            "matched_text": "pH 7.0"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The gas chromatograph is attached to",
+      "predicate": "a Hitachi (Tokyo, Japan) 263-30 gas chromatograph",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The flask",
+      "predicate": "is",
+      "object": "10-mL screw-capped Erlenmeyer",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "The sample  solution (3.5 mL) containing the  cell suspension was treated with  cyclopropanol and sodium formate  in  phosphate  buffer, pH 7.0, and  was then  introduced into a  10-mL screw-capped Erlenmeyer flask. The flask was sealed with  a  Teflon-sealed septa Funakoshi  (Tokyo, Japan), and  incubated for 5  min  at  reaction temperature.",
+        "document_offsets": {
+          "start": 4393,
+          "end": 4738
+        },
+        "subject_positions": [
+          {
+            "start": 216,
+            "end": 225,
+            "sentence_id": 2,
+            "matched_text": "The flask"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 179,
+            "end": 208,
+            "sentence_id": 1,
+            "matched_text": "10-mL screw-capped Erlenmeyer"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Methanol  production by M. trichosporium OB3b  was carried out  as follows. Methanol  was measured  by gas  chromatography using  a Sorbitol 25% Gasport  B column  (4  m  x  3  mm  id, GL Sciences, Tokyo,  Japan)\n\nattached to  a  Hitachi (Tokyo, Japan) 263-30  gas  chromatograph (oven  temperature, 100~ carrier gas  [N2]  flow  rate, 21.8  mL/min).",
+        "document_offsets": {
+          "start": 4317,
+          "end": 5119
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 528,
+            "end": 536,
+            "sentence_id": 4,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 45,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The flask is incubated for",
+      "predicate": "minutes",
+      "object": "5",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 4,
+        "text_evidence": "The sample  solution (3.5 mL) containing the  cell suspension was treated with  cyclopropanol and sodium formate  in  phosphate  buffer, pH 7.0, and  was then  introduced into a  10-mL screw-capped Erlenmeyer flask. The flask was sealed with  a  Teflon-sealed septa Funakoshi  (Tokyo, Japan), and  incubated for 5  min  at  reaction temperature. The  reaction was initiated by injecting 2.5  mL  of  methane  into the  flask with  a gas-tight syringe. Methanol  was measured  by gas  chromatography using  a Sorbitol 25% Gasport  B column  (4  m  x  3  mm  id, GL Sciences, Tokyo,  Japan)\n\nattached to  a  Hitachi (Tokyo, Japan) 263-30  gas  chromatograph (oven  temperature, 100~ carrier gas  [N2]  flow  rate, 21.8  mL/min).",
+        "document_offsets": {
+          "start": 4393,
+          "end": 5119
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 25,
+            "sentence_id": 1,
+            "matched_text": "5"
+          },
+          {
+            "start": 312,
+            "end": 313,
+            "sentence_id": 2,
+            "matched_text": "5"
+          },
+          {
+            "start": 389,
+            "end": 390,
+            "sentence_id": 3,
+            "matched_text": "5"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The flask is sealed with",
+      "predicate": "Teflon-sealed septa Funakoshi (Tokyo, Japan)",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The reaction is initiated by",
+      "predicate": "injecting",
+      "object": "2.5 mL of methane",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the separating gels",
+      "predicate": "and",
+      "object": "2.6% C",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 19,
+            "sentence_id": 1,
+            "matched_text": "The separating gels"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "ovalbumin",
+      "predicate": "has a molecular weight of",
+      "object": "Mr  45,000",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 305,
+            "end": 314,
+            "sentence_id": 1,
+            "matched_text": "ovalbumin"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 317,
+            "end": 327,
+            "sentence_id": 1,
+            "matched_text": "Mr  45,000"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "the separating gels",
+      "predicate": "contained",
+      "object": "12% T",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 19,
+            "sentence_id": 1,
+            "matched_text": "The separating gels"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 35,
+            "sentence_id": 1,
+            "matched_text": "12% T"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "the stacking gels",
+      "predicate": "and",
+      "object": "20% C",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 196,
+            "end": 213,
+            "sentence_id": 1,
+            "matched_text": "the stacking gels"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the stacking gels",
+      "predicate": "contained",
+      "object": "3.0% T",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 196,
+            "end": 213,
+            "sentence_id": 1,
+            "matched_text": "the stacking gels"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 225,
+            "end": 231,
+            "sentence_id": 1,
+            "matched_text": "3.0% T"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "lysozyme",
+      "predicate": "has a molecular weight of",
+      "object": "Mr 14,400",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 401,
+            "end": 409,
+            "sentence_id": 1,
+            "matched_text": "lysozyme"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 411,
+            "end": 420,
+            "sentence_id": 1,
+            "matched_text": "Mr 14,400"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Phosphorylase b",
+      "predicate": "has a molecular weight of",
+      "object": "Mr 97,400",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 246,
+            "end": 261,
+            "sentence_id": 1,
+            "matched_text": "Phosphorylase b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 263,
+            "end": 272,
+            "sentence_id": 1,
+            "matched_text": "Mr 97,400"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "trypsin inhibitor",
+      "predicate": "has a molecular weight of",
+      "object": "Mr 21,500",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 365,
+            "end": 382,
+            "sentence_id": 1,
+            "matched_text": "trypsin inhibitor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 384,
+            "end": 393,
+            "sentence_id": 1,
+            "matched_text": "Mr 21,500"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "carbo-nic anhydrase",
+      "predicate": "has a molecular weight of",
+      "object": "M  r 31,000",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [
+          {
+            "start": 330,
+            "end": 349,
+            "sentence_id": 1,
+            "matched_text": "carbo-nic anhydrase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 351,
+            "end": 362,
+            "sentence_id": 1,
+            "matched_text": "M  r 31,000"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "serum albumin",
+      "predicate": "has a molecular weight of",
+      "object": "Mr  66,200",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The separating gels contained 12% T (%T is the  total concentration of  monomer used  to produce  the gel) and  2.6%  C, (%C is the  percentage of  the  total monomer of  crosslinking agent) and  the stacking gels  contained 3.0% T and  20%  C.  Phosphorylase b (Mr 97,400), serum  albumin  (Mr  66,200), ovalbumin  (Mr  45,000), carbo-nic anhydrase (M  r 31,000), trypsin inhibitor (Mr 21,500), and  lysozyme (Mr 14,400) were used  as  the  reference proteins.",
+        "document_offsets": {
+          "start": 5246,
+          "end": 5707
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 292,
+            "end": 302,
+            "sentence_id": 1,
+            "matched_text": "Mr  66,200"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "SDS polyacrylamide gel electrophoresis",
+      "predicate": "was performed using the method of",
+      "object": "Laemmli",
+      "source_span": {
+        "chunk_id": 8,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "SDS polyacrylamide gel  electrophoresis (SDS-PAGE)  was performed using the method  of  Laemmli (6).",
+        "document_offsets": {
+          "start": 5145,
+          "end": 5245
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 88,
+            "end": 95,
+            "sentence_id": 0,
+            "matched_text": "Laemmli"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b grown under 20 ~M of Cu concentration",
+      "predicate": "showed higher MMO activity than",
+      "object": "the cell grown at 1.25 ~I and 0.21 ~d of Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "grew nicely at",
+      "object": "1.25 ~d of Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "M. trichosporium OB3b was cultivated in  mineral salts media  containing cupric sulfate. As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. M. trichosporium OB3b  expresses either sMMO or  particulate MMO (pMMO),  and  the form  expressed strongly depended  on  the  concentration of  Cu during the  growth (5). In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). M. trichosporium OB3b  grown over  1.25  ~//Cu  did  not  show naphthalene hydroxylation; however,  the  culture did  show oxidation of  p r o p e n e in  propene  epoxidation assay. These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. This  result indicates that M. trichosporium OB3b  grown over  1.25 ~V/Cu expresses only  pMMO.",
+        "document_offsets": {
+          "start": 5718,
+          "end": 8811
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 131,
+            "end": 152,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 393,
+            "end": 414,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 803,
+            "end": 824,
+            "sentence_id": 7,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 970,
+            "end": 991,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1100,
+            "end": 1121,
+            "sentence_id": 9,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1245,
+            "end": 1266,
+            "sentence_id": 10,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1928,
+            "end": 1949,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2034,
+            "end": 2055,
+            "sentence_id": 17,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2245,
+            "end": 2266,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2334,
+            "end": 2355,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3026,
+            "end": 3047,
+            "sentence_id": 21,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "was cultivated in",
+      "object": "mineral salts media",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "M. trichosporium OB3b was cultivated in  mineral salts media  containing cupric sulfate. As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. M. trichosporium OB3b  expresses either sMMO or  particulate MMO (pMMO),  and  the form  expressed strongly depended  on  the  concentration of  Cu during the  growth (5). In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). M. trichosporium OB3b  grown over  1.25  ~//Cu  did  not  show naphthalene hydroxylation; however,  the  culture did  show oxidation of  p r o p e n e in  propene  epoxidation assay. These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. This  result indicates that M. trichosporium OB3b  grown over  1.25 ~V/Cu expresses only  pMMO.",
+        "document_offsets": {
+          "start": 5718,
+          "end": 8811
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 131,
+            "end": 152,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 393,
+            "end": 414,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 803,
+            "end": 824,
+            "sentence_id": 7,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 970,
+            "end": 991,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1100,
+            "end": 1121,
+            "sentence_id": 9,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1245,
+            "end": 1266,
+            "sentence_id": 10,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1928,
+            "end": 1949,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2034,
+            "end": 2055,
+            "sentence_id": 17,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2245,
+            "end": 2266,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2334,
+            "end": 2355,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3026,
+            "end": 3047,
+            "sentence_id": 21,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "mineral salts media"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "grew slowly at",
+      "object": "20 ~M of Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "M. trichosporium OB3b was cultivated in  mineral salts media  containing cupric sulfate. As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. M. trichosporium OB3b  expresses either sMMO or  particulate MMO (pMMO),  and  the form  expressed strongly depended  on  the  concentration of  Cu during the  growth (5). In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). M. trichosporium OB3b  grown over  1.25  ~//Cu  did  not  show naphthalene hydroxylation; however,  the  culture did  show oxidation of  p r o p e n e in  propene  epoxidation assay. These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. This  result indicates that M. trichosporium OB3b  grown over  1.25 ~V/Cu expresses only  pMMO.",
+        "document_offsets": {
+          "start": 5718,
+          "end": 8811
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 131,
+            "end": 152,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 393,
+            "end": 414,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 803,
+            "end": 824,
+            "sentence_id": 7,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 970,
+            "end": 991,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1100,
+            "end": 1121,
+            "sentence_id": 9,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1245,
+            "end": 1266,
+            "sentence_id": 10,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1928,
+            "end": 1949,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2034,
+            "end": 2055,
+            "sentence_id": 17,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2245,
+            "end": 2266,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2334,
+            "end": 2355,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3026,
+            "end": 3047,
+            "sentence_id": 21,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Maximum cell density of M. trichosporium OB3b",
+      "predicate": "decreased",
+      "object": "with increasing Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Cu concentration",
+      "predicate": "increased",
+      "object": "20 ~M",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 20,
+        "text_evidence": "As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. The  maximum  specific growth  rate was 1.59 x 10-3/min, and the  maximum  cell density was 0.235 mg dry  cell/mL at  1.25 ~d of  Cu concentration. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. MMO activity was  directly related to  the Cu concentration up  to 20  ~,I. The maximum  MMO activity was 98.6 nmol of  propene  oxide  formed/mg dry  cell/mL at  20 ~ of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. At  low  Cu concentration sMMO is expressed. In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. The electrophoretic profile of  the  broken cells obtained from  grown cells at  1.25 ~ of  Cu concentration showed the same putative pMMO polypeptide bands.",
+        "document_offsets": {
+          "start": 5807,
+          "end": 8716
+        },
+        "subject_positions": [
+          {
+            "start": 123,
+            "end": 139,
+            "sentence_id": 1,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 286,
+            "end": 302,
+            "sentence_id": 2,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 355,
+            "end": 371,
+            "sentence_id": 3,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 406,
+            "end": 422,
+            "sentence_id": 3,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 544,
+            "end": 560,
+            "sentence_id": 5,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 673,
+            "end": 689,
+            "sentence_id": 6,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 760,
+            "end": 776,
+            "sentence_id": 7,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 854,
+            "end": 870,
+            "sentence_id": 7,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 932,
+            "end": 948,
+            "sentence_id": 8,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 1052,
+            "end": 1068,
+            "sentence_id": 9,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 1337,
+            "end": 1353,
+            "sentence_id": 11,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 1883,
+            "end": 1899,
+            "sentence_id": 16,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 2200,
+            "end": 2216,
+            "sentence_id": 18,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 2290,
+            "end": 2306,
+            "sentence_id": 18,
+            "matched_text": "Cu concentration"
+          },
+          {
+            "start": 2842,
+            "end": 2858,
+            "sentence_id": 20,
+            "matched_text": "Cu concentration"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "These results suggest that M. trichosporium OB3b grown in",
+      "predicate": "expresses mainly sMMO, and M. trichosporium OB3b grown over",
+      "object": "1.25 ~M Cu concentration expresses only pMMO",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "In this assay, only M. trichosporium OB3b grown in",
+      "predicate": "showed naphthalene hydroxylation",
+      "object": "0.21 ~I of Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol synthesis reaction",
+      "predicate": "was carried out by",
+      "object": "M. trichosporium OB3b grown in 1.25 ~Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Growth rate of M. trichosporium OB3b",
+      "predicate": "decreased",
+      "object": "with increasing Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Naphthalene hydroxylation assay",
+      "predicate": "has been used as an indicator for sMMO activity potential in methanotrophs",
+      "object": ""
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "contained",
+      "object": "cupric sulfate",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "M. trichosporium OB3b was cultivated in  mineral salts media  containing cupric sulfate. As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. M. trichosporium OB3b  expresses either sMMO or  particulate MMO (pMMO),  and  the form  expressed strongly depended  on  the  concentration of  Cu during the  growth (5). In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). M. trichosporium OB3b  grown over  1.25  ~//Cu  did  not  show naphthalene hydroxylation; however,  the  culture did  show oxidation of  p r o p e n e in  propene  epoxidation assay. These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. This  result indicates that M. trichosporium OB3b  grown over  1.25 ~V/Cu expresses only  pMMO.",
+        "document_offsets": {
+          "start": 5718,
+          "end": 8811
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 131,
+            "end": 152,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 393,
+            "end": 414,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 803,
+            "end": 824,
+            "sentence_id": 7,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 970,
+            "end": 991,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1100,
+            "end": 1121,
+            "sentence_id": 9,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1245,
+            "end": 1266,
+            "sentence_id": 10,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1928,
+            "end": 1949,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2034,
+            "end": 2055,
+            "sentence_id": 17,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2245,
+            "end": 2266,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2334,
+            "end": 2355,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3026,
+            "end": 3047,
+            "sentence_id": 21,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 73,
+            "end": 87,
+            "sentence_id": 0,
+            "matched_text": "cupric sulfate"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "MMO activity",
+      "predicate": "was directly related to",
+      "object": "Cu concentration up to 20 ~M",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 14,
+        "text_evidence": "MMO activity was  directly related to  the Cu concentration up  to 20  ~,I. The maximum  MMO activity was 98.6 nmol of  propene  oxide  formed/mg dry  cell/mL at  20 ~ of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. Naphthalene hydroxylation assay has  been  used  as  an indicator for  sMMO activity potential in  methanotrophs (4).",
+        "document_offsets": {
+          "start": 6308,
+          "end": 7417
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 5,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 89,
+            "end": 101,
+            "sentence_id": 6,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 290,
+            "end": 302,
+            "sentence_id": 7,
+            "matched_text": "MMO activity"
+          },
+          {
+            "start": 640,
+            "end": 652,
+            "sentence_id": 9,
+            "matched_text": "MMO activity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "This assay",
+      "predicate": "is based on the ability of sMMO to oxidize naphthalene to",
+      "object": "1-naphthol",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 15,
+        "sentence_end": 16,
+        "text_evidence": "This  assay  is based  on  the  ability of  sMMO to  oxidize naphthalene to  1-naphthol and\n\n0.25\n\n\"7_\n\n0.2\n\n\"~  0.15\n\n\"~\n\n0.1\n\n0.05\n\n0\n\nI\n\nI\n\nI\n\nI\n\n0\n\n50\n\n1  O0\n\n150\n\n200\n\n250\n\nCell\n\nTime\n\n/ h\n\n2-naphthol. In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1).",
+        "document_offsets": {
+          "start": 7418,
+          "end": 7751
+        },
+        "subject_positions": [
+          {
+            "start": 211,
+            "end": 221,
+            "sentence_id": 16,
+            "matched_text": "this assay"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 77,
+            "end": 87,
+            "sentence_id": 15,
+            "matched_text": "1-naphthol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "grew slowly at",
+      "object": "20 ~tM of Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "M. trichosporium OB3b was cultivated in  mineral salts media  containing cupric sulfate. As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. M. trichosporium OB3b  expresses either sMMO or  particulate MMO (pMMO),  and  the form  expressed strongly depended  on  the  concentration of  Cu during the  growth (5). In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). M. trichosporium OB3b  grown over  1.25  ~//Cu  did  not  show naphthalene hydroxylation; however,  the  culture did  show oxidation of  p r o p e n e in  propene  epoxidation assay. These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. This  result indicates that M. trichosporium OB3b  grown over  1.25 ~V/Cu expresses only  pMMO.",
+        "document_offsets": {
+          "start": 5718,
+          "end": 8811
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 131,
+            "end": 152,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 393,
+            "end": 414,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 803,
+            "end": 824,
+            "sentence_id": 7,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 970,
+            "end": 991,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1100,
+            "end": 1121,
+            "sentence_id": 9,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1245,
+            "end": 1266,
+            "sentence_id": 10,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1928,
+            "end": 1949,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2034,
+            "end": 2055,
+            "sentence_id": 17,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2245,
+            "end": 2266,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2334,
+            "end": 2355,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3026,
+            "end": 3047,
+            "sentence_id": 21,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b grown over 1.25 ~M Cu concentration",
+      "predicate": "did not show naphthalene hydroxylation; however, the culture did show oxidation of",
+      "object": "propene in propene epoxidation assay",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "MMO activities of these bacteria",
+      "predicate": "were measured by",
+      "object": "propene epoxidation",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 13,
+        "sentence_end": 13,
+        "text_evidence": "MMO activities of these bacteria were measured  by the  naphthalene hydroxylation assay.",
+        "document_offsets": {
+          "start": 7211,
+          "end": 7299
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 32,
+            "sentence_id": 13,
+            "matched_text": "MMO activities of these bacteria"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Maximum MMO activity",
+      "predicate": "was",
+      "object": "98.6 nmol of propene oxide formed/mg dry cell/mL at 20 ~M of Cu concentration",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Otherwise, pMMO is expressed",
+      "predicate": "",
+      "object": ""
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "expresses either sMMO or",
+      "object": "particulate MMO (pMMO)",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 21,
+        "text_evidence": "M. trichosporium OB3b was cultivated in  mineral salts media  containing cupric sulfate. As shown in  Fig. 1, the  growth  rate of M. trichosporium OB3b and  the  maximum  cell density decreased with  increasing Cu concentration, up to  20  ~M. M. trichosporium OB3b  grew nicely at  1.25  ~,/of Cu concentration, and  grew  slowly at 20  ~M  of  Cu concentration. As shown in  Table  1, M. trichosporium OB3b  grown under  20  ~ of  Cu concentration showed higher MMO activity than  the  cell grown at  1.25 ~I and 0.21 ~d of  Cu concentration. However, M. trichosporium OB3b  grew slowly  at  20 ~tM of  Cu concentration. Thus,  the  methanol  synthesis reaction was carried out  by M. trichosporium OB3b  grown  in  1.25 ~ Cu concentration, which  was the highest specific growth  rate, and  comparatively high  MMO activity. M. trichosporium OB3b  expresses either sMMO or  particulate MMO (pMMO),  and  the form  expressed strongly depended  on  the  concentration of  Cu during the  growth (5). In  this assay, only M. trichosporium OB3b  grown in  0.21  ~'i  Cu concentration showed  naphthalene hydroxylation (Table 1). M. trichosporium OB3b  grown over  1.25  ~//Cu  did  not  show naphthalene hydroxylation; however,  the  culture did  show oxidation of  p r o p e n e in  propene  epoxidation assay. These  results  uggest that M. trichosporium OB3b  grown  in  0.21  pM  Cu concentration expresses mainly  sMMO, and M. trichosporium OB3b  grown over  1.25  ~M  Cu concentration expresses only  pMMO. This  result indicates that M. trichosporium OB3b  grown over  1.25 ~V/Cu expresses only  pMMO.",
+        "document_offsets": {
+          "start": 5718,
+          "end": 8811
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 131,
+            "end": 152,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 393,
+            "end": 414,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 803,
+            "end": 824,
+            "sentence_id": 7,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 970,
+            "end": 991,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1100,
+            "end": 1121,
+            "sentence_id": 9,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1245,
+            "end": 1266,
+            "sentence_id": 10,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1928,
+            "end": 1949,
+            "sentence_id": 16,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2034,
+            "end": 2055,
+            "sentence_id": 17,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2245,
+            "end": 2266,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2334,
+            "end": 2355,
+            "sentence_id": 18,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3026,
+            "end": 3047,
+            "sentence_id": 21,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "MMO activities of these bacteria",
+      "predicate": "were measured by the naphthalene hydroxylation assay",
+      "object": ""
+    },
+    {
+      "subject": "The electrophoretic profile of the broken cells obtained from grown cells at 1.25 ~V/Cu concentration showed the same putative pMMO polypeptide bands.",
+      "predicate": "This result indicates that M. trichosporium OB3b grown over",
+      "object": "1.25 ~V/Cu expresses only pMMO.",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "In addition, it is known that two bands corresponding to polypeptides of molecular masses 46 and 26 kDa, seen on SDS-polyacrylamide gel of the membrane fraction,",
+      "predicate": "are implicated for pMMO",
+      "object": "(5,7)",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "single_sentence",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "In  addition, it  is known that two bands  corresponding to  polypeptides of  molecular masses 46 and 26 kDa, seen  on SDS-polyacrylamide gel  of  the  membrane fraction,\n\n25\n\n4O\n\nA\n\n~\n\n30\n\n2o\n\nE\n\nOw\n\ni\n\ni\n\ni\n\n0\n\n0.1\n\n0.2\n\n0.3\n\n0.4\n\n15\n\nB\n\n10\n\n5\n\n0\n\n10\n\n20\n\n30\n\n15\n\n10\n\n0\n\nI\n\nI\n\nI\n\nI\n\n40\n\n0\n\n5\n\n10\n\n15\n\n20\n\nCell  density  / g dry-cell\n\nm1-1\n\nTemperature  / \"C\n\nSodium  formate / mM\n\n5 \u00b0\n\nare  implicated for  pMMO (5,7).",
+        "document_offsets": {
+          "start": 8136,
+          "end": 8556
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The form expressed strongly depended on",
+      "predicate": "the concentration of Cu during the growth",
+      "object": "low Cu concentration sMMO is expressed",
+      "source_span": {
+        "chunk_id": 9,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "optimizes methanol accumulation",
+      "object": "cell density",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The study  on the  effect of  cell density on methanol  accumulation by M. trichosporium OB3b  indicated the  optimum cell density to  be  34.6 ~tg  of dry  cell/mL  (Fig. 2A). At  higher cell density, there was no further increase in  methanol  accumulation. The effect of  reaction temperature on methanol accumulation  by M. trichosporium OB3b  indicated the  optimum  temperature to  be 25~ (Fig. 2B). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. In  previous  studies, Tonge and coworkers (9) proposed  that  the physiological electron donor  for pMMO in M. trichosporium OB3b was not NADH,  but  rather that the  immediate  donor  was the  CO-binding  cytochrome  c, being  reduced  in  turn by  the  MDH.",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12226
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 320,
+            "end": 341,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 575,
+            "end": 596,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1237,
+            "end": 1258,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2883,
+            "end": 2904,
+            "sentence_id": 22,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3266,
+            "end": 3287,
+            "sentence_id": 25,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 78,
+            "end": 90,
+            "sentence_id": 0,
+            "matched_text": "cell density"
+          },
+          {
+            "start": 278,
+            "end": 290,
+            "sentence_id": 1,
+            "matched_text": "cell density"
+          },
+          {
+            "start": 366,
+            "end": 378,
+            "sentence_id": 1,
+            "matched_text": "cell density"
+          },
+          {
+            "start": 437,
+            "end": 449,
+            "sentence_id": 2,
+            "matched_text": "cell density"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "cyclopropanol",
+      "predicate": "affects methanol accumulation by M. trichosporium OB3b",
+      "object": "concentration",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The relationship between concentration of sodium formate  and methanol  accumulation was studied (Fig. 2C). The  methanol  accumulation increased with  increasing concentration of  sodium formate, and  was saturated by  more than  14.3  mM  sodium formate. Mehta and coworkers  reported that high  concentration of  phosphate ions  (>80 mM)  selectively inhibited MDH activity in  the  cells of M. trichosporium NCIB  11131 (8). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. I\n\nI\n\n0\n\n2\n\n4\n\n6\n\nCyclopropanol /  tiM\n\nHowever,  the  methanol  accumulation decreased with  increasing concentration of  phosphate buffer, pH 7.0. These  results show that high  concentration of  phosphate ions  inhibited not  only  MDH activity, but  also pMMO activity in  the  cells. In  this study, the  cell suspension was treated with  cyclopropanol, which  was an  irreversible inhibitor for MDH (2). Figure  3  shows  the  effects of  cyclopropanol concentration on  pMMO activity and  MDH activity (the activities were  measured  by  propene  epoxidation and  methanol  consumption, respectively). In  the  presence of  cyclopropanol, the  MDH activity decreased with  increasing cyclopropanol concentration. When  the  concentration of  cyclopropanol was 6.18  ~tM in the  reaction mixture, the  MDH activity decreased by 79.3%;  however, pMMO activity was not  affected. When the  concentration of  cyclopropanol was 6.18  W~I,  the  loss of  pMMO activity was only  12%.\n\n0.32\n\n20\n\n\"7\n\n15\n\n.= I\n\nI\n\n0\n\n0.08\n\n0.16\n\n0.24\n\nCycIopropanol\n\n/  ~M\n\nFigure  4 shows the  effect of  cyclopropanol on methanol  accumulation. The maximum  methanol  accumulation was observed  with  0.67 cyclopropanol in  the  reaction mixture. In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. The  propene  epoxidation by the  cells that were not  treated with  cyclopropanol was measured in  the presence  of  methanol  instead of  sodium formate.",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12526
+        },
+        "subject_positions": [
+          {
+            "start": 217,
+            "end": 230,
+            "sentence_id": 0,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 1406,
+            "end": 1419,
+            "sentence_id": 10,
+            "matched_text": "Cyclopropanol"
+          },
+          {
+            "start": 1882,
+            "end": 1895,
+            "sentence_id": 13,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 1984,
+            "end": 1997,
+            "sentence_id": 14,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2170,
+            "end": 2183,
+            "sentence_id": 15,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2230,
+            "end": 2243,
+            "sentence_id": 15,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2288,
+            "end": 2301,
+            "sentence_id": 16,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2451,
+            "end": 2464,
+            "sentence_id": 17,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2653,
+            "end": 2666,
+            "sentence_id": 20,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2755,
+            "end": 2768,
+            "sentence_id": 21,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2805,
+            "end": 2818,
+            "sentence_id": 22,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 3633,
+            "end": 3646,
+            "sentence_id": 27,
+            "matched_text": "cyclopropanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 114,
+            "end": 127,
+            "sentence_id": 0,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 149,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 200,
+            "end": 213,
+            "sentence_id": 0,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 814,
+            "end": 827,
+            "sentence_id": 5,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 953,
+            "end": 966,
+            "sentence_id": 6,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1089,
+            "end": 1102,
+            "sentence_id": 7,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1266,
+            "end": 1279,
+            "sentence_id": 8,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1493,
+            "end": 1506,
+            "sentence_id": 10,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1568,
+            "end": 1581,
+            "sentence_id": 11,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1998,
+            "end": 2011,
+            "sentence_id": 14,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2244,
+            "end": 2257,
+            "sentence_id": 15,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2270,
+            "end": 2283,
+            "sentence_id": 16,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2433,
+            "end": 2446,
+            "sentence_id": 17,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2819,
+            "end": 2832,
+            "sentence_id": 22,
+            "matched_text": "concentration"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "optimizes methanol accumulation",
+      "object": "reaction temperature",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The study  on the  effect of  cell density on methanol  accumulation by M. trichosporium OB3b  indicated the  optimum cell density to  be  34.6 ~tg  of dry  cell/mL  (Fig. 2A). The effect of  reaction temperature on methanol accumulation  by M. trichosporium OB3b  indicated the  optimum  temperature to  be 25~ (Fig. 2B). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. In  previous  studies, Tonge and coworkers (9) proposed  that  the physiological electron donor  for pMMO in M. trichosporium OB3b was not NADH,  but  rather that the  immediate  donor  was the  CO-binding  cytochrome  c, being  reduced  in  turn by  the  MDH.",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12226
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 320,
+            "end": 341,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 575,
+            "end": 596,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1237,
+            "end": 1258,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2883,
+            "end": 2904,
+            "sentence_id": 22,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3266,
+            "end": 3287,
+            "sentence_id": 25,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 92,
+            "end": 112,
+            "sentence_id": 0,
+            "matched_text": "reaction temperature"
+          },
+          {
+            "start": 525,
+            "end": 545,
+            "sentence_id": 3,
+            "matched_text": "reaction temperature"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "phosphate buffer, pH 7.0",
+      "predicate": "inhibits MDH activity in M. trichosporium OB3b",
+      "object": "high concentration",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "I\n\nI\n\n0\n\n2\n\n4\n\n6\n\nCyclopropanol /  tiM\n\nHowever,  the  methanol  accumulation decreased with  increasing concentration of  phosphate buffer, pH 7.0.",
+        "document_offsets": {
+          "start": 10195,
+          "end": 10343
+        },
+        "subject_positions": [
+          {
+            "start": 123,
+            "end": 147,
+            "sentence_id": 10,
+            "matched_text": "phosphate buffer, pH 7.0"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "sodium formate",
+      "predicate": "affects methanol accumulation by M. trichosporium OB3b",
+      "object": "concentration",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The relationship between concentration of sodium formate  and methanol  accumulation was studied (Fig. 2C). The  methanol  accumulation increased with  increasing concentration of  sodium formate, and  was saturated by  more than  14.3  mM  sodium formate. Mehta and coworkers  reported that high  concentration of  phosphate ions  (>80 mM)  selectively inhibited MDH activity in  the  cells of M. trichosporium NCIB  11131 (8). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. I\n\nI\n\n0\n\n2\n\n4\n\n6\n\nCyclopropanol /  tiM\n\nHowever,  the  methanol  accumulation decreased with  increasing concentration of  phosphate buffer, pH 7.0. These  results show that high  concentration of  phosphate ions  inhibited not  only  MDH activity, but  also pMMO activity in  the  cells. Figure  3  shows  the  effects of  cyclopropanol concentration on  pMMO activity and  MDH activity (the activities were  measured  by  propene  epoxidation and  methanol  consumption, respectively). In  the  presence of  cyclopropanol, the  MDH activity decreased with  increasing cyclopropanol concentration. When  the  concentration of  cyclopropanol was 6.18  ~tM in the  reaction mixture, the  MDH activity decreased by 79.3%;  however, pMMO activity was not  affected. When the  concentration of  cyclopropanol was 6.18  W~I,  the  loss of  pMMO activity was only  12%.\n\n0.32\n\n20\n\n\"7\n\n15\n\n.= In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. The  propene  epoxidation by the  cells that were not  treated with  cyclopropanol was measured in  the presence  of  methanol  instead of  sodium formate.",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12526
+        },
+        "subject_positions": [
+          {
+            "start": 132,
+            "end": 146,
+            "sentence_id": 0,
+            "matched_text": "sodium formate"
+          },
+          {
+            "start": 831,
+            "end": 845,
+            "sentence_id": 5,
+            "matched_text": "sodium formate"
+          },
+          {
+            "start": 971,
+            "end": 985,
+            "sentence_id": 6,
+            "matched_text": "sodium formate"
+          },
+          {
+            "start": 1031,
+            "end": 1045,
+            "sentence_id": 6,
+            "matched_text": "sodium formate"
+          },
+          {
+            "start": 3704,
+            "end": 3718,
+            "sentence_id": 27,
+            "matched_text": "sodium formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 114,
+            "end": 127,
+            "sentence_id": 0,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 149,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 200,
+            "end": 213,
+            "sentence_id": 0,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 814,
+            "end": 827,
+            "sentence_id": 5,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 953,
+            "end": 966,
+            "sentence_id": 6,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1089,
+            "end": 1102,
+            "sentence_id": 7,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1266,
+            "end": 1279,
+            "sentence_id": 8,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1493,
+            "end": 1506,
+            "sentence_id": 10,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1568,
+            "end": 1581,
+            "sentence_id": 11,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 1998,
+            "end": 2011,
+            "sentence_id": 14,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2244,
+            "end": 2257,
+            "sentence_id": 15,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2270,
+            "end": 2283,
+            "sentence_id": 16,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2433,
+            "end": 2446,
+            "sentence_id": 17,
+            "matched_text": "concentration"
+          },
+          {
+            "start": 2819,
+            "end": 2832,
+            "sentence_id": 22,
+            "matched_text": "concentration"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "pMMO activity",
+      "predicate": "not affected by cyclopropanol concentration up to 6.18 ~tM in the reaction mixture",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 29,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The study  on the  effect of  cell density on methanol  accumulation by M. trichosporium OB3b  indicated the  optimum cell density to  be  34.6 ~tg  of dry  cell/mL  (Fig. 2A). The effect of  reaction temperature on methanol accumulation  by M. trichosporium OB3b  indicated the  optimum  temperature to  be 25~ (Fig. 2B). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. These  results show that high  concentration of  phosphate ions  inhibited not  only  MDH activity, but  also pMMO activity in  the  cells. Figure  3  shows  the  effects of  cyclopropanol concentration on  pMMO activity and  MDH activity (the activities were  measured  by  propene  epoxidation and  methanol  consumption, respectively). When  the  concentration of  cyclopropanol was 6.18  ~tM in the  reaction mixture, the  MDH activity decreased by 79.3%;  however, pMMO activity was not  affected. When the  concentration of  cyclopropanol was 6.18  W~I,  the  loss of  pMMO activity was only  12%.\n\n0.32\n\n20\n\n\"7\n\n15\n\n.= In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. These  results  uggest that the  MDH activity has  a  strong effect on  the  pMMO activity in  vivo. In  previous  studies, Tonge and coworkers (9) proposed  that  the physiological electron donor  for pMMO in M. trichosporium OB3b was not NADH,  but  rather that the  immediate  donor  was the  CO-binding  cytochrome  c, being  reduced  in  turn by  the  MDH. This  result suggests that in  this system  the  rate of  methane  hydroxylation (the pMMO activity) is  limited by the  rate of  methanol  consumption  (the MDH activity), and\n\n160\n\ni\n\n,o  120\n\n'1o\n\no\n\nE\n\n8O\n\nE\n\no\n\nr\n\n40\n\n0\n\n50\n\n1  O0\n\n150\n\nTime  /",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12934
+        },
+        "subject_positions": [
+          {
+            "start": 1647,
+            "end": 1660,
+            "sentence_id": 11,
+            "matched_text": "pMMO activity"
+          },
+          {
+            "start": 2016,
+            "end": 2029,
+            "sentence_id": 14,
+            "matched_text": "pMMO activity"
+          },
+          {
+            "start": 2390,
+            "end": 2403,
+            "sentence_id": 16,
+            "matched_text": "pMMO activity"
+          },
+          {
+            "start": 2495,
+            "end": 2508,
+            "sentence_id": 17,
+            "matched_text": "pMMO activity"
+          },
+          {
+            "start": 3132,
+            "end": 3145,
+            "sentence_id": 24,
+            "matched_text": "pMMO activity"
+          },
+          {
+            "start": 3962,
+            "end": 3975,
+            "sentence_id": 29,
+            "matched_text": "pMMO activity"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 320,
+            "end": 341,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 575,
+            "end": 596,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1237,
+            "end": 1258,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2883,
+            "end": 2904,
+            "sentence_id": 22,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3266,
+            "end": 3287,
+            "sentence_id": 25,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "cyclopropanol",
+      "predicate": "observes maximum methanol accumulation with 0.67 cyclopropanol in the reaction mixture",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 27,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The study  on the  effect of  cell density on methanol  accumulation by M. trichosporium OB3b  indicated the  optimum cell density to  be  34.6 ~tg  of dry  cell/mL  (Fig. 2A). The effect of  reaction temperature on methanol accumulation  by M. trichosporium OB3b  indicated the  optimum  temperature to  be 25~ (Fig. 2B). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. I\n\nI\n\n0\n\n2\n\n4\n\n6\n\nCyclopropanol /  tiM\n\nHowever,  the  methanol  accumulation decreased with  increasing concentration of  phosphate buffer, pH 7.0. In  this study, the  cell suspension was treated with  cyclopropanol, which  was an  irreversible inhibitor for MDH (2). Figure  3  shows  the  effects of  cyclopropanol concentration on  pMMO activity and  MDH activity (the activities were  measured  by  propene  epoxidation and  methanol  consumption, respectively). In  the  presence of  cyclopropanol, the  MDH activity decreased with  increasing cyclopropanol concentration. When  the  concentration of  cyclopropanol was 6.18  ~tM in the  reaction mixture, the  MDH activity decreased by 79.3%;  however, pMMO activity was not  affected. When the  concentration of  cyclopropanol was 6.18  W~I,  the  loss of  pMMO activity was only  12%.\n\n0.32\n\n20\n\n\"7\n\n15\n\n.= I\n\nI\n\n0\n\n0.08\n\n0.16\n\n0.24\n\nCycIopropanol\n\n/  ~M\n\nFigure  4 shows the  effect of  cyclopropanol on methanol  accumulation. The maximum  methanol  accumulation was observed  with  0.67 cyclopropanol in  the  reaction mixture. In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. In  previous  studies, Tonge and coworkers (9) proposed  that  the physiological electron donor  for pMMO in M. trichosporium OB3b was not NADH,  but  rather that the  immediate  donor  was the  CO-binding  cytochrome  c, being  reduced  in  turn by  the  MDH. The  propene  epoxidation by the  cells that were not  treated with  cyclopropanol was measured in  the presence  of  methanol  instead of  sodium formate.",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12526
+        },
+        "subject_positions": [
+          {
+            "start": 217,
+            "end": 230,
+            "sentence_id": 0,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 1406,
+            "end": 1419,
+            "sentence_id": 10,
+            "matched_text": "Cyclopropanol"
+          },
+          {
+            "start": 1882,
+            "end": 1895,
+            "sentence_id": 13,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 1984,
+            "end": 1997,
+            "sentence_id": 14,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2170,
+            "end": 2183,
+            "sentence_id": 15,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2230,
+            "end": 2243,
+            "sentence_id": 15,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2288,
+            "end": 2301,
+            "sentence_id": 16,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2451,
+            "end": 2464,
+            "sentence_id": 17,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2653,
+            "end": 2666,
+            "sentence_id": 20,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2755,
+            "end": 2768,
+            "sentence_id": 21,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 2805,
+            "end": 2818,
+            "sentence_id": 22,
+            "matched_text": "cyclopropanol"
+          },
+          {
+            "start": 3633,
+            "end": 3646,
+            "sentence_id": 27,
+            "matched_text": "cyclopropanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 320,
+            "end": 341,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 575,
+            "end": 596,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1237,
+            "end": 1258,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2883,
+            "end": 2904,
+            "sentence_id": 22,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3266,
+            "end": 3287,
+            "sentence_id": 25,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "MDH activity",
+      "predicate": "decreases with increasing cyclopropanol concentration",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 10,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 29,
+        "text_evidence": "To optimize  methanol  accumulation by M. trichosporium OB3b, the effects of  cell density, reaction temperature, concentration of  sodium formate,  concentration of  phosphate  buffer, pH  7.0,  and concentration of cyclopropanol were  examined. The study  on the  effect of  cell density on methanol  accumulation by M. trichosporium OB3b  indicated the  optimum cell density to  be  34.6 ~tg  of dry  cell/mL  (Fig. 2A). The effect of  reaction temperature on methanol accumulation  by M. trichosporium OB3b  indicated the  optimum  temperature to  be 25~ (Fig. 2B). Mehta and coworkers  reported that high  concentration of  phosphate ions  (>80 mM)  selectively inhibited MDH activity in  the  cells of M. trichosporium NCIB  11131 (8). In  the case  of M. trichosporium OB3b, high  concentration of  phosphate  buffer, pH  7.0,  also  inhibited MDH activity. These  results show that high  concentration of  phosphate ions  inhibited not  only  MDH activity, but  also pMMO activity in  the  cells. Figure  3  shows  the  effects of  cyclopropanol concentration on  pMMO activity and  MDH activity (the activities were  measured  by  propene  epoxidation and  methanol  consumption, respectively). In  the  presence of  cyclopropanol, the  MDH activity decreased with  increasing cyclopropanol concentration. When  the  concentration of  cyclopropanol was 6.18  ~tM in the  reaction mixture, the  MDH activity decreased by 79.3%;  however, pMMO activity was not  affected. In  this cyclopropanol concentration, the  losses of  MMO activity and MDH activity in M. trichosporium OB3b were 5.2  and 49.8%, respectively. Thus,  when MDH activity in  the  cell remained  more than  50%, the  maximum methanol  accumulation was observed. These  results  uggest that the  MDH activity has  a  strong effect on  the  pMMO activity in  vivo. In  previous  studies, Tonge and coworkers (9) proposed  that  the physiological electron donor  for pMMO in M. trichosporium OB3b was not NADH,  but  rather that the  immediate  donor  was the  CO-binding  cytochrome  c, being  reduced  in  turn by  the  MDH. This  result suggests that in  this system  the  rate of  methane  hydroxylation (the pMMO activity) is  limited by the  rate of  methanol  consumption  (the MDH activity), and\n\n160\n\ni\n\n,o  120\n\n'1o\n\no\n\nE\n\n8O\n\nE\n\no\n\nr\n\n40\n\n0\n\n50\n\n1  O0\n\n150\n\nTime  /",
+        "document_offsets": {
+          "start": 8807,
+          "end": 12934
+        },
+        "subject_positions": [
+          {
+            "start": 1155,
+            "end": 1167,
+            "sentence_id": 7,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 1329,
+            "end": 1341,
+            "sentence_id": 8,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 1623,
+            "end": 1635,
+            "sentence_id": 11,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 2035,
+            "end": 2047,
+            "sentence_id": 14,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 2190,
+            "end": 2202,
+            "sentence_id": 15,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 2347,
+            "end": 2359,
+            "sentence_id": 16,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 2867,
+            "end": 2879,
+            "sentence_id": 22,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 2952,
+            "end": 2964,
+            "sentence_id": 23,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 3088,
+            "end": 3100,
+            "sentence_id": 24,
+            "matched_text": "MDH activity"
+          },
+          {
+            "start": 4034,
+            "end": 4046,
+            "sentence_id": 29,
+            "matched_text": "MDH activity"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 39,
+            "end": 60,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 320,
+            "end": 341,
+            "sentence_id": 1,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 575,
+            "end": 596,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 1237,
+            "end": 1258,
+            "sentence_id": 8,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 2883,
+            "end": 2904,
+            "sentence_id": 22,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 3266,
+            "end": 3287,
+            "sentence_id": 25,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Reaction",
+      "predicate": "continued for",
+      "object": "100 h",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Methanol  synthesis was carried out  with  reaction conditions indicated in  Table  2. By optimizing the  reaction condition, the  reaction continued for 100  h and  the produced  methanol was 152  mmol/g of  dry  cell, which  is 51fold higher than  that of  the  conventional conditions (Fig. 5). In  addition, the\n\nmethanol  production  yield per  consumed methane,  which  was consumed by culture and  methanol  synthesis reaction, was 60.5% (compared to  2.9%  under conventional conditions). By selecting the  culture  conditions and reaction conditions, methane hydroxylation activity in  the  cell was kept  for  a  long time  and the  methanol  production  (the efficiency) dramatically increased.",
+        "document_offsets": {
+          "start": 13030,
+          "end": 13736
+        },
+        "subject_positions": [
+          {
+            "start": 43,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 107,
+            "end": 115,
+            "sentence_id": 1,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 132,
+            "end": 140,
+            "sentence_id": 1,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 426,
+            "end": 434,
+            "sentence_id": 2,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 540,
+            "end": 548,
+            "sentence_id": 3,
+            "matched_text": "reaction"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "was synthesized under",
+      "object": "reaction conditions indicated in Table 2",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Methanol  synthesis was carried out  with  reaction conditions indicated in  Table  2. By optimizing the  reaction condition, the  reaction continued for 100  h and  the produced  methanol was 152  mmol/g of  dry  cell, which  is 51fold higher than  that of  the  conventional conditions (Fig. 5). In  addition, the\n\nmethanol  production  yield per  consumed methane,  which  was consumed by culture and  methanol  synthesis reaction, was 60.5% (compared to  2.9%  under conventional conditions). By selecting the  culture  conditions and reaction conditions, methane hydroxylation activity in  the  cell was kept  for  a  long time  and the  methanol  production  (the efficiency) dramatically increased.",
+        "document_offsets": {
+          "start": 13030,
+          "end": 13736
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 181,
+            "end": 189,
+            "sentence_id": 1,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 318,
+            "end": 326,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 406,
+            "end": 414,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 644,
+            "end": 652,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Culture and methanol synthesis reaction",
+      "predicate": "consumed",
+      "object": "methane",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "In  addition, the\n\nmethanol  production  yield per  consumed methane,  which  was consumed by culture and  methanol  synthesis reaction, was 60.5% (compared to  2.9%  under conventional conditions). By selecting the  culture  conditions and reaction conditions, methane hydroxylation activity in  the  cell was kept  for  a  long time  and the  methanol  production  (the efficiency) dramatically increased.",
+        "document_offsets": {
+          "start": 13329,
+          "end": 13736
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 61,
+            "end": 68,
+            "sentence_id": 2,
+            "matched_text": "methane"
+          },
+          {
+            "start": 262,
+            "end": 269,
+            "sentence_id": 3,
+            "matched_text": "methane"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methane hydroxylation activity in the cell",
+      "predicate": "was kept for a long time",
+      "object": "and the methanol production (the efficiency) dramatically increased.",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Produced methanol",
+      "predicate": "was",
+      "object": "152 mmol/g of dry cell",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol production yield under conventional conditions",
+      "predicate": "was",
+      "object": "2.9%",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "In  addition, the\n\nmethanol  production  yield per  consumed methane,  which  was consumed by culture and  methanol  synthesis reaction, was 60.5% (compared to  2.9%  under conventional conditions).",
+        "document_offsets": {
+          "start": 13329,
+          "end": 13527
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol production yield per consumed methane",
+      "predicate": "was",
+      "object": "60.5%",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "In  addition, the\n\nmethanol  production  yield per  consumed methane,  which  was consumed by culture and  methanol  synthesis reaction, was 60.5% (compared to  2.9%  under conventional conditions).",
+        "document_offsets": {
+          "start": 13329,
+          "end": 13527
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Produced methanol",
+      "predicate": "is",
+      "object": "51fold higher than that of the conventional conditions (Fig. 5)",
+      "source_span": {
+        "chunk_id": 11,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "was provided by",
+      "object": "J. D. Lipscomb",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "M. trichosporium OB3b  was provided  by  J. D.  Lipscomb of  University of  Minnesota.",
+        "document_offsets": {
+          "start": 13737,
+          "end": 13825
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "This present work",
+      "predicate": "is partly defrayed by",
+      "object": "the Grant-in-Aid for Scientific Research",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the Grant-in-Aid for Scientific Research",
+      "predicate": "from",
+      "object": "the Ministry of Education, Science, Sports, and Culture of Japan",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "the Grant-in-Aid for Scientific Research",
+      "predicate": "on Prior-Areas-Research on",
+      "object": "Photoreaction Dynamics",
+      "source_span": {
+        "chunk_id": 12,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "This  present work is partly defrayed  by  the  Grant-in-Aid  for Scientific Research  on  Prior-Areas-Research on \"Photoreaction Dynamics\" from the  Ministry  of  Education,  Science, Sports, and Culture  of  Japan (07228101).",
+        "document_offsets": {
+          "start": 13825,
+          "end": 14052
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 116,
+            "end": 138,
+            "sentence_id": 1,
+            "matched_text": "Photoreaction Dynamics"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shimoda, M. and Okura, I.",
+      "predicate": "is author of",
+      "object": "J. Mol. Catal. 64, L23-L25",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Shiemke",
+      "predicate": "et al.",
+      "object": "Arch. Biochem. Biophys.",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 16,
+        "sentence_end": 16,
+        "text_evidence": "Shiemke,  A.  K., Cook,  S.  A.,  Miley, T., and Singleton, P.  (1995), Arch.",
+        "document_offsets": {
+          "start": 14842,
+          "end": 14919
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 16,
+            "matched_text": "Shiemke"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Tonge",
+      "predicate": "et al.",
+      "object": "FEBS Lett. 58",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "Tonge,  G.  M.,  Harrison, D.  E.  F., Knowles,  C.  J., and  Higgins, I. J. (1975), FEBS Lett. 58, 293-299.",
+        "document_offsets": {
+          "start": 14732,
+          "end": 14842
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 15,
+            "matched_text": "Tonge"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 85,
+            "end": 98,
+            "sentence_id": 15,
+            "matched_text": "FEBS Lett. 58"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Mehta",
+      "predicate": "et al.",
+      "object": "J. Gen. Microbiol. 33",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 13,
+        "sentence_end": 13,
+        "text_evidence": "Mehta,  P.  K., Saroj, S., and Ghose, T.  K.  (1987), J. Gen.  Microbiol.",
+        "document_offsets": {
+          "start": 14643,
+          "end": 14716
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 13,
+            "matched_text": "Mehta"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Fox",
+      "predicate": "et al.",
+      "object": "Methods Enzymol. 188",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Fox,  B.  G.,  Froland, W. A., Jollie, D.  R., and  Lipscomb, J. D.  (1990), Methods  Enzymol.",
+        "document_offsets": {
+          "start": 14202,
+          "end": 14296
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 3,
+            "sentence_id": 5,
+            "matched_text": "Fox"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shimoda, M.",
+      "predicate": "and",
+      "object": "Okura, I.",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Prior",
+      "predicate": "and Dalton",
+      "object": "are authors of",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "Prior, S.  D. and Dalton, H. (1985), J. Gen.  Microbiol.",
+        "document_offsets": {
+          "start": 14570,
+          "end": 14626
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 11,
+            "matched_text": "Prior"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shimoda",
+      "predicate": "is author of",
+      "object": "J. Mol. Catal. 64",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Shimoda,  M.,  Nemoto,  S., and  Okura,  I. (1991), J. Mol.",
+        "document_offsets": {
+          "start": 14051,
+          "end": 14112
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "Shimoda"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Burrows",
+      "predicate": "et al.",
+      "object": "J. Gen. Microbiol. 130",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Burrows,  K. J., Harrison, D. E.  F.,  and Higgins, I. J.  (1984), J.  Gen. Microbiol.",
+        "document_offsets": {
+          "start": 14417,
+          "end": 14503
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 8,
+            "matched_text": "Burrows"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Laemmli",
+      "predicate": "is author of",
+      "object": "Nature 227",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "Laemmli,  U.  K.  (1970), Nature 227,  680-685.",
+        "document_offsets": {
+          "start": 14521,
+          "end": 14570
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 10,
+            "matched_text": "Laemmli"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 26,
+            "end": 36,
+            "sentence_id": 10,
+            "matched_text": "Nature 227"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Brussseau",
+      "predicate": "et al.",
+      "object": "Biodegradation 1",
+      "source_span": {
+        "chunk_id": 13,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Brussseau, G.  A., Tsien, H.-C., Richard, R.  S., and Wackett, L.  P.  (1990), Biodegradation 1, 19-29.",
+        "document_offsets": {
+          "start": 14312,
+          "end": 14417
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 9,
+            "sentence_id": 7,
+            "matched_text": "Brussseau"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 95,
+            "sentence_id": 7,
+            "matched_text": "Biodegradation 1"
+          }
+        ],
+        "confidence": 1.0
+      }
+    }
+  ]
+}

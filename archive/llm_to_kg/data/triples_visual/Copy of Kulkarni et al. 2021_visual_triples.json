@@ -1,0 +1,230 @@
+[
+  {
+    "page": 2,
+    "caption": "slow growth rate of methanotrophs, low methane solubility and\nmetal ion dependency (16,17). Different process designs like batch\nmode fermentation, membrane reactor, use of co-culture and\nvarious immobilization strategies have also been investigated\npreviously\nfor\nmethanol\nproduction\n(18e21).\nTable\n1\n(12,15,16,18,22e25) shows recent literature summary of yield,\ntiter and speciﬁc productivity of methanol production by different\nmethanotrophs. Studies on inhibition of methanol dehydrogenase\n(MDH), co-culture biotransformation, use of methane vector and\nregeneration of co-factor from formate have been reported to\nimprove\nmethanol\nproduction\n(1,16,20,26).\nAlthough\nseveral\nstudies have been explored towards production of bio-methanol,\nthe comparison of methanol production between different strains\nis difﬁcult due to variation in culturing protocols, varying cell\nconcentration in biotransformation reaction and supply of reducing\nagent. Important factors like selection of methanotrophic strain,\nfrom a wide diversity of methanotroph and characteristics like\nmethanol tolerance have not been systematically investigated so\nfar. Methanol being a bulk chemical and its production process\nmust be designed to incur the lowest possible cost. Selection of\nsuitable methanotrophic platform can play a key critical role in\nminimizing process requirements and operational costs. Key char-\nacteristics of methanotroph like optimum temperature for growth,\nmethanol tolerance, methane conversion rate, titer, yield and pro-\nductivity can have an impact on the overall cost of the bioprocess.\nIn the present study, an industrially suitable organism was\nsystematically selected from wide diversity of genus and species of\nmethanotrophs. Selected strains were investigated for methanol\ntolerance, requirements of reducing energy and optimization of\nMDH inhibitors. Methanol production using biogas generated on\nsecond generation feedstock was also evaluated.",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gamma-\nproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: FIG. 2. Phylogenetic analysis using pmoA sequences performed with neighbor joining as construction method with bootstrap threshold set to 85%. (A) Mesophilic gamma-\nproteobacterial methanotrophs; (B) mesophilic alpha-proteobacterial methanotrophs. Branch length values displayed near lines are mentioning changes per amino acid position.\n\nOutput JSON list only:\nassistant\n[\n  (\"M. koyamae BAI59769.1\", \"belongs to\", \"Group A1\"),\n  (\"Methylomonas sp. DH-1 ANE57196.1\", \"belongs to\", \"Group A1\"),\n  (\"M. dentriticans AMK77276.1\", \"belongs to\", \"Group A1\"),\n  (\"M. methanica AEF98753.1\", \"belongs to\", \"Group A1\"),\n  (\"M. vadi BAF62072.1\", \"belongs to\", \"Group A1\"),\n  (\"M. paludis CCH22593.1\", \"belongs to\", \"Group A1\"),\n  (\"M. tundripaludum EGW23567.1\", \"belongs to\", \"Group A1\"),\n  (\"M. murrelli BAL04120.1\", \"belongs to\", \"Group A1\"),\n  (\"M. quisquiliarum AAF04266.1\", \"belongs to\", \"Group A1\"),\n  (\"M. oryzae ACA42491.1\", \"belongs to\", \"Group A1\"),\n  (\"M. capsulatus AAB49821.1\", \"belongs to\", \"Group A1\"),\n  (\"M. ishizawai WP_085214205.1\", \"belongs to\", \"Group A1\"),\n  (\"M. crimeensis BAM71040.1\", \"belongs to\", \"Group A1\"),\n  (\"M. pelagicum AAC61804.1\", \"belongs to\", \"Group A1\"),\n  (\"M. fibrita WP_020564881.1\", \"belongs to\", \"Group A1\"),\n  (\"M. lacus WP_024298805.1\", \"belongs to\", \"Group A2\"),\n  (\"M. agile WP_005374467.1\", \"belongs to\", \"Group A2\"),\n  (\"M. album EIC31239.1\", \"belongs to\", \"Group A2\"),\n  (\"M. difficile ABD13901.1\", \"belongs to\", \"Group A2\"),\n  (\"M."
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "FIG. 3. Methanol tolerance data of (A) M. methanica, (B) M. alcaliphilum, (C) M. trichosporium and (D) M. silvestris. Maximum speciﬁc growth rate (h\u00031) in the presence of methane\n(ﬁlled bars) and absence of methane (open bars). Data is mean representation of three replicates with standard deviation as an error bar.",
+    "triples": [
+      {
+        "subject": "M. methanica",
+        "relation": "maximum specific growth rate in presence of methanol",
+        "object": "varies with methanol concentration, shown in panel A"
+      },
+      {
+        "subject": "M. methanica",
+        "relation": "maximum specific growth rate in absence of methanol",
+        "object": "shown in panel A"
+      },
+      {
+        "subject": "M. alcaliphilum",
+        "relation": "maximum specific growth rate in presence of methanol",
+        "object": "varies with methanol concentration, shown in panel B"
+      },
+      {
+        "subject": "M. alcaliphilum",
+        "relation": "maximum specific growth rate in absence of methanol",
+        "object": "shown in panel B"
+      },
+      {
+        "subject": "M. trichosporium",
+        "relation": "maximum specific growth rate in presence of methanol",
+        "object": "varies with methanol concentration, shown in panel C"
+      },
+      {
+        "subject": "M. trichosporium",
+        "relation": "maximum specific growth rate in absence of methanol",
+        "object": "shown in panel C"
+      },
+      {
+        "subject": "M. silvestris",
+        "relation": "maximum specific growth rate in presence of methanol",
+        "object": "varies with methanol concentration, shown in panel D"
+      },
+      {
+        "subject": "M. silvestris",
+        "relation": "maximum specific growth rate in absence of methanol",
+        "object": "shown in panel D"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "FIG. 4. Optimization of biotransformation reaction for methanol production using 20 mmol L\u00031 sodium phosphate buffer (pH 6.8), 2 g dry cells/L, 40 mmol L\u00031 sodium formate with\ninhibitors. (A) Potassium phosphate; (B) NaCl; (C) MgCl2; (D) EDTA and (E) NH4Cl. (F) Methanol production at varying concentrations of sodium formate at optimum inhibitor level\nfor each strain. M. methanica (ﬁlled bars), M. alcaliphilum (horizontal-striped bars) and M. silvestris (open bars). Data is mean representation of three replicates with standard\ndeviation as an error bar.",
+    "triples": [
+      {
+        "subject": "M. methanica",
+        "relation": "produces",
+        "object": "methanol"
+      },
+      {
+        "subject": "M. alcaliphilum",
+        "relation": "produces",
+        "object": "methanol"
+      },
+      {
+        "subject": "M. silvestris",
+        "relation": "produces",
+        "object": "methanol"
+      },
+      {
+        "subject": "potassium phosphate",
+        "relation": "affects",
+        "object": "methanol production"
+      },
+      {
+        "subject": "NaCl",
+        "relation": "affects",
+        "object": "methanol production"
+      },
+      {
+        "subject": "MgCl2",
+        "relation": "affects",
+        "object": "methanol production"
+      },
+      {
+        "subject": "EDTA",
+        "relation": "affects",
+        "object": "methanol production"
+      },
+      {
+        "subject": "NH4Cl",
+        "relation": "affects",
+        "object": "methanol production"
+      },
+      {
+        "subject": "sodium formate",
+        "relation": "affects",
+        "object": "methanol production"
+      },
+      {
+        "subject": "sodium phosphate buffer",
+        "relation": "used in",
+        "object": "biotransformation reaction"
+      },
+      {
+        "subject": "sodium phosphate buffer",
+        "relation": "has pH",
+        "object": "6.8"
+      },
+      {
+        "subject": "sodium formate",
+        "relation": "used at concentration",
+        "object": "40 mmol L⁻¹"
+      },
+      {
+        "subject": "biotransformation reaction",
+        "relation": "uses",
+        "object": "2 g dry cells/L"
+      },
+      {
+        "subject": "biotransformation reaction",
+        "relation": "has",
+        "object": "inhibitors"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A)\nSpeciﬁc FDH enzyme activity (open bars) and total MMO activity of methanotrophs\n(ﬁlled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L\u00031",
+    "triples": [
+      {
+        "subject": "M. methanica",
+        "relation": "has MMO activity of",
+        "object": "10 nmol/mg/min"
+      },
+      {
+        "subject": "M. methanica",
+        "relation": "has FDH activity of",
+        "object": "0.1 U/mg protein"
+      },
+      {
+        "subject": "M. alcaliphilum",
+        "relation": "has MMO activity of",
+        "object": "100 nmol/mg/min"
+      },
+      {
+        "subject": "M. alcaliphilum",
+        "relation": "has FDH activity of",
+        "object": "1.0 U/mg protein"
+      },
+      {
+        "subject": "M. trichosporium",
+        "relation": "has MMO activity of",
+        "object": "90 nmol/mg/min"
+      },
+      {
+        "subject": "M. trichosporium",
+        "relation": "has FDH activity of",
+        "object": "0.8 U/mg protein"
+      },
+      {
+        "subject": "M. silvestris",
+        "relation": "has MMO activity of",
+        "object": "50 nmol/mg/min"
+      },
+      {
+        "subject": "M. silvestris",
+        "relation": "has FDH activity of",
+        "object": "0.5 U/mg protein"
+      },
+      {
+        "subject": "M. methanica",
+        "relation": "produces methanol of",
+        "object": "150 mg/L"
+      },
+      {
+        "subject": "M. alcaliphilum",
+        "relation": "produces methanol of",
+        "object": "300 mg/L"
+      },
+      {
+        "subject": "M. trichosporium",
+        "relation": "produces methanol of",
+        "object": "300 mg/L"
+      },
+      {
+        "subject": "M. silvestris",
+        "relation": "produces methanol of",
+        "object": "150 mg/L"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "FIG. 5. Comparison of enzyme activities and methanol production using biogas. (A)\nSpeciﬁc FDH enzyme activity (open bars) and total MMO activity of methanotrophs\n(ﬁlled bars). (B) Methane to methanol biotransformation reaction with 20 mmol L\u00031",
+    "triples": [
+      {
+        "subject": "Sodium formate (mmol)",
+        "relation": "correlates with",
+        "object": "Methanol (mg/L)"
+      },
+      {
+        "subject": "Sodium formate (mmol)",
+        "relation": "correlates with",
+        "object": "% Redox regeneration"
+      },
+      {
+        "subject": "Time (h)",
+        "relation": "correlates with",
+        "object": "Methanol utilized (mg/L) and Methane utilized (mg/L) of broth"
+      },
+      {
+        "subject": "Time (h)",
+        "relation": "correlates with",
+        "object": "Formic acid (g/L)"
+      }
+    ]
+  }
+]

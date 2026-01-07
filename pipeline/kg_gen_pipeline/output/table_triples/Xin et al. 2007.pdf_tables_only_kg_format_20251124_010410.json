@@ -1,0 +1,1955 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 15,
+    "relations": 49,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Xin et al. 2007.json",
+    "processed_at": "2025-11-24T01:04:10.359716"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Cells containing 29.8% of PHB in Table page8_table0",
+      "predicate": "has_mole",
+      "object": "0.0030",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 1,
+            "matched_text": "0.0030"
+          },
+          {
+            "start": 76,
+            "end": 82,
+            "sentence_id": 1,
+            "matched_text": "0.0030"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 27.0% of PHB in Table page8_table0",
+      "predicate": "has_mole",
+      "object": "0.0027",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 116,
+            "sentence_id": 1,
+            "matched_text": "0.0027"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing <1.0% of PHB in Table page8_table0",
+      "predicate": "has_mole",
+      "object": "0.0009",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 66,
+            "sentence_id": 1,
+            "matched_text": "0.0009"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 7.5% of PHB in Table page8_table0",
+      "predicate": "is_adjacent_to",
+      "object": "Cells containing 41.0% of PHB in Table page8_table0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 41.0% of PHB in Table page8_table0",
+      "predicate": "has_mole",
+      "object": "0.0036",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 9,
+            "end": 15,
+            "sentence_id": 1,
+            "matched_text": "0.0036"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 7.5% of PHB in Table page8_table0",
+      "predicate": "has_percentage",
+      "object": "4.1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 290,
+            "end": 293,
+            "sentence_id": 0,
+            "matched_text": "4.1"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 41.0% of PHB in Table page8_table0",
+      "predicate": "is_adjacent_to",
+      "object": "Cells containing <1.0% of PHB in Table page8_table0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page8_table0",
+      "predicate": "contains",
+      "object": "Methanol accumulated",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 159,
+            "end": 179,
+            "sentence_id": 0,
+            "matched_text": "Methanol accumulated"
+          },
+          {
+            "start": 237,
+            "end": 257,
+            "sentence_id": 0,
+            "matched_text": "Methanol accumulated"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing <1.0% of PHB in Table page8_table0",
+      "predicate": "has_percentage",
+      "object": "<1.0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 27.0% of PHB in Table page8_table0",
+      "predicate": "has_percentage",
+      "object": "27.0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 103,
+            "end": 107,
+            "sentence_id": 1,
+            "matched_text": "27.0"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 41.0% of PHB in Table page8_table0",
+      "predicate": "has_percentage",
+      "object": "36.6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 6,
+            "sentence_id": 1,
+            "matched_text": "36.6"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 29.8% of PHB in Table page8_table0",
+      "predicate": "contains",
+      "object": "PHB",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 36,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 96,
+            "end": 99,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 128,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 141,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 219,
+            "end": 222,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 7.5% of PHB in Table page8_table0",
+      "predicate": "has_mole",
+      "object": "0.0034",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 296,
+            "end": 302,
+            "sentence_id": 0,
+            "matched_text": "0.0034"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 29.8% of PHB in Table page8_table0",
+      "predicate": "has_percentage",
+      "object": "29.8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| 36.6 | 0.0036\n2 | 2.3 | 0.0018 | 33.2 | 0.0030\n3 | <1.0 | 0.0009 | 29.8 | 0.0030\n4 | <1.0 | 0.0003 | 27.0 | 0.0027",
+        "document_offsets": {
+          "start": 303,
+          "end": 419
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 73,
+            "sentence_id": 1,
+            "matched_text": "29.8"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 41.0% of PHB in Table page8_table0",
+      "predicate": "contains",
+      "object": "PHB",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 36,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 96,
+            "end": 99,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 128,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 141,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 219,
+            "end": 222,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 7.5% of PHB in Table page8_table0",
+      "predicate": "contains",
+      "object": "Methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 159,
+            "end": 167,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 237,
+            "end": 245,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page8_table0",
+      "predicate": "contains",
+      "object": "Residual PHB in cell",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 132,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "Residual PHB in cell"
+          },
+          {
+            "start": 210,
+            "end": 230,
+            "sentence_id": 0,
+            "matched_text": "Residual PHB in cell"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing <1.0% of PHB in Table page8_table0",
+      "predicate": "is_adjacent_to",
+      "object": "Cells containing 29.8% of PHB in Table page8_table0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing 27.0% of PHB in Table page8_table0",
+      "predicate": "contains",
+      "object": "PHB",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 36,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 96,
+            "end": 99,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 128,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 141,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 219,
+            "end": 222,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing <1.0% of PHB in Table page8_table0",
+      "predicate": "is_adjacent_to",
+      "object": "Cells containing 27.0% of PHB in Table page8_table0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page8_table0",
+      "predicate": "contains",
+      "object": "PHB",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 36,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 96,
+            "end": 99,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 128,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 141,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 219,
+            "end": 222,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cells containing <1.0% of PHB in Table page8_table0",
+      "predicate": "contains",
+      "object": "PHB",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Batch | Cells containing 7.5% of PHB | Cells containing 7.5% of PHB | Cells containing 41.0% of PHB | Cells containing 41.0% of PHB\nResidual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight) | Residual PHB in cell (%) | Methanol accumulated ( \u00ec mol/mg dry cell weight)\n1 | 4.1 | 0.0034",
+        "document_offsets": {
+          "start": 0,
+          "end": 302
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 36,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 96,
+            "end": 99,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 128,
+            "end": 131,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 141,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          },
+          {
+            "start": 219,
+            "end": 222,
+            "sentence_id": 0,
+            "matched_text": "PHB"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table0",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 48.52490997314453,
+          "t": 186.5404052734375,
+          "r": 546.6655883789062,
+          "b": 100.38433837890625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "PHB in cell",
+      "predicate": "has a percentage of",
+      "object": "38.6",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "PHB in cell"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 166,
+            "end": 170,
+            "sentence_id": 2,
+            "matched_text": "38.6"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "culturing time at 30 \u00b0C (h)",
+      "predicate": "is",
+      "object": "96",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 107,
+            "end": 109,
+            "sentence_id": 2,
+            "matched_text": "96"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "total methanol production capacity ( \u00ec mol/mg dry cell wt)",
+      "predicate": "is",
+      "object": "0.026 \u00b1 0.002",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 48,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 152,
+            "end": 165,
+            "sentence_id": 2,
+            "matched_text": "0.026 \u00b1 0.002"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "culturing time at 30 \u00b0C (h)",
+      "predicate": "is",
+      "object": "144",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 160,
+            "end": 163,
+            "sentence_id": 2,
+            "matched_text": "144"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "PHB in cell",
+      "predicate": "has a percentage of",
+      "object": "32.2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "PHB in cell"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 139,
+            "end": 143,
+            "sentence_id": 2,
+            "matched_text": "32.2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "total methanol production capacity ( \u00ec mol/mg dry cell wt)",
+      "predicate": "is",
+      "object": "0.016 \u00b1 0.002",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 48,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 71,
+            "end": 84,
+            "sentence_id": 2,
+            "matched_text": "0.016 \u00b1 0.002"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "contains data for",
+      "object": "culturing time at 30 \u00b0C (h)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%)",
+        "document_offsets": {
+          "start": 0,
+          "end": 45
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "provides information about",
+      "object": "PHB in cell",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%)",
+        "document_offsets": {
+          "start": 0,
+          "end": 45
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "PHB in cell"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "PHB in cell",
+      "predicate": "has a percentage of",
+      "object": "41.0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "PHB in cell"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 193,
+            "end": 197,
+            "sentence_id": 2,
+            "matched_text": "41.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "culturing time at 30 \u00b0C (h)",
+      "predicate": "is",
+      "object": "168",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 187,
+            "end": 190,
+            "sentence_id": 2,
+            "matched_text": "168"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table1",
+      "predicate": "measures",
+      "object": "total methanol production capacity ( \u00ec mol/mg dry cell wt)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 48,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "total methanol production capacity ( \u00ec mol/mg dry cell wt)",
+      "predicate": "is",
+      "object": "0.022 \u00b1 0.001",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 48,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 98,
+            "end": 111,
+            "sentence_id": 2,
+            "matched_text": "0.022 \u00b1 0.001"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "culturing time at 30 \u00b0C (h)",
+      "predicate": "is",
+      "object": "120",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 133,
+            "end": 136,
+            "sentence_id": 2,
+            "matched_text": "120"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "total methanol production capacity ( \u00ec mol/mg dry cell wt)",
+      "predicate": "is",
+      "object": "0.031 \u00b1 0.001",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 48,
+          "end": 213
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 125,
+            "end": 138,
+            "sentence_id": 2,
+            "matched_text": "0.031 \u00b1 0.001"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "PHB in cell",
+      "predicate": "has a percentage of",
+      "object": "21.5",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Culturing time at 30 \u00b0C (h) | PHB in cell (%) Total methanol production capacity ( \u00ec mol/mg dry cell wt)\n96 | 21.5 | 0.016 \u00b1 0.002\n120 | 32.2 | 0.022 \u00b1 0.001\n144 | 38.6 | 0.031 \u00b1 0.001\n168 | 41.0 | 0.026 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 213
+        },
+        "subject_positions": [
+          {
+            "start": 30,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "PHB in cell"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 112,
+            "end": 116,
+            "sentence_id": 2,
+            "matched_text": "21.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 47.890625,
+          "t": 719.7717514038086,
+          "r": 546.4429321289062,
+          "b": 652.1776885986328,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "5.32",
+      "predicate": "is the value of",
+      "object": "Control",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 20,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "5.32"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 17,
+            "sentence_id": 1,
+            "matched_text": "Control"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table2",
+      "predicate": "contains row",
+      "object": "batch 0",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Direct counts a (10 9 cells/mL) | Direct counts a (10 9 cells/mL) | Plate counts a (10 9 CFU/mL) after batch 8 | Recovery b (%)\nbatch 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 135
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 128,
+            "end": 135,
+            "sentence_id": 0,
+            "matched_text": "batch 0"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "batch 8",
+      "predicate": "belongs to",
+      "object": "Table page9_table2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Direct counts a (10 9 cells/mL) | Direct counts a (10 9 cells/mL) | Plate counts a (10 9 CFU/mL) after batch 8 | Recovery b (%)\nbatch 0 | batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 0,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 103,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "batch 8"
+          },
+          {
+            "start": 138,
+            "end": 145,
+            "sentence_id": 1,
+            "matched_text": "batch 8"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "80",
+      "predicate": "has percentage",
+      "object": "Control",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 41,
+            "end": 43,
+            "sentence_id": 1,
+            "matched_text": "80"
+          },
+          {
+            "start": 86,
+            "end": 88,
+            "sentence_id": 1,
+            "matched_text": "80"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 17,
+            "sentence_id": 1,
+            "matched_text": "Control"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "5.21",
+      "predicate": "is the value of",
+      "object": "batch 8",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Direct counts a (10 9 cells/mL) | Direct counts a (10 9 cells/mL) | Plate counts a (10 9 CFU/mL) after batch 8 | Recovery b (%)\nbatch 0 | batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 0,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 163,
+            "end": 167,
+            "sentence_id": 1,
+            "matched_text": "5.21"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 103,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "batch 8"
+          },
+          {
+            "start": 138,
+            "end": 145,
+            "sentence_id": 1,
+            "matched_text": "batch 8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "3.80",
+      "predicate": "is the value of",
+      "object": "CO 2 reduction reaction",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 84,
+            "end": 88,
+            "sentence_id": 1,
+            "matched_text": "3.80"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 67,
+            "sentence_id": 1,
+            "matched_text": "CO 2 reduction reaction"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Control",
+      "predicate": "compared with",
+      "object": "batch 8",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Direct counts a (10 9 cells/mL) | Direct counts a (10 9 cells/mL) | Plate counts a (10 9 CFU/mL) after batch 8 | Recovery b (%)\nbatch 0 | batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 0,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 153,
+            "sentence_id": 1,
+            "matched_text": "Control"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 103,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "batch 8"
+          },
+          {
+            "start": 138,
+            "end": 145,
+            "sentence_id": 1,
+            "matched_text": "batch 8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page9_table2",
+      "predicate": "contains row",
+      "object": "CO 2 reduction reaction",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 67,
+            "sentence_id": 1,
+            "matched_text": "CO 2 reduction reaction"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "4.25",
+      "predicate": "is the value of",
+      "object": "Control",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 34,
+            "end": 38,
+            "sentence_id": 1,
+            "matched_text": "4.25"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 17,
+            "sentence_id": 1,
+            "matched_text": "Control"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "batch 0",
+      "predicate": "belongs to",
+      "object": "Table page9_table2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Direct counts a (10 9 cells/mL) | Direct counts a (10 9 cells/mL) | Plate counts a (10 9 CFU/mL) after batch 8 | Recovery b (%)\nbatch 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 135
+        },
+        "subject_positions": [
+          {
+            "start": 128,
+            "end": 135,
+            "sentence_id": 0,
+            "matched_text": "batch 0"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Control",
+      "predicate": "has value",
+      "object": "5.32",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 10,
+            "end": 17,
+            "sentence_id": 1,
+            "matched_text": "Control"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 20,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "5.32"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "76",
+      "predicate": "has percentage",
+      "object": "CO 2 reduction reaction",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| batch 8\nControl | 5.32 | 5.21 | 4.25 | 80\nCO 2 reduction reaction | 5.01 | 4.86 | 3.80 | 76",
+        "document_offsets": {
+          "start": 136,
+          "end": 229
+        },
+        "subject_positions": [
+          {
+            "start": 91,
+            "end": 93,
+            "sentence_id": 1,
+            "matched_text": "76"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 67,
+            "sentence_id": 1,
+            "matched_text": "CO 2 reduction reaction"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table2",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 48.44004440307617,
+          "t": 627.6110534667969,
+          "r": 546.3956909179688,
+          "b": 564.4302368164062,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "PHB",
+    "methanol production capacity",
+    "dry cell wt",
+    "cell",
+    "30 \u00b0C",
+    "batch 0",
+    "Control",
+    "Table page9_table2",
+    "Table page9_table1",
+    "\u00ec mol",
+    "batch 8",
+    "h",
+    "CO 2 reduction reaction",
+    "Methanol",
+    "Table page8_table0"
+  ]
+}

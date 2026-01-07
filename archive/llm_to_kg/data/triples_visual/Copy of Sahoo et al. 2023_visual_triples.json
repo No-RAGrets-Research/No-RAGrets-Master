@@ -1,0 +1,176 @@
+[
+  {
+    "page": 4,
+    "caption": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+    "triples": [
+      {
+        "subject": "Gas separator",
+        "relation": "located in",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Draft Tube",
+        "relation": "located in",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Micro-sparger",
+        "relation": "located in",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Six-bladed Ruston turbine impeller",
+        "relation": "located in",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Sampling port",
+        "relation": "located at bottom of",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Temperature sensor",
+        "relation": "mounted on",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Pressure gauge",
+        "relation": "mounted on",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Magnetic coupling",
+        "relation": "connected to",
+        "object": "Gearbox"
+      },
+      {
+        "subject": "Gearbox",
+        "relation": "connected to",
+        "object": "Motor"
+      },
+      {
+        "subject": "Input pressure valve",
+        "relation": "connected to",
+        "object": "Reactor column"
+      },
+      {
+        "subject": "Micro-sparger",
+        "relation": "has dimension",
+        "object": "7 cm"
+      },
+      {
+        "subject": "Gas separator",
+        "relation": "has dimension",
+        "object": "10 cm"
+      },
+      {
+        "subject": "Reactor column",
+        "relation": "has total height",
+        "object": "23.5 cm"
+      },
+      {
+        "subject": "Draft Tube",
+        "relation": "has dimension",
+        "object": "22.5 cm"
+      },
+      {
+        "subject": "Six-bladed Ruston turbine impeller",
+        "relation": "has dimension",
+        "object": "11.4 cm"
+      },
+      {
+        "subject": "Sampling port",
+        "relation": "has dimension",
+        "object": "4 cm"
+      },
+      {
+        "subject": "Temperature sensor",
+        "relation": "has dimension",
+        "object": "18 cm"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen (kLaO2) and volumetric mass transfer coefficient for methane (kLaCH4) and (c) biomass \nproductivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤0.05) were noted through \nstatistical analysis using one-way ANOVA.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen (kLaO2) and volumetric mass transfer coefficient for methane (kLaCH4) and (c) biomass \nproductivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤0.05) were noted through \nstatistical analysis using one-way ANOVA.\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"5 µm pore size\", \"relation\": \"shows biomass titer of\", \"object\": \"6.5 g L⁻¹\"},\n{\"subject\": \"10 µm pore size\", \"relation\": \"shows biomass titer of\", \"object\": \"6.2 g L⁻¹\"},\n{\"subject\": \"40 µm pore size\", \"relation\": \"shows biomass titer of\", \"object\": \"5.8 g L⁻¹\"},\n{\"subject\": \"70 µm pore size\", \"relation\": \"shows biomass titer of\", \"object\": \"5.5 g L⁻¹\"},\n{\"subject\": \"100 µm pore size\", \"relation\": \"shows biomass titer of\", \"object\": \"5.0 g L⁻¹\"},\n{\"subject\": \"5 µm pore size\", \"relation\": \"shows kLaO2 of\", \"object\": \"80 h⁻¹\"},\n{\"subject\": \"10 µm pore size\", \"relation\": \"shows kLaO2 of\", \"object\": \"75 h⁻¹\"},\n{\"subject\": \"40 µm pore size\", \"relation\": \"shows kLaO2 of\", \"object\": \"25 h⁻¹\"},\n{\"subject\": \"70 µm pore size\", \"relation\": \"shows kLaO2 of\", \"object\": \"10 h⁻¹\"},\n{\"subject\": \"100 µm pore size\", \"relation\": \"shows kLaO2 of\", \"object\": \"5 h⁻¹\"},\n{\"subject\": \"5 µm pore size\", \"relation\": \"shows kLaCH4 of\", \"object\": \"70 h⁻¹\"},\n{\"subject\": \"10 µm pore size\", \"relation\": \"shows kLaCH4 of\", \"object\": \"65 h⁻¹\"},\n{\"subject\": \"40 µm pore size\", \"relation\": \"shows kLaCH4 of\", \"object\": \"20 h⁻¹\"},\n{\"subject\": \"70 µm pore size\", \"relation\": \"shows kLaCH4 of\", \"object\": \"10 h⁻¹\"},\n{\"subject\": \"100 µm pore size\", \"relation\": \"shows kLaCH4 of\", \"object\": \"5 h⁻¹\"},\n{\"subject\": \"5 µm pore size\", \"relation\": \"shows biomass productivity of\", \"object\": \"1.3 g L"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen (kLaO2) and volumetric mass transfer coefficient for methane \n(kLaCH4) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µm pore size. Significant differences (p ≤0.05) \nwere noted through statistical analysis using one-way ANOVA.",
+    "triples": [
+      {
+        "subject": "With draft tube",
+        "relation": "increases",
+        "object": "biomass titer"
+      },
+      {
+        "subject": "With draft tube",
+        "relation": "increases",
+        "object": "volumetric mass transfer coefficient for oxygen (kLaO2)"
+      },
+      {
+        "subject": "With draft tube",
+        "relation": "increases",
+        "object": "biomass productivity"
+      },
+      {
+        "subject": "Without draft tube",
+        "relation": "decreases",
+        "object": "biomass titer"
+      },
+      {
+        "subject": "Without draft tube",
+        "relation": "decreases",
+        "object": "volumetric mass transfer coefficient for oxygen (kLaO2)"
+      },
+      {
+        "subject": "Without draft tube",
+        "relation": "decreases",
+        "object": "biomass productivity"
+      },
+      {
+        "subject": "With draft tube",
+        "relation": "increases",
+        "object": "volumetric mass transfer coefficient for methane (kLaCH4)"
+      },
+      {
+        "subject": "Without draft tube",
+        "relation": "decreases",
+        "object": "volumetric mass transfer coefficient for methane (kLaCH4)"
+      },
+      {
+        "subject": "With draft tube",
+        "relation": "increases",
+        "object": "methane fixation rate"
+      },
+      {
+        "subject": "Without draft tube",
+        "relation": "decreases",
+        "object": "methane fixation rate"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen (kLaO2) and volumetric mass transfer coefficient for methane (kLaCH4) and (c) biomass \nproductivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤0.05) \nwere noted through statistical analysis using one-way ANOVA.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen (kLaO2) and volumetric mass transfer coefficient for methane (kLaCH4) and (c) biomass \nproductivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤0.05) \nwere noted through statistical analysis using one-way ANOVA.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"0% vector\",\n    \"relation\": \"biomass titer at time\",\n    \"object\": \"7.5 g L⁻¹\"\n  },\n  {\n    \"subject\": \"5% paraffin oil\",\n    \"relation\": \"biomass titer at time\",\n    \"object\": \"7.5 g L⁻¹\"\n  },\n  {\n    \"subject\": \"10% paraffin oil\",\n    \"relation\": \"biomass titer at time\",\n    \"object\": \"7.5 g L⁻¹\"\n  },\n  {\n    \"subject\": \"5% silicone oil\",\n    \"relation\": \"biomass titer at time\",\n    \"object\": \"7.5 g L⁻¹\"\n  },\n  {\n    \"subject\": \"10% silicone oil\",\n    \"relation\": \"biomass titer at time\",\n    \"object\": \"7.5 g L⁻¹\"\n  },\n  {\n    \"subject\": \"0% vector\",\n    \"relation\": \"volumetric mass transfer coefficient for oxygen\",\n    \"object\": \"80 h⁻¹\"\n  },\n  {\n    \"subject\": \"5% paraffin oil\",\n    \"relation\": \"volumetric mass transfer coefficient for oxygen\",\n    \"object\": \"90 h⁻¹\"\n  },\n  {\n    \"subject\": \"10% paraffin oil\",\n    \"relation\": \"volumetric mass transfer coefficient for oxygen\",\n    \"object\": \"85 h⁻¹\"\n  },\n  {\n    \"subject\": \"5% silicone oil\",\n    \"relation\": \"volumetric mass transfer coefficient for oxygen\",\n    \"object\": \"90 h⁻¹\"\n  },\n  {\n    \"subject\": \"10% silicone oil\",\n    \"relation\": \"volumetric mass transfer coefficient for oxygen\",\n    \"object\": \"95 h⁻¹\"\n  },\n  {\n    \"subject\": \"0% vector\",\n    \"relation\": \"volumetric mass transfer coefficient for methane\",\n    \"object\": \"70 h⁻¹\"\n  },\n  {\n    \"subject\": \"5% paraffin oil\",\n    \"relation\": \"volumetric mass transfer coefficient for methane\",\n    \"object\": \"80 h⁻¹\"\n  },\n  {\n    \"subject\": \"10% paraffin oil\",\n    \"relation\": \"volumetric mass transfer coefficient for"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Fig. 5. Methanol titer under varying operating pressures in high-pressure \nstirred tank reactor. Significant differences (p ≤0.05) were noted through \nstatistical analysis using one-way ANOVA.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 5. Methanol titer under varying operating pressures in high-pressure \nstirred tank reactor. Significant differences (p ≤0.05) were noted through \nstatistical analysis using one-way ANOVA.\n\nOutput JSON list only:\nassistant\n[(\"Methanol titre (g·L⁻¹)\", \"varies with\", \"Absolute pressure (bar)\"), (\"Methanol titre (g·L⁻¹)\", \"increases with\", \"Absolute pressure (bar)\"), (\"Absolute pressure (bar)\", \"has a statistically significant effect on\", \"Methanol titre (g·L⁻¹)\"), (\"Methanol titre (g·L⁻¹)\", \"is measured under\", \"high-pressure stirred tank reactor\"), (\"Methanol titre (g·L⁻¹)\", \"shows significant differences at\", \"p ≤ 0.05\"), (\"Methanol titre (g·L⁻¹)\", \"is analyzed using\", \"one-way ANOVA\")]"
+      }
+    ]
+  }
+]

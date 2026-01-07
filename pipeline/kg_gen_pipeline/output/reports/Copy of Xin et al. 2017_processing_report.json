@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Xin et al. 2017.pdf",
+    "start_time": "2025-11-13 22:33:12.666153",
+    "end_time": "2025-11-13 22:47:00.246512",
+    "total_duration": 827.580359,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 176,
+    "relations": 203,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Xin et al. 2017_kg_results_20251113_223312.json"
+  },
+  "visual_extraction": {
+    "attempted": false,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Xin et al. 2017_kg_results_20251113_223312.json",
+    "visual_kg": null
+  },
+  "errors": []
+}

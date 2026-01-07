@@ -1,0 +1,64 @@
+{
+  "timestamp": "20251119_205318",
+  "target_size": 100,
+  "actual_size": 70,
+  "strategy_distribution": {
+    "predicate_stratified": 40,
+    "paper_stratified": 30,
+    "confidence_stratified": 20,
+    "error_patterns": 0,
+    "random_baseline": 10
+  },
+  "diversity_metrics": {
+    "total_relations": 70,
+    "unique_predicates": 31,
+    "unique_papers": 1,
+    "predicate_distribution": {
+      "is author of": 5,
+      "is": 11,
+      "was": 5,
+      "was present in": 5,
+      "and": 5,
+      "provided": 5,
+      "thanks": 5,
+      "contains": 5,
+      "possesses a broader range of substrate specificity": 1,
+      "were incubated for": 1,
+      "is co-author of": 1,
+      "use": 1,
+      "is subject to": 1,
+      "was effective at providing an adaptive control of": 1,
+      "was fed at": 1,
+      "shows": 1,
+      "persists in the atmosphere for shorter duration": 1,
+      "was determined by": 2,
+      "would like to thank": 1,
+      "was used as a template and checked for the presence of": 1,
+      "is affiliated with": 1,
+      "was set to": 1,
+      "catalyzes the conversion of": 1,
+      "can produce": 1,
+      "increased": 1,
+      "has concentration": 1,
+      "consisted of": 1,
+      "In conformity with the requirements for": 1,
+      "provided research on": 1,
+      "consist of": 1,
+      "composed of": 1
+    },
+    "paper_distribution": {
+      "UNKNOWN": 70
+    },
+    "confidence_stats": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "strategy_summary": {
+    "predicate_stratified": 40,
+    "paper_stratified": 10,
+    "confidence_stratified": 10,
+    "random_baseline": 10
+  }
+}

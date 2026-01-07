@@ -1,0 +1,198 @@
+[
+  {
+    "page": 3,
+    "caption": "Figure 1. Composition (A) and electron microscopy image (B) of bacterial community strains cultured in AMS medium\nsupplied with biogas and air (CH4:CO2:O2 = 1:0.5:1).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 1. Composition (A) and electron microscopy image (B) of bacterial community strains cultured in AMS medium\nsupplied with biogas and air (CH4:CO2:O2 = 1:0.5:1).\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"Gammaproteobacteria\", \"relation\": \"composition percentage\", \"object\": \"47.68%\"}, {\"subject\": \"Betaproteobacteria\", \"relation\": \"composition percentage\", \"object\": \"47.21%\"}, {\"subject\": \"Sphingobacteria\", \"relation\": \"composition percentage\", \"object\": \"3.88%\"}, {\"subject\": \"Alphaproteobacteria\", \"relation\": \"composition percentage\", \"object\": \"1.33%\"}, {\"subject\": \"Flavobacteria\", \"relation\": \"composition percentage\", \"object\": \"1.7%\"}, {\"subject\": \"Cytophaga\", \"relation\": \"composition percentage\", \"object\": \"0.04%\"}, {\"subject\": \"Solibacterales\", \"relation\": \"composition percentage\", \"object\": \"0.11%\"}, {\"subject\": \"Holophagae\", \"relation\": \"composition percentage\", \"object\": \"0.24%\"}, {\"subject\": \"Chloracidobacteria\", \"relation\": \"composition percentage\", \"object\": \"0.26%\"}, {\"subject\": \"Bacteria_uc_c\", \"relation\": \"composition percentage\", \"object\": \"0.06%\"}, {\"subject\": \"Streptophyta_uc\", \"relation\": \"composition percentage\", \"object\": \"0.02%\"}, {\"subject\": \"Methylobacter\", \"relation\": \"composition percentage\", \"object\": \"3.31%\"}, {\"subject\": \"Methylolysina\", \"relation\": \"composition percentage\", \"object\": \"3.47%\"}, {\"subject\": \"Methylosinus_f_uc_g\", \"relation\": \"composition percentage\", \"object\": \"5.6%\"}, {\"subject\": \"Methylococcus_uc_g\", \"relation\": \"composition percentage\", \"object\": \"1.24%\"}, {\"subject\": \"Gammaproteobacteria_uc_g\", \"relation\": \"composition percentage\", \"object\": \"0.04%\"}, {\"subject\": \"Methylcaldococcus\", \"relation\": \"composition percentage\", \"object\": \"0.11%\"}, {\"subject\": \"Methylophobium\", \"relation\": \"composition percentage\", \"object\": \"2.12%\"}, {\"subject\": \"EU273938_g\", \"relation\": \""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "caption": "Figure 1. Composition (A) and electron microscopy image (B) of bacterial community strains cultured in AMS medium\nsupplied with biogas and air (CH4:CO2:O2 = 1:0.5:1).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 1. Composition (A) and electron microscopy image (B) of bacterial community strains cultured in AMS medium\nsupplied with biogas and air (CH4:CO2:O2 = 1:0.5:1).\n\nOutput JSON list only:\nassistant\n[\n  (\"bacterial community strains\", \"cultured in\", \"AMS medium\"),\n  (\"bacterial community strains\", \"cultured with\", \"biogas\"),\n  (\"bacterial community strains\", \"cultured with\", \"air\"),\n  (\"biogas\", \"composition\", \"CH4:CO2:O2 = 1:0.5:1\"),\n  (\"air\", \"composition\", \"CH4:CO2:O2 = 1:0.5:1\"),\n  (\"electron microscopy image\", \"shows\", \"bacterial community strains\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Proportion of methanotroph types in the bacterial communities cultured with mixed gas\ncontaining CH4 and air (A) and with biogas containing CO2 and air (B).",
+    "triples": [
+      {
+        "subject": "Methylobacter",
+        "relation": "proportion in community A",
+        "object": "68.85%"
+      },
+      {
+        "subject": "Methylobacter",
+        "relation": "proportion in community B",
+        "object": "68.85%"
+      },
+      {
+        "subject": "Methylosarcina",
+        "relation": "proportion in community A",
+        "object": "small circle"
+      },
+      {
+        "subject": "Methylosarcina",
+        "relation": "proportion in community B",
+        "object": "small circle"
+      },
+      {
+        "subject": "Methyloimonas",
+        "relation": "proportion in community A",
+        "object": "small circle"
+      },
+      {
+        "subject": "Methyloimonas",
+        "relation": "proportion in community B",
+        "object": "large circle"
+      },
+      {
+        "subject": "Methylocrobiurna",
+        "relation": "proportion in community A",
+        "object": "medium circle"
+      },
+      {
+        "subject": "Methylocrobiurna",
+        "relation": "proportion in community B",
+        "object": "small circle"
+      },
+      {
+        "subject": "Methylocystis",
+        "relation": "proportion in community A",
+        "object": "small circle"
+      },
+      {
+        "subject": "Methylocystis",
+        "relation": "proportion in community B",
+        "object": "medium circle"
+      },
+      {
+        "subject": "Methylococcaceae",
+        "relation": "proportion in community A",
+        "object": "negligible"
+      },
+      {
+        "subject": "Methylococcaceae",
+        "relation": "proportion in community B",
+        "object": "small circle"
+      },
+      {
+        "subject": "Methylococcules",
+        "relation": "proportion in community A",
+        "object": "negligible"
+      },
+      {
+        "subject": "Methylococcules",
+        "relation": "proportion in community B",
+        "object": "medium circle"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Figure 3. Classiﬁcation and species per cluster according to phylogenetic diagram of bacterial cluster\nmethanotrophs (type I, type II, and type X), methanol-oxidizing bacteria, and ammonia-oxidizing\nbacteria] in cultured bacterial community.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 3. Classiﬁcation and species per cluster according to phylogenetic diagram of bacterial cluster\nmethanotrophs (type I, type II, and type X), methanol-oxidizing bacteria, and ammonia-oxidizing\nbacteria] in cultured bacterial community.\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"Methylococcus_f\", \"relation\": \"belongs to\", \"object\": \"Type I\"},\n{\"subject\": \"Methylomonas_f_uc\", \"relation\": \"belongs to\", \"object\": \"Type I\"},\n{\"subject\": \"Methylomicrobium\", \"relation\": \"belongs to\", \"object\": \"Type I\"},\n{\"subject\": \"Methylococcus_f\", \"relation\": \"is a member of\", \"object\": \"Methanotrophs\"},\n{\"subject\": \"Methylomonas_f_uc\", \"relation\": \"is a member of\", \"object\": \"Methanotrophs\"},\n{\"subject\": \"Methylomicrobium\", \"relation\": \"is a member of\", \"object\": \"Methanotrophs\"},\n{\"subject\": \"Methylococcus_f\", \"relation\": \"is classified under\", \"object\": \"Gammaproteobacteria\"},\n{\"subject\": \"Methylomonas_f_uc\", \"relation\": \"is classified under\", \"object\": \"Gammaproteobacteria\"},\n{\"subject\": \"Methylomicrobium\", \"relation\": \"is classified under\", \"object\": \"Gammaproteobacteria\"},\n{\"subject\": \"Methylomonas_f\", \"relation\": \"is classified under\", \"object\": \"Methylococcales\"},\n{\"subject\": \"Methylomonas_f_uc\", \"relation\": \"is classified under\", \"object\": \"Methylococcales\"},\n{\"subject\": \"Methylomicrobium\", \"relation\": \"is classified under\", \"object\": \"Methylococcales\"},\n{\"subject\": \"Methylococcus_f\", \"relation\": \"is classified under\", \"object\": \"Methylococcales_uc\"},\n{\"subject\": \"Methylomonas_f_uc\", \"relation\": \"is classified under\", \"object\": \"Methylococcales_uc\"},\n{\"subject\": \"Methylomicrobium\", \"relation\": \"is classified under\", \"object\": \"Methylococcales_uc\"},\n{\"subject\": \"Methylococcus_f\", \"relation\": \"is classified under\", \"object\": \"Gammaproteobacteria\"},\n{\"subject\": \"Methylomonas_f_uc\", \"relation\": \"is classified under\", \"object\": \"Gammaproteobacteria\"},\n{\"subject\": \"Methylomicrobium\", \"relation\": \"is"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Figure 4. Comparison of the homogeneity of Methylocystis strains in our study (A) and a previous\nstudy (B) on effective species for poly-3-hydroxybutyrate synthesis [35].",
+    "triples": [
+      35
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 5. Changes in methanotroph strain composition in the bacterial community as CO2 increases.",
+    "triples": [
+      {
+        "subject": "Methylobacter",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Methylosarcina",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Methyloimonas",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Methylococcus",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Methylocaldum",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Methylophilus",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Methylcystics",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      },
+      {
+        "subject": "Burkholderiales",
+        "relation": "composition change with",
+        "object": "increasing CO2"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Figure 6. Methanol production in bacterial community culture at a CO2/O2 ratio of 1:1 after comple-\ntion of methane oxidation.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 6. Methanol production in bacterial community culture at a CO2/O2 ratio of 1:1 after comple-\ntion of methane oxidation.\n\nOutput JSON list only:\nassistant\n[\n  (\"Biogas\", \"produces\", \"methanol\"),\n  (\"CO₂\", \"produces\", \"methanol\"),\n  (\"CO₂ (with formate)\", \"produces\", \"methanol\"),\n  (\"Biogas\", \"has concentration at time 24 h\", \"3.32 mM\"),\n  (\"Biogas\", \"has concentration at time 48 h\", \"5.34 mM\"),\n  (\"Biogas\", \"has concentration at time 72 h\", \"4.0 mM\"),\n  (\"Biogas\", \"has concentration at time 96 h\", \"3.8 mM\"),\n  (\"CO₂\", \"has concentration at time 24 h\", \"1.32 mM\"),\n  (\"CO₂\", \"has concentration at time 48 h\", \"0.0 mM\"),\n  (\"CO₂\", \"has concentration at time 72 h\", \"0.0 mM\"),\n  (\"CO₂\", \"has concentration at time 96 h\", \"0.0 mM\"),\n  (\"CO₂ (with formate)\", \"has concentration at time 24 h\", \"0.12 mM\"),\n  (\"CO₂ (with formate)\", \"has concentration at time 48 h\", \"0.0 mM\"),\n  (\"CO₂ (with formate)\", \"has concentration at time 72 h\", \"0.0 mM\"),\n  (\"CO₂ (with formate)\", \"has concentration at time 96 h\", \"0.0 mM\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "Figure 7. Methanol production according to increases in bacterial cell concentration and the relative\nratio of type X methanotrophs in the culture medium.",
+    "triples": [
+      {
+        "subject": "Methanol production",
+        "relation": "depends on",
+        "object": "bacterial cell concentration"
+      },
+      {
+        "subject": "Methanol production",
+        "relation": "depends on",
+        "object": "relative ratio of type X methanotrophs"
+      },
+      {
+        "subject": "Methanol concentration",
+        "relation": "varies with",
+        "object": "relative ratio of type X methanotrophs"
+      },
+      {
+        "subject": "Methanol concentration",
+        "relation": "varies with",
+        "object": "bacterial cell concentration in culture medium"
+      },
+      {
+        "subject": "Methanol concentration range",
+        "relation": "classified by",
+        "object": "color coding in the 3D plot"
+      }
+    ]
+  }
+]

@@ -1,0 +1,800 @@
+{
+  "summary": {
+    "total_chunks": 5,
+    "errors": 0,
+    "entities": 20,
+    "relations": 19,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 19,
+    "sections": {
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 11,
+        "relations": 13
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 5,
+        "relations": 4
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 10 Analysis": {
+        "chunks": 1,
+        "entities": 2,
+        "relations": 1
+      },
+      "Figure 11 Analysis": {
+        "chunks": 1,
+        "entities": 2,
+        "relations": 1
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Soo et al. 2018_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T13:13:00.254200"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "oriV",
+        "5,078 bp",
+        "pAWP89_p15a",
+        "kanR",
+        "sacB",
+        "MCS",
+        "traI",
+        "oriT",
+        "5,684 bp",
+        "pk18mobsacB_p15a",
+        "trfA"
+      ],
+      "relations": [
+        {
+          "subject": "pk18mobsacB_p15a",
+          "predicate": "has length",
+          "object": "5,684 bp",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "has length",
+          "object": "5,078 bp",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pk18mobsacB_p15a",
+          "predicate": "contains",
+          "object": "MCS",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pk18mobsacB_p15a",
+          "predicate": "contains",
+          "object": "kanR",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pk18mobsacB_p15a",
+          "predicate": "contains",
+          "object": "oriT",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pk18mobsacB_p15a",
+          "predicate": "contains",
+          "object": "sacB",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "contains",
+          "object": "oriT",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "contains",
+          "object": "oriV",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "contains",
+          "object": "trfA",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "contains",
+          "object": "traI",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "contains",
+          "object": "kanR",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pAWP89_p15a",
+          "predicate": "contains",
+          "object": "MCS",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        },
+        {
+          "subject": "pk18mobsacB_p15a",
+          "predicate": "has sequence identifier",
+          "object": "pk18mobsacB_p15a",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 1 Plasmid maps of pk18 mobsacB _p15a and pAWP89_p15a.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 87.73800000000006,
+              "r": 304.174,
+              "b": 79.81999999999994,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1276,
+                514
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              58
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 62.759,
+                "t": 87.73800000000006,
+                "r": 304.174,
+                "b": 79.81999999999994,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "plate A",
+        "Ms. trichosporium OB3b transformed with pAWP89_p15a",
+        "plate B",
+        "25 μg/mL kanamycin NMS agar selection plates",
+        "Ms. trichosporium OB3b (wild-type)"
+      ],
+      "relations": [
+        {
+          "subject": "Ms. trichosporium OB3b transformed with pAWP89_p15a",
+          "predicate": "grown on",
+          "object": "25 μg/mL kanamycin NMS agar selection plates",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2 Ms. trichosporium OB3b transformed with pAWP89_p15a (A) compared to wild-type Ms. trichosporium OB3b (B) on 25 μ g/mL kanamycin NMS agar selection plates.",
+            "bbox_coordinates": {
+              "l": 46.318,
+              "t": 336.96,
+              "r": 369.107,
+              "b": 316.714,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1064,
+                511
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              161
+            ]
+          }
+        },
+        {
+          "subject": "Ms. trichosporium OB3b (wild-type)",
+          "predicate": "grown on",
+          "object": "25 μg/mL kanamycin NMS agar selection plates",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2 Ms. trichosporium OB3b transformed with pAWP89_p15a (A) compared to wild-type Ms. trichosporium OB3b (B) on 25 μ g/mL kanamycin NMS agar selection plates.",
+            "bbox_coordinates": {
+              "l": 46.318,
+              "t": 336.96,
+              "r": 369.107,
+              "b": 316.714,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1064,
+                511
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              161
+            ]
+          }
+        },
+        {
+          "subject": "plate A",
+          "predicate": "contains",
+          "object": "Ms. trichosporium OB3b transformed with pAWP89_p15a",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2 Ms. trichosporium OB3b transformed with pAWP89_p15a (A) compared to wild-type Ms. trichosporium OB3b (B) on 25 μ g/mL kanamycin NMS agar selection plates.",
+            "bbox_coordinates": {
+              "l": 46.318,
+              "t": 336.96,
+              "r": 369.107,
+              "b": 316.714,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1064,
+                511
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              161
+            ]
+          }
+        },
+        {
+          "subject": "plate B",
+          "predicate": "contains",
+          "object": "Ms. trichosporium OB3b (wild-type)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 2 Ms. trichosporium OB3b transformed with pAWP89_p15a (A) compared to wild-type Ms. trichosporium OB3b (B) on 25 μ g/mL kanamycin NMS agar selection plates.",
+            "bbox_coordinates": {
+              "l": 46.318,
+              "t": 336.96,
+              "r": 369.107,
+              "b": 316.714,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1064,
+                511
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              161
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 46.318,
+                "t": 336.96,
+                "r": 369.107,
+                "b": 316.714,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 7 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 62.759,
+                "t": 127.59299999999996,
+                "r": 385.542,
+                "b": 64.85000000000002,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 10 Analysis",
+      "entities": [
+        "object",
+        "gene) and represented by (subject"
+      ],
+      "relations": [
+        {
+          "subject": "gene) and represented by (subject",
+          "predicate": "object\n(1> subject",
+          "object": "object",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 4 Construction of a gene-disrupting linear DNA fragment using fusion PCR. (1) PCR amplification of gen R and the 5 0 and 3 0 DNA regions flanking gene targeted for disruption. (2) The 5 0 DNAfragment and gen R are used as templates for the first round of fusion PCR. (3) The resulting PCR product and the 3 0 DNA fragment are used as templates for the second round of PCR to produce the final gene-disrupting linear DNA construct. The linear DNA construct is (4) electroporated into wild-type Ms. trichosporium OB3b followed by (5) selection for the Ms. trichosporium OB3b Δ gene A mutant. Primer binding sites are represented by half arrows .",
+            "bbox_coordinates": {
+              "l": 46.315,
+              "t": 272.783,
+              "r": 369.135,
+              "b": 188.15999999999997,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1182,
+                1272
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              648
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 46.315,
+                "t": 272.783,
+                "r": 369.135,
+                "b": 188.15999999999997,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page10_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 11 Analysis",
+      "entities": [
+        "1μL inoculating loop",
+        "Ms. trichosporium OB3b cells"
+      ],
+      "relations": [
+        {
+          "subject": "Ms. trichosporium OB3b cells",
+          "predicate": "require for DNA extraction",
+          "object": "1μL inoculating loop",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page11_fig1",
+            "page_number": 11,
+            "caption_evidence": "Fig. 5 Amount of Ms. trichosporium OB3b cells required for DNA extraction shown on a 1μ L inoculating loop.",
+            "bbox_coordinates": {
+              "l": 62.759,
+              "t": 96.69499999999994,
+              "r": 385.552,
+              "b": 76.44899999999996,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                768,
+                772
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              107
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 62.759,
+                "t": 96.69499999999994,
+                "r": 385.552,
+                "b": 76.44899999999996,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page11_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

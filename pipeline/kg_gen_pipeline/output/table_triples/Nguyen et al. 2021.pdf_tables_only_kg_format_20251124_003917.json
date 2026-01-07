@@ -1,0 +1,4702 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 108,
+    "relations": 73,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Nguyen et al. 2021.json",
+    "processed_at": "2025-11-24T00:39:17.391625"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Methylocystis",
+      "predicate": "grows under temperature",
+      "object": "5 - 37",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 12,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea | 5.5 - 9.0 | 5 - 37 | NMS, AMS | pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation | Wartiainen et al. (2006) Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA Methylosinus | M. trichosporium OB3b | 0.12 - 0.14 | 6 - 8 | 5 - 37 | NMS, AMS | pMMO and sMMO, well-established catalysis for PHB production, epoxidation, ability of degrading chlorinated aliphatic hydrocarbons, production of | Oldenhuis et al. (1989), Stein et al. (2010), Whittenbury et al. (1970) LW4 | 0.12 - 0.15 | 6 - 8 | 5 - 37 | NMS, AMS | pMMO and sMMO, production of methanobactins and capability of nitrogen fixation.",
+        "document_offsets": {
+          "start": 126,
+          "end": 2031
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 145,
+            "end": 151,
+            "sentence_id": 4,
+            "matched_text": "5 - 37"
+          },
+          {
+            "start": 822,
+            "end": 828,
+            "sentence_id": 6,
+            "matched_text": "5 - 37"
+          },
+          {
+            "start": 1505,
+            "end": 1511,
+            "sentence_id": 10,
+            "matched_text": "5 - 37"
+          },
+          {
+            "start": 1805,
+            "end": 1811,
+            "sentence_id": 12,
+            "matched_text": "5 - 37"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "tolerates ammonium at concentration",
+      "object": "0.16",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 345,
+            "end": 349,
+            "sentence_id": 5,
+            "matched_text": "0.16"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "produces",
+      "object": "pMMO only, high tolerance of ammonium, capability of nitrogen fixation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 374,
+            "end": 444,
+            "sentence_id": 5,
+            "matched_text": "pMMO only, high tolerance of ammonium, capability of nitrogen fixation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "has strain",
+      "object": "M. rosea SV97",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "uses culture medium",
+      "object": "NMS, AMS",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 26,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea | 5.5 - 9.0 | 5 - 37 | NMS, AMS | pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation | Wartiainen et al. (2006) Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA | 6 - 9 | 10 - 30 | NMS, AMS | pMMO only, facultative methanotroph, ability of growing on acetate or ethanol, diverse nitrogen metabolism capabilities | Dam et al. (2013), Kalyuzhnaya et al. (2019), Vorobev et al. (2014) Methylosinus | M. trichosporium OB3b | 0.12 - 0.14 | 6 - 8 | 5 - 37 | NMS, AMS | pMMO and sMMO, well-established catalysis for PHB production, epoxidation, ability of degrading chlorinated aliphatic hydrocarbons, production of | Oldenhuis et al. (1989), Stein et al. (2010), Whittenbury et al. (1970) LW4 | 0.12 - 0.15 | 6 - 8 | 5 - 37 | NMS, AMS | pMMO and sMMO, production of methanobactins and capability of nitrogen fixation. | Auman et al. (2001), Kenney et al. (2016)\nMethylocella | M. silvestris BL2 | 0.014 | 4.5 - 7.0 | 4 - 30 | NMS, AMS | sMMO only, facultative methanotroph, ability of growing on methane, and one - carbon and multi - carbon substrates such as acetate, pyruvate, propane, and | Chen et al. (2010), Dunfield et al. (2003)\nMethylocella | M. tundra sp. nov. | 4.2 - 7.5 | 5 - 30 | NMS, AMS | succinate, capability of nitrogen fixation. Methylocapsa | M. aurea KYG | 0.018 | 5.2 - 7.2 | 2 - 33 | NMS, AMS | pMMO only, ability of growing on methane, methanol and acetate, growth inhibition with 0.3% ( w / v ) NaCl, growth support at methanol conc. | 3.5 - 7.2 | 4 - 33 | NMS, AMS | PHB production, capability of nitrogen fixation.",
+        "document_offsets": {
+          "start": 126,
+          "end": 3330
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 162,
+            "sentence_id": 4,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 363,
+            "end": 371,
+            "sentence_id": 5,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 540,
+            "end": 548,
+            "sentence_id": 6,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 831,
+            "end": 839,
+            "sentence_id": 6,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 1044,
+            "end": 1052,
+            "sentence_id": 7,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 1243,
+            "end": 1251,
+            "sentence_id": 9,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 1514,
+            "end": 1522,
+            "sentence_id": 10,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 1814,
+            "end": 1822,
+            "sentence_id": 12,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 2014,
+            "end": 2022,
+            "sentence_id": 13,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 2287,
+            "end": 2295,
+            "sentence_id": 15,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 2883,
+            "end": 2891,
+            "sentence_id": 22,
+            "matched_text": "NMS, AMS"
+          },
+          {
+            "start": 3145,
+            "end": 3153,
+            "sentence_id": 26,
+            "matched_text": "NMS, AMS"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "cited in",
+      "object": "Nyerges et al. (2010), Stein et al. (2011)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "grows under pH",
+      "object": "6.8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 352,
+            "end": 355,
+            "sentence_id": 5,
+            "matched_text": "6.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "cited in",
+      "object": "Wartiainen et al. (2006)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea | 5.5 - 9.0 | 5 - 37 | NMS, AMS | pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation | Wartiainen et al. (2006) Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "has strain",
+      "object": "Methylocystis ATCC 49242 strain Rockwell",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 302,
+            "end": 342,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis ATCC 49242 strain Rockwell"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "grows under pH",
+      "object": "5.5 - 9.0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea | 5.5 - 9.0 | 5 - 37 | NMS, AMS | pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation | Wartiainen et al. (2006) Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 133,
+            "end": 142,
+            "sentence_id": 4,
+            "matched_text": "5.5 - 9.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "grows under temperature",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA | 6 - 9 | 10 - 30 | NMS, AMS | pMMO only, facultative methanotroph, ability of growing on acetate or ethanol, diverse nitrogen metabolism capabilities | Dam et al. (2013), Kalyuzhnaya et al. (2019), Vorobev et al. (2014) | Auman et al. (2001), Kenney et al. (2016)\nMethylocella | M. silvestris BL2 | 0.014 | 4.5 - 7.0 | 4 - 30 | NMS, AMS | sMMO only, facultative methanotroph, ability of growing on methane, and one - carbon and multi - carbon substrates such as acetate, pyruvate, propane, and | Chen et al. (2010), Dunfield et al. (2003)\nMethylocella | M. tundra sp. nov. | 4.2 - 7.5 | 5 - 30 | NMS, AMS | succinate, capability of nitrogen fixation. of 0.5 - 1%( v / | Dedysh et al. (2004)\nMethylocapsa | M. acidiphila B2 | 0.03 | 4.2 - 7.2 | 10 - 30 | NMS | pMMO only, growth inhibition by NaCl conc.",
+        "document_offsets": {
+          "start": 126,
+          "end": 2758
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 358,
+            "end": 360,
+            "sentence_id": 5,
+            "matched_text": "30"
+          },
+          {
+            "start": 535,
+            "end": 537,
+            "sentence_id": 6,
+            "matched_text": "30"
+          },
+          {
+            "start": 1039,
+            "end": 1041,
+            "sentence_id": 7,
+            "matched_text": "30"
+          },
+          {
+            "start": 1238,
+            "end": 1240,
+            "sentence_id": 9,
+            "matched_text": "30"
+          },
+          {
+            "start": 2009,
+            "end": 2011,
+            "sentence_id": 13,
+            "matched_text": "30"
+          },
+          {
+            "start": 2282,
+            "end": 2284,
+            "sentence_id": 15,
+            "matched_text": "30"
+          },
+          {
+            "start": 2579,
+            "end": 2581,
+            "sentence_id": 18,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis",
+      "predicate": "produces",
+      "object": "pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Strain | Growth rate (h GLYPH<0> 1 ) | pH | T \u25e6 C | Culture Medium | Characteristic | Reference\nMethylocystis | M. rosea | 5.5 - 9.0 | 5 - 37 | NMS, AMS | pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation | Wartiainen et al. (2006) Methylocystis | Methylocystis ATCC 49242 strain Rockwell | 0.16 | 6.8 | 30 | NMS, AMS | pMMO only, high tolerance of ammonium, capability of nitrogen fixation | Nyerges et al. (2010), Stein et al. (2011)\nMethylocystis | M. hirsuta CSC1 | 0.05 | 7 | 30 | NMS, AMS | pMMOandsMMO,capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen | Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)\nMethylocystis | M. parvus OBBP | 0.12 | 6 - 8 | 5 - 37 | NMS, AMS | fixation pMMO only, PHB production, capability of nitrogen fixation | del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011) Methylocystis | Methylocystis sp. SC2 | 0.07 | 6 - 9 | 30 | NMS, AMS | pMMO only, possession of genes for ammonia assimilation and nitrogen fixation. | Baani and Liesack (2008), Dam et al. (2012)\nMethylocystis | Methylocystis sp. SB2 | NA",
+        "document_offsets": {
+          "start": 126,
+          "end": 1348
+        },
+        "subject_positions": [
+          {
+            "start": 96,
+            "end": 109,
+            "sentence_id": 1,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 286,
+            "end": 299,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 302,
+            "end": 315,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 490,
+            "end": 503,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 774,
+            "end": 787,
+            "sentence_id": 6,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 984,
+            "end": 997,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1000,
+            "end": 1013,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1180,
+            "end": 1193,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          },
+          {
+            "start": 1196,
+            "end": 1209,
+            "sentence_id": 8,
+            "matched_text": "Methylocystis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 258,
+            "sentence_id": 4,
+            "matched_text": "pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page3_table0",
+        "page_number": 3,
+        "bbox_coordinates": {
+          "l": 36.59919357299805,
+          "t": 720.1673431396484,
+          "r": 557.8630981445312,
+          "b": 327.8619689941406,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "OB3b",
+      "predicate": "is associated with",
+      "object": "pVK100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 165,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 67,
+            "end": 71,
+            "sentence_id": 3,
+            "matched_text": "OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "pVK100"
+          },
+          {
+            "start": 558,
+            "end": 564,
+            "sentence_id": 8,
+            "matched_text": "pVK100"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pMD2",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 490,
+            "end": 494,
+            "sentence_id": 4,
+            "matched_text": "pMD2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Linear DNA",
+      "predicate": "is associated with",
+      "object": "Gm",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 5,
+        "text_evidence": "| M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 69,
+          "end": 618
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 61,
+            "sentence_id": 2,
+            "matched_text": "Linear DNA"
+          },
+          {
+            "start": 317,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Linear DNA"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 330,
+            "end": 332,
+            "sentence_id": 3,
+            "matched_text": "Gm"
+          },
+          {
+            "start": 512,
+            "end": 514,
+            "sentence_id": 5,
+            "matched_text": "Gm"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Nguyen et al. (2020a, 2020b)",
+      "predicate": "was the reference for",
+      "object": "pAWP89",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp.",
+        "document_offsets": {
+          "start": 537,
+          "end": 691
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 41,
+            "sentence_id": 5,
+            "matched_text": "pAWP89"
+          },
+          {
+            "start": 81,
+            "end": 87,
+            "sentence_id": 6,
+            "matched_text": "pAWP89"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Smith et al. (2002a)",
+      "predicate": "was the reference for",
+      "object": "pBR325",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 165,
+          "end": 429
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 116,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          },
+          {
+            "start": 150,
+            "end": 156,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pMHA203",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 54,
+            "sentence_id": 1,
+            "matched_text": "pMHA203"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stafford et al. (2003)",
+      "predicate": "was the reference for",
+      "object": "pK18mob, pBBR1MCS, pMD2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003)",
+        "document_offsets": {
+          "start": 429,
+          "end": 536
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium",
+      "predicate": "was referenced by",
+      "object": "Murrell (1992)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 165,
+          "end": 429
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 30,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. parvus OBBP",
+      "predicate": "was the host for",
+      "object": "pVK100, pVK104",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 692,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 57,
+            "end": 71,
+            "sentence_id": 8,
+            "matched_text": "M. parvus OBBP"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Baani and Liesack (2008)",
+      "predicate": "was the reference for",
+      "object": "pUC18",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "| Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 630,
+          "end": 786
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "pUC18"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Borodina et al. (2007)",
+      "predicate": "was the reference for",
+      "object": "pK18mob, pBBR1MCS, pMD2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 537,
+          "end": 618
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lloyd et al. (1999)",
+      "predicate": "was the reference for",
+      "object": "pVK100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 165,
+          "end": 786
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "pVK100"
+          },
+          {
+            "start": 558,
+            "end": 564,
+            "sentence_id": 8,
+            "matched_text": "pVK100"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pGSS33",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 156,
+            "end": 162,
+            "sentence_id": 3,
+            "matched_text": "pGSS33"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pUC18",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 652,
+            "end": 657,
+            "sentence_id": 7,
+            "matched_text": "pUC18"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis sp. SC2",
+      "predicate": "was the host for",
+      "object": "pUC18",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp.",
+        "document_offsets": {
+          "start": 630,
+          "end": 691
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 31,
+            "end": 36,
+            "sentence_id": 7,
+            "matched_text": "pUC18"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pk18mobsacB",
+      "predicate": "is associated with",
+      "object": "Gm, Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 537,
+          "end": 618
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 34,
+            "sentence_id": 5,
+            "matched_text": "pk18mobsacB"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 44,
+            "end": 50,
+            "sentence_id": 5,
+            "matched_text": "Gm, Km"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Crombie and Murrell (2011)",
+      "predicate": "was the reference for",
+      "object": "Linear DNA",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 69,
+          "end": 429
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 61,
+            "sentence_id": 2,
+            "matched_text": "Linear DNA"
+          },
+          {
+            "start": 317,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Linear DNA"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ro and Rosenzweig (2018)",
+      "predicate": "was the reference for",
+      "object": "Linear DNA",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 5,
+        "text_evidence": "| M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 69,
+          "end": 618
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 61,
+            "sentence_id": 2,
+            "matched_text": "Linear DNA"
+          },
+          {
+            "start": 317,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Linear DNA"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Smith and Murrell (2011)",
+      "predicate": "was the reference for",
+      "object": "pBR325",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 165,
+          "end": 429
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 116,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          },
+          {
+            "start": 150,
+            "end": 156,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pAWP89",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 563,
+            "end": 569,
+            "sentence_id": 5,
+            "matched_text": "pAWP89"
+          },
+          {
+            "start": 609,
+            "end": 615,
+            "sentence_id": 6,
+            "matched_text": "pAWP89"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Martin and Murrell (1995)",
+      "predicate": "was the reference for",
+      "object": "pBR325",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 165,
+          "end": 429
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 116,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          },
+          {
+            "start": 150,
+            "end": 156,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pMHA200",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 39,
+            "end": 46,
+            "sentence_id": 1,
+            "matched_text": "pMHA200"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Murrell (1992)",
+      "predicate": "was the reference for",
+      "object": "pVK100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 165,
+          "end": 786
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "pVK100"
+          },
+          {
+            "start": 558,
+            "end": 564,
+            "sentence_id": 8,
+            "matched_text": "pVK100"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pVK100",
+      "predicate": "is associated with",
+      "object": "Tet, Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 165,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "pVK100"
+          },
+          {
+            "start": 558,
+            "end": 564,
+            "sentence_id": 8,
+            "matched_text": "pVK100"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 64,
+            "sentence_id": 3,
+            "matched_text": "Tet, Km"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 8,
+            "matched_text": "Tet, Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pTJS175",
+      "predicate": "is associated with",
+      "object": "Amp",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003)",
+        "document_offsets": {
+          "start": 429,
+          "end": 536
+        },
+        "subject_positions": [
+          {
+            "start": 16,
+            "end": 23,
+            "sentence_id": 4,
+            "matched_text": "pTJS175"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 4,
+            "matched_text": "Amp"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Amp",
+      "predicate": "is associated with",
+      "object": "pTJS141, pTJS142, pTJS175",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003)",
+        "document_offsets": {
+          "start": 429,
+          "end": 536
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 4,
+            "matched_text": "Amp"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pK18mob",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 473,
+            "end": 480,
+            "sentence_id": 4,
+            "matched_text": "pK18mob"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pBBR1MCS",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 481,
+            "end": 489,
+            "sentence_id": 4,
+            "matched_text": "pBBR1MCS"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pVK104",
+      "predicate": "is associated with",
+      "object": "Tet, Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 165,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 565,
+            "end": 571,
+            "sentence_id": 8,
+            "matched_text": "pVK104"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 64,
+            "sentence_id": 3,
+            "matched_text": "Tet, Km"
+          },
+          {
+            "start": 574,
+            "end": 581,
+            "sentence_id": 8,
+            "matched_text": "Tet, Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. silvestris BL2",
+      "predicate": "was referenced by",
+      "object": "Theisen et al. (2005)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "| M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011)",
+        "document_offsets": {
+          "start": 69,
+          "end": 165
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 19,
+            "sentence_id": 2,
+            "matched_text": "M. silvestris BL2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pBR325",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 266,
+            "end": 272,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          },
+          {
+            "start": 306,
+            "end": 312,
+            "sentence_id": 3,
+            "matched_text": "pBR325"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pTJS142",
+      "predicate": "is associated with",
+      "object": "Amp",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003)",
+        "document_offsets": {
+          "start": 429,
+          "end": 536
+        },
+        "subject_positions": [
+          {
+            "start": 8,
+            "end": 15,
+            "sentence_id": 4,
+            "matched_text": "pTJS142"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 4,
+            "matched_text": "Amp"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ro and Rosenzweig (2018)",
+      "predicate": "was the reference for",
+      "object": "pk18mobsacB, pAWP89",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018)",
+        "document_offsets": {
+          "start": 165,
+          "end": 618
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "(Lloyd et al., 1999)",
+      "predicate": "was the reference for",
+      "object": "pVK100",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 165,
+          "end": 786
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "pVK100"
+          },
+          {
+            "start": 558,
+            "end": 564,
+            "sentence_id": 8,
+            "matched_text": "pVK100"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pTJS141",
+      "predicate": "is associated with",
+      "object": "Amp",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003)",
+        "document_offsets": {
+          "start": 429,
+          "end": 536
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 4,
+            "matched_text": "pTJS141"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 4,
+            "matched_text": "Amp"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Smith et al. (2002b)",
+      "predicate": "was the reference for",
+      "object": "pTJS141, pTJS142, pTJS175",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003)",
+        "document_offsets": {
+          "start": 429,
+          "end": 536
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pCM184",
+      "predicate": "is associated with",
+      "object": "Km",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text_evidence": "Selectable marker | Strain | Reference\npMHA200 pMHA203 | Km | M. silvestris BL2 | Theisen et al. (2005)\npCM184 Linear DNA | Km | Crombie and Murrell (2011) pGSS33 | Km | M. trichosporium | Murrell (1992)\npVK100 | Tet, Km | OB3b | Lloyd et al. (1999), Murrell (1992)\npBR325 | Km | Martin and Murrell (1995)\npBR325 | Spe, Str, Km | Smith and Murrell (2011), Smith et al. (2002a)\nLinear DNA | Gm | Ro and Rosenzweig (2018) pTJS141 pTJS142 pTJS175 | Amp | Smith et al. (2002b)\npK18mob pBBR1MCS pMD2 | Km Km | Stafford et al. (2003) Borodina et al. (2007)\npk18mobsacB pAWP89 | Gm, Km Km | Ro and Rosenzweig (2018) pAWP89 | Km | Nguyen et al. (2020a, 2020b)\npUC18 | Km | Methylocystis sp. SC2 | Baani and Liesack (2008)\npVK100 pVK104 | Tet, Km | M. parvus OBBP | (Lloyd et al., 1999)",
+        "document_offsets": {
+          "start": 9,
+          "end": 786
+        },
+        "subject_positions": [
+          {
+            "start": 104,
+            "end": 110,
+            "sentence_id": 2,
+            "matched_text": "pCM184"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 59,
+            "sentence_id": 1,
+            "matched_text": "Km"
+          },
+          {
+            "start": 124,
+            "end": 126,
+            "sentence_id": 2,
+            "matched_text": "Km"
+          },
+          {
+            "start": 165,
+            "end": 167,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 218,
+            "end": 220,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 325,
+            "end": 327,
+            "sentence_id": 3,
+            "matched_text": "Km"
+          },
+          {
+            "start": 497,
+            "end": 499,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 500,
+            "end": 502,
+            "sentence_id": 4,
+            "matched_text": "Km"
+          },
+          {
+            "start": 576,
+            "end": 578,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 579,
+            "end": 581,
+            "sentence_id": 5,
+            "matched_text": "Km"
+          },
+          {
+            "start": 618,
+            "end": 620,
+            "sentence_id": 6,
+            "matched_text": "Km"
+          },
+          {
+            "start": 660,
+            "end": 662,
+            "sentence_id": 7,
+            "matched_text": "Km"
+          },
+          {
+            "start": 735,
+            "end": 737,
+            "sentence_id": 8,
+            "matched_text": "Km"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 35.60029983520508,
+          "t": 719.9190826416016,
+          "r": 288.6492004394531,
+          "b": 469.18963623046875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genome-scale models",
+      "predicate": "applies to",
+      "object": "M. parvus OBBP",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 240,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 277,
+            "end": 296,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 138,
+            "sentence_id": 3,
+            "matched_text": "M. parvus OBBP"
+          },
+          {
+            "start": 235,
+            "end": 249,
+            "sentence_id": 4,
+            "matched_text": "M. parvus OBBP"
+          },
+          {
+            "start": 359,
+            "end": 373,
+            "sentence_id": 5,
+            "matched_text": "M. parvus OBBP"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Bordel et al. (2019c)",
+      "predicate": "provides",
+      "object": "Genome-scale models",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 6,
+        "text_evidence": "Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. Bordel et al. (2019c) Naizabekov and Lee (2020)",
+        "document_offsets": {
+          "start": 430,
+          "end": 707
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 87,
+            "end": 106,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Rostkowski et al. (2013)",
+      "predicate": "provides",
+      "object": "Kinetic models",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp.",
+        "document_offsets": {
+          "start": 240,
+          "end": 572
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 85,
+            "end": 99,
+            "sentence_id": 3,
+            "matched_text": "Kinetic models"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genome-scale models",
+      "predicate": "applies to",
+      "object": "Methylocystis sp. SB2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 430,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 87,
+            "end": 106,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 147,
+            "end": 168,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis sp. SB2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stochiometry models",
+      "predicate": "applies to",
+      "object": "M. parvus OBBP",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 240,
+          "end": 659
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 138,
+            "sentence_id": 3,
+            "matched_text": "M. parvus OBBP"
+          },
+          {
+            "start": 235,
+            "end": 249,
+            "sentence_id": 4,
+            "matched_text": "M. parvus OBBP"
+          },
+          {
+            "start": 359,
+            "end": 373,
+            "sentence_id": 5,
+            "matched_text": "M. parvus OBBP"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Metabolomics",
+      "predicate": "uses",
+      "object": "M. silvestris BL2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "(2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014)",
+        "document_offsets": {
+          "start": 138,
+          "end": 239
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Metabolomics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "M. silvestris BL2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genome-scale models",
+      "predicate": "applies to",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 517,
+            "end": 536,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Rostkowski et al. (2013)",
+      "predicate": "provides",
+      "object": "Stoichiometry models",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp.",
+        "document_offsets": {
+          "start": 240,
+          "end": 572
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 190,
+            "end": 210,
+            "sentence_id": 4,
+            "matched_text": "Stoichiometry models"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genome-scale models",
+      "predicate": "applies to",
+      "object": "M. hirsuta CSC1",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp.",
+        "document_offsets": {
+          "start": 430,
+          "end": 572
+        },
+        "subject_positions": [
+          {
+            "start": 87,
+            "end": 106,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 124,
+            "sentence_id": 4,
+            "matched_text": "M. hirsuta CSC1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Naizabekov and Lee (2020)",
+      "predicate": "provides",
+      "object": "Genome-scale models",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 6,
+        "text_evidence": "Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. Bordel et al. (2019c) Naizabekov and Lee (2020)",
+        "document_offsets": {
+          "start": 430,
+          "end": 707
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 87,
+            "end": 106,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genome-scale models",
+      "predicate": "applies to",
+      "object": "Methylocystis sp. SC2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp.",
+        "document_offsets": {
+          "start": 430,
+          "end": 572
+        },
+        "subject_positions": [
+          {
+            "start": 87,
+            "end": 106,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Bordel et al. (2019b)",
+      "predicate": "provides",
+      "object": "Genome-scale models",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 430,
+          "end": 659
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 87,
+            "end": 106,
+            "sentence_id": 4,
+            "matched_text": "Genome-scale models"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kinetic models",
+      "predicate": "applies to",
+      "object": "M. parvus OBBP",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 240,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 85,
+            "end": 99,
+            "sentence_id": 3,
+            "matched_text": "Kinetic models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 124,
+            "end": 138,
+            "sentence_id": 3,
+            "matched_text": "M. parvus OBBP"
+          },
+          {
+            "start": 235,
+            "end": 249,
+            "sentence_id": 4,
+            "matched_text": "M. parvus OBBP"
+          },
+          {
+            "start": 359,
+            "end": 373,
+            "sentence_id": 5,
+            "matched_text": "M. parvus OBBP"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stoichiometry models",
+      "predicate": "applies to",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 430,
+            "end": 450,
+            "sentence_id": 4,
+            "matched_text": "Stoichiometry models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Proteomics",
+      "predicate": "uses",
+      "object": "M. silvestris BL2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "(2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014)",
+        "document_offsets": {
+          "start": 138,
+          "end": 239
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 17,
+            "sentence_id": 2,
+            "matched_text": "Proteomics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 33,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "M. silvestris BL2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Metabolomics",
+      "predicate": "uses",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 156,
+            "end": 168,
+            "sentence_id": 2,
+            "matched_text": "Metabolomics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "13 C flux analysis",
+      "predicate": "applies to",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 259,
+            "end": 277,
+            "sentence_id": 3,
+            "matched_text": "13 C flux analysis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Yoon and Semrau (2008)",
+      "predicate": "provides",
+      "object": "Kinetic models",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008)",
+        "document_offsets": {
+          "start": 240,
+          "end": 430
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 85,
+            "end": 99,
+            "sentence_id": 3,
+            "matched_text": "Kinetic models"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "References",
+      "predicate": "for",
+      "object": "Matsen et al. (2013)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 3,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp . SB2 | Matsen et al. (2013) Vorobev et al. Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008)",
+        "document_offsets": {
+          "start": 0,
+          "end": 430
+        },
+        "subject_positions": [
+          {
+            "start": 27,
+            "end": 37,
+            "sentence_id": 0,
+            "matched_text": "References"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kinetic models",
+      "predicate": "applies to",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 325,
+            "end": 339,
+            "sentence_id": 3,
+            "matched_text": "Kinetic models"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "References",
+      "predicate": "for",
+      "object": "Vorobev et al. (2014)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp",
+        "document_offsets": {
+          "start": 0,
+          "end": 94
+        },
+        "subject_positions": [
+          {
+            "start": 27,
+            "end": 37,
+            "sentence_id": 0,
+            "matched_text": "References"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Transcriptomics",
+      "predicate": "uses",
+      "object": "Methylocystis sp. SB2",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "Transcriptomics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 577,
+            "end": 598,
+            "sentence_id": 5,
+            "matched_text": "Methylocystis sp. SB2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Transcriptomics",
+      "predicate": "uses",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 38,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "Transcriptomics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Proteomics",
+      "predicate": "uses",
+      "object": "M. trichosporium OB3b",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Omics approach | Species | References\nTranscriptomics | M. trichosporium OB3b Methylocystis sp (2014)\nProteomics Metabolomics | M. silvestris BL2 M. trichosporium OB3b | Crombie and Murrell (2014) Yang et al. (2013)\n13 C flux analysis | M. trichosporium OB3b | Matsen et al. (2013)\nKinetic models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013), Yoon and Semrau (2008) Stoichiometry models | M. trichosporium OB3b M. parvus OBBP | Rostkowski et al. (2013)\nGenome-scale models | M. hirsuta CSC1 Methylocystis sp. SC2 Methylocystis sp. SB2 M. parvus OBBP M. trichosporium OB3b | Bordel et al. (2019b)",
+        "document_offsets": {
+          "start": 0,
+          "end": 659
+        },
+        "subject_positions": [
+          {
+            "start": 145,
+            "end": 155,
+            "sentence_id": 2,
+            "matched_text": "Proteomics"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 189,
+            "end": 210,
+            "sentence_id": 2,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 280,
+            "end": 301,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 342,
+            "end": 363,
+            "sentence_id": 3,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 453,
+            "end": 474,
+            "sentence_id": 4,
+            "matched_text": "M. trichosporium OB3b"
+          },
+          {
+            "start": 614,
+            "end": 635,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.8099365234375,
+          "t": 719.3252334594727,
+          "r": 558.0671997070312,
+          "b": 529.1475219726562,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "pK18mob",
+    "10 - 30",
+    "PHB production, capability of nitrogen fixation. sMMO only, growth reduction at NaCl conc. above 0.7% ( w / v ). Optimum methanol conc. between 0.1 and 1% ( v / v ), capability of nitrogen fixation.",
+    "succinate, capability of nitrogen fixation. sMMO only, growth inhibition by NaCl conc. above 0.8% ( w / v ), ability of growing on methane and methanol, best growth at methanol conc. of 0.5 - 1%( v / |",
+    "Methylocystis sp. SC2",
+    "5 - 37",
+    "M. trichosporium",
+    "Dam et al. (2013), Kalyuzhnaya et al. (2019), Vorobev et al. (2014)",
+    "Methylocystis sp. SB2",
+    "Theisen et al. (2005)",
+    "pk18mobsacB",
+    "30",
+    "M. tundra sp. nov.",
+    "4.5 - 7.0",
+    "Wartiainen et al. (2006)",
+    "pMMO only, ability of growing on methane, methanol and acetate, growth inhibition with 0.3% ( w / v ) NaCl, growth support at methanol conc. below 0.1% ( v / v );",
+    "Baani and Liesack (2008), Dam et al. (2012)",
+    "Chen et al. (2010), Dunfield et al. (2003)",
+    "Bordel et al. (2019a), Bordel et al. (2019b), Lindner et al. (2007)",
+    "Borodina et al. (2007)",
+    "5 - 30",
+    "pMHA200",
+    "Amp",
+    "pMMO and sMMO, capability of oxidizing aliphatic and aromatic compounds, ability of growing on methane and methanol, PHB production, capability of nitrogen",
+    "6 - 9",
+    "pTJS142",
+    "Linear DNA",
+    "M. parvus OBBP",
+    "pMMO only, possession of genes for ammonia assimilation and nitrogen fixation.",
+    "0.16",
+    "Dunfield et al. (2010)",
+    "Baani and Liesack (2008)",
+    "Smith et al. (2002b)",
+    "M. hirsuta CSC1",
+    "pBR325",
+    "7",
+    "Methyloferula",
+    "pVK104",
+    "Methylocystis ATCC 49242 strain Rockwell",
+    "NA",
+    "NMS",
+    "0.018",
+    "Methylosinus sp. LW4",
+    "pMMO only, facultative methanotroph, ability of growing on acetate or ethanol, diverse nitrogen metabolism capabilities",
+    "0.05",
+    "Dedysh et al. (2002)",
+    "5.2 - 7.2",
+    "pBBR1MCS",
+    "4 - 33",
+    "Smith et al. (2002a)",
+    "Auman et al. (2001), Kenney et al. (2016)",
+    "Ro and Rosenzweig (2018)",
+    "0.12 - 0.15",
+    "0.03",
+    "pGSS33",
+    "Smith and Murrell (2011)",
+    "Methylocystis",
+    "pMMO only, high tolerance of ammonium, capability of nitrogen fixation",
+    "(Lloyd et al., 1999)",
+    "pCM184",
+    "sMMO only, facultative methanotroph, ability of growing on methane, and one - carbon and multi - carbon substrates such as acetate, pyruvate, propane, and",
+    "del Cerro et al. (2012), Kalyuzhnaya et al. (2019), Pieja et al. (2011)",
+    "pMMO and sMMO, well-established catalysis for PHB production, epoxidation, ability of degrading chlorinated aliphatic hydrocarbons, production of",
+    "6 - 8",
+    "pMMO and sMMO, production of methanobactins and capability of nitrogen fixation.",
+    "M. aurea KYG",
+    "M. stellata AR4",
+    "Methylocapsa",
+    "M. acidiphila B2",
+    "M. trichosporium OB3b",
+    "pMMO only, growth inhibition by NaCl conc. of 0.5% ( w / v ), ability of growing on methane and methanol, growth support at methanol conc. below 0.05% ( v / v ), capability of nitrogen fixation, PHB production.",
+    "pMHA203",
+    "3.5 - 7.2",
+    "OB3b",
+    "4 - 30",
+    "Dam et al. (2013), Dedysh et al. (2015)",
+    "Methylosinus",
+    "Stafford et al. (2003)",
+    "pAWP89",
+    "0.014",
+    "pMMO only, no requirement of NaCl for growth, PHB production, capability of nitrogen fixation",
+    "5.5 - 9.0",
+    "0.12",
+    "2 - 33",
+    "pUC18",
+    "6.8",
+    "4.2 - 7.2",
+    "M. rosea SV97",
+    "Crombie and Murrell (2011)",
+    "pVK100",
+    "pTJS175",
+    "0.07",
+    "pMD2",
+    "NMS, AMS",
+    "Methylocella",
+    "0.12 - 0.14",
+    "0.005",
+    "4.2 - 7.5",
+    "Martin and Murrell (1995)",
+    "pTJS141",
+    "M. silvestris BL2",
+    "Lloyd et al. (1999)",
+    "Murrell (1992)",
+    "Nguyen et al. (2020a, 2020b)",
+    "Oldenhuis et al. (1989), Stein et al. (2010), Whittenbury et al. (1970)",
+    "fixation pMMO only, PHB production, capability of nitrogen fixation",
+    "Nyerges et al. (2010), Stein et al. (2011)",
+    "Dedysh et al. (2004)"
+  ]
+}

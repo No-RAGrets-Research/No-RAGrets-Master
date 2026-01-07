@@ -1,0 +1,226 @@
+[
+  {
+    "page": 3,
+    "caption": "Figure 1. Parameters optimized for efficient LEAFs\noperation with the basic design of the system without any\nexternal manipulations needed.",
+    "triples": [
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "Medium"
+      },
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "Carbon substrate"
+      },
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "Cell density"
+      },
+      {
+        "subject": "Fermentation",
+        "relation": "has optimized parameters",
+        "object": "O₂/CH₄ supply"
+      },
+      {
+        "subject": "Immobilization",
+        "relation": "has optimized parameters",
+        "object": "Cell preparation protocol"
+      },
+      {
+        "subject": "Immobilization",
+        "relation": "has optimized parameters",
+        "object": "Matrix saturation"
+      },
+      {
+        "subject": "Capturing",
+        "relation": "has tested parameters",
+        "object": "Gas flow"
+      },
+      {
+        "subject": "Capturing",
+        "relation": "has tested parameters",
+        "object": "CO impacts"
+      },
+      {
+        "subject": "Capturing",
+        "relation": "has tested parameters",
+        "object": "Stability"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": []
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "shown in",
+        "object": "scanning electron micrograph"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "shown in",
+        "object": "scanning electron micrographs"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "imaged by",
+        "object": "scanning electron micrograph"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": [
+      {
+        "subject": "SAP",
+        "relation": "used for",
+        "object": "immobilization of cells"
+      },
+      {
+        "subject": "SAP",
+        "relation": "shown via",
+        "object": "scanning electron micrograph"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Immobilization matrix selection. (A) Matrixes tested for immobilization studies. (B) Gas consumption results from\neach matrix tested. (C) Scanning electron micrographs of cells immobilized on SAP.",
+    "triples": []
+  },
+  {
+    "page": 6,
+    "caption": "Figure 4. Testing methane consumption of 120 cm3 at two different methane inlet concentrations with a variety of flow rates. (A)\nMethane was provided to the system at a concentration of 3% mixed with air. (B) Methane was provided to the system at a\nconcentration of 5.5% mixed with air.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 4. Testing methane consumption of 120 cm3 at two different methane inlet concentrations with a variety of flow rates. (A)\nMethane was provided to the system at a concentration of 3% mixed with air. (B) Methane was provided to the system at a\nconcentration of 5.5% mixed with air.\n\nOutput JSON list only:\nassistant\n[\n  (\"methane\", \"inlet concentration\", \"3% mixed with air\"),\n  (\"methane\", \"inlet concentration\", \"5.5% mixed with air\"),\n  (\"system\", \"tests\", \"methane consumption\"),\n  (\"system\", \"tests\", \"at 120 cm3 volume\"),\n  (\"system\", \"varies\", \"flow rates\"),\n  (\"system\", \"varies\", \"methane inlet concentrations\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Figure 5. Consumption rates of 5 tandem mini-units over time. Consumption rates were taken every several days using blue sense\nsensors. The percent methane consumption was calculated by taking the inflow and outflow measurements, then subtracting the\ntwo.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 5. Consumption rates of 5 tandem mini-units over time. Consumption rates were taken every several days using blue sense\nsensors. The percent methane consumption was calculated by taking the inflow and outflow measurements, then subtracting the\ntwo.\n\nOutput JSON list only:\nassistant\n[\n  (\"CO test 1\", \"occurred during\", \"Apr 4\"),\n  (\"CO test 2\", \"occurred during\", \"May 21\"),\n  (\"% consumed\", \"measured by\", \"blue sense sensors\"),\n  (\"% input\", \"measured by\", \"blue sense sensors\"),\n  (\"% consumed\", \"calculated as\", \"inflow minus outflow\"),\n  (\"5 tandem mini-units\", \"had consumption rates measured over time\", \"Figure 5\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Figure 7. Methane consumption was tested using the larger 1840 cm3 at 3 different methane inlet concentrations 0.1%, 1%, 3%.\n(A) Diagram of system setup. (B) Methane consumption at 0.1% inlet concentrations. (C) Methane consumption at 1% inlet\nconcentrations. (D) Methane consumption at 3% inlet concentrations.",
+    "triples": [
+      {
+        "subject": "MFC",
+        "relation": "controls",
+        "object": "CH4"
+      },
+      {
+        "subject": "MFC",
+        "relation": "controls",
+        "object": "air"
+      },
+      {
+        "subject": "MFM/1",
+        "relation": "connected to",
+        "object": "MFC"
+      },
+      {
+        "subject": "MFM/2",
+        "relation": "connected to",
+        "object": "MFM/1"
+      },
+      {
+        "subject": "MFM/2",
+        "relation": "connected to",
+        "object": "BlueSens O2, CO2, CH4 sensors"
+      },
+      {
+        "subject": "BlueSens O2, CO2, CH4 sensors",
+        "relation": "monitors",
+        "object": "gas stream >1%"
+      },
+      {
+        "subject": "LGR",
+        "relation": "monitors",
+        "object": "gas stream <1%"
+      },
+      {
+        "subject": "LGR",
+        "relation": "measures",
+        "object": "H2O, CO2, CH4"
+      },
+      {
+        "subject": "MFC",
+        "relation": "type",
+        "object": "Mass Flow Controller"
+      },
+      {
+        "subject": "MFM",
+        "relation": "type",
+        "object": "Mass Flow Meter"
+      },
+      {
+        "subject": "LGR",
+        "relation": "type",
+        "object": "Portable Greenhouse Gas Analyzer"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3341 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 41,
+    "relations": 69,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Cantera et al. 2016.json",
+    "processed_at": "2025-11-24T00:02:23.628473"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "TS 2",
+      "predicate": "has Cu 2 \u00fe",
+      "object": "0.05",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 33,
+            "sentence_id": 2,
+            "matched_text": "TS 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 44,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          },
+          {
+            "start": 66,
+            "end": 70,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          },
+          {
+            "start": 71,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          },
+          {
+            "start": 76,
+            "end": 80,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 3",
+      "predicate": "has additional Agitation speed",
+      "object": "650",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "TS 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 83,
+            "end": 86,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 120,
+            "end": 123,
+            "sentence_id": 2,
+            "matched_text": "650"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 2",
+      "predicate": "undergoes Agitation",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 33,
+            "sentence_id": 2,
+            "matched_text": "TS 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 24,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 116,
+            "end": 119,
+            "sentence_id": 2,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Agitation",
+      "predicate": "has value",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "| Cu 2 \u00fe ( m M) | Agitation (rpm) TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 38,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 27,
+            "sentence_id": 1,
+            "matched_text": "Agitation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 55,
+            "end": 58,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 81,
+            "end": 84,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 121,
+            "end": 124,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 150,
+            "end": 153,
+            "sentence_id": 2,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Test series",
+      "predicate": "belongs to",
+      "object": "Test series (TS)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Test series (TS) | CH 4 headspace (%)",
+        "document_offsets": {
+          "start": 0,
+          "end": 37
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "Test series"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 4",
+      "predicate": "has CH 4 headspace",
+      "object": "1 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 99,
+            "sentence_id": 2,
+            "matched_text": "TS 4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 60,
+            "end": 63,
+            "sentence_id": 2,
+            "matched_text": "1 1"
+          },
+          {
+            "start": 102,
+            "end": 105,
+            "sentence_id": 2,
+            "matched_text": "1 1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 3",
+      "predicate": "undergoes Agitation",
+      "object": "650",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "TS 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 83,
+            "end": 86,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 120,
+            "end": 123,
+            "sentence_id": 2,
+            "matched_text": "650"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 2",
+      "predicate": "has CH 4 headspace",
+      "object": "8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 33,
+            "sentence_id": 2,
+            "matched_text": "TS 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "8"
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "8"
+          },
+          {
+            "start": 36,
+            "end": 37,
+            "sentence_id": 2,
+            "matched_text": "8"
+          },
+          {
+            "start": 58,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 1",
+      "predicate": "has CH 4 headspace",
+      "object": "8 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "TS 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "8 8"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cu 2 \u00fe",
+      "predicate": "has value",
+      "object": "25 25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "| Cu 2 \u00fe ( m M) | Agitation (rpm) TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 38,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 8,
+            "sentence_id": 1,
+            "matched_text": "Cu 2 \u00fe"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 47,
+            "end": 52,
+            "sentence_id": 2,
+            "matched_text": "25 25"
+          },
+          {
+            "start": 142,
+            "end": 147,
+            "sentence_id": 2,
+            "matched_text": "25 25"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 3",
+      "predicate": "undergoes additional Agitation",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "TS 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 24,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 116,
+            "end": 119,
+            "sentence_id": 2,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 3",
+      "predicate": "has CH 4 headspace",
+      "object": "8 1 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "TS 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 58,
+            "end": 63,
+            "sentence_id": 2,
+            "matched_text": "8 1 1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 4",
+      "predicate": "has Agitation speed",
+      "object": "650",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 99,
+            "sentence_id": 2,
+            "matched_text": "TS 4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 83,
+            "end": 86,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 120,
+            "end": 123,
+            "sentence_id": 2,
+            "matched_text": "650"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 1",
+      "predicate": "has Agitation speed",
+      "object": "650",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "TS 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 83,
+            "end": 86,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 91,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "650"
+          },
+          {
+            "start": 120,
+            "end": 123,
+            "sentence_id": 2,
+            "matched_text": "650"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 4",
+      "predicate": "undergoes Agitation",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 99,
+            "sentence_id": 2,
+            "matched_text": "TS 4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 24,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 116,
+            "end": 119,
+            "sentence_id": 2,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 3",
+      "predicate": "has Cu 2 \u00fe",
+      "object": "0.05 0.05 0.05",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "TS 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 80,
+            "sentence_id": 2,
+            "matched_text": "0.05 0.05 0.05"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 1",
+      "predicate": "undergoes Agitation",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "TS 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 24,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 87,
+            "end": 90,
+            "sentence_id": 2,
+            "matched_text": "300"
+          },
+          {
+            "start": 116,
+            "end": 119,
+            "sentence_id": 2,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 3",
+      "predicate": "has additional Cu 2 \u00fe",
+      "object": "0.05",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 55,
+            "sentence_id": 2,
+            "matched_text": "TS 3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 40,
+            "end": 44,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          },
+          {
+            "start": 66,
+            "end": 70,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          },
+          {
+            "start": 71,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          },
+          {
+            "start": 76,
+            "end": 80,
+            "sentence_id": 2,
+            "matched_text": "0.05"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CH 4 headspace",
+      "predicate": "has value",
+      "object": "8 8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Test series (TS) | CH 4 headspace (%) TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 0,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 19,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "CH 4 headspace"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 82,
+            "sentence_id": 2,
+            "matched_text": "8 8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 4",
+      "predicate": "has Cu 2 \u00fe",
+      "object": "25 25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 95,
+            "end": 99,
+            "sentence_id": 2,
+            "matched_text": "TS 4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "25 25"
+          },
+          {
+            "start": 108,
+            "end": 113,
+            "sentence_id": 2,
+            "matched_text": "25 25"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS 1",
+      "predicate": "has Cu 2 \u00fe",
+      "object": "25 25",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "TS 1 | 8 8 | 25 25 | 300 650\nTS 2 | 8 | 0.05 | 300\nTS 3 | 8 1 1 | 0.05 0.05 0.05 | 650 300 650\nTS 4 | 1 1 | 25 25 | 300 650",
+        "document_offsets": {
+          "start": 72,
+          "end": 195
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 4,
+            "sentence_id": 2,
+            "matched_text": "TS 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 18,
+            "sentence_id": 2,
+            "matched_text": "25 25"
+          },
+          {
+            "start": 108,
+            "end": 113,
+            "sentence_id": 2,
+            "matched_text": "25 25"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page2_table0",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 300.7763671875,
+          "t": 139.40142822265625,
+          "r": 553.5294799804688,
+          "b": 51.44073486328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Class Chlamydiia",
+      "predicate": "belongs to",
+      "object": "Order Chlamydiales",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "| Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14",
+        "document_offsets": {
+          "start": 1917,
+          "end": 2053
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 68,
+            "sentence_id": 26,
+            "matched_text": "Class Chlamydiia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 87,
+            "sentence_id": 26,
+            "matched_text": "Order Chlamydiales"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phylum Chlamydiae",
+      "predicate": "includes",
+      "object": "Class Chlamydiia",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "| Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14",
+        "document_offsets": {
+          "start": 1917,
+          "end": 2053
+        },
+        "subject_positions": [
+          {
+            "start": 34,
+            "end": 51,
+            "sentence_id": 26,
+            "matched_text": "Phylum Chlamydiae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 52,
+            "end": 68,
+            "sentence_id": 26,
+            "matched_text": "Class Chlamydiia"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genus Bdellovibrio",
+      "predicate": "includes",
+      "object": "Bdellovibrio sp. (DQ302728)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 7,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x x | Bdellovibrio bacteriovorus (CP002190) Bdellovibrio sp. (DQ302728) | 97 97 | High loaded MBR Soil\n3 | KP289208 | x x | Uncultured bacterium (EU050708) | 99 | Production water of an oil /uniFB01 eld\nBdellovibrio sp. (DQ302728) | 98 | Soil\nClass Gammaproteobacteria | 4 | KP289209 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 714
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 183,
+            "sentence_id": 4,
+            "matched_text": "Genus Bdellovibrio"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Family Methylococcaceae",
+      "predicate": "includes",
+      "object": "Genus Methylomonas",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 11,
+        "text_evidence": "x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x (HQ044145) | 90 | Tailing pond\nGenus Methylomonas | 8 | KP289213 x | x",
+        "document_offsets": {
+          "start": 715,
+          "end": 1153
+        },
+        "subject_positions": [
+          {
+            "start": 212,
+            "end": 235,
+            "sentence_id": 8,
+            "matched_text": "Family Methylococcaceae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 399,
+            "end": 417,
+            "sentence_id": 11,
+            "matched_text": "Genus Methylomonas"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Dokdonella",
+      "predicate": "is found in",
+      "object": "Bio /uniFB01 lter for CH 4 abatement",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 18,
+        "sentence_end": 24,
+        "text_evidence": "| 96 | Bio /uniFB01 lter treating waste gas\nGenus Dokdonella | 12 | KP289217 | x x x | Uncultured bacterium (KM886284) | 98 | Bio /uniFB01 lter for CH 4 abatement\nUncultured Dokdonella sp . Uncultured Dokdonella sp .",
+        "document_offsets": {
+          "start": 1602,
+          "end": 1900
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 60,
+            "sentence_id": 18,
+            "matched_text": "Dokdonella"
+          },
+          {
+            "start": 174,
+            "end": 184,
+            "sentence_id": 19,
+            "matched_text": "Dokdonella"
+          },
+          {
+            "start": 283,
+            "end": 293,
+            "sentence_id": 24,
+            "matched_text": "Dokdonella"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 162,
+            "sentence_id": 19,
+            "matched_text": "Bio /uniFB01 lter for CH 4 abatement"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Order Bdellovibrionales",
+      "predicate": "contains",
+      "object": "Family Bdellovibrionaceae",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 424
+        },
+        "subject_positions": [
+          {
+            "start": 115,
+            "end": 138,
+            "sentence_id": 4,
+            "matched_text": "Order Bdellovibrionales"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 139,
+            "end": 164,
+            "sentence_id": 4,
+            "matched_text": "Family Bdellovibrionaceae"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genus Bdellovibrio",
+      "predicate": "is associated with",
+      "object": "Uncultured bacterium YC7",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 424
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 183,
+            "sentence_id": 4,
+            "matched_text": "Genus Bdellovibrio"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 28,
+            "sentence_id": 4,
+            "matched_text": "Uncultured bacterium YC7"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Class Deltaproteobacteria",
+      "predicate": "belongs to",
+      "object": "Order Bdellovibrionales",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 424
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 114,
+            "sentence_id": 4,
+            "matched_text": "Class Deltaproteobacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 115,
+            "end": 138,
+            "sentence_id": 4,
+            "matched_text": "Order Bdellovibrionales"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Neochlamydia",
+      "predicate": "endosymbiont of",
+      "object": "Acanthamoeba",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 26,
+        "sentence_end": 31,
+        "text_evidence": "| Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14 | KP289219 | x x x x x | Neochlamydia hartmannellae . (NR_025037) | 99 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924593) | 97 | river sediment\n15 | KP289220 | Neochlamydia hartmannellae (NR_025037) | 91 | Water public conduit system\n16 | KP289221 | x x x x x | x Neochlamydia hartmannellae (NR_025037) | 95 | Water public conduit system\n17 | KP289222 | x x | Neochlamydia hartmannellae (NR_025037) | 98 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924590) | 97 | river sediment\n18 | KP289223 | x x x x | Neochlamydia hartmannellae (NR_025037) | 99 | Water public conduit system\nNeochlamydia sp. (EU683885) | 97 | Water reservoir sediment",
+        "document_offsets": {
+          "start": 1917,
+          "end": 2754
+        },
+        "subject_positions": [
+          {
+            "start": 119,
+            "end": 131,
+            "sentence_id": 26,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 162,
+            "end": 174,
+            "sentence_id": 27,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 238,
+            "end": 250,
+            "sentence_id": 28,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 329,
+            "end": 341,
+            "sentence_id": 29,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 433,
+            "end": 445,
+            "sentence_id": 29,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 529,
+            "end": 541,
+            "sentence_id": 30,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 603,
+            "end": 615,
+            "sentence_id": 30,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 704,
+            "end": 716,
+            "sentence_id": 31,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 778,
+            "end": 790,
+            "sentence_id": 31,
+            "matched_text": "Neochlamydia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 267,
+            "end": 279,
+            "sentence_id": 28,
+            "matched_text": "Acanthamoeba"
+          },
+          {
+            "start": 632,
+            "end": 644,
+            "sentence_id": 30,
+            "matched_text": "Acanthamoeba"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genus Methylomonas",
+      "predicate": "is found in",
+      "object": "Tailing pond",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 11,
+        "text_evidence": "(HQ044145) | 90 | Tailing pond\nGenus Methylomonas | 8 | KP289213 x | x",
+        "document_offsets": {
+          "start": 1083,
+          "end": 1153
+        },
+        "subject_positions": [
+          {
+            "start": 31,
+            "end": 49,
+            "sentence_id": 11,
+            "matched_text": "Genus Methylomonas"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 30,
+            "sentence_id": 11,
+            "matched_text": "Tailing pond"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Order Xanthomonadales",
+      "predicate": "contains",
+      "object": "Family Xanthomonadaceae",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 16,
+        "sentence_end": 16,
+        "text_evidence": "| Marine sediment\nMethylomonas rubra (AF150807) | 99 | Lake sediment\nOrder Xanthomonadales\nFamily Xanthomonadaceae | 11 | KP289216 x",
+        "document_offsets": {
+          "start": 1411,
+          "end": 1543
+        },
+        "subject_positions": [
+          {
+            "start": 69,
+            "end": 90,
+            "sentence_id": 16,
+            "matched_text": "Order Xanthomonadales"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 91,
+            "end": 114,
+            "sentence_id": 16,
+            "matched_text": "Family Xanthomonadaceae"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Dokdonella",
+      "predicate": "is found in",
+      "object": "Bio /uniFB01 lter treating waste gas",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 18,
+        "sentence_end": 24,
+        "text_evidence": "| 96 | Bio /uniFB01 lter treating waste gas\nGenus Dokdonella | 12 | KP289217 | x x x | Uncultured bacterium (KM886284) | 98 | Bio /uniFB01 lter for CH 4 abatement\nUncultured Dokdonella sp . Uncultured Dokdonella sp .",
+        "document_offsets": {
+          "start": 1602,
+          "end": 1900
+        },
+        "subject_positions": [
+          {
+            "start": 50,
+            "end": 60,
+            "sentence_id": 18,
+            "matched_text": "Dokdonella"
+          },
+          {
+            "start": 174,
+            "end": 184,
+            "sentence_id": 19,
+            "matched_text": "Dokdonella"
+          },
+          {
+            "start": 283,
+            "end": 293,
+            "sentence_id": 24,
+            "matched_text": "Dokdonella"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 43,
+            "sentence_id": 18,
+            "matched_text": "Bio /uniFB01 lter treating waste gas"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Order Chlamydiales",
+      "predicate": "contains",
+      "object": "Family Parachlamydiaceae",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "| Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14",
+        "document_offsets": {
+          "start": 1917,
+          "end": 2053
+        },
+        "subject_positions": [
+          {
+            "start": 69,
+            "end": 87,
+            "sentence_id": 26,
+            "matched_text": "Order Chlamydiales"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 88,
+            "end": 112,
+            "sentence_id": 26,
+            "matched_text": "Family Parachlamydiaceae"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phylum Proteobacteria",
+      "predicate": "includes",
+      "object": "Class Deltaproteobacteria",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 424
+        },
+        "subject_positions": [
+          {
+            "start": 67,
+            "end": 88,
+            "sentence_id": 4,
+            "matched_text": "Phylum Proteobacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 114,
+            "sentence_id": 4,
+            "matched_text": "Class Deltaproteobacteria"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genus Methylomonas",
+      "predicate": "is associated with",
+      "object": "Uncultured Methylococcaceae (JX505396)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 11,
+        "text_evidence": "x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x (HQ044145) | 90 | Tailing pond\nGenus Methylomonas | 8 | KP289213 x | x",
+        "document_offsets": {
+          "start": 715,
+          "end": 1153
+        },
+        "subject_positions": [
+          {
+            "start": 399,
+            "end": 417,
+            "sentence_id": 11,
+            "matched_text": "Genus Methylomonas"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Neochlamydia endosymbiont of Acanthamoeba (KF924593)",
+      "predicate": "is found in",
+      "object": "river sediment",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 28,
+        "sentence_end": 31,
+        "text_evidence": "(NR_025037) | 99 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924593) | 97 | river sediment\n15 | KP289220 | Neochlamydia hartmannellae (NR_025037) | 91 | Water public conduit system\n16 | KP289221 | x x x x x | x Neochlamydia hartmannellae (NR_025037) | 95 | Water public conduit system\n17 | KP289222 | x | river sediment\n18 | KP289223 | x x x x | Neochlamydia hartmannellae (NR_025037) | 99 | Water public conduit system\nNeochlamydia sp. (EU683885) | 97 | Water reservoir sediment",
+        "document_offsets": {
+          "start": 2108,
+          "end": 2754
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 107,
+            "end": 121,
+            "sentence_id": 29,
+            "matched_text": "river sediment"
+          },
+          {
+            "start": 472,
+            "end": 486,
+            "sentence_id": 31,
+            "matched_text": "river sediment"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kingdom Bacteria",
+      "predicate": "belongs to",
+      "object": "Phylum Proteobacteria",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "| Source of origin\nKingdom Bacteria | 1 | KP289206 | x x x x x x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x",
+        "document_offsets": {
+          "start": 159,
+          "end": 424
+        },
+        "subject_positions": [
+          {
+            "start": 19,
+            "end": 35,
+            "sentence_id": 3,
+            "matched_text": "Kingdom Bacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 130,
+            "end": 151,
+            "sentence_id": 4,
+            "matched_text": "Phylum Proteobacteria"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Sludge from membrane bioreactor",
+      "predicate": "contains",
+      "object": "Uncultured Dokdonella sp . (KJ486363)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 21,
+        "sentence_end": 26,
+        "text_evidence": "| Sludge from membrane bioreactor\n13 | Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14",
+        "document_offsets": {
+          "start": 1808,
+          "end": 2053
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 33,
+            "sentence_id": 21,
+            "matched_text": "Sludge from membrane bioreactor"
+          },
+          {
+            "start": 111,
+            "end": 142,
+            "sentence_id": 26,
+            "matched_text": "Sludge from membrane bioreactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Neochlamydia",
+      "predicate": "is found in",
+      "object": "Water public conduit system",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 26,
+        "sentence_end": 31,
+        "text_evidence": "| Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14 | KP289219 | x x x x x | Neochlamydia hartmannellae . (NR_025037) | 99 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924593) | 97 | river sediment\n15 | KP289220 | Neochlamydia hartmannellae (NR_025037) | 91 | Water public conduit system\n16 | KP289221 | x x x x x | x Neochlamydia hartmannellae (NR_025037) | 95 | Water public conduit system\n17 | KP289222 | x x | Neochlamydia hartmannellae (NR_025037) | 98 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924590) | 97 | river sediment\n18 | KP289223 | x x x x | Neochlamydia hartmannellae (NR_025037) | 99 | Water public conduit system\nNeochlamydia sp. (EU683885) | 97 | Water reservoir sediment",
+        "document_offsets": {
+          "start": 1917,
+          "end": 2754
+        },
+        "subject_positions": [
+          {
+            "start": 119,
+            "end": 131,
+            "sentence_id": 26,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 162,
+            "end": 174,
+            "sentence_id": 27,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 238,
+            "end": 250,
+            "sentence_id": 28,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 329,
+            "end": 341,
+            "sentence_id": 29,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 433,
+            "end": 445,
+            "sentence_id": 29,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 529,
+            "end": 541,
+            "sentence_id": 30,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 603,
+            "end": 615,
+            "sentence_id": 30,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 704,
+            "end": 716,
+            "sentence_id": 31,
+            "matched_text": "Neochlamydia"
+          },
+          {
+            "start": 778,
+            "end": 790,
+            "sentence_id": 31,
+            "matched_text": "Neochlamydia"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 210,
+            "end": 237,
+            "sentence_id": 28,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 375,
+            "end": 402,
+            "sentence_id": 29,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 479,
+            "end": 506,
+            "sentence_id": 29,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 575,
+            "end": 602,
+            "sentence_id": 30,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 750,
+            "end": 777,
+            "sentence_id": 31,
+            "matched_text": "Water public conduit system"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phylum Proteobacteria",
+      "predicate": "includes",
+      "object": "Class Gammaproteobacteria",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 7,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x x | Uncultured bacterium (EU050708) | 99 | Production water of an oil /uniFB01 eld\nBdellovibrio sp. (DQ302728) | 98 | Soil\nClass Gammaproteobacteria | 4 | KP289209 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 714
+        },
+        "subject_positions": [
+          {
+            "start": 67,
+            "end": 88,
+            "sentence_id": 4,
+            "matched_text": "Phylum Proteobacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 448,
+            "end": 473,
+            "sentence_id": 7,
+            "matched_text": "Class Gammaproteobacteria"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Class Gammaproteobacteria",
+      "predicate": "contains",
+      "object": "Methylomonas methanica (NR074627)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 15,
+        "text_evidence": "x | Uncultured bacterium (EU050708) | 99 | Production water of an oil /uniFB01 eld\nBdellovibrio sp. (DQ302728) | 98 | Soil\nClass Gammaproteobacteria | 4 | KP289209 | x x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x | Methylomonas rubra (NR_114588) | 99 | Sea sample\nMethylomonas methanica (NR074627) | 99 | Marine sediment\n9 | KP289214 x | x x x x x x x | Methylomonas rubra (NR_115353) | Methylomonas methanica (NR074627) | 99",
+        "document_offsets": {
+          "start": 547,
+          "end": 1410
+        },
+        "subject_positions": [
+          {
+            "start": 123,
+            "end": 148,
+            "sentence_id": 7,
+            "matched_text": "Class Gammaproteobacteria"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genus Bdellovibrio",
+      "predicate": "includes",
+      "object": "Bdellovibrio bacteriovorus (CP002190)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x x | Bdellovibrio bacteriovorus (CP002190) Bdellovibrio sp. (DQ302728) | 97 97 | High loaded MBR Soil\n3 | KP289208 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 542
+        },
+        "subject_positions": [
+          {
+            "start": 165,
+            "end": 183,
+            "sentence_id": 4,
+            "matched_text": "Genus Bdellovibrio"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Order Methylococcales",
+      "predicate": "contains",
+      "object": "Family Methylococcaceae",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x",
+        "document_offsets": {
+          "start": 715,
+          "end": 969
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 211,
+            "sentence_id": 8,
+            "matched_text": "Order Methylococcales"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 212,
+            "end": 235,
+            "sentence_id": 8,
+            "matched_text": "Family Methylococcaceae"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Uncultured Methylococcaceae",
+      "predicate": "is found in",
+      "object": "Soil",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 9,
+        "text_evidence": "x | Bdellovibrio bacteriovorus (CP002190) Bdellovibrio sp. (DQ302728) | 97 97 | High loaded MBR Soil\n3 | KP289208 | x x | Uncultured bacterium (EU050708) | 99 | Production water of an oil /uniFB01 eld\nBdellovibrio sp. (DQ302728) | 98 | Soil\nClass Gammaproteobacteria | 4 | KP289209 | x x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x x x x x x | Methylomicrobium agile (NR_116197) | 94 | Soil\n7 | KP289212 | x",
+        "document_offsets": {
+          "start": 425,
+          "end": 1045
+        },
+        "subject_positions": [
+          {
+            "start": 429,
+            "end": 456,
+            "sentence_id": 8,
+            "matched_text": "Uncultured Methylococcaceae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 96,
+            "end": 100,
+            "sentence_id": 5,
+            "matched_text": "Soil"
+          },
+          {
+            "start": 240,
+            "end": 244,
+            "sentence_id": 7,
+            "matched_text": "Soil"
+          },
+          {
+            "start": 475,
+            "end": 479,
+            "sentence_id": 8,
+            "matched_text": "Soil"
+          },
+          {
+            "start": 599,
+            "end": 603,
+            "sentence_id": 9,
+            "matched_text": "Soil"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Neochlamydia hartmannellae (NR_025037)",
+      "predicate": "is found in",
+      "object": "Water public conduit system",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 28,
+        "sentence_end": 31,
+        "text_evidence": "(NR_025037) | 99 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924593) | 97 | river sediment\n15 | KP289220 | Neochlamydia hartmannellae (NR_025037) | 91 | Water public conduit system\n16 | KP289221 | x x x x x | x Neochlamydia hartmannellae (NR_025037) | 95 | Water public conduit system\n17 | KP289222 | x x | Neochlamydia hartmannellae (NR_025037) | 98 | Water public conduit system\nNeochlamydia endosymbiont of Acanthamoeba (KF924590) | 97 | river sediment\n18 | KP289223 | x x x x | Neochlamydia hartmannellae (NR_025037) | 99 | Water public conduit system\nNeochlamydia sp. (EU683885) | 97 | Water reservoir sediment",
+        "document_offsets": {
+          "start": 2108,
+          "end": 2754
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 46,
+            "sentence_id": 28,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 184,
+            "end": 211,
+            "sentence_id": 29,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 288,
+            "end": 315,
+            "sentence_id": 29,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 384,
+            "end": 411,
+            "sentence_id": 30,
+            "matched_text": "Water public conduit system"
+          },
+          {
+            "start": 559,
+            "end": 586,
+            "sentence_id": 31,
+            "matched_text": "Water public conduit system"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Family Xanthomonadaceae",
+      "predicate": "includes",
+      "object": "Genus Dokdonella",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 16,
+        "sentence_end": 18,
+        "text_evidence": "| Marine sediment\nMethylomonas rubra (AF150807) | 99 | Lake sediment\nOrder Xanthomonadales\nFamily Xanthomonadaceae | 11 | KP289216 x | 96 | Bio /uniFB01 lter treating waste gas\nGenus Dokdonella | 12 | KP289217 | x",
+        "document_offsets": {
+          "start": 1411,
+          "end": 1682
+        },
+        "subject_positions": [
+          {
+            "start": 91,
+            "end": 114,
+            "sentence_id": 16,
+            "matched_text": "Family Xanthomonadaceae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 235,
+            "end": 251,
+            "sentence_id": 18,
+            "matched_text": "Genus Dokdonella"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Family Bdellovibrionaceae",
+      "predicate": "includes",
+      "object": "Genus Bdellovibrio",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "x | Uncultured bacterium YC7 (KJ734895) | 95 | Compost of cow dung\nPhylum Proteobacteria\nClass Deltaproteobacteria Order Bdellovibrionales Family Bdellovibrionaceae\nGenus Bdellovibrio | 2 | KP289207 | x",
+        "document_offsets": {
+          "start": 222,
+          "end": 424
+        },
+        "subject_positions": [
+          {
+            "start": 139,
+            "end": 164,
+            "sentence_id": 4,
+            "matched_text": "Family Bdellovibrionaceae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 183,
+            "sentence_id": 4,
+            "matched_text": "Genus Bdellovibrio"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Family Parachlamydiaceae",
+      "predicate": "includes",
+      "object": "Genus Neochlamydia",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 26,
+        "sentence_end": 26,
+        "text_evidence": "| Sludge from membrane bioreactor\nPhylum Chlamydiae\nClass Chlamydiia Order Chlamydiales\nFamily Parachlamydiaceae Genus Neochlamydia | 14",
+        "document_offsets": {
+          "start": 1917,
+          "end": 2053
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 112,
+            "sentence_id": 26,
+            "matched_text": "Family Parachlamydiaceae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 131,
+            "sentence_id": 26,
+            "matched_text": "Genus Neochlamydia"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomonas rubra (AF150807)",
+      "predicate": "is found in",
+      "object": "Lake sediment",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 16,
+        "text_evidence": "x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x | Marine sediment\nMethylomonas rubra (AF150807) | 99 | Lake sediment\nOrder Xanthomonadales\nFamily Xanthomonadaceae | 11 | KP289216 x",
+        "document_offsets": {
+          "start": 715,
+          "end": 1543
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 54,
+            "sentence_id": 8,
+            "matched_text": "Lake sediment"
+          },
+          {
+            "start": 751,
+            "end": 764,
+            "sentence_id": 16,
+            "matched_text": "Lake sediment"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Class Gammaproteobacteria",
+      "predicate": "contains",
+      "object": "Methylomonas rubra (AF150807)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 16,
+        "text_evidence": "x | Uncultured bacterium (EU050708) | 99 | Production water of an oil /uniFB01 eld\nBdellovibrio sp. (DQ302728) | 98 | Soil\nClass Gammaproteobacteria | 4 | KP289209 | x x | Methylomonas rubra (AF150807) | 92 | Lake sediment\nMethylomonas methanica (NR074627) | 93 | Marine sediment\n5 | KP289210 | x x x x x | Uncultured Methylococcaceae (JX505396) | 94 | Soil\nOrder Methylococcales\nFamily Methylococcaceae | 6 | KP289211 | x | Marine sediment\nMethylomonas rubra (AF150807) | 99 | Lake sediment\nOrder Xanthomonadales\nFamily Xanthomonadaceae | 11 | KP289216 x",
+        "document_offsets": {
+          "start": 547,
+          "end": 1543
+        },
+        "subject_positions": [
+          {
+            "start": 123,
+            "end": 148,
+            "sentence_id": 7,
+            "matched_text": "Class Gammaproteobacteria"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 42.77896499633789,
+          "t": 700.8238754272461,
+          "r": 563.2454833984375,
+          "b": 261.7554931640625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "has acc. no",
+      "object": "KP315903",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 42,
+        "text_evidence": "| KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x | Methylococcus thermophilus (NR_029251) | 97 | Soil\nOrder Methylococcales Family Methylococcaceae | 3 | KP289225 | Land /uniFB01 ll cover soil\n4 | KP289226 | x x | Uncultured bacterium (JX434234) | 93 | Water mine\n5 | KP289227 x | x | x (HQ044206) | 94 | Tailing pond\n6 | KP289228 | x x | Methylomicrobium buryatense (NR_025136) | 96 | Marine sediment\n7 | KP289229 x | x x x | Methylomicrobium sp . (DQ496230) | 90 | Soda lake\n8 | KP289230 | x | Methylomonas methanica (NR_074627) | 93 | swamp soil\nx | KP289231 | x KP289232 x x x | x | x x Methylomonas methanica (NR_074627) Methylomonas rubra (AF150807) | 99 98 | Marine sediment Lake sediment\n11 | KP289233 x x x | x x x x | x Methylomonas rubra (NR_115353) | 99 | Coal mine drainage\n12 13 | KP289234 | x | Methylomonas rubra (NR_114588) Methylomonas methanica (NR_074627) | 98 98 | Sea sample Marine sediment\nKP289235 x x | x | Methylomonas methanica (NR_074627) Methylomonas rubra (NR_115353) | 98 98 97 | Marine sediment Coal mine drainage Igneous rocks\n14 | KP289236 x Methylomonas methanica (NR_074627) | 98 97 | Marine sediment\n15 | KP289237 x | x x | Methylomonas rubra (AF150807) | Lake sediment\nMethylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 16 | KP289238 | x | x x Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 95 95 | Lake sediment Marine sediment\nOrder Victivallales | 17 | KP289239 x x x | x x x x x | Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) x x | 99\nFamily Victivallaceae\nKP289240 | Marine sediment\nMethylomonas methanica (NR_074627)\n19\nGenus Victivallis | x x | Bio /uniFB01 lm in a microbial cell\nKP289241 | x | Uncultured Victivallaceae (JQ724358) | 91 | fuel",
+        "document_offsets": {
+          "start": 221,
+          "end": 2571
+        },
+        "subject_positions": [
+          {
+            "start": 115,
+            "end": 116,
+            "sentence_id": 6,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 119,
+            "end": 127,
+            "sentence_id": 6,
+            "matched_text": "KP315903"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "KP289241",
+      "predicate": "is associated with",
+      "object": "Uncultured Victivallaceae (JQ724358)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 41,
+        "sentence_end": 42,
+        "text_evidence": "x | Bio /uniFB01 lm in a microbial cell\nKP289241 | x | Uncultured Victivallaceae (JQ724358) | 91 | fuel",
+        "document_offsets": {
+          "start": 2468,
+          "end": 2571
+        },
+        "subject_positions": [
+          {
+            "start": 40,
+            "end": 48,
+            "sentence_id": 41,
+            "matched_text": "KP289241"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Order Methylococcales",
+      "predicate": "belongs to",
+      "object": "Family Methylococcaceae",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "| 97 | Soil\nOrder Methylococcales Family Methylococcaceae | 3 | KP289225",
+        "document_offsets": {
+          "start": 396,
+          "end": 468
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 33,
+            "sentence_id": 8,
+            "matched_text": "Order Methylococcales"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 34,
+            "end": 57,
+            "sentence_id": 8,
+            "matched_text": "Family Methylococcaceae"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "has acc. no",
+      "object": "KP289224",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 42,
+        "text_evidence": "Taxonomic placement (70% con /uniFB01 dence level) | Band no | Acc. | Source of origin\nKingdom Bacteria\nPhylum Proteobacteria | 1 | KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x | Methylococcus thermophilus (NR_029251) x | Methylobacter sp. (HF565143) | 91 | Land /uniFB01 ll cover soil\n4 | KP289226 | x | x x | Methylomicrobium buryatense (NR_025136) | Methylobacter sp. (AF131868) | 91\nGenus Methylomicrobium | 9 | KP289231 | x | Methylomicrobium buryaticum (AF096093) | 97 | Soda lake\nGenus Methylomonas | 10 | Methylomonas rubra (AF150807) | 99 98 | Marine sediment Lake sediment\n11 | KP289233 x x x | x x x x | x Methylomonas rubra (NR_115353) | 99 | Coal mine drainage\n12 13 | KP289234 | x | Methylomonas rubra (NR_114588) Methylomonas methanica (NR_074627) | 98 98 | Sea sample Marine sediment\nKP289235 x x | x | Methylomonas methanica (NR_074627) Methylomonas rubra (NR_115353) | 98 98 97 | Marine sediment Coal mine drainage Igneous rocks\n14 | KP289236 x x | Methylomonas scandinavica (NR_041958) x Methylomonas methanica (NR_074627) | 98 97 | Marine sediment\n15 | KP289237 x | x x | Methylomonas rubra (AF150807) | Lake sediment\nMethylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 16 | KP289238 | x | x x Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 95 95 | Lake sediment Marine sediment\nOrder Victivallales | 17 | KP289239 x x x | x x x x x | Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) x x Methylomonas rubra (AF150807) | 99 99 | Lake sediment Marine sediment Lake sediment\n18 | x x x | 99\nFamily Victivallaceae\nKP289240 | Marine sediment\nMethylomonas methanica (NR_074627)\n19\nGenus Victivallis | x x | Bio /uniFB01 lm in a microbial cell\nKP289241 | x | Uncultured Victivallaceae (JQ724358) | 91 | fuel",
+        "document_offsets": {
+          "start": 0,
+          "end": 2571
+        },
+        "subject_positions": [
+          {
+            "start": 219,
+            "end": 220,
+            "sentence_id": 5,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 223,
+            "end": 231,
+            "sentence_id": 6,
+            "matched_text": "KP289224"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kingdom Bacteria",
+      "predicate": "belongs to",
+      "object": "Phylum",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 34,
+        "text_evidence": "| Source of origin\nKingdom Bacteria\nPhylum Proteobacteria | 1 | 94 94 | Lake sediment Marine sediment\nPhylum Lentisphaerae Class Lentisphaeria",
+        "document_offsets": {
+          "start": 159,
+          "end": 1981
+        },
+        "subject_positions": [
+          {
+            "start": 19,
+            "end": 35,
+            "sentence_id": 5,
+            "matched_text": "Kingdom Bacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 36,
+            "end": 42,
+            "sentence_id": 5,
+            "matched_text": "Phylum"
+          },
+          {
+            "start": 1782,
+            "end": 1788,
+            "sentence_id": 34,
+            "matched_text": "Phylum"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genus Victivallis",
+      "predicate": "belongs to",
+      "object": "Family Victivallaceae",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 39,
+        "sentence_end": 39,
+        "text_evidence": "x | 99\nFamily Victivallaceae\nKP289240 | Marine sediment\nMethylomonas methanica (NR_074627)\n19\nGenus Victivallis | x",
+        "document_offsets": {
+          "start": 2335,
+          "end": 2450
+        },
+        "subject_positions": [
+          {
+            "start": 94,
+            "end": 111,
+            "sentence_id": 39,
+            "matched_text": "Genus Victivallis"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 28,
+            "sentence_id": 39,
+            "matched_text": "Family Victivallaceae"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "x x x",
+      "predicate": "has acc. no",
+      "object": "KP289241",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 41,
+        "text_evidence": "| KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x | 96 | Marine sediment\n7 | KP289229 x | x x x | Methylomicrobium sp . KP289232 x x x | x Methylomonas rubra (AF150807) | 99 98 | Marine sediment Lake sediment\n11 | KP289233 x x x | x x x x | x | x x Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 95 95 | Lake sediment Marine sediment\nOrder Victivallales | 17 | KP289239 x x x | x x x x x | Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) x x | Bio /uniFB01 lm in a microbial cell\nKP289241 | x",
+        "document_offsets": {
+          "start": 221,
+          "end": 2520
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 18,
+            "sentence_id": 6,
+            "matched_text": "x x x"
+          },
+          {
+            "start": 634,
+            "end": 639,
+            "sentence_id": 18,
+            "matched_text": "x x x"
+          },
+          {
+            "start": 937,
+            "end": 942,
+            "sentence_id": 25,
+            "matched_text": "x x x"
+          },
+          {
+            "start": 1072,
+            "end": 1077,
+            "sentence_id": 27,
+            "matched_text": "x x x"
+          },
+          {
+            "start": 1080,
+            "end": 1085,
+            "sentence_id": 27,
+            "matched_text": "x x x"
+          },
+          {
+            "start": 1928,
+            "end": 1933,
+            "sentence_id": 36,
+            "matched_text": "x x x"
+          },
+          {
+            "start": 1936,
+            "end": 1941,
+            "sentence_id": 36,
+            "matched_text": "x x x"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2287,
+            "end": 2295,
+            "sentence_id": 41,
+            "matched_text": "KP289241"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "1",
+      "predicate": "is associated with",
+      "object": "Uncultured bacterium (EF648097)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 42,
+        "text_evidence": "Taxonomic placement (70% con /uniFB01 dence level) | Band no | Acc. | Source of origin\nKingdom Bacteria\nPhylum Proteobacteria | 1 | KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x | Methylococcus thermophilus (NR_029251) x | Methylobacter sp. (HF565143) | 91 | Land /uniFB01 ll cover soil\n4 | KP289226 | x | x x | Methylomicrobium buryatense (NR_025136) | Methylobacter sp. (AF131868) | 91\nGenus Methylomicrobium | 9 | KP289231 | x | Methylomicrobium buryaticum (AF096093) | 97 | Soda lake\nGenus Methylomonas | 10 | Methylomonas rubra (AF150807) | 99 98 | Marine sediment Lake sediment\n11 | KP289233 x x x | x x x x | x Methylomonas rubra (NR_115353) | 99 | Coal mine drainage\n12 13 | KP289234 | x | Methylomonas rubra (NR_114588) Methylomonas methanica (NR_074627) | 98 98 | Sea sample Marine sediment\nKP289235 x x | x | Methylomonas methanica (NR_074627) Methylomonas rubra (NR_115353) | 98 98 97 | Marine sediment Coal mine drainage Igneous rocks\n14 | KP289236 x x | Methylomonas scandinavica (NR_041958) x Methylomonas methanica (NR_074627) | 98 97 | Marine sediment\n15 | KP289237 x | x x | Methylomonas rubra (AF150807) | Lake sediment\nMethylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 16 | KP289238 | x | x x Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 95 95 | Lake sediment Marine sediment\nOrder Victivallales | 17 | KP289239 x x x | x x x x x | Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) x x Methylomonas rubra (AF150807) | 99 99 | Lake sediment Marine sediment Lake sediment\n18 | x x x | 99\nFamily Victivallaceae\nKP289240 | Marine sediment\nMethylomonas methanica (NR_074627)\n19\nGenus Victivallis | x x | Bio /uniFB01 lm in a microbial cell\nKP289241 | x | Uncultured Victivallaceae (JQ724358) | 91 | fuel",
+        "document_offsets": {
+          "start": 0,
+          "end": 2571
+        },
+        "subject_positions": [
+          {
+            "start": 219,
+            "end": 220,
+            "sentence_id": 5,
+            "matched_text": "1"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Class Gammaproteobacteria",
+      "predicate": "includes",
+      "object": "Order Methylococcales",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 8,
+        "text_evidence": "| KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x | 97 | Soil\nOrder Methylococcales Family Methylococcaceae | 3 | KP289225",
+        "document_offsets": {
+          "start": 221,
+          "end": 468
+        },
+        "subject_positions": [
+          {
+            "start": 87,
+            "end": 112,
+            "sentence_id": 6,
+            "matched_text": "Class Gammaproteobacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 187,
+            "end": 208,
+            "sentence_id": 8,
+            "matched_text": "Order Methylococcales"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "2",
+      "predicate": "is associated with",
+      "object": "Methylococcus thermophilus (NR_029251)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 42,
+        "text_evidence": "| KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x | Methylococcus thermophilus (NR_029251) | 97 | Soil\nOrder Methylococcales Family Methylococcaceae | 3 | KP289225 | Land /uniFB01 ll cover soil\n4 | KP289226 | x x | Uncultured bacterium (JX434234) | 93 | Water mine\n5 | KP289227 x | x | x (HQ044206) | 94 | Tailing pond\n6 | KP289228 | x x | Methylomicrobium buryatense (NR_025136) | 96 | Marine sediment\n7 | KP289229 x | x x x | Methylomicrobium sp . (DQ496230) | 90 | Soda lake\n8 | KP289230 | x | Methylomonas methanica (NR_074627) | 93 | swamp soil\nx | KP289231 | x KP289232 x x x | x | x x Methylomonas methanica (NR_074627) Methylomonas rubra (AF150807) | 99 98 | Marine sediment Lake sediment\n11 | KP289233 x x x | x x x x | x Methylomonas rubra (NR_115353) | 99 | Coal mine drainage\n12 13 | KP289234 | x | Methylomonas rubra (NR_114588) Methylomonas methanica (NR_074627) | 98 98 | Sea sample Marine sediment\nKP289235 x x | x | Methylomonas methanica (NR_074627) Methylomonas rubra (NR_115353) | 98 98 97 | Marine sediment Coal mine drainage Igneous rocks\n14 | KP289236 x Methylomonas methanica (NR_074627) | 98 97 | Marine sediment\n15 | KP289237 x | x x | Methylomonas rubra (AF150807) | Lake sediment\nMethylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 16 | KP289238 | x | x x Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) | 95 95 | Lake sediment Marine sediment\nOrder Victivallales | 17 | KP289239 x x x | x x x x x | Methylomonas rubra (AF150807) Methylomonas methanica (NR_074627) x x | 99\nFamily Victivallaceae\nKP289240 | Marine sediment\nMethylomonas methanica (NR_074627)\n19\nGenus Victivallis | x x | Bio /uniFB01 lm in a microbial cell\nKP289241 | x | Uncultured Victivallaceae (JQ724358) | 91 | fuel",
+        "document_offsets": {
+          "start": 221,
+          "end": 2571
+        },
+        "subject_positions": [
+          {
+            "start": 115,
+            "end": 116,
+            "sentence_id": 6,
+            "matched_text": "2"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phylum Proteobacteria",
+      "predicate": "contains",
+      "object": "Class Gammaproteobacteria",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 6,
+        "text_evidence": "| Source of origin\nKingdom Bacteria\nPhylum Proteobacteria | 1 | KP289224 | x x x x | Uncultured bacterium (EF648097) | 98 | Aerobic activated sludge\nClass Gammaproteobacteria | 2 | KP315903 x | x",
+        "document_offsets": {
+          "start": 159,
+          "end": 354
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 57,
+            "sentence_id": 5,
+            "matched_text": "Phylum Proteobacteria"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 149,
+            "end": 174,
+            "sentence_id": 6,
+            "matched_text": "Class Gammaproteobacteria"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table2",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 31.534345626831055,
+          "t": 701.0584564208984,
+          "r": 553.5574951171875,
+          "b": 338.6579895019531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table3",
+      "predicate": "contains",
+      "object": "K s (M)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "300 rpm | 300 rpm | 650 rpm | 650 rpm\nK s (M) | q max (g CH 4 , g biomass /C0 | K s (M) | q max (g CH 4 , g biomass /C0",
+        "document_offsets": {
+          "start": 0,
+          "end": 131
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS4",
+      "predicate": "has yield",
+      "object": "2.9 /C2 10 /C0 5 \u00b1 4.4 /C2 10 /C0 7bc",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "| 9.7 /C2 10 /C0 5 \u00b1 7.1 /C2 10 /C0 6b | 6.6 /C2 10 /C0 5 \u00b1 6.5 /C2 10 /C0 6b | 1.9 /C2 10 /C0 4 \u00b1 1.0 /C2 10 /C0 5b\nTS3 8% CH 4, 0.05 m MCu 2 \u00fe TS4 | 2.9 /C2 10 /C0 5 \u00b1 4.4 /C2 10 /C0 7bc | 9.3 /C2 10 /C0 5 \u00b1 4.7 /C2 10 /C0 7b | 9.4 /C2 10 /C0 5 \u00b1 3.5 /C2 10 /C0 6bc",
+        "document_offsets": {
+          "start": 393,
+          "end": 660
+        },
+        "subject_positions": [
+          {
+            "start": 145,
+            "end": 148,
+            "sentence_id": 9,
+            "matched_text": "TS4"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 151,
+            "end": 188,
+            "sentence_id": 9,
+            "matched_text": "2.9 /C2 10 /C0 5 \u00b1 4.4 /C2 10 /C0 7bc"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS1",
+      "predicate": "has composition",
+      "object": "1% CH 4, 0.05 m MCu 2 \u00fe",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 8,
+        "text_evidence": "TS1\n8% CH 4, 25 m MCu 2 \u00fe TS2 | 6.4 /C2 10 /C0 5 \u00b1 1.2 /C2 10 /C0 6a | 3.6 /C2 10 /C0 4 \u00b1 3.0 /C2 10 /C0 5a\n1% CH 4, 0.05 m MCu 2 \u00fe | 1.7 /C2 10 /C0 5 \u00b1 1.2 /C2 10 /C0 6b",
+        "document_offsets": {
+          "start": 144,
+          "end": 392
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 3,
+            "sentence_id": 5,
+            "matched_text": "TS1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 186,
+            "end": 209,
+            "sentence_id": 8,
+            "matched_text": "1% CH 4, 0.05 m MCu 2 \u00fe"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS2",
+      "predicate": "has yield",
+      "object": "6.4 /C2 10 /C0 5 \u00b1 1.2 /C2 10 /C0 6a",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "TS1\n8% CH 4, 25 m MCu 2 \u00fe TS2 | 6.4 /C2 10 /C0 5 \u00b1 1.2 /C2 10 /C0 6a | 3.6 /C2 10 /C0 4 \u00b1 3.0 /C2 10 /C0",
+        "document_offsets": {
+          "start": 144,
+          "end": 248
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 5,
+            "matched_text": "TS2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 68,
+            "sentence_id": 5,
+            "matched_text": "6.4 /C2 10 /C0 5 \u00b1 1.2 /C2 10 /C0 6a"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS1",
+      "predicate": "has composition",
+      "object": "8% CH 4, 25 m MCu 2 \u00fe TS2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "TS1\n8% CH 4, 25 m MCu 2 \u00fe TS2 | 6.4 /C2 10 /C0 5 \u00b1 1.2 /C2 10 /C0 6a | 3.6 /C2 10 /C0 4 \u00b1 3.0 /C2 10 /C0",
+        "document_offsets": {
+          "start": 144,
+          "end": 248
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 3,
+            "sentence_id": 5,
+            "matched_text": "TS1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 29,
+            "sentence_id": 5,
+            "matched_text": "8% CH 4, 25 m MCu 2 \u00fe TS2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "TS3",
+      "predicate": "has composition",
+      "object": "8% CH 4, 0.05 m MCu 2 \u00fe TS4",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "| 9.7 /C2 10 /C0 5 \u00b1 7.1 /C2 10 /C0 6b | 6.6 /C2 10 /C0 5 \u00b1 6.5 /C2 10 /C0 6b | 1.9 /C2 10 /C0 4 \u00b1 1.0 /C2 10 /C0 5b\nTS3 8% CH 4, 0.05 m MCu 2 \u00fe TS4 | 2.9 /C2 10 /C0 5 \u00b1 4.4 /C2 10 /C0 7bc | 9.3 /C2 10 /C0 5 \u00b1 4.7 /C2 10 /C0 7b | 9.4 /C2 10 /C0 5 \u00b1 3.5 /C2 10 /C0 6bc",
+        "document_offsets": {
+          "start": 393,
+          "end": 660
+        },
+        "subject_positions": [
+          {
+            "start": 117,
+            "end": 120,
+            "sentence_id": 9,
+            "matched_text": "TS3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 148,
+            "sentence_id": 9,
+            "matched_text": "8% CH 4, 0.05 m MCu 2 \u00fe TS4"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page7_table3",
+      "predicate": "contains",
+      "object": "300 rpm",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "300 rpm | 300 rpm | 650 rpm | 650 rpm\nK s (M) | q max (g CH 4 , g biomass /C0",
+        "document_offsets": {
+          "start": 0,
+          "end": 77
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 0,
+            "matched_text": "300 rpm"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "sentence_id": 0,
+            "matched_text": "300 rpm"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.40012741088867,
+          "t": 201.08941650390625,
+          "r": 563.225830078125,
+          "b": 99.8060302734375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Genus Bdellovibrio",
+    "Family Methylococcaceae",
+    "TS 2",
+    "Acanthamoeba",
+    "Phylum Proteobacteria",
+    "Dokdonella",
+    "Order Victivallales",
+    "Uncultured Methylococcaceae",
+    "Uncultured Gammaproteobacteria",
+    "Class Gammaproteobacteria",
+    "Class Deltaproteobacteria",
+    "CH 4 headspace",
+    "Kingdom Bacteria",
+    "Methylomonas methanica",
+    "Test series",
+    "Cu 2 \u00fe",
+    "Methylomonas rubra",
+    "Table page7_table3",
+    "Genus Victivallis",
+    "Genus Methylomonas",
+    "TS1",
+    "Neochlamydia hartmannellae",
+    "Class Lentisphaeria",
+    "Genus Methylomicrobium",
+    "Agitation",
+    "Phylum Lentisphaerae",
+    "TS 3",
+    "Family Bdellovibrionaceae",
+    "TS3",
+    "Compost of cow dung",
+    "Family Victivallaceae",
+    "MCu2",
+    "Uncultured bacterium YC7",
+    "Neochlamydia",
+    "TS2",
+    "Order Methylococcales",
+    "TS4",
+    "TS 4",
+    "CH4",
+    "Order Bdellovibrionales",
+    "TS 1"
+  ]
+}

@@ -1,0 +1,2106 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 44,
+    "relations": 47,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Soo et al. 2018.json",
+    "processed_at": "2025-11-24T00:56:17.152244"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Ms. trichosporium OB3b Mutants",
+      "predicate": "are genotyped",
+      "object": "Genotyping Mutants",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| Analysis of Ms. trichosporium OB3b Mutants | 345\n6.1 DNA Extraction From Ms. trichosporium OB3b Cells on Agar Plates | 345\n6.2 Genotyping Mutants",
+        "document_offsets": {
+          "start": 328,
+          "end": 475
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 44,
+            "sentence_id": 6,
+            "matched_text": "Ms. trichosporium OB3b Mutants"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 129,
+            "end": 147,
+            "sentence_id": 6,
+            "matched_text": "Genotyping Mutants"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genetic Manipulation",
+      "predicate": "can be performed via",
+      "object": "Electroporation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 5,
+        "text_evidence": "| Genetic Manipulation via Conjugation | 340\n5. | Gene Manipulation via Electroporation | 342\n5.1 Construction of Linear DNA Fragment | 343\n5.2 Electrocompetent Cell Preparation | 343\n5.3 Electroporation | 343\n6.",
+        "document_offsets": {
+          "start": 115,
+          "end": 327
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 4,
+            "matched_text": "Genetic Manipulation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 72,
+            "end": 87,
+            "sentence_id": 5,
+            "matched_text": "Electroporation"
+          },
+          {
+            "start": 188,
+            "end": 203,
+            "sentence_id": 5,
+            "matched_text": "Electroporation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ms. trichosporium OB3b",
+      "predicate": "is the subject of",
+      "object": "Introduction",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 6,
+        "text_evidence": "| Introduction | 336\n2. | Ms. trichosporium OB3b Growth Conditions | 337\n3. | Analysis of Ms. trichosporium OB3b Mutants | 345\n6.1 DNA Extraction From Ms. trichosporium OB3b Cells on Agar Plates | 345\n6.2 Genotyping Mutants",
+        "document_offsets": {
+          "start": 3,
+          "end": 475
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 48,
+            "sentence_id": 2,
+            "matched_text": "Ms. trichosporium OB3b"
+          },
+          {
+            "start": 339,
+            "end": 361,
+            "sentence_id": 6,
+            "matched_text": "Ms. trichosporium OB3b"
+          },
+          {
+            "start": 400,
+            "end": 422,
+            "sentence_id": 6,
+            "matched_text": "Ms. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "Introduction"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ms. trichosporium OB3b",
+      "predicate": "has growth conditions",
+      "object": "Ms. trichosporium OB3b Growth Conditions",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "| Ms. trichosporium OB3b Growth Conditions | 337\n3. | Analysis of Ms. trichosporium OB3b Mutants | 345\n6.1 DNA Extraction From Ms. trichosporium OB3b Cells on Agar Plates | 345\n6.2 Genotyping Mutants",
+        "document_offsets": {
+          "start": 27,
+          "end": 475
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 24,
+            "sentence_id": 2,
+            "matched_text": "Ms. trichosporium OB3b"
+          },
+          {
+            "start": 315,
+            "end": 337,
+            "sentence_id": 6,
+            "matched_text": "Ms. trichosporium OB3b"
+          },
+          {
+            "start": 376,
+            "end": 398,
+            "sentence_id": 6,
+            "matched_text": "Ms. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Ms. trichosporium OB3b Growth Conditions"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Electrocompetent Cells",
+      "predicate": "are prepared for",
+      "object": "Electroporation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "| Gene Manipulation via Electroporation | 342\n5.1 Construction of Linear DNA Fragment | 343\n5.2 Electrocompetent Cell Preparation | 343\n5.3 Electroporation | 343\n6.",
+        "document_offsets": {
+          "start": 163,
+          "end": 327
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 39,
+            "sentence_id": 5,
+            "matched_text": "Electroporation"
+          },
+          {
+            "start": 140,
+            "end": 155,
+            "sentence_id": 5,
+            "matched_text": "Electroporation"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Plasmids",
+      "predicate": "are used for",
+      "object": "Mutagenesis",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Plasmids for Mutagenesis | 339\n4.",
+        "document_offsets": {
+          "start": 79,
+          "end": 114
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 10,
+            "sentence_id": 3,
+            "matched_text": "Plasmids"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 26,
+            "sentence_id": 3,
+            "matched_text": "Mutagenesis"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ms. trichosporium OB3b Mutants",
+      "predicate": "are analyzed via",
+      "object": "DNA Extraction From Ms. trichosporium OB3b Cells on Agar Plates",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| Analysis of Ms. trichosporium OB3b Mutants | 345\n6.1 DNA Extraction From Ms. trichosporium OB3b Cells on Agar Plates | 345\n6.2 Genotyping Mutants",
+        "document_offsets": {
+          "start": 328,
+          "end": 475
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 44,
+            "sentence_id": 6,
+            "matched_text": "Ms. trichosporium OB3b Mutants"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 55,
+            "end": 118,
+            "sentence_id": 6,
+            "matched_text": "DNA Extraction From Ms. trichosporium OB3b Cells on Agar Plates"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Linear DNA Fragment",
+      "predicate": "is constructed in",
+      "object": "Gene Manipulation via Electroporation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "| Gene Manipulation via Electroporation | 342\n5.1 Construction of Linear DNA Fragment | 343\n5.2 Electrocompetent Cell Preparation | 343\n5.3 Electroporation | 343\n6.",
+        "document_offsets": {
+          "start": 163,
+          "end": 327
+        },
+        "subject_positions": [
+          {
+            "start": 66,
+            "end": 85,
+            "sentence_id": 5,
+            "matched_text": "Linear DNA Fragment"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 39,
+            "sentence_id": 5,
+            "matched_text": "Gene Manipulation via Electroporation"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Genetic Manipulation",
+      "predicate": "can be performed via",
+      "object": "Conjugation",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| Genetic Manipulation via Conjugation | 340\n5.",
+        "document_offsets": {
+          "start": 115,
+          "end": 162
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 22,
+            "sentence_id": 4,
+            "matched_text": "Genetic Manipulation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 38,
+            "sentence_id": 4,
+            "matched_text": "Conjugation"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 61.422916412353516,
+          "t": 412.0455780029297,
+          "r": 386.6658020019531,
+          "b": 255.23309326171875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "1mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) 7H 2 O | 1mL | 1mL | 1mL | 1mL\n100m M CuSO 4 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 312
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 273,
+            "end": 276,
+            "sentence_id": 5,
+            "matched_text": "1mL"
+          },
+          {
+            "start": 279,
+            "end": 282,
+            "sentence_id": 6,
+            "matched_text": "1mL"
+          },
+          {
+            "start": 285,
+            "end": 288,
+            "sentence_id": 6,
+            "matched_text": "1mL"
+          },
+          {
+            "start": 291,
+            "end": 294,
+            "sentence_id": 6,
+            "matched_text": "1mL"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "40m M FeSO 4 /C1 7H 2 O",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 63
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Trace elements (g/L)",
+      "predicate": "contains",
+      "object": "48.06",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 602,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 9,
+            "end": 14,
+            "sentence_id": 10,
+            "matched_text": "48.06"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Trace elements (g/L)",
+      "predicate": "contains",
+      "object": "23.4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 602,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 31,
+            "sentence_id": 10,
+            "matched_text": "23.4"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate solution (g/L)",
+      "predicate": "is composed of",
+      "object": "KH 2 PO 4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "| 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L) 7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 375,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 242,
+            "end": 251,
+            "sentence_id": 10,
+            "matched_text": "KH 2 PO 4"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "10mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 587
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 457,
+            "end": 461,
+            "sentence_id": 8,
+            "matched_text": "10mL"
+          },
+          {
+            "start": 464,
+            "end": 468,
+            "sentence_id": 8,
+            "matched_text": "10mL"
+          },
+          {
+            "start": 471,
+            "end": 475,
+            "sentence_id": 8,
+            "matched_text": "10mL"
+          },
+          {
+            "start": 478,
+            "end": 482,
+            "sentence_id": 8,
+            "matched_text": "10mL"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "50% sucrose",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 587
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 531,
+            "end": 542,
+            "sentence_id": 8,
+            "matched_text": "50% sucrose"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate solution (g/L)",
+      "predicate": "is composed of",
+      "object": "Na 2 HPO 4 /C1 7H 2 O",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "| 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 375,
+          "end": 587
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 587
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "plates only",
+      "predicate": "is a part of",
+      "object": "Agar",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "5H 2 O | Varies | Varies | Varies | Varies\nAgar (plates only)",
+        "document_offsets": {
+          "start": 313,
+          "end": 374
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 60,
+            "sentence_id": 7,
+            "matched_text": "plates only"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 43,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "Agar"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "0.85g",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) NaNO 3 | 0.85g | 0.85g | 0.85g | 0.85g\nK 2 SO 4 | 0.17g | 0.17g | 0.17g | 0.17g\nMgSO 4 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 153
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 72,
+            "end": 77,
+            "sentence_id": 1,
+            "matched_text": "0.85g"
+          },
+          {
+            "start": 80,
+            "end": 85,
+            "sentence_id": 1,
+            "matched_text": "0.85g"
+          },
+          {
+            "start": 88,
+            "end": 93,
+            "sentence_id": 1,
+            "matched_text": "0.85g"
+          },
+          {
+            "start": 96,
+            "end": 101,
+            "sentence_id": 1,
+            "matched_text": "0.85g"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Trace elements (g/L)",
+      "predicate": "is composed of",
+      "object": "KH 2 PO 4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 602,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 24,
+            "sentence_id": 10,
+            "matched_text": "KH 2 PO 4"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Trace elements (g/L)",
+      "predicate": "is composed of",
+      "object": "Na 2 HPO 4 /C1 7H 2 O",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 602,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "Phosphate buffer solution",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 587
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 429,
+            "end": 454,
+            "sentence_id": 8,
+            "matched_text": "Phosphate buffer solution"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "Agar",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) 5H 2 O | Varies | Varies | Varies | Varies\nAgar (plates only)",
+        "document_offsets": {
+          "start": 0,
+          "end": 374
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 356,
+            "end": 360,
+            "sentence_id": 7,
+            "matched_text": "Agar"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "0.17g",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) NaNO 3 | 0.85g | 0.85g | 0.85g | 0.85g\nK 2 SO 4 | 0.17g | 0.17g | 0.17g | 0.17g\nMgSO 4 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 153
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 118,
+            "sentence_id": 1,
+            "matched_text": "0.17g"
+          },
+          {
+            "start": 121,
+            "end": 126,
+            "sentence_id": 1,
+            "matched_text": "0.17g"
+          },
+          {
+            "start": 129,
+            "end": 134,
+            "sentence_id": 1,
+            "matched_text": "0.17g"
+          },
+          {
+            "start": 137,
+            "end": 142,
+            "sentence_id": 1,
+            "matched_text": "0.17g"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "Varies",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) 5H 2 O | Varies | Varies | Varies | Varies\nAgar (plates only)",
+        "document_offsets": {
+          "start": 0,
+          "end": 374
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 322,
+            "end": 328,
+            "sentence_id": 7,
+            "matched_text": "Varies"
+          },
+          {
+            "start": 331,
+            "end": 337,
+            "sentence_id": 7,
+            "matched_text": "Varies"
+          },
+          {
+            "start": 340,
+            "end": 346,
+            "sentence_id": 7,
+            "matched_text": "Varies"
+          },
+          {
+            "start": 349,
+            "end": 355,
+            "sentence_id": 7,
+            "matched_text": "Varies"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "NaNO 3",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) NaNO 3 | 0.85g | 0.85g | 0.85g | 0.85g\nK 2 SO 4 | 0.17g | 0.17g | 0.17g | 0.17g\nMgSO 4 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 153
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "NaNO 3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "MgSO 4 /C1 7H 2 O",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 63
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "Trace elements solution",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 587
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 483,
+            "end": 506,
+            "sentence_id": 8,
+            "matched_text": "Trace elements solution"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "2mL",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 587
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 509,
+            "end": 512,
+            "sentence_id": 8,
+            "matched_text": "2mL"
+          },
+          {
+            "start": 515,
+            "end": 518,
+            "sentence_id": 8,
+            "matched_text": "2mL"
+          },
+          {
+            "start": 521,
+            "end": 524,
+            "sentence_id": 8,
+            "matched_text": "2mL"
+          },
+          {
+            "start": 527,
+            "end": 530,
+            "sentence_id": 8,
+            "matched_text": "2mL"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "K 2 SO 4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) NaNO 3 | 0.85g | 0.85g | 0.85g | 0.85g\nK 2 SO 4 | 0.17g | 0.17g | 0.17g | 0.17g\nMgSO 4 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 153
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 102,
+            "end": 110,
+            "sentence_id": 1,
+            "matched_text": "K 2 SO 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "0.037g",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) 7H 2 O | 0.037g | 0.037g | 0.037g | 0.037g\nCaCl 2 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 207
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 163,
+            "end": 169,
+            "sentence_id": 2,
+            "matched_text": "0.037g"
+          },
+          {
+            "start": 172,
+            "end": 178,
+            "sentence_id": 2,
+            "matched_text": "0.037g"
+          },
+          {
+            "start": 181,
+            "end": 187,
+            "sentence_id": 2,
+            "matched_text": "0.037g"
+          },
+          {
+            "start": 190,
+            "end": 196,
+            "sentence_id": 2,
+            "matched_text": "0.037g"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate solution (g/L)",
+      "predicate": "contains",
+      "object": "48.06",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "| 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L) 7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 375,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 236,
+            "end": 241,
+            "sentence_id": 10,
+            "matched_text": "48.06"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate solution (g/L)",
+      "predicate": "contains",
+      "object": "23.4",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 10,
+        "text_evidence": "| 15g | 15g | 15g | 15g\nLB (Difco) | - | 1.2g | - | -\nPhosphate buffer solution | 10mL | 10mL | 10mL | 10mL\nTrace elements solution | 2mL | 2mL | 2mL | 2mL\n50% sucrose | - | - | - | 50mL\nPhosphate solution (g/L) 7H 2 O | 48.06\nKH 2 PO 4 | 23.4\nTrace elements (g/L)",
+        "document_offsets": {
+          "start": 375,
+          "end": 654
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 254,
+            "end": 258,
+            "sentence_id": 10,
+            "matched_text": "23.4"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "CaCl 2 /C1 2H 2 O",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 63
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "0.01g",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L) | 0.01g | 0.01g | 0.01g | 0.01g\n40m M FeSO 4 /C1",
+        "document_offsets": {
+          "start": 0,
+          "end": 263
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 217,
+            "end": 222,
+            "sentence_id": 4,
+            "matched_text": "0.01g"
+          },
+          {
+            "start": 225,
+            "end": 230,
+            "sentence_id": 4,
+            "matched_text": "0.01g"
+          },
+          {
+            "start": 233,
+            "end": 238,
+            "sentence_id": 4,
+            "matched_text": "0.01g"
+          },
+          {
+            "start": 241,
+            "end": 246,
+            "sentence_id": 4,
+            "matched_text": "0.01g"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "contains",
+      "object": "100m M CuSO 4 /C1 5H 2 O",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 63
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NMS medium",
+      "predicate": "is composed of",
+      "object": "1L",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Growth | Mating | Selection | Counterselection\nNMS medium (1L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 63
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 57,
+            "sentence_id": 0,
+            "matched_text": "NMS medium"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 59,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "1L"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table1",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 45.119407653808594,
+          "t": 577.1116104125977,
+          "r": 369.8131103515625,
+          "b": 282.0085754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "E. coli S17-1",
+      "predicate": "grows in",
+      "object": "LB (Difco)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Table 2 Bacterial Strains Strain | Growth Medium\nMs. trichosporium OB3b | NMS\nE. coli S17-1 | LB (Difco) E. coli CopyCutter EPI400 | LB (Difco)",
+        "document_offsets": {
+          "start": 0,
+          "end": 143
+        },
+        "subject_positions": [
+          {
+            "start": 78,
+            "end": 91,
+            "sentence_id": 0,
+            "matched_text": "E. coli S17-1"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 94.71930694580078,
+          "t": 236.5157470703125,
+          "r": 319.9032897949219,
+          "b": 158.64645385742188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ms. trichosporium OB3b",
+      "predicate": "grows in",
+      "object": "NMS",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Table 2 Bacterial Strains Strain | Growth Medium\nMs. trichosporium OB3b | NMS\nE. coli S17-1 | LB (Difco)",
+        "document_offsets": {
+          "start": 0,
+          "end": 105
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 71,
+            "sentence_id": 0,
+            "matched_text": "Ms. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 74,
+            "end": 77,
+            "sentence_id": 0,
+            "matched_text": "NMS"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 94.71930694580078,
+          "t": 236.5157470703125,
+          "r": 319.9032897949219,
+          "b": 158.64645385742188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "E. coli CopyCutter EPI400",
+      "predicate": "grows in",
+      "object": "LB (Difco)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Table 2 Bacterial Strains Strain | Growth Medium\nMs. trichosporium OB3b | NMS\nE. coli S17-1 | LB (Difco) E. coli CopyCutter EPI400 | LB (Difco)",
+        "document_offsets": {
+          "start": 0,
+          "end": 143
+        },
+        "subject_positions": [
+          {
+            "start": 105,
+            "end": 130,
+            "sentence_id": 1,
+            "matched_text": "E. coli CopyCutter EPI400"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page4_table2",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 94.71930694580078,
+          "t": 236.5157470703125,
+          "r": 319.9032897949219,
+          "b": 158.64645385742188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pk18 mobsacB",
+      "predicate": "was referenced by",
+      "object": "Sch \u20ac afer et al., 1994",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Table 3 Plasmids Plasmid Name | Source/Reference\npk18 mobsacB | ATCC 87097 (Sch \u20ac afer et al., 1994) pk18 mobsacB _p15a",
+        "document_offsets": {
+          "start": 0,
+          "end": 119
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "pk18 mobsacB"
+          },
+          {
+            "start": 101,
+            "end": 113,
+            "sentence_id": 1,
+            "matched_text": "pk18 mobsacB"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 76,
+            "end": 99,
+            "sentence_id": 0,
+            "matched_text": "Sch \u20ac afer et al., 1994"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 84.94245147705078,
+          "t": 586.0469131469727,
+          "r": 329.86767578125,
+          "b": 490.7585754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pAWP89",
+      "predicate": "was developed by",
+      "object": "Puri et al., 2015",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| This study\npAWP89 | Addgene 61264 (Puri et al., 2015) pAWP89_p15a | This study",
+        "document_offsets": {
+          "start": 120,
+          "end": 200
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 19,
+            "sentence_id": 2,
+            "matched_text": "pAWP89"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 37,
+            "end": 54,
+            "sentence_id": 2,
+            "matched_text": "Puri et al., 2015"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 84.94245147705078,
+          "t": 586.0469131469727,
+          "r": 329.86767578125,
+          "b": 490.7585754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pAWP89_p15a",
+      "predicate": "was developed by",
+      "object": "This study",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| This study\npAWP89 | Addgene 61264 (Puri et al., 2015) pAWP89_p15a | This study",
+        "document_offsets": {
+          "start": 120,
+          "end": 200
+        },
+        "subject_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "pAWP89_p15a"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 12,
+            "sentence_id": 2,
+            "matched_text": "This study"
+          },
+          {
+            "start": 70,
+            "end": 80,
+            "sentence_id": 3,
+            "matched_text": "This study"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 84.94245147705078,
+          "t": 586.0469131469727,
+          "r": 329.86767578125,
+          "b": 490.7585754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pAWP89",
+      "predicate": "is stored at",
+      "object": "Addgene 61264",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| This study\npAWP89 | Addgene 61264 (Puri et al., 2015) pAWP89_p15a | This study",
+        "document_offsets": {
+          "start": 120,
+          "end": 200
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 19,
+            "sentence_id": 2,
+            "matched_text": "pAWP89"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 22,
+            "end": 35,
+            "sentence_id": 2,
+            "matched_text": "Addgene 61264"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 84.94245147705078,
+          "t": 586.0469131469727,
+          "r": 329.86767578125,
+          "b": 490.7585754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pAWP89_p15a",
+      "predicate": "is derived from",
+      "object": "pAWP89",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "| This study\npAWP89 | Addgene 61264 (Puri et al., 2015) pAWP89_p15a | This study",
+        "document_offsets": {
+          "start": 120,
+          "end": 200
+        },
+        "subject_positions": [
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "pAWP89_p15a"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 19,
+            "sentence_id": 2,
+            "matched_text": "pAWP89"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 84.94245147705078,
+          "t": 586.0469131469727,
+          "r": 329.86767578125,
+          "b": 490.7585754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pk18 mobsacB",
+      "predicate": "is sourced from",
+      "object": "ATCC 87097",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Table 3 Plasmids Plasmid Name | Source/Reference\npk18 mobsacB | ATCC 87097 (Sch \u20ac afer et al., 1994) pk18 mobsacB _p15a",
+        "document_offsets": {
+          "start": 0,
+          "end": 119
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "pk18 mobsacB"
+          },
+          {
+            "start": 101,
+            "end": 113,
+            "sentence_id": 1,
+            "matched_text": "pk18 mobsacB"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 64,
+            "end": 74,
+            "sentence_id": 0,
+            "matched_text": "ATCC 87097"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table3",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 84.94245147705078,
+          "t": 586.0469131469727,
+          "r": 329.86767578125,
+          "b": 490.7585754394531,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "-",
+    "1L",
+    "Addgene 61264",
+    "0.01g",
+    "0.037g",
+    "plates only",
+    "LB (Difco)",
+    "40m M FeSO 4 /C1 7H 2 O",
+    "E. coli S17-1",
+    "Agar",
+    "Genetic Manipulation",
+    "100m M CuSO 4 /C1 5H 2 O",
+    "Phosphate buffer solution",
+    "2mL",
+    "KH 2 PO 4",
+    "Varies",
+    "MgSO 4 /C1 7H 2 O",
+    "Trace elements (g/L)",
+    "48.06",
+    "Trace elements solution",
+    "10mL",
+    "Plasmids",
+    "Electrocompetent Cells",
+    "0.85g",
+    "1.2g",
+    "Na 2 HPO 4 /C1 7H 2 O",
+    "ATCC 87097",
+    "1mL",
+    "NMS medium",
+    "Sch \u20ac afer et al., 1994",
+    "Electroporation",
+    "CaCl 2 /C1 2H 2 O",
+    "Phosphate solution (g/L)",
+    "Conjugation",
+    "K 2 SO 4",
+    "Puri et al., 2015",
+    "NaNO 3",
+    "Ms. trichosporium OB3b",
+    "0.17g",
+    "Linear DNA Fragment",
+    "E. coli CopyCutter EPI400",
+    "50% sucrose",
+    "23.4",
+    "This study"
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "summary": {
+    "total_chunks": 3,
+    "errors": 0,
+    "entities": 10,
+    "relations": 15,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 15,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 10,
+        "relations": 15
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 6 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Markowska & Michalkiewicz 2009_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T20:09:20.109416"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "thermostat",
+        "experimental setup",
+        "reactor",
+        "gas cylinder with methane",
+        "membrane for sampling of gases",
+        "vent",
+        "flow-meter",
+        "micrometric valve",
+        "gas cylinder with oxygen",
+        "reaction gases mixer"
+      ],
+      "relations": [
+        {
+          "subject": "gas cylinder with methane",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "gas cylinder with oxygen",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "micrometric valve",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "flow-meter",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "reaction gases mixer",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "membrane for sampling of gases",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "reactor",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "thermostat",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "vent",
+          "predicate": "is part of",
+          "object": "experimental setup",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "gas cylinder with methane",
+          "predicate": "feeds into",
+          "object": "reaction gases mixer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "gas cylinder with oxygen",
+          "predicate": "feeds into",
+          "object": "reaction gases mixer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "reaction gases mixer",
+          "predicate": "feeds into",
+          "object": "membrane for sampling of gases",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "membrane for sampling of gases",
+          "predicate": "feeds into",
+          "object": "reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "reactor",
+          "predicate": "is regulated by",
+          "object": "thermostat",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        },
+        {
+          "subject": "vent",
+          "predicate": "is connected to",
+          "object": "reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of the continuous-flow methane to methanol oxidation by bacteria experimental setup. 1. gas cylinder with methane, 2. gas cylinder with oxygen, 3. micrometric valve, 4. flow-meter, 5. reaction gases mixer, 6. membrane for sampling of gases, 7. reactor, 8. thermostat, 9. vent.",
+            "bbox_coordinates": {
+              "l": 305.415,
+              "t": 520.296,
+              "r": 537.743,
+              "b": 463.7,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                16,
+                63
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              302
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 305.415,
+                "t": 520.296,
+                "r": 537.743,
+                "b": 463.7,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 305.415,
+                "t": 586.176,
+                "r": 537.867,
+                "b": 569.18,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 55.935,
+                "t": 586.896,
+                "r": 288.359,
+                "b": 536.728,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

@@ -1,0 +1,1358 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 7,
+    "relations": 26,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Jiang et al. 2023.json",
+    "processed_at": "2025-11-24T00:07:36.903888"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Strain MC-AD3",
+      "predicate": "has cell density",
+      "object": "0.40 g cells/g CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "[5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [",
+        "document_offsets": {
+          "start": 253,
+          "end": 317
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 17,
+            "sentence_id": 2,
+            "matched_text": "Strain MC-AD3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 60,
+            "sentence_id": 2,
+            "matched_text": "0.40 g cells/g CH 4"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "grows at pH",
+      "object": "6.8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "[5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [ 36]\nHTMC | 1:4 | 6.8 | 37 \u25e6 C | 0.333 g cells/g CH 4 | This study",
+        "document_offsets": {
+          "start": 253,
+          "end": 382
+        },
+        "subject_positions": [
+          {
+            "start": 68,
+            "end": 72,
+            "sentence_id": 3,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 2,
+            "matched_text": "6.8"
+          },
+          {
+            "start": 81,
+            "end": 84,
+            "sentence_id": 4,
+            "matched_text": "6.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "grows at temperature",
+      "object": "30 \u25e6 C",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Strains/consortia | Conditions | Conditions | Conditions | Cell | References\nCH 4 / air ratios | pH | Temperatures | density\nM. trichosporium OB3b | 1:1 | - | 30 \u25e6 C | 0.5 - 0.7 g cells/g CH 4 |",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 125,
+            "end": 146,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 159,
+            "end": 165,
+            "sentence_id": 0,
+            "matched_text": "30 \u25e6 C"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stain 14B",
+      "predicate": "has CH 4 / air ratios",
+      "object": "1:4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "[15]\nStain 14B | 1:4 | - | 37 \u25e6 C | 0.20 g cells/g CH 4 | [5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [ 36]\nHTMC | 1:4",
+        "document_offsets": {
+          "start": 195,
+          "end": 331
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "Stain 14B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 20,
+            "sentence_id": 1,
+            "matched_text": "1:4"
+          },
+          {
+            "start": 78,
+            "end": 81,
+            "sentence_id": 2,
+            "matched_text": "1:4"
+          },
+          {
+            "start": 133,
+            "end": 136,
+            "sentence_id": 3,
+            "matched_text": "1:4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Strain MC-AD3",
+      "predicate": "grows at pH",
+      "object": "6.8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "[5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [ | 6.8 | 37 \u25e6 C | 0.333 g cells/g CH 4 | This study",
+        "document_offsets": {
+          "start": 253,
+          "end": 382
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 17,
+            "sentence_id": 2,
+            "matched_text": "Strain MC-AD3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 2,
+            "matched_text": "6.8"
+          },
+          {
+            "start": 81,
+            "end": 84,
+            "sentence_id": 4,
+            "matched_text": "6.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stain 14B",
+      "predicate": "grows at temperature",
+      "object": "37 \u25e6 C",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 4,
+        "text_evidence": "[15]\nStain 14B | 1:4 | - | 37 \u25e6 C | 0.20 g cells/g CH 4 | | 6.8 | 37 \u25e6 C | 0.333 g cells/g CH 4 | This study",
+        "document_offsets": {
+          "start": 195,
+          "end": 382
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "Stain 14B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 33,
+            "sentence_id": 1,
+            "matched_text": "37 \u25e6 C"
+          },
+          {
+            "start": 145,
+            "end": 151,
+            "sentence_id": 4,
+            "matched_text": "37 \u25e6 C"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has CH 4 / air ratios",
+      "object": "1:1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Strains/consortia | Conditions | Conditions | Conditions | Cell | References\nCH 4 / air ratios | pH | Temperatures | density\nM. trichosporium OB3b | 1:1 | - | 30 \u25e6 C | 0.5 - 0.7 g cells/g CH 4 |",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 125,
+            "end": 146,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 149,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "1:1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "M. trichosporium OB3b",
+      "predicate": "has cell density",
+      "object": "0.5 - 0.7 g cells/g CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Strains/consortia | Conditions | Conditions | Conditions | Cell | References\nCH 4 / air ratios | pH | Temperatures | density\nM. trichosporium OB3b | 1:1 | - | 30 \u25e6 C | 0.5 - 0.7 g cells/g CH 4 |",
+        "document_offsets": {
+          "start": 0,
+          "end": 194
+        },
+        "subject_positions": [
+          {
+            "start": 125,
+            "end": 146,
+            "sentence_id": 0,
+            "matched_text": "M. trichosporium OB3b"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 168,
+            "end": 192,
+            "sentence_id": 0,
+            "matched_text": "0.5 - 0.7 g cells/g CH 4"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "grows at temperature",
+      "object": "37 \u25e6 C",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 4,
+        "text_evidence": "[15]\nStain 14B | 1:4 | - | 37 \u25e6 C | 0.20 g cells/g CH 4 | 36]\nHTMC | 1:4 | 6.8 | 37 \u25e6 C | 0.333 g cells/g CH 4 | This study",
+        "document_offsets": {
+          "start": 195,
+          "end": 382
+        },
+        "subject_positions": [
+          {
+            "start": 126,
+            "end": 130,
+            "sentence_id": 3,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 33,
+            "sentence_id": 1,
+            "matched_text": "37 \u25e6 C"
+          },
+          {
+            "start": 145,
+            "end": 151,
+            "sentence_id": 4,
+            "matched_text": "37 \u25e6 C"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "has cell density",
+      "object": "0.333 g cells/g CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "36]\nHTMC | 1:4 | 6.8 | 37 \u25e6 C | 0.333 g cells/g CH 4 | This study",
+        "document_offsets": {
+          "start": 317,
+          "end": 382
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 8,
+            "sentence_id": 3,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 52,
+            "sentence_id": 4,
+            "matched_text": "0.333 g cells/g CH 4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Strain MC-AD3",
+      "predicate": "grows at temperature",
+      "object": "47 \u25e6 C",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "[5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [",
+        "document_offsets": {
+          "start": 253,
+          "end": 317
+        },
+        "subject_positions": [
+          {
+            "start": 4,
+            "end": 17,
+            "sentence_id": 2,
+            "matched_text": "Strain MC-AD3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 38,
+            "sentence_id": 2,
+            "matched_text": "47 \u25e6 C"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "has CH 4 / air ratios",
+      "object": "1:4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "[15]\nStain 14B | 1:4 | - | 37 \u25e6 C | 0.20 g cells/g CH 4 | [5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [ 36]\nHTMC | 1:4",
+        "document_offsets": {
+          "start": 195,
+          "end": 331
+        },
+        "subject_positions": [
+          {
+            "start": 126,
+            "end": 130,
+            "sentence_id": 3,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 20,
+            "sentence_id": 1,
+            "matched_text": "1:4"
+          },
+          {
+            "start": 78,
+            "end": 81,
+            "sentence_id": 2,
+            "matched_text": "1:4"
+          },
+          {
+            "start": 133,
+            "end": 136,
+            "sentence_id": 3,
+            "matched_text": "1:4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Strain MC-AD3",
+      "predicate": "has CH 4 / air ratios",
+      "object": "1:4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "[15]\nStain 14B | 1:4 | - | 37 \u25e6 C | 0.20 g cells/g CH 4 | [5]\nStrain MC-AD3 | 1:4 | 6.8 | 47 \u25e6 C | 0.40 g cells/g CH 4 | [ 36]\nHTMC | 1:4",
+        "document_offsets": {
+          "start": 195,
+          "end": 331
+        },
+        "subject_positions": [
+          {
+            "start": 62,
+            "end": 75,
+            "sentence_id": 2,
+            "matched_text": "Strain MC-AD3"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 20,
+            "sentence_id": 1,
+            "matched_text": "1:4"
+          },
+          {
+            "start": 78,
+            "end": 81,
+            "sentence_id": 2,
+            "matched_text": "1:4"
+          },
+          {
+            "start": 133,
+            "end": 136,
+            "sentence_id": 3,
+            "matched_text": "1:4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Stain 14B",
+      "predicate": "has cell density",
+      "object": "0.20 g cells/g CH 4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "[15]\nStain 14B | 1:4 | - | 37 \u25e6 C | 0.20 g cells/g CH 4 |",
+        "document_offsets": {
+          "start": 195,
+          "end": 252
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "Stain 14B"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 36,
+            "end": 55,
+            "sentence_id": 1,
+            "matched_text": "0.20 g cells/g CH 4"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 305.598388671875,
+          "t": 710.2757034301758,
+          "r": 558.0565185546875,
+          "b": 592.4172515869141,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis sp.",
+      "predicate": "has no inhibition of methanol production (%)",
+      "object": "n/a",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 9,
+        "text_evidence": "| Inhibition of methanol production (%) | References\n0.71 a | 1.41 a | 5.64 a | 0.71 | 1.41 a | 5.64 a\nMethylocystis sp. | 47 | 85 | 100 | n/a | n/a | n/a | [13]\nMethylomicrobium album | 39 | 49 | 100 | n/a | n/a | n/a [13]\nStrain SAD2 | 17 | 35 | 100 | 16 | 48 | n/a | [25]\nHTMC | n/a | 0 | 1 | n/a | 33 | 52 |",
+        "document_offsets": {
+          "start": 194,
+          "end": 507
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 139,
+            "end": 142,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 145,
+            "end": 148,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 151,
+            "end": 154,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 203,
+            "end": 206,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 209,
+            "end": 212,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 215,
+            "end": 218,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 266,
+            "end": 269,
+            "sentence_id": 7,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 284,
+            "end": 287,
+            "sentence_id": 8,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 298,
+            "end": 301,
+            "sentence_id": 9,
+            "matched_text": "n/a"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "has inhibition of methanol production (%)",
+      "object": "52",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 9,
+        "text_evidence": "[25]\nHTMC | n/a | 0 | 1 | n/a | 33 | 52 |",
+        "document_offsets": {
+          "start": 466,
+          "end": 507
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 9,
+            "sentence_id": 8,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 37,
+            "end": 39,
+            "sentence_id": 9,
+            "matched_text": "52"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis sp.",
+      "predicate": "has inhibition of cell growth (%)",
+      "object": "5.64",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| Inhibition of methanol production (%) | References\n0.71 a | 1.41 a | 5.64 a | 0.71 | 1.41 a | 5.64 a\nMethylocystis sp. | 47 | 85 | 100 | n/a | n/a | n/a |",
+        "document_offsets": {
+          "start": 194,
+          "end": 350
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 71,
+            "end": 75,
+            "sentence_id": 4,
+            "matched_text": "5.64"
+          },
+          {
+            "start": 96,
+            "end": 100,
+            "sentence_id": 4,
+            "matched_text": "5.64"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "has inhibition of methanol production (%)",
+      "object": "33",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 9,
+        "text_evidence": "[25]\nHTMC | n/a | 0 | 1 | n/a | 33 | 52 |",
+        "document_offsets": {
+          "start": 466,
+          "end": 507
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 9,
+            "sentence_id": 8,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 34,
+            "sentence_id": 9,
+            "matched_text": "33"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Strain SAD2",
+      "predicate": "has inhibition of cell growth (%)",
+      "object": "17",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[13]\nStrain SAD2 | 17 | 35 | 100 | 16 | 48 | n/a |",
+        "document_offsets": {
+          "start": 415,
+          "end": 465
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 16,
+            "sentence_id": 7,
+            "matched_text": "Strain SAD2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 21,
+            "sentence_id": 7,
+            "matched_text": "17"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Strain SAD2",
+      "predicate": "has inhibition of cell growth (%)",
+      "object": "35",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "[13]\nStrain SAD2 | 17 | 35 | 100 | 16 | 48 | n/a |",
+        "document_offsets": {
+          "start": 415,
+          "end": 465
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 16,
+            "sentence_id": 7,
+            "matched_text": "Strain SAD2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 26,
+            "sentence_id": 7,
+            "matched_text": "35"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomicrobium album",
+      "predicate": "has no inhibition of methanol production (%)",
+      "object": "n/a",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 9,
+        "text_evidence": "| Inhibition of methanol production (%) | References\n0.71 a | 1.41 a | 5.64 a | 0.71 | 1.41 a | 5.64 a\nMethylocystis sp. | 47 | 85 | 100 | n/a | n/a | n/a | [13]\nMethylomicrobium album | 39 | 49 | 100 | n/a | n/a | n/a [13]\nStrain SAD2 | 17 | 35 | 100 | 16 | 48 | n/a | [25]\nHTMC | n/a | 0 | 1 | n/a | 33 | 52 |",
+        "document_offsets": {
+          "start": 194,
+          "end": 507
+        },
+        "subject_positions": [
+          {
+            "start": 162,
+            "end": 184,
+            "sentence_id": 5,
+            "matched_text": "Methylomicrobium album"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 139,
+            "end": 142,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 145,
+            "end": 148,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 151,
+            "end": 154,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 203,
+            "end": 206,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 209,
+            "end": 212,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 215,
+            "end": 218,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 266,
+            "end": 269,
+            "sentence_id": 7,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 284,
+            "end": 287,
+            "sentence_id": 8,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 298,
+            "end": 301,
+            "sentence_id": 9,
+            "matched_text": "n/a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomicrobium album",
+      "predicate": "has inhibition of cell growth (%)",
+      "object": "49",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "[13]\nMethylomicrobium album | 39 | 49 | 100 | n/a | n/a | n/a",
+        "document_offsets": {
+          "start": 351,
+          "end": 412
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 27,
+            "sentence_id": 5,
+            "matched_text": "Methylomicrobium album"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 35,
+            "end": 37,
+            "sentence_id": 5,
+            "matched_text": "49"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Strain SAD2",
+      "predicate": "has no inhibition of methanol production (%)",
+      "object": "n/a",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 9,
+        "text_evidence": "| Inhibition of methanol production (%) | References\n0.71 a | 1.41 a | 5.64 a | 0.71 | 1.41 a | 5.64 a\nMethylocystis sp. | 47 | 85 | 100 | n/a | n/a | n/a | [13]\nMethylomicrobium album | 39 | 49 | 100 | n/a | n/a | n/a [13]\nStrain SAD2 | 17 | 35 | 100 | 16 | 48 | n/a | [25]\nHTMC | n/a | 0 | 1 | n/a | 33 | 52 |",
+        "document_offsets": {
+          "start": 194,
+          "end": 507
+        },
+        "subject_positions": [
+          {
+            "start": 226,
+            "end": 237,
+            "sentence_id": 7,
+            "matched_text": "Strain SAD2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 139,
+            "end": 142,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 145,
+            "end": 148,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 151,
+            "end": 154,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 203,
+            "end": 206,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 209,
+            "end": 212,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 215,
+            "end": 218,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 266,
+            "end": 269,
+            "sentence_id": 7,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 284,
+            "end": 287,
+            "sentence_id": 8,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 298,
+            "end": 301,
+            "sentence_id": 9,
+            "matched_text": "n/a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylocystis sp.",
+      "predicate": "has inhibition of cell growth (%)",
+      "object": "1.41",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| Inhibition of methanol production (%) | References\n0.71 a | 1.41 a | 5.64 a | 0.71 | 1.41 a | 5.64 a\nMethylocystis sp. | 47 | 85 | 100 | n/a | n/a | n/a |",
+        "document_offsets": {
+          "start": 194,
+          "end": 350
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 66,
+            "sentence_id": 4,
+            "matched_text": "1.41"
+          },
+          {
+            "start": 87,
+            "end": 91,
+            "sentence_id": 4,
+            "matched_text": "1.41"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "HTMC",
+      "predicate": "has no inhibition of cell growth (%)",
+      "object": "n/a",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 9,
+        "text_evidence": "| Inhibition of methanol production (%) | References\n0.71 a | 1.41 a | 5.64 a | 0.71 | 1.41 a | 5.64 a\nMethylocystis sp. | 47 | 85 | 100 | n/a | n/a | n/a | [13]\nMethylomicrobium album | 39 | 49 | 100 | n/a | n/a | n/a [13]\nStrain SAD2 | 17 | 35 | 100 | 16 | 48 | n/a | [25]\nHTMC | n/a | 0 | 1 | n/a | 33 | 52 |",
+        "document_offsets": {
+          "start": 194,
+          "end": 507
+        },
+        "subject_positions": [
+          {
+            "start": 277,
+            "end": 281,
+            "sentence_id": 8,
+            "matched_text": "HTMC"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 139,
+            "end": 142,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 145,
+            "end": 148,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 151,
+            "end": 154,
+            "sentence_id": 4,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 203,
+            "end": 206,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 209,
+            "end": 212,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 215,
+            "end": 218,
+            "sentence_id": 5,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 266,
+            "end": 269,
+            "sentence_id": 7,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 284,
+            "end": 287,
+            "sentence_id": 8,
+            "matched_text": "n/a"
+          },
+          {
+            "start": 298,
+            "end": 301,
+            "sentence_id": 9,
+            "matched_text": "n/a"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methylomicrobium album",
+      "predicate": "has inhibition of cell growth (%)",
+      "object": "39",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "[13]\nMethylomicrobium album | 39 | 49 | 100 | n/a | n/a | n/a",
+        "document_offsets": {
+          "start": 351,
+          "end": 412
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 27,
+            "sentence_id": 5,
+            "matched_text": "Methylomicrobium album"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 30,
+            "end": 32,
+            "sentence_id": 5,
+            "matched_text": "39"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.555572509765625,
+          "t": 719.7561111450195,
+          "r": 558.1052856445312,
+          "b": 653.0561828613281,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Strain SAD2",
+    "HTMC",
+    "Methylomicrobium album",
+    "Methylocystis sp.",
+    "Stain 14B",
+    "Strain MC-AD3",
+    "M. trichosporium OB3b"
+  ]
+}

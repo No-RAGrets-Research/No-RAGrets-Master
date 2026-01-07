@@ -1,0 +1,2944 @@
+{
+  "summary": {
+    "total_chunks": 5,
+    "errors": 0,
+    "entities": 56,
+    "relations": 87,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 87,
+    "sections": {
+      "Figure 3 Analysis": {
+        "chunks": 1,
+        "entities": 18,
+        "relations": 17
+      },
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 15,
+        "relations": 15
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 8 Analysis": {
+        "chunks": 1,
+        "entities": 14,
+        "relations": 18
+      },
+      "Figure 9 Analysis": {
+        "chunks": 1,
+        "entities": 9,
+        "relations": 37
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Jovanovic et al. 2021 (part I)_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-15T01:00:14.884718"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 3 Analysis",
+      "entities": [
+        "Immobilezed Enzyme Reactors",
+        "Catalysis",
+        "Flow Sheet Optimization",
+        "Bioreactors with Cells",
+        "Electro-chemical Reactors",
+        "Thermo-Chemical Reactors",
+        "Separation Unit Operations",
+        "Entrapped Enzymes",
+        "Flow Chemistry",
+        "Two-phase Flow Reactors",
+        "Process Modularization",
+        "Green Chemistry",
+        "Encapsulated Enzymes",
+        "Process Intensification",
+        "Bio Catalysis",
+        "Origin of Characteristic Times",
+        "Covalently attached Enzymes",
+        "Photo-catalytic Reactors"
+      ],
+      "relations": [
+        {
+          "subject": "Process Intensification",
+          "predicate": "has origin",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Flow Sheet Optimization",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Green Chemistry",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Bio Catalysis",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Catalysis",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Flow Chemistry",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Bioreactors with Cells",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Process Modularization",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Photo-catalytic Reactors",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Thermo-Chemical Reactors",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Two-phase Flow Reactors",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Electro-chemical Reactors",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Separation Unit Operations",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Encapsulated Enzymes",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Immobilezed Enzyme Reactors",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Entrapped Enzymes",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        },
+        {
+          "subject": "Covalently attached Enzymes",
+          "predicate": "relates to",
+          "object": "Origin of Characteristic Times",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page3_fig1",
+            "page_number": 3,
+            "caption_evidence": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+            "bbox_coordinates": {
+              "l": 154.431,
+              "t": 44.6549887695312,
+              "r": 440.743,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                1244
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 154.431,
+                "t": 44.6549887695312,
+                "r": 440.743,
+                "b": 38.72098876953123,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "-r_A",
+        "u_x(y)",
+        "diffusion of reactant A",
+        "y = -H",
+        "u̅",
+        "catalyst layer",
+        "microchannel reactor",
+        "catalyst coated on walls",
+        "equation: -r_A",
+        "length L",
+        "height 2H",
+        "reactor walls",
+        "fluid element",
+        "solid catalyst deposited on reactor walls",
+        "y = H"
+      ],
+      "relations": [
+        {
+          "subject": "microchannel reactor",
+          "predicate": "has",
+          "object": "solid catalyst deposited on reactor walls",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "solid catalyst deposited on reactor walls",
+          "predicate": "is located on",
+          "object": "reactor walls",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "solid catalyst deposited on reactor walls",
+          "predicate": "is deposited on",
+          "object": "reactor walls",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "catalyst layer",
+          "predicate": "is part of",
+          "object": "solid catalyst deposited on reactor walls",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "diffusion of reactant A",
+          "predicate": "occurs from",
+          "object": "fluid element",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "diffusion of reactant A",
+          "predicate": "occurs to",
+          "object": "catalyst coated on walls",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "fluid element",
+          "predicate": "has velocity",
+          "object": "u_x(y)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "fluid element",
+          "predicate": "has velocity",
+          "object": "u̅",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "solid catalyst deposited on reactor walls",
+          "predicate": "has reaction rate",
+          "object": "-r_A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "catalyst layer",
+          "predicate": "is located at",
+          "object": "y = H",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "catalyst layer",
+          "predicate": "is located at",
+          "object": "y = -H",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "microchannel reactor",
+          "predicate": "has dimensions",
+          "object": "length L",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "microchannel reactor",
+          "predicate": "has dimensions",
+          "object": "height 2H",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "fluid element",
+          "predicate": "is contained within",
+          "object": "microchannel reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        },
+        {
+          "subject": "diffusion of reactant A",
+          "predicate": "is described by",
+          "object": "equation: -r_A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of heterogeneous catalytic microreactor system (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 379.93698876953124,
+              "r": 557.651,
+              "b": 365.4429887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1534,
+                1397
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              213
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 37.587,
+                "t": 379.93698876953124,
+                "r": 557.651,
+                "b": 365.4429887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 86.343,
+                "t": 725.7629887695313,
+                "r": 207.557,
+                "b": 711.2689887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 8 Analysis",
+      "entities": [
+        "activated molecule",
+        "reactant A",
+        "walls",
+        "adsorption and desorption step",
+        "active site complex",
+        "desorption of transformed molecule",
+        "transformed molecule",
+        "active site",
+        "very thin (considered as ,0\" thickness)",
+        "direct site active on adsorption",
+        "into transformed molecule",
+        "catalyst surface",
+        "surface step diffusion",
+        "molecular transformation"
+      ],
+      "relations": [
+        {
+          "subject": "catalyst surface",
+          "predicate": "has thickness",
+          "object": "very thin (considered as ,0\" thickness)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "catalyst surface",
+          "predicate": "is coated on",
+          "object": "walls",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "catalyst surface",
+          "predicate": "has",
+          "object": "active site",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "diffuses to",
+          "object": "catalyst surface",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "undergoes",
+          "object": "adsorption and desorption step",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "undergoes",
+          "object": "surface step diffusion",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "undergoes",
+          "object": "direct site active on adsorption",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "undergoes",
+          "object": "molecular transformation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "undergoes",
+          "object": "desorption of transformed molecule",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "forms",
+          "object": "activated molecule",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "forms",
+          "object": "active site complex",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "reactant A",
+          "predicate": "transforms",
+          "object": "into transformed molecule",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "transformed molecule",
+          "predicate": "is desorbed from",
+          "object": "catalyst surface",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "active site",
+          "predicate": "is consumed in",
+          "object": "surface step diffusion",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "active site",
+          "predicate": "is liberated after",
+          "object": "desorption of transformed molecule",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "active site",
+          "predicate": "forms",
+          "object": "activated molecule",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "activated molecule",
+          "predicate": "undergoes",
+          "object": "molecular transformation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        },
+        {
+          "subject": "transformed molecule",
+          "predicate": "is absorbed on",
+          "object": "catalyst surface",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page8_fig1",
+            "page_number": 8,
+            "caption_evidence": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+            "bbox_coordinates": {
+              "l": 176.258,
+              "t": 266.8339887695313,
+              "r": 418.937,
+              "b": 260.9009887695313,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1476,
+                1868
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 176.258,
+                "t": 266.8339887695313,
+                "r": 418.937,
+                "b": 260.9009887695313,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page8_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 9 Analysis",
+      "entities": [
+        "A",
+        "AS°",
+        "AS*",
+        "S°",
+        "S*",
+        "P°",
+        "PS*",
+        "PS°",
+        "P"
+      ],
+      "relations": [
+        {
+          "subject": "A",
+          "predicate": "reacts with",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "A",
+          "predicate": "reacts with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "A",
+          "predicate": "adsorbs on",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "A",
+          "predicate": "adsorbs on",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "A",
+          "predicate": "forms complex with",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "A",
+          "predicate": "forms complex with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS°",
+          "predicate": "desorbs as",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS°",
+          "predicate": "adsorbs on",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "desorbs as",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "forms complex with",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "forms complex with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "forms product with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS*",
+          "predicate": "desorbs as",
+          "object": "P",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS*",
+          "predicate": "adsorbs on",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS°",
+          "predicate": "desorbs as",
+          "object": "P",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P",
+          "predicate": "reacts with",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P",
+          "predicate": "reacts with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS°",
+          "predicate": "adsorbs on",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "adsorbs on",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "forms product with",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "forms product with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS°",
+          "predicate": "desorbs as",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "desorbs as",
+          "object": "A",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS*",
+          "predicate": "desorbs as",
+          "object": "P",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS°",
+          "predicate": "desorbs as",
+          "object": "P",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS°",
+          "predicate": "transfers to",
+          "object": "AS*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "transfers to",
+          "object": "PS*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "transforms into",
+          "object": "PS*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "AS*",
+          "predicate": "transforms into",
+          "object": "PS°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS*",
+          "predicate": "transforms into",
+          "object": "P°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P°",
+          "predicate": "transfers to",
+          "object": "P",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "PS°",
+          "predicate": "transforms into",
+          "object": "P",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P",
+          "predicate": "adsorbs on",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P",
+          "predicate": "adsorbs on",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P",
+          "predicate": "forms complex with",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P",
+          "predicate": "forms complex with",
+          "object": "S*",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        },
+        {
+          "subject": "P°",
+          "predicate": "adsorbs on",
+          "object": "S°",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+            "bbox_coordinates": {
+              "l": 40.309,
+              "t": 478.63898876953124,
+              "r": 554.893,
+              "b": 472.7049887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1429,
+                986
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              170
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 40.309,
+                "t": 478.63898876953124,
+                "r": 554.893,
+                "b": 472.7049887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

@@ -1,0 +1,4546 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 55,
+    "relations": 67,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Strong et al. 2016.json",
+    "processed_at": "2025-11-24T00:57:52.471205"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Sustainable methane",
+      "predicate": "is derived from",
+      "object": "organic waste",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Sustainable methane from organic waste . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 241,
+          "end": 433
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "Sustainable methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 40,
+            "sentence_id": 3,
+            "matched_text": "organic waste"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 37.85384750366211,
+          "t": 170.91851806640625,
+          "r": 552.489013671875,
+          "b": 114.3251953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotroph products",
+      "predicate": "include",
+      "object": "Single-cell protein",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 10,
+        "text_evidence": "| Methanotroph products . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Single-cell protein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 634,
+          "end": 1074
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 23,
+            "sentence_id": 7,
+            "matched_text": "Methanotroph products"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 231,
+            "end": 250,
+            "sentence_id": 10,
+            "matched_text": "Single-cell protein"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 37.85384750366211,
+          "t": 170.91851806640625,
+          "r": 552.489013671875,
+          "b": 114.3251953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "methanotrophic organisms",
+      "predicate": "metabolize",
+      "object": "Sustainable methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "| Sustainable methane from organic waste . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Phylogeny and metabolism of methanotrophic organisms. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 241,
+          "end": 624
+        },
+        "subject_positions": [
+          {
+            "start": 234,
+            "end": 258,
+            "sentence_id": 5,
+            "matched_text": "methanotrophic organisms"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "Sustainable methane"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 37.85384750366211,
+          "t": 170.91851806640625,
+          "r": 552.489013671875,
+          "b": 114.3251953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanotroph products",
+      "predicate": "include",
+      "object": "Biopolymers",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 12,
+        "text_evidence": "| Methanotroph products . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Biopolymers. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 634,
+          "end": 1298
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 23,
+            "sentence_id": 7,
+            "matched_text": "Methanotroph products"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 454,
+            "end": 465,
+            "sentence_id": 12,
+            "matched_text": "Biopolymers"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page1_table0",
+        "page_number": 1,
+        "bbox_coordinates": {
+          "l": 37.85384750366211,
+          "t": 170.91851806640625,
+          "r": 552.489013671875,
+          "b": 114.3251953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "pMMO",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 2.9.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "| pMMO as a potential catalyst. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 1292,
+          "end": 1491
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 6,
+            "sentence_id": 19,
+            "matched_text": "pMMO"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Scenarios for generating multiple products from a single methanotroph",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 4.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 24,
+        "sentence_end": 24,
+        "text_evidence": "| Scenarios for generating multiple products from a single methanotroph . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 1720,
+          "end": 1903
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 71,
+            "sentence_id": 24,
+            "matched_text": "Scenarios for generating multiple products from a single methanotroph"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lipids",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 2.4.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| Lipids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 234,
+          "end": 450
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 8,
+            "sentence_id": 4,
+            "matched_text": "Lipids"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 2.3.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 26,
+        "text_evidence": "| Ectoine . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Generating ectoine and other products using a halotolerant Methylomicrobium or Methylobacter species . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 5,
+          "end": 2065
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "Ectoine"
+          },
+          {
+            "start": 1923,
+            "end": 1930,
+            "sentence_id": 26,
+            "matched_text": "ectoine"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ectoine",
+      "predicate": "is mentioned as a product in",
+      "object": "Scenario 4.1.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 26,
+        "text_evidence": "| Ectoine . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Generating ectoine and other products using a halotolerant Methylomicrobium or Methylobacter species . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 5,
+          "end": 2065
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "Ectoine"
+          },
+          {
+            "start": 1923,
+            "end": 1930,
+            "sentence_id": 26,
+            "matched_text": "ectoine"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Novel compounds of pharmaceutical potential",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 2.7.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 13,
+        "sentence_end": 13,
+        "text_evidence": "| Novel compounds of pharmaceutical potential. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 910,
+          "end": 1096
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 45,
+            "sentence_id": 13,
+            "matched_text": "Novel compounds of pharmaceutical potential"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanobactin",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 2.6.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "| Methanobactin. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 688,
+          "end": 896
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 15,
+            "sentence_id": 10,
+            "matched_text": "Methanobactin"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gas fermentation and media design",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 3.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 22,
+        "sentence_end": 22,
+        "text_evidence": "| Gas fermentation and media design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 1503,
+          "end": 1710
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 35,
+            "sentence_id": 22,
+            "matched_text": "Gas fermentation and media design"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Products",
+      "predicate": "are mentioned in",
+      "object": "Table page2_table1, row 2.8.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 16,
+        "sentence_end": 32,
+        "text_evidence": "| Products, and potential products from genetically modified methanotrophs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Scenarios for generating multiple products from a single methanotroph . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Generating ectoine and other products using a halotolerant Methylomicrobium or Methylobacter species . . . . . . . . . . . . . . . . . . . . . . . . | Generating PHB and other products using Methylocystis or Methylosinus species. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | Generating protein G and other products using a genetically modified Methylococcus , Methylomicrobium or Methylothermus species . .",
+        "document_offsets": {
+          "start": 1110,
+          "end": 2392
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 10,
+            "sentence_id": 16,
+            "matched_text": "Products"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "sentence_id": 16,
+            "matched_text": "products"
+          },
+          {
+            "start": 646,
+            "end": 654,
+            "sentence_id": 24,
+            "matched_text": "products"
+          },
+          {
+            "start": 836,
+            "end": 844,
+            "sentence_id": 26,
+            "matched_text": "products"
+          },
+          {
+            "start": 996,
+            "end": 1004,
+            "sentence_id": 29,
+            "matched_text": "products"
+          },
+          {
+            "start": 1182,
+            "end": 1190,
+            "sentence_id": 32,
+            "matched_text": "products"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "PHB",
+      "predicate": "is mentioned as a product in",
+      "object": "Scenario 4.2.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 29,
+        "sentence_end": 29,
+        "text_evidence": "| Generating PHB and other products using Methylocystis or Methylosinus species. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 2079,
+          "end": 2245
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 16,
+            "sentence_id": 29,
+            "matched_text": "PHB"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Surface layers",
+      "predicate": "is mentioned in",
+      "object": "Table page2_table1, row 2.5.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| Surface layers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "document_offsets": {
+          "start": 464,
+          "end": 674
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 16,
+            "sentence_id": 7,
+            "matched_text": "Surface layers"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table1",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 47.218868255615234,
+          "t": 727.5910186767578,
+          "r": 563.661865234375,
+          "b": 584.1938934326172,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Waste water sludges",
+      "predicate": "may undergo",
+      "object": "/C15 Activated sludge with 170 /C176 C thermal pretreatment",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Chynoweth et al. (1992) De Baere (2000)\nWaste water sludges | /C15",
+        "document_offsets": {
+          "start": 322,
+          "end": 388
+        },
+        "subject_positions": [
+          {
+            "start": 40,
+            "end": 59,
+            "sentence_id": 6,
+            "matched_text": "Waste water sludges"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Food waste",
+      "predicate": "includes",
+      "object": "/C15 Reject bananas",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "Bougrier et al. (2006)\nFood waste | /C15",
+        "document_offsets": {
+          "start": 558,
+          "end": 598
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 33,
+            "sentence_id": 12,
+            "matched_text": "Food waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Municipal solid waste",
+      "predicate": "is also composed of",
+      "object": "/C15 Source separated organic waste",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Waste type | Waste | Methane yield (Nm 3 t /C0 1 VS) unless otherwise stated | Reference\nMunicipal solid waste | /C15",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "Municipal solid waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Green waste",
+      "predicate": "includes",
+      "object": "/C15 Grass (Floratam St. Augustine)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "Rajeshwari et al. (2001)\nGreen waste | /C15",
+        "document_offsets": {
+          "start": 673,
+          "end": 716
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 36,
+            "sentence_id": 15,
+            "matched_text": "Green waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Municipal solid waste",
+      "predicate": "is also composed of",
+      "object": "/C15 Sub-10 cm of organic fraction of MSW",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Waste type | Waste | Methane yield (Nm 3 t /C0 1 VS) unless otherwise stated | Reference\nMunicipal solid waste | /C15",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "Municipal solid waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Waste water sludges",
+      "predicate": "includes",
+      "object": "/C15 Primary sludge",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Chynoweth et al. (1992) De Baere (2000)\nWaste water sludges | /C15",
+        "document_offsets": {
+          "start": 322,
+          "end": 388
+        },
+        "subject_positions": [
+          {
+            "start": 40,
+            "end": 59,
+            "sentence_id": 6,
+            "matched_text": "Waste water sludges"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Waste water sludges",
+      "predicate": "includes",
+      "object": "/C15 Activated sludge",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Chynoweth et al. (1992) De Baere (2000)\nWaste water sludges | /C15",
+        "document_offsets": {
+          "start": 322,
+          "end": 388
+        },
+        "subject_positions": [
+          {
+            "start": 40,
+            "end": 59,
+            "sentence_id": 6,
+            "matched_text": "Waste water sludges"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Green waste",
+      "predicate": "includes",
+      "object": "/C15 Leaves (Laurel oak)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "Rajeshwari et al. (2001)\nGreen waste | /C15",
+        "document_offsets": {
+          "start": 673,
+          "end": 716
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 36,
+            "sentence_id": 15,
+            "matched_text": "Green waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Municipal solid waste",
+      "predicate": "is composed of",
+      "object": "/C15 Sub-8 cm fraction shredded MSW",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Waste type | Waste | Methane yield (Nm 3 t /C0 1 VS) unless otherwise stated | Reference\nMunicipal solid waste | /C15",
+        "document_offsets": {
+          "start": 0,
+          "end": 117
+        },
+        "subject_positions": [
+          {
+            "start": 89,
+            "end": 110,
+            "sentence_id": 0,
+            "matched_text": "Municipal solid waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Food waste",
+      "predicate": "includes",
+      "object": "/C15 Vegetable waste",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "Bougrier et al. (2006)\nFood waste | /C15",
+        "document_offsets": {
+          "start": 558,
+          "end": 598
+        },
+        "subject_positions": [
+          {
+            "start": 23,
+            "end": 33,
+            "sentence_id": 12,
+            "matched_text": "Food waste"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page2_table2",
+        "page_number": 2,
+        "bbox_coordinates": {
+          "l": 41.267879486083984,
+          "t": 153.7689208984375,
+          "r": 563.292236328125,
+          "b": 49.290283203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "consumes O 2 (tonnes year /C0 1)",
+      "object": "2267",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 28,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 4352 | 4352 | 2267 (6996)",
+        "document_offsets": {
+          "start": 112,
+          "end": 2206
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2083,
+            "end": 2087,
+            "sentence_id": 28,
+            "matched_text": "2267"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "has dilution",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 22,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | Protein G (1-stage) Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 0.2 | 0.2 | - | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery)",
+        "document_offsets": {
+          "start": 0,
+          "end": 1825
+        },
+        "subject_positions": [
+          {
+            "start": 145,
+            "end": 154,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 169,
+            "end": 178,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 50,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 66,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 82,
+            "end": 83,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 1,
+            "matched_text": "-"
+          },
+          {
+            "start": 1770,
+            "end": 1771,
+            "sentence_id": 22,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "has harvest dry mass",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 11,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 ) | 25 | 25 | 44 | 50 | 50 | 50\nDilution (h /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume)",
+        "document_offsets": {
+          "start": 112,
+          "end": 895
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 118,
+            "end": 120,
+            "sentence_id": 4,
+            "matched_text": "25"
+          },
+          {
+            "start": 128,
+            "end": 130,
+            "sentence_id": 4,
+            "matched_text": "25"
+          },
+          {
+            "start": 163,
+            "end": 165,
+            "sentence_id": 5,
+            "matched_text": "25"
+          },
+          {
+            "start": 168,
+            "end": 170,
+            "sentence_id": 5,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "takes time for full cycle",
+      "object": "4.0",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 )",
+        "document_offsets": {
+          "start": 112,
+          "end": 554
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 381,
+            "end": 384,
+            "sentence_id": 8,
+            "matched_text": "4.0"
+          },
+          {
+            "start": 387,
+            "end": 390,
+            "sentence_id": 8,
+            "matched_text": "4.0"
+          },
+          {
+            "start": 393,
+            "end": 396,
+            "sentence_id": 8,
+            "matched_text": "4.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "has dilution",
+      "object": "0.2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 0.2 | 0.2 | -",
+        "document_offsets": {
+          "start": 112,
+          "end": 338
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 213,
+            "end": 216,
+            "sentence_id": 6,
+            "matched_text": "0.2"
+          },
+          {
+            "start": 219,
+            "end": 222,
+            "sentence_id": 6,
+            "matched_text": "0.2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "generates biomass annually per litre",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 22,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | Protein G (1-stage) Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 0.2 | 0.2 | - | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery)",
+        "document_offsets": {
+          "start": 0,
+          "end": 1825
+        },
+        "subject_positions": [
+          {
+            "start": 145,
+            "end": 154,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 169,
+            "end": 178,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 50,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 66,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 82,
+            "end": 83,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 1,
+            "matched_text": "-"
+          },
+          {
+            "start": 1770,
+            "end": 1771,
+            "sentence_id": 22,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Protein G (63 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "has total reactor volume",
+      "object": "58.8",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 13,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery)",
+        "document_offsets": {
+          "start": 112,
+          "end": 1236
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 912,
+            "end": 916,
+            "sentence_id": 13,
+            "matched_text": "58.8"
+          },
+          {
+            "start": 927,
+            "end": 931,
+            "sentence_id": 13,
+            "matched_text": "58.8"
+          },
+          {
+            "start": 976,
+            "end": 980,
+            "sentence_id": 13,
+            "matched_text": "58.8"
+          },
+          {
+            "start": 983,
+            "end": 987,
+            "sentence_id": 13,
+            "matched_text": "58.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "takes time for full cycle",
+      "object": "4.0",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 )",
+        "document_offsets": {
+          "start": 112,
+          "end": 554
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 381,
+            "end": 384,
+            "sentence_id": 8,
+            "matched_text": "4.0"
+          },
+          {
+            "start": 387,
+            "end": 390,
+            "sentence_id": 8,
+            "matched_text": "4.0"
+          },
+          {
+            "start": 393,
+            "end": 396,
+            "sentence_id": 8,
+            "matched_text": "4.0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "has harvest dry mass",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 24,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 ) | 25 | 25 | 44 | 50 | 50 | 50\nDilution (h /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use)",
+        "document_offsets": {
+          "start": 112,
+          "end": 2006
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 115,
+            "sentence_id": 4,
+            "matched_text": "50"
+          },
+          {
+            "start": 123,
+            "end": 125,
+            "sentence_id": 4,
+            "matched_text": "50"
+          },
+          {
+            "start": 178,
+            "end": 180,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 183,
+            "end": 185,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 188,
+            "end": 190,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 1193,
+            "end": 1195,
+            "sentence_id": 15,
+            "matched_text": "50"
+          },
+          {
+            "start": 1215,
+            "end": 1217,
+            "sentence_id": 15,
+            "matched_text": "50"
+          },
+          {
+            "start": 1540,
+            "end": 1542,
+            "sentence_id": 20,
+            "matched_text": "50"
+          },
+          {
+            "start": 1700,
+            "end": 1702,
+            "sentence_id": 22,
+            "matched_text": "50"
+          },
+          {
+            "start": 1780,
+            "end": 1782,
+            "sentence_id": 23,
+            "matched_text": "50"
+          },
+          {
+            "start": 1821,
+            "end": 1823,
+            "sentence_id": 24,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "has cycles/harvests",
+      "object": "6",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 29,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 0.16 | 6 | 6 | 6 | 5.0 | 1 | 10\nBiomass generated daily per litre bioreactor (g day /C0 1 Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Protein G 63 tonnes (10% proteins at 90% recovery) | 560 tonnes (70% CDW at 90% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | 1700 | 1700 | 1033 (2733) | 2069 | 1111 (3180) | 4352 | 4352 | 2267 (6996) | 5296 | 2844 (8141) | 2659",
+        "document_offsets": {
+          "start": 112,
+          "end": 2234
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 445,
+            "end": 446,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 449,
+            "end": 450,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 453,
+            "end": 454,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 909,
+            "end": 910,
+            "sentence_id": 13,
+            "matched_text": "6"
+          },
+          {
+            "start": 1029,
+            "end": 1030,
+            "sentence_id": 13,
+            "matched_text": "6"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (2-stage)",
+      "predicate": "has doubling time",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 22,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | Protein G (1-stage) | 0.2 | 0.2 | - | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery)",
+        "document_offsets": {
+          "start": 0,
+          "end": 1825
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 50,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 66,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 82,
+            "end": 83,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 1,
+            "matched_text": "-"
+          },
+          {
+            "start": 1770,
+            "end": 1771,
+            "sentence_id": 22,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "generates biomass daily per litre bioreactor",
+      "object": "75",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 20,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery)",
+        "document_offsets": {
+          "start": 112,
+          "end": 1712
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 530,
+            "end": 532,
+            "sentence_id": 10,
+            "matched_text": "75"
+          },
+          {
+            "start": 535,
+            "end": 537,
+            "sentence_id": 10,
+            "matched_text": "75"
+          },
+          {
+            "start": 1565,
+            "end": 1567,
+            "sentence_id": 20,
+            "matched_text": "75"
+          },
+          {
+            "start": 1587,
+            "end": 1589,
+            "sentence_id": 20,
+            "matched_text": "75"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (90 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanobactin pMMO-containing biomass (5 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (1-stage)",
+      "predicate": "has doubling time",
+      "object": "3.47",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 8,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 554
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 377,
+            "end": 381,
+            "sentence_id": 8,
+            "matched_text": "3.47"
+          },
+          {
+            "start": 384,
+            "end": 388,
+            "sentence_id": 8,
+            "matched_text": "3.47"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "has drain and fill time",
+      "object": "0.5",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 )",
+        "document_offsets": {
+          "start": 112,
+          "end": 554
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 325,
+            "end": 328,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 331,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 341,
+            "end": 344,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 351,
+            "end": 354,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "consumes O 2 (tonnes year /C0 1)",
+      "object": "4352",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 28,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 4352 | 4352 | 2267 (6996)",
+        "document_offsets": {
+          "start": 112,
+          "end": 2206
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2069,
+            "end": 2073,
+            "sentence_id": 28,
+            "matched_text": "4352"
+          },
+          {
+            "start": 2076,
+            "end": 2080,
+            "sentence_id": 28,
+            "matched_text": "4352"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "has initial dry mass",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 24,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 ) | 25 | 25 | 44 | 50 | 50 | 50\nDilution (h /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use)",
+        "document_offsets": {
+          "start": 112,
+          "end": 2006
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 115,
+            "sentence_id": 4,
+            "matched_text": "50"
+          },
+          {
+            "start": 123,
+            "end": 125,
+            "sentence_id": 4,
+            "matched_text": "50"
+          },
+          {
+            "start": 178,
+            "end": 180,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 183,
+            "end": 185,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 188,
+            "end": 190,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 1193,
+            "end": 1195,
+            "sentence_id": 15,
+            "matched_text": "50"
+          },
+          {
+            "start": 1215,
+            "end": 1217,
+            "sentence_id": 15,
+            "matched_text": "50"
+          },
+          {
+            "start": 1540,
+            "end": 1542,
+            "sentence_id": 20,
+            "matched_text": "50"
+          },
+          {
+            "start": 1700,
+            "end": 1702,
+            "sentence_id": 22,
+            "matched_text": "50"
+          },
+          {
+            "start": 1780,
+            "end": 1782,
+            "sentence_id": 23,
+            "matched_text": "50"
+          },
+          {
+            "start": 1821,
+            "end": 1823,
+            "sentence_id": 24,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "consumes CH 4 (tonnes year /C0 1)",
+      "object": "1700",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 26,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 1700 | 1700 | 1033 (2733) | 2069 | 1111 (3180)",
+        "document_offsets": {
+          "start": 112,
+          "end": 2146
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1988,
+            "end": 1992,
+            "sentence_id": 26,
+            "matched_text": "1700"
+          },
+          {
+            "start": 1995,
+            "end": 1999,
+            "sentence_id": 26,
+            "matched_text": "1700"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "has cycles/harvests",
+      "object": "6",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 29,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 0.16 | 6 | 6 | 6 | 5.0 | 1 | 10\nBiomass generated daily per litre bioreactor (g day /C0 1 Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Protein G 63 tonnes (10% proteins at 90% recovery) | 560 tonnes (70% CDW at 90% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | 1700 | 1700 | 1033 (2733) | 2069 | 1111 (3180) | 4352 | 4352 | 2267 (6996) | 5296 | 2844 (8141) | 2659",
+        "document_offsets": {
+          "start": 112,
+          "end": 2234
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 445,
+            "end": 446,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 449,
+            "end": 450,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 453,
+            "end": 454,
+            "sentence_id": 9,
+            "matched_text": "6"
+          },
+          {
+            "start": 909,
+            "end": 910,
+            "sentence_id": 13,
+            "matched_text": "6"
+          },
+          {
+            "start": 1029,
+            "end": 1030,
+            "sentence_id": 13,
+            "matched_text": "6"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (2-stage)",
+      "predicate": "has g CH 4 per gram biomass",
+      "object": "1.03",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 2097
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2046,
+            "end": 2050,
+            "sentence_id": 25,
+            "matched_text": "1.03"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (1-stage)",
+      "predicate": "has initial dry mass",
+      "object": "12.5",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 272
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 211,
+            "end": 215,
+            "sentence_id": 4,
+            "matched_text": "12.5"
+          },
+          {
+            "start": 218,
+            "end": 222,
+            "sentence_id": 4,
+            "matched_text": "12.5"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "PHB (400 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "operates for operational days per year",
+      "object": "340",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 11,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume)",
+        "document_offsets": {
+          "start": 112,
+          "end": 895
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 586,
+            "end": 589,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 592,
+            "end": 595,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 598,
+            "end": 601,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 604,
+            "end": 607,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 610,
+            "end": 613,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 616,
+            "end": 619,
+            "sentence_id": 11,
+            "matched_text": "340"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Single cell protein Surface layers (400 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "has drain and fill time",
+      "object": "0.5",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 8,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 )",
+        "document_offsets": {
+          "start": 112,
+          "end": 554
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 325,
+            "end": 328,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 331,
+            "end": 334,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 341,
+            "end": 344,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          },
+          {
+            "start": 351,
+            "end": 354,
+            "sentence_id": 8,
+            "matched_text": "0.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "has total reactor volume",
+      "object": "35.3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 13,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery)",
+        "document_offsets": {
+          "start": 112,
+          "end": 1236
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1004,
+            "end": 1008,
+            "sentence_id": 13,
+            "matched_text": "35.3"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (2-stage)",
+      "predicate": "has harvest dry mass",
+      "object": "44",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 29,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | 25 | 25 | 44 | 50 | 50 | 50\nDilution (h /C0 1 ) | 5296 | 2844 (8141) | 2659",
+        "document_offsets": {
+          "start": 0,
+          "end": 2234
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 285,
+            "end": 287,
+            "sentence_id": 5,
+            "matched_text": "44"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "consumes CH 4 (tonnes year /C0 1)",
+      "object": "1033",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 26,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 1700 | 1700 | 1033 (2733) | 2069 | 1111 (3180)",
+        "document_offsets": {
+          "start": 112,
+          "end": 2146
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 2002,
+            "end": 2006,
+            "sentence_id": 26,
+            "matched_text": "1033"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "operates for operational days per year",
+      "object": "340",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 11,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume)",
+        "document_offsets": {
+          "start": 112,
+          "end": 895
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 586,
+            "end": 589,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 592,
+            "end": 595,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 598,
+            "end": 601,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 604,
+            "end": 607,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 610,
+            "end": 613,
+            "sentence_id": 10,
+            "matched_text": "340"
+          },
+          {
+            "start": 616,
+            "end": 619,
+            "sentence_id": 11,
+            "matched_text": "340"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Lipids (80 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (1-stage)",
+      "predicate": "has g CH 4 per gram biomass",
+      "object": "1.70",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 25,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 0,
+          "end": 2097
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2032,
+            "end": 2036,
+            "sentence_id": 25,
+            "matched_text": "1.70"
+          },
+          {
+            "start": 2039,
+            "end": 2043,
+            "sentence_id": 25,
+            "matched_text": "1.70"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "has initial dry mass",
+      "object": "12.5",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 )",
+        "document_offsets": {
+          "start": 112,
+          "end": 272
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 99,
+            "end": 103,
+            "sentence_id": 4,
+            "matched_text": "12.5"
+          },
+          {
+            "start": 106,
+            "end": 110,
+            "sentence_id": 4,
+            "matched_text": "12.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Bacteriocin (5 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (102 tonnes)",
+      "predicate": "is primary product",
+      "object": "tonnes",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 11,
+        "sentence_end": 27,
+        "text_evidence": "340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) | Reactor volume for 1000 tonnes year /C0 1 (total reactor volume) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery) | Ectoine 90 tonnes (12% | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | Protein G 63 tonnes (10% proteins at 90% recovery) Lipids | 80 tonnes (10% CDW at 80% recovery) | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) | 560 tonnes (70% CDW at 90% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use) g CH 4 per gram biomass | 1.70 | 1.70 | 1.03 | 2.07 | 1.11 | 1.04\nCH 4 (tonnes year /C0 1 ) | 1039\nO 2 (tonnes year /C0 1 )",
+        "document_offsets": {
+          "start": 728,
+          "end": 2178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 127,
+            "end": 133,
+            "sentence_id": 11,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 194,
+            "end": 200,
+            "sentence_id": 12,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 438,
+            "end": 444,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 476,
+            "end": 482,
+            "sentence_id": 13,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 522,
+            "end": 528,
+            "sentence_id": 14,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 547,
+            "end": 553,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 569,
+            "end": 575,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 591,
+            "end": 597,
+            "sentence_id": 15,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 618,
+            "end": 624,
+            "sentence_id": 16,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 668,
+            "end": 674,
+            "sentence_id": 17,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 773,
+            "end": 779,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 818,
+            "end": 824,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 842,
+            "end": 848,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 916,
+            "end": 922,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 952,
+            "end": 958,
+            "sentence_id": 20,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 991,
+            "end": 997,
+            "sentence_id": 21,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1066,
+            "end": 1072,
+            "sentence_id": 22,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1104,
+            "end": 1110,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1126,
+            "end": 1132,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1146,
+            "end": 1152,
+            "sentence_id": 23,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1225,
+            "end": 1231,
+            "sentence_id": 24,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1350,
+            "end": 1356,
+            "sentence_id": 25,
+            "matched_text": "tonnes"
+          },
+          {
+            "start": 1431,
+            "end": 1437,
+            "sentence_id": 27,
+            "matched_text": "tonnes"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "requires daily hydraulic volume",
+      "object": "39.2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 13,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery)",
+        "document_offsets": {
+          "start": 112,
+          "end": 1236
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 892,
+            "end": 896,
+            "sentence_id": 13,
+            "matched_text": "39.2"
+          },
+          {
+            "start": 899,
+            "end": 903,
+            "sentence_id": 13,
+            "matched_text": "39.2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (1-stage)",
+      "predicate": "has harvest dry mass",
+      "object": "25",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 ) | 25 | 25 | 44 | 50 | 50 | 50\nDilution (h /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume)",
+        "document_offsets": {
+          "start": 0,
+          "end": 895
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 230,
+            "end": 232,
+            "sentence_id": 4,
+            "matched_text": "25"
+          },
+          {
+            "start": 240,
+            "end": 242,
+            "sentence_id": 4,
+            "matched_text": "25"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "sentence_id": 5,
+            "matched_text": "25"
+          },
+          {
+            "start": 280,
+            "end": 282,
+            "sentence_id": 5,
+            "matched_text": "25"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ectoine (2-stage)",
+      "predicate": "has initial dry mass",
+      "object": "50",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 24,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | 12.5 | 12.5 | 50 | 25 | 50 | 25\nHarvest dry mass (g l /C0 1 ) | 25 | 25 | 44 | 50 | 50 | 50\nDilution (h /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | Ectoine 90 tonnes (12% | PHB 400 tonnes (50% | PHB 400 tonnes (50% | CDW at 80% recovery) 80 tonnes (10% CDW at | CDW at 80% recovery) 80 tonnes (10% CDW at | 80 tonnes (10% CDW at 80% recovery)\nSingle cell protein Surface layers | 400 tonnes (50% CDW at 90% recovery) 75 tonnes (10% CDW at 75% recovery) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery) | 817 tonnes (86% CDW | 817 tonnes (86% CDW | 5 tonnes (1% CDW at 50% recovery)\nrecovery | remainder) | at 50%\nBacteriocin | 5 tonnes (1% | (100%\nGas consumption * (total gas use)",
+        "document_offsets": {
+          "start": 0,
+          "end": 2006
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 225,
+            "end": 227,
+            "sentence_id": 4,
+            "matched_text": "50"
+          },
+          {
+            "start": 235,
+            "end": 237,
+            "sentence_id": 4,
+            "matched_text": "50"
+          },
+          {
+            "start": 290,
+            "end": 292,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 295,
+            "end": 297,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 300,
+            "end": 302,
+            "sentence_id": 5,
+            "matched_text": "50"
+          },
+          {
+            "start": 1305,
+            "end": 1307,
+            "sentence_id": 15,
+            "matched_text": "50"
+          },
+          {
+            "start": 1327,
+            "end": 1329,
+            "sentence_id": 15,
+            "matched_text": "50"
+          },
+          {
+            "start": 1652,
+            "end": 1654,
+            "sentence_id": 20,
+            "matched_text": "50"
+          },
+          {
+            "start": 1812,
+            "end": 1814,
+            "sentence_id": 22,
+            "matched_text": "50"
+          },
+          {
+            "start": 1892,
+            "end": 1894,
+            "sentence_id": 23,
+            "matched_text": "50"
+          },
+          {
+            "start": 1933,
+            "end": 1935,
+            "sentence_id": 24,
+            "matched_text": "50"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "requires daily hydraulic volume",
+      "object": "23.5",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 13,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) Daily required hydraulic volume (m 3 ) | 39.2 | 39.2 | 19.6 (58.8) | 23.5 | 58.8 (82.4) | 11.8\nTotal reactor volume (m 3 ) | 58.8 | 58.8 | 29.4 (88.2) | 35.3 | 88.2 (123.5) | 17.6\nAnnual yield (per 1000 tonnes)\nPrimary product | Ectoine 102 tonnes (12% CDW at 85% recovery)",
+        "document_offsets": {
+          "start": 112,
+          "end": 1236
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 42,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 920,
+            "end": 924,
+            "sentence_id": 13,
+            "matched_text": "23.5"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 2",
+      "predicate": "generates biomass daily per litre bioreactor",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 22,
+        "text_evidence": "Ectoine (1-stage) | Ectoine (2-stage) | Ectoine (2-stage) | PHB (2-stage) | PHB (2-stage) | Protein G (1-stage) Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) | 0.2 | 0.2 | - | - | 0.37\nDoubling time (h) | 3.47 | 3.47 | - | 4.33 | - | 1.87\nDrain and fill time (h) | 0.5 | 0.5 | - | 0.5 | - | 0.5\nTime for full cycle (h) | 4.0 | 4.0 | 4.0 | 4.8 | 24 | 2.4\nCycles/harvests (day /C0 1 ) | 75 | 75 | - | 125 | - | 250\nOperational days per year | 340 | 340 | 340 | 340 | 340 | 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume) Methanobactin pMMO-containing biomass | 5 tonnes (1% CDW at 50% recovery)",
+        "document_offsets": {
+          "start": 0,
+          "end": 1825
+        },
+        "subject_positions": [
+          {
+            "start": 145,
+            "end": 154,
+            "sentence_id": 2,
+            "matched_text": "Reactor 2"
+          },
+          {
+            "start": 169,
+            "end": 178,
+            "sentence_id": 3,
+            "matched_text": "Reactor 2"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 11,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 50,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 66,
+            "end": 67,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 82,
+            "end": 83,
+            "sentence_id": 0,
+            "matched_text": "-"
+          },
+          {
+            "start": 104,
+            "end": 105,
+            "sentence_id": 1,
+            "matched_text": "-"
+          },
+          {
+            "start": 1770,
+            "end": 1771,
+            "sentence_id": 22,
+            "matched_text": "-"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reactor 1",
+      "predicate": "generates biomass annually per litre",
+      "object": "0.0255",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 11,
+        "text_evidence": "Culture parameters | Reactor 1 | Reactor 2 | Reactor 1 | Reactor 2\nInitial dry mass (g l /C0 1 ) 340\nBiomass generated annually per litre (tonnes year /C0 1 | 0.0255 | 0.0255 | - | 0.0425 | - | 0.085\nReactor volume for 1000 tonnes year /C0 1 (total reactor volume)",
+        "document_offsets": {
+          "start": 112,
+          "end": 895
+        },
+        "subject_positions": [
+          {
+            "start": 21,
+            "end": 30,
+            "sentence_id": 2,
+            "matched_text": "Reactor 1"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "Reactor 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 678,
+            "end": 684,
+            "sentence_id": 11,
+            "matched_text": "0.0255"
+          },
+          {
+            "start": 687,
+            "end": 693,
+            "sentence_id": 11,
+            "matched_text": "0.0255"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table3",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 39.838958740234375,
+          "t": 473.84300231933594,
+          "r": 726.2915649414062,
+          "b": 169.86898803710938,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "PHB",
+    "/C15 Reject bananas",
+    "Single-cell protein",
+    "Green waste",
+    "Harvest dry mass",
+    "organic waste",
+    "Methanobactin pMMO-containing biomass",
+    "Waste water sludges",
+    "/C15 Activated sludge",
+    "Food waste",
+    "Biomass generated annually per litre",
+    "Time for full cycle",
+    "Doubling time",
+    "Biopolymers",
+    "O 2 (tonnes year /C0 1)",
+    "CH 4 (tonnes year /C0 1)",
+    "/C15 Sub-10 cm of organic fraction of MSW",
+    "Total reactor volume",
+    "Biomass generated daily per litre bioreactor",
+    "methanotrophic organisms",
+    "ectoine",
+    "Scenarios for generating multiple products from a single methanotroph",
+    "/C15 Activated sludge with 170 /C176 C thermal pretreatment",
+    "/C15 Sub-8 cm fraction shredded MSW",
+    "g CH 4 per gram biomass",
+    "Primary product",
+    "Ectoine",
+    "Initial dry mass",
+    "Cycles/harvests",
+    "/C15 Grass (Floratam St. Augustine)",
+    "/C15 Primary sludge",
+    "Gas fermentation and media design",
+    "Sustainable methane",
+    "Bacteriocin",
+    "Lipids",
+    "Reactor 1",
+    "Single cell protein Surface layers",
+    "Surface layers",
+    "/C15 Leaves (Laurel oak)",
+    "Products",
+    "Dilution",
+    "Operational days per year",
+    "/C15 Vegetable waste",
+    "/C15 Source separated organic waste",
+    "Methanobactin",
+    "Drain and fill time",
+    "Daily required hydraulic volume",
+    "Reactor volume for 1000 tonnes year",
+    "Reactor 2",
+    "Novel compounds of pharmaceutical potential",
+    "pMMO",
+    "Culture parameters",
+    "Methanotroph products",
+    "Municipal solid waste",
+    "Protein G"
+  ]
+}

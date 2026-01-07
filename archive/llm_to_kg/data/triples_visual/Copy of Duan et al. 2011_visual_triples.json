@@ -1,0 +1,11 @@
+[
+  {
+    "page": 2,
+    "caption": "Fig. 1. Schematic representation of membrane aerated bioreactor for methane\ntransformation into methanol.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 1. Schematic representation of membrane aerated bioreactor for methane\ntransformation into methanol.\n\nOutput JSON list only:\nassistant\n[\n  (\"Methane\", \"is supplied to\", \"Membrane module\"),\n  (\"Oxygen\", \"is supplied to\", \"Membrane module\"),\n  (\"Membrane module\", \"is immersed in\", \"Water bath\"),\n  (\"Membrane module\", \"is stirred by\", \"Magnetic stirrer\"),\n  (\"Methane\", \"is transported via\", \"Sampling\"),\n  (\"Oxygen\", \"is transported via\", \"Sampling\"),\n  (\"Water bath\", \"is contained within\", \"Magnetic stirrer\"),\n  (\"Magnetic stirrer\", \"is located below\", \"Membrane module\")\n]"
+      }
+    ]
+  }
+]

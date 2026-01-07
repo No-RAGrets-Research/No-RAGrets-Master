@@ -1,0 +1,142 @@
+[
+  {
+    "page": 2,
+    "caption": "Fig. 1. Metabolic pathway used by methanotrophic bacteria for methane oxidation.",
+    "triples": [
+      {
+        "subject": "Methane Mono-Oxygenase (MMO)",
+        "relation": "catalyzes",
+        "object": "oxidation of methane (CH₄) to methanol (CH₃OH)"
+      },
+      {
+        "subject": "Methanol DeHydrogenase (MDH)",
+        "relation": "catalyzes",
+        "object": "oxidation of methanol (CH₃OH) to formaldehyde (CH₂O)"
+      },
+      {
+        "subject": "Formaldehyde DeHydrogenase (FADH)",
+        "relation": "catalyzes",
+        "object": "oxidation of formaldehyde (CH₂O) to formate (CHOO⁻)"
+      },
+      {
+        "subject": "Formate DeHydrogenase (FDH)",
+        "relation": "catalyzes",
+        "object": "oxidation of formate (CHOO⁻) to CO₂"
+      },
+      {
+        "subject": "Methane Mono-Oxygenase (MMO)",
+        "relation": "requires",
+        "object": "oxygen (O₂)"
+      },
+      {
+        "subject": "Methanol DeHydrogenase (MDH)",
+        "relation": "requires",
+        "object": "NAD⁺"
+      },
+      {
+        "subject": "Formaldehyde DeHydrogenase (FADH)",
+        "relation": "produces",
+        "object": "NADH + H⁺"
+      },
+      {
+        "subject": "Formate DeHydrogenase (FDH)",
+        "relation": "requires",
+        "object": "NAD⁺"
+      },
+      {
+        "subject": "Methane Mono-Oxygenase (MMO)",
+        "relation": "produces",
+        "object": "formaldehyde (CH₂O)"
+      },
+      {
+        "subject": "Formaldehyde DeHydrogenase (FADH)",
+        "relation": "produces",
+        "object": "formate (CHOO⁻)"
+      },
+      {
+        "subject": "Formate DeHydrogenase (FDH)",
+        "relation": "produces",
+        "object": "CO₂"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "caption": "Fig. 2. Descriptive scheme of the MBR developed.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 2. Descriptive scheme of the MBR developed.\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"Stirred tank\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Agitator\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Peristaltic pump\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Pressure sensor\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Sample withdrawing system\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"O₂ probe\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Hydrophobic filters\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Valve setting atmosphere\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Gas/Liquid membrane contactors\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Low pressure gauge\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Needle valves\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Outlets for the measure of gas flow rate\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Condensers\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Collect of water and methanol traces\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Events\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Drain\", \"relation\": \"is part of\", \"object\": \"MBR\"}, {\"subject\": \"Stirred tank\", \"relation\": \"has\", \"object\": \"Agitator\"}, {\"subject\": \"Stirred tank\", \"relation\": \"has\", \"object\": \"Peristaltic pump\"}, {\"subject\": \"Stirred tank\", \"relation\": \"has\", \"object\": \"Pressure sensor\"}, {\"subject\": \"Stirred tank\", \"relation\": \"has\", \"object\": \"Sample withdrawing system\"}, {\"subject\": \"Stirred tank\", \"relation\": \"has\", \"object\": \"O₂ probe\"}, {\"subject\": \"Stirred tank\", \"relation\":"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Fig. 3. (a) Methanol production kinetics in a batch reactor for different biocatalyst concentrations (11 and 70 u ml\u00031) and different volume ratios Vgas/Vliq (9 and 0.6); (b)\nzoom on the methanol production kinetics; (c) associated productivities calculated on the basis of the methanol concentration obtained at 3 h and maximum methanol\nconcentrations accumulated in the batch reactors. Productivities are given in mg MeOH Mu\u00031 h\u00031 where u is the catalytic unit deﬁned in this work and 1 Mu = 106 u;\nmaximum methanol concentrations are given in mg L\u00031.",
+    "triples": [
+      {
+        "subject": "biocatalyst concentration 11 ± 1 u.ml⁻¹",
+        "relation": "with volume ratio Vgas/Vliq = 9",
+        "object": "produces methanol productivity of 950 ± 80 mg MeOH.Mu⁻¹.h⁻¹ and maximum methanol concentration of 88 ± 6 mg.L⁻¹"
+      },
+      {
+        "subject": "biocatalyst concentration 11 ± 1 u.ml⁻¹",
+        "relation": "with volume ratio Vgas/Vliq = 0.6",
+        "object": "produces methanol productivity of 700 ± 270 mg MeOH.Mu⁻¹.h⁻¹ and maximum methanol concentration of 49 ± 8 mg.L⁻¹"
+      },
+      {
+        "subject": "biocatalyst concentration 70 ± 5 u.ml⁻¹",
+        "relation": "with volume ratio Vgas/Vliq = 9",
+        "object": "produces methanol productivity of 1400 ± 170 mg MeOH.Mu⁻¹.h⁻¹ and maximum methanol concentration of 290 ± 23 mg.L⁻¹"
+      },
+      {
+        "subject": "biocatalyst concentration 70 ± 5 u.ml⁻¹",
+        "relation": "with volume ratio Vgas/Vliq = 0.6",
+        "object": "produces methanol productivity of 120 ± 30 mg MeOH.Mu⁻¹.h⁻¹ and maximum methanol concentration of 35 ± 4 mg.L⁻¹"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Fig. 4. Methanol production kinetics within the MBR (biocatalyst concentration: 11 ± 1 u ml\u00031 and Vgas/Vliq = 0.6).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 4. Methanol production kinetics within the MBR (biocatalyst concentration: 11 ± 1 u ml\u00031 and Vgas/Vliq = 0.6).\n\nOutput JSON list only:\nassistant\n[(\"MBR1\", \"produces\", \"methanol\"), (\"MBR2\", \"produces\", \"methanol\"), (\"MBR3\", \"produces\", \"methanol\"), (\"MBR4\", \"produces\", \"methanol\"), (\"MBR5\", \"produces\", \"methanol\"), (\"MBR6\", \"produces\", \"methanol\"), (\"MBR7\", \"produces\", \"methanol\"), (\"MBR8\", \"produces\", \"methanol\")]"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Fig. 5. (a) Methanol production kinetics within the new MBR for different biocatalyst concentrations: 11 ± 1, 60 ± 4, 70 ± 5 and 150 ± 11 u ml\u00031 over the maximum\nproduction period and (b) associated productivities measured at 3 h.",
+    "triples": [
+      {
+        "subject": "MBR 11u/ml",
+        "relation": "produces",
+        "object": "1500 ± 400 mg MeOH.Mu⁻¹.h⁻¹"
+      },
+      {
+        "subject": "MBR 60u/ml",
+        "relation": "produces",
+        "object": "300 ± 80 mg MeOH.Mu⁻¹.h⁻¹"
+      },
+      {
+        "subject": "MBR 70u/ml",
+        "relation": "produces",
+        "object": "310 ± 80 mg MeOH.Mu⁻¹.h⁻¹"
+      },
+      {
+        "subject": "MBR 150u/ml",
+        "relation": "produces",
+        "object": "120 ± 30 mg MeOH.Mu⁻¹.h⁻¹"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "caption": "Fig. 6. Evolution of methanol concentration ([MeOH]) and dissolved oxygen concentration ([Dissolved O2]) versus time in the MBR for a biocatalyst concentration of\n70 ± 5 u ml\u00031.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 6. Evolution of methanol concentration ([MeOH]) and dissolved oxygen concentration ([Dissolved O2]) versus time in the MBR for a biocatalyst concentration of\n70 ± 5 u ml\u00031.\n\nOutput JSON list only:\nassistant\n[{\"subject\": \"[MeOH]\", \"relation\": \"evolves over time as\", \"object\": \"Time (h)\"}, {\"subject\": \"[Dissolved O2]\", \"relation\": \"evolves over time as\", \"object\": \"Time (h)\"}, {\"subject\": \"[MeOH]\", \"relation\": \"measured in\", \"object\": \"mg/L (70 u/ml)\"}, {\"subject\": \"[Dissolved O2]\", \"relation\": \"measured in\", \"object\": \"mg/L (70 u/ml)\"}, {\"subject\": \"MBR\", \"relation\": \"has biocatalyst concentration of\", \"object\": \"70 ± 5 u ml⁻¹\"}]"
+      }
+    ]
+  }
+]

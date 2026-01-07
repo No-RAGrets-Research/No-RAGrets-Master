@@ -1,0 +1,1428 @@
+{
+  "summary": {
+    "total_chunks": 5,
+    "errors": 2,
+    "entities": 38,
+    "relations": 39,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 39,
+    "sections": {
+      "Figure 3 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 4 Analysis": {
+        "chunks": 2,
+        "entities": 34,
+        "relations": 31
+      },
+      "Figure 5 Analysis": {
+        "chunks": 2,
+        "entities": 6,
+        "relations": 8
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Yu et al. 2009_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 0.6,
+    "processed_at": "2025-11-15T00:33:32.867376"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 3 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 301.909,
+                "t": 97.98301220703115,
+                "r": 552.968,
+                "b": 48.87201220703116,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page3_fig1",
+      "success": false,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "dilution",
+        "removal of allylthiourea",
+        "g l⁻¹",
+        "allylthiourea",
+        "[HCHO]",
+        "μmol naphthol produced g biomass⁻¹ h⁻¹",
+        "μM",
+        "[CH3OH]",
+        "Methylosinus trichosporium OB3b",
+        "309 h",
+        "allylthiourea concentration",
+        "biomass",
+        "specific sMMO activity",
+        "chemostat"
+      ],
+      "relations": [
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "cultured in",
+          "object": "chemostat",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "exposed to",
+          "object": "allylthiourea",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "exhibited",
+          "object": "specific sMMO activity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "exhibited",
+          "object": "biomass",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "exhibited",
+          "object": "[CH3OH]",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "exhibited",
+          "object": "[HCHO]",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "allylthiourea",
+          "predicate": "removed from medium at",
+          "object": "309 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "specific sMMO activity",
+          "predicate": "decreased slightly after",
+          "object": "removal of allylthiourea",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "allylthiourea concentration",
+          "predicate": "decreased due to",
+          "object": "dilution",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "specific sMMO activity",
+          "predicate": "measured in",
+          "object": "μmol naphthol produced g biomass⁻¹ h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "biomass",
+          "predicate": "measured in",
+          "object": "g l⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "[CH3OH]",
+          "predicate": "measured in",
+          "object": "μM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        },
+        {
+          "subject": "[HCHO]",
+          "predicate": "measured in",
+          "object": "μM",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. Chemostat culture of Methylosinus trichosporium OB3bwithoutallylthiourea. The culture depicted in Fig. 1 was continued, but at 309 h, allylthiourea was omitted fromthemedium.ThisresultedinonlyasmalldecreaseinsMMOactivity.Thedotted line shows the expected concentration of allylthiourea remaining in reactor due to dilution.",
+            "bbox_coordinates": {
+              "l": 42.731,
+              "t": 414.3080122070312,
+              "r": 293.791,
+              "b": 373.7630122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                674,
+                837
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              331
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 42.731,
+                "t": 414.3080122070312,
+                "r": 293.791,
+                "b": 373.7630122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "exponential feeding strategy",
+        "liquid samples",
+        "fermentation at 155.3 h",
+        "CaCl2 · 2H2O",
+        "SYN of 0.06 h⁻¹",
+        "Biopharmaceutical entity",
+        "methanol",
+        "CH₃OH fed (g)",
+        "[CH₃OH] actual (g l⁻¹)",
+        "fermentation at 131.8 h",
+        "fed-batch fermentation",
+        "Hₚᵣ (h⁻¹)",
+        "headspace samples",
+        "FeSO4 · 7H2O",
+        "methanol concentration",
+        "trace element stock solutions",
+        "biomass (g l⁻¹)",
+        "time (h)",
+        "Methylosinus trichosporium OB3b",
+        "[CH₃OH] estimated (g l⁻¹)"
+      ],
+      "relations": [
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "undergoes",
+          "object": "fed-batch fermentation",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "utilizes",
+          "object": "methanol",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "exhibits",
+          "object": "exponential feeding strategy",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Methylosinus trichosporium OB3b",
+          "predicate": "achieves",
+          "object": "SYN of 0.06 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "CaCl2 · 2H2O",
+          "predicate": "added to",
+          "object": "fermentation at 131.8 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "FeSO4 · 7H2O",
+          "predicate": "added to",
+          "object": "fermentation at 131.8 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "trace element stock solutions",
+          "predicate": "added to",
+          "object": "fermentation at 131.8 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "CaCl2 · 2H2O",
+          "predicate": "added to",
+          "object": "fermentation at 155.3 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "FeSO4 · 7H2O",
+          "predicate": "added to",
+          "object": "fermentation at 155.3 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "trace element stock solutions",
+          "predicate": "added to",
+          "object": "fermentation at 155.3 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "methanol concentration",
+          "predicate": "measured in",
+          "object": "liquid samples",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "methanol concentration",
+          "predicate": "estimated from",
+          "object": "headspace samples",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Biopharmaceutical entity",
+          "predicate": "has",
+          "object": "biomass (g l⁻¹)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Biopharmaceutical entity",
+          "predicate": "has",
+          "object": "Hₚᵣ (h⁻¹)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Biopharmaceutical entity",
+          "predicate": "has",
+          "object": "[CH₃OH] estimated (g l⁻¹)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Biopharmaceutical entity",
+          "predicate": "has",
+          "object": "[CH₃OH] actual (g l⁻¹)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Biopharmaceutical entity",
+          "predicate": "has",
+          "object": "CH₃OH fed (g)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        },
+        {
+          "subject": "Biopharmaceutical entity",
+          "predicate": "has",
+          "object": "time (h)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig2",
+            "page_number": 4,
+            "caption_evidence": "Fig. 3. Fed-batch fermentation of Methylosinus trichosporium OB3b on methanol using an exponential feeding strategy. Methanol feeding was designed to obtain a /SYN of 0.06 h -1 . Methanol concentration in the aqueous phase was measured in liquid samples ( /Delta1 , actual) or estimated from headspace samples ( /squaresolid , estimated). At 131.8 h (first arrow), 1 ml each of the CaCl2 · 2H2O, FeSO4 · 7H2O, and trace element stock solutions was added. At 155.3 h (second arrow), 2 ml of each of these solutions was added.",
+            "bbox_coordinates": {
+              "l": 311.723,
+              "t": 514.3080122070312,
+              "r": 562.786,
+              "b": 456.6280122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                678,
+                562
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              524
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 311.723,
+                "t": 514.3080122070312,
+                "r": 562.786,
+                "b": 456.6280122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 32.918,
+                "t": 469.3080122070312,
+                "r": 283.985,
+                "b": 398.2250122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": false,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "[CH₃OH]",
+        "CO₂%",
+        "time (h)",
+        "time = 160 h",
+        "time = 158 h",
+        "CH₃OH fed"
+      ],
+      "relations": [
+        {
+          "subject": "CO₂%",
+          "predicate": "varies with",
+          "object": "time (h)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "[CH₃OH]",
+          "predicate": "varies with",
+          "object": "time (h)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "CH₃OH fed",
+          "predicate": "varies with",
+          "object": "time (h)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "CO₂%",
+          "predicate": "increases with",
+          "object": "[CH₃OH]",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "CH₃OH fed",
+          "predicate": "decreases with",
+          "object": "CO₂%",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "CO₂%",
+          "predicate": "peaks at",
+          "object": "time = 158 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "[CH₃OH]",
+          "predicate": "peaks at",
+          "object": "time = 158 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        },
+        {
+          "subject": "CH₃OH fed",
+          "predicate": "peaks at",
+          "object": "time = 160 h",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig2",
+            "page_number": 5,
+            "caption_evidence": "Fig. 5. The effect of methanol concentration on carbon dioxide production during a portion of the fed-fermentation depicted in Fig. 3.",
+            "bbox_coordinates": {
+              "l": 301.909,
+              "t": 554.3080122070312,
+              "r": 552.968,
+              "b": 539.4680122070312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                666,
+                449
+              ],
+              "mode": "L"
+            },
+            "charspan": [
+              0,
+              134
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 301.909,
+                "t": 554.3080122070312,
+                "r": 552.968,
+                "b": 539.4680122070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "processing_summary": {
+    "pdf_file": "papers/Copy of Methane Biocatalysis - Selecting the Right Microbe.pdf",
+    "start_time": "2025-11-13 08:33:52.653995",
+    "end_time": "2025-11-13 09:10:42.209744",
+    "total_duration": 2209.555749,
+    "success": true
+  },
+  "text_extraction": {
+    "success": true,
+    "entities": 875,
+    "relations": 596,
+    "output_file": "kg_gen_pipeline/output/text_triples/Copy of Methane Biocatalysis - Selecting the Right Microbe_kg_results_20251113_083352.json"
+  },
+  "visual_extraction": {
+    "attempted": false,
+    "success": false,
+    "entities": 0,
+    "relations": 0,
+    "output_file": null
+  },
+  "loading_instructions": {
+    "text_kg": "python ../knowledge_graph/kg_data_loader.py kg_gen_pipeline/output/text_triples/Copy of Methane Biocatalysis - Selecting the Right Microbe_kg_results_20251113_083352.json",
+    "visual_kg": null
+  },
+  "errors": []
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "page": 3,
+    "caption": "Fig. 1. Potential areas of implementation of the Time Scale Analysis and Characteristic Times.",
+    "triples": [
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Flow Sheet Optimization"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Green Chemistry"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Bio Catalysis"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Catalysis"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Flow Chemistry"
+      },
+      {
+        "subject": "Origin of Characteristic Times",
+        "relation": "is connected to",
+        "object": "Process Intensification"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Bioreactors with Cells"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Separation Unit Operations"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Two-phase Flow Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Electro-chemical Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Encapsulated Enzymes"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Immobilized Enzyme Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Covalently attached Enzymes"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Entrapped Enzymes"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Photo-catalytic Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Thermo-Chemical Reactors"
+      },
+      {
+        "subject": "Process Intensification",
+        "relation": "includes",
+        "object": "Process Modularization"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of\nheterogeneous catalytic microreactor system (b).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 2. Schematic representation of a microreactor designed between two parallel plates with solid catalyst deposited on reactor walls (a) and 2D physical domain of\nheterogeneous catalytic microreactor system (b).\n\nOutput JSON list only:\nassistant\n[\n  (\"microchannel reactor\", \"has\", \"solid catalyst deposited on reactor walls\"),\n  (\"solid catalyst deposited on reactor walls\", \"is located on\", \"reactor walls\"),\n  (\"fluid element\", \"has velocity\", \"u̅\"),\n  (\"catalyst layer\", \"is coated on\", \"reactor walls\"),\n  (\"catalyst layer\", \"enables\", \"diffusion of reactant A from fluid element\"),\n  (\"diffusion of reactant A\", \"occurs from\", \"fluid element\"),\n  (\"diffusion of reactant A\", \"occurs to\", \"catalyst coated on walls\"),\n  (\"catalyst layer\", \"has reaction rate\", \"-r_A'' = -1/S_c * dN_A/dt = k'' * C_A\"),\n  (\"catalyst layer\", \"has units\", \"mol/m²_cat·s\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "direction from its original position (as illustrated in Fig. 3) is pro-",
+    "triples": []
+  },
+  {
+    "page": 8,
+    "caption": "Fig. 4. Proposed schematic representation of a solid catalyzed reaction process.",
+    "triples": [
+      {
+        "subject": "reactant A",
+        "relation": "diffuses to",
+        "object": "catalyst coated on walls"
+      },
+      {
+        "subject": "reactant A",
+        "relation": "adsorbs onto",
+        "object": "catalyst surface"
+      },
+      {
+        "subject": "activated molecule",
+        "relation": "consumes",
+        "object": "active site"
+      },
+      {
+        "subject": "activated molecule",
+        "relation": "forms complex with",
+        "object": "active site"
+      },
+      {
+        "subject": "activated molecule",
+        "relation": "transforms into",
+        "object": "transformed molecule"
+      },
+      {
+        "subject": "transformed molecule",
+        "relation": "desorbs from",
+        "object": "catalyst surface"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Fig. 5. Schematic representation of elementary stoichiometric reaction steps in a solid catalyzed reaction with involved Characteristic Times of kinetics elemental steps.",
+    "triples": [
+      {
+        "subject": "A + S⁰",
+        "relation": "reacts with",
+        "object": "S⁰"
+      },
+      {
+        "subject": "A + S*",
+        "relation": "reacts with",
+        "object": "S*"
+      },
+      {
+        "subject": "P + S*",
+        "relation": "reacts with",
+        "object": "S*"
+      },
+      {
+        "subject": "P + S⁰",
+        "relation": "reacts with",
+        "object": "S⁰"
+      },
+      {
+        "subject": "AS⁰",
+        "relation": "transforms into",
+        "object": "A*"
+      },
+      {
+        "subject": "AS*",
+        "relation": "transforms into",
+        "object": "A*"
+      },
+      {
+        "subject": "AS*",
+        "relation": "transforms into",
+        "object": "PS*"
+      },
+      {
+        "subject": "PS*",
+        "relation": "transforms into",
+        "object": "P*"
+      },
+      {
+        "subject": "PS⁰",
+        "relation": "transforms into",
+        "object": "P*"
+      },
+      {
+        "subject": "A*",
+        "relation": "transforms into",
+        "object": "P*"
+      },
+      {
+        "subject": "AS⁰",
+        "relation": "transforms into",
+        "object": "AS*"
+      },
+      {
+        "subject": "AS*",
+        "relation": "transforms into",
+        "object": "PS*"
+      },
+      {
+        "subject": "PS*",
+        "relation": "transforms into",
+        "object": "PS⁰"
+      },
+      {
+        "subject": "P*",
+        "relation": "transforms into",
+        "object": "P⁰"
+      }
+    ]
+  }
+]

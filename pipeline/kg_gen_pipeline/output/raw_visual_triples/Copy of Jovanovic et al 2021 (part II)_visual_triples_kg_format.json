@@ -1,0 +1,2294 @@
+{
+  "summary": {
+    "total_chunks": 6,
+    "errors": 0,
+    "entities": 84,
+    "relations": 64,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 64,
+    "sections": {
+      "Figure 2 Analysis": {
+        "chunks": 1,
+        "entities": 23,
+        "relations": 14
+      },
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 18,
+        "relations": 13
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 12,
+        "relations": 9
+      },
+      "Figure 9 Analysis": {
+        "chunks": 1,
+        "entities": 18,
+        "relations": 14
+      },
+      "Figure 10 Analysis": {
+        "chunks": 1,
+        "entities": 13,
+        "relations": 14
+      },
+      "Figure 13 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Jovanovic et al 2021 (part II)_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T05:04:57.870495"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 2 Analysis",
+      "entities": [
+        "h_l",
+        "gel layer of immobilized cells",
+        "liquid film thickness",
+        "u_bubble",
+        "gel layers",
+        "between the gel layers",
+        "gas-liquid slug flow",
+        "velocity of gas bubbles",
+        "segmented gas-liquid flow",
+        "gel layer thickness",
+        "h_b",
+        "two parallel plates",
+        "liquid water film thickness",
+        "entrapped live microbial cells",
+        "hydrophilic gel layer",
+        "gas flow",
+        "velocity profile of liquid water film",
+        "δ_g",
+        "bubble height",
+        "v_x(y)",
+        "microreactor",
+        "δ_l",
+        "liquid water film"
+      ],
+      "relations": [
+        {
+          "subject": "microreactor",
+          "predicate": "composed of",
+          "object": "two parallel plates",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "two parallel plates",
+          "predicate": "coated with",
+          "object": "gel layers",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "gel layers",
+          "predicate": "contain",
+          "object": "entrapped live microbial cells",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "gas-liquid slug flow",
+          "predicate": "occurs in",
+          "object": "between the gel layers",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "microreactor",
+          "predicate": "has",
+          "object": "segmented gas-liquid flow",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "gel layer of immobilized cells",
+          "predicate": "is part of",
+          "object": "microreactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "liquid water film",
+          "predicate": "lies within",
+          "object": "hydrophilic gel layer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "gas flow",
+          "predicate": "flows through",
+          "object": "liquid water film",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "u_bubble",
+          "predicate": "represents",
+          "object": "velocity of gas bubbles",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "v_x(y)",
+          "predicate": "represents",
+          "object": "velocity profile of liquid water film",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "δ_g",
+          "predicate": "denotes",
+          "object": "gel layer thickness",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "h_b",
+          "predicate": "denotes",
+          "object": "bubble height",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "h_l",
+          "predicate": "denotes",
+          "object": "liquid water film thickness",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        },
+        {
+          "subject": "δ_l",
+          "predicate": "denotes",
+          "object": "liquid film thickness",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page2_fig1",
+            "page_number": 2,
+            "caption_evidence": "Fig. 1. A schematic representation of a microreactor, made of two parallel plates coated with gel layers containing entrapped live microbial cells (a); and, gas-liquid slug flow in between the gel layers (b).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 53.21498876953126,
+              "r": 557.657,
+              "b": 38.72098876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1115
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              208
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 37.587,
+                "t": 53.21498876953126,
+                "r": 557.657,
+                "b": 38.72098876953123,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page2_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "entrapped bioactive material",
+        "cell debris",
+        "micro-biological species",
+        "with little liquid phase between",
+        "dissolved substrate compound, S_i",
+        "Thin layer of liquid",
+        "between gel film and liquid phase",
+        "dissolved substrate compound, S_li",
+        "dissolved substrate compound, S_gi",
+        "Gas bubbles",
+        "small and far apart",
+        "Gas-Bubbles",
+        "discrete and larger",
+        "Liquid phase",
+        "Gel film",
+        "thin liquid film",
+        "gaseous substrate compound, S_bi",
+        "enzyme"
+      ],
+      "relations": [
+        {
+          "subject": "Gas-Bubbles",
+          "predicate": "contain",
+          "object": "gaseous substrate compound, S_bi",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Liquid phase",
+          "predicate": "contains",
+          "object": "dissolved substrate compound, S_i",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gel film",
+          "predicate": "contains",
+          "object": "entrapped bioactive material",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gel film",
+          "predicate": "contains",
+          "object": "enzyme",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gel film",
+          "predicate": "contains",
+          "object": "cell debris",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gel film",
+          "predicate": "contains",
+          "object": "micro-biological species",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gel film",
+          "predicate": "contains",
+          "object": "dissolved substrate compound, S_gi",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Thin layer of liquid",
+          "predicate": "contains",
+          "object": "dissolved substrate compound, S_li",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gas bubbles",
+          "predicate": "are located",
+          "object": "between gel film and liquid phase",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gas bubbles",
+          "predicate": "are separated by",
+          "object": "thin liquid film",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gas bubbles",
+          "predicate": "are distributed as",
+          "object": "small and far apart",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gas bubbles",
+          "predicate": "are distributed as",
+          "object": "discrete and larger",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        },
+        {
+          "subject": "Gas bubbles",
+          "predicate": "are distributed as",
+          "object": "with little liquid phase between",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 2. A schematic representation of a microscale-based parallel plate reactor, with a gel layer containing entrapped microbial live cells. (a) Gas bubbles are small and far apart and, (b) discrete gas segments are significantly larger with little liquid phase between bubbles. In both bubble distribution patterns a thin liquid film exists between bubbles and the gel layer.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 451.36998876953123,
+              "r": 557.653,
+              "b": 428.3149887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1595,
+                1100
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              376
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 37.587,
+                "t": 451.36998876953123,
+                "r": 557.653,
+                "b": 428.3149887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 7 Analysis",
+      "entities": [
+        "GAS-LIQ SEP",
+        "120 s",
+        "1700 s",
+        "1000 s",
+        "DISTILLATION",
+        "Bioreactor Chemostat",
+        "∞ s",
+        "GAS-GAS SEP",
+        "600 s",
+        "LIQ-LIQ EXT",
+        "500 s",
+        "1500 s"
+      ],
+      "relations": [
+        {
+          "subject": "Bioreactor Chemostat",
+          "predicate": "has characteristic times",
+          "object": "1700 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "Bioreactor Chemostat",
+          "predicate": "has characteristic times",
+          "object": "500 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "Bioreactor Chemostat",
+          "predicate": "has characteristic times",
+          "object": "∞ s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "Bioreactor Chemostat",
+          "predicate": "has characteristic times",
+          "object": "1000 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "GAS-GAS SEP",
+          "predicate": "has characteristic times",
+          "object": "120 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "GAS-LIQ SEP",
+          "predicate": "has characteristic times",
+          "object": "120 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "LIQ-LIQ EXT",
+          "predicate": "has characteristic times",
+          "object": "1500 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "DISTILLATION",
+          "predicate": "has characteristic times",
+          "object": "600 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        },
+        {
+          "subject": "DISTILLATION",
+          "predicate": "has characteristic times",
+          "object": "500 s",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig. 3. A simplified flowsheet diagram of a modular plant for biological conversion of economically stranded methane into liquid fuels. Typically, flowsheet software does not compute and displays the values of pertinent characteristic times.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 487.2559887695312,
+              "r": 557.629,
+              "b": 472.76198876953123,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2055,
+                951
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 37.587,
+                "t": 487.2559887695312,
+                "r": 557.629,
+                "b": 472.76198876953123,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 9 Analysis",
+      "entities": [
+        "within BLP reactor",
+        "0.017 for CH₄ and O₂",
+        "diameter of 2.5 cm",
+        "150-300 μm",
+        "300 μm",
+        "O₂",
+        "CH₄",
+        "53",
+        "55",
+        "Gas Bubble",
+        "0.017",
+        "40",
+        "60",
+        "Aqueous-Film",
+        "5-10 μm",
+        "varies by phase: aqueous film (0.017) and biofilm (53)",
+        "aqueous-film interface",
+        "Gel Bio-Film"
+      ],
+      "relations": [
+        {
+          "subject": "Gel Bio-Film",
+          "predicate": "thickness",
+          "object": "300 μm",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Gel Bio-Film",
+          "predicate": "location",
+          "object": "within BLP reactor",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "O₂",
+          "predicate": "diffusion time in aqueous film",
+          "object": "0.017",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "CH₄",
+          "predicate": "diffusion time in aqueous film",
+          "object": "0.017",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "O₂",
+          "predicate": "diffusion time in biofilm",
+          "object": "40",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "CH₄",
+          "predicate": "diffusion time in biofilm",
+          "object": "53",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "CH₄",
+          "predicate": "product formation time in biofilm",
+          "object": "60",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "O₂",
+          "predicate": "product formation time in biofilm",
+          "object": "55",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Gel Bio-Film",
+          "predicate": "diffusion times",
+          "object": "varies by phase: aqueous film (0.017) and biofilm (53)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Gas Bubble",
+          "predicate": "exists in",
+          "object": "aqueous-film interface",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Aqueous-Film",
+          "predicate": "diffusion times",
+          "object": "0.017 for CH₄ and O₂",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Gel Bio-Film",
+          "predicate": "defined by",
+          "object": "diameter of 2.5 cm",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Aqueous-Film",
+          "predicate": "depth",
+          "object": "5-10 μm",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        },
+        {
+          "subject": "Gel Bio-Film",
+          "predicate": "depth",
+          "object": "150-300 μm",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page9_fig1",
+            "page_number": 9,
+            "caption_evidence": "Fig. 4. (a) Prototype design of the microscale-based bioreactor with immobilized culture, (b) gel film with entrapped immobilized culture in the BLP reactor demonstration unit, (c) demonstration of the integrity of the gel film, and (d) characteristic times associated with diffusion of substrates through liquid and gel phases. (courtesy of Oregon State University, ARPA-E project Award No DE-AR0000439; G. Jovanovic PI).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 323.69698876953123,
+              "r": 557.632,
+              "b": 300.58598876953124,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                1632
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              422
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 37.587,
+                "t": 323.69698876953123,
+                "r": 557.632,
+                "b": 300.58598876953124,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page9_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 10 Analysis",
+      "entities": [
+        "‘∞ s’",
+        "‘0.017 s’",
+        "‘60 s’",
+        "‘55 s’",
+        "‘960 s’",
+        "‘400 s’",
+        "‘1700 s’",
+        "‘500 s’",
+        "‘Conventional Bioreactor’",
+        "‘1000 s’",
+        "‘Microscale-Based Reactor (BLP)’",
+        "‘21.0 s’",
+        "‘22.5 s’"
+      ],
+      "relations": [
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘1700 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘500 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘∞ s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘1000 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘960 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘400 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Conventional Bioreactor’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘∞ s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘22.5 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘21.0 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘∞ s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘0.017 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘60 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘55 s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        },
+        {
+          "subject": "‘Microscale-Based Reactor (BLP)’",
+          "predicate": "‘has characteristic time for’",
+          "object": "‘∞ s’",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page10_fig1",
+            "page_number": 10,
+            "caption_evidence": "Fig. 5. Comparison of performances among a conventional bioreactor with submerged culture ( a ) vs. BLP reactor with entrapped biomass (b) is demonstrated through the alike characteristic times as a part of the information block (c).",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 190.07598876953125,
+              "r": 557.637,
+              "b": 175.23798876953128,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1949,
+                2190
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              233
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 37.587,
+                "t": 190.07598876953125,
+                "r": 557.637,
+                "b": 175.23798876953128,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page10_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 5,
+      "section": "Figure 13 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/5",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 37.644,
+                "t": 725.7629887695313,
+                "r": 64.444,
+                "b": 719.8299887695313,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page13_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

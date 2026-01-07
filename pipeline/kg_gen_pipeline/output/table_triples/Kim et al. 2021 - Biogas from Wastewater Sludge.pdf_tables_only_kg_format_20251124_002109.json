@@ -1,0 +1,2748 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 49,
+    "relations": 59,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Kim et al. 2021 - Biogas from Wastewater Sludge.json",
+    "processed_at": "2025-11-24T00:21:09.139572"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "I Type I",
+      "predicate": "has_genus_or_species",
+      "object": "Methylobacter",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "[31]\nI Type I | \u03b3 -Proteobacteria | Genus/Species Methylobacter Methylosarcina Methylobacter Methylosarcina Methylomonas Methylomicrobium | pMMO",
+        "document_offsets": {
+          "start": 95,
+          "end": 239
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 13,
+            "sentence_id": 2,
+            "matched_text": "I Type I"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 50,
+            "end": 63,
+            "sentence_id": 2,
+            "matched_text": "Methylobacter"
+          },
+          {
+            "start": 79,
+            "end": 92,
+            "sentence_id": 2,
+            "matched_text": "Methylobacter"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_genus",
+      "object": "Methylcystics",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 162,
+            "end": 175,
+            "sentence_id": 7,
+            "matched_text": "Methylcystics"
+          },
+          {
+            "start": 176,
+            "end": 189,
+            "sentence_id": 7,
+            "matched_text": "Methylcystics"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_family",
+      "object": "Methylocystaceae_uc",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 295,
+            "end": 314,
+            "sentence_id": 7,
+            "matched_text": "Methylocystaceae_uc"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I Type I",
+      "predicate": "has_metabolic_pathway",
+      "object": "RuMP pathway",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "[31]\nI Type I | \u03b3 -Proteobacteria | Genus/Species Methylobacter Methylosarcina Methylobacter Methylosarcina Methylomonas Methylomicrobium | pMMO | [31] RuMP pathway RuMP pathway\nI",
+        "document_offsets": {
+          "start": 95,
+          "end": 279
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 13,
+            "sentence_id": 2,
+            "matched_text": "I Type I"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 157,
+            "end": 169,
+            "sentence_id": 4,
+            "matched_text": "RuMP pathway"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 4,
+            "matched_text": "RuMP pathway"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_species",
+      "object": "Methylocaldum marinum",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO | RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 280,
+          "end": 1040
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 351,
+            "end": 372,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum marinum"
+          },
+          {
+            "start": 530,
+            "end": 551,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum marinum"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_species",
+      "object": "Methylocystis rosea",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 211,
+            "end": 230,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis rosea"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_species",
+      "object": "Methylocaldum pushchinense",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO | RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 280,
+          "end": 1040
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 373,
+            "end": 399,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum pushchinense"
+          },
+          {
+            "start": 552,
+            "end": 578,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum pushchinense"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_genus_or_species",
+      "object": "Methylomonas",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 5,
+        "text_evidence": "[31]\nI Type I | \u03b3 -Proteobacteria | Genus/Species Methylobacter Methylosarcina Methylobacter Methylosarcina Methylomonas Methylomicrobium | pMMO I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 95,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 120,
+            "sentence_id": 2,
+            "matched_text": "Methylomonas"
+          },
+          {
+            "start": 222,
+            "end": 234,
+            "sentence_id": 5,
+            "matched_text": "Methylomonas"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_species",
+      "object": "Methylocystis echinoides",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 248,
+            "end": 272,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis echinoides"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I Type I",
+      "predicate": "belongs to",
+      "object": "\u03b3-Proteobacteria",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "[31]\nI Type I | \u03b3 -Proteobacteria | Genus/Species Methylobacter Methylosarcina Methylobacter Methylosarcina Methylomonas Methylomicrobium | pMMO",
+        "document_offsets": {
+          "start": 95,
+          "end": 239
+        },
+        "subject_positions": [
+          {
+            "start": 5,
+            "end": 13,
+            "sentence_id": 2,
+            "matched_text": "I Type I"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_species",
+      "object": "Methylocystis parvus",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 190,
+            "end": 210,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis parvus"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_family",
+      "object": "Methylococcaceae (Family)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 280,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "belongs to",
+      "object": "\u03b3 X Type X",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 280,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 14,
+            "sentence_id": 5,
+            "matched_text": "\u03b3 X Type X"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_species",
+      "object": "Methylocystis sporium",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 273,
+            "end": 294,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis sporium"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_species",
+      "object": "Methylococcus mobilis",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 280,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 186,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus mobilis"
+          },
+          {
+            "start": 285,
+            "end": 306,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus mobilis"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_species",
+      "object": "Methylococcus capsulatus",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 280,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 140,
+            "end": 164,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus capsulatus"
+          },
+          {
+            "start": 260,
+            "end": 284,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus capsulatus"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "has_species",
+      "object": "Methylocystis_uc",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 231,
+            "end": 247,
+            "sentence_id": 7,
+            "matched_text": "Methylocystis_uc"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_genus",
+      "object": "Methylocaldum",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO | RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 280,
+          "end": 1040
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 307,
+            "end": 320,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 329,
+            "end": 342,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 351,
+            "end": 364,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 373,
+            "end": 386,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 486,
+            "end": 499,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 508,
+            "end": 521,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 530,
+            "end": 543,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum"
+          },
+          {
+            "start": 552,
+            "end": 565,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_genus",
+      "object": "Methylococcus",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 280,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 118,
+            "end": 131,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus"
+          },
+          {
+            "start": 140,
+            "end": 153,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus"
+          },
+          {
+            "start": 165,
+            "end": 178,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus"
+          },
+          {
+            "start": 238,
+            "end": 251,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus"
+          },
+          {
+            "start": 260,
+            "end": 273,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus"
+          },
+          {
+            "start": 285,
+            "end": 298,
+            "sentence_id": 5,
+            "matched_text": "Methylococcus"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "II",
+      "predicate": "belongs to",
+      "object": "\u03b1 -Protobacteria",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "| RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 697,
+          "end": 1040
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 47,
+            "sentence_id": 7,
+            "matched_text": "II"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 50,
+            "end": 66,
+            "sentence_id": 7,
+            "matched_text": "\u03b1 -Protobacteria"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_species",
+      "object": "Methylocaldum gracile",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 7,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO | RuMP + incomplete RuMP + incomplete Serine\nII | \u03b1 -Protobacteria | Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense Methylcystics Methylcystics Methylocystis parvus Methylocystis rosea Methylocystis_uc Methylocystis echinoides Methylocystis sporium Methylocystaceae_uc | sMMO sMMO | Serine pathway",
+        "document_offsets": {
+          "start": 280,
+          "end": 1040
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 329,
+            "end": 350,
+            "sentence_id": 5,
+            "matched_text": "Methylocaldum gracile"
+          },
+          {
+            "start": 508,
+            "end": 529,
+            "sentence_id": 7,
+            "matched_text": "Methylocaldum gracile"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I I",
+      "predicate": "has_family",
+      "object": "Methylococcales (Family)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "I | \u03b3 X Type X | \u03b3 -Proteobacteria | Methylomonas Methylomicrobium Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylococcales (Family) Methylococcaceae (Family) Methylococcus (Genus) Methylococcus capsulatus Methylococcus mobilis Methylocaldum (Genus) Methylocaldum gracile Methylocaldum marinum Methylocaldum pushchinense | pMMO",
+        "document_offsets": {
+          "start": 280,
+          "end": 686
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 35.22465133666992,
+          "t": 357.7498474121094,
+          "r": 559.421875,
+          "b": 95.39031982421875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formaldehyde",
+      "predicate": "has concentration",
+      "object": "2.51 \u00b1 0.04",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 63,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 245,
+            "end": 257,
+            "sentence_id": 1,
+            "matched_text": "Formaldehyde"
+          },
+          {
+            "start": 385,
+            "end": 397,
+            "sentence_id": 1,
+            "matched_text": "Formaldehyde"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 398,
+            "end": 409,
+            "sentence_id": 1,
+            "matched_text": "2.51 \u00b1 0.04"
+          },
+          {
+            "start": 524,
+            "end": 535,
+            "sentence_id": 1,
+            "matched_text": "2.51 \u00b1 0.04"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formate",
+      "predicate": "has composition ratio",
+      "object": "(CO 2 :CH 4 :O 2 )",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Gas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 0,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 335,
+            "end": 342,
+            "sentence_id": 1,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 475,
+            "end": 482,
+            "sentence_id": 1,
+            "matched_text": "Formate"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has concentration",
+      "object": "5.62 \u00b1 0.11",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 63,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 221,
+            "end": 229,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 362,
+            "end": 370,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 371,
+            "end": 382,
+            "sentence_id": 1,
+            "matched_text": "5.62 \u00b1 0.11"
+          },
+          {
+            "start": 498,
+            "end": 509,
+            "sentence_id": 1,
+            "matched_text": "5.62 \u00b1 0.11"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formaldehyde",
+      "predicate": "has composition ratio",
+      "object": "(CO 2 :CH 4 :O 2 )",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Gas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 0,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 308,
+            "end": 320,
+            "sentence_id": 1,
+            "matched_text": "Formaldehyde"
+          },
+          {
+            "start": 448,
+            "end": 460,
+            "sentence_id": 1,
+            "matched_text": "Formaldehyde"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NADH",
+      "predicate": "has NADH/NAD ratio",
+      "object": "0.67",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 63,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 130,
+            "end": 134,
+            "sentence_id": 1,
+            "matched_text": "NADH"
+          },
+          {
+            "start": 139,
+            "end": 143,
+            "sentence_id": 1,
+            "matched_text": "NADH"
+          },
+          {
+            "start": 307,
+            "end": 311,
+            "sentence_id": 1,
+            "matched_text": "NADH"
+          },
+          {
+            "start": 316,
+            "end": 320,
+            "sentence_id": 1,
+            "matched_text": "NADH"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 465,
+            "end": 469,
+            "sentence_id": 1,
+            "matched_text": "0.67"
+          },
+          {
+            "start": 588,
+            "end": 592,
+            "sentence_id": 1,
+            "matched_text": "0.67"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "has composition ratio",
+      "object": "(CO 2 :CH 4 :O 2 )",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Gas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 0,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 284,
+            "end": 292,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 425,
+            "end": 433,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Formate",
+      "predicate": "has concentration",
+      "object": "0.82 \u00b1 0.02",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | Methanotroph Metabolites (mM) | NADH/NAD NADH/NAD + Ratio\nGas Composition Ratio Gas Composition Ratio (CO 2 :CH 4 :O 2 ) | Methanol | Methanotroph Formaldehyde | Metabolites Formate | (mM) Total Metabolites | NADH/NAD NADH/NAD + Ratio\n(CO 2 :CH 4 :O 0.5:1.0:1.0 | Methanol 5.62 \u00b1 0.11 | Formaldehyde 2.51 \u00b1 0.04 | Formate 0.82 \u00b1 0.02 | Total Metabolites 8.95 | Ratio 0.67\n0.5: 1.0: 1.0 1.0:1.0:1.0 | 5.62 \u00b1 0.11 4.91 \u00b1 0.14 | 2.51 \u00b1 0.04 2.28 \u00b1 0.09 | 0.82 \u00b1 0.02 0.63 \u00b1 0.03 | 8.95 7.82 | 0.67 0.42\n1.0: 1.0: 1.0 1.5:1.0:1.0 | 4.91 \u00b1 0.14 4.24 \u00b1 0.13 | 2.28 \u00b1 0.09 2.17 \u00b1 0.06",
+        "document_offsets": {
+          "start": 63,
+          "end": 738
+        },
+        "subject_positions": [
+          {
+            "start": 272,
+            "end": 279,
+            "sentence_id": 1,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 412,
+            "end": 419,
+            "sentence_id": 1,
+            "matched_text": "Formate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 420,
+            "end": 431,
+            "sentence_id": 1,
+            "matched_text": "0.82 \u00b1 0.02"
+          },
+          {
+            "start": 550,
+            "end": 561,
+            "sentence_id": 1,
+            "matched_text": "0.82 \u00b1 0.02"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page7_table1",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 35.437137603759766,
+          "t": 318.444091796875,
+          "r": 559.3656005859375,
+          "b": 225.9859619140625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "72-96",
+      "predicate": "is associated with",
+      "object": "2.37 \u00b1 0.11",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04 | 2.37 \u00b1 0.11",
+        "document_offsets": {
+          "start": 0,
+          "end": 179
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 151,
+            "sentence_id": 0,
+            "matched_text": "72-96"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 168,
+            "end": 179,
+            "sentence_id": 1,
+            "matched_text": "2.37 \u00b1 0.11"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0-24",
+      "predicate": "has",
+      "object": "5.30 \u00b1 0.23",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04",
+        "document_offsets": {
+          "start": 0,
+          "end": 165
+        },
+        "subject_positions": [
+          {
+            "start": 107,
+            "end": 111,
+            "sentence_id": 0,
+            "matched_text": "0-24"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 114,
+            "end": 125,
+            "sentence_id": 0,
+            "matched_text": "5.30 \u00b1 0.23"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page8_table2",
+      "predicate": "contains",
+      "object": "Time Intervals (h)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04",
+        "document_offsets": {
+          "start": 0,
+          "end": 165
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0-24",
+      "predicate": "is associated with",
+      "object": "( - ) 1.32 \u00b1 0.07",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04",
+        "document_offsets": {
+          "start": 0,
+          "end": 165
+        },
+        "subject_positions": [
+          {
+            "start": 107,
+            "end": 111,
+            "sentence_id": 0,
+            "matched_text": "0-24"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page8_table2",
+      "predicate": "provides data for",
+      "object": "CO 2 Utilization Rate",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04",
+        "document_offsets": {
+          "start": 0,
+          "end": 165
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 65,
+            "end": 86,
+            "sentence_id": 0,
+            "matched_text": "CO 2 Utilization Rate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "72-96",
+      "predicate": "has",
+      "object": "0.14 \u00b1 0.04",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04",
+        "document_offsets": {
+          "start": 0,
+          "end": 165
+        },
+        "subject_positions": [
+          {
+            "start": 146,
+            "end": 151,
+            "sentence_id": 0,
+            "matched_text": "72-96"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 165,
+            "sentence_id": 0,
+            "matched_text": "0.14 \u00b1 0.04"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page8_table2",
+      "predicate": "provides data for",
+      "object": "CH 4 Utilization Rate",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Time Intervals (h) | CH 4 Utilization Rate (mLCH 4 \u00b7 day - 1 ) | CO 2 Utilization Rate (mLCO 2 \u00b7 day - 1 )\n0-24 | 5.30 \u00b1 0.23 | ( - ) 1.32 \u00b1 0.07\n72-96 | 0.14 \u00b1 0.04",
+        "document_offsets": {
+          "start": 0,
+          "end": 165
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 21,
+            "end": 42,
+            "sentence_id": 0,
+            "matched_text": "CH 4 Utilization Rate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page8_table2",
+        "page_number": 8,
+        "bbox_coordinates": {
+          "l": 166.548828125,
+          "t": 436.1053771972656,
+          "r": 559.0881958007812,
+          "b": 380.026611328125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "has time",
+      "object": "45",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 126,
+            "end": 128,
+            "sentence_id": 0,
+            "matched_text": "45"
+          },
+          {
+            "start": 210,
+            "end": 212,
+            "sentence_id": 1,
+            "matched_text": "45"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Extension",
+      "predicate": "has time",
+      "object": "90",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 150,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          },
+          {
+            "start": 68,
+            "end": 77,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 17,
+            "end": 19,
+            "sentence_id": 1,
+            "matched_text": "90"
+          },
+          {
+            "start": 85,
+            "end": 87,
+            "sentence_id": 1,
+            "matched_text": "90"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Denaturation",
+      "predicate": "belongs to cycle",
+      "object": "10",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 106,
+            "end": 108,
+            "sentence_id": 0,
+            "matched_text": "10"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page13_table3",
+      "predicate": "contains step",
+      "object": "Initial denaturation",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle)",
+        "document_offsets": {
+          "start": 0,
+          "end": 150
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Initial denaturation"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "has temperature",
+      "object": "55",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 205,
+            "end": 207,
+            "sentence_id": 1,
+            "matched_text": "55"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Denaturation",
+      "predicate": "occurs after",
+      "object": "(multiple times)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "occurs after",
+      "object": "Denaturation",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Denaturation",
+      "predicate": "has temperature",
+      "object": "94",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 70,
+            "sentence_id": 0,
+            "matched_text": "94"
+          },
+          {
+            "start": 96,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "94"
+          },
+          {
+            "start": 185,
+            "end": 187,
+            "sentence_id": 1,
+            "matched_text": "94"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Extension",
+      "predicate": "occurs after",
+      "object": "Annealing",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 150,
+            "end": 159,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          },
+          {
+            "start": 218,
+            "end": 227,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Hold",
+      "predicate": "has symbol",
+      "object": "\u00a5",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 150,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 88,
+            "end": 92,
+            "sentence_id": 1,
+            "matched_text": "Hold"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Initial denaturation",
+      "predicate": "belongs to cycle",
+      "object": "-",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Initial denaturation"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "follows rule",
+      "object": "( - 0.5 \u25e6 C/cycle)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Extension",
+      "predicate": "has temperature",
+      "object": "72",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 150,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          },
+          {
+            "start": 68,
+            "end": 77,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 12,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "72"
+          },
+          {
+            "start": 80,
+            "end": 82,
+            "sentence_id": 1,
+            "matched_text": "72"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Initial denaturation",
+      "predicate": "has time",
+      "object": "300",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle)",
+        "document_offsets": {
+          "start": 0,
+          "end": 150
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Initial denaturation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 73,
+            "end": 76,
+            "sentence_id": 0,
+            "matched_text": "300"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Initial denaturation",
+      "predicate": "has temperature",
+      "object": "94",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 45,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Initial denaturation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 70,
+            "sentence_id": 0,
+            "matched_text": "94"
+          },
+          {
+            "start": 96,
+            "end": 98,
+            "sentence_id": 0,
+            "matched_text": "94"
+          },
+          {
+            "start": 185,
+            "end": 187,
+            "sentence_id": 1,
+            "matched_text": "94"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "belongs to cycle",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 215,
+            "end": 217,
+            "sentence_id": 1,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Extension",
+      "predicate": "occurs after",
+      "object": "(multiple times)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 150,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          },
+          {
+            "start": 68,
+            "end": 77,
+            "sentence_id": 1,
+            "matched_text": "Extension"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Denaturation",
+      "predicate": "has time",
+      "object": "30",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 101,
+            "end": 103,
+            "sentence_id": 0,
+            "matched_text": "30"
+          },
+          {
+            "start": 190,
+            "end": 192,
+            "sentence_id": 1,
+            "matched_text": "30"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Hold",
+      "predicate": "occurs after",
+      "object": "Denaturation",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 238,
+            "end": 242,
+            "sentence_id": 1,
+            "matched_text": "Hold"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "occurs after",
+      "object": "(multiple times)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Denaturation",
+      "predicate": "occurs after",
+      "object": "Initial denaturation",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "denaturation"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Denaturation"
+          },
+          {
+            "start": 170,
+            "end": 182,
+            "sentence_id": 1,
+            "matched_text": "Denaturation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 45,
+            "end": 65,
+            "sentence_id": 0,
+            "matched_text": "Initial denaturation"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Hold",
+      "predicate": "has time",
+      "object": "4",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 238,
+            "end": 242,
+            "sentence_id": 1,
+            "matched_text": "Hold"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 245,
+            "end": 246,
+            "sentence_id": 1,
+            "matched_text": "4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Annealing",
+      "predicate": "has temperature",
+      "object": "60",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Step | Temperature ( \u25e6 C) | Time (s) | Cycle\nInitial denaturation | 94 | 300 | -\nDenaturation | 94 | 30 | 10\nAnnealing | 60 | 45 | ( - 0.5 \u25e6 C/cycle) Extension | 72 | 90\nDenaturation | 94 | 30\nAnnealing | 55 | 45 | 20\nExtension | 72 | 90\nHold | 4 | \u00a5 | -",
+        "document_offsets": {
+          "start": 0,
+          "end": 254
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 0,
+            "matched_text": "Annealing"
+          },
+          {
+            "start": 193,
+            "end": 202,
+            "sentence_id": 1,
+            "matched_text": "Annealing"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 123,
+            "sentence_id": 0,
+            "matched_text": "60"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page13_table3",
+        "page_number": 13,
+        "bbox_coordinates": {
+          "l": 166.63864135742188,
+          "t": 728.0224227905273,
+          "r": 559.0792236328125,
+          "b": 607.2362060546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Methylocaldum pushchinense",
+    "NADH",
+    "Methylocystaceae_uc",
+    "Methylcystics",
+    "Annealing",
+    "Methylobacter",
+    "Methylosarcina",
+    "60",
+    "Methylocaldum gracile",
+    "94",
+    "Hold",
+    "Methylococcus mobilis",
+    "72",
+    "45",
+    "Extension",
+    "30",
+    "Methylocaldum",
+    "4",
+    "Methylocystis sporium",
+    "Formaldehyde",
+    "CH 4 Utilization Rate",
+    "Denaturation",
+    "Methylococcus capsulatus",
+    "Methylocystis echinoides",
+    "Methylococcales (Family)",
+    "90",
+    "Methylococcaceae (Family)",
+    "Methylomonas",
+    "( - 0.5 \u25e6 C/cycle)",
+    "Methylococcus",
+    "300",
+    "Methylocystis_uc",
+    "20",
+    "Methylocaldum marinum",
+    "Methylocystis",
+    "NAD",
+    "Methylocystis rosea",
+    "Methylomicrobium",
+    "Initial denaturation",
+    "Formate",
+    "Table page8_table2",
+    "CO 2 Utilization Rate",
+    "55",
+    "\u00a5",
+    "Methanol",
+    "Methylocystis parvus",
+    "10",
+    "\u03b3-Proteobacteria",
+    "Table page13_table3"
+  ]
+}

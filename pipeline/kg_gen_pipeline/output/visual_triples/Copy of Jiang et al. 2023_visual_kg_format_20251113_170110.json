@@ -1,0 +1,437 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 6,
+    "relations": 9,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 9,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 6,
+        "relations": 9
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      },
+      "Figure 8 Analysis": {
+        "chunks": 1,
+        "entities": 0,
+        "relations": 0
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Jiang et al. 2023_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-13T17:35:56.948268"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "temperature",
+        "CH4 consumption",
+        "CH4/air ratio",
+        "cell yield",
+        "HTMC",
+        "pH"
+      ],
+      "relations": [
+        {
+          "subject": "CH4 consumption",
+          "predicate": "affected by",
+          "object": "CH4/air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "CH4 consumption",
+          "predicate": "affected by",
+          "object": "pH",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "CH4 consumption",
+          "predicate": "affected by",
+          "object": "temperature",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "cell yield",
+          "predicate": "affected by",
+          "object": "CH4/air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "cell yield",
+          "predicate": "affected by",
+          "object": "pH",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "cell yield",
+          "predicate": "affected by",
+          "object": "temperature",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "HTMC",
+          "predicate": "responds to",
+          "object": "CH4/air ratio",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "HTMC",
+          "predicate": "responds to",
+          "object": "pH",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        },
+        {
+          "subject": "HTMC",
+          "predicate": "responds to",
+          "object": "temperature",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Effect of different conditions on CH4  consumption ((a) CH4/air ratio, (c) pH, and (e) temperature) and cell yield ((b) CH4/air ratio, (d) pH, and (f) temperature) of HTMC.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 228.80699976953122,
+              "r": 557.632,
+              "b": 212.70299976953117,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                84,
+                339
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              180
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 37.587,
+                "t": 228.80699976953122,
+                "r": 557.632,
+                "b": 212.70299976953117,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 37.587,
+                "t": 211.79899976953118,
+                "r": 557.689,
+                "b": 195.69499976953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 7 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 37.587,
+                "t": 217.92199976953123,
+                "r": 559.743,
+                "b": 201.76099976953117,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 8 Analysis",
+      "entities": [],
+      "relations": [],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 37.587,
+                "t": 108.67399976953118,
+                "r": 290.767,
+                "b": 82.98899976953123,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page8_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

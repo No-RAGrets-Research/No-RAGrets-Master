@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-11-20T11:54:17.957471",
+  "total_relations": 94,
+  "by_model": {
+    "llama3.2:3b": {
+      "text_accuracy_rate": 0.9468085106382979,
+      "text_avg_faithfulness": 4.5212765957446805,
+      "text_avg_boundary": 4.23404255319149,
+      "text_avg_inference_time": 3.30429503765512,
+      "text_error_count": 0
+    },
+    "mistral:7b": {
+      "text_accuracy_rate": 0.7872340425531915,
+      "text_avg_faithfulness": 1.8297872340425532,
+      "text_avg_boundary": 1.851063829787234,
+      "text_avg_inference_time": 5.801399243638871,
+      "text_error_count": 0
+    },
+    "llama3.1:8b": {
+      "text_accuracy_rate": 0.9787234042553191,
+      "text_avg_faithfulness": 4.648936170212766,
+      "text_avg_boundary": 4.914893617021277,
+      "text_avg_inference_time": 5.258198230824572,
+      "text_error_count": 0
+    }
+  }
+}

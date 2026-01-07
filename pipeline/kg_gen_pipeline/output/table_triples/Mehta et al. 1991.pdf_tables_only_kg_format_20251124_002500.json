@@ -1,0 +1,2098 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 12,
+    "relations": 40,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Mehta et al. 1991.json",
+    "processed_at": "2025-11-24T00:25:00.503615"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Immobilized",
+      "predicate": "has_methane_uptake",
+      "object": "33.4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 244,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 112,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 189,
+            "end": 193,
+            "sentence_id": 4,
+            "matched_text": "33.4"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_methanol_accumulation",
+      "object": "4.73",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2.",
+        "document_offsets": {
+          "start": 146,
+          "end": 243
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 83,
+            "end": 87,
+            "sentence_id": 2,
+            "matched_text": "4.73"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_methanol_accumulation",
+      "object": "2.10",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 244,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 56,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 97,
+            "end": 101,
+            "sentence_id": 3,
+            "matched_text": "2.10"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_total_oxygen",
+      "object": "73.53b",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 244,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 112,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 131,
+            "end": 137,
+            "sentence_id": 3,
+            "matched_text": "73.53b"
+          },
+          {
+            "start": 180,
+            "end": 186,
+            "sentence_id": 4,
+            "matched_text": "73.53b"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_conversion",
+      "object": "0.58",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 244,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 56,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 48,
+            "end": 52,
+            "sentence_id": 3,
+            "matched_text": "0.58"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_conversion",
+      "object": "26.70",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 244,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 112,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 203,
+            "end": 208,
+            "sentence_id": 4,
+            "matched_text": "26.70"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_methanol_accumulation",
+      "object": "8.92",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 244,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 112,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 196,
+            "end": 200,
+            "sentence_id": 4,
+            "matched_text": "8.92"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_phosphate_ions",
+      "object": "80",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 146,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 109,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 154,
+            "end": 165,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 210,
+            "end": 221,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 259,
+            "end": 270,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 64,
+            "sentence_id": 2,
+            "matched_text": "80"
+          },
+          {
+            "start": 92,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "80"
+          },
+          {
+            "start": 174,
+            "end": 176,
+            "sentence_id": 3,
+            "matched_text": "80"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 4,
+            "matched_text": "80"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_phosphate_ions",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 146,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 15,
+            "sentence_id": 2,
+            "matched_text": "20"
+          },
+          {
+            "start": 118,
+            "end": 120,
+            "sentence_id": 3,
+            "matched_text": "20"
+          },
+          {
+            "start": 224,
+            "end": 226,
+            "sentence_id": 3,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_total_oxygen",
+      "object": "15.29",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 146,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 23,
+            "sentence_id": 2,
+            "matched_text": "15.29"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "sentence_id": 2,
+            "matched_text": "15.29"
+          },
+          {
+            "start": 123,
+            "end": 128,
+            "sentence_id": 3,
+            "matched_text": "15.29"
+          },
+          {
+            "start": 179,
+            "end": 184,
+            "sentence_id": 3,
+            "matched_text": "15.29"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_conversion",
+      "object": "3.30",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 244,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 56,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 104,
+            "end": 108,
+            "sentence_id": 3,
+            "matched_text": "3.30"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_methane_uptake",
+      "object": "62.1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 244,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 56,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 90,
+            "end": 94,
+            "sentence_id": 3,
+            "matched_text": "62.1"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_phosphate_ions",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 146,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 115,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 154,
+            "end": 171,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 15,
+            "sentence_id": 2,
+            "matched_text": "20"
+          },
+          {
+            "start": 118,
+            "end": 120,
+            "sentence_id": 3,
+            "matched_text": "20"
+          },
+          {
+            "start": 224,
+            "end": 226,
+            "sentence_id": 3,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_methane_uptake",
+      "object": "9.8",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 146,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 109,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 154,
+            "end": 165,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 210,
+            "end": 221,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 259,
+            "end": 270,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 238,
+            "end": 241,
+            "sentence_id": 3,
+            "matched_text": "9.8"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_total_oxygen",
+      "object": "15.29",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 3,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 146,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 115,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 154,
+            "end": 171,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 23,
+            "sentence_id": 2,
+            "matched_text": "15.29"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "sentence_id": 2,
+            "matched_text": "15.29"
+          },
+          {
+            "start": 123,
+            "end": 128,
+            "sentence_id": 3,
+            "matched_text": "15.29"
+          },
+          {
+            "start": 179,
+            "end": 184,
+            "sentence_id": 3,
+            "matched_text": "15.29"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_conversion",
+      "object": "9.80",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2.",
+        "document_offsets": {
+          "start": 146,
+          "end": 243
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 90,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "9.80"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_conversion",
+      "object": "4.22",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2.",
+        "document_offsets": {
+          "start": 146,
+          "end": 243
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 45,
+            "sentence_id": 2,
+            "matched_text": "4.22"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_methane_uptake",
+      "object": "53.9",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2.",
+        "document_offsets": {
+          "start": 146,
+          "end": 243
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 31,
+            "sentence_id": 2,
+            "matched_text": "53.9"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_methanol_accumulation",
+      "object": "2.72",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2.",
+        "document_offsets": {
+          "start": 146,
+          "end": 243
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 34,
+            "end": 38,
+            "sentence_id": 2,
+            "matched_text": "2.72"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_phosphate_ions",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 146,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 109,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 154,
+            "end": 165,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 210,
+            "end": 221,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 259,
+            "end": 270,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 15,
+            "sentence_id": 2,
+            "matched_text": "20"
+          },
+          {
+            "start": 118,
+            "end": 120,
+            "sentence_id": 3,
+            "matched_text": "20"
+          },
+          {
+            "start": 224,
+            "end": 226,
+            "sentence_id": 3,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_phosphate_ions",
+      "object": "80",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 146,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 64,
+            "sentence_id": 2,
+            "matched_text": "80"
+          },
+          {
+            "start": 92,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "80"
+          },
+          {
+            "start": 174,
+            "end": 176,
+            "sentence_id": 3,
+            "matched_text": "80"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 4,
+            "matched_text": "80"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_methane_uptake",
+      "object": "66.2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 244,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 56,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 34,
+            "end": 38,
+            "sentence_id": 3,
+            "matched_text": "66.2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Free cells",
+      "predicate": "has_methane_uptake",
+      "object": "49.0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2.",
+        "document_offsets": {
+          "start": 146,
+          "end": 243
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "sentence_id": 2,
+            "matched_text": "Free cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 76,
+            "end": 80,
+            "sentence_id": 2,
+            "matched_text": "49.0"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_methanol_accumulation",
+      "object": "0.00",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 244,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 112,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 146,
+            "end": 150,
+            "sentence_id": 3,
+            "matched_text": "0.00"
+          },
+          {
+            "start": 153,
+            "end": 157,
+            "sentence_id": 3,
+            "matched_text": "0.00"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_methanol_accumulation",
+      "object": "0.40",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3.",
+        "document_offsets": {
+          "start": 244,
+          "end": 404
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 56,
+            "end": 73,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 45,
+            "sentence_id": 3,
+            "matched_text": "0.40"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized cells",
+      "predicate": "has_phosphate_ions",
+      "object": "80",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "Free cells | 20 | 15.29\" | 53.9 | 2.72 | 4.22\n1. Free cells | 80 | 15.29\" | 49.0 | 4.73 | 9.80\n2. Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 146,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 98,
+            "end": 115,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          },
+          {
+            "start": 154,
+            "end": 171,
+            "sentence_id": 3,
+            "matched_text": "Immobilized cells"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 62,
+            "end": 64,
+            "sentence_id": 2,
+            "matched_text": "80"
+          },
+          {
+            "start": 92,
+            "end": 94,
+            "sentence_id": 2,
+            "matched_text": "80"
+          },
+          {
+            "start": 174,
+            "end": 176,
+            "sentence_id": 3,
+            "matched_text": "80"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "sentence_id": 4,
+            "matched_text": "80"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Immobilized",
+      "predicate": "has_conversion",
+      "object": "0.00",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 4,
+        "text_evidence": "Immobilized cells | 20 | 15.29\" | 66.2 | 0.40 | 0.58\n2. Immobilized cells | 80 | 15.29\" | 62.1 | 2.10 | 3.30\n3. Immobilized | 20 | 73.53b | 9.8 | 0.00 | 0.00\n3. Immobilized | 80 | 73.53b | 33.4 | 8.92 | 26.70",
+        "document_offsets": {
+          "start": 244,
+          "end": 452
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 11,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 112,
+            "end": 123,
+            "sentence_id": 3,
+            "matched_text": "Immobilized"
+          },
+          {
+            "start": 161,
+            "end": 172,
+            "sentence_id": 4,
+            "matched_text": "Immobilized"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 146,
+            "end": 150,
+            "sentence_id": 3,
+            "matched_text": "0.00"
+          },
+          {
+            "start": 153,
+            "end": 157,
+            "sentence_id": 3,
+            "matched_text": "0.00"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 144.2119598388672,
+          "t": 200.9798583984375,
+          "r": 469.6289978027344,
+          "b": 94.96881103515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I0",
+      "predicate": "uses format supplied",
+      "object": "0.42",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 140,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "0.42"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I0",
+      "predicate": "produces methanol",
+      "object": "0.071",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 147,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "0.071"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I0",
+      "predicate": "has pulse number",
+      "object": "0.42",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 140,
+            "end": 144,
+            "sentence_id": 0,
+            "matched_text": "0.42"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table1",
+      "predicate": "contains row with",
+      "object": "I0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I11",
+      "predicate": "produces methanol",
+      "object": "1.021",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 185,
+            "end": 188,
+            "sentence_id": 0,
+            "matched_text": "I11"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 198,
+            "end": 203,
+            "sentence_id": 0,
+            "matched_text": "1.021"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I11",
+      "predicate": "has percentage of methanol produced per format supplied",
+      "object": "91.2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 185,
+            "end": 188,
+            "sentence_id": 0,
+            "matched_text": "I11"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 206,
+            "end": 210,
+            "sentence_id": 0,
+            "matched_text": "91.2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I1",
+      "predicate": "produces methanol",
+      "object": "0.674",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 160,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "I1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 172,
+            "end": 177,
+            "sentence_id": 0,
+            "matched_text": "0.674"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I0",
+      "predicate": "has percentage of methanol produced per format supplied",
+      "object": "16.9",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 155,
+            "end": 159,
+            "sentence_id": 0,
+            "matched_text": "16.9"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I1",
+      "predicate": "uses format supplied",
+      "object": "1.12",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 160,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "I1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 169,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          },
+          {
+            "start": 191,
+            "end": 195,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I1",
+      "predicate": "has pulse number",
+      "object": "1.12",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 160,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "I1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 169,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          },
+          {
+            "start": 191,
+            "end": 195,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I11",
+      "predicate": "uses format supplied",
+      "object": "1.12",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 185,
+            "end": 188,
+            "sentence_id": 0,
+            "matched_text": "I11"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 169,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          },
+          {
+            "start": 191,
+            "end": 195,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I11",
+      "predicate": "has pulse number",
+      "object": "1.12",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 185,
+            "end": 188,
+            "sentence_id": 0,
+            "matched_text": "I11"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 165,
+            "end": 169,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          },
+          {
+            "start": 191,
+            "end": 195,
+            "sentence_id": 0,
+            "matched_text": "1.12"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "I1",
+      "predicate": "has percentage of methanol produced per format supplied",
+      "object": "60.2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Pulse number - - | Formate supplied (mmol) | Methanol produced (mmol) | Amount of methanol produced per amount of formate supplied (%I\nI\" | 0.42 | 0.071 | 16.9\nI1 | 1.12 | 0.674 | 60.2\nI11 | 1.12 | 1.021 | 91.2",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [
+          {
+            "start": 160,
+            "end": 162,
+            "sentence_id": 0,
+            "matched_text": "I1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 180,
+            "end": 184,
+            "sentence_id": 0,
+            "matched_text": "60.2"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 315.9375,
+          "t": 735.2227935791016,
+          "r": 556.9913940429688,
+          "b": 647.6012573242188,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Methane uptake",
+    "Table page5_table1",
+    "I1",
+    "Total oxygen",
+    "1.12",
+    "Phosphate ions",
+    "Free cells",
+    "0.42",
+    "Immobilized cells",
+    "I11",
+    "Methanol accumulation",
+    "Conversion"
+  ]
+}

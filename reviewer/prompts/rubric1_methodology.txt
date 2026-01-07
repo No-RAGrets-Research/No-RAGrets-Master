@@ -1,0 +1,56 @@
+RUBRIC 1 – Methodological Transparency
+
+Goal:
+Assess whether each experimental procedure is described with enough quantitative and contextual detail to allow replication by another laboratory.
+
+You are evaluating reporting quality, not scientific correctness.
+If information is missing, mark it as “not reported,” not “incorrect.”
+
+---------------------------------------------------
+TIER 1 – Quantitative Descriptions (Critical Layer)
+---------------------------------------------------
+Check for:
+- Numeric values with units (mass, volume, concentration).
+- Centrifugation: speed (g or rpm) + time (+ temperature if relevant).
+- Shaking/incubation: temperature, rpm, duration, and medium type.
+- PCR: step temperatures, durations, cycle count, and reaction volume.
+- Media and buffer composition (including pH).
+- Optical density or growth phase indicator (e.g., OD₆₀₀ = 0.8).
+- Supplier and catalog number for reagents.
+- Microbial strain or plasmid identifier (ATCC, Addgene).
+- Reference to supplementary materials containing detailed protocols.
+
+Cross-links:
+Missing Tier 1 details affect both *Reproducibility & Traceability* and *Scientific Rigor*.
+
+---------------------------------------------------
+TIER 2 – Procedural & Environmental Context (Supportive Layer)
+---------------------------------------------------
+Check for:
+- Environmental control parameters (O₂, humidity, light, sterility).
+- Sample storage/preparation details (temperature, medium, freeze–thaw cycles).
+- Instrument model or calibration mention.
+- Ethical/safety statements (biosafety level, pathogen control).
+- Logical ordering of steps (chronological and coherent).
+
+Cross-links:
+Tier 2 supports *Scientific Rigor* (design clarity) and *Presentation & Documentation* (flow).
+
+---------------------------------------------------
+TIER 3 – Verification & Reference (Integrative Layer)
+---------------------------------------------------
+Check for:
+- Mentions of internal validation, repeatability, or control experiments.
+- References to standard protocols or previous publications.
+- Accessibility of supplementary or external datasets.
+- Software or analysis version numbers (if relevant).
+
+Cross-links:
+Tier 3 contributes to *Data Completeness* and overall *Reproducibility* strength.
+
+---------------------------------------------------
+Output Format
+✅ Good Practices
+⚠️ Missing / Weak Points
+💡 Improvement Suggestions
+---------------------------------------------------

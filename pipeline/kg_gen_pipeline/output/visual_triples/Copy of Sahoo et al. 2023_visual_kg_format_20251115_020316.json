@@ -1,0 +1,2850 @@
+{
+  "summary": {
+    "total_chunks": 5,
+    "errors": 0,
+    "entities": 58,
+    "relations": 84,
+    "cross_chunk_relations": 0,
+    "relations_with_spans": 84,
+    "sections": {
+      "Figure 4 Analysis": {
+        "chunks": 1,
+        "entities": 13,
+        "relations": 15
+      },
+      "Figure 5 Analysis": {
+        "chunks": 1,
+        "entities": 11,
+        "relations": 31
+      },
+      "Figure 6 Analysis": {
+        "chunks": 2,
+        "entities": 19,
+        "relations": 27
+      },
+      "Figure 7 Analysis": {
+        "chunks": 1,
+        "entities": 15,
+        "relations": 11
+      }
+    },
+    "source_file": "kg_gen_pipeline/output/raw_visual_triples/Copy of Sahoo et al. 2023_visual_triples.json",
+    "extraction_method": "visual_triple_extraction",
+    "success_rate": 1.0,
+    "processed_at": "2025-11-15T02:36:36.276929"
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "section": "Figure 4 Analysis",
+      "entities": [
+        "Pressure gauge",
+        "Gearbox",
+        "Magnetic coupling",
+        "Input pressure valve",
+        "Micro-sparger",
+        "Six-bladed Ruston turbine impeller",
+        "Reactor column",
+        "Draft Tube",
+        "Temperature sensor",
+        ",",
+        "Sampling port",
+        "Motor",
+        "Gas separator"
+      ],
+      "relations": [
+        {
+          "subject": "Gas separator",
+          "predicate": "is part of",
+          "object": "Reactor column",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Reactor column",
+          "predicate": ", 23.5), (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Draft Tube",
+          "predicate": "is located within",
+          "object": "Reactor column",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Micro-sparger",
+          "predicate": "is located at bottom of",
+          "object": "Reactor column",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Micro-sparger",
+          "predicate": ", 1), (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Gas separator",
+          "predicate": ", 10), (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Gas separator",
+          "predicate": ", 2), (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Motor",
+          "predicate": "is connected to",
+          "object": "Gearbox",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Gearbox",
+          "predicate": "is connected to",
+          "object": "Magnetic coupling",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Magnetic coupling",
+          "predicate": "is connected to",
+          "object": "Six-bladed Ruston turbine impeller",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Pressure gauge",
+          "predicate": "is connected to",
+          "object": "Magnetic coupling",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Temperature sensor",
+          "predicate": "is located within",
+          "object": "Reactor column",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Six-bladed Ruston turbine impeller",
+          "predicate": ", 15), (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Sampling port",
+          "predicate": ", 4), (",
+          "object": ",",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        },
+        {
+          "subject": "Input pressure valve",
+          "predicate": "is connected to",
+          "object": "Magnetic coupling",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page4_fig1",
+            "page_number": 4,
+            "caption_evidence": "Fig. 1. Schematic diagram of (a) internal loop airlift reactor and (b) high-pressure stirred tank reactor. All the dimensions are in centimetres.",
+            "bbox_coordinates": {
+              "l": 69.392,
+              "t": 421.3359997695312,
+              "r": 530.074,
+              "b": 414.7559997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2108,
+                1277
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              145
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/0",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 69.392,
+                "t": 421.3359997695312,
+                "r": 530.074,
+                "b": 414.7559997695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page4_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 1,
+      "section": "Figure 5 Analysis",
+      "entities": [
+        "5 µm",
+        "70 µm",
+        "100 µm",
+        "volumetric mass transfer coefficient for oxygen",
+        "biomass titer",
+        "10 µm",
+        "significant difference",
+        "volumetric mass transfer coefficient for methane",
+        "biomass productivity",
+        "methane fixation rate",
+        "40 µm"
+      ],
+      "relations": [
+        {
+          "subject": "5 µm",
+          "predicate": "shows",
+          "object": "biomass titer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "10 µm",
+          "predicate": "shows",
+          "object": "biomass titer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "40 µm",
+          "predicate": "shows",
+          "object": "biomass titer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "70 µm",
+          "predicate": "shows",
+          "object": "biomass titer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "100 µm",
+          "predicate": "shows",
+          "object": "biomass titer",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "5 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for oxygen",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "10 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for oxygen",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "40 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for oxygen",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "70 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for oxygen",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "100 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for oxygen",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "5 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "10 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "40 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "70 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "100 µm",
+          "predicate": "shows",
+          "object": "volumetric mass transfer coefficient for methane",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "5 µm",
+          "predicate": "shows",
+          "object": "biomass productivity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "10 µm",
+          "predicate": "shows",
+          "object": "biomass productivity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "40 µm",
+          "predicate": "shows",
+          "object": "biomass productivity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "70 µm",
+          "predicate": "shows",
+          "object": "biomass productivity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "100 µm",
+          "predicate": "shows",
+          "object": "biomass productivity",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "5 µm",
+          "predicate": "shows",
+          "object": "methane fixation rate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "10 µm",
+          "predicate": "shows",
+          "object": "methane fixation rate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "40 µm",
+          "predicate": "shows",
+          "object": "methane fixation rate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "70 µm",
+          "predicate": "shows",
+          "object": "methane fixation rate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "100 µm",
+          "predicate": "shows",
+          "object": "methane fixation rate",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "5 µm",
+          "predicate": "has",
+          "object": "significant difference",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "10 µm",
+          "predicate": "has",
+          "object": "significant difference",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "40 µm",
+          "predicate": "has",
+          "object": "significant difference",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "70 µm",
+          "predicate": "has",
+          "object": "significant difference",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "100 µm",
+          "predicate": "has",
+          "object": "significant difference",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        },
+        {
+          "subject": "5 µm",
+          "predicate": "is compared with",
+          "object": "10 µm",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page5_fig1",
+            "page_number": 5,
+            "caption_evidence": "Fig. 2. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying pore sizes of micro-sparger. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                538
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              375
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/1",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 37.587,
+                "t": 76.24599976953118,
+                "r": 559.791,
+                "b": 50.560999769531236,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page5_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 2,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "85 h⁻¹",
+        "0.7 g L⁻¹ d⁻¹",
+        "1.5 g L⁻¹ d⁻¹",
+        "1.4 g L⁻¹ d⁻¹",
+        "5% paraffin oil",
+        "80 h⁻¹",
+        "100 h⁻¹",
+        "0% vector",
+        "1.3 g L⁻¹ d⁻¹",
+        "0.6 g L⁻¹ d⁻¹",
+        "5% silicone oil",
+        "90 h⁻¹",
+        "1.2 g L⁻¹ d⁻¹",
+        "10% silicone oil",
+        "7 g L⁻¹",
+        "70 h⁻¹",
+        "10% paraffin oil"
+      ],
+      "relations": [
+        {
+          "subject": "0% vector",
+          "predicate": "biomass titer",
+          "object": "7 g L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% paraffin oil",
+          "predicate": "biomass titer",
+          "object": "7 g L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% paraffin oil",
+          "predicate": "biomass titer",
+          "object": "7 g L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% silicone oil",
+          "predicate": "biomass titer",
+          "object": "7 g L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% silicone oil",
+          "predicate": "biomass titer",
+          "object": "7 g L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "0% vector",
+          "predicate": "kLaO₂",
+          "object": "80 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% paraffin oil",
+          "predicate": "kLaO₂",
+          "object": "90 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% paraffin oil",
+          "predicate": "kLaO₂",
+          "object": "85 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% silicone oil",
+          "predicate": "kLaO₂",
+          "object": "90 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% silicone oil",
+          "predicate": "kLaO₂",
+          "object": "100 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "0% vector",
+          "predicate": "kLaCH₄",
+          "object": "70 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% paraffin oil",
+          "predicate": "kLaCH₄",
+          "object": "85 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% paraffin oil",
+          "predicate": "kLaCH₄",
+          "object": "80 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% silicone oil",
+          "predicate": "kLaCH₄",
+          "object": "85 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% silicone oil",
+          "predicate": "kLaCH₄",
+          "object": "85 h⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "0% vector",
+          "predicate": "biomass productivity",
+          "object": "1.2 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% paraffin oil",
+          "predicate": "biomass productivity",
+          "object": "1.4 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% paraffin oil",
+          "predicate": "biomass productivity",
+          "object": "1.3 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% silicone oil",
+          "predicate": "biomass productivity",
+          "object": "1.4 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "10% silicone oil",
+          "predicate": "biomass productivity",
+          "object": "1.5 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "0% vector",
+          "predicate": "methane fixation rate",
+          "object": "0.6 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        },
+        {
+          "subject": "5% paraffin oil",
+          "predicate": "methane fixation rate",
+          "object": "0.7 g L⁻¹ d⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig1",
+            "page_number": 6,
+            "caption_evidence": "Fig. 3. Effect of draft tube on (a) biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate in airlift reactor equipped with micro-sparger of 5 µ m pore size. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 601.7329997695311,
+              "r": 559.767,
+              "b": 575.9339997695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2129,
+                550
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              396
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/2",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 37.587,
+                "t": 601.7329997695311,
+                "r": 559.767,
+                "b": 575.9339997695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 3,
+      "section": "Figure 6 Analysis",
+      "entities": [
+        "With draft tube",
+        "Without draft tube"
+      ],
+      "relations": [
+        {
+          "subject": "With draft tube",
+          "predicate": "has higher biomass titer than",
+          "object": "Without draft tube",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2117,
+                526
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              397
+            ]
+          }
+        },
+        {
+          "subject": "With draft tube",
+          "predicate": "has higher kLaO2 than",
+          "object": "Without draft tube",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2117,
+                526
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              397
+            ]
+          }
+        },
+        {
+          "subject": "With draft tube",
+          "predicate": "has higher kLaCH4 than",
+          "object": "Without draft tube",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2117,
+                526
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              397
+            ]
+          }
+        },
+        {
+          "subject": "With draft tube",
+          "predicate": "has higher biomass productivity than",
+          "object": "Without draft tube",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2117,
+                526
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              397
+            ]
+          }
+        },
+        {
+          "subject": "With draft tube",
+          "predicate": "has higher methane fixation rate than",
+          "object": "Without draft tube",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page6_fig2",
+            "page_number": 6,
+            "caption_evidence": "Fig. 4. (a) Biomass titer, (b) volumetric mass transfer coefficient for oxygen ( kLaO 2 ) and volumetric mass transfer coefficient for methane ( kLaCH 4 ) and (c) biomass productivity and methane fixation rate obtained in airlift reactor with varying concentrations of different mass transfer vectors. Significant differences (p ≤ 0.05) were noted through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 559.791,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                2117,
+                526
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              397
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/3",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 37.587,
+                "t": 76.24599976953118,
+                "r": 559.791,
+                "b": 50.560999769531236,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page6_fig2",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    },
+    {
+      "index": 4,
+      "section": "Figure 7 Analysis",
+      "entities": [
+        "Methanol titre of 1.75 g·L⁻¹",
+        "Methanol titre",
+        "Methanol titre of 1.05 g·L⁻¹",
+        "Absolute pressure (bar)",
+        "Absolute pressure (bar) = 4",
+        "Absolute pressure (bar) = 2",
+        "One-way ANOVA",
+        "Methanol titre under varying Absolute pressure (bar)",
+        "significant differences between methanol titres at different pressures (p ≤ 0.05)",
+        "Methanol titre of 0.55 g·L⁻¹",
+        "Absolute pressure (bar) = 1",
+        "Absolute pressure (bar) = 3",
+        "Methanol titre of 2.00 g·L⁻¹",
+        "Absolute pressure (bar) = 5",
+        "Methanol titre of 1.55 g·L⁻¹"
+      ],
+      "relations": [
+        {
+          "subject": "Methanol titre",
+          "predicate": "measured under",
+          "object": "Absolute pressure (bar)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titre",
+          "predicate": "varies with",
+          "object": "Absolute pressure (bar)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Absolute pressure (bar) = 1",
+          "predicate": "corresponds to",
+          "object": "Methanol titre of 0.55 g·L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Absolute pressure (bar) = 2",
+          "predicate": "corresponds to",
+          "object": "Methanol titre of 1.05 g·L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Absolute pressure (bar) = 3",
+          "predicate": "corresponds to",
+          "object": "Methanol titre of 1.55 g·L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Absolute pressure (bar) = 4",
+          "predicate": "corresponds to",
+          "object": "Methanol titre of 2.00 g·L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Absolute pressure (bar) = 5",
+          "predicate": "corresponds to",
+          "object": "Methanol titre of 1.75 g·L⁻¹",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titre",
+          "predicate": "shows significant difference at",
+          "object": "Absolute pressure (bar) = 4",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "Methanol titre",
+          "predicate": "shows significant difference at",
+          "object": "Absolute pressure (bar) = 5",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "One-way ANOVA",
+          "predicate": "used to analyze",
+          "object": "Methanol titre under varying Absolute pressure (bar)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        },
+        {
+          "subject": "One-way ANOVA",
+          "predicate": "statistically confirms",
+          "object": "significant differences between methanol titres at different pressures (p ≤ 0.05)",
+          "source_span": {
+            "span_type": "visual_figure",
+            "figure_id": "page7_fig1",
+            "page_number": 7,
+            "caption_evidence": "Fig.  5. Methanol  titer  under  varying  operating  pressures  in  high-pressure stirred  tank  reactor.  Significant  differences  (p ≤ 0.05)  were  noted  through statistical analysis using one-way ANOVA.",
+            "bbox_coordinates": {
+              "l": 37.587,
+              "t": 76.24599976953118,
+              "r": 290.779,
+              "b": 50.560999769531236,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "confidence": 0.9,
+            "extraction_method": "visual_triple_extraction",
+            "image_info": {
+              "size": [
+                1019,
+                782
+              ],
+              "mode": "RGB"
+            },
+            "charspan": [
+              0,
+              207
+            ]
+          }
+        }
+      ],
+      "provenance": [
+        {
+          "docling_ref": "#/figures/4",
+          "label": "figure",
+          "pages": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 37.587,
+                "t": 76.24599976953118,
+                "r": 290.779,
+                "b": 50.560999769531236,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "coord_origin": "BOTTOMLEFT"
+            }
+          ]
+        }
+      ],
+      "figure_id": "page7_fig1",
+      "success": true,
+      "extraction_method": "visual_triple_extraction"
+    }
+  ]
+}

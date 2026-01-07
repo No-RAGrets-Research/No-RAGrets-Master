@@ -1,0 +1,3704 @@
+{
+  "total_chunks": 8,
+  "errors": 0,
+  "entities": 149,
+  "relations": 98,
+  "cross_chunk_relations": 0,
+  "relations_with_spans": 98,
+  "sections": {
+    "Biosynthesis of Methanol from CO, and CH, by Methanotrophic Bacteria": {
+      "chunks": 1,
+      "entities": 13,
+      "relations": 13
+    },
+    "INTRODUCTION": {
+      "chunks": 1,
+      "entities": 32,
+      "relations": 22
+    },
+    "Biotechnology, 3 (1): 67-71, 2004": {
+      "chunks": 3,
+      "entities": 43,
+      "relations": 25
+    },
+    "MATERIALS AND METHODS": {
+      "chunks": 1,
+      "entities": 10,
+      "relations": 5
+    },
+    "RESULTS AND DISCUSSION": {
+      "chunks": 1,
+      "entities": 9,
+      "relations": 18
+    },
+    "ACKNOWLEDGMENTS": {
+      "chunks": 1,
+      "entities": 57,
+      "relations": 15
+    }
+  },
+  "all_relations": [
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "is used as biocatalysts for",
+      "object": "reducing carbon dioxide to methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Reducing carbon dioxide to methanol is an opposite reaction of methanol dioxide to methanol was successfully achieved using resting cells of methanotrophic bacteria of Methylosinus trichosporium IMV 3011 as biocatalysts.",
+        "document_offsets": {
+          "start": 660,
+          "end": 880
+        },
+        "subject_positions": [
+          {
+            "start": 168,
+            "end": 203,
+            "sentence_id": 2,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 35,
+            "sentence_id": 2,
+            "matched_text": "Reducing carbon dioxide to methanol"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Shao-feng Hua",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 55,
+            "sentence_id": 0,
+            "matched_text": "Shao-feng Hua"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "reducing equivalent regeneration",
+      "predicate": "is used for",
+      "object": "regeneration of reducing equivalent",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 10,
+        "text_evidence": "For long-term maintenance of methanol synthesis, methane was selected as a substrate for regeneration of reducing equivalent. Key words: Carbon dioxide reduction, methane oxidation, methanol production, methanotrophic bacteria, reducing equivalent regeneration",
+        "document_offsets": {
+          "start": 1113,
+          "end": 2070
+        },
+        "subject_positions": [
+          {
+            "start": 925,
+            "end": 957,
+            "sentence_id": 10,
+            "matched_text": "reducing equivalent regeneration"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 124,
+            "sentence_id": 5,
+            "matched_text": "regeneration of reducing equivalent"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Li-Min Zhu",
+      "predicate": "is affiliated with",
+      "object": "College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051, China",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 96,
+            "sentence_id": 0,
+            "matched_text": "Li-Min Zhu"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Jia-Ying Xin",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "Jia-Ying Xin"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Jian-zhong Niu",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 40,
+            "sentence_id": 0,
+            "matched_text": "Jian-zhong Niu"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Shu-Ben Li",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 70,
+            "end": 80,
+            "sentence_id": 0,
+            "matched_text": "Shu-Ben Li"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Chun-Gu Xia",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 57,
+            "end": 68,
+            "sentence_id": 0,
+            "matched_text": "Chun-Gu Xia"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Carbon dioxide reduction",
+      "predicate": "is the opposite reaction of",
+      "object": "methanol dioxide to methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "Reducing carbon dioxide to methanol is an opposite reaction of methanol dioxide to methanol was successfully achieved using resting cells of methanotrophic bacteria of Methylosinus trichosporium IMV 3011 as biocatalysts. Key words: Carbon dioxide reduction, methane oxidation, methanol production, methanotrophic bacteria, reducing equivalent regeneration",
+        "document_offsets": {
+          "start": 660,
+          "end": 2070
+        },
+        "subject_positions": [
+          {
+            "start": 1287,
+            "end": 1311,
+            "sentence_id": 10,
+            "matched_text": "Carbon dioxide reduction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 91,
+            "sentence_id": 2,
+            "matched_text": "methanol dioxide to methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Li-Min Zhu",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 86,
+            "end": 96,
+            "sentence_id": 0,
+            "matched_text": "Li-Min Zhu"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "methanol production",
+      "predicate": "requires reducing equivalent to push the reaction along against energy laws",
+      "object": "methane",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 10,
+        "text_evidence": "China\n\nAbstract: Methanotrophs can oxidize methane to carbon dioxide through sequential reactions catalyzed by a series of enzymes including methane monooxygenase, methanol dehydrogenase, formaldehyde dehydrogenase and formate dehydrogenase. For long-term maintenance of methanol synthesis, methane was selected as a substrate for regeneration of reducing equivalent. By alternate reaction and regeneration, the results show that resting cell of M. trichosporium IMV 3011 can be used for many times to catalyze the reduction of carbon dioxide, in which the origin of the reducing equivalent is methane. It is possible to theoretically deduce that the overall reaction for methanol synthesis can be completed by biocatalysis using greenhouse gases (carbon dioxide and methane) as raw materials without adding hydrogen. Key words: Carbon dioxide reduction, methane oxidation, methanol production, methanotrophic bacteria, reducing equivalent regeneration",
+        "document_offsets": {
+          "start": 418,
+          "end": 2070
+        },
+        "subject_positions": [
+          {
+            "start": 1574,
+            "end": 1593,
+            "sentence_id": 10,
+            "matched_text": "methanol production"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 43,
+            "end": 50,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 141,
+            "end": 148,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 744,
+            "end": 751,
+            "sentence_id": 5,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1047,
+            "end": 1054,
+            "sentence_id": 6,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1220,
+            "end": 1227,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1555,
+            "end": 1562,
+            "sentence_id": 10,
+            "matched_text": "methane"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "methane oxidation",
+      "predicate": "is a reaction catalyzed by",
+      "object": "methane monooxygenase",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 10,
+        "text_evidence": "China\n\nAbstract: Methanotrophs can oxidize methane to carbon dioxide through sequential reactions catalyzed by a series of enzymes including methane monooxygenase, methanol dehydrogenase, formaldehyde dehydrogenase and formate dehydrogenase. Key words: Carbon dioxide reduction, methane oxidation, methanol production, methanotrophic bacteria, reducing equivalent regeneration",
+        "document_offsets": {
+          "start": 418,
+          "end": 2070
+        },
+        "subject_positions": [
+          {
+            "start": 1555,
+            "end": 1572,
+            "sentence_id": 10,
+            "matched_text": "methane oxidation"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 141,
+            "end": 162,
+            "sentence_id": 1,
+            "matched_text": "methane monooxygenase"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Jun-Ru Cui",
+      "predicate": "is affiliated with",
+      "object": "State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "single_sentence",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Jia-Ying Xin, Jun-Ru Cui, Jian-zhong Niu, Shao-feng Hua, Chun-Gu Xia, Shu-Ben Li and 'Li-Min Zhu State Key Laboratory for Oxo Synthesis and Selective Oxidation, Lanzhou Institute of Chemical Physics,\n\nChinese Academy of Sciences, Lanzhou 730000, China\n\n'College of Chemistry and Chemical Engineering, Donghua University, Shanghai 200051,",
+        "document_offsets": {
+          "start": 80,
+          "end": 417
+        },
+        "subject_positions": [
+          {
+            "start": 14,
+            "end": 24,
+            "sentence_id": 0,
+            "matched_text": "Jun-Ru Cui"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "reducing equivalent for each dehydrogenase-catalyzed reaction,",
+      "predicate": "is",
+      "object": "nicotinamide adenine dinucleotide (NADH)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "However, the process presents a number of technical problems, for example, in order to keep the conversion process going, costly reduced nicotinamide adenine dinucleotide (NADH) must be used as reducing equivalent for each dehydrogenase-catalyzed reaction.",
+        "document_offsets": {
+          "start": 3325,
+          "end": 3581
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "conventional methods for synthesizing methanol from CO,",
+      "predicate": "suffer from drawbacks such as",
+      "object": "high energy consumption",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments.",
+        "document_offsets": {
+          "start": 2674,
+          "end": 2912
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 117,
+            "end": 140,
+            "sentence_id": 7,
+            "matched_text": "high energy consumption"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "conversion of carbon dioxide to methanol",
+      "predicate": "is difficult under mild conditions in chemical catalysis",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 6,
+        "sentence_end": 14,
+        "text_evidence": "However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2538,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 13,
+            "end": 53,
+            "sentence_id": 6,
+            "matched_text": "conversion of carbon dioxide to methanol"
+          },
+          {
+            "start": 1428,
+            "end": 1468,
+            "sentence_id": 14,
+            "matched_text": "conversion of carbon dioxide to methanol"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "the process of enzymatically coupled sequential reduction of CO, to methanol,",
+      "predicate": "presents technical problems such as",
+      "object": "difficulty in proportioning the suitable enzyme dosage",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is a precursor to",
+      "object": "other compounds",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. It can be used directly as an alternative fuel source, as antifreeze and as a precursor to other compounds. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 205,
+            "end": 220,
+            "sentence_id": 2,
+            "matched_text": "other compounds"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "synthesis of methanol from carbon dioxide",
+      "predicate": "has advantages over",
+      "object": "conventional methods for synthesizing methanol from CO,",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 4,
+        "sentence_end": 7,
+        "text_evidence": "Synthesis of methanol from carbon dioxide has several obvious advantages. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments.",
+        "document_offsets": {
+          "start": 2345,
+          "end": 2912
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 41,
+            "sentence_id": 4,
+            "matched_text": "Synthesis of methanol from carbon dioxide"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is a building block for",
+      "object": "other chemicals",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 97,
+            "end": 112,
+            "sentence_id": 1,
+            "matched_text": "other chemicals"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be produced from",
+      "object": "methane",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 262,
+            "end": 269,
+            "sentence_id": 3,
+            "matched_text": "methane"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be used as",
+      "object": "alternative fuel source",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. It can be used directly as an alternative fuel source, as antifreeze and as a precursor to other compounds. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 144,
+            "end": 167,
+            "sentence_id": 2,
+            "matched_text": "alternative fuel source"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is used as",
+      "object": "antifreeze",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. It can be used directly as an alternative fuel source, as antifreeze and as a precursor to other compounds. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 172,
+            "end": 182,
+            "sentence_id": 2,
+            "matched_text": "antifreeze"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be produced from",
+      "object": "coal",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 296,
+            "end": 300,
+            "sentence_id": 3,
+            "matched_text": "coal"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "enzymatically coupled sequential reduction of CO, to methanol,",
+      "predicate": "is appealing due to",
+      "object": "the ability of dehydrogenases to catalyze reverse reactions in the presence of an excess of reducing equivalent",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing.",
+        "document_offsets": {
+          "start": 2913,
+          "end": 3071
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "the process of enzymatically coupled sequential reduction of CO, to methanol,",
+      "predicate": "presents technical problems such as",
+      "object": "difficulty in controlling the multi-step reaction in a given reaction sequence",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is used in",
+      "object": "chemical industry",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 24,
+            "end": 41,
+            "sentence_id": 0,
+            "matched_text": "chemical industry"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be produced from",
+      "object": "biomass",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 287,
+            "end": 294,
+            "sentence_id": 3,
+            "matched_text": "biomass"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "conventional methods for synthesizing methanol from CO,",
+      "predicate": "suffer from drawbacks such as",
+      "object": "costs",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments.",
+        "document_offsets": {
+          "start": 2674,
+          "end": 2912
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 115,
+            "sentence_id": 7,
+            "matched_text": "costs"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be produced from",
+      "object": "heavy fuel oils",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 302,
+            "end": 317,
+            "sentence_id": 3,
+            "matched_text": "heavy fuel oils"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "conventional methods for synthesizing methanol from CO,",
+      "predicate": "suffer from drawbacks such as",
+      "object": "inefficiencies",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments.",
+        "document_offsets": {
+          "start": 2674,
+          "end": 2912
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 94,
+            "end": 108,
+            "sentence_id": 7,
+            "matched_text": "inefficiencies"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "can be produced from",
+      "object": "carbon dioxide",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 14,
+        "text_evidence": "Methanol is used in the chemical industry in a variety of ways. Methanol is a building block for other chemicals. Methanol can be produced chemically via methane, carbon dioxide, biomass, coal, heavy fuel oils etcll-s) Synthesis of methanol from carbon dioxide has several obvious advantages. For example, carbon dioxide is one of the greenhouse gases, which have been theorized to contribute to global warming. However, the conversion of carbon dioxide to methanol is fundamentally difficult to achieve under mild condition in chemical catalysis. Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments. Enzymatically coupled sequential reduction of CO, to methanol, using a series of reaction catalyzed by three different dehydrogenases, particularly appealing. Accordingly, a new technique for conversion of carbon dioxide to methanol that alleviates such drawbacks is desired.",
+        "document_offsets": {
+          "start": 2018,
+          "end": 4051
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "sentence_id": 1,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 222,
+            "end": 230,
+            "sentence_id": 3,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 565,
+            "end": 573,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 694,
+            "end": 702,
+            "sentence_id": 7,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 948,
+            "end": 956,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1980,
+            "end": 1988,
+            "sentence_id": 14,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 271,
+            "end": 285,
+            "sentence_id": 3,
+            "matched_text": "carbon dioxide"
+          },
+          {
+            "start": 354,
+            "end": 368,
+            "sentence_id": 4,
+            "matched_text": "carbon dioxide"
+          },
+          {
+            "start": 414,
+            "end": 428,
+            "sentence_id": 5,
+            "matched_text": "carbon dioxide"
+          },
+          {
+            "start": 547,
+            "end": 561,
+            "sentence_id": 6,
+            "matched_text": "carbon dioxide"
+          },
+          {
+            "start": 1962,
+            "end": 1976,
+            "sentence_id": 14,
+            "matched_text": "carbon dioxide"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "microorganisms,",
+      "predicate": "can be used as biocatalysts for the reduction of CO, to",
+      "object": "none",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "intermediates of the pathway,",
+      "predicate": "may be used in other reactions, diluted and exposed to",
+      "object": "bulk solvent",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 13,
+        "sentence_end": 13,
+        "text_evidence": "In addition, intermediates of the pathway may be used in other reactions, diluted and exposed to bulk solvent where they may be degraded.",
+        "document_offsets": {
+          "start": 3794,
+          "end": 3933
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 97,
+            "end": 109,
+            "sentence_id": 13,
+            "matched_text": "bulk solvent"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "conventional methods for synthesizing methanol from CO,",
+      "predicate": "require special equipment adapted for",
+      "object": "high temperature or highly corrosive environments",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Conventional methods for synthesizing methanol from CO, suffer from certain drawbacks such as inefficiencies, costs, high energy consumption and the need for special equipment adapted for high temperature or highly corrosive environments.",
+        "document_offsets": {
+          "start": 2674,
+          "end": 2912
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 188,
+            "end": 237,
+            "sentence_id": 7,
+            "matched_text": "high temperature or highly corrosive environments"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "methanol",
+      "predicate": "accumulates",
+      "object": "in the CO, incubations",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "CH,OH\n\ncO,\n\n< NADH, NAD, NADH, NAD, PQQH, POQ X\n\nCo, L\n\n\u0441\u043d,\u041e\u043d)\n\nFate DH\n\nFad DH\n\nMDH\n\nCHA\n\nNADH, MO POQ POOH, NAD NADH' NAD NADH\n\nCH,\n\nMMO\n\nMDH\n\nFald DH\n\nFuDH\n\n.\u0421\u041e,\n\ncO,\n\nScheme 1a: Biocatalytic methanol\n\nsynthesis from carbon dioxide\n\nAssimllated into biomass\n\nScheme 1b: Methanol Dehydrogenase MMO: Methane monooxygenase\n\nmethanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. Unfortunately, up to now, there are no known organisms whose normal biological role is reduction of CO, to methanol. In these organisms, methane is oxidized via methanol, formaldehyde and formate to carbon dioxide formaldehyde incorporated into cell biomass. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.). Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations. For maintenance of methanol synthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration (Scheme 1b.).",
+        "document_offsets": {
+          "start": 4182,
+          "end": 6201
+        },
+        "subject_positions": [
+          {
+            "start": 195,
+            "end": 203,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 387,
+            "end": 395,
+            "sentence_id": 2,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 438,
+            "end": 446,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 728,
+            "end": 736,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 913,
+            "end": 921,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1327,
+            "end": 1335,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1371,
+            "end": 1379,
+            "sentence_id": 8,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1454,
+            "end": 1462,
+            "sentence_id": 9,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1570,
+            "end": 1578,
+            "sentence_id": 9,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1817,
+            "end": 1825,
+            "sentence_id": 10,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1897,
+            "end": 1905,
+            "sentence_id": 11,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1854,
+            "end": 1876,
+            "sentence_id": 10,
+            "matched_text": "in the CO, incubations"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol Dehydrogenase",
+      "predicate": "is involved in",
+      "object": "the oxidation of methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 2,
+        "sentence_end": 9,
+        "text_evidence": "Methanol Dehydrogenase MMO: The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.).",
+        "document_offsets": {
+          "start": 4569,
+          "end": 5879
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 22,
+            "sentence_id": 2,
+            "matched_text": "Methanol Dehydrogenase"
+          },
+          {
+            "start": 1183,
+            "end": 1205,
+            "sentence_id": 9,
+            "matched_text": "methanol dehydrogenase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 967,
+            "end": 992,
+            "sentence_id": 8,
+            "matched_text": "the oxidation of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methane monooxygenase",
+      "predicate": "cannot effectively catalyze",
+      "object": "the reverse reaction of methane monooxygenation",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 10,
+        "text_evidence": "Methane monooxygenase\n\nmethanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction. Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations.",
+        "document_offsets": {
+          "start": 4597,
+          "end": 6059
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "Methane monooxygenase"
+          },
+          {
+            "start": 738,
+            "end": 759,
+            "sentence_id": 7,
+            "matched_text": "methane monooxygenase"
+          },
+          {
+            "start": 1289,
+            "end": 1310,
+            "sentence_id": 10,
+            "matched_text": "methane monooxygenase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1339,
+            "end": 1386,
+            "sentence_id": 10,
+            "matched_text": "the reverse reaction of methane monooxygenation"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "CH",
+      "predicate": "is",
+      "object": "OH",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 11,
+        "text_evidence": "CH,OH\n\ncO,\n\n< NADH, NAD, NADH, NAD, PQQH, POQ X\n\nCo, L\n\n\u0441\u043d,\u041e\u043d)\n\nFate DH\n\nFad DH\n\nMDH\n\nCHA\n\nNADH, MO POQ POOH, NAD NADH' NAD NADH\n\nCH,\n\nMMO\n\nMDH\n\nFald DH\n\nFuDH\n\n.\u0421\u041e,\n\ncO,\n\nScheme 1a: Biocatalytic methanol\n\nsynthesis from carbon dioxide\n\nAssimllated into biomass\n\nScheme 1b: The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.). For maintenance of methanol synthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration (Scheme 1b.).",
+        "document_offsets": {
+          "start": 4182,
+          "end": 6201
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 0,
+            "matched_text": "CH"
+          },
+          {
+            "start": 130,
+            "end": 132,
+            "sentence_id": 0,
+            "matched_text": "CH"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 3,
+            "end": 5,
+            "sentence_id": 0,
+            "matched_text": "OH"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "ATP synthesis",
+      "predicate": "occurs",
+      "object": "partly in the methane monooxygenase reaction",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction.",
+        "document_offsets": {
+          "start": 5193,
+          "end": 5366
+        },
+        "subject_positions": [
+          {
+            "start": 105,
+            "end": 118,
+            "sentence_id": 7,
+            "matched_text": "ATP synthesis"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "CO",
+      "predicate": "oxidized via",
+      "object": "methanol, formaldehyde and formate to carbon dioxide",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 10,
+        "text_evidence": "CH,OH\n\ncO,\n\n< NADH, NAD, NADH, NAD, PQQH, POQ X\n\nCo, L\n\n\u0441\u043d,\u041e\u043d)\n\nFate DH\n\nFad DH\n\nMDH\n\nCHA\n\nNADH, MO POQ POOH, NAD NADH' NAD NADH\n\nCH,\n\nMMO\n\nMDH\n\nFald DH\n\nFuDH\n\n.\u0421\u041e,\n\ncO,\n\nScheme 1a: Biocatalytic methanol\n\nsynthesis from carbon dioxide\n\nAssimllated into biomass\n\nScheme 1b: Methane monooxygenase\n\nmethanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. Unfortunately, up to now, there are no known organisms whose normal biological role is reduction of CO, to methanol. In these organisms, methane is oxidized via methanol, formaldehyde and formate to carbon dioxide formaldehyde incorporated into cell biomass. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.). Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations.",
+        "document_offsets": {
+          "start": 4182,
+          "end": 6059
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 9,
+            "sentence_id": 0,
+            "matched_text": "cO"
+          },
+          {
+            "start": 49,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "Co"
+          },
+          {
+            "start": 166,
+            "end": 168,
+            "sentence_id": 0,
+            "matched_text": "cO"
+          },
+          {
+            "start": 721,
+            "end": 723,
+            "sentence_id": 4,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1189,
+            "end": 1191,
+            "sentence_id": 8,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1320,
+            "end": 1322,
+            "sentence_id": 8,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1447,
+            "end": 1449,
+            "sentence_id": 9,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1861,
+            "end": 1863,
+            "sentence_id": 10,
+            "matched_text": "CO"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 913,
+            "end": 965,
+            "sentence_id": 6,
+            "matched_text": "methanol, formaldehyde and formate to carbon dioxide"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "CO2 (from methane oxidation)",
+      "predicate": "emitted",
+      "object": "partly",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 7,
+        "sentence_end": 8,
+        "text_evidence": "The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol.",
+        "document_offsets": {
+          "start": 5193,
+          "end": 5562
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 57,
+            "end": 63,
+            "sentence_id": 7,
+            "matched_text": "partly"
+          },
+          {
+            "start": 123,
+            "end": 129,
+            "sentence_id": 7,
+            "matched_text": "partly"
+          },
+          {
+            "start": 217,
+            "end": 223,
+            "sentence_id": 8,
+            "matched_text": "partly"
+          },
+          {
+            "start": 236,
+            "end": 242,
+            "sentence_id": 8,
+            "matched_text": "partly"
+          }
+        ],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "methanotrophs",
+      "predicate": "can utilize",
+      "object": "methane as their sole carbon source and energy source for growing",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "There are microorganisms called methanotrophs that can utilize methane as their sole carbon source and energy source for growing.",
+        "document_offsets": {
+          "start": 4921,
+          "end": 5050
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 45,
+            "sentence_id": 5,
+            "matched_text": "methanotrophs"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 128,
+            "sentence_id": 5,
+            "matched_text": "methane as their sole carbon source and energy source for growing"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Formaldehyde Dehydrogenase",
+      "predicate": "is involved in",
+      "object": "the oxidation of methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 9,
+        "text_evidence": "Reducing equivalent\n\nregeneration by methane\n\nF. DH: Formate Dehydrogenase FadDH: Formaldehyde Dehydrogenase MDH: The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.).",
+        "document_offsets": {
+          "start": 4455,
+          "end": 5879
+        },
+        "subject_positions": [
+          {
+            "start": 82,
+            "end": 108,
+            "sentence_id": 1,
+            "matched_text": "Formaldehyde Dehydrogenase"
+          },
+          {
+            "start": 1266,
+            "end": 1292,
+            "sentence_id": 9,
+            "matched_text": "formaldehyde dehydrogenase"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1081,
+            "end": 1106,
+            "sentence_id": 8,
+            "matched_text": "the oxidation of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "methane",
+      "predicate": "is selected as a substrate for",
+      "object": "reducing equivalent regeneration (Scheme 1b.)",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 11,
+        "text_evidence": "Reducing equivalent\n\nregeneration by methane\n\nF. DH: Formate Dehydrogenase FadDH: Formaldehyde Dehydrogenase MDH: Methane monooxygenase\n\nmethanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. There are microorganisms called methanotrophs that can utilize methane as their sole carbon source and energy source for growing. In these organisms, methane is oxidized via methanol, formaldehyde and formate to carbon dioxide formaldehyde incorporated into cell biomass. The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol. Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations. For maintenance of methanol synthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration (Scheme 1b.).",
+        "document_offsets": {
+          "start": 4455,
+          "end": 6201
+        },
+        "subject_positions": [
+          {
+            "start": 37,
+            "end": 44,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          },
+          {
+            "start": 142,
+            "end": 149,
+            "sentence_id": 3,
+            "matched_text": "Methane"
+          },
+          {
+            "start": 529,
+            "end": 536,
+            "sentence_id": 5,
+            "matched_text": "methane"
+          },
+          {
+            "start": 616,
+            "end": 623,
+            "sentence_id": 6,
+            "matched_text": "methane"
+          },
+          {
+            "start": 880,
+            "end": 887,
+            "sentence_id": 7,
+            "matched_text": "methane"
+          },
+          {
+            "start": 934,
+            "end": 941,
+            "sentence_id": 8,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1431,
+            "end": 1438,
+            "sentence_id": 10,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1505,
+            "end": 1512,
+            "sentence_id": 10,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1660,
+            "end": 1667,
+            "sentence_id": 11,
+            "matched_text": "methane"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "electron transport chain",
+      "predicate": "is involved in",
+      "object": "ATP synthesis",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "The reducing equivalents produced in these reactions are partly sent to the electron transport chain for ATP synthesis and partly used in the methane monooxygenase reaction.",
+        "document_offsets": {
+          "start": 5193,
+          "end": 5366
+        },
+        "subject_positions": [
+          {
+            "start": 76,
+            "end": 100,
+            "sentence_id": 7,
+            "matched_text": "electron transport chain"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 105,
+            "end": 118,
+            "sentence_id": 7,
+            "matched_text": "ATP synthesis"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Formate dehydrogenase",
+      "predicate": "reduces",
+      "object": "CO2 to methanol",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 1,
+        "sentence_end": 9,
+        "text_evidence": "Reducing equivalent\n\nregeneration by methane\n\nF. DH: Formate Dehydrogenase FadDH: Formaldehyde Dehydrogenase MDH: In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.).",
+        "document_offsets": {
+          "start": 4455,
+          "end": 5879
+        },
+        "subject_positions": [
+          {
+            "start": 53,
+            "end": 74,
+            "sentence_id": 1,
+            "matched_text": "Formate Dehydrogenase"
+          },
+          {
+            "start": 1243,
+            "end": 1264,
+            "sentence_id": 9,
+            "matched_text": "formate dehydrogenase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "CO",
+      "predicate": "incorporated into",
+      "object": "cell biomass via the serine pathway",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 10,
+        "text_evidence": "CH,OH\n\ncO,\n\n< NADH, NAD, NADH, NAD, PQQH, POQ X\n\nCo, L\n\n\u0441\u043d,\u041e\u043d)\n\nFate DH\n\nFad DH\n\nMDH\n\nCHA\n\nNADH, MO POQ POOH, NAD NADH' NAD NADH\n\nCH,\n\nMMO\n\nMDH\n\nFald DH\n\nFuDH\n\n.\u0421\u041e,\n\ncO,\n\nScheme 1a: Biocatalytic methanol\n\nsynthesis from carbon dioxide\n\nAssimllated into biomass\n\nScheme 1b: Methane monooxygenase\n\nmethanol, to overcome the above-mentioned drawbacks, since the enzymes are likely to be more stable in the cell than in the purified form and will ensure a continuing supply of NADH. Unfortunately, up to now, there are no known organisms whose normal biological role is reduction of CO, to methanol. In these organisms, methane is oxidized via methanol, formaldehyde and formate to carbon dioxide formaldehyde incorporated into cell biomass. The CO, produced from methane oxidation is partly emitted and partly incorporated into cell biomass via the serine pathway'\"\n\nReducing CO, to methanol is the reverse of the oxidation of methanol. In this paper, we show that it is possible and feasible to reduce CO, to methanol by methanotrophic whole cells containing the enzymes formate dehydrogenase, formaldehyde dehydrogenase and methanol dehydrogenase, despite the fact that these enzymes normally oxidize their substrates in vivo or in vitro (Scheme la.). Since methane monooxygenase cannot effectively catalyze the reverse reaction of methane monooxygenation, extracellular methanol accumulation has been found in the CO, incubations.",
+        "document_offsets": {
+          "start": 4182,
+          "end": 6059
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 9,
+            "sentence_id": 0,
+            "matched_text": "cO"
+          },
+          {
+            "start": 49,
+            "end": 51,
+            "sentence_id": 0,
+            "matched_text": "Co"
+          },
+          {
+            "start": 166,
+            "end": 168,
+            "sentence_id": 0,
+            "matched_text": "cO"
+          },
+          {
+            "start": 721,
+            "end": 723,
+            "sentence_id": 4,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1189,
+            "end": 1191,
+            "sentence_id": 8,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1320,
+            "end": 1322,
+            "sentence_id": 8,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1447,
+            "end": 1449,
+            "sentence_id": 9,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1861,
+            "end": 1863,
+            "sentence_id": 10,
+            "matched_text": "CO"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1272,
+            "end": 1307,
+            "sentence_id": 8,
+            "matched_text": "cell biomass via the serine pathway"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Batch experiments",
+      "predicate": "were conducted in",
+      "object": "100 ml sealed conical flasks",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 3,
+        "sentence_end": 9,
+        "text_evidence": "Cells were resuspended in the same buffer containing 5 mM MgCl, and used in batch experiments. Repetitive batch experiments: The batch experiments were conducted in a 100 ml sealed conical flasks (under atmospheric pressure) containing 10 ml washed cell suspension.",
+        "document_offsets": {
+          "start": 6955,
+          "end": 7913
+        },
+        "subject_positions": [
+          {
+            "start": 76,
+            "end": 93,
+            "sentence_id": 3,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 799,
+            "end": 816,
+            "sentence_id": 9,
+            "matched_text": "batch experiments"
+          },
+          {
+            "start": 822,
+            "end": 839,
+            "sentence_id": 9,
+            "matched_text": "batch experiments"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 860,
+            "end": 888,
+            "sentence_id": 9,
+            "matched_text": "100 ml sealed conical flasks"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "GC measurements",
+      "predicate": "used for evaluating the concentration of methanol produced",
+      "object": "0.5 ul of the reaction solution",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "To evaluate the concentration of methanol produced as a result of the cell suspension catalyzed reaction, 0.5 ul of the reaction solution was used for GC measurements.",
+        "document_offsets": {
+          "start": 7451,
+          "end": 7618
+        },
+        "subject_positions": [
+          {
+            "start": 151,
+            "end": 166,
+            "sentence_id": 7,
+            "matched_text": "GC measurements"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 106,
+            "end": 137,
+            "sentence_id": 7,
+            "matched_text": "0.5 ul of the reaction solution"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Large-scale cultivation of cells",
+      "predicate": "was carried out in",
+      "object": "15 liter, continuous-gas feed fermentor (LH1075, UK)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The following nitrate mineral salt medium was used for the methanotroph large-scale cultivation, (gl): NH,Cl, 0.5; KHPO, 0.49; KH,\u0420\u041e47H,0, 0.40; MgSO,7H,0, 0.3; CaCl,2H,0, 0.02; KNO,, 1.6; NaCl, 0.3; FeSO,7H,0,0.004;CuSO,5H,0,0.004; MnSO,H,0, 0.0004; ZnSO,7 H,O, 0.00034; Na MoO, 2H,0, 0.00024; pH 7.0 Large-scale cultivation of cells was carried out in a 15 liter, continuous-gas feed fermentor (LH1075, UK) under an atmosphere of methane and air (1:10, v/v) at 32\u00b0C for about 96 h. Cells were harvested by centrifuge at 9,000 g for 10 min and washed twice with 20 mM phosphate buffer (pH 7.0).",
+        "document_offsets": {
+          "start": 6359,
+          "end": 6954
+        },
+        "subject_positions": [
+          {
+            "start": 302,
+            "end": 334,
+            "sentence_id": 2,
+            "matched_text": "Large-scale cultivation of cells"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methylosinus trichosporium IMV 3011",
+      "predicate": "was obtained from",
+      "object": "Institute of Microbiology and Virology (Kiev. USSR)",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Culture of Methylosinus trichosporium IMV 3011: Methylosinus trichosporium IMV 3011 cells were obtained from the Institute of Microbiology and Virology (Kiev. USSR).",
+        "document_offsets": {
+          "start": 6193,
+          "end": 6358
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          },
+          {
+            "start": 48,
+            "end": 83,
+            "sentence_id": 1,
+            "matched_text": "Methylosinus trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Analytical methods",
+      "predicate": "was used for determining methanol formation from carbon dioxide",
+      "object": "gas chromatograph",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Analytical methods: Methanol formation from carbon dioxide was determined chromatographically using a gas chromatograph equipped with a capillary GC column (\u20ac0.23 mm \u00d7 30 m; stationary phase, SE-54) and a flame ionisation detector (FID).",
+        "document_offsets": {
+          "start": 7051,
+          "end": 7288
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 18,
+            "sentence_id": 4,
+            "matched_text": "Analytical methods"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 102,
+            "end": 119,
+            "sentence_id": 4,
+            "matched_text": "gas chromatograph"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "So no formaldehyde or formic acid was observed",
+      "predicate": "in the CO2 incubations",
+      "object": "The oxidation of methane is catalyzed by methane monooxygenases (MMO)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 8,
+        "sentence_end": 9,
+        "text_evidence": "So no formaldehyde or formic acid was observed in the CO, incubations. The oxidation of methane is catalyzed by methane monooxygenases (MMO), which are classical monooxygenases that utilize two reducing equivalents to split the O-O bonds of dioxygen.",
+        "document_offsets": {
+          "start": 9514,
+          "end": 9764
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 46,
+            "sentence_id": 8,
+            "matched_text": "So no formaldehyde or formic acid was observed"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "The production of methanol from CO2 reached a maximum",
+      "predicate": "after 24 h of incubation in batch experiments",
+      "object": "The amount of methanol slowly declined after further incubation",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 15,
+        "sentence_end": 15,
+        "text_evidence": "The amount of methanol slowly declined after further incubation, perhaps through enzymatic or nonenzymatic degradation of methanol, depletion of intracellular reducing equivalents (eg. NAD(P)H or PQQH) or due to product inhibition.",
+        "document_offsets": {
+          "start": 10290,
+          "end": 10523
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 63,
+            "sentence_id": 15,
+            "matched_text": "The amount of methanol slowly declined after further incubation"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "This in turn perhaps consumes more expensive material",
+      "predicate": "defeating the purpose of the initial conversion",
+      "object": "In this paper, the effect of methane on the production of methanol was also studied",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 25,
+        "sentence_end": 26,
+        "text_evidence": "This in turn perhaps consumes more expensive material, defeating the purpose of the initial conversion. In this paper, the effect of methane on the production of methanol was also studied.",
+        "document_offsets": {
+          "start": 11501,
+          "end": 11690
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 53,
+            "sentence_id": 25,
+            "matched_text": "This in turn perhaps consumes more expensive material"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 105,
+            "end": 188,
+            "sentence_id": 26,
+            "matched_text": "In this paper, the effect of methane on the production of methanol was also studied"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The result suggests that methane can be simultaneously oxidized into methanol",
+      "predicate": "during reduction of CO2 to methanol and the further oxidation of methanol can be perfectly inhibited in the presence of an excess of CO,",
+      "object": "In contrast, no methanol was produced when methane and oxygen were used solely as substrates",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 31,
+        "sentence_end": 32,
+        "text_evidence": "The result suggests that methane can be simultaneously oxidized into methanol during reduction of CO, to methanol and the further oxidation of methanol can be perfectly inhibited in the presence of an excess of CO,. In contrast, no methanol was produced when methane and oxygen were used solely as substrates.",
+        "document_offsets": {
+          "start": 11994,
+          "end": 12305
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 77,
+            "sentence_id": 31,
+            "matched_text": "The result suggests that methane can be simultaneously oxidized into methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 216,
+            "end": 308,
+            "sentence_id": 32,
+            "matched_text": "In contrast, no methanol was produced when methane and oxygen were used solely as substrates"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The effect of CO2 concentrations",
+      "predicate": "was examined using various concentrations of CO2",
+      "object": "A CO2 concentration in the gaseous phase of 40% supported maximum methanol production",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The product methanol is subsequently oxidized by dehydrogenases",
+      "predicate": "To obtained methanol from methane by methanotrophic bacteria, an inhibitor for methanol dehydrogenase must be used to prevent further oxidation",
+      "object": "Also, equal molar reducer such as formate must be used to drive the reaction 8,9",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 22,
+        "sentence_end": 24,
+        "text_evidence": "The effect of methane on the production of methanol: Of course, in the methanotrophic bacteria, methane can also be oxidized into methanol, but the product methanol is subsequently oxidized by dehydrogenases(9) Also, equal molar reducer such as formate must be used to drive the reaction 8,9]",
+        "document_offsets": {
+          "start": 11063,
+          "end": 11500
+        },
+        "subject_positions": [
+          {
+            "start": 144,
+            "end": 207,
+            "sentence_id": 22,
+            "matched_text": "the product methanol is subsequently oxidized by dehydrogenases"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 356,
+            "end": 436,
+            "sentence_id": 24,
+            "matched_text": "Also, equal molar reducer such as formate must be used to drive the reaction 8,9"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The production of methanol by cell suspension of M. trichosporium IMV 3011",
+      "predicate": "was assayed in the presence of a given amount of methane",
+      "object": "As shown in Fig. 1. methane supply favors methanol accumulation",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 27,
+        "sentence_end": 27,
+        "text_evidence": "The production of methanol by cell suspension of M. trichosporium IMV 3011 was assayed in the presence of a given amount of methane.",
+        "document_offsets": {
+          "start": 11691,
+          "end": 11823
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 74,
+            "sentence_id": 27,
+            "matched_text": "The production of methanol by cell suspension of M. trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "For the whole cell-catalyzed pathway",
+      "predicate": "to synthesize methanol",
+      "object": "three dehydrogenases catalyzing the sequential reduction of CO2 to methanol are in close proximity to one another within the cell",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "For the whole cell-catalyzed pathway to synthesize methanol, three dehydrogenases catalyzing the sequential reduction of CO, to methanol are in close proximity to one another within the cell.",
+        "document_offsets": {
+          "start": 9216,
+          "end": 9407
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 36,
+            "sentence_id": 6,
+            "matched_text": "For the whole cell-catalyzed pathway"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Higher CO2 concentration did not stimulate nor inhibit the production of methanol",
+      "predicate": "The reaction rate appears to be dependent upon the solubility of CO2",
+      "object": "Of course, in the methanotrophic bacteria, methane can also be oxidized into methanol",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 22,
+        "sentence_end": 22,
+        "text_evidence": "The effect of methane on the production of methanol: Of course, in the methanotrophic bacteria, methane can also be oxidized into methanol, but the product methanol is subsequently oxidized by dehydrogenases(9)",
+        "document_offsets": {
+          "start": 11063,
+          "end": 11273
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 53,
+            "end": 138,
+            "sentence_id": 22,
+            "matched_text": "Of course, in the methanotrophic bacteria, methane can also be oxidized into methanol"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The transformation, however, is of no benefit to the cells as",
+      "predicate": "",
+      "object": "Alternate reaction and regeneration of M. trichosporium IMV 3011:",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 36,
+        "sentence_end": 39,
+        "text_evidence": "Alternate reaction and regeneration of M. trichosporium IMV 3011: Converting CO, to methanol is essentially the reverse of the oxidation process. The transformation, however, is of no benefit to the cells as",
+        "document_offsets": {
+          "start": 12820,
+          "end": 13261
+        },
+        "subject_positions": [
+          {
+            "start": 380,
+            "end": 441,
+            "sentence_id": 39,
+            "matched_text": "The transformation, however, is of no benefit to the cells as"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7
+      }
+    },
+    {
+      "subject": "Chromatographic determinations of the liquid phase",
+      "predicate": "were carried out at different reaction times",
+      "object": "M. trichosporium IMV 3011 can reduce CO2 to methanol, which accumulated in the reaction medium",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Chromatographic determinations of the liquid phase were carried out at different reaction times.",
+        "document_offsets": {
+          "start": 8903,
+          "end": 8999
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 50,
+            "sentence_id": 3,
+            "matched_text": "Chromatographic determinations of the liquid phase"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The flasks",
+      "predicate": "were incubated and shaken at",
+      "object": "32\u00b0C in a rotary shaker (150 rpm)",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "The flasks were incubated and shaken at 32\u00b0C in a rotary shaker (150 rpm).",
+        "document_offsets": {
+          "start": 8828,
+          "end": 8902
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "The flasks"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "One of the oxygen atoms",
+      "predicate": "is reduced to form HO and the other is incorporated into methane to form CH,OH|3",
+      "object": "In this study, methanol obtained from CO2 reduction was accumulated and excreted out of the cells",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "One of the oxygen atoms is reduced to form HO and the other is incorporated into methane to form CH,OH|3).",
+        "document_offsets": {
+          "start": 9765,
+          "end": 9871
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 10,
+            "matched_text": "One of the oxygen atoms"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "The result led us to assume",
+      "predicate": "that the MMO is not able to catalyze the reverse reaction of the methane monooxygenation",
+      "object": "Control experiments with heat-killed cells indicated that the methanol was produced enzymatically",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 12,
+        "sentence_end": 13,
+        "text_evidence": "The result led us to assume that the MMO is not able to catalyze the reverse reaction of the methane monooxygenation. Control experiments with heat-killed cells indicated that the methanol was produced enzymatically.",
+        "document_offsets": {
+          "start": 9971,
+          "end": 10188
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 27,
+            "sentence_id": 12,
+            "matched_text": "The result led us to assume"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 119,
+            "end": 216,
+            "sentence_id": 13,
+            "matched_text": "Control experiments with heat-killed cells indicated that the methanol was produced enzymatically"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The cell density in reaction solution also influences the rate of methanol production",
+      "predicate": "The amount of methanol accumulated after 6 h incubation increased as the concentration of cell was increased up to about 3 mg ml-' and no further increase in methanol production was observed at higher cell concentrations",
+      "object": "This indicated that at cell concentrations higher than 3 mg ml', the solubility of the gaseous substrates becomes the rate-limiting factor in the production of methanol",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 33,
+        "sentence_end": 35,
+        "text_evidence": "The effect of cell concentrations: The cell density in reaction solution also influences the rate of methanol production. This indicated that at cell concentrations higher than 3 mg ml', the solubility of the gaseous substrates becomes the rate-limiting factor in the production of methanol.",
+        "document_offsets": {
+          "start": 12305,
+          "end": 12820
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 120,
+            "sentence_id": 33,
+            "matched_text": "The cell density in reaction solution also influences the rate of methanol production"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 344,
+            "end": 512,
+            "sentence_id": 35,
+            "matched_text": "This indicated that at cell concentrations higher than 3 mg ml', the solubility of the gaseous substrates becomes the rate-limiting factor in the production of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Converting CO2 to methanol is essentially the reverse of the oxidation process",
+      "predicate": "Whereas oxidation releases a large amount of reducing equivalent, logically the reverse would require a considerable amount",
+      "object": "The ability of methanotrophs to transform CO2 to methanol may be limited by reducing equivalent consumption",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "The experiments",
+      "predicate": "were conducted using",
+      "object": "100 ml sealed conical flasks",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 28,
+        "text_evidence": "The feasibility of methanol bioconversion from carbon dioxide by methanotroph: The experiments were first conducted in a 100 ml sealed conical flasks (under atmospheric pressure) containing 10 ml cell suspension. The initial concentration of CO, in the gaseous phase was kept constant (40%) in all of the experiments.",
+        "document_offsets": {
+          "start": 8555,
+          "end": 11928
+        },
+        "subject_positions": [
+          {
+            "start": 79,
+            "end": 94,
+            "sentence_id": 0,
+            "matched_text": "The experiments"
+          },
+          {
+            "start": 3357,
+            "end": 3372,
+            "sentence_id": 28,
+            "matched_text": "the experiments"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 149,
+            "sentence_id": 0,
+            "matched_text": "100 ml sealed conical flasks"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "The gaseous phase of the flasks",
+      "predicate": "was replaced by",
+      "object": "gaseous CO2",
+      "source_span": {
+        "chunk_id": 4,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "The gaseous phase of the flask was replaced by gaseous CO2.",
+        "document_offsets": {
+          "start": 8768,
+          "end": 8827
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 47,
+            "end": 58,
+            "sentence_id": 1,
+            "matched_text": "gaseous CO2"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium IMV 3011",
+      "predicate": "retains ability to synthesize methanol from CO",
+      "object": "after 12 h incubation without methane",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 10,
+        "text_evidence": "The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32\u00b0C. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane.",
+        "document_offsets": {
+          "start": 13936,
+          "end": 14593
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 57,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 619,
+            "end": 656,
+            "sentence_id": 10,
+            "matched_text": "after 12 h incubation without methane"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "M. trichosporium IMV 3011",
+      "predicate": "synthesizes",
+      "object": "methanol from CO",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 5,
+        "sentence_end": 10,
+        "text_evidence": "The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32\u00b0C. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane.",
+        "document_offsets": {
+          "start": 13936,
+          "end": 14593
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 57,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 601,
+            "end": 617,
+            "sentence_id": 10,
+            "matched_text": "methanol from CO"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "CO",
+      "predicate": "converts to",
+      "object": "methane",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 17,
+        "text_evidence": "257 -=- 40% CO,, 60% N,\n\n= 40% N2, 30% CH., 30% 0,\n\n20-\n\nMehanol\n\n10-\n\n5\n\n3\u00f2\n\n40 50\n\nReaction tome (h)\n\n60\n\nElection interCH, and air (1:10, v/during 12 h\n\n\u2022 incubation in air during 12 h reaction interval\n\n\u2022 no interval\n\n14-\n\n12-\n\n[10-\n\nMethanol (u mol 8\n\n6-\n\n4-\n\n1\n\n3\n\ncycles\n\n8\n\nthey typically consume reducing equivalent from this transformation. 2, in the repetitive batch CO, conversion experiments, cells lost almost 100% of their initial methanol synthesis ability after 2 repetitions of the process. For maintenance of methanol biosynthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration. The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32\u00b0C. After the regeneration process, the cell suspension was continuously (or immediately) used to produce methanol. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane. 2, by alternate and intermittent regeneration of inviable cell, the repetitive batch methanol synthesis from CO, can be repeated 9 times with no obvious disappearance of methanol synthesis ability. In the process of reducing equivalent regeneration, part of methane has been oxidized completely to CO,. Methane is a trace gas in the atmosphere, contributing significantly to the greenhouse effect. It is 26 times more efficient in absorbing and re-emitting infrared radiation than CO,\"1,12). The conversion of carbon dioxide to",
+        "document_offsets": {
+          "start": 13276,
+          "end": 15307
+        },
+        "subject_positions": [
+          {
+            "start": 12,
+            "end": 14,
+            "sentence_id": 0,
+            "matched_text": "CO"
+          },
+          {
+            "start": 396,
+            "end": 398,
+            "sentence_id": 3,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1275,
+            "end": 1277,
+            "sentence_id": 10,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1612,
+            "end": 1614,
+            "sentence_id": 13,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1802,
+            "end": 1804,
+            "sentence_id": 14,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1985,
+            "end": 1987,
+            "sentence_id": 16,
+            "matched_text": "CO"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 586,
+            "end": 593,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 747,
+            "end": 754,
+            "sentence_id": 5,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1309,
+            "end": 1316,
+            "sentence_id": 10,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1762,
+            "end": 1769,
+            "sentence_id": 14,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1807,
+            "end": 1814,
+            "sentence_id": 15,
+            "matched_text": "Methane"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "methane",
+      "predicate": "oxidizes completely to",
+      "object": "CO",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 17,
+        "text_evidence": "257 -=- 40% CO,, 60% N,\n\n= 40% N2, 30% CH., 30% 0,\n\n20-\n\nMehanol\n\n10-\n\n5\n\n3\u00f2\n\n40 50\n\nReaction tome (h)\n\n60\n\nElection interCH, and air (1:10, v/during 12 h\n\n\u2022 incubation in air during 12 h reaction interval\n\n\u2022 no interval\n\n14-\n\n12-\n\n[10-\n\nMethanol (u mol 8\n\n6-\n\n4-\n\n1\n\n3\n\ncycles\n\n8\n\nthey typically consume reducing equivalent from this transformation. 2, in the repetitive batch CO, conversion experiments, cells lost almost 100% of their initial methanol synthesis ability after 2 repetitions of the process. For maintenance of methanol biosynthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration. The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32\u00b0C. After the regeneration process, the cell suspension was continuously (or immediately) used to produce methanol. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane. 2, by alternate and intermittent regeneration of inviable cell, the repetitive batch methanol synthesis from CO, can be repeated 9 times with no obvious disappearance of methanol synthesis ability. In the process of reducing equivalent regeneration, part of methane has been oxidized completely to CO,. Methane is a trace gas in the atmosphere, contributing significantly to the greenhouse effect. It is 26 times more efficient in absorbing and re-emitting infrared radiation than CO,\"1,12). The conversion of carbon dioxide to",
+        "document_offsets": {
+          "start": 13276,
+          "end": 15307
+        },
+        "subject_positions": [
+          {
+            "start": 586,
+            "end": 593,
+            "sentence_id": 4,
+            "matched_text": "methane"
+          },
+          {
+            "start": 747,
+            "end": 754,
+            "sentence_id": 5,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1309,
+            "end": 1316,
+            "sentence_id": 10,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1762,
+            "end": 1769,
+            "sentence_id": 14,
+            "matched_text": "methane"
+          },
+          {
+            "start": 1807,
+            "end": 1814,
+            "sentence_id": 15,
+            "matched_text": "Methane"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 12,
+            "end": 14,
+            "sentence_id": 0,
+            "matched_text": "CO"
+          },
+          {
+            "start": 396,
+            "end": 398,
+            "sentence_id": 3,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1275,
+            "end": 1277,
+            "sentence_id": 10,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1612,
+            "end": 1614,
+            "sentence_id": 13,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1802,
+            "end": 1804,
+            "sentence_id": 14,
+            "matched_text": "CO"
+          },
+          {
+            "start": 1985,
+            "end": 1987,
+            "sentence_id": 16,
+            "matched_text": "CO"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is consumed by",
+      "object": "methanotrophic bacteria",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 13,
+        "text_evidence": "257 -=- 40% CO,, 60% N,\n\n= 40% N2, 30% CH., 30% 0,\n\n20-\n\nMehanol\n\n10-\n\n5\n\n3\u00f2\n\n40 50\n\nReaction tome (h)\n\n60\n\nElection interCH, and air (1:10, v/during 12 h\n\n\u2022 incubation in air during 12 h reaction interval\n\n\u2022 no interval\n\n14-\n\n12-\n\n[10-\n\nMethanol (u mol 2, in the repetitive batch CO, conversion experiments, cells lost almost 100% of their initial methanol synthesis ability after 2 repetitions of the process. For maintenance of methanol biosynthesis for a long time, methane was selected as a substrate for reducing equivalent regeneration. After the regeneration process, the cell suspension was continuously (or immediately) used to produce methanol. 2, the inviable cell still partly retained the ability to synthesize methanol from CO, after 12 h incubation without methane. It is suspected that the methanotrophic bacteria may rely on their endogenous reserves (eg., lipid inclusions) for a source of electrons and energy during starvation. 2, by alternate and intermittent regeneration of inviable cell, the repetitive batch methanol synthesis from CO, can be repeated 9 times with no obvious disappearance of methanol synthesis ability.",
+        "document_offsets": {
+          "start": 13276,
+          "end": 14978
+        },
+        "subject_positions": [
+          {
+            "start": 238,
+            "end": 246,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 464,
+            "end": 472,
+            "sentence_id": 3,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 547,
+            "end": 555,
+            "sentence_id": 4,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 908,
+            "end": 916,
+            "sentence_id": 6,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1261,
+            "end": 1269,
+            "sentence_id": 10,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1588,
+            "end": 1596,
+            "sentence_id": 13,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 1673,
+            "end": 1681,
+            "sentence_id": 13,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 1343,
+            "end": 1366,
+            "sentence_id": 11,
+            "matched_text": "methanotrophic bacteria"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "carbon dioxide",
+      "predicate": "converts from",
+      "object": "the conversion of methane",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 17,
+        "sentence_end": 17,
+        "text_evidence": "The conversion of carbon dioxide to",
+        "document_offsets": {
+          "start": 15272,
+          "end": 15307
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 32,
+            "sentence_id": 17,
+            "matched_text": "carbon dioxide"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "M. trichosporium IMV 3011",
+      "predicate": "regenerates with",
+      "object": "methane and air",
+      "source_span": {
+        "chunk_id": 5,
+        "span_type": "single_sentence",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "The inviable cell suspension of M. trichosporium IMV 3011 was in vivo regenerated with methane and air (1:10, v/v) in the flask for 12 h at 32\u00b0C.",
+        "document_offsets": {
+          "start": 13936,
+          "end": 14081
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 57,
+            "sentence_id": 5,
+            "matched_text": "M. trichosporium IMV 3011"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 87,
+            "end": 102,
+            "sentence_id": 5,
+            "matched_text": "methane and air"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Process",
+      "predicate": "does not add to",
+      "object": "Greenhouse effect",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Therefore, it is theoretically possible that the overall reaction can produce methanol in an efficient, environmentally friendly, renewable process without adding to the greenhouse effect.",
+        "document_offsets": {
+          "start": 15588,
+          "end": 15776
+        },
+        "subject_positions": [
+          {
+            "start": 140,
+            "end": 147,
+            "sentence_id": 2,
+            "matched_text": "process"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 170,
+            "end": 187,
+            "sentence_id": 2,
+            "matched_text": "greenhouse effect"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Process",
+      "predicate": "is",
+      "object": "Efficient, environmentally friendly, renewable",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Therefore, it is theoretically possible that the overall reaction can produce methanol in an efficient, environmentally friendly, renewable process without adding to the greenhouse effect.",
+        "document_offsets": {
+          "start": 15588,
+          "end": 15776
+        },
+        "subject_positions": [
+          {
+            "start": 140,
+            "end": 147,
+            "sentence_id": 2,
+            "matched_text": "process"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 93,
+            "end": 139,
+            "sentence_id": 2,
+            "matched_text": "efficient, environmentally friendly, renewable"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Origin of reducing equivalent",
+      "predicate": "is",
+      "object": "Methane",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Herein, the origin of the reducing equivalent is methane.",
+        "document_offsets": {
+          "start": 15530,
+          "end": 15587
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 49,
+            "end": 56,
+            "sentence_id": 1,
+            "matched_text": "methane"
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Methanol",
+      "predicate": "is produced by",
+      "object": "Reaction",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "16-\n\n=14-\n\nMethanol production\n\n24\n\ni12-\n\ncapability (umol L\n\n: 10\n\n8\n\n6\n\n30\n\n40\n\n50\n\nRegeneration time (h)\n\nmethanol is energy intensive and requires reducing equivalent to push the reaction along against energy laws. Therefore, it is theoretically possible that the overall reaction can produce methanol in an efficient, environmentally friendly, renewable process without adding to the greenhouse effect.",
+        "document_offsets": {
+          "start": 15311,
+          "end": 15776
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 109,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 355,
+            "end": 363,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 183,
+            "end": 191,
+            "sentence_id": 0,
+            "matched_text": "reaction"
+          },
+          {
+            "start": 334,
+            "end": 342,
+            "sentence_id": 2,
+            "matched_text": "reaction"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Overall reaction",
+      "predicate": "can produce",
+      "object": "Methanol",
+      "source_span": {
+        "chunk_id": 6,
+        "span_type": "multi_sentence",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "16-\n\n=14-\n\nMethanol production\n\n24\n\ni12-\n\ncapability (umol L\n\n: 10\n\n8\n\n6\n\n30\n\n40\n\n50\n\nRegeneration time (h)\n\nmethanol is energy intensive and requires reducing equivalent to push the reaction along against energy laws. Therefore, it is theoretically possible that the overall reaction can produce methanol in an efficient, environmentally friendly, renewable process without adding to the greenhouse effect.",
+        "document_offsets": {
+          "start": 15311,
+          "end": 15776
+        },
+        "subject_positions": [
+          {
+            "start": 326,
+            "end": 342,
+            "sentence_id": 2,
+            "matched_text": "overall reaction"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 0,
+            "matched_text": "Methanol"
+          },
+          {
+            "start": 109,
+            "end": 117,
+            "sentence_id": 0,
+            "matched_text": "methanol"
+          },
+          {
+            "start": 355,
+            "end": 363,
+            "sentence_id": 2,
+            "matched_text": "methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999
+      }
+    },
+    {
+      "subject": "Cybulski",
+      "predicate": "wrote",
+      "object": "a review in 1994",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "Cybulski, A., 1994.",
+        "document_offsets": {
+          "start": 16575,
+          "end": 16594
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 9,
+            "matched_text": "Cybulski"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Hanson and T.E. Hanson",
+      "predicate": "published",
+      "object": "an article in Microbiological Reviews in 1996",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Arakawa",
+      "predicate": "published",
+      "object": "a paper in 1998",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "Arakawa, H., 1998, Research and development on new synthetic routes for basic chemicals by catalytic hydrogenation of CO, Studies in Surface Science and Catalysis, 114: 19-30.",
+        "document_offsets": {
+          "start": 15877,
+          "end": 16054
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 1,
+            "matched_text": "Arakawa"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Furuto",
+      "predicate": ", M. Takeguchi and I. Okura",
+      "object": "published a paper in Journal of REFERENCES Molecular Catalysis A: Chemical in 1999",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 7,
+        "sentence_end": 7,
+        "text_evidence": "Furuto, T., M. Takeguchi and I. Okura, 1999.",
+        "document_offsets": {
+          "start": 16390,
+          "end": 16434
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 6,
+            "sentence_id": 7,
+            "matched_text": "Furuto"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Mehta",
+      "predicate": ", S. Mishra and T.K. Ghose",
+      "object": "conducted studies on methanol biosynthesis by covalently immobilized cells of Methylosinus-Trichosporium in Biotechnology and Bioengineering in 1991",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 14,
+        "sentence_end": 14,
+        "text_evidence": "Mehta, P.K., S. Mishra and T.K. Ghose, 1991.",
+        "document_offsets": {
+          "start": 17168,
+          "end": 17212
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 14,
+            "matched_text": "Mehta"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Obert and B.C. Dave",
+      "predicate": "published",
+      "object": "a paper in 1999",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Lelieveld",
+      "predicate": ", P.J. Crutzem and C. Bruhl",
+      "object": "discussed climate effects of atmospheric methane in Chemosphere in 1993",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 16,
+        "sentence_end": 16,
+        "text_evidence": "Lelieveld, J., P.J. Crutzem and C. Bruhl, 1993.",
+        "document_offsets": {
+          "start": 17375,
+          "end": 17422
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 9,
+            "sentence_id": 16,
+            "matched_text": "Lelieveld"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "National Nature Science Foundation of China",
+      "predicate": "funded",
+      "object": "the research",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Obert",
+      "predicate": "and",
+      "object": "B.C. Dave",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Obert, R. and B.C. Dave, 1999, Enzymatic conversion of carbon dioxide to methanol: Enhanced methanol production in silica sol-gel matrices, J. Am.",
+        "document_offsets": {
+          "start": 16054,
+          "end": 16200
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 2,
+            "matched_text": "Obert"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 14,
+            "end": 23,
+            "sentence_id": 2,
+            "matched_text": "B.C. Dave"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Rozovskii and G.I. Lin",
+      "predicate": "wrote",
+      "object": "an article about catalytic synthesis of methanol in Kinetics and Catalysis in 1999",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "chunk_fallback",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3
+      }
+    },
+    {
+      "subject": "Lipscomb",
+      "predicate": "wrote",
+      "object": "a biochemistry review of the soluble methane monooxygenase in Annu. Rev. Microbiol. in 1994",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "Lipscomb, J.D., 1994.",
+        "document_offsets": {
+          "start": 17607,
+          "end": 17628
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 20,
+            "matched_text": "Lipscomb"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Marchionna",
+      "predicate": ", M. Di Girolamo, L. Tagliabue, M.J. Spangler and T.H. Fleisch",
+      "object": "wrote a review in Studies in Surface Science and Catalysis in 1998",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 12,
+        "sentence_end": 12,
+        "text_evidence": "Marchionna, M., M. Di Girolamo, L. Tagliabue, M.J. Spangler and T.H. Fleisch, 1998.",
+        "document_offsets": {
+          "start": 16979,
+          "end": 17062
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 10,
+            "sentence_id": 12,
+            "matched_text": "Marchionna"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Hanson",
+      "predicate": "and",
+      "object": "T.E. Hanson",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "Soc., 121: 12192-12193\n\nHanson, R.S. and T.E. Hanson, 1996.",
+        "document_offsets": {
+          "start": 16207,
+          "end": 16266
+        },
+        "subject_positions": [
+          {
+            "start": 24,
+            "end": 30,
+            "sentence_id": 4,
+            "matched_text": "Hanson"
+          },
+          {
+            "start": 46,
+            "end": 52,
+            "sentence_id": 4,
+            "matched_text": "Hanson"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 41,
+            "end": 52,
+            "sentence_id": 4,
+            "matched_text": "T.E. Hanson"
+          }
+        ],
+        "confidence": 1.0
+      }
+    },
+    {
+      "subject": "Lange",
+      "predicate": "published",
+      "object": "a short review in Catalysis Today in 2001",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 10,
+        "sentence_end": 10,
+        "text_evidence": "Liquid-Phase Methanol Synthesis-Catalysts, Mechanism, Kinetics, ChemicalEquilibria, Vapor-Liquid Equilibria and Modeling-A Review, Catalysis Reviews-Science and Engineering,\n\nLange, J.P., 2001.",
+        "document_offsets": {
+          "start": 16595,
+          "end": 16788
+        },
+        "subject_positions": [
+          {
+            "start": 175,
+            "end": 180,
+            "sentence_id": 10,
+            "matched_text": "Lange"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "subject": "Hogan",
+      "predicate": ", J.S. Hoffman and A.M. Thompson",
+      "object": "discussed methane on the greenhouse agenda in Nature (London) in 1991",
+      "source_span": {
+        "chunk_id": 7,
+        "span_type": "single_sentence",
+        "sentence_start": 18,
+        "sentence_end": 18,
+        "text_evidence": "Hogan, K.B., J.S. Hoffman and A.M. Thompson, 1991.",
+        "document_offsets": {
+          "start": 17490,
+          "end": 17540
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 18,
+            "matched_text": "Hogan"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9
+      }
+    }
+  ]
+}

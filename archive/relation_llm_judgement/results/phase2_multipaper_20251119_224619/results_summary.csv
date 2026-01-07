@@ -1,0 +1,941 @@
+relation_id,subject,predicate,object,hub_entity,hub_connectivity,confidence,section,source_paper,source_text,llama3.2_3b_text_accuracy,llama3.2_3b_text_faithfulness,llama3.2_3b_text_boundary_quality,llama3.2_3b_text_justification,llama3.2_3b_text_inference_time,llama3.2_3b_text_error,mistral_7b_text_accuracy,mistral_7b_text_faithfulness,mistral_7b_text_boundary_quality,mistral_7b_text_justification,mistral_7b_text_inference_time,mistral_7b_text_error,llama3.1_8b_text_accuracy,llama3.1_8b_text_faithfulness,llama3.1_8b_text_boundary_quality,llama3.1_8b_text_justification,llama3.1_8b_text_inference_time,llama3.1_8b_text_error
+0x64e,"Queen's University Kingston, Ontario, Canada","(August, 2008)",date,,,,High cell density methanol cultivation of Methylosinus trichosporium OB3b,Copy of Adegbola thesis High Density Cultures20251113.pdf,"by Olufemi Adegbola
+
+A thesis submitted to the Department of Chemical Engineering In conformity with the requirements for the degree of Master of Science (Engineering)
+
+Queen's University Kingston, Ontario, Canada (August, 2008)",True,5.0,5.0,"The extracted relation is accurately represented in the sentence as it directly states the date of submission, which matches the given predicate. The subject and object boundaries are also correctly identified, with no extraneous information or missing details.",4.9174981117248535,,False,,,"The relation (August, 2008) is not accurately represented in the sentence as it does not provide a date for Queen's University Kingston. However, the date is mentioned in parentheses following the university name, which indicates that it has some connection to the university. The entity boundaries are correctly identified except that the extracted relation does not directly correspond to the provided sentence.",8.267652034759521,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Queen's University Kingston, Ontario, Canada"" as the subject and ""(August, 2008)"" as the object. The entity boundaries are correctly identified, with no extraneous characters included or omitted from the subject or object.",8.83788800239563,
+0x646,Department of Chemical Engineering,In conformity with the requirements for,the degree of Master of Science (Engineering),,,,High cell density methanol cultivation of Methylosinus trichosporium OB3b,Copy of Adegbola thesis High Density Cultures20251113.pdf,"by Olufemi Adegbola
+
+A thesis submitted to the Department of Chemical Engineering In conformity with the requirements for the degree of Master of Science (Engineering)
+
+Queen's University Kingston, Ontario, Canada (August, 2008)",True,5.0,5.0,"The extracted relation accurately represents the sentence, as it correctly identifies the subject (Department of Chemical Engineering), predicate (In conformity with the requirements for), and object (the degree of Master of Science (Engineering)). The entity boundaries are also perfectly identified.",3.6474947929382324,,True,5.0,5.0,"The relation ""Department of Chemical Engineering is In conformity with the requirements for the degree of Master of Science (Engineering)"" is directly stated in the source sentence. The subject and object boundaries are correctly identified as the Department of Chemical Engineering is the subject, and the degree of Master of Science (Engineering) is the object.",6.149205923080444,,True,5.0,5.0,"The relation is directly stated in the sentence, with the subject and object clearly identified. The entity boundaries are also perfectly matched to the source sentence.",4.783479690551758,
+0x66a,soluble methane monooxygenase (sMMO),metabolizes,methane,,,,Abstract,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methylosinus trichosporium OB3b is a wild type, obligate methanotroph that grows only on one-carbon compounds and, in the absence of copper, produces high levels of soluble methane  monooxygenase  (sMMO)  to  metabolize  methane  to  methanol. Much literature exists on cultivating this organism on methane, however no one has achieved dry  cell  weight  densities  exceeding  18  g/L.  Biomass  growth  is  limited  due  to  mass transfer of methane to cells. The inoculum cultures utilized in the bioreactor studies were maintained on Noble agar plates  containing  nitrogen  minimal  salts  medium  and  methane. The enzyme activity in methanol grown cells was recovered by subculturing in liquid NMS medium with methane as the sole carbon source, the activity increased from 8 to 600 [µmol naphthol][g of biomass] -1",True,5.0,5.0,"The relation ""metabolizes"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as soluble methane monooxygenase (sMMO) being the subject that metabolizes methane.",2.7902626991271973,,True,5.0,5.0,"The relation ""sMMO metabolizes methane"" is directly stated in the sentence. The subject, soluble methane monooxygenase (sMMO), and object, methane, are correctly identified and appear in close proximity to each other in the source text.",5.573714017868042,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""metabolize"" explicitly indicating that sMMO acts on methane. The entity boundaries are also correctly identified, as ""sMMO"" is clearly mentioned as the subject performing the action, and ""methane"" is the object being acted upon.",6.228510856628418,
+0x669,Methylosinus trichosporium OB3b,grows,only on one-carbon compounds,,,,Abstract,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methylosinus trichosporium OB3b is a wild type, obligate methanotroph that grows only on one-carbon compounds and, in the absence of copper, produces high levels of soluble methane  monooxygenase  (sMMO)  to  metabolize  methane  to  methanol.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that Methylosinus trichosporium OB3b grows only on one-carbon compounds. The source sentence explicitly mentions this condition, making the extraction correct and faithful to the original information.",2.7612788677215576,,True,5.0,5.0,"The relation ""grows"" is accurately represented in the sentence, and it is directly stated that Methylosinus trichosporium OB3b grows only on one-carbon compounds. The subject and object boundaries are correctly identified as well.",4.784324884414673,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""grows only on one-carbon compounds"" being a clear and concise expression of the predicate. The entity boundaries are also correctly identified, with the subject (""Methylosinus trichosporium OB3b"") and object (""only on one-carbon compounds"") clearly marked in the source sentence.",6.03539776802063,
+0x67a,SMMO,has gained a great deal of attention in,bioremediation and chemical industries,,,,Abstract,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methylosinus trichosporium OB3b is a wild type, obligate methanotroph that grows only on one-carbon compounds and, in the absence of copper, produces high levels of soluble methane  monooxygenase  (sMMO)  to  metabolize  methane  to  methanol. SMMO  has gained a great deal of attention in the bioremediation and chemical industries because of its  low  substrate  specificity  and  its  ability  to  oxidize  chlorinated  hydrocarbons. This study investigated the growth of M. trichosporium on the water soluble carbon source, methanol while retaining sMMO activity. A biomass density  of  19  g/L  (growth  rate  of  0.013-0.065  h -1 )  was  achieved  with  sMMO activity  of  300  to  500  [µmol  naphthol][g  of  biomass] -1 After  6  months  of subsequent  plate  transfers, M.  trichosporium lost  the  ability  to  produce  high  levels  of sMMO. It is recommended that further studies be carried out on stimulating sMMO activity during cultivation on methanol.",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""sMMO has gained a great deal of attention in bioremediation and chemical industries"". There are no discrepancies or ambiguities in the source sentence regarding this extracted relation.",3.005293130874634,,True,5.0,5.0,"The relation ""SMMO has gained a great deal of attention in bioremediation and chemical industries"" is directly stated in the source sentence. The subject, object boundaries are correctly identified as ""sMMO"" and ""bioremediation and chemical industries"", respectively.",5.609381198883057,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""sMMO has gained a great deal of attention"" explicitly mentioning the subject-predicate-object structure. Additionally, the entity boundaries are correctly identified, as the subject ""sMMO"" and object ""bioremediation and chemical industries"" are clearly marked in the source sentence.",6.3002848625183105,
+0x64b,Olufemi Adegbola,submitted,thesis,,,,High cell density methanol cultivation of Methylosinus trichosporium OB3b,Copy of Adegbola thesis High Density Cultures20251113.pdf,"by Olufemi Adegbola
+
+A thesis submitted to the Department of Chemical Engineering In conformity with the requirements for the degree of Master of Science (Engineering)
+
+Queen's University Kingston, Ontario, Canada (August, 2008) Copyright © Olufemi Adegbola, 2008",True,5.0,5.0,"The extracted relation is accurately represented in the sentence as it directly states that Olufemi Adegbola submitted a thesis. The entity boundaries (subject and object) are correctly identified, with ""Olufemi Adegbola"" being the subject and ""thesis"" being the object.",2.7447080612182617,,True,,,"The relation ""Olufemi Adegbola submitted thesis"" is explicitly mentioned in the sentence, making it a direct statement. The subject and object boundaries are correctly identified as they correspond to the actual entities in the source sentence.",4.718935012817383,,True,4.0,5.0,"The relation is accurately represented in the sentence, with Olufemi Adegbola being the subject who submitted a thesis. The entity boundaries are correctly identified, with the subject position starting at character 3 and the object position starting at character 23.",4.833892107009888,
+0x66f,this study,investigated the growth of M. trichosporium on,"the water soluble carbon source, methanol",,,,Abstract,Copy of Adegbola thesis High Density Cultures20251113.pdf,"This study investigated the growth of M. trichosporium on the water soluble carbon source, methanol while retaining sMMO activity.",True,4.0,3.0,"The relation is accurately represented in the sentence, as it states that ""this study"" investigated a specific aspect of M. trichosporium growth. However, the faithfulness score is slightly lower because the source sentence does not explicitly mention methanol as the water soluble carbon source; instead, it mentions ""the water soluble carbon source, methanol"". The boundary quality score is 3 because the subject and object boundaries are generally correct, but there might be some minor discrepancies in the exact wording.",3.845050096511841,,True,,,"The relation ""this study investigated the growth of M. trichosporium on"" is directly stated in the sentence, and the subject and object boundaries are correctly identified as ""This study"" and ""the water soluble carbon source, methanol"", respectively.",4.966484785079956,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""This study"" as the subject and ""the water soluble carbon source, methanol"" as the object. The entity boundaries are correctly identified, matching the positions specified in the problem statement.",4.767643928527832,
+0x649,"Copyright © Olufemi Adegbola, 2008",Copyright,rights,,,,High cell density methanol cultivation of Methylosinus trichosporium OB3b,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Copyright © Olufemi Adegbola, 2008",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Olufemi Adegbola owns the copyright. The entity boundaries (subject and object) are correctly identified, with ""Olufemi Adegbola"" being the subject and ""rights"" being the object of the copyright.",2.737607002258301,,True,5.0,5.0,"The relation ""Copyright"" is directly stated in the sentence, and the subject and object are correctly identified as the copyright symbol and the rights associated with it respectively. The sentence explicitly states that the copyright belongs to Olufemi Adegbola, and the year of copyright is given as 2008.",5.1044087409973145,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Copyright"" as the predicate and ""rights"" implied by the context of copyright. The entity boundaries are also correctly identified, with ""Olufemi Adegbola, 2008"" being the object of the relation.",5.138723134994507,
+0x66d,Methylosinus trichosporium OB3b,produces high levels of,soluble methane monooxygenase (sMMO),,,,Abstract,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methylosinus trichosporium OB3b is a wild type, obligate methanotroph that grows only on one-carbon compounds and, in the absence of copper, produces high levels of soluble methane  monooxygenase  (sMMO)  to  metabolize  methane  to  methanol.",True,5.0,5.0,"The extracted relation accurately represents the source sentence, as it directly states that in the absence of copper, Methylosinus trichosporium OB3b produces high levels of soluble methane monooxygenase (sMMO). The relation is explicitly mentioned in the sentence.",2.8582730293273926,,True,5.0,5.0,"The relation ""produces high levels of soluble methane monooxygenase (sMMO)"" is directly stated in the sentence, and the subject and object are correctly identified. The system has accurately extracted the information from the source.",4.565713167190552,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Methylosinus trichosporium OB3b"" as the subject and ""soluble methane monooxygenase (sMMO)"" as the object. The entity boundaries are correctly identified, with no extraneous characters included or omitted from the subject and object positions.",5.675762891769409,
+0x67b,SMMO,is able to oxidize,chlorinated hydrocarbons,,,,Abstract,Copy of Adegbola thesis High Density Cultures20251113.pdf,"Methylosinus trichosporium OB3b is a wild type, obligate methanotroph that grows only on one-carbon compounds and, in the absence of copper, produces high levels of soluble methane  monooxygenase  (sMMO)  to  metabolize  methane  to  methanol. SMMO  has gained a great deal of attention in the bioremediation and chemical industries because of its  low  substrate  specificity  and  its  ability  to  oxidize  chlorinated  hydrocarbons. This study investigated the growth of M. trichosporium on the water soluble carbon source, methanol while retaining sMMO activity. A biomass density  of  19  g/L  (growth  rate  of  0.013-0.065  h -1 )  was  achieved  with  sMMO activity  of  300  to  500  [µmol  naphthol][g  of  biomass] -1 After  6  months  of subsequent  plate  transfers, M.  trichosporium lost  the  ability  to  produce  high  levels  of sMMO. It is recommended that further studies be carried out on stimulating sMMO activity during cultivation on methanol.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that SMMO has the ability to oxidize chlorinated hydrocarbons. The source sentence explicitly mentions sMMO's role in metabolizing methane and its ability to oxidize chlorinated hydrocarbons.",3.8393208980560303,,True,5.0,5.0,"The relation ""SMMO is able to oxidize chlorinated hydrocarbons"" is directly stated in the sentence. The system correctly identified the subject and object entities.",4.619258165359497,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject ""sMMO"" and object ""chlorinated hydrocarbons"") are correctly identified.",4.611686944961548,
+0x2130,commercial methane to methanol conversion,requires high temperatures and pressures,in an energy intensive and costly process,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,"Commercial  methane  to  methanol  conversion  requires  high  temperatures  and pressures, in an energy intensive and costly process.",True,5.0,4.0,"The relation is accurately represented in the sentence, as it directly states that commercial methane to methanol conversion requires high temperatures and pressures. The object ""in an energy intensive and costly process"" is also correctly positioned within the sentence.",3.301607370376587,,True,,,"The extracted relation accurately reflects the information in the source sentence, as it directly states that commercial methane to methanol conversion requires high temperatures and pressures, which is energy intensive and costly. The entity boundaries are correctly identified, as the subject, predicate, and object are all clearly defined in the sentence.",5.2074151039123535,,True,5.0,5.0,"The relation is directly stated in the sentence, with no need for inference or interpretation. The entity boundaries (subject and object) are also correctly identified, as ""commercial methane to methanol conversion"" is clearly the subject performing the action described by the predicate, and ""in an energy intensive and costly process"" accurately describes the conditions under which this conversion occurs.",5.689927816390991,
+0x2149,PHB,is a polymer produced by,methanotrophic bacteria,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,"In contrast methanotrophic bacteria perform the desired transformation under ambient conditions, using methane monooxygenase (MMO) enzymes. In situ product removal; CytC: Cytochrome c; PHB:",True,4.0,3.0,"The relation is accurately represented in the sentence, as it states that PHB is produced by methanotrophic bacteria. However, the faithfulness rating is not a perfect score because while the relation is stated, the sentence also provides additional context and information about the transformation process, which may be considered secondary or supporting evidence rather than direct confirmation of the relation. The boundary quality rating is 3 because the subject and object positions are generally correct, but there might be some minor discrepancies in punctuation or formatting that could affect the accuracy of the extraction.",4.18504786491394,,True,,,"The sentence mentions that methanotrophic bacteria produce methane monooxygenase (MMO), and later PHB is mentioned without any explicit statement about its production. However, in the context of microbial metabolism, it can be inferred that PHB might be a product produced by methanotrophic bacteria. The subject and object boundaries are correctly identified as ""PHB"" and ""methanotrophic bacteria"", respectively.",7.360502004623413,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""PHB"" being mentioned as a product of methanotrophic bacteria. The entity boundaries are correctly identified, with ""PHB"" clearly marked as the subject and ""methanotrophic bacteria"" as the object.",5.099021673202515,
+0x2140,methane,is a component of,natural gas,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,"Abstract: Sources of methane are numerous, and vary greatly in their use and sustainable credentials. A Jekyll and Hyde character, it is a valuable energy source present as geological deposits of natural gas, however it is also potent greenhouse gas, released during many waste management processes. Gas-to-liquid technologies are being investigated as a means to exploit and monetise non-traditional and unutilised methane sources. The product identified as having the greatest potential is methanol due to it being a robust, commercially mature conversion process from methane and its beneficial fuel  characteristics. Commercial  methane  to  methanol  conversion  requires  high  temperatures  and pressures, in an energy intensive and costly process. In contrast methanotrophic bacteria perform the desired transformation under ambient conditions, using methane monooxygenase (MMO) enzymes. Although  biotechnological  applications  of  methanotrophic  bacteria have been reviewed in part, no review has comprehensively covered progress and challenges for a methane  to  methanol  process  from  an  industrial  perspective. All  published  examples  to  date  of methanotroph catalysed conversion of methane to methanol are collated, and standardised to allow direct comparison. The focus will be on conversion of methane to methanol by whole-cell, wild type, methanotroph cultures, and the potential for their application in an industrially relevant process. Keywords: methanotrophs;  methane  monooxygenase;  gas-to-liquid;  methane  partial  oxidation; biocatalysis; methanol synthesis
+
+Abbreviations: MMO: Methane monooxygenase; GTL: Gas-to-liquid;  CNG:  Compressed  natural gas;  LNG:  Liquified  natural  gas;  MTBE: Methane  monooxygenase;  sMMO:  Soluble  methane  monooxygenase;  pMMO:  Particulate methane monooxygenase; MDH: Methanol dehydrogenase; FADH:",True,5.0,5.0,"The relation ""is a component of"" is directly stated in the sentence, with the subject ""methane"" and object ""natural gas"" clearly identified. The sentence explicitly mentions that methane is present as geological deposits of natural gas, making this relation accurately represented.",3.2483038902282715,,True,,,"The sentence explicitly states that methane is a component of natural gas, making the relation accurate. The subject and object are correctly identified as ""methane"" and ""natural gas"", respectively, in the given context.",6.230082035064697,,True,5.0,5.0,"The relation is directly stated in the sentence as ""it is a valuable energy source present as geological deposits of natural gas"", where methane and natural gas are explicitly mentioned. The entity boundaries (subject: methane, object: natural gas) are also correctly identified based on their positions in the sentence.",6.00288987159729,
+0x2109,Aimspress,publishes,Journal,,,,Front Matter,Copy of Bjorck et al. 201820251115.pdf,http://www.aimspress.com/journal/Bioengineering,,,,,4.089679956436157,,True,5.0,5.0,"The sentence clearly states that the website URL belongs to a journal published by Aimspress. The subject, Aimspress, publishes the object, Journal, as directly stated in the source.",3.867720365524292,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Aimspress"" explicitly mentioned as the publisher and ""Journal"" as the publication. The entity boundaries are also correctly identified, with ""aimspress"" starting at character 11 and ""journal"" starting at character 25.",4.637695074081421,
+0x2108,Journal,is about,Bioengineering,,,,Front Matter,Copy of Bjorck et al. 201820251115.pdf,http://www.aimspress.com/journal/Bioengineering,True,5.0,5.0,"The relation ""is about"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as ""journal"" and ""Bioengineering"", respectively.",2.331279754638672,,True,5.0,5.0,"The sentence clearly states that the provided URL is for a journal named ""Bioengineering"", which accurately reflects the relation between the subject (Journal), predicate (is about), and object (Bioengineering). The relation is directly stated in the source, making it a perfect match. The entity boundaries are also correctly identified as the subject and object positions correspond to the actual entities in the sentence.",5.290103197097778,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Bioengineering"" being explicitly mentioned as the subject of the relation. The entity boundaries are also correctly identified, with ""journal"" and ""Bioengineering"" clearly marked as the subject and object, respectively.",4.504831075668335,
+0x2147,the research community focus,has recently shifted from a mainly biological angle to an overall engineering approach,offers potential to exploit methanotrophs in an industrially relevant biotechnological gasto-liquid process,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,"DOI: 10.3934/bioeng.2018.1.1
+
+Received: 14 November 2017
+
+Accepted: 14 January 2018
+
+Published: 19 January 2018
+
+recent shift in the research community focus from a mainly biological angle to an overall engineering approach, offers potential to exploit methanotrophs in an industrially relevant biotechnological gasto-liquid process.",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states a shift in research focus and its potential benefits. The extracted relation is identical to the source sentence's content, indicating high faithfulness. The entity boundaries are correctly identified, with ""the research community focus"" being the subject and ""offers potential to exploit methanotrophs in an industrially relevant biotechnological gasto-liquid process"" being the object.",3.45316219329834,,True,5.0,5.0,"The extracted relation accurately represents the information in the sentence, as it directly states that there has been a shift in the research community's focus towards an engineering approach and mentions the potential exploitation of methanotrophs in a biotechnological process. The subject, object, and predicate are all clearly stated in the source text.",5.484940052032471,,True,5.0,5.0,,5.412275791168213,
+0x2131,methanol dehydrogenase (MDH),produces,formaldehyde,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,Formaldehyde dehydrogenase; FDH:  Formate  dehydrogenase;,True,4.0,3.0,"The relation is accurately represented in the sentence, as formaldehyde dehydrogenase (FDH) produces formaldehyde. However, the faithfulness rating is not a perfect score because while the relation is stated directly, it's not explicitly linked to methanol dehydrogenase (MDH). The boundary quality rating is 3 because the object position indicates that ""Formaldehyde"" starts at character 0-12, which might be considered partially incorrect as formaldehyde appears later in the sentence.",3.6995902061462402,,False,,,"The relation ""produces"" between methanol dehydrogenase (MDH) and formaldehyde is not accurately represented in the sentence. Formaldehyde dehydrogenase (FDH) is mentioned, but there's no direct reference to MDH producing formaldehyde in this sentence. Instead, it seems that FDH and formate dehydrogenase are being compared or listed, not describing a production relationship involving methanol dehydrogenase.",6.820616006851196,,False,,,"The relation is not accurately represented in the sentence because it mentions ""Formaldehyde dehydrogenase"" instead of ""methanol dehydrogenase"". Although the object position is mostly correct, there's some ambiguity since the sentence doesn't explicitly state that formaldehyde is produced by methanol dehydrogenase.",5.928524017333984,
+0x2148,methane,is a greenhouse gas,GHG,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,"Abstract: Sources of methane are numerous, and vary greatly in their use and sustainable credentials. Gas-to-liquid technologies are being investigated as a means to exploit and monetise non-traditional and unutilised methane sources. The product identified as having the greatest potential is methanol due to it being a robust, commercially mature conversion process from methane and its beneficial fuel  characteristics. Commercial  methane  to  methanol  conversion  requires  high  temperatures  and pressures, in an energy intensive and costly process. In contrast methanotrophic bacteria perform the desired transformation under ambient conditions, using methane monooxygenase (MMO) enzymes. Although  biotechnological  applications  of  methanotrophic  bacteria have been reviewed in part, no review has comprehensively covered progress and challenges for a methane  to  methanol  process  from  an  industrial  perspective. All  published  examples  to  date  of methanotroph catalysed conversion of methane to methanol are collated, and standardised to allow direct comparison. The focus will be on conversion of methane to methanol by whole-cell, wild type, methanotroph cultures, and the potential for their application in an industrially relevant process. Keywords: methanotrophs;  methane  monooxygenase;  gas-to-liquid;  methane  partial  oxidation; biocatalysis; methanol synthesis
+
+Abbreviations: MMO: Methane monooxygenase; GTL: Gas-to-liquid;  CNG:  Compressed  natural gas;  LNG:  Liquified  natural  gas;  MTBE: Methyl  tert-butyl  ether;  DME:  Dimethyl  ether;  MTO: Methanol-to-olefin; GHG: Greenhouse gas; DNA: Deoxyribose nucleic acid; RNA: Ribonucleic acid; MMO: Methane  monooxygenase;  sMMO:  Soluble  methane  monooxygenase;  pMMO:  Particulate methane monooxygenase; MDH: Methanol dehydrogenase; FADH:",True,5.0,5.0,"The relation ""methane is a greenhouse gas"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as ""methane"" and ""GHG"", respectively.",2.8506150245666504,,True,5.0,5.0,"The relation ""methane is a greenhouse gas"" is directly stated in the sentence, as methane (GHG) is listed among other greenhouse gases in the keywords section. The subject and object boundaries are correctly identified, as both ""methane"" and ""GHG"" appear explicitly in the source text.",6.563990116119385,,True,5.0,5.0,"The relation is directly stated in the sentence, where methane is explicitly mentioned as a greenhouse gas (GHG). The entity boundaries are also correctly identified, with ""methane"" being the subject and ""GHG"" being the object.",5.615403890609741,
+0x2138,TCE,is an example of,pollutant degraded by methanotrophic bacteria,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,Polyhydroxybutyrate; TCE: Trichloroethylene; rRNA: Ribosomal ribonucleic acid; OD: Optical density;  DEAE: Diethylaminoethanol; MBR: Membrane bioreactor,True,4.0,3.0,"The relation ""is an example of"" is accurately represented in the sentence, as TCE is indeed a pollutant degraded by methanotrophic bacteria. However, the faithfulness rating is not a perfect 5 because while the relation is stated, it's not explicitly linked to the subject with a clear connection word (e.g., ""degraded by""). The boundary quality rating of 3 indicates that the entity boundaries are generally correct but could be improved with more precise identification.",3.573028087615967,,True,,,"The sentence does not explicitly state that TCE is an example of a pollutant degraded by methanotrophic bacteria, but given the context of various substances listed, it can be inferred that TCE could potentially be one of them. The subject and object are correctly identified within the sentence.",5.831556081771851,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""TCE"" being correctly identified as the subject and ""pollutant degraded by methanotrophic bacteria"" as the object. The entity boundaries are also perfectly identified, with no extraneous characters included or omitted.",4.795086860656738,
+0x213a,AIMS Bioengineering,published,5(1): 1-38,,,,"Charlotte E. Bjorck 1 , Paul D. Dobson 2 and Jagroop Pandhal 1, *",Copy of Bjorck et al. 201820251115.pdf,"A
+
+AIMS Bioengineering, 5(1): 1-38.",True,5.0,5.0,"The relation is accurately represented in the sentence, as the subject ""AIMS Bioengineering"" and object ""5(1): 1-38"" are correctly identified and directly stated.",2.2307777404785156,,True,,,"The relation ""published"" is directly mentioned in the source sentence, and the subject and object are correctly identified as ""AIMS Bioengineering"" and ""5(1): 1-38"", respectively. The sentence explicitly states that AIMS Bioengineering published a paper with the given citation details.",5.074136972427368,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""AIMS Bioengineering"" being the subject and ""5(1): 1-38"" being the object. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",4.670099258422852,
+0x1232,Maximilian Lackner,3,Author,,,,"Recent findings in methanotrophs: genetics, molecular ecology, and biopotential",Copy of Ahmadi & Lackner 202420251113.pdf,"© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024",True,4.0,3.0,"The relation is accurately represented in the sentence as it states that Maximilian Lackner is an author. However, the faithfulness rating is not a perfect score because the sentence does not explicitly state ""Maximilian Lackner is an Author"" but rather uses a predicate number (Predicate: 3) to indicate his role. The boundary quality rating is 3 because the subject and object boundaries are correctly identified, but the use of a predicate number might be considered slightly ambiguous.",3.4748287200927734,,False,,,"The relation ""Maximilian Lackner is the Author"" is not directly stated in the sentence. While it does imply that someone is an author, the sentence does not provide enough context to definitively say that Maximilian Lackner is the author of a specific work. However, the entity boundaries are correctly identified as ""Maximilian Lackner"" (subject) and ""Author"" (object).",7.456128835678101,,False,1.0,2.0,"The relation is not accurately represented in the sentence, as it mentions ""The Author(s)"" which is a generic term and does not specifically refer to Maximilian Lackner. The entity boundaries are partially correct, but the subject is not clearly identified as Maximilian Lackner.",4.987300157546997,
+0x1296,The global warming debate,was emphasized on imbalance evidence of human influence on climate,Cheng et al. 2022,,,,Introduction,Copy of Ahmadi & Lackner 202420251113.pdf,"It seems that the global warming debate is increasing following the
+
+publication of Cheng et al. (2022) which was emphasized on imbalance evidence of human influence on climate.",True,4.0,3.0,"The extracted relation accurately represents the source sentence, as both mention ""the global warming debate"" and its emphasis on human influence on climate. However, the faithfulness score is slightly lower because the source sentence also mentions an increase in the debate following the publication of Cheng et al.'s work, which is not explicitly stated in the extracted relation.",2.9003448486328125,,True,,,"The relation accurately represents the subject, predicate, and object in the source sentence. The predicate is directly stated as ""was emphasized on imbalance evidence of human influence on climate,"" which clearly describes the focus of attention. The subject and object are correctly identified with the subject being ""The global warming debate"" and the object being ""Cheng et al. 2022.""",5.946805000305176,,True,5.0,5.0,"The relation is directly stated in the sentence, with the subject ""the global warming debate"" and object ""Cheng et al. (2022)"" clearly identified. The predicate ""was emphasized on imbalance evidence of human influence on climate"" is also accurately extracted from the source sentence.",4.929039239883423,
+0x124d,the present review,describes,recent findings in methanotrophs,,,,Abstract,Copy of Ahmadi & Lackner 202420251113.pdf,"The present review describes recent findings in methanotrophs including aerobic and anaerobic methanotroph bacteria, phenotypic characteristics, biotechnological potential, their physiology, ecology, and native multi-carbon utilizing pathways, and their molecular biology.",True,5.0,4.0,"The relation is accurately represented in the sentence, as it directly states that ""The present review describes recent findings in methanotrophs"". The entity boundaries are mostly correct, with only a minor issue at the beginning of the subject phrase (""The present review"") and the end of the object phrase (""methanotrophs""), but these do not significantly impact the overall accuracy.",3.108228921890259,,True,5.0,5.0,"The extracted relation ""describes"" is accurately represented in the sentence, as the review is indeed describing recent findings in methanotrophs. The description is directly stated in the source, making it a score of 5 for faithfulness. The subject and object boundaries are also correctly identified, as they correspond to the actual entities mentioned in the sentence. Therefore, a score of 5 for boundary quality.",5.685888051986694,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""The present review describes recent findings in methanotrophs"". The entity boundaries are also correctly identified, with the subject being ""the present review"" and the object being ""recent findings in methanotrophs"", which matches the provided positions.",5.31977915763855,
+0x1253,methanotrophic bacteria,contains genes responsible for encoding,The genes responsible for encoding methane monooxygenase,,,,Key points,Copy of Ahmadi & Lackner 202420251113.pdf,The physiology of methanotrophic bacteria is fundamentally determined. Native multi-carbon utilizing pathways in methanotrophic bacteria are summarized. The genes responsible for encoding methane monooxygenase are discussed. Keywords CH4 fluxes · Greenhouse gas · Methane oxidation · Methanotrophic bacteria,True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that ""The genes responsible for encoding methane monooxygenase"" are discussed, which implies a connection between methanotrophic bacteria and these genes. The entity boundaries (subject and object) are correctly identified, with ""methanotrophic bacteria"" being the subject and ""The genes responsible for encoding methane monooxygenase"" being the object.",3.3257410526275635,,True,,,"The extracted relation is accurately represented in the sentence, as it directly states that ""The genes responsible for encoding methane monooxygenase are discussed,"" and these genes are specifically associated with methanotrophic bacteria. The subject and object boundaries are correctly identified, as they correspond to the entities mentioned in the relation.",5.689246892929077,,True,5.0,5.0,"The relation is directly stated in the sentence, with the subject ""methanotrophic bacteria"" and object ""The genes responsible for encoding methane monooxygenase"" clearly identified. The entity boundaries are also correctly marked, as they correspond to the exact positions of the subject and object in the source sentence.",5.401454210281372,
+0x1293,This leads to,considerable controversy among different environmental and atmospheric scientists,several previous publications (Lackner 2015; Harvey et al. 2023; Jansson and Wu 2023),,,,Introduction,Copy of Ahmadi & Lackner 202420251113.pdf,"This leads to considerable controversy among different environmental and atmospheric scientists, as evidenced in several previous publications (Lackner 2015; Harvey et al. 2023; Jansson and Wu 2023).",True,5.0,5.0,"The extracted relation accurately represents the source sentence, as both the subject (""This leads to"") and object (""several previous publications"") are correctly identified.",2.0712218284606934,,True,,,"The relation is accurately represented in the sentence, as it directly states that ""This leads to considerable controversy among different environmental and atmospheric scientists."" The controversy is further supported by specific publications mentioned. The entity boundaries are correctly identified, with ""This"" being the subject and ""several previous publications (Lackner 2015; Harvey et al. 2023; Jansson and Wu 2023)"" being the object.",6.503676176071167,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""This leads to"" clearly identified as the subject and ""several previous publications (Lackner 2015; Harvey et al. 2023; Jansson and Wu 2023)"" as the object.",5.103667974472046,
+0x1257,methanotrophic bacteria,has physiology determined by,The physiology of methanotrophic bacteria,,,,Key points,Copy of Ahmadi & Lackner 202420251113.pdf,The physiology of methanotrophic bacteria is fundamentally determined. Native multi-carbon utilizing pathways in methanotrophic bacteria are summarized. Keywords CH4 fluxes · Greenhouse gas · Methane oxidation · Methanotrophic bacteria,True,4.0,5.0,"The relation is accurately represented in the sentence, as it states that the physiology of methanotrophic bacteria is determined. The faithfulness rating is 4 because the source explicitly mentions ""fundamentally determined"", which closely matches the extracted relation. The entity boundaries are correctly identified, with the subject being ""methanotrophic bacteria"" and the object being ""The physiology of methanotrophic bacteria"".",3.337473154067993,,True,,,"The relation ""has physiology determined by"" is accurately represented in the sentence, as it directly states that the physiology of methanotrophic bacteria is fundamentally determined. The subject and object boundaries are also correctly identified, as they both refer to ""methanotrophic bacteria"" and its physiology respectively.",5.706342935562134,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it states that the physiology of methanotrophic bacteria is determined. The entity boundaries are correctly identified, with ""methanotrophic bacteria"" serving as both subject and object.",4.611350774765015,
+0x1248,advanced genetic analysis with ecological insights,pioneers a holistic approach to unraveling the biopotential of methanotrophs,offering unprecedented avenues for biotechnological applications,,,,Abstract,Copy of Ahmadi & Lackner 202420251113.pdf,"By amalgamating advanced genetic analysis with ecological insights, this study pioneers a holistic approach to unraveling the biopotential of methanotrophs, offering unprecedented avenues for biotechnological applications.",True,5.0,5.0,"The extracted relation accurately represents the source sentence, with no significant changes or additions. The subject and object boundaries are correctly identified, mirroring the exact positions in the original sentence.",2.196169853210449,,True,,,"The extracted relation accurately reflects the main subject, predicate, and object of the sentence. The system correctly identified the subject as ""advanced genetic analysis with ecological insights,"" which is pioneering a holistic approach to unraveling the biopotential of methanotrophs (predicate). The object, offering unprecedented avenues for biotechnological applications, is also correctly identified. The system's boundary identification is perfect as it accurately pinpointed the subject and object positions in the sentence.",7.113114833831787,,True,5.0,5.0,"The relation is directly stated in the sentence, with the subject and object phrases clearly identified. The entity boundaries are also correctly marked, as the subject phrase starts at character 16 and ends at character 66, and the object phrase starts at character 157 and ends at character 221.",4.937600135803223,
+0x1243,global warming,is caused by,an increase in the average temperature on Earth,,,,Abstract,Copy of Ahmadi & Lackner 202420251113.pdf,"The potential consequences for mankind could be disastrous due to global warming, which arises from an increase in the average temperature on Earth.",True,4.0,5.0,"The relation is accurately represented in the sentence, as it states that global warming ""arises from"" an increase in average temperature on Earth. This phrasing directly supports the extracted relation, indicating a high level of faithfulness and correct entity boundaries.",2.379754066467285,,True,5.0,5.0,"The relation ""global warming is caused by an increase in the average temperature on Earth"" is directly stated in the source sentence. The subject, object, and their boundaries are correctly identified and aligned with the original text.",4.0804219245910645,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""global warming"" being the cause and ""an increase in the average temperature on Earth"" being the effect. The entity boundaries are correctly identified, with ""global warming"" starting at character 66 and ""an increase in the average temperature on Earth"" starting at character 100.",5.266969680786133,
+0x7aac,reverse tricarboxylic acid cycle,is,rTCA,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",,,,,10.42369794845581,,False,,,"The extracted relation ""reverse tricarboxylic acid cycle is rTCA"" is not present in the provided sentence. The term ""rTCA"" appears in the source, but it's not related to being is or identified as anything in the given context.",5.759167909622192,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""reverse tricarboxylic acid cycle"" explicitly mentioned as the subject and ""rTCA"" as its object. The entity boundaries are also correctly identified, with no overlap or underlap between the subject and object positions.",5.70769190788269,
+0x7aa8,ANME,are,anaerobic methanotrophic archaea,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""AMO"" are anaerobic methanotrophic archaea. The entity boundaries (subject and object) are correctly identified, with ""ANME"" being the subject and ""anaerobic methanotrophic archaea"" being the object.",3.100767135620117,,True,,,"The extracted relation ""ANME are anaerobic methanotrophic archaea"" is directly stated in the source sentence, where ANME and anaerobic methanotrophic archaea are clearly identified as subjects and objects respectively.",5.783417701721191,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""ANME"" explicitly mentioned as a subject and ""anaerobic methanotrophic archaea"" as its object. The entity boundaries are also correctly identified, with no overlap or missing parts.",5.199060916900635,
+0x7aa6,Wood-Ljungdahl pathway,is,WLP,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",True,5.0,5.0,"The relation ""is"" is accurately represented in the sentence, as it directly states that the Wood-Ljungdahl pathway is equal to WLP. The entity boundaries are also correctly identified, with the subject being characters 561-583 and the object being characters 556-559.",2.8608829975128174,,False,,,"The extracted relation ""Wood-Ljungdahl pathway is WLP"" is not present in the source sentence. The term ""WLP"" only appears as an abbreviation for ""Wood-Ljungdahl pathway,"" so it cannot be used as an object in this context.",5.984899282455444,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Wood-Ljungdahl pathway"" as the subject and ""WLP"" as its abbreviation. The entity boundaries are correctly identified, with the subject starting at character 561 and the object at character 556.",5.616466760635376,
+0x7a88,San Diego,is located in,California,,,,M.G. Kalyuzhnaya,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"Biology Department, Viral Information Institute, San Diego State University, San Diego, California, USA",True,5.0,4.0,"The relation is accurately represented in the sentence as it explicitly states that San Diego is located in California. The faithfulness rating of 5 indicates that this relation is directly stated in the source, with no ambiguity or inference required to understand the connection between the subject and object. The boundary quality rating of 4 suggests that the entity boundaries are generally correct, but there might be some minor issues with the exact positioning of the subject and object within the sentence.",3.7876760959625244,,True,5.0,5.0,"The relation ""is located in"" is directly stated between San Diego and California in the source sentence. The city of San Diego is located within the state of California, as mentioned explicitly in the text. The entity boundaries are correctly identified as the subject and object positions correspond to the correct entities in the sentence.",4.9736621379852295,,True,4.0,5.0,"The relation is accurately represented in the sentence, as San Diego is indeed located in California. The entity boundaries are correctly identified, with ""San Diego"" clearly marked as the subject and ""California"" as the object.",4.562913656234741,
+0x7aa4,single-cell protein,is,SCP,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",,,,,3.7876129150390625,,True,,,"The extracted relation ""single-cell protein is SCP"" is directly stated in the source, as the subject and object are identical. The entity boundaries are correctly identified since both the subject and object refer to the same term ""single-cell protein"".",5.511245012283325,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""single-cell protein"" being the subject and ""SCP"" being its abbreviation as the object. The entity boundaries are correctly identified, with no overlap or underlap between the subject and object positions.",5.461350917816162,
+0x7aaa,polyhydroxybutyrate,is,PHB,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",,5.0,5.0,"The extracted relation directly states that polyhydroxybutyrate (subject) ""is"" PHB (object), which matches the source sentence.",3.5327680110931396,,True,,,"The extracted relation ""polyhydroxybutyrate is PHB"" is directly stated in the source as ""PHB"" is listed as one of the abbreviations, and it corresponds to ""polyhydroxybutyrate"". The entity boundaries are correctly identified since both the subject and object are explicitly mentioned in the sentence.",6.657417058944702,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""polyhydroxybutyrate"" being explicitly mentioned as a subject and its abbreviation ""PHB"" as an object. The entity boundaries are also correctly identified, with no overlap or underlap between the subject and object positions.",5.422145128250122,
+0x7aa3,partial serine cycle,is,pSC,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",True,4.0,5.0,"The relation is accurately represented in the sentence, as ""partial serine cycle"" directly follows ""serine cycle"". The entity boundaries (subject and object) are correctly identified, with ""partial serine cycle"" as the subject and ""pSC"" as the object.",2.9444820880889893,,True,,,"The extracted relation ""partial serine cycle is pSC"" is directly stated in the source sentence, as the subject and object are mentioned explicitly. The boundaries of the subject and object are correctly identified, as they correspond to the characters specified in the question.",5.429895877838135,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""partial serine cycle"" being the subject and ""pSC"" being its corresponding object. The entity boundaries are correctly identified as they match the exact positions of the subject and object in the source sentence.",5.159611701965332,
+0x7a85,Viral Information Institute,is located at,San Diego State University,,,,M.G. Kalyuzhnaya,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"Biology Department, Viral Information Institute, San Diego State University, San Diego, California, USA",True,5.0,4.0,"The relation is accurately represented in the sentence, as it directly states that the Viral Information Institute is located at San Diego State University. The entity boundaries are mostly correct, with only a minor issue where ""San Diego"" appears before the university's name, which could be considered an error in boundary identification.",2.8226771354675293,,True,5.0,5.0,"The relation ""is located at"" is directly stated in the sentence, as the Viral Information Institute is part of San Diego State University. The entity boundaries are correctly identified, as both the subject and object are accurately positioned within the source sentence.",4.3327789306640625,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Viral Information Institute"" being the subject and ""San Diego State University"" being the object of the predicate ""is located at"". The entity boundaries are also correctly identified.",4.7974841594696045,
+0x7aae,AnMO,is,anaerobic methane oxidation,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",True,5.0,5.0,"The relation is accurately represented in the sentence, as ""anaerobic methane oxidation"" directly follows ""AnMO"". The entity boundaries are correctly identified, with ""AnMO"" being the subject and ""anaerobic methane oxidation"" being the object.",3.058202028274536,,True,,,"The extracted relation ""AnMO is anaerobic methane oxidation"" is directly stated in the source sentence, where AnMO and anaerobic methane oxidation are mentioned consecutively. The entity boundaries are correctly identified as both subject and object are present in their respective positions in the source sentence.",7.677199125289917,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""AnMO"" explicitly mentioned as the subject and ""anaerobic methane oxidation"" as the object. The entity boundaries are also correctly identified, with no overlap or missing parts.",5.667287111282349,
+0x7aaf,dry cell weight,is,DCW,,,,Abbreviations,Copy of Methane Biocatalysis - Selecting the Right Microbe20251113.pdf,"AMO
+
+arobic methane oxidation
+
+ANME
+
+anaerobic methanotrophic archaea
+
+AnMO
+
+anaerobic methane oxidation
+
+BS
+
+bifidobacterium shunt
+
+CBB
+
+Calvin-Benson-Bassham cycle
+
+CCE
+
+carbon conversion efficiency
+
+DCW
+
+dry cell weight
+
+EDD pathway
+
+Entner-Doudoroff pathway
+
+EMP pathway
+
+Embden-Meyerhof-Parnas pathway
+
+MCC
+
+methanol condensation cycle
+
+PHB
+
+polyhydroxybutyrate
+
+RuMP pathway
+
+ribulose monophosphate pathway
+
+SC
+
+serine cycle
+
+pSC
+
+partial serine cycle
+
+SCP
+
+single-cell protein
+
+TCA
+
+tricarboxylic acid cycle
+
+rTCA
+
+reverse tricarboxylic acid cycle
+
+WLP
+
+Wood-Ljungdahl pathway",,,,,9.87345004081726,,False,,,"The extracted relation ""Subject: dry cell weight, Predicate: is, Object: DCW"" is not present in the provided sentence. The term ""dry cell weight"" does not have a predicate or object associated with it in the given context. Instead, it appears to be a term related to microbial biomass analysis, which is not directly mentioned or implied in the source sentence.",6.874570846557617,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""dry cell weight"" being the subject and ""DCW"" being the object. The entity boundaries are correctly identified as they match the exact positions of the words in the source sentence.",5.493052959442139,
+0xa3f6,Zhongtang Yu,is affiliated with,Department of Animal Sciences (The Ohio State University),,,,Development and evaluation of a trickle bed bioreactor for enhanced mass transfer and methanol production from biogas,Copy of Sheets et al. 201720251113.pdf,"Johnathon P. Sheets a , Kathryn Lawson a , Xumeng Ge a , c , Lingling Wang b , Zhongtang Yu b , Yebo Li a , c , ∗
+
+a Department of Food, Agricultural and Biological Engineering, The Ohio State University/Ohio Agricultural Research and Development Center, 1680 Madison Ave., Wooster, OH, 44691-4096, USA
+
+b Department of Animal Sciences, The Ohio State University, Columbus, OH, 43210, USA
+
+c quasar energy group, 8600 E. Pleasant Valley Rd, Independence, OH 44131, USA",True,5.0,5.0,"The relation ""is affiliated with"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as Zhongtang Yu being affiliated with the Department of Animal Sciences at The Ohio State University.",2.7743117809295654,,True,,,"The subject ""Zhongtang Yu"" is listed under the department ""Department of Animal Sciences, The Ohio State University"", which serves as the object in the extracted relation. This relation is directly stated and accurately represented in the source sentence.",5.411929130554199,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject and object) are correctly identified as Zhongtang Yu being affiliated with Department of Animal Sciences.",4.458605766296387,
+0xa402,Article,was accepted,5 March 2017,,,,a r t i c l e i n f o,Copy of Sheets et al. 201720251113.pdf,"Article history: Received 17 November 2016 Received in revised form 31 January 2017 Accepted 5 March 2017 Available online 7 March 2017
+
+Keywords: Greenhouse gases Biological conversion Methane Methanotrophs Methanol",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""Article was accepted"" on March 5, 2017. The entity boundaries are also correctly identified, with the subject being the word ""Article"" and the object being the date ""5 March 2017"".",2.8056421279907227,,True,5.0,5.0,"The relation ""was accepted"" is directly stated in the sentence, with the date ""5 March 2017"" being the exact object of the predicate. The subject and object boundaries are correctly identified as ""Article"" and ""5 March 2017"", respectively.",4.929731130599976,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Accepted"" as the predicate and ""Article"" as the subject. The object position of ""5 March 2017"" is also correctly identified, making both entity boundaries accurate.",4.70535683631897,
+0xa415,CH4 emissions from human activities,equals to,>700 million metric tons of CO2 equivalent,,,,1. Introduction,Copy of Sheets et al. 201720251113.pdf,"In fact, nearly 11% of all of the greenhouse gases produced in the United States each year are due to CH4 emissions from human activities (>700 million metric tons of CO2 equivalent)",True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that CH4 emissions from human activities are equal to or greater than 700 million metric tons of CO2 equivalent. The source sentence directly supports this relation by stating ""are due to"" which implies equality or proportionality.",2.782606840133667,,True,5.0,5.0,"The relation ""CH4 emissions from human activities equals to"" is accurately represented in the sentence, as it directly states that CH4 emissions from human activities are approximately 11% of all greenhouse gases produced in the United States each year, which equates to over 700 million metric tons of CO2 equivalent. The entity boundaries (subject and object) are correctly identified, as they correspond directly to the subjects and objects in the sentence.",6.017610788345337,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""CH4 emissions from human activities"" being the subject and "">700 million metric tons of CO2 equivalent"" being the object. The entity boundaries are also correctly identified, as they match the exact phrases mentioned in the extracted relation.",5.15267014503479,
+0xa3ff,Greenhouse gases,is a topic of,the article,,,,a r t i c l e i n f o,Copy of Sheets et al. 201720251113.pdf,"Article history: Received 17 November 2016 Received in revised form 31 January 2017 Accepted 5 March 2017 Available online 7 March 2017
+
+Keywords: Greenhouse gases Biological conversion Methane Methanotrophs Methanol",True,4.0,3.0,"The entity boundaries are generally correct, with ""Greenhouse gases"" as the subject and ""the article"" as the object. However, the boundary quality is not perfect because the sentence structure does not explicitly separate the subject from the rest of the text, which could lead to ambiguity in identifying the exact scope of the relation.",5.086968660354614,,True,,,"The subject ""Greenhouse gases"" is explicitly mentioned in the sentence, and it is one of the keywords listed. Although the relation is not directly stated as ""is a topic of"", it can be inferred from the context. The entity boundaries are accurately identified as the subject ""Greenhouse gases"" and the object ""the article"".",7.199075937271118,,True,4.0,5.0,"The relation is accurately represented in the sentence, as ""Greenhouse gases"" is indeed a topic of discussion in the article. The entity boundaries are correctly identified, with ""Greenhouse gases"" being the subject and ""the article"" being the object.",4.984172821044922,
+0xa3f4,quasar energy group,is affiliated with,"8600 E. Pleasant Valley Rd, Independence, OH 44131, USA",,,,Development and evaluation of a trickle bed bioreactor for enhanced mass transfer and methanol production from biogas,Copy of Sheets et al. 201720251113.pdf,"Johnathon P. Sheets a , Kathryn Lawson a , Xumeng Ge a , c , Lingling Wang b , Zhongtang Yu b , Yebo Li a , c , ∗
+
+a Department of Food, Agricultural and Biological Engineering, The Ohio State University/Ohio Agricultural Research and Development Center, 1680 Madison Ave., Wooster, OH, 44691-4096, USA
+
+b Department of Animal Sciences, The Ohio State University, Columbus, OH, 43210, USA
+
+c quasar energy group, 8600 E. Pleasant Valley Rd, Independence, OH 44131, USA",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""quasar energy group"" is affiliated with the address. The entity boundaries are also correctly identified, as the subject and object are clearly separated from other information in the sentence.",2.975555658340454,,True,,,"The extracted relation ""quasar energy group is affiliated with 8600 E. Pleasant Valley Rd, Independence, OH 44131, USA"" is directly stated in the source sentence as indicated by the 'c' notation next to ""quasar energy group"" and the address information following it. The subject and object boundaries are correctly identified as well, with no errors in entity recognition.",7.104555130004883,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""quasar energy group"" is affiliated with a specific address. The entity boundaries are also correctly identified, as the subject and object positions match the corresponding entities in the source sentence.",5.164601802825928,
+0xa412,Promising opportunities,include,the installation of biogas recovery systems at landfills,,,,1. Introduction,Copy of Sheets et al. 201720251113.pdf,Promising opportunities to address this issue include the installation of biogas recovery systems at landfills and the diversion of organic wastes to engineered anaerobic digestion (AD) systems [3].,True,4.0,3.0,"The relation is accurately represented in the sentence, as it correctly states that ""promising opportunities"" include a specific action (""the installation of biogas recovery systems at landfills""). However, the faithfulness rating is not a perfect 5 because the source sentence also mentions another related action (""the diversion of organic wastes to engineered anaerobic digestion (AD) systems""), which is not included in the extracted relation. The boundary quality rating is not a perfect 5 because the subject and object positions could be more precisely defined, as they are based on character counts rather than explicit word boundaries.",4.452023983001709,,True,5.0,5.0,"The relation ""include"" is directly stated in the sentence, as it clearly mentions that promising opportunities include the installation of biogas recovery systems at landfills. The subject and object boundaries are also correctly identified, as they correspond to the actual entities mentioned in the source sentence.",4.9039061069488525,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Promising opportunities"" as the subject and ""the installation of biogas recovery systems at landfills"" as the object. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",5.03989577293396,
+0xa3fa,Yebo Li,is affiliated with,"Department of Food, Agricultural and Biological Engineering (The Ohio State University/Ohio Agricultural Research and Development Center)",,,,Development and evaluation of a trickle bed bioreactor for enhanced mass transfer and methanol production from biogas,Copy of Sheets et al. 201720251113.pdf,"Johnathon P. Sheets a , Kathryn Lawson a , Xumeng Ge a , c , Lingling Wang b , Zhongtang Yu b , Yebo Li a , c , ∗
+
+a Department of Food, Agricultural and Biological Engineering, The Ohio State University/Ohio Agricultural Research and Development Center, 1680 Madison Ave., Wooster, OH, 44691-4096, USA
+
+b Department of Animal Sciences, The Ohio State University, Columbus, OH, 43210, USA
+
+c quasar energy group, 8600 E. Pleasant Valley Rd, Independence, OH 44131, USA",True,5.0,5.0,"The relation ""is affiliated with"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as Yebo Li being affiliated with the Department of Food, Agricultural and Biological Engineering.",2.6776318550109863,,True,,,"The subject ""Yebo Li"" is explicitly mentioned as being affiliated with the Department of Food, Agricultural and Biological Engineering at The Ohio State University/Ohio Agricultural Research and Development Center in the provided address information. This relation is directly stated in the source sentence. The entity boundaries are correctly identified as the subject ""Yebo Li"" and the object is the department mentioned in the address.",6.613572120666504,,True,5.0,5.0,"The relation is directly stated in the sentence, as it explicitly mentions ""Yebo Li"" being affiliated with the Department of Food, Agricultural and Biological Engineering. The entity boundaries are also correctly identified, with ""Yebo Li"" clearly marked as the subject and the department name as the object.",5.6923980712890625,
+0xa40f,Biogas,is released,directly to the atmosphere,,,,1. Introduction,Copy of Sheets et al. 201720251113.pdf,"[1,2], where anaerobic microorganisms convert organic wastes to biogas (30-70% CH4, 30-70% CO2, 0-2000 ppm hydrogen sulfide (H2S)) that is released directly to the atmosphere Promising opportunities to address this issue include the installation of biogas recovery systems at landfills and the diversion of organic wastes to engineered anaerobic digestion (AD) systems [3]. In both cases, biogas can be captured and used as a source of renewable fuel, such as compressed natural gas (CNG), or can be",True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that biogas ""is released directly to the atmosphere"". This phrase exactly matches the extracted relation. The faithfulness rating of 5 indicates that the relation is directly stated without any additional information or modifications. The boundary quality rating of 5 also indicates that the entity boundaries (subject and object) are correctly identified, with ""biogas"" as the subject and ""directly to the atmosphere"" as the object.",3.9244680404663086,,True,5.0,5.0,"The relation ""Biogas is released"" is directly stated in the sentence, and the biogas subject and the object ""directly to the atmosphere"" are correctly identified.",4.418699026107788,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that biogas is released directly to the atmosphere. The entity boundaries are also correctly identified, with ""biogas"" being the subject and ""directly to the atmosphere"" being the object.",5.266769170761108,
+0xa40d,Methane,is a,valuable energy source,,,,1. Introduction,Copy of Sheets et al. 201720251113.pdf,"Methane (CH4) is a valuable energy source, but it is also a potent greenhouse gas that has ∼ 25 times the 100-year global warming potential of carbon dioxide (CO2)",True,4.0,3.0,"The relation ""is a valuable energy source"" is accurately represented in the sentence, but it's not directly stated as a separate fact. Instead, it's part of a larger statement that also mentions methane being a potent greenhouse gas.",2.527853012084961,,True,5.0,5.0,"The relation ""Methane is a valuable energy source"" is directly stated in the sentence. The subject, object, and their boundaries are correctly identified.",3.6604578495025635,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Methane"" being the subject and ""valuable energy source"" being the object. The entity boundaries are also correctly identified, as they match the positions of the words in the original sentence.",4.7096288204193115,
+0xa3f9,Kathryn Lawson,is affiliated with,"Department of Food, Agricultural and Biological Engineering (The Ohio State University/Ohio Agricultural Research and Development Center)",,,,Development and evaluation of a trickle bed bioreactor for enhanced mass transfer and methanol production from biogas,Copy of Sheets et al. 201720251113.pdf,"Johnathon P. Sheets a , Kathryn Lawson a , Xumeng Ge a , c , Lingling Wang b , Zhongtang Yu b , Yebo Li a , c , ∗
+
+a Department of Food, Agricultural and Biological Engineering, The Ohio State University/Ohio Agricultural Research and Development Center, 1680 Madison Ave., Wooster, OH, 44691-4096, USA
+
+b Department of Animal Sciences, The Ohio State University, Columbus, OH, 43210, USA
+
+c quasar energy group, 8600 E. Pleasant Valley Rd, Independence, OH 44131, USA",True,5.0,5.0,"The relation ""is affiliated with"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as Kathryn Lawson being affiliated with the Department of Food, Agricultural and Biological Engineering.",2.621022939682007,,True,,,"The subject, Kathryn Lawson, is listed as affiliated with the Department of Food, Agricultural and Biological Engineering at The Ohio State University/Ohio Agricultural Research and Development Center, which is clearly stated in the source sentence. The entity boundaries are correctly identified as the subject and object are explicitly mentioned in the sentence.",6.050257205963135,,True,5.0,5.0,"The relation is accurately represented in the sentence, as Kathryn Lawson's affiliation with the Department of Food, Agricultural and Biological Engineering (The Ohio State University/Ohio Agricultural Research and Development Center) is explicitly stated. The entity boundaries are also correctly identified, with ""Kathryn Lawson"" being the subject and the department name being the object.",5.811849117279053,
+0xcaee,research,focuses on,antibody,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"Fully automated and uniquely versatile cell imaging and retrieval system to simplify your antibody, rare-cell and stem-cell research.",True,5.0,4.0,"The relation ""research focuses on antibody"" is accurately represented in the sentence, as the word ""research"" directly precedes and modifies the noun ""antibody"". The faithfulness rating of 5 indicates that this relation is directly stated in the source sentence. However, the boundary quality rating of 4 suggests that while the entity boundaries are generally correct, there might be some minor adjustments needed for precision.",3.3189949989318848,,True,5.0,5.0,"The sentence explicitly mentions ""antibody research,"" and the system correctly identifies that the research focuses on antibodies. The relation is directly stated in the source, making it a perfect match. The entity boundaries are also accurately identified as the subject and object of the relation.",4.725974082946777,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""research"" being the subject and ""antibody"" being the object of the predicate ""focuses on"". The entity boundaries are correctly identified as the relation is directly stated in the source.",4.786036014556885,
+0xcb11,Yun Chen,is affiliated with,"Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden",,,,Strategies and challenges with the microbial conversion of methanol to high -value chemicals,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"Yun Chen 4,5
+
+| The Key Laboratory of Carbohydrate Chemistry and Biotechnology, School of Biotechnology, Ministry of Education, Jiangnan University, Wuxi, China
+
+4 Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden
+
+5 Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, Gothenburg, Sweden",True,4.0,5.0,"The relation is accurately represented in the sentence, as it directly states that Yun Chen is affiliated with the specified department. The entity boundaries are correctly identified, and there's no indication of any hallucination or misidentification.",2.868030071258545,,True,,,"The extracted relation is accurately represented in the sentence as it directly states that Yun Chen is affiliated with the Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden. This information can be found in the fourth item of the list provided in the source sentence. The entity boundaries are correctly identified as the subject ""Yun Chen"" and object ""Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"" are both present in the source sentence.",7.645617961883545,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries are correctly identified as ""Yun Chen"" (subject) and ""Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"" (object).",5.299285888671875,
+0xcaf8,CellCelector Flex,streamlines,workflows,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"With CellCelector Flex, you have everything you need for imaging, screening, retrieving and verifying target cells in one place. It's an all-in-one solution that reduces steps, streamlines workflows, and accelerates processing - while capturing cells without damage and enabling incredibly high viability.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that ""streamlines workflows"" is a benefit of using CellCelector Flex. The faithfulness rating is 5 because the relation is explicitly stated in the source sentence without any ambiguity or inference. The boundary quality rating is also 5 because the subject and object positions are correctly identified, with ""CellCelector Flex"" as the subject and ""workflows"" as the object.",3.7526681423187256,,True,5.0,5.0,"The relation ""streamlines"" is directly stated in the sentence, as it describes one of the benefits of using CellCelector Flex. The subject and object are correctly identified within the sentence, with ""CellCelector Flex"" being the subject that performs the action of streamlining, and ""workflows"" being the object that is streamlined.",5.494939088821411,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""streamlines"" being a clear verb connecting ""workflows"" to ""CellCelector Flex"". The entity boundaries are also correctly identified, as ""CellCelector Flex"" starts at character 5 and ""workflows"" starts at character 190.",5.338996171951294,
+0xcb09,Yankun Yang,is affiliated with,"The Key Laboratory of Industrial Biotechnology, School of Biotechnology, Ministry of Education, Jiangnan University, Wuxi, China",,,,Strategies and challenges with the microbial conversion of methanol to high -value chemicals,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"Yankun Yang 1,2,3
+
+|
+
+Jens Nielsen 4,5,6
+
+2 The Key Laboratory of Industrial Biotechnology, School of Biotechnology, Ministry of Education, Jiangnan University, Wuxi, China
+
+3",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that Yankun Yang is affiliated with the specified organization. The entity boundaries are also correctly identified, with no mention of Jens Nielsen or any other character being associated with the organization.",2.7001500129699707,,True,,,"The extracted relation is accurately represented in the sentence, as it directly states that Yankun Yang is affiliated with the provided institution. The entity boundaries are correctly identified, as the subject and object are explicitly mentioned in the source sentence.",4.783239841461182,,True,5.0,5.0,"The relation is accurately represented in the sentence, as it clearly states that Yankun Yang is affiliated with the specified laboratory. The entity boundaries are also correctly identified, with ""Yankun Yang"" being the subject and the long description starting from character 44 being the object.",5.077146768569946,
+0xcaf3,research,focuses on,stem-cell,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"Fully automated and uniquely versatile cell imaging and retrieval system to simplify your antibody, rare-cell and stem-cell research.",True,5.0,5.0,"The relation ""research"" focuses on ""stem-cell"" is directly stated in the source sentence, with clear boundaries between the subject (""research"") and object (""stem-cell"").",2.142137050628662,,True,5.0,5.0,"The sentence explicitly mentions ""stem-cell research,"" which implies that the system focuses on stem cells in the context of research. The relation between ""research"" and ""focuses on"" is directly stated with the subject being ""research"" and the object being ""stem-cell."" The entity boundaries are correctly identified as the words ""research"" and ""stem-cell"" correspond to the subject and object, respectively.",5.844105005264282,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""research"" being the subject and ""stem-cell"" being the object. The entity boundaries are correctly identified as the relation is directly stated in the source sentence.",4.363357782363892,
+0xcb10,Chunjun Zhan,is affiliated with,"The Key Laboratory of Carbohydrate Chemistry and Biotechnology, School of Biotechnology, Ministry of Education, Jiangnan University, Wuxi, China",,,,Strategies and challenges with the microbial conversion of methanol to high -value chemicals,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"Chunjun Zhan 1,2,3,4 Zhonghu Bai 1,2,3 |
+
+| Xiaowei Li 4,5 The Key Laboratory of Carbohydrate Chemistry and Biotechnology, School of Biotechnology, Ministry of Education, Jiangnan University, Wuxi, China
+
+4 Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden
+
+5 Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, Gothenburg, Sweden",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that Chunjun Zhan is affiliated with the specified organization. The entity boundaries are also correctly identified, with no mention of any other entities or relationships being included.",2.6498618125915527,,True,,,"The subject ""Chunjun Zhan"" and the object ""The Key Laboratory of Carbohydrate Chemistry and Biotechnology, School of Biotechnology, Ministry of Education, Jiangnan University, Wuxi, China"" are both explicitly mentioned in the source sentence. The relation ""is affiliated with"" can be inferred from the context as researchers are often associated with their respective institutions.",7.236046075820923,,True,5.0,5.0,"The relation is accurately represented in the sentence, as Chunjun Zhan is indeed affiliated with the mentioned laboratory. The entity boundaries are also correctly identified, with ""Chunjun Zhan"" clearly marked as the subject and the long object phrase starting from character position 252.",5.481630086898804,
+0xcaed,CellCelector Flex,is used for,screening,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"With CellCelector Flex, you have everything you need for imaging, screening, retrieving and verifying target cells in one place.",True,5.0,4.0,"The relation is accurately represented in the sentence, as ""CellCelector Flex"" is indeed used for screening. The entity boundaries are mostly correct, with only a minor issue at the word boundary between ""screening"" and the rest of the sentence.",2.6952390670776367,,True,5.0,5.0,"The relation ""is used for"" is directly stated in the sentence, with ""CellCelector Flex"" being used for ""imaging, screening, retrieving and verifying target cells"". The subject and object boundaries are correctly identified as ""CellCelector Flex"" and ""screening"", respectively.",4.840855121612549,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""CellCelector Flex"" being used for screening explicitly mentioned. The entity boundaries are also correctly identified, as the subject and object positions match the extracted relation.",4.398237943649292,
+0xcaec,CellCelector Flex,is used for,verifying target cells,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"With CellCelector Flex, you have everything you need for imaging, screening, retrieving and verifying target cells in one place.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that CellCelector Flex is used for verifying target cells. The subject and object boundaries are also correctly identified, with no extraneous information or missing context.",2.5295448303222656,,True,5.0,5.0,"The relation ""CellCelector Flex is used for verifying target cells"" is directly stated in the sentence. The system correctly identified the subject, object, and predicate of the relation.",3.9111831188201904,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""CellCelector Flex"" being used for verifying target cells. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",4.240329027175903,
+0xcafa,CellCelector Flex,is used for,retrieving,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"With CellCelector Flex, you have everything you need for imaging, screening, retrieving and verifying target cells in one place.",True,5.0,4.0,"The relation is accurately represented in the sentence, as ""CellCelector Flex"" is indeed used for retrieving. The object position is close but not exact; it should be characters 77-87: ""retrieving"".",2.4925310611724854,,True,5.0,5.0,"The relation ""is used for"" accurately represents the sentence, as it is directly stated that CellCelector Flex is used for imaging, screening, retrieving, and verifying target cells. The subject and object boundaries are correctly identified in the sentence.",4.3332438468933105,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""CellCelector Flex"" being used for retrieving target cells. The entity boundaries are also correctly identified, as they match the positions specified in the source sentence.",4.263437986373901,
+0xcaef,research,focuses on,rare-cell,,,,One Tool to Retrieve Them All,Copy of Zhan et al. 2020 10.20.02 AM20251113.pdf,"Fully automated and uniquely versatile cell imaging and retrieval system to simplify your antibody, rare-cell and stem-cell research.",True,4.0,3.0,"The relation ""research"" is accurately represented in the sentence as it describes a specific area of study. However, the faithfulness rating is not a perfect score because while the relation is stated directly, the object ""rare-cell"" is part of a broader phrase (""antibody, rare-cell and stem-cell research"") that slightly modifies its direct meaning. The boundary quality is rated 3 as the subject and object positions are generally correct but could be argued to be slightly off due to the surrounding context.",3.8453240394592285,,True,5.0,5.0,"The sentence explicitly states that the system simplifies ""rare-cell research,"" implying that the research focuses on rare cells. This relation is directly stated in the source, making it a perfect match. The subject and object boundaries are also correctly identified as ""research"" and ""rare-cell"" respectively, since they correspond to the entities being researched and the type of cell being researched in this context.",5.998214244842529,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""research"" being the subject and ""rare-cell"" being the object. The entity boundaries are correctly identified as the relation is directly stated in the source sentence.",4.651052713394165,
+0xb93c,microscale technology,is used for,continuous-flow organic synthesis,,,,Microfluidic devices for biocatalytic processes,Copy of Wohlgemuth et al. 201520251113.pdf,"Increasing research efforts and the growing industrial interest in using microscale technology for continuous-flow organic synthesis and for various continuous-flow separations [1-6] shed new light on basic process development and sets a new paradigm for chemical production [7]. The quest for high-performance manufacturing technology places the combination of biocatalysis and microscale technology as a key green engineering method for process development and production [12-14]. The strategic advantages of microscale technology are reviewed with regard to minimizing the gap between the laboratory and the full-size manufacturing
+
+0167-7799/
+
+scale enabling sustainable manufacturing of high addedvalue bioproducts based on biocatalytic processes.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that microscale technology ""is used for"" continuous-flow organic synthesis. The subject and object boundaries are also correctly identified, with no extraneous information or incorrect entities present.",2.8504068851470947,,True,,,"The extracted relation ""microscale technology is used for continuous-flow organic synthesis"" is directly stated in the source sentence. The subject and object boundaries are correctly identified as well, with the subject being ""microscale technology"" and the object being ""continuous-flow organic synthesis"".",5.8995161056518555,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""microscale technology"" being used for ""continuous-flow organic synthesis"". The entity boundaries are also correctly identified, as they match the positions of the words in the source sentence.",5.081171989440918,
+0xb939,the quest for high-performance manufacturing technology,places the combination of biocatalysis and microscale technology as,a key green engineering method for process development and production,,,,Microfluidic devices for biocatalytic processes,Copy of Wohlgemuth et al. 201520251113.pdf,The quest for high-performance manufacturing technology places the combination of biocatalysis and microscale technology as a key green engineering method for process development and production [12-14].,True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""The quest for high-performance manufacturing technology"" places ""a key green engineering method for process development and production"". The entity boundaries are correctly identified, with no extraneous information or missing context.",2.700448989868164,,True,,,"The extracted relation accurately reflects the information in the source sentence, where it is directly stated that the combination of biocatalysis and microscale technology is placed as a key green engineering method for process development and production. The subject, object, and their boundaries are correctly identified and correspond to the relevant parts of the source sentence.",5.4780848026275635,,True,5.0,5.0,"The relation is accurately represented in the sentence, with the subject and object positions correctly identified. The sentence directly states that ""the quest for high-performance manufacturing technology"" places the combination of biocatalysis and microscale technology as a key green engineering method, making it a perfect match for the extracted relation.",5.33380913734436,
+0xb923,Roland Wohlgemuth,is one of the authors,the paper,,,,Microscale technology and biocatalytic processes: opportunities and challenges for synthesis,Copy of Wohlgemuth et al. 201520251113.pdf,"Roland Wohlgemuth 1 , Igor Plazl 2 , Polona Z ˇ nidars ˇic ˇ -Plazl 2 , Krist V. Gernaey 3 , and John M. Woodley 3
+
+Despite the expanding presence of microscale technology in chemical synthesis and energy production as well as in biomedical devices and analytical and diagnostic tools, its potential in biocatalytic processes for pharmaceutical and fine chemicals, as well as related industries, has not yet been fully exploited.",True,4.0,3.0,,3.949916124343872,,True,,,"The subject Roland Wohlgemuth is listed as one of the authors, implying he has contributed to the creation of the paper. Although the sentence does not explicitly state that he is an author of ""the paper"", it can be inferred from the context.",6.290102958679199,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries (subject and object) are correctly identified as ""Roland Wohlgemuth"" and ""the paper"", respectively.",4.574763059616089,
+0xb941,microscale technology,enables,sustainable manufacturing of high added-value bioproducts based on biocatalytic processes,,,,Microfluidic devices for biocatalytic processes,Copy of Wohlgemuth et al. 201520251113.pdf,"Increasing research efforts and the growing industrial interest in using microscale technology for continuous-flow organic synthesis and for various continuous-flow separations [1-6] shed new light on basic process development and sets a new paradigm for chemical production [7]. The quest for high-performance manufacturing technology places the combination of biocatalysis and microscale technology as a key green engineering method for process development and production [12-14]. The strategic advantages of microscale technology are reviewed with regard to minimizing the gap between the laboratory and the full-size manufacturing
+
+0167-7799/
+
+scale enabling sustainable manufacturing of high addedvalue bioproducts based on biocatalytic processes.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that microscale technology enables sustainable manufacturing of high added-value bioproducts based on biocatalytic processes. The source sentence explicitly mentions this relationship between microscale technology and its benefits.",2.7423551082611084,,True,,,"The extracted relation ""microscale technology enables sustainable manufacturing of high added-value bioproducts based on biocatalytic processes"" is directly stated in the source sentence. The subject, object, and predicate are correctly identified and the boundaries are perfectly defined.",5.326555967330933,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""microscale technology"" as the subject and ""sustainable manufacturing of high added-value bioproducts based on biocatalytic processes"" as the object. The entity boundaries are correctly identified, with no extraneous characters or words included in the subject or object.",5.661234140396118,
+0xb924,Krist V. Gernaey,is one of the authors,the paper,,,,Microscale technology and biocatalytic processes: opportunities and challenges for synthesis,Copy of Wohlgemuth et al. 201520251113.pdf,"Roland Wohlgemuth 1 , Igor Plazl 2 , Polona Z ˇ nidars ˇic ˇ -Plazl 2 , Krist V. Gernaey 3 , and John M. Woodley 3
+
+Despite the expanding presence of microscale technology in chemical synthesis and energy production as well as in biomedical devices and analytical and diagnostic tools, its potential in biocatalytic processes for pharmaceutical and fine chemicals, as well as related industries, has not yet been fully exploited.",True,5.0,5.0,"The relation ""is one of the authors"" is directly stated in the sentence, with Krist V. Gernaey explicitly mentioned as a co-author. The entity boundaries (subject and object) are correctly identified, with Krist V. Gernaey as the subject and ""the paper"" not being a direct object but rather an implied context for the relation.",3.231207847595215,,True,,,"The subject ""Krist V. Gernaey"" is listed among the authors, implying that he is one of the authors of the paper. Although the sentence does not explicitly state this relation, it can be inferred from the context. The entity boundaries are correctly identified as the subject ""Krist V. Gernaey"" and the object ""the paper"" are both present in the list of authors.",7.089853048324585,,True,5.0,5.0,"The relation is directly stated in the sentence, as Krist V. Gernaey's name appears with ""and"" before John M. Woodley, indicating that they are co-authors. The entity boundaries (subject and object) are correctly identified, as the subject is clearly marked by the first occurrence of Krist V. Gernaey's name, and the object (""the paper"") can be inferred from the context.",6.7587668895721436,
+0xb953,Point-of-use generation,improves,health,,,,"Safety, health, and environmental advantages",Copy of Wohlgemuth et al. 201520251113.pdf,"Point-of-use generation of toxic, explosive, and hazardous chemicals in situ within integrated microfluidic systems improves safety, health, and environment issues and allows multiple reactions and separations.",True,5.0,4.0,"The relation is accurately represented in the sentence, as ""improves"" directly connects the subject (point-of-use generation) to the object (health). The entity boundaries are mostly correct, with only a minor issue at the word boundary between ""health"" and the subsequent phrase.",3.0294511318206787,,True,5.0,5.0,"The relation ""Point-of-use generation improves health"" is directly stated in the sentence, as it clearly mentions that point-of-use generation improves safety, health, and environment issues. The subject and object boundaries are also correctly identified, as they correspond to the exact words mentioned in the sentence.",5.0679099559783936,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Point-of-use generation"" clearly being the subject and ""health"" explicitly mentioned as an object of the predicate ""improves"".",4.265839099884033,
+0xb93e,biocatalysis,has been established as,a key technology for sustainable chemistry,,,,Microfluidic devices for biocatalytic processes,Copy of Wohlgemuth et al. 201520251113.pdf,"Progress in the fundamentals of biocatalysis and its applications in various industrial sectors over the past 50 years [8-10] have already established biocatalysis as a key technology for sustainable chemistry in numerous manufacturing processes for pharmaceuticals, flavors, fragrances, vitamins, and chemicals [11]. The quest for high-performance manufacturing technology places the combination of biocatalysis and microscale technology as a key green engineering method for process development and production [12-14].",True,5.0,5.0,"The extracted relation accurately represents the source sentence, as both the subject (""biocatalysis"") and object (""a key technology for sustainable chemistry"") are correctly identified and directly stated in the sentence.",2.4506070613861084,,True,,,"The extracted relation ""biocatalysis has been established as a key technology for sustainable chemistry"" is directly stated in the source sentence. The subject and object boundaries are correctly identified, with the subject being ""biocatalysis"" and the object being ""a key technology for sustainable chemistry"".",5.360672950744629,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""biocatalysis"" being clearly identified as the subject and ""a key technology for sustainable chemistry"" as the object. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",5.07197904586792,
+0xb934,[11],refers to,"manufacturing processes for pharmaceuticals, flavors, fragrances, vitamins, and chemicals",,,,Microfluidic devices for biocatalytic processes,Copy of Wohlgemuth et al. 201520251113.pdf,"Progress in the fundamentals of biocatalysis and its applications in various industrial sectors over the past 50 years [8-10] have already established biocatalysis as a key technology for sustainable chemistry in numerous manufacturing processes for pharmaceuticals, flavors, fragrances, vitamins, and chemicals [11].",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as it directly states that biocatalysis has established a key technology for sustainable chemistry in various manufacturing processes. The object position is also correctly identified, with the relevant phrase appearing between characters 222-311 of the source sentence.",2.892285108566284,,True,,,"The extracted relation accurately represents the subject ""biocatalysis"" referring to the manufacturing processes for various industries, as stated directly in the sentence. The entity boundaries are correctly identified and the object is precisely defined within the source text.",4.762470960617065,,True,5.0,5.0,"The relation is accurately represented in the sentence, and it is directly stated. The object boundary is correctly identified as characters 222-311, which corresponds to the phrase ""manufacturing processes for pharmaceuticals, flavors, fragrances, vitamins, and chemicals"".",4.943000078201294,
+0xb954,Point-of-use generation,involves,toxic chemicals,,,,"Safety, health, and environmental advantages",Copy of Wohlgemuth et al. 201520251113.pdf,"Point-of-use generation of toxic, explosive, and hazardous chemicals in situ within integrated microfluidic systems improves safety, health, and environment issues and allows multiple reactions and separations.",True,5.0,4.0,"The relation is accurately represented in the sentence, as ""involves"" directly connects the subject (point-of-use generation) to the object (toxic chemicals). The entity boundaries are mostly correctly identified, with only a minor issue of whether ""toxic chemicals"" is a direct object or a broader concept.",2.9852681159973145,,True,,,"The sentence mentions the generation of toxic chemicals, and the extraction correctly identifies that the point-of-use generation involves these chemicals. While the relation is not explicitly stated as ""involves,"" it can be inferred from the context. The subject and object boundaries are accurately identified within the source sentence.",6.0924811363220215,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Point-of-use generation"" as the subject and ""toxic chemicals"" as the object. The entity boundaries are correctly identified, with no extraneous characters included or omitted from the subject and object positions.",5.108263969421387,
+0x5990,Methanol,can be used for,growth and maintenance of Pichia pastoris,,,,ACCESS,Copy of Joseph et al. 202220251113.pdf,"Metrics & More
+
+Read Online
+
+Article Recommendations
+
+ABSTRACT: Methanol, a simple polar solvent, has been widely identified as an attractive carbon source to produce chemicals and fuels in bioprocesses. However, if methanol feeding is not controlled well in such a fermentation process, accumulation of the solvent in the growth media will have a detrimental effect on the cells. Hence, monitoring the levels of methanol in these fermentation processes is a crucial step to ensure a healthy culture and maximum protein production. There are various techniques elaborated in the literature for monitoring
+
+*
+
+sı
+
+Supporting Information
+
+methanol in cell cultures, but often, they appear to be expensive methods that are less affordable for many laboratories. In this study, a fast, simple, and sensitive method is developed to process biological samples by using the salting-out-assisted liquid -liquid extraction technique to quantify the concentration of methanol and ethanol using gas chromatography. Followed by this, a validation test for the developed method was performed, which resulted in good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol. Such an approach facilitates the possibility to monitor and control the methanol levels in fermentation and aids in bioprocess optimization.",True,5.0,5.0,,5.102070093154907,,True,,,"The relation ""Methanol can be used for growth and maintenance of Pichia pastoris"" is directly stated in the source, as it discusses a method for monitoring methanol levels in fermentation processes to ensure a healthy culture and maximum protein production. This aids in bioprocess optimization, which implies that methanol has a role in the growth and maintenance of Pichia pastoris. The entity boundaries are correctly identified as ""Methanol"" is the subject and ""growth and maintenance of Pichia pastoris"" is the object.",8.53696584701538,,True,4.0,5.0,,9.440761089324951,
+0x59aa,Methanol levels in P. pastoris bioprocesses,can significantly affect,viability of cells and production yield of protein of interest,,,,■ INTRODUCTION,Copy of Joseph et al. 202220251113.pdf,"Monitoring the methanol levels in P. pastoris bioprocesses is very crucial during the fermentation since it can significantly affect the viability of the
+
+cells as well as the production yield of the protein of interest.",True,5.0,5.0,"The extracted relation accurately represents the source sentence, with the subject (""methanol levels in P. pastoris bioprocesses"") and object (""viability of cells and production yield of protein of interest"") correctly identified. The relation is directly stated in the source sentence, indicating a high level of faithfulness.",3.151784896850586,,True,,,"The extracted relation accurately represents the content of the sentence, as it directly states that methanol levels can significantly affect the viability of cells and production yield of protein of interest in P. pastoris bioprocesses. The subject and object boundaries are correctly identified, as they correspond to the entities ""methanol levels in P. pastoris bioprocesses"" (subject) and ""viability of cells and production yield of protein of interest"" (object).",7.096002101898193,,True,5.0,5.0,"The relation is accurately represented in the sentence, with the subject and object entities correctly identified. The predicate ""can significantly affect"" is also directly stated in the source sentence, making it a faithful representation of the extracted relation.",4.540926218032837,
+0x5984,The developed method,results in,"good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol",,,,ACCESS,Copy of Joseph et al. 202220251113.pdf,"Followed by this, a validation test for the developed method was performed, which resulted in good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol.",True,5.0,5.0,"The extracted relation accurately represents the source sentence, with no significant changes or additions. The subject and object boundaries are also correctly identified, mirroring the exact positions in the original sentence.",2.307547092437744,,True,5.0,5.0,"The relation ""the developed method results in good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol"" is directly stated in the source sentence. The subject and object are correctly identified as ""the developed method"" and ""good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol"", respectively.",5.7010719776153564,,True,5.0,5.0,"The relation is accurately represented in the sentence, with the subject ""the developed method"" and object ""good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol"" correctly identified. The sentence directly states that the validation test resulted in these good characteristics, making the faithfulness rating 5.",5.758049011230469,
+0x5975,Pichia pastoris,undergoes,fermentation,,,,Front Matter,Copy of Joseph et al. 202220251113.pdf,"ÔMEGA
+
+Bioprocess optimization
+
+Pichia pastoris fermentation
+
+- = = - = - - - http://pubs.acs.org/journal/acsodf
+
+Article",True,5.0,5.0,"The relation ""undergoes"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as ""Pichia pastoris"" and ""fermentation"", respectively.",2.450623035430908,,True,,,"The relation ""Pichia pastoris undergoes fermentation"" is explicitly mentioned in the sentence, making it a direct statement. The subject and object boundaries are correctly identified as they correspond to the actual entities in the sentence.",4.757652044296265,,True,4.0,5.0,"The relation is accurately represented in the sentence, as Pichia pastoris indeed undergoes fermentation. The entity boundaries are correctly identified, with ""Pichia pastoris"" clearly marked as the subject and ""fermentation"" as the object.",4.994509935379028,
+0x598b,The tested combination,can be extended to other matrices,such an approach facilitates the possibility to monitor and control the methanol levels in fermentation,,,,ACCESS,Copy of Joseph et al. 202220251113.pdf,"By further assessing the tested combination, it was confirmed that its application could be extended to other matrices. Such an approach facilitates the possibility to monitor and control the methanol levels in fermentation and aids in bioprocess optimization.",True,5.0,5.0,"The extracted relation accurately represents the source sentence, with no significant omissions or additions. The subject and object boundaries are correctly identified, mirroring the exact positions in the original sentence.",2.414124011993408,,True,5.0,5.0,"The relation ""The tested combination can be extended to other matrices"" is directly stated in the source sentence. The subject and object boundaries are also correctly identified as they correspond to the actual entities mentioned in the sentence.",4.560059070587158,,True,4.0,5.0,"The extracted relation accurately captures the main idea of the sentence, which is that the tested combination can be applied to other matrices.",6.112091064453125,
+0x5999,Pichia pastoris,belongs to,methylotrophic yeasts,,,,ACCESS,Copy of Joseph et al. 202220251113.pdf,"Specifically, to achieve recombinant protein production from methylotrophic yeasts, such as Pichia pastoris , this organic solvent can be used as a sole carbon source for growth and maintenance as well as an inducer for protein expression.",True,5.0,5.0,"The relation ""belongs to"" is accurately represented in the sentence, as Pichia pastoris is indeed a type of methylotrophic yeast. The source sentence directly states this relationship, making it a perfect match for the extracted relation.",2.6451311111450195,,True,,,"The relation ""belongs to"" is directly stated in the sentence, as Pichia pastoris is identified as a member of methylotrophic yeasts. The subject and object boundaries are correctly identified, as they correspond to the exact mentions of the entities in the sentence.",5.306714773178101,,True,5.0,5.0,"The relation is directly stated in the sentence, and the entity boundaries are correctly identified as ""Pichia pastoris"" (subject) and ""methylotrophic yeasts"" (object).",4.291507959365845,
+0x599a,The developed method,aids in,bioprocess optimization,,,,ACCESS,Copy of Joseph et al. 202220251113.pdf,"Followed by this, a validation test for the developed method was performed, which resulted in good peak resolution, linearity, and limit of detection for the quantitation of methanol and ethanol. Such an approach facilitates the possibility to monitor and control the methanol levels in fermentation and aids in bioprocess optimization.",True,5.0,5.0,"The extracted relation is accurately represented in the sentence, as both ""aids in"" and ""bioprocess optimization"" are directly mentioned. The subject and object boundaries are also correctly identified, with no extraneous information or missing entities.",2.57234787940979,,True,,,"The sentence explicitly states that ""such an approach aids in bioprocess optimization,"" where ""such an approach"" refers to the developed method. The subject, object, and their positions in the source sentence align with the extracted relation.",5.209192276000977,,True,5.0,5.0,"The relation is accurately represented in the sentence, and it is directly stated. The entity boundaries (subject and object) are correctly identified as ""the developed method"" and ""bioprocess optimization"", respectively.",4.472722053527832,
+0x597a,Jewel Ann Joseph,is author of,ACS Omega,,,,Processing Method for the Quantification of Methanol and Ethanol from Bioreactor Samples Using Gas Chromatography -Flame Ionization Detection,Copy of Joseph et al. 202220251113.pdf,"Jewel Ann Joseph, # Simen Akkermans, # and Jan F. M. Van Impe *
+
+Cite This: ACS Omega
+
+2022, 7, 24121-24133",True,4.0,3.0,"The relation ""is author of"" is accurately represented in the sentence, as Jewel Ann Joseph is indeed mentioned before the object ""ACS Omega"". However, the faithfulness rating is not a perfect score because the relation could be more explicitly stated. The entity boundaries are mostly correct, but there might be some minor issues with the exact positions (characters 0-16 for subject and characters 76-85 for object).",3.4903810024261475,,False,,,"The relation ""is author of"" is not explicitly stated in the sentence. However, it can be inferred from the citation ""Cite This: ACS Omega"", which typically indicates the publication where an article appears. The subject and object boundaries are mostly correct, but there's a slight error in the object boundary as ""Cite This"" refers to the publication, not specifically the article ""ACS Omega"".",7.853152751922607,,True,4.0,5.0,"The relation is accurately represented in the sentence, with Jewel Ann Joseph being mentioned as one of the authors and ACS Omega being cited. The entity boundaries are correctly identified, with ""Jewel Ann Joseph"" starting at character 0 and ""ACS Omega"" starting at character 76.",5.3718931674957275,
+0x9dff,journal homepage,is located at,www.elsevier.com/locate/biortech,,,,"Bioresource Technology CO, + Air",Copy of Sahoo et al. 202320251115.pdf,"Stage II: Methanol production in
+
+journal homepage: www.elsevier.com/locate/biortech
+
+CH, + Air
+
+Stage I: Biomass production in airlift reactor",True,5.0,5.0,"The relation is accurately represented in the sentence, as it states that the journal homepage ""is located at"" www.elsevier.com/locate/biortech. The entity boundaries are also correctly identified, with the subject being ""journal homepage"" and the object being ""www.elsevier.com/locate/biortech"".",3.426683187484741,,False,,,"The extracted relation ""is located at"" is not present in the source sentence. The provided information about the journal homepage's location only appears as a hyperlink, but there is no explicit statement that it is located anywhere.",6.709460020065308,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""journal homepage"" being the subject and ""www.elsevier.com/locate/biortech"" being the object of the predicate ""is located at"". The entity boundaries are also correctly identified, as they match the positions specified in the source sentence.",5.4796528816223145,
+0x9e0d,Debasish Das,is affiliated with,Department of Biosciences & Bioengineering,,,,Process engineering strategy for improved methanol production in Methylosinus trichosporium through enhanced mass transfer and solubility of methane and carbon dioxide,Copy of Sahoo et al. 202320251115.pdf,"Krishna Kalyani Sahoo , Ankan Sinha , Debasish Das
+
+*
+
+Department of Biosciences & Bioengineering, Indian Institute of Technology, Guwahati, Assam 781039, India",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Debasish Das is affiliated with the Department of Biosciences & Bioengineering. The entity boundaries are correctly identified, and there's no indication of any missing or extraneous information.",2.783094882965088,,False,,,"The relation ""is affiliated with"" cannot be directly inferred from the sentence as it does not explicitly state that Debasish Das is affiliated with the Department of Biosciences & Bioengineering. However, given the context of a list of individuals and their affiliation with the department being provided, the relation can be inferred. The entity boundaries are correctly identified as they correspond to the correct names and department mentioned in the sentence.",7.122170925140381,,True,5.0,5.0,"The relation is accurately represented in the sentence, as Debasish Das is indeed affiliated with the Department of Biosciences & Bioengineering. The entity boundaries are also correctly identified, with ""Debasish Das"" being the subject and ""Department of Biosciences & Bioengineering"" being the object.",5.3554558753967285,
+0x9e08,Krishna Kalyani Sahoo,is affiliated with,Department of Biosciences & Bioengineering,,,,Process engineering strategy for improved methanol production in Methylosinus trichosporium through enhanced mass transfer and solubility of methane and carbon dioxide,Copy of Sahoo et al. 202320251115.pdf,"Krishna Kalyani Sahoo , Ankan Sinha , Debasish Das
+
+*
+
+Department of Biosciences & Bioengineering, Indian Institute of Technology, Guwahati, Assam 781039, India",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Krishna Kalyani Sahoo is affiliated with the Department of Biosciences & Bioengineering. The entity boundaries are correctly identified, and there's no indication of any missing or extraneous information.",2.7155020236968994,,True,,,"The relation ""is affiliated with"" is accurately represented in the sentence, as Krishna Kalyani Sahoo is listed as a member of the Department of Biosciences & Bioengineering at Indian Institute of Technology, Guwahati. This information is directly stated in the source sentence. The entity boundaries are correctly identified, as both the subject and object are explicitly mentioned in the text.",6.074459791183472,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Krishna Kalyani Sahoo"" being affiliated with ""Department of Biosciences & Bioengineering"". The entity boundaries are correctly identified as the subject and object are clearly separated by a comma.",4.851064920425415,
+0x9e02,airlift reactor,is used for,Biomass production in Stage I,,,,"Bioresource Technology CO, + Air",Copy of Sahoo et al. 202320251115.pdf,"Stage II: Methanol production in
+
+journal homepage: www.elsevier.com/locate/biortech
+
+CH, + Air
+
+Stage I: Biomass production in airlift reactor",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Stage I is used for Biomass production in airlift reactor. The entity boundaries are correctly identified, with ""airlift reactor"" being the subject and ""Biomass production in"" being a descriptive phrase that follows the correct object structure.",2.9590651988983154,,False,,,"The extracted relation ""is used for Biomass production in Stage I"" is not accurately represented in the source sentence. The source sentence does not mention any use of the airlift reactor, and it only discusses stages (Stage II and Stage I) without specifying their uses. Therefore, this extraction is hallucinated.",5.922687292098999,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""airlift reactor"" being used for biomass production in Stage I. The entity boundaries are correctly identified as the subject (""airlift reactor"") and object (""Biomass production in Stage I""), making it a perfect match.",5.328575134277344,
+0x9e0b,Ankan Sinha,is affiliated with,Department of Biosciences & Bioengineering,,,,Process engineering strategy for improved methanol production in Methylosinus trichosporium through enhanced mass transfer and solubility of methane and carbon dioxide,Copy of Sahoo et al. 202320251115.pdf,"Krishna Kalyani Sahoo , Ankan Sinha , Debasish Das
+
+*
+
+Department of Biosciences & Bioengineering, Indian Institute of Technology, Guwahati, Assam 781039, India",True,5.0,5.0,"The relation is accurately represented in the sentence as it directly states that Ankan Sinha is affiliated with the Department of Biosciences & Bioengineering. The entity boundaries are correctly identified, and there's no indication of any hallucination or incorrect identification.",2.8422210216522217,,False,,,"The relation ""is affiliated with"" is not explicitly stated for Ankan Sinha in the given sentence. However, it can be inferred as all three individuals are associated with the Department of Biosciences & Bioengineering at IIT Guwahati. The subject and object boundaries are correctly identified as per the provided positions.",6.66143274307251,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Ankan Sinha"" explicitly mentioned as being affiliated with ""Department of Biosciences & Bioengineering"". The entity boundaries are also correctly identified, with no overlap or missing parts.",5.623504877090454,
+0x9e28,Process,targets,enhanced mass transfer (kLa),,,,H I G H L I G H T S,Copy of Sahoo et al. 202320251115.pdf,Process engineering strategy for improved methanol production in M. trichosporium .,True,4.0,3.0,"The relation ""targets"" is accurately represented in the sentence, as it describes a process that aims to improve methanol production. However, the faithfulness rating is not a perfect score because the object ""enhanced mass transfer (kLa)"" could be considered more directly stated if it were explicitly mentioned as the target of the process engineering strategy.",2.984833002090454,,False,,,"The extracted relation ""targets enhanced mass transfer (kLa)"" is not accurately represented in the sentence. The sentence discusses a process engineering strategy for improved methanol production, but it does not explicitly state that this process targets enhanced mass transfer or any specific value like kLa. Instead, it seems to be describing a general strategy without specifying a target or outcome.",5.674015998840332,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it mentions a ""Process engineering strategy"" that targets improved methanol production. The entity boundaries are correctly identified, with ""Process"" clearly being the subject and ""enhanced mass transfer (kLa)"" being the object of the predicate ""targets"".",4.989765882492065,
+0x9e24,Process,results in,CH4 fixation rate of 0.8 g/L d -1,,,,H I G H L I G H T S,Copy of Sahoo et al. 202320251115.pdf,Process engineering strategy for improved methanol production in M. trichosporium .,True,4.0,3.0,"The relation ""results in"" is accurately represented in the sentence, as it describes a process that leads to an outcome. However, the faithfulness rating is not a perfect 5 because while the relation is stated, the specific details about CH4 fixation rate are not directly provided in the source sentence; they might be inferred or part of additional context not included here. The boundary quality is rated as 3 because the subject ""Process"" and object ""CH4 fixation rate of 0.8 g/L d -1"" could potentially be more precisely defined, but overall, their roles are correctly identified in the relation.",4.333104848861694,,False,,,"The relation ""results in"" is not directly stated in the sentence. However, it can be inferred that a process might result in improved methanol production, but the specific CH4 fixation rate of 0.8 g/L d-1 is not explicitly mentioned as being a result of this process. The subject and object boundaries are correctly identified, but the relation is not accurately represented in the sentence.",5.88766884803772,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it describes a process (process engineering strategy) that results in a specific outcome (CH4 fixation rate of 0.8 g/L d -1). The entity boundaries are correctly identified, with ""Process"" clearly marked as the subject and the object phrase (""CH4 fixation rate of 0.8 g/L d -1"") following the predicate (""results in"").",6.121653079986572,
+0x9df6,BIORESOURCE,updates,Process engineering strategies,,,,Front Matter,Copy of Sahoo et al. 202320251115.pdf,"BIORESOURCE
+
+updates
+
+Process engineering strategies
+
+TECHNOLOGY
+
+Check for
+
++
+
++
+
+Micro-sparger
+
+Draft tube
+
+ELSEVIER
+
+M. trichosporium seed culture
+
+of operating
+
+pressure",True,4.0,3.0,"The relation is accurately represented in the sentence, as it correctly states that BIORESOURCE updates Process engineering strategies. However, the faithfulness rating is not a perfect score because the object ""Process engineering strategies"" appears multiple times in the source sentence, which may indicate some level of repetition or emphasis rather than direct statement. Additionally, the boundary quality could be improved by ensuring that the subject and object are clearly distinguished from other entities in the sentence.",3.5981690883636475,,False,,,"The relation ""updates"" is not directly stated in the sentence. Instead, it's implied through the context that new strategies might be available or used by BIORESOURCE, but there's no explicit mention of updating existing ones. However, the subject and object boundaries are correctly identified in the sentence.",5.405290842056274,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""BIORESOURCE"" as the subject and ""Process engineering strategies"" as the object. The entity boundaries are correctly identified, with no overlap or underlap between the subject and object positions.",4.788925886154175,
+0x9dfa,ELSEVIER,publishes,M. trichosporium seed culture of operating pressure,,,,Front Matter,Copy of Sahoo et al. 202320251115.pdf,"BIORESOURCE
+
+updates
+
+Process engineering strategies
+
+TECHNOLOGY
+
+Check for
+
++
+
++
+
+Micro-sparger
+
+Draft tube
+
+ELSEVIER
+
+M. trichosporium seed culture
+
+of operating
+
+pressure",True,5.0,4.0,"The relation is accurately represented in the sentence, as ""ELSEVIER"" is correctly identified as the subject and ""M. trichosporium seed culture of operating pressure"" is correctly identified as the object. The relation ""publishes"" is also present in the source sentence, indicating a direct statement of the extracted relation.",3.1390328407287598,,False,,,"The relation is not accurately represented in the sentence as there is no mention of Elsevier publishing the specific M. trichosporium seed culture of operating pressure. However, the sentence does imply that Elsevier publishes articles related to the topic (Process engineering strategies, Micro-sparger, Draft tube). The entity boundaries are correctly identified as ""ELSEVIER"" is the subject and ""M. trichosporium seed culture of operating pressure"" is the object in the extracted relation.",8.885086059570312,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""ELSEVIER"" correctly identified as the subject and ""M. trichosporium seed culture of operating pressure"" as the object. The predicate ""publishes"" is not explicitly stated, but it can be inferred from the context that ELSEVIER is publishing a document related to M. trichosporium seed culture.",6.244189023971558,
+0x5fdf,gel layer,of,two-plates,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"CHEMICAL
+
+ENGINEERING
+
+SCIENCE
+
+microreactor between
+
+gel layer of two-plates
+
+segmented gas-liquid Now
+
+Immobilized
+
+ELSEVIER
+
+2'5 on.",True,4.0,3.0,"The relation ""of"" is accurately represented in the sentence, and the subject (""gel layer"") and object (""two-plates"") are correctly identified. However, the boundary quality could be improved as the word ""between"" is used to separate the two entities, which might not be a direct indication of the ""of"" relation.",3.1992969512939453,,True,5.0,5.0,"The relation ""gel layer of two-plates"" is directly stated in the sentence, as it appears between ""microreactor between gel layer of two-plates segmented gas-liquid"". The subject and object boundaries are correctly identified, as they correspond to the actual entities in the sentence.",5.050976991653442,,True,5.0,5.0,"The relation is directly stated in the sentence as ""gel layer of two-plates"", and the entity boundaries are correctly identified, with ""gel layer"" being the subject and ""two-plates"" being the object.",4.472064971923828,
+0x5feb,Origin,of,Characteristic Times,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"Origin of
+
+Characteristic
+
+Times
+
+Kou +50.",True,4.0,3.0,"The relation ""Origin of"" is accurately represented in the sentence, as it directly states the origin of a characteristic. However, the faithfulness rating is not a perfect score because the object ""Characteristic Times"" could be inferred from the context, but it's not explicitly stated. The boundary quality rating is 3 because while the subject ""Origin"" is correctly identified, the object ""Characteristic Times"" might be considered partially incorrect due to its implicit nature.",3.5784428119659424,,False,,,"The extracted relation ""Origin of Characteristic Times"" is not present in the source sentence. The sentence only mentions ""Origin"", but it does not provide any information about a specific characteristic or attribute, let alone ""Times"". Therefore, the system has hallucinated this relation.",4.909454107284546,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Origin"" clearly being the subject and ""Characteristic Times"" as the object. The entity boundaries are also correctly identified, with no overlap or missing entities.",4.2203028202056885,
+0x5fef,Elsevier,has homepage,www.elsevier.com/locate/ces,,,,Chemical Engineering Science,Copy of Jovanovic et al 2021 (part II)20251113.pdf,j o urnal homepage: www.elsevier.com/locate/ces,True,5.0,5.0,"The relation is accurately represented in the sentence, as the subject ""elsevier"" and object ""www.elsevier.com/locate/ces"" are correctly identified and directly linked to the predicate ""has homepage"".",2.335314989089966,,True,5.0,5.0,"The relation ""has homepage"" is accurately represented in the sentence, as it directly states that the journal's homepage is located at www.elsevier.com/locate/ces, which belongs to Elsevier. The entity boundaries are correctly identified since both the subject and object match exactly with their positions in the source sentence.",5.060010671615601,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Elsevier"" being the subject and ""www.elsevier.com/locate/ces"" being the object of the predicate ""homepage"". The entity boundaries are also correctly identified, as they match the positions specified in the source sentence.",5.142119884490967,
+0x5fe9,San,contains,Contents lists,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"San,
+
+Contents lists available at ScienceDirect",True,5.0,5.0,"The relation ""contains"" is directly stated in the source sentence, and the entity boundaries (subject and object) are correctly identified as ""San"" and ""Contents lists"", respectively.",2.2904858589172363,,False,,,"The relation ""contains"" is not accurately represented in the sentence. While it's true that ScienceDirect contains Contents lists, there is no direct indication that San contains anything. The boundary quality is good because the subject and object are correctly identified within the sentence. However, the relation between them is incorrect.",5.057743072509766,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""San"" being the subject and ""Contents lists"" being the object of the predicate ""contains"". The entity boundaries are correctly identified as the first four characters for the subject and the next 16 characters for the object.",5.0512309074401855,
+0x5fe1,2'5,also appears as,"2'5, on.",,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"CHEMICAL
+
+ENGINEERING
+
+SCIENCE
+
+microreactor between
+
+gel layer of two-plates
+
+segmented gas-liquid Now
+
+Immobilized
+
+ELSEVIER
+
+2'5 on. +
+
+2'5, on.",True,4.0,3.0,"The relation is accurately represented in the sentence, as both instances of ""2'5"" are mentioned with the same predicate ""on"". However, the faithfulness rating is not a perfect score because the object ""gel layer of two-plates"" and the subject ""microreactor between"" are not directly related to the extracted relation. The boundary quality rating is partially correct because the entity boundaries could be more precisely defined, but overall they seem to match the context.",3.700100898742676,,False,,,"The extracted relation ""2'5 also appears as 2'5, on."" is not present in the source sentence. The number ""2'5"" only appears as a part of a chemical formula and does not appear anywhere else in the sentence. Therefore, it cannot be said to appear as anything else. Additionally, the subject and object boundaries are incorrect as there is no relation between ""2'5"" and ""on."" in the source sentence.",6.616143226623535,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it correctly states that ""2'5"" appears as ""2'5, on."" The faithfulness rating is 4 because while the relation is directly stated, the object is a slight modification of the subject. The entity boundaries are perfectly identified, with the subject and object clearly marked within the source sentence.",5.859519004821777,
+0x5fe2,microreactor,is between,gel layer,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"CHEMICAL
+
+ENGINEERING
+
+SCIENCE
+
+microreactor between
+
+gel layer of two-plates
+
+segmented gas-liquid Now
+
+Immobilized
+
+ELSEVIER
+
+2'5 on.",True,4.0,3.0,"The relation ""is between"" is accurately represented in the sentence, as it describes a specific relationship between the microreactor and the gel layer. However, the faithfulness rating is not a perfect score because the object position (gel layer) starts at character 54, but the extracted relation only mentions characters 32-44 for the subject, which might be considered slightly less direct than if the entire sentence described both entities in context. The boundary quality is rated as 3 because while the entity boundaries are generally correct, there's a slight discrepancy in how they're represented in the original sentence compared to the extracted relation.",4.3986146450042725,,True,5.0,5.0,"The relation ""microreactor is between gel layer"" is directly stated in the sentence. The microreactor is mentioned as being ""between gel layer of two-plates"", clearly indicating its position relative to the gel layer. The entity boundaries are also correctly identified, as both the subject and object are explicitly mentioned in the sentence.",5.13613224029541,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""microreactor"" being between ""gel layer"". The faithfulness rating is high because the relation is directly stated using the word ""between"", but it's not a perfect match since the object is described as ""of two-plates segmented gas-liquid Now Immobilized gel layer"". However, this minor variation does not affect the overall accuracy of the extracted relation. The entity boundaries are correctly identified, with ""microreactor"" starting at character 32 and ""gel layer"" starting at character 54.",7.483632802963257,
+0x5fea,CHEMICAL,is related to,ENGINEERING,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"CHEMICAL
+
+ENGINEERING
+
+SCIENCE
+
+microreactor between
+
+gel layer of two-plates
+
+segmented gas-liquid Now
+
+Immobilized
+
+ELSEVIER
+
+2'5 on.",True,4.0,3.0,"The entity boundaries (subject and object) are generally correctly identified, with CHEMICAL as the subject and ENGINEERING as the object. However, the boundary quality could be improved by ensuring that the start of each entity is clearly marked in the sentence, such as using a specific punctuation mark or word to indicate the beginning of each entity.",5.2023491859436035,,False,,,"The relation 'is related to' is not explicitly stated in the sentence. However, it can be inferred that chemical engineering might be related to the microreactor, which is a common application of both fields. The entity boundaries are correctly identified as 'CHEMICAL' and 'ENGINEERING'.",7.187488079071045,,True,4.0,5.0,"The relation is accurately represented in the sentence, as it describes a connection between CHEMICAL and ENGINEERING. The entity boundaries are correctly identified, with ""CHEMICAL"" starting at character 0 and ""ENGINEERING"" starting at character 10.",5.026425123214722,
+0x5fec,Contents lists,are available at,ScienceDirect,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"San,
+
+Contents lists available at ScienceDirect",True,5.0,5.0,"The relation is accurately represented in the sentence, as it directly states that ""Contents lists are available at ScienceDirect"". The entity boundaries (subject and object) are also correctly identified.",2.3311209678649902,,True,5.0,5.0,"The relation ""Contents lists are available at ScienceDirect"" is directly stated in the source sentence. The subject, ""Contents lists"", and object, ""ScienceDirect"", are correctly identified and their boundaries are precisely defined within the given text.",4.413985013961792,,True,5.0,5.0,"The relation is directly stated in the sentence, with ""Contents lists"" being the subject and ""ScienceDirect"" being the object. The entity boundaries are also correctly identified, matching the positions specified in the source sentence.",4.674177885055542,
+0x5fe4,2'5,is on,microreactor,,,,Front Matter,Copy of Jovanovic et al 2021 (part II)20251113.pdf,"CHEMICAL
+
+ENGINEERING
+
+SCIENCE
+
+microreactor between
+
+gel layer of two-plates
+
+segmented gas-liquid Now
+
+Immobilized
+
+ELSEVIER
+
+2'5 on. +
+
+2'5, on.",True,4.0,3.0,"The relation ""is on"" is accurately represented in the sentence, as it describes a physical relationship between the subject (2'5) and object (microreactor). However, the faithfulness rating is not a perfect score because the source sentence does not explicitly state that 2'5 is ""on"" microreactor, but rather implies it through the context of the sentence. The boundary quality rating is partially correct because while the subject position is accurately identified, the object position could be more precise.",3.9927802085876465,,False,2.0,4.0,"The relation ""is on"" is not directly stated in the sentence. Instead, it's implied by the presence of ""on."" (2'5 on.) However, the object ""microreactor"" is correctly identified as it appears immediately after the subject ""2'5"". The subject boundary identification is slightly off because the correct subject should be ""2'5 on."", but the system correctly identifies the main subject as ""2'5"".",6.312549114227295,,True,4.0,5.0,"The relation is accurately represented in the sentence, with ""2'5"" being on ""microreactor"". The entity boundaries are correctly identified as the subject and object are clearly separated by the predicate ""is on"".",4.659235954284668,
+0x5ffe,Matthew Y. Coblyn,is affiliated with,"School of Chemical, Biological and Environmental Engineering",,,,"Time scale analysis & characteristic times in microscale-based bio-chemical processes: Part II - Bioreactors with immobilized cells, and process flowsheet analysis",Copy of Jovanovic et al 2021 (part II)20251113.pdf,"Goran N. Jovanovic a, ⇑ , Matthew Y. Coblyn a , Igor Plazl b
+
+a School of Chemical, Biological and Environmental Engineering, Oregon State University, Corvallis, OR 97331, USA
+
+b Faculty of Chemistry and Chemical Technology, University of Ljubljana, Vecna Pot 113, 1000 Ljubljana, Slovenia",True,5.0,5.0,"The relation is accurately represented in the sentence, as ""Matthew Y. Coblyn"" is mentioned before the phrase ""School of Chemical, Biological and Environmental Engineering"", indicating affiliation. The entity boundaries are correctly identified, with ""Coblyn"" being the subject and ""School of Chemical, Biological and Environmental Engineering"" being the object.",3.1091418266296387,,True,,,"The relation ""is affiliated with"" is accurately represented in the sentence, as Matthew Y. Coblyn is listed as being associated with the School of Chemical, Biological and Environmental Engineering at Oregon State University. This information is directly stated in the source text. Additionally, the entity boundaries for both the subject (Matthew Y. Coblyn) and object (School of Chemical, Biological and Environmental Engineering) are correctly identified.",6.477083921432495,,True,5.0,5.0,"The relation is accurately represented in the sentence, as Matthew Y. Coblyn is indeed affiliated with the School of Chemical, Biological and Environmental Engineering. The entity boundaries are also correctly identified, with Matthew Y. Coblyn being the subject and the school being the object.",5.0191380977630615,

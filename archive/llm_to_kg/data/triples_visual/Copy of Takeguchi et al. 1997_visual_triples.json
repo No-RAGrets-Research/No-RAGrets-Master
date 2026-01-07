@@ -1,0 +1,231 @@
+[
+  {
+    "page": 4,
+    "caption": "M. trichosporium OB3b was cultivated in mineral salts media containing \ncupric sulfate. As shown in Fig. 1, the growth rate of M. trichosporium OB3b \nand the maximum cell density decreased with increasing Cu concentration, \nup to 20 ~M. The maximum specific growth rate was 1.59 x 10-3/min, and \nthe maximum cell density was 0.235 mg dry cell/mL at 1.25 ~d of Cu con- \ncentration. M. trichosporium OB3b grew nicely at 1.25 ~,/of Cu concentra- \ntion, and grew slowly at 20 ~M of Cu concentration.",
+    "triples": [
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "was cultivated in",
+        "object": "mineral salts media containing cupric sulfate"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "showed decreased growth rate and maximum cell density with increasing Cu concentration",
+        "object": "up to 20 μM"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "had maximum specific growth rate of",
+        "object": "1.59 × 10⁻³/min"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "had maximum cell density of",
+        "object": "0.235 mg dry cell/mL"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "grew nicely at",
+        "object": "1.25 μM Cu concentration"
+      },
+      {
+        "subject": "M. trichosporium OB3b",
+        "relation": "grew slowly at",
+        "object": "20 μM Cu concentration"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Fig. 1. Effect of Cu concentration on the growth of M. trichosporium OB3b. M. tri- \nchosporium OB3b was grown in the mineral salts medium at 30~ under methane-air \n(1:4 v/v%). The flask, were agitated on a rotary shaker table maintained at 120 rpm. \nCu concentration in the medium: [], 0.21 ~tM; \u000e9 1.25 ~tM; A, 20 ~tM.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Fig. 1. Effect of Cu concentration on the growth of M. trichosporium OB3b. M. tri- \nchosporium OB3b was grown in the mineral salts medium at 30~ under methane-air \n(1:4 v/v%). The flask, were agitated on a rotary shaker table maintained at 120 rpm. \nCu concentration in the medium: [], 0.21 ~tM; \u000e9 1.25 ~tM; A, 20 ~tM.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown in\",\n    \"object\": \"mineral salts medium\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown at\",\n    \"object\": \"30°C\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown under\",\n    \"object\": \"methane-air (1:4 v/v%)\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown with\",\n    \"object\": \"rotary shaker table maintained at 120 rpm\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown with Cu concentration\",\n    \"object\": \"0.21 μM\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown with Cu concentration\",\n    \"object\": \"1.25 μM\"\n  },\n  {\n    \"subject\": \"M. trichosporium OB3b\",\n    \"relation\": \"grown with Cu concentration\",\n    \"object\": \"20 μM\"\n  }\n]"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Fig. 2. Factors affecting methanol accumulation. (A) the effect of cell density; \n(B) the effect of temperature; (C) the effect of sodium formate concentration.",
+    "triples": [
+      {
+        "subject": "Fig. 2A",
+        "relation": "illustrates",
+        "object": "the effect of cell density on methanol accumulation"
+      },
+      {
+        "subject": "Fig. 2B",
+        "relation": "illustrates",
+        "object": "the effect of temperature on methanol accumulation"
+      },
+      {
+        "subject": "Fig. 2C",
+        "relation": "illustrates",
+        "object": "the effect of sodium formate concentration on methanol accumulation"
+      },
+      {
+        "subject": "methanol accumulation",
+        "relation": "is affected by",
+        "object": "cell density"
+      },
+      {
+        "subject": "methanol accumulation",
+        "relation": "is affected by",
+        "object": "temperature"
+      },
+      {
+        "subject": "methanol accumulation",
+        "relation": "is affected by",
+        "object": "sodium formate concentration"
+      },
+      {
+        "subject": "optimum cell density",
+        "relation": "is",
+        "object": "34.6 µg of dry cell/mL"
+      },
+      {
+        "subject": "optimum temperature",
+        "relation": "is",
+        "object": "25°C"
+      },
+      {
+        "subject": "methanol accumulation",
+        "relation": "increases with",
+        "object": "increasing concentration of sodium formate"
+      },
+      {
+        "subject": "methanol accumulation",
+        "relation": "is saturated at",
+        "object": "more than 14.3 mM sodium formate"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "caption": "Fig. 3. Effect of cyclopropanol concentration on pMMO activity and MDH activity. \nThe pMMO activity (o) was measured by propene epoxidation assay. The reaction \nmixture contains cell suspension (34.6 mg dry cell/mL), propylene (112 ~tmol), \nsodium formate (14.3 mM), and various concentrations of cyclopropanol in phos- \nphate buffer (12.9 mM), pH 7.0. The MDH activity (\u000e9 was measured by methanol oxi- \ndation assay. The reaction mixture contains cell suspension (34.6 mg dry cell/mL), \nmethanol (18 ~tmol), and various concentrations of cyclopropanol in phosphate buffer \n(22 mM), pH 7.0. The reaction was carried out at 30~ The total volume of reaction \nmixture was 3.5 mL.",
+    "triples": [
+      {
+        "subject": "pMMO activity",
+        "relation": "measured by",
+        "object": "propene epoxidation assay"
+      },
+      {
+        "subject": "MDH activity",
+        "relation": "measured by",
+        "object": "methanol oxidation assay"
+      },
+      {
+        "subject": "pMMO activity",
+        "relation": "affected by",
+        "object": "cyclopropanol concentration"
+      },
+      {
+        "subject": "MDH activity",
+        "relation": "affected by",
+        "object": "cyclopropanol concentration"
+      },
+      {
+        "subject": "pMMO activity",
+        "relation": "inhibited by",
+        "object": "cyclopropanol"
+      },
+      {
+        "subject": "MDH activity",
+        "relation": "inhibited by",
+        "object": "cyclopropanol"
+      },
+      {
+        "subject": "pMMO activity",
+        "relation": "measured in",
+        "object": "reaction mixture containing cell suspension (34.6 mg dry cell/mL), propylene (112 μmol), sodium formate (14.3 mM), and various concentrations of cyclopropanol in phosphate buffer (12.9 mM), pH 7.0"
+      },
+      {
+        "subject": "MDH activity",
+        "relation": "measured in",
+        "object": "reaction mixture containing cell suspension (34.6 mg dry cell/mL), methanol (18 μmol), and various concentrations of cyclopropanol in phosphate buffer (22 mM), pH 7.0"
+      },
+      {
+        "subject": "reaction",
+        "relation": "carried out at",
+        "object": "30°C"
+      },
+      {
+        "subject": "reaction mixture",
+        "relation": "has total volume",
+        "object": "3.5 mL"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "caption": "Fig. 4 Effect of cyclopropanol concentration on methanol accumulation. The reac- \ntion of mixture contains cell suspension (1.39 g dry cell/mL), methane (112 ~tmol), oxy- \ngen (103 ~tmol), and sodium formate (14.3 raM) in phosphate buffer (58.6 mM), pH 7.0. \nThe reaction was carried out at 30~",
+    "triples": [
+      {
+        "subject": "Fig. 4",
+        "relation": "shows the effect of",
+        "object": "cyclopropanol concentration on methanol accumulation"
+      },
+      {
+        "subject": "reaction mixture",
+        "relation": "contains",
+        "object": "cell suspension (1.39 g dry cell/mL)"
+      },
+      {
+        "subject": "reaction mixture",
+        "relation": "contains",
+        "object": "methane (112 µmol)"
+      },
+      {
+        "subject": "reaction mixture",
+        "relation": "contains",
+        "object": "oxygen (103 µmol)"
+      },
+      {
+        "subject": "reaction mixture",
+        "relation": "contains",
+        "object": "sodium formate (14.3 mM)"
+      },
+      {
+        "subject": "reaction mixture",
+        "relation": "is in",
+        "object": "phosphate buffer (58.6 mM), pH 7.0"
+      },
+      {
+        "subject": "reaction",
+        "relation": "was carried out at",
+        "object": "30°C"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "caption": "Fig. 5. Time-course of methanol produced by M. trichosporium OB3b. The methanol \nsynthesis was carried out with conventional conditions (\u000e9 with optimum conditions \n(A). The reaction conditions were described in Table 2.",
+    "triples": [
+      {
+        "subject": "Fig. 5",
+        "relation": "depicts",
+        "object": "time-course of methanol produced by M. trichosporium OB3b"
+      },
+      {
+        "subject": "Fig. 5",
+        "relation": "shows",
+        "object": "methanol synthesis under conventional conditions (circles)"
+      },
+      {
+        "subject": "Fig. 5",
+        "relation": "shows",
+        "object": "methanol synthesis under optimum conditions (triangles)"
+      },
+      {
+        "subject": "methanol synthesis under conventional conditions",
+        "relation": "occurred under",
+        "object": "conditions described in Table 2"
+      },
+      {
+        "subject": "methanol synthesis under optimum conditions",
+        "relation": "occurred under",
+        "object": "conditions described in Table 2"
+      }
+    ]
+  }
+]

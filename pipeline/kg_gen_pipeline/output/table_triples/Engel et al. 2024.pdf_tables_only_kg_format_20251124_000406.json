@@ -1,0 +1,211 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 2,
+    "relations": 5,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Engel et al. 2024.json",
+    "processed_at": "2025-11-24T00:04:06.075017"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Table page10_table0",
+      "predicate": "has pH value of",
+      "object": "6.67",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "0.0 g/L KNO 3 | 0.15 g/L KNO 3 | 0.3 g/L KNO 3 | 1.0 g/L KNO 3\npH | 6.48 | 6.67 | 6.77 | 7.05",
+        "document_offsets": {
+          "start": 0,
+          "end": 93
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 75,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "6.67"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 305.84320068359375,
+          "t": 705.8784866333008,
+          "r": 549.8646850585938,
+          "b": 675.1611633300781,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "has pH value of",
+      "object": "6.77",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "0.0 g/L KNO 3 | 0.15 g/L KNO 3 | 0.3 g/L KNO 3 | 1.0 g/L KNO 3\npH | 6.48 | 6.67 | 6.77 | 7.05",
+        "document_offsets": {
+          "start": 0,
+          "end": 93
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 82,
+            "end": 86,
+            "sentence_id": 0,
+            "matched_text": "6.77"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 305.84320068359375,
+          "t": 705.8784866333008,
+          "r": 549.8646850585938,
+          "b": 675.1611633300781,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "has pH value of",
+      "object": "7.05",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "0.0 g/L KNO 3 | 0.15 g/L KNO 3 | 0.3 g/L KNO 3 | 1.0 g/L KNO 3\npH | 6.48 | 6.67 | 6.77 | 7.05",
+        "document_offsets": {
+          "start": 0,
+          "end": 93
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 89,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "7.05"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 305.84320068359375,
+          "t": 705.8784866333008,
+          "r": 549.8646850585938,
+          "b": 675.1611633300781,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "has pH value of",
+      "object": "6.48",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "0.0 g/L KNO 3 | 0.15 g/L KNO 3 | 0.3 g/L KNO 3 | 1.0 g/L KNO 3\npH | 6.48 | 6.67 | 6.77 | 7.05",
+        "document_offsets": {
+          "start": 0,
+          "end": 93
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 68,
+            "end": 72,
+            "sentence_id": 0,
+            "matched_text": "6.48"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 305.84320068359375,
+          "t": 705.8784866333008,
+          "r": 549.8646850585938,
+          "b": 675.1611633300781,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page10_table0",
+      "predicate": "contains concentration of",
+      "object": "KNO 3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "0.0 g/L KNO 3 | 0.15 g/L KNO 3 | 0.3 g/L KNO 3 | 1.0 g/L KNO 3\npH | 6.48 | 6.67 | 6.77 | 7.05",
+        "document_offsets": {
+          "start": 0,
+          "end": 93
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "KNO 3"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "sentence_id": 0,
+            "matched_text": "KNO 3"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "KNO 3"
+          },
+          {
+            "start": 57,
+            "end": 62,
+            "sentence_id": 0,
+            "matched_text": "KNO 3"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page10_table0",
+        "page_number": 10,
+        "bbox_coordinates": {
+          "l": 305.84320068359375,
+          "t": 705.8784866333008,
+          "r": 549.8646850585938,
+          "b": 675.1611633300781,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "KNO 3",
+    "Table page10_table0"
+  ]
+}

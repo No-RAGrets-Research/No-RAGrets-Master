@@ -1,0 +1,5371 @@
+{
+  "summary": {
+    "total_chunks": 4,
+    "errors": 0,
+    "entities": 55,
+    "relations": 91,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Jovanovic et al. 2021 (part I).json",
+    "processed_at": "2025-11-24T00:19:33.546731"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Average fluid velocity",
+      "predicate": "is",
+      "object": "0.01 m/s",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Halfway distance between plates;\nu \u00bc 0 : 01 m = s \u00bd | Average fluid velocity;\nD A \u00bc 10 /C0 6 m 2 = s | Diffusion coefficient of reactant A ;\n/C2",
+        "document_offsets": {
+          "start": 179,
+          "end": 323
+        },
+        "subject_positions": [
+          {
+            "start": 54,
+            "end": 76,
+            "sentence_id": 6,
+            "matched_text": "Average fluid velocity"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.3094482421875,
+          "t": 107.500244140625,
+          "r": 557.609375,
+          "b": 41.49737548828125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction rate constant",
+      "predicate": "is based on",
+      "object": "catalyst surface",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "| Reaction rate constant based on catalyst surface; Length of the reactor;",
+        "document_offsets": {
+          "start": 104,
+          "end": 179
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 24,
+            "sentence_id": 5,
+            "matched_text": "Reaction rate constant"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 34,
+            "end": 50,
+            "sentence_id": 5,
+            "matched_text": "catalyst surface"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.3094482421875,
+          "t": 107.500244140625,
+          "r": 557.609375,
+          "b": 41.49737548828125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Diffusion coefficient of reactant A",
+      "predicate": "is",
+      "object": "10 m\u00b2/s",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Halfway distance between plates;\nu \u00bc 0 : 01 m = s \u00bd | Average fluid velocity;\nD A \u00bc 10 /C0 6 m 2 = s | Diffusion coefficient of reactant A ;\n/C2",
+        "document_offsets": {
+          "start": 179,
+          "end": 323
+        },
+        "subject_positions": [
+          {
+            "start": 103,
+            "end": 138,
+            "sentence_id": 6,
+            "matched_text": "Diffusion coefficient of reactant A"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.3094482421875,
+          "t": 107.500244140625,
+          "r": 557.609375,
+          "b": 41.49737548828125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Halfway distance between plates",
+      "predicate": "is",
+      "object": "0 m",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "Halfway distance between plates;\nu \u00bc 0 : 01 m = s \u00bd | Average fluid velocity;\nD A \u00bc 10 /C0 6 m 2 = s | Diffusion coefficient of reactant A ;\n/C2",
+        "document_offsets": {
+          "start": 179,
+          "end": 323
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 31,
+            "sentence_id": 6,
+            "matched_text": "Halfway distance between plates"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.3094482421875,
+          "t": 107.500244140625,
+          "r": 557.609375,
+          "b": 41.49737548828125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Surface of catalyst to Volume of reactor ratio",
+      "predicate": "is equal to",
+      "object": "10,000 m\u00b2 cat / m\u00b3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "S c = V r \u00bc 10 5 m 2 cat = m 3 r | Surface of catalyst to Volume of reactor ratio;",
+        "document_offsets": {
+          "start": 328,
+          "end": 410
+        },
+        "subject_positions": [
+          {
+            "start": 35,
+            "end": 81,
+            "sentence_id": 8,
+            "matched_text": "Surface of catalyst to Volume of reactor ratio"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.3094482421875,
+          "t": 107.500244140625,
+          "r": 557.609375,
+          "b": 41.49737548828125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Length of the reactor",
+      "predicate": "has",
+      "object": "10 m",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 5,
+        "sentence_end": 5,
+        "text_evidence": "| Reaction rate constant based on catalyst surface; Length of the reactor;",
+        "document_offsets": {
+          "start": 104,
+          "end": 179
+        },
+        "subject_positions": [
+          {
+            "start": 52,
+            "end": 73,
+            "sentence_id": 5,
+            "matched_text": "Length of the reactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page4_table0",
+        "page_number": 4,
+        "bbox_coordinates": {
+          "l": 305.3094482421875,
+          "t": 107.500244140625,
+          "r": 557.609375,
+          "b": 41.49737548828125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Reaction Time",
+      "predicate": "is represented by",
+      "object": "\u00bc 1 : 0 s",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 4,
+        "text_evidence": "L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2 | Mean Residence Time Reaction Time Diffusion Time",
+        "document_offsets": {
+          "start": 94,
+          "end": 246
+        },
+        "subject_positions": [
+          {
+            "start": 124,
+            "end": 137,
+            "sentence_id": 4,
+            "matched_text": "Reaction Time"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 8,
+            "end": 17,
+            "sentence_id": 2,
+            "matched_text": "\u00bc 1 : 0 s"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "0:10 s",
+      "predicate": "represents",
+      "object": "Reaction Time",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| Mean Residence Time Reaction Time Diffusion Time",
+        "document_offsets": {
+          "start": 196,
+          "end": 246
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 22,
+            "end": 35,
+            "sentence_id": 4,
+            "matched_text": "Reaction Time"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s r",
+      "predicate": "is equal to",
+      "object": "V r S c 1 k 00",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2",
+        "document_offsets": {
+          "start": 94,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 26,
+            "end": 29,
+            "sentence_id": 2,
+            "matched_text": "s r"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 46,
+            "sentence_id": 2,
+            "matched_text": "V r S c 1 k 00"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "1 k 00",
+      "predicate": "multiplied by",
+      "object": "V r S c",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2",
+        "document_offsets": {
+          "start": 94,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 40,
+            "end": 46,
+            "sentence_id": 2,
+            "matched_text": "1 k 00"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 32,
+            "end": 39,
+            "sentence_id": 2,
+            "matched_text": "V r S c"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table page5_table1",
+      "predicate": "contains",
+      "object": "Numerical values of characteristic times.",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Numerical values of characteristic times. | Numerical values of characteristic times.\ns mrt \u00bc",
+        "document_offsets": {
+          "start": 0,
+          "end": 93
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "mrt",
+      "predicate": "is defined as",
+      "object": "s mrt \u00bc L u /C0",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| Numerical values of characteristic times.\ns mrt \u00bc",
+        "document_offsets": {
+          "start": 42,
+          "end": 93
+        },
+        "subject_positions": [
+          {
+            "start": 46,
+            "end": 49,
+            "sentence_id": 1,
+            "matched_text": "mrt"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "H 2 D A",
+      "predicate": "multiplied by",
+      "object": "s diff",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2",
+        "document_offsets": {
+          "start": 94,
+          "end": 172
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 72,
+            "sentence_id": 2,
+            "matched_text": "s diff"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "L",
+      "predicate": "multiplied by",
+      "object": "u",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Numerical values of characteristic times. | Numerical values of characteristic times.\ns mrt \u00bc L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2 | Mean Residence Time Reaction Time Diffusion Time",
+        "document_offsets": {
+          "start": 0,
+          "end": 246
+        },
+        "subject_positions": [
+          {
+            "start": 94,
+            "end": 95,
+            "sentence_id": 2,
+            "matched_text": "L"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 96,
+            "end": 97,
+            "sentence_id": 2,
+            "matched_text": "u"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "diffusion time",
+      "predicate": "is defined as",
+      "object": "s diff \u00bc H 2 D A",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| Mean Residence Time Reaction Time Diffusion Time",
+        "document_offsets": {
+          "start": 196,
+          "end": 246
+        },
+        "subject_positions": [
+          {
+            "start": 36,
+            "end": 50,
+            "sentence_id": 4,
+            "matched_text": "Diffusion Time"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "C0",
+      "predicate": "divided by",
+      "object": "u",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 4,
+        "text_evidence": "Numerical values of characteristic times. | Numerical values of characteristic times.\ns mrt \u00bc L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2 | Mean Residence Time Reaction Time Diffusion Time",
+        "document_offsets": {
+          "start": 0,
+          "end": 246
+        },
+        "subject_positions": [
+          {
+            "start": 99,
+            "end": 101,
+            "sentence_id": 2,
+            "matched_text": "C0"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 96,
+            "end": 97,
+            "sentence_id": 2,
+            "matched_text": "u"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "V r",
+      "predicate": "multiplied by",
+      "object": "S c",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "L u /C0 \u00bc 1 : 0 s \u00bd /C138 s r \u00bc V r S c 1 k 00 \u00bc 0 : 10 s \u00bd /C138 s diff \u00bc H 2",
+        "document_offsets": {
+          "start": 94,
+          "end": 172
+        },
+        "subject_positions": [
+          {
+            "start": 32,
+            "end": 35,
+            "sentence_id": 2,
+            "matched_text": "V r"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 36,
+            "end": 39,
+            "sentence_id": 2,
+            "matched_text": "S c"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table1",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 85.0241470336914,
+          "t": 716.2853393554688,
+          "r": 240.2534942626953,
+          "b": 666.8636779785156,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "P",
+      "predicate": "undergoes adsorption-desorption",
+      "object": "adsorption-desorption",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 23,
+        "text_evidence": "A A o S | adsorption-desorption of A | (Fig. 4 b )\nA o S \u00fe S /C3 \u00f0 \u00de ! PS /C3 P /C3 S | conversion of A /C3 S | (Fig. 4 e )\nP /C3 S ! PS /C3! P P \u00fe S /C3 \u00f0 \u00de | direct desorption of P /C3 S | (Fig. 4 f ) P \u00fe S o /C10 k P ! PS o k PS o P P o S | adsorption-desorption of P | (Fig. 4 f )",
+        "document_offsets": {
+          "start": 41,
+          "end": 497
+        },
+        "subject_positions": [
+          {
+            "start": 248,
+            "end": 249,
+            "sentence_id": 17,
+            "matched_text": "P"
+          },
+          {
+            "start": 294,
+            "end": 295,
+            "sentence_id": 17,
+            "matched_text": "P"
+          },
+          {
+            "start": 314,
+            "end": 315,
+            "sentence_id": 20,
+            "matched_text": "P"
+          },
+          {
+            "start": 316,
+            "end": 317,
+            "sentence_id": 20,
+            "matched_text": "P"
+          },
+          {
+            "start": 353,
+            "end": 354,
+            "sentence_id": 21,
+            "matched_text": "P"
+          },
+          {
+            "start": 375,
+            "end": 376,
+            "sentence_id": 22,
+            "matched_text": "P"
+          },
+          {
+            "start": 390,
+            "end": 391,
+            "sentence_id": 22,
+            "matched_text": "P"
+          },
+          {
+            "start": 406,
+            "end": 407,
+            "sentence_id": 23,
+            "matched_text": "P"
+          },
+          {
+            "start": 408,
+            "end": 409,
+            "sentence_id": 23,
+            "matched_text": "P"
+          },
+          {
+            "start": 441,
+            "end": 442,
+            "sentence_id": 23,
+            "matched_text": "P"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 10,
+            "end": 31,
+            "sentence_id": 3,
+            "matched_text": "adsorption-desorption"
+          },
+          {
+            "start": 416,
+            "end": 437,
+            "sentence_id": 23,
+            "matched_text": "adsorption-desorption"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.53921127319336,
+          "t": 157.72320556640625,
+          "r": 284.4324035644531,
+          "b": 50.36505126953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "P /C3 S",
+      "predicate": "undergoes direct desorption",
+      "object": "direct desorption of P /C3 S",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 17,
+        "sentence_end": 21,
+        "text_evidence": "PS /C3 P /C3 S | conversion of A /C3 S | (Fig. 4 e )\nP /C3 S ! \u00f0 \u00de | direct desorption of P /C3 S | (Fig. 4 f )",
+        "document_offsets": {
+          "start": 282,
+          "end": 416
+        },
+        "subject_positions": [
+          {
+            "start": 7,
+            "end": 14,
+            "sentence_id": 17,
+            "matched_text": "P /C3 S"
+          },
+          {
+            "start": 53,
+            "end": 60,
+            "sentence_id": 17,
+            "matched_text": "P /C3 S"
+          },
+          {
+            "start": 112,
+            "end": 119,
+            "sentence_id": 21,
+            "matched_text": "P /C3 S"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 91,
+            "end": 119,
+            "sentence_id": 21,
+            "matched_text": "direct desorption of P /C3 S"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.53921127319336,
+          "t": 157.72320556640625,
+          "r": 284.4324035644531,
+          "b": 50.36505126953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "A",
+      "predicate": "undergoes direct activation",
+      "object": "direct activation of A",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 23,
+        "text_evidence": "A \u00fe S o /C0 /C1 /C10 k A ! AS o k AS o ! A A o S | adsorption-desorption of A | (Fig. 4 b )\nA o S \u00fe S /C3 \u00f0 \u00de ! AS o ! AS /C3 A /C3 S \u00fe S o /C0 /C1 | activation of A o S | (Fig. 4 c ) A \u00fe S /C3 \u00f0 \u00de ! A ! AS /C3 A /C3 S | direct activation of A | (Fig. 4 d ) A /C3 S ! AS /C3! PS /C3 P /C3 S | conversion of A /C3 S | (Fig. 4 e )\nP /C3 S ! PS o k PS o P P o S | adsorption-desorption of P | (Fig. 4 f )",
+        "document_offsets": {
+          "start": 0,
+          "end": 497
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 0,
+            "matched_text": "A"
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 41,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 43,
+            "end": 44,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 76,
+            "end": 77,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 92,
+            "end": 93,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 128,
+            "end": 129,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 166,
+            "end": 167,
+            "sentence_id": 8,
+            "matched_text": "A"
+          },
+          {
+            "start": 186,
+            "end": 187,
+            "sentence_id": 9,
+            "matched_text": "A"
+          },
+          {
+            "start": 204,
+            "end": 205,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 215,
+            "end": 216,
+            "sentence_id": 13,
+            "matched_text": "A"
+          },
+          {
+            "start": 246,
+            "end": 247,
+            "sentence_id": 13,
+            "matched_text": "A"
+          },
+          {
+            "start": 262,
+            "end": 263,
+            "sentence_id": 14,
+            "matched_text": "A"
+          },
+          {
+            "start": 313,
+            "end": 314,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 225,
+            "end": 247,
+            "sentence_id": 13,
+            "matched_text": "direct activation of A"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.53921127319336,
+          "t": 157.72320556640625,
+          "r": 284.4324035644531,
+          "b": 50.36505126953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "A /C3 S",
+      "predicate": "is converted into",
+      "object": "conversion of A /C3 S",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 17,
+        "text_evidence": "A /C3 S \u00fe S o /C0 /C1 A /C3 S | direct activation of A | (Fig. 4 d ) A /C3 S ! PS /C3 P /C3 S | conversion of A /C3 S | (Fig. 4 e )\nP /C3 S !",
+        "document_offsets": {
+          "start": 128,
+          "end": 344
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 7,
+            "sentence_id": 7,
+            "matched_text": "A /C3 S"
+          },
+          {
+            "start": 87,
+            "end": 94,
+            "sentence_id": 13,
+            "matched_text": "A /C3 S"
+          },
+          {
+            "start": 134,
+            "end": 141,
+            "sentence_id": 14,
+            "matched_text": "A /C3 S"
+          },
+          {
+            "start": 185,
+            "end": 192,
+            "sentence_id": 17,
+            "matched_text": "A /C3 S"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 171,
+            "end": 192,
+            "sentence_id": 17,
+            "matched_text": "conversion of A /C3 S"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.53921127319336,
+          "t": 157.72320556640625,
+          "r": 284.4324035644531,
+          "b": 50.36505126953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "A o S",
+      "predicate": "is activated by",
+      "object": "activation of A o S",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text_evidence": "A A o S | adsorption-desorption of A | (Fig. 4 b )\nA o S \u00fe S /C3 \u00f0 \u00de ! | activation of A o S | (Fig. 4 c )",
+        "document_offsets": {
+          "start": 41,
+          "end": 186
+        },
+        "subject_positions": [
+          {
+            "start": 2,
+            "end": 7,
+            "sentence_id": 3,
+            "matched_text": "A o S"
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "sentence_id": 3,
+            "matched_text": "A o S"
+          },
+          {
+            "start": 125,
+            "end": 130,
+            "sentence_id": 8,
+            "matched_text": "A o S"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 111,
+            "end": 130,
+            "sentence_id": 8,
+            "matched_text": "activation of A o S"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.53921127319336,
+          "t": 157.72320556640625,
+          "r": 284.4324035644531,
+          "b": 50.36505126953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "A",
+      "predicate": "undergoes adsorption-desorption",
+      "object": "adsorption-desorption",
+      "source_span": {
+        "chunk_id": 2,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 23,
+        "text_evidence": "A \u00fe S o /C0 /C1 /C10 k A ! AS o k AS o ! A A o S | adsorption-desorption of A | (Fig. 4 b )\nA o S \u00fe S /C3 \u00f0 \u00de ! AS o ! AS /C3 A /C3 S \u00fe S o /C0 /C1 | activation of A o S | (Fig. 4 c ) A \u00fe S /C3 \u00f0 \u00de ! A ! AS /C3 A /C3 S | direct activation of A | (Fig. 4 d ) A /C3 S ! AS /C3! PS /C3 P /C3 S | conversion of A /C3 S | (Fig. 4 e )\nP /C3 S ! PS o k PS o P P o S | adsorption-desorption of P | (Fig. 4 f )",
+        "document_offsets": {
+          "start": 0,
+          "end": 497
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 0,
+            "matched_text": "A"
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 41,
+            "end": 42,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 43,
+            "end": 44,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 76,
+            "end": 77,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 92,
+            "end": 93,
+            "sentence_id": 3,
+            "matched_text": "A"
+          },
+          {
+            "start": 128,
+            "end": 129,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 166,
+            "end": 167,
+            "sentence_id": 8,
+            "matched_text": "A"
+          },
+          {
+            "start": 186,
+            "end": 187,
+            "sentence_id": 9,
+            "matched_text": "A"
+          },
+          {
+            "start": 204,
+            "end": 205,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 215,
+            "end": 216,
+            "sentence_id": 13,
+            "matched_text": "A"
+          },
+          {
+            "start": 246,
+            "end": 247,
+            "sentence_id": 13,
+            "matched_text": "A"
+          },
+          {
+            "start": 262,
+            "end": 263,
+            "sentence_id": 14,
+            "matched_text": "A"
+          },
+          {
+            "start": 313,
+            "end": 314,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 72,
+            "sentence_id": 3,
+            "matched_text": "adsorption-desorption"
+          },
+          {
+            "start": 457,
+            "end": 478,
+            "sentence_id": 23,
+            "matched_text": "adsorption-desorption"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page7_table2",
+        "page_number": 7,
+        "bbox_coordinates": {
+          "l": 41.53921127319336,
+          "t": 157.72320556640625,
+          "r": 284.4324035644531,
+          "b": 50.36505126953125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P ! PS",
+      "predicate": "is followed by",
+      "object": "0",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 17,
+        "text_evidence": "s diff y /C0 AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! PS 0 1 k P ! A s PS 0 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 262,
+            "end": 263,
+            "sentence_id": 14,
+            "matched_text": "0"
+          },
+          {
+            "start": 308,
+            "end": 309,
+            "sentence_id": 17,
+            "matched_text": "0"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s",
+      "predicate": "has value",
+      "object": "H",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 18,
+        "text_evidence": "s diff y /C0 A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 0,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 0,
+            "matched_text": "s"
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "s"
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "s"
+          },
+          {
+            "start": 76,
+            "end": 77,
+            "sentence_id": 4,
+            "matched_text": "s"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 6,
+            "matched_text": "s"
+          },
+          {
+            "start": 135,
+            "end": 136,
+            "sentence_id": 7,
+            "matched_text": "s"
+          },
+          {
+            "start": 175,
+            "end": 176,
+            "sentence_id": 9,
+            "matched_text": "s"
+          },
+          {
+            "start": 199,
+            "end": 200,
+            "sentence_id": 9,
+            "matched_text": "s"
+          },
+          {
+            "start": 229,
+            "end": 230,
+            "sentence_id": 11,
+            "matched_text": "s"
+          },
+          {
+            "start": 253,
+            "end": 254,
+            "sentence_id": 13,
+            "matched_text": "s"
+          },
+          {
+            "start": 279,
+            "end": 280,
+            "sentence_id": 15,
+            "matched_text": "s"
+          },
+          {
+            "start": 303,
+            "end": 304,
+            "sentence_id": 17,
+            "matched_text": "s"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 16,
+            "sentence_id": 1,
+            "matched_text": "H"
+          },
+          {
+            "start": 68,
+            "end": 69,
+            "sentence_id": 4,
+            "matched_text": "H"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u",
+      "predicate": "is located at",
+      "object": "/C0",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "s diff y /C0 AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 175,
+            "end": 184,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x",
+      "predicate": "is located at",
+      "object": "/C0",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "s diff y /C0 AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 112,
+            "end": 120,
+            "sentence_id": 6,
+            "matched_text": "s diff x"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2",
+      "predicate": "has property",
+      "object": "D",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "s diff y /C0 A H 2 D A s A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 145
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 20,
+            "sentence_id": 1,
+            "matched_text": "D"
+          },
+          {
+            "start": 72,
+            "end": 73,
+            "sentence_id": 4,
+            "matched_text": "D"
+          },
+          {
+            "start": 131,
+            "end": 132,
+            "sentence_id": 7,
+            "matched_text": "D"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P ! PS 0",
+      "predicate": "contains",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y",
+      "predicate": "is located at",
+      "object": "/C0",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "s diff y /C0 AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "s diff y"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "sentence_id": 3,
+            "matched_text": "s diff y"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A ! PS C3 1 k AS ! PS C3",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P ! PS 0 1 k P ! PS o",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A",
+      "predicate": "contains",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o 1 k A ! AS o",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A ! AS o 1 k A ! AS o",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F s PS ! P 1 k PS",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D",
+      "predicate": "is followed by",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 17,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 275,
+            "end": 276,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0",
+      "predicate": "has property",
+      "object": "x",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 9,
+        "text_evidence": "AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 103,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 72,
+            "end": 85,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 16,
+            "end": 17,
+            "sentence_id": 6,
+            "matched_text": "x"
+          },
+          {
+            "start": 86,
+            "end": 87,
+            "sentence_id": 9,
+            "matched_text": "x"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V",
+      "predicate": "is followed by",
+      "object": "r",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 166,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 28,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x \u00bc V"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 29,
+            "end": 30,
+            "sentence_id": 9,
+            "matched_text": "r"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L",
+      "predicate": "contains",
+      "object": "2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text_evidence": "A H 2 D A s A ! P H 2 D P s AS o ! A L 2 D A s AS /C3 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 145
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 5,
+            "sentence_id": 1,
+            "matched_text": "2"
+          },
+          {
+            "start": 57,
+            "end": 58,
+            "sentence_id": 4,
+            "matched_text": "2"
+          },
+          {
+            "start": 116,
+            "end": 117,
+            "sentence_id": 7,
+            "matched_text": "2"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Table",
+      "predicate": "contains",
+      "object": "page9_table3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A ! AS",
+      "predicate": "is followed by",
+      "object": "o",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 18,
+        "text_evidence": "P H 2 D P s AS o ! AS /C3 1 k AS o ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 66,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "o"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "sentence_id": 5,
+            "matched_text": "o"
+          },
+          {
+            "start": 172,
+            "end": 173,
+            "sentence_id": 12,
+            "matched_text": "o"
+          },
+          {
+            "start": 185,
+            "end": 186,
+            "sentence_id": 13,
+            "matched_text": "o"
+          },
+          {
+            "start": 209,
+            "end": 210,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 16,
+            "matched_text": "o"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 18,
+            "matched_text": "o"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A ! PS C3 1 k AS ! PS",
+      "predicate": "has property",
+      "object": "C3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 | s diff y /C0 AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 !",
+        "document_offsets": {
+          "start": 29,
+          "end": 224
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 6,
+            "sentence_id": 2,
+            "matched_text": "C3"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "C3"
+          },
+          {
+            "start": 60,
+            "end": 62,
+            "sentence_id": 5,
+            "matched_text": "C3"
+          },
+          {
+            "start": 78,
+            "end": 80,
+            "sentence_id": 6,
+            "matched_text": "C3"
+          },
+          {
+            "start": 112,
+            "end": 114,
+            "sentence_id": 7,
+            "matched_text": "C3"
+          },
+          {
+            "start": 121,
+            "end": 123,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 132,
+            "end": 134,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 141,
+            "end": 143,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 191,
+            "end": 193,
+            "sentence_id": 10,
+            "matched_text": "C3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o",
+      "predicate": "is located at",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 47,
+            "end": 53,
+            "sentence_id": 4,
+            "matched_text": "s AS o"
+          },
+          {
+            "start": 250,
+            "end": 256,
+            "sentence_id": 15,
+            "matched_text": "s AS o"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o ! A 1 k",
+      "predicate": "has property",
+      "object": "AS",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 16,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 300
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 2,
+            "matched_text": "AS"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "AS"
+          },
+          {
+            "start": 49,
+            "end": 51,
+            "sentence_id": 4,
+            "matched_text": "AS"
+          },
+          {
+            "start": 56,
+            "end": 58,
+            "sentence_id": 5,
+            "matched_text": "AS"
+          },
+          {
+            "start": 67,
+            "end": 69,
+            "sentence_id": 5,
+            "matched_text": "AS"
+          },
+          {
+            "start": 74,
+            "end": 76,
+            "sentence_id": 6,
+            "matched_text": "AS"
+          },
+          {
+            "start": 108,
+            "end": 110,
+            "sentence_id": 7,
+            "matched_text": "AS"
+          },
+          {
+            "start": 128,
+            "end": 130,
+            "sentence_id": 8,
+            "matched_text": "AS"
+          },
+          {
+            "start": 206,
+            "end": 208,
+            "sentence_id": 12,
+            "matched_text": "AS"
+          },
+          {
+            "start": 219,
+            "end": 221,
+            "sentence_id": 13,
+            "matched_text": "AS"
+          },
+          {
+            "start": 252,
+            "end": 254,
+            "sentence_id": 15,
+            "matched_text": "AS"
+          },
+          {
+            "start": 265,
+            "end": 267,
+            "sentence_id": 16,
+            "matched_text": "AS"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o 1 k A",
+      "predicate": "is followed by",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P ! PS 0 1 k",
+      "predicate": "has property",
+      "object": "P",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 19,
+        "text_evidence": "P H 2 D P s AS o ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A s PS 0 ! P 1 k PS o ! P",
+        "document_offsets": {
+          "start": 66,
+          "end": 326
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 4,
+            "matched_text": "P"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 4,
+            "matched_text": "P"
+          },
+          {
+            "start": 144,
+            "end": 145,
+            "sentence_id": 10,
+            "matched_text": "P"
+          },
+          {
+            "start": 159,
+            "end": 160,
+            "sentence_id": 11,
+            "matched_text": "P"
+          },
+          {
+            "start": 189,
+            "end": 190,
+            "sentence_id": 13,
+            "matched_text": "P"
+          },
+          {
+            "start": 202,
+            "end": 203,
+            "sentence_id": 14,
+            "matched_text": "P"
+          },
+          {
+            "start": 246,
+            "end": 247,
+            "sentence_id": 18,
+            "matched_text": "P"
+          },
+          {
+            "start": 259,
+            "end": 260,
+            "sentence_id": 19,
+            "matched_text": "P"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F s",
+      "predicate": "is followed by",
+      "object": "PS",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 18,
+        "text_evidence": "PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! PS 0 1 k P ! PS o | s AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 146,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 29,
+            "end": 54,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x \u00bc V r F s"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 8,
+            "matched_text": "PS"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "sentence_id": 9,
+            "matched_text": "PS"
+          },
+          {
+            "start": 55,
+            "end": 57,
+            "sentence_id": 9,
+            "matched_text": "PS"
+          },
+          {
+            "start": 70,
+            "end": 72,
+            "sentence_id": 10,
+            "matched_text": "PS"
+          },
+          {
+            "start": 113,
+            "end": 115,
+            "sentence_id": 14,
+            "matched_text": "PS"
+          },
+          {
+            "start": 126,
+            "end": 128,
+            "sentence_id": 15,
+            "matched_text": "PS"
+          },
+          {
+            "start": 159,
+            "end": 161,
+            "sentence_id": 17,
+            "matched_text": "PS"
+          },
+          {
+            "start": 172,
+            "end": 174,
+            "sentence_id": 18,
+            "matched_text": "PS"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0",
+      "predicate": "has property",
+      "object": "P",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 19,
+        "text_evidence": "s diff y /C0 AS /C3 | s diff y /C0 P H 2 D P s AS o ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A s PS 0 ! P 1 k PS o ! P",
+        "document_offsets": {
+          "start": 0,
+          "end": 326
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 12,
+            "sentence_id": 0,
+            "matched_text": "s diff y /C0"
+          },
+          {
+            "start": 53,
+            "end": 65,
+            "sentence_id": 3,
+            "matched_text": "s diff y /C0"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 67,
+            "sentence_id": 4,
+            "matched_text": "P"
+          },
+          {
+            "start": 74,
+            "end": 75,
+            "sentence_id": 4,
+            "matched_text": "P"
+          },
+          {
+            "start": 210,
+            "end": 211,
+            "sentence_id": 10,
+            "matched_text": "P"
+          },
+          {
+            "start": 225,
+            "end": 226,
+            "sentence_id": 11,
+            "matched_text": "P"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 13,
+            "matched_text": "P"
+          },
+          {
+            "start": 268,
+            "end": 269,
+            "sentence_id": 14,
+            "matched_text": "P"
+          },
+          {
+            "start": 312,
+            "end": 313,
+            "sentence_id": 18,
+            "matched_text": "P"
+          },
+          {
+            "start": 325,
+            "end": 326,
+            "sentence_id": 19,
+            "matched_text": "P"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F s PS ! P 1 k",
+      "predicate": "has property",
+      "object": "PS",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 18,
+        "text_evidence": "PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! PS 0 1 k P ! PS o | s AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 146,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 8,
+            "matched_text": "PS"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "sentence_id": 9,
+            "matched_text": "PS"
+          },
+          {
+            "start": 55,
+            "end": 57,
+            "sentence_id": 9,
+            "matched_text": "PS"
+          },
+          {
+            "start": 70,
+            "end": 72,
+            "sentence_id": 10,
+            "matched_text": "PS"
+          },
+          {
+            "start": 113,
+            "end": 115,
+            "sentence_id": 14,
+            "matched_text": "PS"
+          },
+          {
+            "start": 126,
+            "end": 128,
+            "sentence_id": 15,
+            "matched_text": "PS"
+          },
+          {
+            "start": 159,
+            "end": 161,
+            "sentence_id": 17,
+            "matched_text": "PS"
+          },
+          {
+            "start": 172,
+            "end": 174,
+            "sentence_id": 18,
+            "matched_text": "PS"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o 1 k",
+      "predicate": "has property",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 17,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 275,
+            "end": 276,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P ! PS 0 1 k P ! PS",
+      "predicate": "has property",
+      "object": "o",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 18,
+        "text_evidence": "P H 2 D P s AS o ! AS /C3 1 k AS o ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 66,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "o"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "sentence_id": 5,
+            "matched_text": "o"
+          },
+          {
+            "start": 172,
+            "end": 173,
+            "sentence_id": 12,
+            "matched_text": "o"
+          },
+          {
+            "start": 185,
+            "end": 186,
+            "sentence_id": 13,
+            "matched_text": "o"
+          },
+          {
+            "start": 209,
+            "end": 210,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 16,
+            "matched_text": "o"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 18,
+            "matched_text": "o"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P",
+      "predicate": "contains",
+      "object": "2",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text_evidence": "A H 2 D A s A ! P H 2 D P s AS o ! A L 2 D A s AS /C3 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 145
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 5,
+            "sentence_id": 1,
+            "matched_text": "2"
+          },
+          {
+            "start": 57,
+            "end": 58,
+            "sentence_id": 4,
+            "matched_text": "2"
+          },
+          {
+            "start": 116,
+            "end": 117,
+            "sentence_id": 7,
+            "matched_text": "2"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0",
+      "predicate": "has property",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 17,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 311
+        },
+        "subject_positions": [
+          {
+            "start": 99,
+            "end": 111,
+            "sentence_id": 6,
+            "matched_text": "s diff x /C0"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 275,
+            "end": 276,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o 1 k A ! AS",
+      "predicate": "has property",
+      "object": "o",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 18,
+        "text_evidence": "P H 2 D P s AS o ! AS /C3 1 k AS o ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 66,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "o"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "sentence_id": 5,
+            "matched_text": "o"
+          },
+          {
+            "start": 172,
+            "end": 173,
+            "sentence_id": 12,
+            "matched_text": "o"
+          },
+          {
+            "start": 185,
+            "end": 186,
+            "sentence_id": 13,
+            "matched_text": "o"
+          },
+          {
+            "start": 209,
+            "end": 210,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 16,
+            "matched_text": "o"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 18,
+            "matched_text": "o"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A ! AS",
+      "predicate": "has property",
+      "object": "C3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 | s diff y /C0 AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 !",
+        "document_offsets": {
+          "start": 29,
+          "end": 224
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 6,
+            "sentence_id": 2,
+            "matched_text": "C3"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "C3"
+          },
+          {
+            "start": 60,
+            "end": 62,
+            "sentence_id": 5,
+            "matched_text": "C3"
+          },
+          {
+            "start": 78,
+            "end": 80,
+            "sentence_id": 6,
+            "matched_text": "C3"
+          },
+          {
+            "start": 112,
+            "end": 114,
+            "sentence_id": 7,
+            "matched_text": "C3"
+          },
+          {
+            "start": 121,
+            "end": 123,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 132,
+            "end": 134,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 141,
+            "end": 143,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 191,
+            "end": 193,
+            "sentence_id": 10,
+            "matched_text": "C3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A ! PS C3 1 k",
+      "predicate": "has property",
+      "object": "AS",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 16,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 300
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 2,
+            "sentence_id": 2,
+            "matched_text": "AS"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "sentence_id": 3,
+            "matched_text": "AS"
+          },
+          {
+            "start": 49,
+            "end": 51,
+            "sentence_id": 4,
+            "matched_text": "AS"
+          },
+          {
+            "start": 56,
+            "end": 58,
+            "sentence_id": 5,
+            "matched_text": "AS"
+          },
+          {
+            "start": 67,
+            "end": 69,
+            "sentence_id": 5,
+            "matched_text": "AS"
+          },
+          {
+            "start": 74,
+            "end": 76,
+            "sentence_id": 6,
+            "matched_text": "AS"
+          },
+          {
+            "start": 108,
+            "end": 110,
+            "sentence_id": 7,
+            "matched_text": "AS"
+          },
+          {
+            "start": 128,
+            "end": 130,
+            "sentence_id": 8,
+            "matched_text": "AS"
+          },
+          {
+            "start": 206,
+            "end": 208,
+            "sentence_id": 12,
+            "matched_text": "AS"
+          },
+          {
+            "start": 219,
+            "end": 221,
+            "sentence_id": 13,
+            "matched_text": "AS"
+          },
+          {
+            "start": 252,
+            "end": 254,
+            "sentence_id": 15,
+            "matched_text": "AS"
+          },
+          {
+            "start": 265,
+            "end": 267,
+            "sentence_id": 16,
+            "matched_text": "AS"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F",
+      "predicate": "has property",
+      "object": "s",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 18,
+        "text_evidence": "s diff y /C0 A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 0,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 175,
+            "end": 198,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x \u00bc V r F"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 0,
+            "matched_text": "s"
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "s"
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "s"
+          },
+          {
+            "start": 76,
+            "end": 77,
+            "sentence_id": 4,
+            "matched_text": "s"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 6,
+            "matched_text": "s"
+          },
+          {
+            "start": 135,
+            "end": 136,
+            "sentence_id": 7,
+            "matched_text": "s"
+          },
+          {
+            "start": 175,
+            "end": 176,
+            "sentence_id": 9,
+            "matched_text": "s"
+          },
+          {
+            "start": 199,
+            "end": 200,
+            "sentence_id": 9,
+            "matched_text": "s"
+          },
+          {
+            "start": 229,
+            "end": 230,
+            "sentence_id": 11,
+            "matched_text": "s"
+          },
+          {
+            "start": 253,
+            "end": 254,
+            "sentence_id": 13,
+            "matched_text": "s"
+          },
+          {
+            "start": 279,
+            "end": 280,
+            "sentence_id": 15,
+            "matched_text": "s"
+          },
+          {
+            "start": 303,
+            "end": 304,
+            "sentence_id": 17,
+            "matched_text": "s"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P",
+      "predicate": "has property",
+      "object": "D",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "s diff y /C0 A H 2 D A s A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 145
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 19,
+            "end": 20,
+            "sentence_id": 1,
+            "matched_text": "D"
+          },
+          {
+            "start": 72,
+            "end": 73,
+            "sentence_id": 4,
+            "matched_text": "D"
+          },
+          {
+            "start": 131,
+            "end": 132,
+            "sentence_id": 7,
+            "matched_text": "D"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A ! AS C3 1 k A ! AS C3",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y",
+      "predicate": "is followed by",
+      "object": "/C3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 10,
+        "text_evidence": "s diff y /C0 AS /C3 1 k A ! AS /C3 | s diff y /C0 AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 224
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "s diff y"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "sentence_id": 3,
+            "matched_text": "s diff y"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o ! A 1 k AS ! A",
+      "predicate": "has property",
+      "object": "o",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 18,
+        "text_evidence": "P H 2 D P s AS o ! AS /C3 1 k AS o ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 66,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "o"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "sentence_id": 5,
+            "matched_text": "o"
+          },
+          {
+            "start": 172,
+            "end": 173,
+            "sentence_id": 12,
+            "matched_text": "o"
+          },
+          {
+            "start": 185,
+            "end": 186,
+            "sentence_id": 13,
+            "matched_text": "o"
+          },
+          {
+            "start": 209,
+            "end": 210,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 16,
+            "matched_text": "o"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 18,
+            "matched_text": "o"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F s PS ! P 1",
+      "predicate": "is followed by",
+      "object": "k",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 9,
+            "end": 10,
+            "sentence_id": 2,
+            "matched_text": "k"
+          },
+          {
+            "start": 65,
+            "end": 66,
+            "sentence_id": 5,
+            "matched_text": "k"
+          },
+          {
+            "start": 126,
+            "end": 127,
+            "sentence_id": 8,
+            "matched_text": "k"
+          },
+          {
+            "start": 185,
+            "end": 186,
+            "sentence_id": 10,
+            "matched_text": "k"
+          },
+          {
+            "start": 213,
+            "end": 214,
+            "sentence_id": 12,
+            "matched_text": "k"
+          },
+          {
+            "start": 237,
+            "end": 238,
+            "sentence_id": 14,
+            "matched_text": "k"
+          },
+          {
+            "start": 263,
+            "end": 264,
+            "sentence_id": 16,
+            "matched_text": "k"
+          },
+          {
+            "start": 287,
+            "end": 288,
+            "sentence_id": 18,
+            "matched_text": "k"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A ! AS C3 1 k",
+      "predicate": "has property",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 17,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 275,
+            "end": 276,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A",
+      "predicate": "contains",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A ! AS C3 1 k A ! AS",
+      "predicate": "has property",
+      "object": "C3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 | s diff y /C0 AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 !",
+        "document_offsets": {
+          "start": 29,
+          "end": 224
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 6,
+            "sentence_id": 2,
+            "matched_text": "C3"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "C3"
+          },
+          {
+            "start": 60,
+            "end": 62,
+            "sentence_id": 5,
+            "matched_text": "C3"
+          },
+          {
+            "start": 78,
+            "end": 80,
+            "sentence_id": 6,
+            "matched_text": "C3"
+          },
+          {
+            "start": 112,
+            "end": 114,
+            "sentence_id": 7,
+            "matched_text": "C3"
+          },
+          {
+            "start": 121,
+            "end": 123,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 132,
+            "end": 134,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 141,
+            "end": 143,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 191,
+            "end": 193,
+            "sentence_id": 10,
+            "matched_text": "C3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A ! AS C3 1 k A",
+      "predicate": "is followed by",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A",
+      "predicate": "is followed by",
+      "object": "L",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 7,
+        "sentence_end": 9,
+        "text_evidence": "A L 2 D A s AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 125,
+          "end": 209
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 3,
+            "sentence_id": 7,
+            "matched_text": "L"
+          },
+          {
+            "start": 56,
+            "end": 57,
+            "sentence_id": 9,
+            "matched_text": "L"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P ! PS 0 1 k P",
+      "predicate": "is followed by",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A",
+      "predicate": "has property",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 10,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "s A"
+          },
+          {
+            "start": 216,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "s A"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F s PS ! P",
+      "predicate": "has property",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s",
+      "predicate": "is followed by",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 17,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 275,
+            "end": 276,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o ! A",
+      "predicate": "is located at",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y",
+      "predicate": "contains",
+      "object": "k",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 18,
+        "text_evidence": "s diff y /C0 AS /C3 1 k A ! AS /C3 | s diff y /C0 AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 0,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 0,
+            "matched_text": "s diff y"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "sentence_id": 3,
+            "matched_text": "s diff y"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 38,
+            "end": 39,
+            "sentence_id": 2,
+            "matched_text": "k"
+          },
+          {
+            "start": 94,
+            "end": 95,
+            "sentence_id": 5,
+            "matched_text": "k"
+          },
+          {
+            "start": 155,
+            "end": 156,
+            "sentence_id": 8,
+            "matched_text": "k"
+          },
+          {
+            "start": 214,
+            "end": 215,
+            "sentence_id": 10,
+            "matched_text": "k"
+          },
+          {
+            "start": 242,
+            "end": 243,
+            "sentence_id": 12,
+            "matched_text": "k"
+          },
+          {
+            "start": 266,
+            "end": 267,
+            "sentence_id": 14,
+            "matched_text": "k"
+          },
+          {
+            "start": 292,
+            "end": 293,
+            "sentence_id": 16,
+            "matched_text": "k"
+          },
+          {
+            "start": 316,
+            "end": 317,
+            "sentence_id": 18,
+            "matched_text": "k"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A ! PS C3 1 k AS",
+      "predicate": "is followed by",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x",
+      "predicate": "contains",
+      "object": "\u00bc",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 166,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 24,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 25,
+            "end": 26,
+            "sentence_id": 9,
+            "matched_text": "\u00bc"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P s A ! AS C3",
+      "predicate": "is followed by",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A ! PS C3",
+      "predicate": "is followed by",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r F s PS",
+      "predicate": "contains",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 162,
+            "end": 190,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x \u00bc V r F s PS"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A ! AS o 1 k",
+      "predicate": "has property",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 17,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 !",
+        "document_offsets": {
+          "start": 13,
+          "end": 311
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 120,
+            "end": 121,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 275,
+            "end": 276,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A ! AS o 1 k A",
+      "predicate": "is followed by",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o ! A 1 k AS",
+      "predicate": "is followed by",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s AS o ! A 1 k AS ! A o",
+      "predicate": "is followed by",
+      "object": "|",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 15,
+        "text_evidence": "AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P | s A ! PS o | s AS o !",
+        "document_offsets": {
+          "start": 44,
+          "end": 287
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s",
+      "predicate": "has property",
+      "object": "A",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 18,
+        "text_evidence": "s diff y /C0 A H 2 D A s A ! AS /C3 1 k A ! AS /C3 | s diff y /C0 P H 2 D P s AS o ! AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 0,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 1,
+            "sentence_id": 0,
+            "matched_text": "s"
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "sentence_id": 1,
+            "matched_text": "s"
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "sentence_id": 3,
+            "matched_text": "s"
+          },
+          {
+            "start": 76,
+            "end": 77,
+            "sentence_id": 4,
+            "matched_text": "s"
+          },
+          {
+            "start": 112,
+            "end": 113,
+            "sentence_id": 6,
+            "matched_text": "s"
+          },
+          {
+            "start": 135,
+            "end": 136,
+            "sentence_id": 7,
+            "matched_text": "s"
+          },
+          {
+            "start": 175,
+            "end": 176,
+            "sentence_id": 9,
+            "matched_text": "s"
+          },
+          {
+            "start": 199,
+            "end": 200,
+            "sentence_id": 9,
+            "matched_text": "s"
+          },
+          {
+            "start": 229,
+            "end": 230,
+            "sentence_id": 11,
+            "matched_text": "s"
+          },
+          {
+            "start": 253,
+            "end": 254,
+            "sentence_id": 13,
+            "matched_text": "s"
+          },
+          {
+            "start": 279,
+            "end": 280,
+            "sentence_id": 15,
+            "matched_text": "s"
+          },
+          {
+            "start": 303,
+            "end": 304,
+            "sentence_id": 17,
+            "matched_text": "s"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 13,
+            "end": 14,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 21,
+            "end": 22,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 25,
+            "end": 26,
+            "sentence_id": 1,
+            "matched_text": "A"
+          },
+          {
+            "start": 40,
+            "end": 41,
+            "sentence_id": 2,
+            "matched_text": "A"
+          },
+          {
+            "start": 125,
+            "end": 126,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 133,
+            "end": 134,
+            "sentence_id": 7,
+            "matched_text": "A"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 11,
+            "matched_text": "A"
+          },
+          {
+            "start": 244,
+            "end": 245,
+            "sentence_id": 12,
+            "matched_text": "A"
+          },
+          {
+            "start": 288,
+            "end": 289,
+            "sentence_id": 16,
+            "matched_text": "A"
+          },
+          {
+            "start": 301,
+            "end": 302,
+            "sentence_id": 17,
+            "matched_text": "A"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc V r",
+      "predicate": "contains",
+      "object": "F",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 9,
+        "text_evidence": "s diff y /C0 AS /C3 | s diff y /C0 AS /C3 | s diff x /C0 PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 0,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 175,
+            "end": 196,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x \u00bc V r"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 197,
+            "end": 198,
+            "sentence_id": 9,
+            "matched_text": "F"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A ! AS o",
+      "predicate": "contains",
+      "object": "1",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 18,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 1 k AS o ! PS /C3 1 k AS /C3 ! P 1 k PS /C3 ! AS o 1 k A ! PS 0 1 k P ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 29,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 7,
+            "end": 8,
+            "sentence_id": 2,
+            "matched_text": "1"
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "sentence_id": 5,
+            "matched_text": "1"
+          },
+          {
+            "start": 124,
+            "end": 125,
+            "sentence_id": 8,
+            "matched_text": "1"
+          },
+          {
+            "start": 183,
+            "end": 184,
+            "sentence_id": 10,
+            "matched_text": "1"
+          },
+          {
+            "start": 211,
+            "end": 212,
+            "sentence_id": 12,
+            "matched_text": "1"
+          },
+          {
+            "start": 235,
+            "end": 236,
+            "sentence_id": 14,
+            "matched_text": "1"
+          },
+          {
+            "start": 261,
+            "end": 262,
+            "sentence_id": 16,
+            "matched_text": "1"
+          },
+          {
+            "start": 285,
+            "end": 286,
+            "sentence_id": 18,
+            "matched_text": "1"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s P",
+      "predicate": "is located at",
+      "object": "!",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 18,
+        "text_evidence": "A H 2 D A s A ! AS /C3 1 k A ! P H 2 D P s AS o ! AS /C3 1 k AS o ! A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 ! P | s A ! AS o 1 k A ! AS o s P ! PS 0 1 k P ! PS o | s AS o ! A 1 k AS o ! A s PS 0 ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 324
+        },
+        "subject_positions": [
+          {
+            "start": 240,
+            "end": 243,
+            "sentence_id": 13,
+            "matched_text": "s P"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s mrt L u /C0 x \u00bc",
+      "predicate": "has property",
+      "object": "V",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 !",
+        "document_offsets": {
+          "start": 166,
+          "end": 209
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 26,
+            "sentence_id": 9,
+            "matched_text": "s mrt L u /C0 x \u00bc"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 27,
+            "end": 28,
+            "sentence_id": 9,
+            "matched_text": "V"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s A ! AS o 1 k A ! AS",
+      "predicate": "has property",
+      "object": "o",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 18,
+        "text_evidence": "P H 2 D P s AS o ! AS /C3 1 k AS o ! AS o 1 k A ! AS o s P ! PS o | s AS o ! A 1 k AS o ! P 1 k PS o !",
+        "document_offsets": {
+          "start": 66,
+          "end": 324
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 15,
+            "end": 16,
+            "sentence_id": 4,
+            "matched_text": "o"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "sentence_id": 5,
+            "matched_text": "o"
+          },
+          {
+            "start": 172,
+            "end": 173,
+            "sentence_id": 12,
+            "matched_text": "o"
+          },
+          {
+            "start": 185,
+            "end": 186,
+            "sentence_id": 13,
+            "matched_text": "o"
+          },
+          {
+            "start": 209,
+            "end": 210,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 218,
+            "end": 219,
+            "sentence_id": 15,
+            "matched_text": "o"
+          },
+          {
+            "start": 231,
+            "end": 232,
+            "sentence_id": 16,
+            "matched_text": "o"
+          },
+          {
+            "start": 255,
+            "end": 256,
+            "sentence_id": 18,
+            "matched_text": "o"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff y /C0 P",
+      "predicate": "is followed by",
+      "object": "H",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 4,
+        "text_evidence": "A H 2 D A s A ! P H 2 D P s AS o !",
+        "document_offsets": {
+          "start": 13,
+          "end": 84
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 3,
+            "sentence_id": 1,
+            "matched_text": "H"
+          },
+          {
+            "start": 55,
+            "end": 56,
+            "sentence_id": 4,
+            "matched_text": "H"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "s diff x /C0 A L 2 D A ! PS",
+      "predicate": "has property",
+      "object": "C3",
+      "source_span": {
+        "chunk_id": 3,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 10,
+        "text_evidence": "AS /C3 1 k A ! AS /C3 | s diff y /C0 AS /C3 1 k AS o ! AS /C3 | s diff x /C0 A L 2 D A s AS /C3 ! PS /C3 1 k AS /C3 ! PS /C3 | s mrt L u /C0 x \u00bc V r F s PS /C3 ! P 1 k PS /C3 !",
+        "document_offsets": {
+          "start": 29,
+          "end": 224
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 4,
+            "end": 6,
+            "sentence_id": 2,
+            "matched_text": "C3"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "sentence_id": 3,
+            "matched_text": "C3"
+          },
+          {
+            "start": 60,
+            "end": 62,
+            "sentence_id": 5,
+            "matched_text": "C3"
+          },
+          {
+            "start": 78,
+            "end": 80,
+            "sentence_id": 6,
+            "matched_text": "C3"
+          },
+          {
+            "start": 112,
+            "end": 114,
+            "sentence_id": 7,
+            "matched_text": "C3"
+          },
+          {
+            "start": 121,
+            "end": 123,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 132,
+            "end": 134,
+            "sentence_id": 8,
+            "matched_text": "C3"
+          },
+          {
+            "start": 141,
+            "end": 143,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "sentence_id": 9,
+            "matched_text": "C3"
+          },
+          {
+            "start": 191,
+            "end": 193,
+            "sentence_id": 10,
+            "matched_text": "C3"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table3",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 36.65446472167969,
+          "t": 88.00555419921875,
+          "r": 557.9796752929688,
+          "b": 37.97674560546875,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "H",
+    "1 k 00",
+    "k",
+    "reactor",
+    "Average fluid velocity",
+    "C3",
+    "F",
+    "mrt",
+    "0",
+    "D",
+    "Surface of catalyst",
+    "H 2 D A",
+    "PS",
+    "0:10 s",
+    "adsorption-desorption",
+    "r",
+    "1",
+    "V",
+    "catalyst surface",
+    "V r",
+    "activation of A o S",
+    "direct activation of A",
+    "x",
+    "Halfway distance between plates",
+    "Reaction rate constant",
+    "\u00bc",
+    "diff",
+    "S c",
+    "y",
+    "Fig. 4 e",
+    "Length of the reactor",
+    "s",
+    "C0",
+    "AS",
+    "Fig. 4 b",
+    "cat",
+    "\u00bd",
+    "Volume of reactor",
+    "Fig. 4 f",
+    "Table page5_table1",
+    "L",
+    "Fig. 4 c",
+    "Table",
+    "u",
+    "page9_table3",
+    "!",
+    "P",
+    "conversion of A /C3 S",
+    "/C0",
+    "Diffusion coefficient of reactant A",
+    "2",
+    "o",
+    "A",
+    "C138",
+    "1:0 s"
+  ]
+}

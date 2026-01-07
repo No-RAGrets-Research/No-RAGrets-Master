@@ -1,0 +1,58 @@
+[
+  {
+    "page": 4,
+    "caption": "Figure 1. Representative GC-FID chromatograms from Rtx—BAC 1 column for methanol (1), ethanol (2), formic acid isopropyl ester (3), internal standard 3-methyl-2-pentanone (4)\nand isopropanol (5) in serum sample: (A) a blank human serum spiked with internal standard; (B) a blank human serum spiked with 1,000 mg/L of all analytes; (C) a human serum\nsample of patient no. 2.",
+    "triples": [
+      {
+        "subject": "methanol",
+        "relation": "detected in",
+        "object": "chromatogram A"
+      },
+      {
+        "subject": "ethanol",
+        "relation": "detected in",
+        "object": "chromatogram B"
+      },
+      {
+        "subject": "formic acid isopropyl ester",
+        "relation": "detected in",
+        "object": "chromatogram B"
+      },
+      {
+        "subject": "3-methyl-2-pentanone",
+        "relation": "detected in",
+        "object": "chromatogram B"
+      },
+      {
+        "subject": "isopropanol",
+        "relation": "detected in",
+        "object": "chromatogram B"
+      },
+      {
+        "subject": "methanol",
+        "relation": "detected in",
+        "object": "chromatogram C"
+      },
+      {
+        "subject": "ethanol",
+        "relation": "detected in",
+        "object": "chromatogram C"
+      },
+      {
+        "subject": "formic acid isopropyl ester",
+        "relation": "detected in",
+        "object": "chromatogram C"
+      },
+      {
+        "subject": "3-methyl-2-pentanone",
+        "relation": "detected in",
+        "object": "chromatogram C"
+      },
+      {
+        "subject": "isopropanol",
+        "relation": "detected in",
+        "object": "chromatogram C"
+      }
+    ]
+  }
+]

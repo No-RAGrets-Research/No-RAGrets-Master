@@ -1,0 +1,65 @@
+[
+  {
+    "page": 4,
+    "caption": "In order to investigate the effect of sodium formate concentration on ethane-to-ethanol \nconversion, reactions were conducted with 2.4 g DCW/L of methanotrophic cells with various \nconcentrations of sodium formate (Figure 3). The replenishment of NADH by supplying sodium \nformate increased the ethanol titer in ethane-to-ethanol conversion by transferring electrons to the \nMMO [21]. The formation of ethanol was enhanced as the formate concentration increased until 80 \nmM. However, formate concentration above 80 mM was not profitable for ethane oxidation and \nresulted in a decrease of ethanol concentration. This was probably due to the high concentration of \nNa-formate that causes the disruptions of intracytoplasmic membranes where pMMO binds [21]. An \n80 mM formate was chosen for maximum ethanol production.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: In order to investigate the effect of sodium formate concentration on ethane-to-ethanol \nconversion, reactions were conducted with 2.4 g DCW/L of methanotrophic cells with various \nconcentrations of sodium formate (Figure 3). The replenishment of NADH by supplying sodium \nformate increased the ethanol titer in ethane-to-ethanol conversion by transferring electrons to the \nMMO [21]. The formation of ethanol was enhanced as the formate concentration increased until 80 \nmM. However, formate concentration above 80 mM was not profitable for ethane oxidation and \nresulted in a decrease of ethanol concentration. This was probably due to the high concentration of \nNa-formate that causes the disruptions of intracytoplasmic membranes where pMMO binds [21]. An \n80 mM formate was chosen for maximum ethanol production.\n\nOutput JSON list only:\nassistant\n[\n  (\"sodium formate concentration\", \"affects\", \"ethanol production\"),\n  (\"sodium formate concentration\", \"affects\", \"ethane-to-ethanol conversion efficiency\"),\n  (\"sodium formate concentration\", \"affects\", \"intracytoplasmic membranes\"),\n  (\"sodium formate concentration\", \"affects\", \"pMMO binding\"),\n  (\"sodium formate concentration\", \"affects\", \"NADH replenishment\"),\n  (\"sodium formate concentration\", \"affects\", \"electron transfer to MMO\"),\n  (\"sodium formate concentration\", \"has optimal value\", \"80 mM\"),\n  (\"sodium formate concentration\", \"above 80 mM\", \"reduces ethanol concentration\"),\n  (\"sodium formate concentration\", \"above 80 mM\", \"disrupts intracytoplasmic membranes\"),\n  (\"sodium formate concentration\", \"up to 80 mM\", \"enhances ethanol production\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 2. Optimization of ethane-to-ethanol batch conversion parameters such as ethane \nconcentration (a), pH value (b), inoculum concentration (c). The reactions were conducted for 13 h (a), \n12 h (b), and 2 h (c) using Methylosinus trichosporium OB3b resting cells.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 2. Optimization of ethane-to-ethanol batch conversion parameters such as ethane \nconcentration (a), pH value (b), inoculum concentration (c). The reactions were conducted for 13 h (a), \n12 h (b), and 2 h (c) using Methylosinus trichosporium OB3b resting cells.\n\nOutput JSON list only:\nassistant\n[\n  (\"Ethanol production\", \"affected by\", \"pH value\"),\n  (\"Ethanol production\", \"affected by\", \"cell concentration\"),\n  (\"Methylosinus trichosporium OB3b resting cells\", \"used in\", \"ethane-to-ethanol conversion\"),\n  (\"Ethanol production\", \"measured at\", \"pH 5\"),\n  (\"Ethanol production\", \"measured at\", \"pH 6\"),\n  (\"Ethanol production\", \"measured at\", \"pH 7\"),\n  (\"Ethanol production\", \"measured at\", \"pH 8\"),\n  (\"Ethanol production\", \"measured at\", \"pH 9\"),\n  (\"Ethanol production\", \"measured at\", \"cell concentration 0.15 g/L\"),\n  (\"Ethanol production\", \"measured at\", \"cell concentration 0.3 g/L\"),\n  (\"Ethanol production\", \"measured at\", \"cell concentration 0.6 g/L\"),\n  (\"Ethanol production\", \"measured at\", \"cell concentration 1.2 g/L\"),\n  (\"Ethanol production\", \"measured at\", \"cell concentration 2.4 g/L\"),\n  (\"Ethanol production\", \"measured at\", \"cell concentration 4.8 g/L\")\n]"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "caption": "Figure 4. Effects of the addition of EDTA (a) and phosphate (b) as MDH inhibitors on ethanol accumulation.",
+    "triples": [
+      {
+        "subject": "EDTA (a)",
+        "relation": "affects",
+        "object": "ethanol production"
+      },
+      {
+        "subject": "phosphate (b)",
+        "relation": "affects",
+        "object": "ethanol production"
+      },
+      {
+        "subject": "EDTA",
+        "relation": "acts as",
+        "object": "MDH inhibitor"
+      },
+      {
+        "subject": "phosphate",
+        "relation": "acts as",
+        "object": "MDH inhibitor"
+      },
+      {
+        "subject": "ethanol production",
+        "relation": "is influenced by",
+        "object": "EDTA concentration"
+      },
+      {
+        "subject": "ethanol production",
+        "relation": "is influenced by",
+        "object": "phosphate concentration"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "caption": "Figure 5. Analysis of cells in different growth phases for their ethane-to-ethanol conversion activity. \nCell growth curve of M. trichosporium OB3b (a) and effect of different cells harvested in different \ngrowth phases on ethane-to-ethanol conversion (b).",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 5. Analysis of cells in different growth phases for their ethane-to-ethanol conversion activity. \nCell growth curve of M. trichosporium OB3b (a) and effect of different cells harvested in different \ngrowth phases on ethane-to-ethanol conversion (b).\n\nOutput JSON list only:\nassistant\n[\n  (\"M. trichosporium OB3b\", \"shows growth curve in\", \"Figure 5(a)\"),\n  (\"M. trichosporium OB3b\", \"has growth curve plotted as\", \"OD600 vs Time (h)\"),\n  (\"Figure 5(b)\", \"shows ethanol production\", \"as function of harvesting OD600\"),\n  (\"Figure 5(b)\", \"compares ethanol production at 1 hour vs 12 hours\", \"for different harvesting OD600 values\"),\n  (\"Ethanol production\", \"varies with\", \"harvesting OD600\"),\n  (\"Ethanol production\", \"is measured in\", \"g/L\"),\n  (\"1 hour\", \"corresponds to\", \"black bars in Figure 5(b)\"),\n  (\"12 hours\", \"corresponds to\", \"gray bars in Figure 5(b)\"),\n  (\"OD600 = 0.6\", \"yields ethanol production\", \"0.35 g/L at 1 hour\"),\n  (\"OD600 = 0.6\", \"yields ethanol production\", \"0.55 g/L at 12 hours\"),\n  (\"OD600 = 1.0\", \"yields ethanol production\", \"0.40 g/L at 1 hour\"),\n  (\"OD600 = 1.0\", \"yields ethanol production\", \"0.60 g/L at 12 hours\"),\n  (\"OD600 = 1.5\", \"yields ethanol production\", \"0.30 g/L at 1 hour\"),\n  (\"OD600 = 1.5\", \"yields ethanol production\", \"0.60 g/L at 12 hours\"),\n  (\"OD600 = 1.8\", \"yields ethanol production\", \"0.15 g/L at 1 hour\"),\n  (\"OD600 = 1.8\", \"yields ethanol production\", \"0.65 g/L at 12 hours\")\n]"
+      }
+    ]
+  }
+]

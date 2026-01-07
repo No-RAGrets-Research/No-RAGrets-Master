@@ -1,0 +1,397 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 3,
+    "relations": 9,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Baldo et al. 2024.json",
+    "processed_at": "2025-11-23T23:56:06.517108"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Final [Formate]",
+      "predicate": "is approximately equal to",
+      "object": "0.15 \u00b1 0.00",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 135,
+            "end": 146,
+            "sentence_id": 0,
+            "matched_text": "0.15 \u00b1 0.00"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final",
+      "predicate": "contains concentration of",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          },
+          {
+            "start": 97,
+            "end": 102,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          },
+          {
+            "start": 147,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 23,
+            "end": 30,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          },
+          {
+            "start": 104,
+            "end": 111,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final [Formate]",
+      "predicate": "has value",
+      "object": "0.00 \u00b1 0.00",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 121,
+            "end": 132,
+            "sentence_id": 0,
+            "matched_text": "0.00 \u00b1 0.00"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final",
+      "predicate": "contains concentration of",
+      "object": "MeOH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          },
+          {
+            "start": 97,
+            "end": 102,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          },
+          {
+            "start": 147,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 55,
+            "end": 59,
+            "sentence_id": 0,
+            "matched_text": "MeOH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final [MeOH]",
+      "predicate": "is approximately equal to",
+      "object": "274.0 \u00b1 53.4",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 84,
+            "end": 96,
+            "sentence_id": 0,
+            "matched_text": "274.0 \u00b1 53.4"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final [MeOH]",
+      "predicate": "has value",
+      "object": "261.2 \u00b1 12.3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 81,
+            "sentence_id": 0,
+            "matched_text": "261.2 \u00b1 12.3"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final [Biomass]",
+      "predicate": "has value",
+      "object": "0.352 \u00b1 0.007",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L) | 0.352 \u00b1 0.007 | 0.355 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 181,
+            "end": 194,
+            "sentence_id": 1,
+            "matched_text": "0.352 \u00b1 0.007"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final",
+      "predicate": "contains concentration of",
+      "object": "Biomass",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L)",
+        "document_offsets": {
+          "start": 0,
+          "end": 178
+        },
+        "subject_positions": [
+          {
+            "start": 48,
+            "end": 53,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          },
+          {
+            "start": 97,
+            "end": 102,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          },
+          {
+            "start": 147,
+            "end": 152,
+            "sentence_id": 0,
+            "matched_text": "Final"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 154,
+            "end": 161,
+            "sentence_id": 0,
+            "matched_text": "Biomass"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Final [Biomass]",
+      "predicate": "is approximately equal to",
+      "object": "0.355 \u00b1 0.002",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 1,
+        "text_evidence": "Reference conditions | Formate pulse conditions\nFinal [MeOH](mg/L) | 261.2 \u00b1 12.3 | 274.0 \u00b1 53.4\nFinal [Formate] (g/L) | 0.00 \u00b1 0.00 | 0.15 \u00b1 0.00\nFinal [Biomass] (g dry cell /L) | 0.352 \u00b1 0.007 | 0.355 \u00b1 0.002",
+        "document_offsets": {
+          "start": 0,
+          "end": 210
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 197,
+            "end": 210,
+            "sentence_id": 1,
+            "matched_text": "0.355 \u00b1 0.002"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page12_table1",
+        "page_number": 12,
+        "bbox_coordinates": {
+          "l": 48.37525939941406,
+          "t": 728.2253265380859,
+          "r": 290.79547119140625,
+          "b": 628.0739288330078,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "Formate",
+    "MeOH",
+    "Biomass"
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "page": 2,
+    "caption": "Figure 1. Flowchart for preparation of the calibration curves.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Figure 1. Flowchart for preparation of the calibration curves.\n\nOutput JSON list only:\nassistant\n[\n  {\n    \"subject\": \"Concentrated solutions\",\n    \"relation\": \"prepared in\",\n    \"object\": \"deionised water\"\n  },\n  {\n    \"subject\": \"Concentrated solutions\",\n    \"relation\": \"contains\",\n    \"object\": \"500 g/L Ethanol\"\n  },\n  {\n    \"subject\": \"Concentrated solutions\",\n    \"relation\": \"contains\",\n    \"object\": \"50 g/L Acetaldehyde\"\n  },\n  {\n    \"subject\": \"Concentrated solutions\",\n    \"relation\": \"contains\",\n    \"object\": \"Acetone\"\n  },\n  {\n    \"subject\": \"Concentrated solutions\",\n    \"relation\": \"contains\",\n    \"object\": \"Methanol\"\n  },\n  {\n    \"subject\": \"Stock calibrators\",\n    \"relation\": \"prepared in\",\n    \"object\": \"each matrix\"\n  },\n  {\n    \"subject\": \"Stock calibrators\",\n    \"relation\": \"contains\",\n    \"object\": \"10 g/L Ethanol\"\n  },\n  {\n    \"subject\": \"Stock calibrators\",\n    \"relation\": \"contains\",\n    \"object\": \"5 g/L Acetaldehyde\"\n  },\n  {\n    \"subject\": \"Stock calibrators\",\n    \"relation\": \"contains\",\n    \"object\": \"Acetone\"\n  },\n  {\n    \"subject\": \"Stock calibrators\",\n    \"relation\": \"contains\",\n    \"object\": \"Methanol\"\n  },\n  {\n    \"subject\": \"Cell culture medium and Urine\",\n    \"relation\": \"used to prepare\",\n    \"object\": \"calibration curves\"\n  },\n  {\n    \"subject\": \"Blood and Vitreous humour\",\n    \"relation\": \"used to prepare\",\n    \"object\": \"calibration curves\"\n  },\n  {\n    \"subject\": \"Stock Calibrator (Cell culture medium and Urine)\",\n    \"relation\": \"added to\",\n    \"object\": \"0 μL; 7.5 μL; 15 μL; 30 μL; 60 μL; 120 μL; 240 μL\"\n  },\n  {\n    \"subject\": \"Stock Calibrator (Blood and Vitreous humour)\",\n    \"relation\": \"added to\",\n    \"object\": \"0 μL; 7.5 μL; 15 μL; 30"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "caption": "Figure 2. Representative chromatograms obtained from blood sample with IS (A), blood sample with IS\n(B), calibrator solutions prepared in CCM or U (C), and in B or VH (D) with peak identification and reten-\ntion times of the quantified compounds.",
+    "triples": [
+      {
+        "subject": "Acetonitrile",
+        "relation": "retention time in chromatogram",
+        "object": "3.48 min"
+      },
+      {
+        "subject": "1-Propanol",
+        "relation": "retention time in chromatogram",
+        "object": "4.64 min"
+      },
+      {
+        "subject": "Acetonitrile",
+        "relation": "retention time in chromatogram",
+        "object": "3.48 min"
+      },
+      {
+        "subject": "1-Propanol",
+        "relation": "retention time in chromatogram",
+        "object": "4.64 min"
+      },
+      {
+        "subject": "Acetaldehyde",
+        "relation": "retention time in chromatogram",
+        "object": "1.16 min"
+      },
+      {
+        "subject": "Acetone",
+        "relation": "retention time in chromatogram",
+        "object": "2.32 min"
+      },
+      {
+        "subject": "Methanol",
+        "relation": "retention time in chromatogram",
+        "object": "2.32 min"
+      },
+      {
+        "subject": "Ethanol",
+        "relation": "retention time in chromatogram",
+        "object": "3.48 min"
+      },
+      {
+        "subject": "Acetonitrile",
+        "relation": "retention time in chromatogram",
+        "object": "3.48 min"
+      },
+      {
+        "subject": "1-Propanol",
+        "relation": "retention time in chromatogram",
+        "object": "4.64 min"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "caption": "Calibration procedures\nConcentrated solutions of 500 g/L ethanol,\n50 g/L methanol, 50 g/L acetaldehyde, and 50\ng/L acetone were prepared daily by dilution of\nthe commercial solutions in deionized water.\nDaily prepared 2.2 g/L 1-propanol in deionized\nwater was used as internal standard (IS).\nA stock calibrator containing 10 g/L\nethanol, 1 g/L methanol, 1 g/L acetaldehyde,\nand 1 g/L acetone was prepared daily in each\ntested matrix, from the concentrated solu-\ntions. The calibration curves were prepared\nas shown in Figure 1. These procedures\nresulted in final concentration of 7.5, 15, 30,\n60, 120, and 240 mg/L of methanol, acetone,\nand acetaldehyde, and with 75, 150, 300, 600,\n1200, and 2400 mg/L of ethanol. These cali-\nbration standards, in B and VH, underwent a\n5 times dilution with a solution containing\n1.2% of Triton X-100 and 1.8 g/L of acetonitrile\nin water, to decrease sample viscosity and\ntherefore facilitate volume measurements and\nsample injection, according to the method\ndescribed by Dubowski (27).\nEach tube was vortex-mixed and centrifuged\nat 16,000 g for 5 min at 4°C. A fixed volume of\nsupernatant (0.5 µL) was injected into the\nchromatographic system.",
+    "triples": [
+      {
+        "raw_output": "user\nYou are a scientific reasoning assistant.\nAnalyze this figure together with its caption, and extract factual triples in the format (subject, relation, object).\nFocus on scientific entities and relationships.\nCaption: Calibration procedures\nConcentrated solutions of 500 g/L ethanol,\n50 g/L methanol, 50 g/L acetaldehyde, and 50\ng/L acetone were prepared daily by dilution of\nthe commercial solutions in deionized water.\nDaily prepared 2.2 g/L 1-propanol in deionized\nwater was used as internal standard (IS).\nA stock calibrator containing 10 g/L\nethanol, 1 g/L methanol, 1 g/L acetaldehyde,\nand 1 g/L acetone was prepared daily in each\ntested matrix, from the concentrated solu-\ntions. The calibration curves were prepared\nas shown in Figure 1. These procedures\nresulted in final concentration of 7.5, 15, 30,\n60, 120, and 240 mg/L of methanol, acetone,\nand acetaldehyde, and with 75, 150, 300, 600,\n1200, and 2400 mg/L of ethanol. These cali-\nbration standards, in B and VH, underwent a\n5 times dilution with a solution containing\n1.2% of Triton X-100 and 1.8 g/L of acetonitrile\nin water, to decrease sample viscosity and\ntherefore facilitate volume measurements and\nsample injection, according to the method\ndescribed by Dubowski (27).\nEach tube was vortex-mixed and centrifuged\nat 16,000 g for 5 min at 4°C. A fixed volume of\nsupernatant (0.5 µL) was injected into the\nchromatographic system.\n\nOutput JSON list only:\nassistant\n```json\n[\n    {\n        \"subject\": \"calibration procedures\",\n        \"relation\": \"used\",\n        \"object\": \"concentrated solutions of 500 g/L ethanol, 50 g/L methanol, 50 g/L acetaldehyde, and 50 g/L acetone\"\n    },\n    {\n        \"subject\": \"calibration procedures\",\n        \"relation\": \"used\",\n        \"object\": \"2.2 g/L 1-propanol in deionized water as internal standard (IS)\"\n    },\n    {\n        \"subject\": \"calibration procedures\",\n        \"relation\": \"prepared\",\n        \"object\": \"stock calibrator containing 10 g/L ethanol, 1 g/L methanol, 1 g/L acetaldehyde, and 1 g/L acetone\"\n    },\n    {\n        \"subject\": \"calibration curves\",\n        \"relation\": \"showed\",\n        \"object\": \"linear relationships between concentration and AAE/HAIS or AA/IS\"\n    },\n    {\n        \"subject\": \"calibration curves\",\n        \"relation\": \"had\",\n        \"object\": \"high R² values (e.g., 0.9964, 0.9981, 0.9997, etc.)\"\n    },\n    {\n        \"subject\": \"calibration standards\",\n        \"relation\": \"contained\",\n        \"object\": \"7.5, 15, 30, 60, 120, and 240 mg/L of methanol, acetone, and acetaldehyde\"\n    },\n    {\n        \"subject\": \"calibration standards\",\n        \"relation\": \"contained\",\n        \"object\": \"75, 150, 300, 600, 1200, and 2400 mg/L of ethanol\"\n    },\n    {\n        \"subject\": \"calibration standards in B and VH\",\n        \"relation\": \"underwent\",\n        \"object\": \"5 times dilution with a solution containing 1.2% Triton X-100 and 1.8 g/L acetonitrile in water\"\n    },\n    {\n        \"subject\": \"calibration standards\",\n        \"relation\": \"were processed\",\n        \"object\": \"by vortex-mixing and centrifugation at 16,000 g for 5 min at 4"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "caption": "Figure 4. Variation of chromatographic peak area in blood matrix with the injector split ratio.",
+    "triples": [
+      {
+        "subject": "Ethanol",
+        "relation": "shows variation in chromatographic peak area with split ratio",
+        "object": "Figure A"
+      },
+      {
+        "subject": "Methanol",
+        "relation": "shows variation in chromatographic peak area with split ratio",
+        "object": "Figure B"
+      },
+      {
+        "subject": "Acetone",
+        "relation": "shows variation in chromatographic peak area with split ratio",
+        "object": "Figure B"
+      },
+      {
+        "subject": "Acetaldehyde",
+        "relation": "shows variation in chromatographic peak area with split ratio",
+        "object": "Figure B"
+      }
+    ]
+  }
+]

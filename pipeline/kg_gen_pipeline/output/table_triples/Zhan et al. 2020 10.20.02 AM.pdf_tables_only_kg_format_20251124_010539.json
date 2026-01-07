@@ -1,0 +1,3387 @@
+{
+  "summary": {
+    "total_chunks": 2,
+    "errors": 0,
+    "entities": 75,
+    "relations": 82,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Zhan et al. 2020 10.20.02 AM.json",
+    "processed_at": "2025-11-24T01:05:39.568626"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "\u0394 r G '(kJ/mol)",
+      "predicate": "is",
+      "object": "- 78.4 d",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Bozdag",
+      "predicate": "provides",
+      "object": "biomass productivity gCDW/l/h",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Temperature optima (\u00b0C) | 55 | 37 | 37 | (Bozdag,\nBiomass productivity gCDW/l/h | - | - | - | 28.4 (Bozdag, 2013)",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 0,
+            "matched_text": "Bozdag"
+          },
+          {
+            "start": 100,
+            "end": 106,
+            "sentence_id": 0,
+            "matched_text": "Bozdag"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 50,
+            "end": 79,
+            "sentence_id": 0,
+            "matched_text": "Biomass productivity gCDW/l/h"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "\u0394 r G '(kJ/mol)",
+      "predicate": "is",
+      "object": "- 99.2 et",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Substrates",
+      "predicate": "provided by",
+      "object": "3 HCHO",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 17,
+        "sentence_end": 20,
+        "text_evidence": "| + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA Acet- yl - CoA | 3 Acet-\nSubstrates | First module 3 CH 3 OH | 3 CH 3 OH | 3 CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 744,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 102,
+            "end": 112,
+            "sentence_id": 19,
+            "matched_text": "Substrates"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 29,
+            "end": 35,
+            "sentence_id": 17,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "sentence_id": 17,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "sentence_id": 17,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 180,
+            "end": 186,
+            "sentence_id": 20,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 189,
+            "end": 195,
+            "sentence_id": 20,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 198,
+            "end": 204,
+            "sentence_id": 20,
+            "matched_text": "3 HCHO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ad Energetic efficiency (or microbial conversion)",
+      "predicate": "reported by",
+      "object": "Cotton et al., 2020",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "| Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020)",
+        "document_offsets": {
+          "start": 346,
+          "end": 429
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 63,
+            "end": 82,
+            "sentence_id": 3,
+            "matched_text": "Cotton et al., 2020"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ATP equivalents",
+      "predicate": "consumed by",
+      "object": "- 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "+2 | - 6\nATP equivalents | 0 | + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA",
+        "document_offsets": {
+          "start": 707,
+          "end": 816
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 24,
+            "sentence_id": 14,
+            "matched_text": "ATP equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ad Energetic efficiency (or microbial conversion)",
+      "predicate": "ranges from",
+      "object": "31% - 36%",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 6,
+        "text_evidence": "| Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 346,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ad Energetic efficiency (or microbial conversion)",
+      "predicate": "reported by",
+      "object": "(Whitaker al., 2015)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text_evidence": "| Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | (Whitaker al., 2015)",
+        "document_offsets": {
+          "start": 346,
+          "end": 478
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "\u0394 r G '(kJ/mol)",
+      "predicate": "is",
+      "object": "+ 34.2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CO 2 equivalents",
+      "predicate": "consumed by",
+      "object": "+1 c",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 6,
+            "matched_text": "CO 2 equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "\u0394 r G '(kJ/mol)",
+      "predicate": "is",
+      "object": "- 38.3 d",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NADH equivalents",
+      "predicate": "produced by",
+      "object": "0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 16,
+        "text_evidence": "Temperature optima (\u00b0C) | 55 | 37 | 37 | (Bozdag,\nBiomass productivity gCDW/l/h | - | - | - | 28.4 (Bozdag, 2013) | - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | Cytoplasm | Cytoplasm | peroxisome (Ru\u00dfmayer et al., 2015) | Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | (Whitaker et al., 2015) | (Whitaker al., 2015) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0 | 0 | 0 c | - 3 c\nNADH equivalents | + 3 | 0 | 0 +2 | - 6\nATP equivalents | 0 | 0 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 743
+        },
+        "subject_positions": [
+          {
+            "start": 669,
+            "end": 685,
+            "sentence_id": 12,
+            "matched_text": "NADH equivalents"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 145,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "0"
+          },
+          {
+            "start": 152,
+            "end": 153,
+            "sentence_id": 1,
+            "matched_text": "0"
+          },
+          {
+            "start": 614,
+            "end": 615,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 637,
+            "end": 638,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 641,
+            "end": 642,
+            "sentence_id": 7,
+            "matched_text": "0"
+          },
+          {
+            "start": 645,
+            "end": 646,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 694,
+            "end": 695,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 698,
+            "end": 699,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 734,
+            "end": 735,
+            "sentence_id": 14,
+            "matched_text": "0"
+          },
+          {
+            "start": 738,
+            "end": 739,
+            "sentence_id": 15,
+            "matched_text": "0"
+          },
+          {
+            "start": 742,
+            "end": 743,
+            "sentence_id": 16,
+            "matched_text": "0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Products",
+      "predicate": "produced from",
+      "object": "1 Acet- yl - CoA",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 17,
+        "sentence_end": 17,
+        "text_evidence": "| + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA",
+        "document_offsets": {
+          "start": 744,
+          "end": 816
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 26,
+            "sentence_id": 17,
+            "matched_text": "Products"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 56,
+            "end": 72,
+            "sentence_id": 17,
+            "matched_text": "1 Acet- yl - CoA"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Location",
+      "predicate": "located in",
+      "object": "Cytoplasm",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | Cytoplasm | Cytoplasm | peroxisome (Ru\u00dfmayer et al., 2015) | Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020)",
+        "document_offsets": {
+          "start": 114,
+          "end": 429
+        },
+        "subject_positions": [
+          {
+            "start": 137,
+            "end": 145,
+            "sentence_id": 1,
+            "matched_text": "Location"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 148,
+            "end": 157,
+            "sentence_id": 1,
+            "matched_text": "Cytoplasm"
+          },
+          {
+            "start": 173,
+            "end": 182,
+            "sentence_id": 2,
+            "matched_text": "Cytoplasm"
+          },
+          {
+            "start": 185,
+            "end": 194,
+            "sentence_id": 2,
+            "matched_text": "Cytoplasm"
+          },
+          {
+            "start": 234,
+            "end": 243,
+            "sentence_id": 3,
+            "matched_text": "Cytoplasm"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Module name 1",
+      "predicate": "is",
+      "object": "RuMP cycle",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 898,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 64,
+            "sentence_id": 20,
+            "matched_text": "Module name 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 87,
+            "end": 97,
+            "sentence_id": 20,
+            "matched_text": "RuMP cycle"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Products",
+      "predicate": "produced from",
+      "object": "3 Acet-",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 17,
+        "sentence_end": 19,
+        "text_evidence": "| + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA Acet- yl - CoA | 3 Acet-\nSubstrates | First module 3 CH 3 OH | 3 CH 3 OH | 3",
+        "document_offsets": {
+          "start": 744,
+          "end": 897
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 26,
+            "sentence_id": 17,
+            "matched_text": "Products"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Module name 1",
+      "predicate": "is",
+      "object": "Serine cycle",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 898,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 64,
+            "sentence_id": 20,
+            "matched_text": "Module name 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 113,
+            "end": 125,
+            "sentence_id": 20,
+            "matched_text": "Serine cycle"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NADH equivalents",
+      "predicate": "produced by",
+      "object": "- 6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 17,
+        "text_evidence": "c | - 3 c\nNADH equivalents | + 3 | 0 | 0 +2 | - 6\nATP equivalents | 0 | + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA",
+        "document_offsets": {
+          "start": 659,
+          "end": 816
+        },
+        "subject_positions": [
+          {
+            "start": 10,
+            "end": 26,
+            "sentence_id": 12,
+            "matched_text": "NADH equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Bozdag",
+      "predicate": "published",
+      "object": "2013",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Temperature optima (\u00b0C) | 55 | 37 | 37 | (Bozdag,\nBiomass productivity gCDW/l/h | - | - | - | 28.4 (Bozdag, 2013)",
+        "document_offsets": {
+          "start": 0,
+          "end": 113
+        },
+        "subject_positions": [
+          {
+            "start": 42,
+            "end": 48,
+            "sentence_id": 0,
+            "matched_text": "Bozdag"
+          },
+          {
+            "start": 100,
+            "end": 106,
+            "sentence_id": 0,
+            "matched_text": "Bozdag"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 112,
+            "sentence_id": 0,
+            "matched_text": "2013"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "KM",
+      "predicate": "is",
+      "object": "20",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 6,
+        "text_evidence": "Temperature optima (\u00b0C) | 55 | 37 | 37 | (Bozdag,\nBiomass productivity gCDW/l/h | - | - | - | 28.4 (Bozdag, 2013) | - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | Cytoplasm | Cytoplasm | peroxisome (Ru\u00dfmayer et al., 2015) | Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | (Whitaker et al., 2015) | (Whitaker al., 2015) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 638
+        },
+        "subject_positions": [
+          {
+            "start": 130,
+            "end": 132,
+            "sentence_id": 1,
+            "matched_text": "KM"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 140,
+            "end": 142,
+            "sentence_id": 1,
+            "matched_text": "20"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "is",
+      "object": "NAD +",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ATP equivalents",
+      "predicate": "produced by",
+      "object": "0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 16,
+        "text_evidence": "Temperature optima (\u00b0C) | 55 | 37 | 37 | (Bozdag,\nBiomass productivity gCDW/l/h | - | - | - | 28.4 (Bozdag, 2013) | - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | Cytoplasm | Cytoplasm | peroxisome (Ru\u00dfmayer et al., 2015) | Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | (Whitaker et al., 2015) | (Whitaker al., 2015) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0 | 0 | 0 c | - 3 c\nNADH equivalents | + 3 | 0 | 0 +2 | - 6\nATP equivalents | 0 | 0 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 743
+        },
+        "subject_positions": [
+          {
+            "start": 716,
+            "end": 731,
+            "sentence_id": 14,
+            "matched_text": "ATP equivalents"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 145,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "0"
+          },
+          {
+            "start": 152,
+            "end": 153,
+            "sentence_id": 1,
+            "matched_text": "0"
+          },
+          {
+            "start": 614,
+            "end": 615,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 637,
+            "end": 638,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 641,
+            "end": 642,
+            "sentence_id": 7,
+            "matched_text": "0"
+          },
+          {
+            "start": 645,
+            "end": 646,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 694,
+            "end": 695,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 698,
+            "end": 699,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 734,
+            "end": 735,
+            "sentence_id": 14,
+            "matched_text": "0"
+          },
+          {
+            "start": 738,
+            "end": 739,
+            "sentence_id": 15,
+            "matched_text": "0"
+          },
+          {
+            "start": 742,
+            "end": 743,
+            "sentence_id": 16,
+            "matched_text": "0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ATP equivalents",
+      "predicate": "consumed by",
+      "object": "+ 1",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "+2 | - 6\nATP equivalents | 0 | + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA",
+        "document_offsets": {
+          "start": 707,
+          "end": 816
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 24,
+            "sentence_id": 14,
+            "matched_text": "ATP equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ATP equivalents",
+      "predicate": "produced by",
+      "object": "- 6",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 14,
+        "sentence_end": 17,
+        "text_evidence": "+2 | - 6\nATP equivalents | 0 | + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA",
+        "document_offsets": {
+          "start": 707,
+          "end": 816
+        },
+        "subject_positions": [
+          {
+            "start": 9,
+            "end": 24,
+            "sentence_id": 14,
+            "matched_text": "ATP equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "is used in",
+      "object": "RuBP",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 108,
+            "end": 112,
+            "sentence_id": 1,
+            "matched_text": "RuBP"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Module name 1",
+      "predicate": "is",
+      "object": "AOX",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 898,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 64,
+            "sentence_id": 20,
+            "matched_text": "Module name 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 74,
+            "end": 77,
+            "sentence_id": 20,
+            "matched_text": "AOX"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Module name 1",
+      "predicate": "is",
+      "object": "XuMP cycle",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 898,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 64,
+            "sentence_id": 20,
+            "matched_text": "Module name 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 100,
+            "end": 110,
+            "sentence_id": 20,
+            "matched_text": "XuMP cycle"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "requires",
+      "object": "PYC,O 2 , FAD",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 79,
+            "end": 92,
+            "sentence_id": 1,
+            "matched_text": "PYC,O 2 , FAD"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CO 2 equivalents",
+      "predicate": "produced by",
+      "object": "0",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 16,
+        "text_evidence": "Temperature optima (\u00b0C) | 55 | 37 | 37 | (Bozdag,\nBiomass productivity gCDW/l/h | - | - | - | 28.4 (Bozdag, 2013) | - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | Cytoplasm | Cytoplasm | peroxisome (Ru\u00dfmayer et al., 2015) | Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | (Whitaker et al., 2015) | (Whitaker al., 2015) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0 | 0 | 0 c | - 3 c\nNADH equivalents | + 3 | 0 | 0 +2 | - 6\nATP equivalents | 0 | 0 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 743
+        },
+        "subject_positions": [
+          {
+            "start": 618,
+            "end": 634,
+            "sentence_id": 6,
+            "matched_text": "CO 2 equivalents"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 145,
+            "end": 146,
+            "sentence_id": 1,
+            "matched_text": "0"
+          },
+          {
+            "start": 152,
+            "end": 153,
+            "sentence_id": 1,
+            "matched_text": "0"
+          },
+          {
+            "start": 614,
+            "end": 615,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 637,
+            "end": 638,
+            "sentence_id": 6,
+            "matched_text": "0"
+          },
+          {
+            "start": 641,
+            "end": 642,
+            "sentence_id": 7,
+            "matched_text": "0"
+          },
+          {
+            "start": 645,
+            "end": 646,
+            "sentence_id": 8,
+            "matched_text": "0"
+          },
+          {
+            "start": 694,
+            "end": 695,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 698,
+            "end": 699,
+            "sentence_id": 12,
+            "matched_text": "0"
+          },
+          {
+            "start": 734,
+            "end": 735,
+            "sentence_id": 14,
+            "matched_text": "0"
+          },
+          {
+            "start": 738,
+            "end": 739,
+            "sentence_id": 15,
+            "matched_text": "0"
+          },
+          {
+            "start": 742,
+            "end": 743,
+            "sentence_id": 16,
+            "matched_text": "0"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "KM",
+      "predicate": "requires",
+      "object": "0.02 mM",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 16,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "KM"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NADH equivalents",
+      "predicate": "consumed by",
+      "object": "+2",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 12,
+        "sentence_end": 14,
+        "text_evidence": "c | - 3 c\nNADH equivalents | + 3 | 0 | 0 | +2 | +2 | - 6\nATP equivalents | 0",
+        "document_offsets": {
+          "start": 659,
+          "end": 735
+        },
+        "subject_positions": [
+          {
+            "start": 10,
+            "end": 26,
+            "sentence_id": 12,
+            "matched_text": "NADH equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Substrates",
+      "predicate": "provided by",
+      "object": "3 CH 3 OH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "Acet- yl - CoA | 3 Acet-\nSubstrates | First module 3 CH 3 OH | 3 CH 3 OH | 3",
+        "document_offsets": {
+          "start": 821,
+          "end": 897
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 35,
+            "sentence_id": 19,
+            "matched_text": "Substrates"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 51,
+            "end": 60,
+            "sentence_id": 19,
+            "matched_text": "3 CH 3 OH"
+          },
+          {
+            "start": 63,
+            "end": 72,
+            "sentence_id": 19,
+            "matched_text": "3 CH 3 OH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "KM",
+      "predicate": "requires",
+      "object": "0.47 mM",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 16,
+            "end": 18,
+            "sentence_id": 1,
+            "matched_text": "KM"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Products",
+      "predicate": "produced from",
+      "object": "3 HCHO",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 17,
+        "sentence_end": 20,
+        "text_evidence": "| + 1 | - 1 | - 6\nProducts | 3 HCHO | 3 HCHO | 3 HCHO | 1 Acet- yl - CoA CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 744,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 26,
+            "sentence_id": 17,
+            "matched_text": "Products"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 29,
+            "end": 35,
+            "sentence_id": 17,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "sentence_id": 17,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "sentence_id": 17,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 180,
+            "end": 186,
+            "sentence_id": 20,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 189,
+            "end": 195,
+            "sentence_id": 20,
+            "matched_text": "3 HCHO"
+          },
+          {
+            "start": 198,
+            "end": 204,
+            "sentence_id": 20,
+            "matched_text": "3 HCHO"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "requires",
+      "object": "Serine",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 20,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 114,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 122,
+            "end": 128,
+            "sentence_id": 1,
+            "matched_text": "Serine"
+          },
+          {
+            "start": 897,
+            "end": 903,
+            "sentence_id": 20,
+            "matched_text": "Serine"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Substrates",
+      "predicate": "provided by",
+      "object": "First module 3 CH 3 OH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 19,
+        "sentence_end": 19,
+        "text_evidence": "Acet- yl - CoA | 3 Acet-\nSubstrates | First module 3 CH 3 OH | 3 CH 3 OH | 3",
+        "document_offsets": {
+          "start": 821,
+          "end": 897
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 35,
+            "sentence_id": 19,
+            "matched_text": "Substrates"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 38,
+            "end": 60,
+            "sentence_id": 19,
+            "matched_text": "First module 3 CH 3 OH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ad Energetic efficiency (or microbial conversion)",
+      "predicate": "ranges from",
+      "object": "37% - 49%",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 6,
+        "text_evidence": "| Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 346,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Location",
+      "predicate": "located in",
+      "object": "Peroxisome",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome | Cytoplasm | Cytoplasm | peroxisome (Ru\u00dfmayer et al., 2015)",
+        "document_offsets": {
+          "start": 114,
+          "end": 345
+        },
+        "subject_positions": [
+          {
+            "start": 137,
+            "end": 145,
+            "sentence_id": 1,
+            "matched_text": "Location"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 160,
+            "end": 170,
+            "sentence_id": 1,
+            "matched_text": "Peroxisome"
+          },
+          {
+            "start": 197,
+            "end": 207,
+            "sentence_id": 2,
+            "matched_text": "peroxisome"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Substrates",
+      "predicate": "provided by",
+      "object": "Second module",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 19,
+        "sentence_end": 20,
+        "text_evidence": "Acet- yl - CoA | 3 Acet-\nSubstrates | First module 3 CH 3 OH | 3 CH 3 OH | 3 CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 821,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 25,
+            "end": 35,
+            "sentence_id": 19,
+            "matched_text": "Substrates"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 87,
+            "end": 100,
+            "sentence_id": 20,
+            "matched_text": "Second module"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "\u0394 r G '(kJ/mol)",
+      "predicate": "is",
+      "object": "- 92.0 d",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "CO 2 equivalents",
+      "predicate": "produced by",
+      "object": "- 3 c",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0 c | - 3 c\nNADH equivalents | + 3 | 0 | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 699
+        },
+        "subject_positions": [
+          {
+            "start": 139,
+            "end": 155,
+            "sentence_id": 6,
+            "matched_text": "CO 2 equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Module name 1",
+      "predicate": "is",
+      "object": "NMDH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 898,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 64,
+            "sentence_id": 20,
+            "matched_text": "Module name 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 67,
+            "end": 71,
+            "sentence_id": 20,
+            "matched_text": "NMDH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "ad Energetic efficiency (or microbial conversion)",
+      "predicate": "reported by",
+      "object": "(Whitaker et al., 2015)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 6,
+        "text_evidence": "| Cytoplasm\nad Energetic efficiency (or microbial conversion) (Cotton et al., 2020) | (Whitaker et al., 2015) | 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 346,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "requires",
+      "object": "PQQ, Ca 2+",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "is used in",
+      "object": "Xu5P",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 115,
+            "end": 119,
+            "sentence_id": 1,
+            "matched_text": "Xu5P"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Module name 1",
+      "predicate": "is",
+      "object": "PMDH",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 20,
+        "sentence_end": 20,
+        "text_evidence": "CH 3 OH | Second module | 3 HCHO | 3 HCHO | 3 HCHO\nModule name 1 | NMDH | AOX | PMDH | RuMP cycle | XuMP cycle | Serine cycle",
+        "document_offsets": {
+          "start": 898,
+          "end": 1023
+        },
+        "subject_positions": [
+          {
+            "start": 51,
+            "end": 64,
+            "sentence_id": 20,
+            "matched_text": "Module name 1"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 80,
+            "end": 84,
+            "sentence_id": 20,
+            "matched_text": "PMDH"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "NADH equivalents",
+      "predicate": "produced by",
+      "object": "+ 3",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0 c | - 3 c\nNADH equivalents | + 3 | 0 | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 699
+        },
+        "subject_positions": [
+          {
+            "start": 190,
+            "end": 206,
+            "sentence_id": 12,
+            "matched_text": "NADH equivalents"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "\u0394 r G '(kJ/mol)",
+      "predicate": "is",
+      "object": "- 24.8 (Whitaker et al., 2015)",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 6,
+        "sentence_end": 6,
+        "text_evidence": "| 37% - 49% | 31% - 36% | 32% - 37%\n\u0394 r G '(kJ/mol) | + 34.2 | - 99.2 et | - 24.8 (Whitaker et al., 2015) | - 38.3 d | - 78.4 d | - 92.0 d\nCO 2 equivalents | 0",
+        "document_offsets": {
+          "start": 479,
+          "end": 638
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Cofactor",
+      "predicate": "is",
+      "object": "ACT",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 1,
+        "sentence_end": 1,
+        "text_evidence": "| - | 1.2 - 3.6\nKM (mM) | 20 | 0.47 | 0.02 | - | - | -\nCofactor | ACT, NAD + | PYC,O 2 , FAD | PQQ, Ca 2+ | RuBP | Xu5P | Serine, CH 2 =\nLocation | Cytoplasm | Peroxisome |",
+        "document_offsets": {
+          "start": 114,
+          "end": 286
+        },
+        "subject_positions": [
+          {
+            "start": 55,
+            "end": 63,
+            "sentence_id": 1,
+            "matched_text": "Cofactor"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 66,
+            "end": 69,
+            "sentence_id": 1,
+            "matched_text": "ACT"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page5_table0",
+        "page_number": 5,
+        "bbox_coordinates": {
+          "l": 133.8943328857422,
+          "t": 749.509147644043,
+          "r": 420.4376525878906,
+          "b": 55.72149658203125,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Imlay",
+      "predicate": "studied",
+      "object": "kill cells due to DHA",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [
+          {
+            "start": 0,
+            "end": 5,
+            "sentence_id": 3,
+            "matched_text": "Imlay"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "S. cerevisiae",
+      "predicate": "is",
+      "object": "species",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae | Bh | S. cerevisiae | 2 O 2 ) S. cerevisiae | Candida | albicans | Yarrowia\nCompounds | Formaldehyde (HCHO)",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1347
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 9,
+            "matched_text": "S. cerevisiae"
+          },
+          {
+            "start": 94,
+            "end": 107,
+            "sentence_id": 11,
+            "matched_text": "S. cerevisiae"
+          },
+          {
+            "start": 118,
+            "end": 131,
+            "sentence_id": 12,
+            "matched_text": "S. cerevisiae"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Kato et al.",
+      "predicate": "determined",
+      "object": "dihydroxyacetone synthase (DAS) activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Catalase Poljak et al.",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 332,
+            "end": 362,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Candida albicans",
+      "predicate": "is",
+      "object": "species",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": null,
+        "sentence_end": null,
+        "text_evidence": "Relation found in chunk but not mapped to specific sentences",
+        "confidence": 0.3,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Molin et al.",
+      "predicate": "determined",
+      "object": "Dihydroxyacetone kinase (DAK) activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "Carbon - based toxicity (Molin et al., 2003) and the toxicity of DHA appears to be due to its intracellular conversion to an aldehyde compound, presumably | methylglyoxal (Subedi et al., 2008) 15 Result in DNA and membrane damage that cause | mutagenesis and kill cells (Brunk et al., 1995; Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) - | 200mM (Molin & Blomberg, 2006; Molin et al., 2003) - | 2 - 3mM (Hasan et al., 2002; Catalase | Poljak et al., 2003)",
+        "document_offsets": {
+          "start": 152,
+          "end": 1064
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "S. cerevisiae",
+      "predicate": "is",
+      "object": "organism",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae | Bh | S. cerevisiae | 2 O 2 ) S. cerevisiae | Candida | albicans | Yarrowia\nCompounds | Formaldehyde (HCHO)",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1347
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 9,
+            "matched_text": "S. cerevisiae"
+          },
+          {
+            "start": 94,
+            "end": 107,
+            "sentence_id": 11,
+            "matched_text": "S. cerevisiae"
+          },
+          {
+            "start": 118,
+            "end": 131,
+            "sentence_id": 12,
+            "matched_text": "S. cerevisiae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 9,
+            "matched_text": "Organism"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pilat & Prokop",
+      "predicate": "published research on",
+      "object": "Damage proteins",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Characteristics | Damage proteins, nucleic acid and lipids and inhibit cell grow (Nian et al., 2013; Pilat & Prokop, 1975; Songur et al., 2010) | 3.6 - 4.0mM (Pilat & Prokop, 1976)",
+        "document_offsets": {
+          "start": 0,
+          "end": 946
+        },
+        "subject_positions": [
+          {
+            "start": 101,
+            "end": 115,
+            "sentence_id": 0,
+            "matched_text": "Pilat & Prokop"
+          },
+          {
+            "start": 925,
+            "end": 939,
+            "sentence_id": 5,
+            "matched_text": "Pilat & Prokop"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Damage proteins"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Vartiainen et al.",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 332,
+            "end": 362,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Yarrowia lipolytica",
+      "predicate": "is",
+      "object": "organism",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae |",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1200
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 30,
+            "sentence_id": 9,
+            "matched_text": "Yarrowia lipolytica"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 9,
+            "matched_text": "Organism"
+          }
+        ],
+        "confidence": 1.0,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Candida boidini 11 Bh",
+      "predicate": "is",
+      "object": "organism",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 9,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae |",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1200
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 9,
+            "matched_text": "Organism"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Santoni al.",
+      "predicate": "studied",
+      "object": "(CAT1)",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Molin et al.",
+      "predicate": "published research on",
+      "object": "Carbon - based toxicity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 6,
+        "text_evidence": "Carbon - based toxicity (Molin et al., 2003) and the toxicity of DHA appears to be due to its intracellular conversion to an aldehyde compound, presumably | methylglyoxal (Subedi et al., 2008) 15 Result in DNA and membrane damage that cause | mutagenesis and kill cells (Brunk et al., 1995; Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) - | 200mM (Molin & Blomberg, 2006; Molin et al., 2003) - | 2 - 3mM (Hasan et al., 2002; Catalase | Poljak et al., 2003)",
+        "document_offsets": {
+          "start": 152,
+          "end": 1064
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 23,
+            "sentence_id": 2,
+            "matched_text": "Carbon - based toxicity"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Rozova et al.",
+      "predicate": "determined",
+      "object": "hexulose phosphate synthase (HPS) activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Brunk et al.",
+      "predicate": "found",
+      "object": "DNA and membrane damage caused by DHA",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Carbon - based toxicity (Molin et al., 2003) and the toxicity of DHA appears to be due to its intracellular conversion to an aldehyde compound, presumably | methylglyoxal (Subedi et al., 2008) 15 Result in DNA and membrane damage that cause | mutagenesis and kill cells (Brunk et al., 1995;",
+        "document_offsets": {
+          "start": 152,
+          "end": 442
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Yarrowia",
+      "predicate": "is",
+      "object": "genus",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae | S. cerevisiae | Candida | albicans | Yarrowia\nCompounds | Formaldehyde (HCHO)",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1347
+        },
+        "subject_positions": [
+          {
+            "start": 11,
+            "end": 19,
+            "sentence_id": 9,
+            "matched_text": "Yarrowia"
+          },
+          {
+            "start": 155,
+            "end": 163,
+            "sentence_id": 12,
+            "matched_text": "Yarrowia"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Biryukova et al.",
+      "predicate": "determined",
+      "object": "lipolytica Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 8,
+        "sentence_end": 8,
+        "text_evidence": "| lipolytica 120mM (Biryukova et al., 2006)",
+        "document_offsets": {
+          "start": 1108,
+          "end": 1152
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Hochman & Goldberg",
+      "predicate": "determined",
+      "object": "(CAT1) activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [
+          {
+            "start": 279,
+            "end": 297,
+            "sentence_id": 3,
+            "matched_text": "Hochman & Goldberg"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pichia methanolica",
+      "predicate": "is",
+      "object": "organism",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 10,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae | Pichia methanolica | Candida boidini 11",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1240
+        },
+        "subject_positions": [
+          {
+            "start": 49,
+            "end": 67,
+            "sentence_id": 10,
+            "matched_text": "Pichia methanolica"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 8,
+            "sentence_id": 9,
+            "matched_text": "Organism"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gutknecht et al.",
+      "predicate": "determined",
+      "object": "Dihydroxyacetone kinase (DAK) activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Wakayama et al.",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 332,
+            "end": 362,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Gonz\u00e1lez - P\u00e1rraga et al.",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 332,
+            "end": 362,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Molin et al.",
+      "predicate": "published research on",
+      "object": "DHA",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 13,
+        "text_evidence": "Carbon - based toxicity (Molin et al., 2003) and the toxicity of DHA appears to be due to its intracellular conversion to an aldehyde compound, presumably | methylglyoxal (Subedi et al., 2008) 15 Result in DNA and membrane damage that cause | mutagenesis and kill cells (Brunk et al., 1995; Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) - | 200mM (Molin & Blomberg, 2006; Molin et al., 2003) - | 2 - 3mM (Hasan et al., 2002; Catalase | Poljak et al., 2003) | Dihydroxyacetone (DHA) | Hydrogen peroxide (H",
+        "document_offsets": {
+          "start": 152,
+          "end": 1395
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 65,
+            "end": 68,
+            "sentence_id": 2,
+            "matched_text": "DHA"
+          },
+          {
+            "start": 1216,
+            "end": 1219,
+            "sentence_id": 13,
+            "matched_text": "DHA"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Hasan et al.",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 6,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) - | 200mM (Molin & Blomberg, 2006; Molin et al., 2003) - | 2 - 3mM (Hasan et al., 2002; Catalase | Poljak et al., 2003)",
+        "document_offsets": {
+          "start": 443,
+          "end": 1064
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 332,
+            "end": 362,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Nian et al.",
+      "predicate": "published research on",
+      "object": "Damage proteins",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Characteristics | Damage proteins, nucleic acid and lipids and inhibit cell grow (Nian et al., 2013; Pilat & Prokop, 1975; Songur et al., 2010)",
+        "document_offsets": {
+          "start": 0,
+          "end": 143
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Damage proteins"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Damage proteins",
+      "predicate": "cause",
+      "object": "cell grow inhibition",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Characteristics | Damage proteins, nucleic acid and lipids and inhibit cell grow (Nian et al., 2013; Pilat & Prokop, 1975; Songur et al., 2010)",
+        "document_offsets": {
+          "start": 0,
+          "end": 143
+        },
+        "subject_positions": [
+          {
+            "start": 18,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Damage proteins"
+          }
+        ],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Subedi et al.",
+      "predicate": "found",
+      "object": "methylglyoxal in DHA toxicity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 2,
+        "sentence_end": 2,
+        "text_evidence": "Carbon - based toxicity (Molin et al., 2003) and the toxicity of DHA appears to be due to its intracellular conversion to an aldehyde compound, presumably | methylglyoxal (Subedi et al., 2008) 15 Result in DNA and membrane damage that cause | mutagenesis and kill cells (Brunk et al., 1995;",
+        "document_offsets": {
+          "start": 152,
+          "end": 442
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Pilat & Prokop",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "Characteristics | Damage proteins, nucleic acid and lipids and inhibit cell grow (Nian et al., 2013; Pilat & Prokop, 1975; Songur et al., 2010) Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) - | 3.6 - 4.0mM (Pilat & Prokop, 1976)",
+        "document_offsets": {
+          "start": 0,
+          "end": 946
+        },
+        "subject_positions": [
+          {
+            "start": 101,
+            "end": 115,
+            "sentence_id": 0,
+            "matched_text": "Pilat & Prokop"
+          },
+          {
+            "start": 925,
+            "end": 939,
+            "sentence_id": 5,
+            "matched_text": "Pilat & Prokop"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 775,
+            "end": 805,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Songur et al.",
+      "predicate": "published research on",
+      "object": "Damage proteins",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "Characteristics | Damage proteins, nucleic acid and lipids and inhibit cell grow (Nian et al., 2013; Pilat & Prokop, 1975; Songur et al., 2010)",
+        "document_offsets": {
+          "start": 0,
+          "end": 143
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 18,
+            "end": 33,
+            "sentence_id": 0,
+            "matched_text": "Damage proteins"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "S. cerevisiae",
+      "predicate": "produces",
+      "object": "2 O 2",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text_evidence": "Organism | Yarrowia lipolytica | S. cerevisiae | Bh | S. cerevisiae | 2 O 2 ) S. cerevisiae | Candida | albicans | Yarrowia\nCompounds | Formaldehyde (HCHO)",
+        "document_offsets": {
+          "start": 1152,
+          "end": 1347
+        },
+        "subject_positions": [
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 9,
+            "matched_text": "S. cerevisiae"
+          },
+          {
+            "start": 94,
+            "end": 107,
+            "sentence_id": 11,
+            "matched_text": "S. cerevisiae"
+          },
+          {
+            "start": 118,
+            "end": 131,
+            "sentence_id": 12,
+            "matched_text": "S. cerevisiae"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 110,
+            "end": 115,
+            "sentence_id": 11,
+            "matched_text": "2 O 2"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Molin & Blomberg",
+      "predicate": "determined",
+      "object": "Max tolerance concentration KM",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 6,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) - | 200mM (Molin & Blomberg, 2006; Molin et al., 2003) - | 2 - 3mM (Hasan et al., 2002; Catalase | Poljak et al., 2003)",
+        "document_offsets": {
+          "start": 443,
+          "end": 1064
+        },
+        "subject_positions": [
+          {
+            "start": 513,
+            "end": 529,
+            "sentence_id": 6,
+            "matched_text": "Molin & Blomberg"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 332,
+            "end": 362,
+            "sentence_id": 3,
+            "matched_text": "Max tolerance concentration KM"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ro et al.",
+      "predicate": "determined",
+      "object": "dihydroxyacetone synthase (DAS) activity",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 3,
+        "sentence_end": 3,
+        "text_evidence": "Imlay\n(mM) a | Dihydroxyacetone synthase (DAS): 0.43 (Kato et al., 1982) 1.86 (Ro et al., 1997), hexulose phosphate synthase (HPS): 0.98 (Rozova et al., 2017) - 1.4 (R. M\u00fcller & | Dihydroxyacetone kinase (DAK): 0.005 (Molin et al., 0.008 (Gutknecht et al., 2001) | (CAT1): 0.65 (Hochman & Goldberg, 1991) - et | (Santoni al., 2004)\nMax tolerance concentration KM | 1 mM(Vartiainen et al., 2019) -",
+        "document_offsets": {
+          "start": 443,
+          "end": 839
+        },
+        "subject_positions": [],
+        "object_positions": [],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "North et al.",
+      "predicate": "determined",
+      "object": "IC 20",
+      "source_span": {
+        "chunk_id": 1,
+        "span_type": "visual_table",
+        "sentence_start": 4,
+        "sentence_end": 4,
+        "text_evidence": "| IC 20 =0.6mM (North et al., 2016) | 0.3mM (Wakayama | et al., 2016)",
+        "document_offsets": {
+          "start": 840,
+          "end": 909
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 2,
+            "end": 7,
+            "sentence_id": 4,
+            "matched_text": "IC 20"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page9_table1",
+        "page_number": 9,
+        "bbox_coordinates": {
+          "l": 145.67005920410156,
+          "t": 731.7332916259766,
+          "r": 454.9557800292969,
+          "b": 47.3912353515625,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "RuBP",
+    "Molin et al.",
+    "2013",
+    "Kato et al.",
+    "- ",
+    "Candida albicans",
+    "mutagenesis",
+    "1991",
+    "2 O 2 ",
+    "50mM (Gonz\u00e1lez - P\u00e1rraga | et al., 2003)",
+    "Hochman & Goldberg",
+    "Ca2+",
+    "200mM (Molin & Blomberg, 2006; Molin et al., 2003)",
+    "Nian et al.",
+    "Brunk et al.",
+    "hexulose phosphate synthase (HPS)",
+    "Gutknecht et al.",
+    "Ro et al.",
+    "Cytoplasm",
+    "2003",
+    "2017",
+    "(CAT1)",
+    "cell grow",
+    "membrane damage",
+    "nucleic acid",
+    "Dihydroxyacetone kinase (DAK)",
+    "DNA",
+    "2006)",
+    "3.6 - 4.0mM (Pilat & Prokop, 1976)",
+    "2 - 3mM (Hasan et al., 2002; Catalase | Poljak et al., 2003)",
+    "Whitaker et al.",
+    "methylglyoxal",
+    "Cotton et al.",
+    "Ru\u00dfmayer et al.",
+    "NAD+",
+    "Imlay",
+    "- et al.",
+    "- 1.4 (R. M\u00fcller & ",
+    "0.3mM (Wakayama | et al., 2016)",
+    "lipids",
+    "Carbon - based toxicity",
+    "1997",
+    "Songur et al.",
+    "lipolytica",
+    "PQQ",
+    "ACT",
+    "Santoni al.",
+    "IC 20 =0.6mM (North et al., 2016)",
+    "Damage proteins",
+    "Pilat & Prokop",
+    "kill cells",
+    "120mM (Biryukova et al.",
+    "2008",
+    "Xu5P",
+    "Pichia methanolica",
+    "Candida boidini 11 Bh",
+    "1982",
+    "FAD",
+    "dihydroxyacetone synthase (DAS)",
+    "1 mM(Vartiainen et al., 2019)",
+    "Subedi et al.",
+    "Bozdag",
+    "Rozova et al.",
+    "2004",
+    "Serine",
+    "1995",
+    "Max tolerance concentration KM",
+    "S. cerevisiae",
+    "DHA",
+    "2001",
+    "Yarrowia lipolytica",
+    "O2",
+    "Yarrowia",
+    "Peroxisome",
+    "PYC"
+  ]
+}

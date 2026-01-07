@@ -1,0 +1,807 @@
+{
+  "summary": {
+    "total_chunks": 1,
+    "errors": 0,
+    "entities": 5,
+    "relations": 20,
+    "extraction_method": "table_only_extraction",
+    "source_file": "/Users/Soren/Desktop/CarbonBridge/No-RAGrets-Truth-Experiments-and-Pipelines/kg_gen_pipeline/output/docling_json/Copy of Kumar et al. 2019.json",
+    "processed_at": "2025-11-24T00:24:02.268252"
+  },
+  "chunks": [],
+  "all_relations": [
+    {
+      "subject": "Without any addition",
+      "predicate": "has concentration of",
+      "object": "MDHInhibitors",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | 0.83\n200 | 80 | 0.85 \u00b1 0.09\nWithout any addition | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 511
+        },
+        "subject_positions": [
+          {
+            "start": 487,
+            "end": 507,
+            "sentence_id": 7,
+            "matched_text": "Without any addition"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "MDHInhibitors"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "MDHinhibitors"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate",
+      "predicate": "produces",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 Phosphate | 100 | 80 | 1.17 \u00b1 0.04\n200 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 151
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 2,
+            "matched_text": "Phosphate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethylenediaminetetraacetic acid (EDTA)",
+      "predicate": "produces",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Without any addition",
+      "predicate": "produces",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | 0.83\n200 | 80 | 0.85 \u00b1 0.09\nWithout any addition | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 511
+        },
+        "subject_positions": [
+          {
+            "start": 487,
+            "end": 507,
+            "sentence_id": 7,
+            "matched_text": "Without any addition"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium chloride (NaCl)",
+      "predicate": "does not produce",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium chloride (NaCl)",
+      "predicate": "produces",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate",
+      "predicate": "does not produce",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 Phosphate | 100 | 80 | 1.17 \u00b1 0.04\n200 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 151
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 2,
+            "matched_text": "Phosphate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium chloride (NaCl)",
+      "predicate": "has concentration of",
+      "object": "MDHInhibitors",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "MDHInhibitors"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "MDHinhibitors"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Magenesium chloride (MgCl 2)",
+      "predicate": "produces",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1",
+        "document_offsets": {
+          "start": 0,
+          "end": 101
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Magenesium chloride (MgCl 2)",
+      "predicate": "does not produce",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1",
+        "document_offsets": {
+          "start": 0,
+          "end": 101
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate",
+      "predicate": "has concentration of",
+      "object": "MDHInhibitors",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 Phosphate | 100 | 80 | 1.17 \u00b1 0.04\n200 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 151
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 2,
+            "matched_text": "Phosphate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "MDHInhibitors"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "MDHinhibitors"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Phosphate",
+      "predicate": "produces",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 2,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 Phosphate | 100 | 80 | 1.17 \u00b1 0.04\n200 | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 151
+        },
+        "subject_positions": [
+          {
+            "start": 109,
+            "end": 118,
+            "sentence_id": 2,
+            "matched_text": "Phosphate"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Magenesium chloride (MgCl 2)",
+      "predicate": "has concentration of",
+      "object": "MDHInhibitors",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1",
+        "document_offsets": {
+          "start": 0,
+          "end": 101
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "MDHInhibitors"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "MDHinhibitors"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethylenediaminetetraacetic acid (EDTA)",
+      "predicate": "produces",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Without any addition",
+      "predicate": "produces",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | 0.83\n200 | 80 | 0.85 \u00b1 0.09\nWithout any addition | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 511
+        },
+        "subject_positions": [
+          {
+            "start": 487,
+            "end": 507,
+            "sentence_id": 7,
+            "matched_text": "Without any addition"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "sodium chloride (NaCl)",
+      "predicate": "produces",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Magenesium chloride (MgCl 2)",
+      "predicate": "produces",
+      "object": "Formate",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 0,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1",
+        "document_offsets": {
+          "start": 0,
+          "end": 101
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 54,
+            "end": 61,
+            "sentence_id": 0,
+            "matched_text": "Formate"
+          }
+        ],
+        "confidence": 0.9,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethylenediaminetetraacetic acid (EDTA)",
+      "predicate": "does not produce",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Without any addition",
+      "predicate": "does not produce",
+      "object": "Productivity of methanol",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 7,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | 0.83\n200 | 80 | 0.85 \u00b1 0.09\nWithout any addition | 0",
+        "document_offsets": {
+          "start": 0,
+          "end": 511
+        },
+        "subject_positions": [
+          {
+            "start": 487,
+            "end": 507,
+            "sentence_id": 7,
+            "matched_text": "Without any addition"
+          }
+        ],
+        "object_positions": [
+          {
+            "start": 69,
+            "end": 93,
+            "sentence_id": 0,
+            "matched_text": "Productivity of methanol"
+          }
+        ],
+        "confidence": 0.7999999999999999,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    },
+    {
+      "subject": "Ethylenediaminetetraacetic acid (EDTA)",
+      "predicate": "has concentration of",
+      "object": "MDHInhibitors",
+      "source_span": {
+        "chunk_id": 0,
+        "span_type": "visual_table",
+        "sentence_start": 0,
+        "sentence_end": 5,
+        "text_evidence": "MDHInhibitors | Concentration of MDHinhibitors (mM) | Formate (Mm) | Productivity of methanol (g l -1 | Not determined\n40 | 80 | 1.04 \u00b1 0.01\nEthylenediaminetetraacetic acid (EDTA) | 0.5 | 80 | 1.12 \u00b1 0.03\n5.0 | 0 | Not determined\n5.0 | 80 | 1.04 \u00b1 0.14\nsodium chloride (NaCl)",
+        "document_offsets": {
+          "start": 0,
+          "end": 423
+        },
+        "subject_positions": [],
+        "object_positions": [
+          {
+            "start": 0,
+            "end": 13,
+            "sentence_id": 0,
+            "matched_text": "MDHInhibitors"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "sentence_id": 0,
+            "matched_text": "MDHinhibitors"
+          }
+        ],
+        "confidence": 0.7,
+        "table_id": "page6_table0",
+        "page_number": 6,
+        "bbox_coordinates": {
+          "l": 65.5096435546875,
+          "t": 585.4322814941406,
+          "r": 525.622314453125,
+          "b": 303.861083984375,
+          "coord_origin": "BOTTOMLEFT"
+        }
+      }
+    }
+  ],
+  "entities": [
+    "MDHInhibitors",
+    "Ethylenediaminetetraacetic acid (EDTA)",
+    "Phosphate",
+    "sodium chloride (NaCl)",
+    "Magenesium chloride (MgCl 2)"
+  ]
+}

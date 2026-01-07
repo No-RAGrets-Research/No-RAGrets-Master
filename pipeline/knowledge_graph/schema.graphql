@@ -1,0 +1,44 @@
+type Node {
+  id: ID!
+  name: String! @search(by: [exact, term, trigram, fulltext])
+  type: String @search(by: [exact, term])
+  namespace: String @search(by: [exact, term])
+  # Additional node attributes can be added here
+  created_at: String
+  updated_at: String
+  # Relationship fields
+  outgoing: [Relation] @hasInverse(field: subject)
+  incoming: [Relation] @hasInverse(field: object)
+}
+
+type Relation {
+  id: ID!
+  subject: Node! @hasInverse(field: outgoing)
+  predicate: String! @search(by: [term, fulltext])
+  object: Node! @hasInverse(field: incoming)
+
+  # Provenance and context
+  section: String @search(by: [term])
+  pages: [Int]
+  bbox_data: String # JSON string of bounding box coordinates
+  confidence: Float
+  source_paper: String @search(by: [exact, term])
+  figure_id: String @search(by: [term]) # Figure ID (e.g., "page6_fig1")
+  table_id: String @search(by: [term]) # Table ID (e.g., "page5_table2")
+  # NEW: Source span data for sentence-level provenance
+  source_span: String # JSON string containing sentence mapping, document offsets, etc.
+  # Metadata
+  created_at: String
+  extraction_method: String
+}
+
+# Paper/Document tracking
+type Paper {
+  id: ID!
+  title: String! @search(by: [term, fulltext])
+  filename: String! @search(by: [exact])
+  processed_at: String
+  total_entities: Int
+  total_relations: Int
+  sections: [String]
+}
