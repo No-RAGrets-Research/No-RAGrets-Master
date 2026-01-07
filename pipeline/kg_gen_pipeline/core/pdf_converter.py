@@ -29,7 +29,7 @@ except ImportError:
 
 
 class DoclingConverter:
-    def __init__(self, papers_dir: str = "../papers", output_dir: str = "output/docling_json"):
+    def __init__(self, papers_dir: str = "../../data/papers", output_dir: str = "../../data/docling_json"):
         self.papers_dir = Path(papers_dir).resolve()
         self.output_dir = Path(output_dir).resolve()
         

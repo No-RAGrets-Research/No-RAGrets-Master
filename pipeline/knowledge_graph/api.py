@@ -1278,8 +1278,8 @@ def find_best_matching_pdf(
 # ----------------------------------------
 
 
-# Default location for papers inside the repo
-DEFAULT_PAPERS_DIR = BASE_DIR / "papers"
+# Default location for papers inside the repo (now in centralized data/ directory)
+DEFAULT_PAPERS_DIR = BASE_DIR.parent / "data" / "papers"
 
 # Allow override using environment variable
 PAPERS_DIR = pathlib.Path(os.getenv("PAPERS_DIR", DEFAULT_PAPERS_DIR))

@@ -5,7 +5,7 @@ from utils.llm_runner import run_llm
 from utils.result_merger import merge_results
 
 # === Configuration ===
-PAPERS_DIR = Path("papers")
+PAPERS_DIR = Path("../../data/papers")
 OUTPUT_DIR = Path("outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
