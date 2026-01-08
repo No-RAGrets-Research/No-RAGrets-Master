@@ -32,8 +32,15 @@ def get_llm_client() -> Tuple[OpenAI, str]:
     
     return client, model
 
-# Initialize once at module level
-_client, _model = get_llm_client()
+# Lazy initialization - only create when needed
+_client = None
+_model = None
+
+def _ensure_initialized():
+    """Ensure LLM client is initialized."""
+    global _client, _model
+    if _client is None:
+        _client, _model = get_llm_client()
 
 def run_llm(prompt: str, temperature: float = 0.7) -> str:
     """
@@ -46,6 +53,7 @@ def run_llm(prompt: str, temperature: float = 0.7) -> str:
     Returns:
         str: LLM response text
     """
+    _ensure_initialized()
     completion = _client.chat.completions.create(
         model=_model,
         messages=[

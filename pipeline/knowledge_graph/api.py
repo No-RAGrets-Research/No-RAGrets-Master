@@ -17,13 +17,13 @@ import socket
 import socket
 import os
 
-from dgraph_manager import DgraphManager
-from query_builder import GraphQLQueryBuilder
+from .dgraph_manager import DgraphManager
+from .query_builder import GraphQLQueryBuilder
 
 # LLM Review System imports
-from llm_review.utils.text_loader import load_paper_text
-from llm_review.utils.llm_runner import run_llm
-from llm_review.utils.result_merger import merge_rubric_outputs, synthesize_review
+from .llm_review.utils.text_loader import load_paper_text
+from .llm_review.utils.llm_runner import run_llm
+from .llm_review.utils.result_merger import merge_rubric_outputs, synthesize_review
 
 # Initialize FastAPI app
 app = FastAPI(

@@ -26,76 +26,158 @@ No-RAGrets-Master/
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.11+ (Python 3.12 recommended)
 - Node.js 18+ and npm
-- Docker Desktop (optional, for Dgraph database)
+- Docker Desktop (required for Dgraph database)
 - Git
 
 ### Quick Setup
 
-1. **Clone the repository**
+1. Clone the repository
 
    ```bash
    git clone <repository-url>
    cd No-RAGrets-Master
    ```
 
-2. **Set up the Pipeline (Backend)**
+2. Set up the Pipeline (Backend)
 
    ```bash
    cd pipeline
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   cp .env.example .env      # Configure your LLM provider
    ```
 
-3. **Set up the UI (Frontend)**
+3. Set up the UI (Frontend)
 
    ```bash
    cd ui/no-ragrets-ui
    npm install
-   cp .env.example .env      # Configure API base URL
    ```
 
-4. **Configure Environment Variables**
+4. Start Docker Desktop
 
-   Edit `.env` files to set your LLM provider (OpenAI or Ollama) and API keys.
-   See individual application READMEs for detailed configuration options.
+   Ensure Docker Desktop is running before starting the database.
+
+5. Start Dgraph Database
+
+   ```bash
+   cd pipeline/knowledge_graph
+   docker compose up -d
+   ```
 
 ### Running the Applications
 
-**Pipeline API Server:**
+1. Start the Pipeline API Server
 
-```bash
-cd pipeline
-source venv/bin/activate
-python -m uvicorn knowledge_graph.api.main:app --reload --port 8001
-```
+   ```bash
+   cd pipeline
+   PYTHONPATH=/full/path/to/pipeline:$PYTHONPATH ./venv/bin/python -m uvicorn knowledge_graph.api:app --reload --port 8001
+   ```
 
-**UI Development Server:**
+   Or use the convenience script:
 
-```bash
-cd ui/no-ragrets-ui
-npm run dev
-```
+   ```bash
+   cd pipeline
+   ./start_api.sh
+   ```
 
-Access the UI at `http://localhost:5173`
+   API documentation available at http://localhost:8001/docs
+
+2. Start the UI Development Server
+
+   ```bash
+   cd ui/no-ragrets-ui
+   npm run dev
+   ```
+
+   Access the UI at http://localhost:5173
+
+### Environment Configuration
+
+The pipeline supports both OpenAI and Ollama as LLM providers. Set environment variables:
+
+- `LLM_PROVIDER`: Set to "openai" or "ollama" (default: openai)
+- `OPENAI_API_KEY`: Your OpenAI API key (required if using OpenAI)
+- `OLLAMA_BASE_URL`: Ollama endpoint (default: http://localhost:11434/v1)
+- `OLLAMA_MODEL`: Model to use with Ollama (default: llama3.1:8b)
+
+The UI is pre-configured in `ui/no-ragrets-ui/.env` to connect to the API at http://localhost:8001.
 
 ## Production Applications
 
 ### Pipeline
 
-Automated system that converts PDFs to knowledge graphs, extracts entities/relationships, and provides AI-powered quality assessment. See [pipeline/README.md](pipeline/README.md).
+Automated system that converts PDFs to knowledge graphs using Docling, extracts entities and relationships with Qwen models, and stores data in Dgraph. Provides REST API endpoints for querying the knowledge graph and performing AI-powered paper quality assessment.
+
+Key features:
+
+- PDF to structured JSON conversion via Docling
+- Entity and relationship extraction using Qwen 2.5-1.5B and Qwen3-VL-4B
+- Graph database storage and querying with Dgraph
+- RESTful API for frontend integration
+
+See [pipeline/README.md](pipeline/README.md) for detailed documentation.
 
 ### UI
 
-Interactive React interface for exploring knowledge graphs, entity relationships, and performing AI rubric reviews. See [ui/README.md](ui/README.md).
+Interactive React interface built with Vite, TypeScript, and Tailwind CSS for exploring knowledge graphs, viewing entity relationships, and performing AI rubric reviews. Features real-time graph visualization and cross-paper analysis.
+
+Key features:
+
+- Interactive graph visualization with D3.js
+- Entity and relationship browsing
+- Cross-paper analysis
+- PDF viewer integration
+- AI-powered paper review interface
+
+See [ui/README.md](ui/README.md) for detailed documentation.
 
 ### Reviewer
 
-Specialized paper review system with 5 evaluation dimensions and 3-tier assessment framework. See [reviewer/README.md](reviewer/README.md).
+Specialized paper review system with 5 evaluation dimensions (Relevance, Novelty, Feasibility, Impact, Presentation) and 3-tier assessment framework (Abstract, Full Text, Figures). Generates comprehensive review reports with scoring and detailed feedback.
+
+See [reviewer/README.md](reviewer/README.md) for detailed documentation.
+
+## Data Organization
+
+All papers and processed data are stored in the centralized `data/` directory:
+
+- `data/papers/`: 49 source PDF files (68MB)
+- `data/docling_json/`: Processed documents from Docling pipeline (33MB)
+
+The UI accesses papers via symlinks in `ui/no-ragrets-ui/public/` pointing to the centralized data directory.
 
 ## Archive
 
 The archive contains experimental iterations and development prototypes that inform the production systems. These are preserved for reference and potential future integration.
+
+## Troubleshooting
+
+### API Import Errors
+
+The API requires the pipeline directory in PYTHONPATH. Always run with:
+
+```bash
+PYTHONPATH=/full/path/to/No-RAGrets-Master/pipeline:$PYTHONPATH python -m uvicorn knowledge_graph.api:app --reload --port 8001
+```
+
+### Docker Connection Issues
+
+If you see "Cannot connect to the Docker daemon", ensure Docker Desktop is running:
+
+```bash
+open -a Docker
+# Wait 15 seconds for Docker to start
+docker compose up -d
+```
+
+### Port Already in Use
+
+If port 8001 or 5173 is in use, kill the process:
+
+```bash
+lsof -ti:8001 | xargs kill -9  # For API
+lsof -ti:5173 | xargs kill -9  # For UI
+```
