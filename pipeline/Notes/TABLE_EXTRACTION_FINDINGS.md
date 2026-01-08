@@ -8,7 +8,7 @@ The table support infrastructure is **100% complete and ready**, but **no table 
 
 ## What We Found
 
-### ‚úÖ Tables Exist in Docling JSON
+###OKOK Tables Exist in Docling JSON
 
 - **88 tables found** across 47 papers
 - Each table has:
@@ -35,7 +35,7 @@ The table support infrastructure is **100% complete and ready**, but **no table 
 }
 ```
 
-### ‚ùå Tables NOT in Text Chunks
+###OKOK Tables NOT in Text Chunks
 
 **Problem:** Text chunks (`.texts_chunks.jsonl` files) only reference text elements, not tables.
 
@@ -44,7 +44,7 @@ All chunks have provenance like:
 ```json
 "provenance": [
   {
-    "docling_ref": "#/texts/1",   // ‚Üê References text, not tables
+    "docling_ref": "#/texts/1",   //OKÜê References text, not tables
     "label": "text",
     "pages": [...]
   }
@@ -56,7 +56,7 @@ All chunks have provenance like:
 ```json
 "provenance": [
   {
-    "docling_ref": "#/tables/0",  // ‚Üê This doesn't exist in chunks
+    "docling_ref": "#/tables/0",  //OKÜê This doesn't exist in chunks
     "label": "table",
     "pages": [...]
   }
@@ -75,12 +75,12 @@ All chunks have provenance like:
 
 The backend is ready to handle table relations:
 
-1. ‚úÖ **Schema**: `table_id` field exists in Dgraph
-2. ‚úÖ **API**: `/api/relations/by-table` endpoint works
-3. ‚úÖ **Data Loader**: Checks for `docling_ref: "#/tables/X"` and extracts `table_id`
-4. ‚úÖ **Documentation**: Complete with examples
+1.OKOK **Schema**: `table_id` field exists in Dgraph
+2.OKOK **API**: `/api/relations/by-table` endpoint works
+3.OKOK **Data Loader**: Checks for `docling_ref: "#/tables/X"` and extracts `table_id`
+4.OKOK **Documentation**: Complete with examples
 
-**Missing piece:** The chunking step that converts Docling JSON ‚Üí text chunks **skips tables entirely**.
+**Missing piece:** The chunking step that converts Docling JSONOKÜí text chunks **skips tables entirely**.
 
 ---
 
@@ -194,7 +194,7 @@ for text_element in docling_json['texts']:
 
 # Missing:
 for table_element in docling_json['tables']:
-    create_chunk(table_element)  # ‚Üê ADD THIS
+    create_chunk(table_element)  #OKÜê ADD THIS
 ```
 
 ### Backend (Already Complete)

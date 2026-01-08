@@ -101,24 +101,24 @@ Add the ability for users to select text in the annotated document view and run 
 
 ```
 PaperView
-â”œâ”€â”€ AnnotatedView (handles sentence selection)
-â””â”€â”€ Sidebar
-    â”œâ”€â”€ SelectionHeader (with "Review" button + X button)
-    â””â”€â”€ Relations List
-â””â”€â”€ RubricReviewModal (overlay when active)
+””€”€ AnnotatedView (handles sentence selection)
+”””€”€ Sidebar
+   OK””€”€ SelectionHeader (with "Review" button + X button)
+   OK”””€”€ Relations List
+”””€”€ RubricReviewModal (overlay when active)
 ```
 
 ## State Flow
 
-1. User selects sentences â†’ selectedContent exists
+1. User selects sentencesOK†’ selectedContent exists
 2. "Review" button appears in sidebar SelectionHeader
-3. User clicks "Review" â†’ dropdown menu shows 6 rubric options
+3. User clicks "Review"OK†’ dropdown menu shows 6 rubric options
 4. User picks rubric (e.g., "Methodology")
 5. Modal opens with loading state and spinner
 6. API call executes: `POST /api/review/rubric/methodology { text: "..." }`
-7. Response arrives (~30 seconds) â†’ modal shows review text
-8. User closes modal OR selects new text â†’ review state clears
-9. If error occurs â†’ show error message with retry button in modal
+7. Response arrives (~30 seconds)OK†’ modal shows review text
+8. User closes modal OR selects new textOK†’ review state clears
+9. If error occursOK†’ show error message with retry button in modal
 
 ## API Integration
 

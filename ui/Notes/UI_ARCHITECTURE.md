@@ -46,8 +46,8 @@ The No-RAGrets UI is a React-based single-page application that provides three p
 **Data Flow**:
 
 ```
-User loads Home â†’ usePapers hook fetches paper list â†’ React Query caches result
-                â†’ useGraphStats hook fetches statistics â†’ Display in UI
+User loads HomeOK†’ usePapers hook fetches paper listOK†’ React Query caches result
+               OK†’ useGraphStats hook fetches statisticsOK†’ Display in UI
 ```
 
 **Implementation Details**:
@@ -73,10 +73,10 @@ User loads Home â†’ usePapers hook fetches paper list â†’ React Query caches res
 **Loading Process**:
 
 ```
-Component mount â†’ fetchEntitiesAndConnections()
-                â†’ GET /api/entities/curated (12 hub entities)
-                â†’ For each entity: GET /api/entities/{id}/connections
-                â†’ Aggregate results â†’ Build nodes and edges â†’ Render graph
+Component mountOK†’ fetchEntitiesAndConnections()
+               OK†’ GET /api/entities/curated (12 hub entities)
+               OK†’ For each entity: GET /api/entities/{id}/connections
+               OK†’ Aggregate resultsOK†’ Build nodes and edgesOK†’ Render graph
 ```
 
 #### Search Functionality
@@ -89,8 +89,8 @@ Component mount â†’ fetchEntitiesAndConnections()
 **Search Flow**:
 
 ```
-User types â†’ 200ms debounce â†’ GET /api/entities/search?query={text}&limit=15
-          â†’ Display dropdown â†’ User clicks result â†’ Load entity connections
+User typesOK†’ 200ms debounceOK†’ GET /api/entities/search?query={text}&limit=15
+         OK†’ Display dropdownOK†’ User clicks resultOK†’ Load entity connections
 ```
 
 #### Node Interactions
@@ -103,11 +103,11 @@ User types â†’ 200ms debounce â†’ GET /api/entities/search?query={text}&limit=15
 **Node Click Flow**:
 
 ```
-User clicks node â†’ handleNodeClick()
-                 â†’ GET /api/entities/{id}/connections?max_relations=20
-                 â†’ Build edges with multi-source tracking
-                 â†’ Update graph display
-                 â†’ Populate entity analytics panel
+User clicks nodeOK†’ handleNodeClick()
+                OK†’ GET /api/entities/{id}/connections?max_relations=20
+                OK†’ Build edges with multi-source tracking
+                OK†’ Update graph display
+                OK†’ Populate entity analytics panel
 ```
 
 **Entity Analytics Panel**:
@@ -129,15 +129,15 @@ User clicks node â†’ handleNodeClick()
 **Edge Click Flow**:
 
 ```
-User clicks edge â†’ handleEdgeClick()
-                 â†’ Extract edge.data.sources array
-                 â†’ Populate relation details panel
-                 â†’ Display all papers with this relation
+User clicks edgeOK†’ handleEdgeClick()
+                OK†’ Extract edge.data.sources array
+                OK†’ Populate relation details panel
+                OK†’ Display all papers with this relation
 ```
 
 **Relation Details Panel**:
 
-- Subject â†’ Predicate â†’ Object triple display
+- SubjectOK†’ PredicateOK†’ Object triple display
 - "Appears in X papers" count
 - List of all sources with:
   - Paper filename
@@ -246,11 +246,11 @@ Shows the original PDF with entity and relation highlighting.
 **PDF Loading Flow**:
 
 ```
-PaperView loads â†’ Fetch paper metadata from API
-                â†’ PDFViewer component mounts
-                â†’ Loads PDF from /papers/{filename}
-                â†’ PDF.js renders pages client-side
-                â†’ No server processing required
+PaperView loadsOK†’ Fetch paper metadata from API
+               OK†’ PDFViewer component mounts
+               OK†’ Loads PDF from /papers/{filename}
+               OK†’ PDF.js renders pages client-side
+               OK†’ No server processing required
 ```
 
 #### Annotated View
@@ -267,13 +267,13 @@ Shows parsed document structure with interactive entity/relation extraction.
 **Docling Loading Flow**:
 
 ```
-AnnotatedView mounts â†’ componentDidMount()
-                     â†’ fetch(/docling_json/{filename}.json)
-                     â†’ Parse Docling structure locally
-                     â†’ Render sections, figures, tables
-                     â†’ User selects content
-                     â†’ POST /api/relations/extract (only selected content)
-                     â†’ Display relations in sidebar
+AnnotatedView mountsOK†’ componentDidMount()
+                    OK†’ fetch(/docling_json/{filename}.json)
+                    OK†’ Parse Docling structure locally
+                    OK†’ Render sections, figures, tables
+                    OK†’ User selects content
+                    OK†’ POST /api/relations/extract (only selected content)
+                    OK†’ Display relations in sidebar
 ```
 
 **Content Selection**:
@@ -312,7 +312,7 @@ AnnotatedView mounts â†’ componentDidMount()
 **Relation Details**:
 
 - Appears when clicking a relation in the list
-- Shows subject â†’ predicate â†’ object
+- Shows subjectOK†’ predicateOK†’ object
 - Displays confidence score
 - Section and page information
 - Text snippet showing context
@@ -333,14 +333,14 @@ AnnotatedView mounts â†’ componentDidMount()
 **Review Flow**:
 
 ```
-User selects content â†’ Click "Review" button
-                     â†’ Choose rubric from dropdown
-                     â†’ System determines content type (text/figure/table)
-                     â†’ Routes to appropriate API endpoint:
+User selects contentOK†’ Click "Review" button
+                    OK†’ Choose rubric from dropdown
+                    OK†’ System determines content type (text/figure/table)
+                    OK†’ Routes to appropriate API endpoint:
                         - Text: POST /api/review/rubric/{rubricName}
                         - Figure: POST /api/review/figure
                         - Table: POST /api/review/table
-                     â†’ Display results in modal
+                    OK†’ Display results in modal
 ```
 
 **Content Type Handling**:
@@ -442,14 +442,14 @@ Instead of fetching PDFs and Docling files through the API, they are served dire
 
 ```
 public/
-â”œâ”€â”€ papers/                    # PDF files
-â”‚   â”œâ”€â”€ A. Priyadarsini et al. 2023.pdf
-â”‚   â”œâ”€â”€ B. Sharma et al. 2022.pdf
-â”‚   â””â”€â”€ ... (49 papers total)
-â””â”€â”€ docling_json/             # Pre-processed Docling files
-    â”œâ”€â”€ A. Priyadarsini et al. 2023.json
-    â”œâ”€â”€ B. Sharma et al. 2022.json
-    â””â”€â”€ ... (49 JSON files)
+””€”€ papers/                    # PDF files
+”‚  OK””€”€ A. Priyadarsini et al. 2023.pdf
+”‚  OK””€”€ B. Sharma et al. 2022.pdf
+”‚  OK”””€”€ ... (49 papers total)
+”””€”€ docling_json/             # Pre-processed Docling files
+   OK””€”€ A. Priyadarsini et al. 2023.json
+   OK””€”€ B. Sharma et al. 2022.json
+   OK”””€”€ ... (49 JSON files)
 ```
 
 ### PDF Loading Process
@@ -457,12 +457,12 @@ public/
 **Client-Side Flow**:
 
 ```
-User navigates to paper â†’ PaperView component mounts
-                        â†’ PDFViewer requests /papers/{filename}
-                        â†’ Vite dev server serves file directly
-                        â†’ Browser caches PDF
-                        â†’ PDF.js parses PDF client-side
-                        â†’ Renders pages to canvas elements
+User navigates to paperOK†’ PaperView component mounts
+                       OK†’ PDFViewer requests /papers/{filename}
+                       OK†’ Vite dev server serves file directly
+                       OK†’ Browser caches PDF
+                       OK†’ PDF.js parses PDF client-side
+                       OK†’ Renders pages to canvas elements
 ```
 
 **Benefits**:
@@ -544,11 +544,11 @@ Docling is a document parsing format that extracts structured content from PDFs:
 **Loading Flow**:
 
 ```
-AnnotatedView mounts â†’ fetch(/docling_json/{filename}.json)
-                     â†’ Parse JSON locally (instant)
-                     â†’ Extract sections, figures, tables
-                     â†’ Render structure in DOM
-                     â†’ Images already base64-encoded (no additional fetches)
+AnnotatedView mountsOK†’ fetch(/docling_json/{filename}.json)
+                    OK†’ Parse JSON locally (instant)
+                    OK†’ Extract sections, figures, tables
+                    OK†’ Render structure in DOM
+                    OK†’ Images already base64-encoded (no additional fetches)
 ```
 
 **Benefits Over API Fetching**:
@@ -609,15 +609,15 @@ useEffect(() => {
 
 ```
 Backend Pipeline (one-time):
-Upload PDF â†’ Docling extraction â†’ Entity/relation extraction
-          â†’ Save JSON to public/docling_json/
-          â†’ Save entities/relations to Neo4j
-          â†’ Copy PDF to public/papers/
+Upload PDFOK†’ Docling extractionOK†’ Entity/relation extraction
+         OK†’ Save JSON to public/docling_json/
+         OK†’ Save entities/relations to Neo4j
+         OK†’ Copy PDF to public/papers/
 
 Frontend (every visit):
-Load paper â†’ Fetch from /papers/ (cached)
-          â†’ Fetch from /docling_json/ (cached)
-          â†’ Display immediately
+Load paperOK†’ Fetch from /papers/ (cached)
+         OK†’ Fetch from /docling_json/ (cached)
+         OK†’ Display immediately
 ```
 
 ### Image Extraction for Reviews

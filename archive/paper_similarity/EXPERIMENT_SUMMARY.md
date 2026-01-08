@@ -198,13 +198,13 @@ score_patterns = [
 ### 1. Document Converter ([`experiment_extraction.py`](./experiment_extraction.py))
 
 - **Technology**: Docling library
-- **Function**: PDF/DOCX â†’ Structured JSON
+- **Function**: PDF/DOCXOK†’ Structured JSON
 - **Output**: 50 individual JSON files with full document structure
 
 ### 2. AI Objective Extractor ([`granite_analyzer.py`](./granite_analyzer.py))
 
 - **Technology**: IBM Granite 4 (ibm-granite/granite-4.0-micro)
-- **Function**: Document content â†’ Research objective summaries
+- **Function**: Document contentOK†’ Research objective summaries
 - **Output**: Concise objective descriptions for similarity analysis
 
 ### 3. Similarity Analyzer ([`similarity_analyzer.py`](./similarity_analyzer.py))
@@ -300,9 +300,9 @@ Based on analysis of the complete dataset:
 Major citation clusters identified:
 
 1. **Classical Methanotroph Research Cluster**:
-   - Core: Mehta et al. 1991 â†’ Takeguchi et al. 1997 â†’ Multiple derivatives
+   - Core: Mehta et al. 1991OK†’ Takeguchi et al. 1997OK†’ Multiple derivatives
 2. **Bioreactor Engineering Cluster**:
-   - Foundation: Hou et al. 1984 â†’ Park et al. 1991 â†’ Modern applications
+   - Foundation: Hou et al. 1984OK†’ Park et al. 1991OK†’ Modern applications
 3. **Genetic Modification Cluster**:
    - Recent focus: Soo et al. 2018, Nguyen et al. 2021, genetic engineering papers
 
@@ -382,7 +382,7 @@ max_tokens = 300      # Balanced quality vs speed
 ### Data Flow
 
 ```
-PDF/DOCX Files â†’ Docling â†’ JSON Structure â†’ Granite Analysis â†’ Objectives â†’ Similarity Comparison â†’ Results
+PDF/DOCX FilesOK†’ DoclingOK†’ JSON StructureOK†’ Granite AnalysisOK†’ ObjectivesOK†’ Similarity ComparisonOK†’ Results
 ```
 
 ---
@@ -391,34 +391,34 @@ PDF/DOCX Files â†’ Docling â†’ JSON Structure â†’ Granite Analysis â†’ Objective
 
 ```
 Paper_Similarity_Experiment/
-â”œâ”€â”€ README.md                     # Project overview
-â”œâ”€â”€ EXPERIMENT_SUMMARY.md         # This comprehensive summary
-â”œâ”€â”€ requirements.txt              # Python dependencies
-â”œâ”€â”€ .env                          # Environment variables
-â”‚
-â”œâ”€â”€ EXPERIMENT SCRIPTS
-â”‚   â”œâ”€â”€ experiment_extraction.py     # Phase 1: Document processing
-â”‚   â”œâ”€â”€ granite_analyzer.py          # Phase 2: Objective extraction
-â”‚   â”œâ”€â”€ similarity_analyzer.py       # Phase 3: Similarity analysis
-â”‚   â””â”€â”€ citation_analyzer.py         # Phase 4: Citation relationship analysis
-â”‚
-â”œâ”€â”€ INPUT DATA
-â”‚   â”œâ”€â”€ UCSC NLP Project - CB Literature/  # Source papers (50 files)
-â”‚   â””â”€â”€ Papers from Sophia/                # Additional papers
-â”‚
-â”œâ”€â”€ PROCESSED DATA
-â”‚   â”œâ”€â”€ paper_json_data/              # Structured JSON (50 files)
-â”‚   â”œâ”€â”€ paper_objectives/             # AI-extracted objectives (50 files)
-â”‚   â””â”€â”€ paper_similarities/           # Similarity analysis results (51 files)
-â”‚
-â”œâ”€â”€ RESULTS
-â”‚   â”œâ”€â”€ paper_similarities/overall_summary.json  # Complete analysis summary
-â”‚   â”œâ”€â”€ citation_analysis.json        # Citation relationships
-â”‚   â””â”€â”€ citation_report.md           # Citation analysis report
-â”‚
-â””â”€â”€ UTILITIES
-    â”œâ”€â”€ docling_formatter.py         # Document formatting helpers
-    â””â”€â”€ sample_output.md             # Example outputs
+””€”€ README.md                     # Project overview
+””€”€ EXPERIMENT_SUMMARY.md         # This comprehensive summary
+””€”€ requirements.txt              # Python dependencies
+””€”€ .env                          # Environment variables
+”‚
+””€”€ EXPERIMENT SCRIPTS
+”‚  OK””€”€ experiment_extraction.py     # Phase 1: Document processing
+”‚  OK””€”€ granite_analyzer.py          # Phase 2: Objective extraction
+”‚  OK””€”€ similarity_analyzer.py       # Phase 3: Similarity analysis
+”‚  OK”””€”€ citation_analyzer.py         # Phase 4: Citation relationship analysis
+”‚
+””€”€ INPUT DATA
+”‚  OK””€”€ UCSC NLP Project - CB Literature/  # Source papers (50 files)
+”‚  OK”””€”€ Papers from Sophia/                # Additional papers
+”‚
+””€”€ PROCESSED DATA
+”‚  OK””€”€ paper_json_data/              # Structured JSON (50 files)
+”‚  OK””€”€ paper_objectives/             # AI-extracted objectives (50 files)
+”‚  OK”””€”€ paper_similarities/           # Similarity analysis results (51 files)
+”‚
+””€”€ RESULTS
+”‚  OK””€”€ paper_similarities/overall_summary.json  # Complete analysis summary
+”‚  OK””€”€ citation_analysis.json        # Citation relationships
+”‚  OK”””€”€ citation_report.md           # Citation analysis report
+”‚
+”””€”€ UTILITIES
+   OK””€”€ docling_formatter.py         # Document formatting helpers
+   OK”””€”€ sample_output.md             # Example outputs
 ```
 
 ---
@@ -579,7 +579,7 @@ Edit [`similarity_analyzer.py`](./similarity_analyzer.py):
 
 ### High Similarity Example
 
-**Papers**: A. Priyadarsini et al. 2023 â†” Chen et al. 2023  
+**Papers**: A. Priyadarsini et al. 2023OK†” Chen et al. 2023  
 **Similarity**: High  
 **Reasoning**: "Both research papers share a common objective of converting methane gas into methanol using microbial processes. Paper A focuses on detecting and enriching methanotrophic bacteria from rice field soil communities to produce methanol, while Paper B aims to develop a novel inverse membrane bioreactor for efficient bioconversion of methane gas to liquid methanol using a microbial gas-phase reaction."
 

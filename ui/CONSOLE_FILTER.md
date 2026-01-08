@@ -40,7 +40,7 @@ console.log = function (...args) {
 };
 
 console.log(
-  "✅ Console filters applied - React Flow and extension warnings suppressed"
+  "Console filters applied - React Flow and extension warnings suppressed"
 );
 ```
 

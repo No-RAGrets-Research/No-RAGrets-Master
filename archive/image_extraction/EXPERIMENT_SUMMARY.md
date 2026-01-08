@@ -40,16 +40,16 @@ def extract_embedded_images(pdf_path: str, out_dir: str) -> list[str]:
 
 #### Pros:
 
-- ✅ Highest image quality (lossless extraction)
-- ✅ Fastest processing speed
-- ✅ Gets actual embedded image files
-- ✅ No external dependencies beyond PyMuPDF
+-OKOK Highest image quality (lossless extraction)
+-OKOK Fastest processing speed
+-OKOK Gets actual embedded image files
+-OKOK No external dependencies beyond PyMuPDF
 
 #### Cons:
 
-- ❌ Only finds explicitly embedded images
-- ❌ Misses vector-based charts/diagrams
-- ❌ Won't detect figures drawn as graphics primitives
+-OKOK Only finds explicitly embedded images
+-OKOK Misses vector-based charts/diagrams
+-OKOK Won't detect figures drawn as graphics primitives
 
 ---
 
@@ -86,17 +86,17 @@ figures = [b for b in layout if b.type == "Figure"]
 
 #### Pros:
 
-- ✅ AI-powered semantic understanding
-- ✅ Finds vector-based figures and charts
-- ✅ Trained on academic document layouts
-- ✅ Provides confidence scores
+-OKOK AI-powered semantic understanding
+-OKOK Finds vector-based figures and charts
+-OKOK Trained on academic document layouts
+-OKOK Provides confidence scores
 
 #### Cons:
 
-- ❌ Conservative threshold missed valid figures
-- ❌ PDF-to-image conversion loses quality
-- ❌ Slower due to AI processing
-- ❌ Requires model download (~80MB)
+-OKOK Conservative threshold missed valid figures
+-OKOK PDF-to-image conversion loses quality
+-OKOK Slower due to AI processing
+-OKOK Requires model download (~80MB)
 
 ---
 
@@ -144,17 +144,17 @@ def extract_figures_improved_layoutparser(pdf_path: str, out_dir: str,
 
 #### Pros:
 
-- ✅ Better detection sensitivity (found additional figure)
-- ✅ Higher quality output images
-- ✅ Fewer false positives through filtering
-- ✅ Configurable parameters
-- ✅ Detailed progress feedback
+-OKOK Better detection sensitivity (found additional figure)
+-OKOK Higher quality output images
+-OKOK Fewer false positives through filtering
+-OKOK Configurable parameters
+-OKOK Detailed progress feedback
 
 #### Cons:
 
-- ❌ Still limited by PDF-to-image conversion quality
-- ❌ Computationally intensive
-- ❌ Longer processing time
+-OKOK Still limited by PDF-to-image conversion quality
+-OKOK Computationally intensive
+-OKOK Longer processing time
 
 ---
 
@@ -193,18 +193,18 @@ def extract_figures_with_cv(pdf_path: str, out_dir: str, min_area: int = 10000):
 
 #### Pros:
 
-- ✅ Fast processing speed
-- ✅ No AI model dependencies
-- ✅ Finds any rectangular content
-- ✅ Configurable parameters
-- ✅ Simple implementation
+-OKOK Fast processing speed
+-OKOK No AI model dependencies
+-OKOK Finds any rectangular content
+-OKOK Configurable parameters
+-OKOK Simple implementation
 
 #### Cons:
 
-- ❌ Many false positives (text blocks, tables, borders)
-- ❌ Basic shape detection only
-- ❌ No semantic understanding of content
-- ❌ Requires manual tuning of parameters
+-OKOK Many false positives (text blocks, tables, borders)
+-OKOK Basic shape detection only
+-OKOK No semantic understanding of content
+-OKOK Requires manual tuning of parameters
 
 ---
 
@@ -215,9 +215,9 @@ def extract_figures_with_cv(pdf_path: str, out_dir: str, min_area: int = 10000):
 
 #### Models tested:
 
-1. **Detectron2LayoutModel**: ❌ Not available (requires Detectron2 installation)
-2. **PaddleDetectionLayoutModel**: ❌ Not available (PaddlePaddle installation failed)
-3. **EfficientDetLayoutModel**: ✅ Available and working
+1. **Detectron2LayoutModel** Completed SuccessfullyNot available (requires Detectron2 installation)
+2. **PaddleDetectionLayoutModel** Completed SuccessfullyNot available (PaddlePaddle installation failed)
+3. **EfficientDetLayoutModel** Completed SuccessfullyAvailable and working
 
 #### Key findings:
 

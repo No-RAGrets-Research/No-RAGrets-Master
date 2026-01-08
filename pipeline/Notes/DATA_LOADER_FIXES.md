@@ -4,7 +4,7 @@
 
 ## Issues Fixed
 
-### 1. ✅ Faulty Node Deduplication Logic
+### 1.OKOK Faulty Node Deduplication Logic
 **Problem:** When using `--force-update`, the loader was updating timestamps on existing nodes, which are shared across papers. This caused unnecessary modifications to nodes that should remain immutable.
 
 **Fix:** Modified `create_node()` to always reuse existing nodes without modification during force_update. Nodes are now truly shared entities across papers.
@@ -30,7 +30,7 @@ if self.verbose:
 return existing_node['id']
 ```
 
-### 2. ✅ Removed Timestamps from Papers
+### 2.OKOK Removed Timestamps from Papers
 **Problem:** Papers had `processed_at` timestamps which would change on reload, breaking relation queries.
 
 **Fix:** Removed `processed_at` field from paper creation entirely.
@@ -43,7 +43,7 @@ mutation CreatePaper($title: String!, $filename: String!, $processedAt: String!,
   addPaper(input: [{
     title: $title,
     filename: $filename,
-    processed_at: $processedAt,  # ❌ Removed this
+    processed_at: $processedAt,  #OKOK Removed this
     # ...
 
 # After:
@@ -55,7 +55,7 @@ mutation CreatePaper($title: String!, $filename: String!,
     # No processed_at field
 ```
 
-### 3. ✅ Fixed "Copy of" Prefix in Filenames
+### 3.OKOK Fixed "Copy of" Prefix in Filenames
 **Problem:** PDF filenames had "Copy of " prefix which was inconsistent and should be removed.
 
 **Fix:** Updated filename parsing to remove "Copy of " prefix and clean up timestamps.
@@ -77,10 +77,10 @@ title = filename.replace('.pdf', '').replace('_', ' ')
 ## Impact
 
 These fixes ensure:
-- ✅ Nodes remain immutable and shared across papers
-- ✅ Papers can be reloaded without timestamp conflicts
-- ✅ Filenames are clean and consistent
-- ✅ Relations correctly reference their source papers
+-OKOK Nodes remain immutable and shared across papers
+-OKOK Papers can be reloaded without timestamp conflicts
+-OKOK Filenames are clean and consistent
+-OKOK Relations correctly reference their source papers
 
 ## Reloading Instructions
 
@@ -125,28 +125,28 @@ cd knowledge_graph
 echo "🔄 Resetting database..."
 python reset_database.py
 
-echo "📊 Loading visual triples..."
+echo "� Loading visual triples..."
 visual_count=0
 for file in ../kg_gen_pipeline/output/raw_visual_triples/*.json; do
     if [ -f "$file" ]; then
-        echo "  → $(basename "$file")"
+        echo " OK�� $(basename "$file")"
         python kg_data_loader.py "$file"
         ((visual_count++))
     fi
 done
 
-echo "📝 Loading text triples..."
+echo "�OK Loading text triples..."
 text_count=0  
 for file in ../kg_gen_pipeline/output/text_triples/*.json; do
     if [ -f "$file" ]; then
-        echo "  → $(basename "$file")"
+        echo " OK�� $(basename "$file")"
         python kg_data_loader.py "$file"
         ((text_count++))
     fi
 done
 
 echo ""
-echo "✅ Reload complete!"
+echo "OK Reload complete!"
 echo "   Visual files loaded: $visual_count"
 echo "   Text files loaded: $text_count"
 ```

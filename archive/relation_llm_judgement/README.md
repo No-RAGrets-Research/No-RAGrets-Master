@@ -27,17 +27,17 @@ ollama serve
 
 ```
 .
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ api_client.py       # Knowledge Graph API client
-â”‚   â”œâ”€â”€ sampler.py          # Hub entity and relation sampling
-â”‚   â”œâ”€â”€ judge.py            # Ollama judge interface
-â”‚   â”œâ”€â”€ prompts.py          # Prompt templates
-â”‚   â””â”€â”€ storage.py          # Data storage utilities
-â”œâ”€â”€ scripts/
-â”‚   â””â”€â”€ run_pilot.py        # Pilot experiment script
-â”œâ”€â”€ data/                   # Input data (if any)
-â”œâ”€â”€ results/                # Experiment outputs
-â””â”€â”€ EXPERIMENT_PLAN.md      # Detailed experiment design
+””€”€ src/
+”‚  OK””€”€ api_client.py       # Knowledge Graph API client
+”‚  OK””€”€ sampler.py          # Hub entity and relation sampling
+”‚  OK””€”€ judge.py            # Ollama judge interface
+”‚  OK””€”€ prompts.py          # Prompt templates
+”‚  OK”””€”€ storage.py          # Data storage utilities
+””€”€ scripts/
+”‚  OK”””€”€ run_pilot.py        # Pilot experiment script
+””€”€ data/                   # Input data (if any)
+””€”€ results/                # Experiment outputs
+”””€”€ EXPERIMENT_PLAN.md      # Detailed experiment design
 ```
 
 ## Running the Pilot

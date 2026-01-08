@@ -7,7 +7,7 @@ The master repository for the No-RAGrets scientific literature analysis platform
 ```
 No-RAGrets-Master/
 ├── data/            # Shared data directory
-│   ├── papers/              # Source PDFs (49 papers, single source of truth)
+│   ├── papers/              # Source PDFs (47 papers, single source of truth)
 │   └── docling_json/        # Processed paper data from Docling
 ├── pipeline/        # Production: Knowledge graph extraction & paper quality assessment
 ├── ui/              # Production: React frontend for graph visualization & analysis
@@ -73,9 +73,9 @@ No-RAGrets-Master/
 1. Start the Pipeline API Server
 
    ```bash
+   cd pipeline
    source venv/bin/activate
    python -m uvicorn knowledge_graph.api:app --reload --port 8001
-   ./start_api.sh
    ```
 
    API documentation available at http://localhost:8001/docs
@@ -139,7 +139,7 @@ See [reviewer/README.md](reviewer/README.md) for detailed documentation.
 
 All papers and processed data are stored in the centralized `data/` directory:
 
-- `data/papers/`: 49 source PDF files (68MB)
+- `data/papers/`: 47 source PDF files (68MB)
 - `data/docling_json/`: Processed documents from Docling pipeline (33MB)
 
 The UI accesses papers via symlinks in `ui/no-ragrets-ui/public/` pointing to the centralized data directory.

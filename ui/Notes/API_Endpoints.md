@@ -1578,7 +1578,7 @@ curl -X POST http://localhost:8001/api/review/figure \
 
 ```json
 {
-  "review": "### RUBRIC 5 – Presentation & Documentation\n\nTier 2: Adequate with Issues\n\nStrengths:\n- Clear bar chart format\n- Color differentiation visible\n\nWeaknesses:\n- Missing axis labels\n- No legend present\n- Units not specified\n\nRecommendations:\n- Add X and Y axis labels with units\n- Include legend identifying each bar\n- Consider accessibility (colorblind-friendly palette)",
+  "review": "### RUBRIC 5OK�OK Presentation & Documentation\n\nTier 2: Adequate with Issues\n\nStrengths:\n- Clear bar chart format\n- Color differentiation visible\n\nWeaknesses:\n- Missing axis labels\n- No legend present\n- Units not specified\n\nRecommendations:\n- Add X and Y axis labels with units\n- Include legend identifying each bar\n- Consider accessibility (colorblind-friendly palette)",
   "rubric": "rubric5_presentation",
   "metadata": {
     "provider": "qwen",
@@ -1670,7 +1670,7 @@ curl -X POST http://localhost:8001/api/review/table \
 
 ```json
 {
-  "review": "### RUBRIC 4 – Data Quality\n\nTier 2: Adequate with Gaps\n\nStrengths:\n- Clear tabular format\n- Numeric data present\n- Caption identifies content\n\nWeaknesses:\n- Missing units for measurements\n- No error bars or standard deviations\n- Sample size not specified\n- No statistical significance indicators\n\nRecommendations:\n- Add units to all numeric columns\n- Include error estimates (±SD or ±SEM)\n- Specify n for each measurement\n- Add significance markers if comparing groups",
+  "review": "### RUBRIC 4OK�OK Data Quality\n\nTier 2: Adequate with Gaps\n\nStrengths:\n- Clear tabular format\n- Numeric data present\n- Caption identifies content\n\nWeaknesses:\n- Missing units for measurements\n- No error bars or standard deviations\n- Sample size not specified\n- No statistical significance indicators\n\nRecommendations:\n- Add units to all numeric columns\n- Include error estimates (±SD or ±SEM)\n- Specify n for each measurement\n- Add significance markers if comparing groups",
   "rubric": "rubric4_data",
   "metadata": {
     "provider": "ollama",

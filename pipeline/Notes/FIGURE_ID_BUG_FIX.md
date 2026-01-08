@@ -19,7 +19,7 @@ for relation in chunk.get('relations', []):
         obj = relation.get('object')
         
         # Extract source span data if available
-        source_span_data = relation.get('source_span')  # ‚Üê Only defined here!
+        source_span_data = relation.get('source_span')  #OKÜê Only defined here!
         source_span_json = json.dumps(source_span_data) if source_span_data else None
 ```
 
@@ -27,7 +27,7 @@ Later, at line 367, the code tried to access `source_span_data`:
 ```python
 # Extract figure_id from source_span if available
 figure_id = None
-if source_span_data and source_span_data.get('span_type') == 'visual_figure':  # ‚Üê Error!
+if source_span_data and source_span_data.get('span_type') == 'visual_figure':  #OKÜê Error!
     figure_id = source_span_data.get('figure_id')
 ```
 
@@ -109,10 +109,10 @@ curl "http://localhost:8001/api/relations/by-figure?paper_id=A.%20Priyadarsini%2
 ```
 
 ## Impact
-- ‚úÖ Visual triples now correctly store `figure_id` in the database
-- ‚úÖ The `/api/relations/by-figure` endpoint can filter relations by figure/table
-- ‚úÖ Users can now query "which relations came from this specific figure?"
-- ‚úÖ Supports distinguishing between text-extracted and visually-extracted knowledge
+-OKOK Visual triples now correctly store `figure_id` in the database
+-OKOK The `/api/relations/by-figure` endpoint can filter relations by figure/table
+-OKOK Users can now query "which relations came from this specific figure?"
+-OKOK Supports distinguishing between text-extracted and visually-extracted knowledge
 
 ## Status
 **RESOLVED** - The data loader now correctly extracts and stores `figure_id` for all visual triple relations.

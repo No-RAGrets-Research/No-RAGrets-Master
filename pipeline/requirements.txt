@@ -88,11 +88,12 @@ murmurhash==1.0.13
 networkx==3.5
 nltk==3.9.2
 nodeenv==1.9.1
-numpy==2.2.6
+numpy<2
 ocrmac==1.0.0
+PyMuPDF==1.25.3
 omegaconf==2.3.0
 openai==2.7.0
-opencv-python==4.12.0.88
+opencv-python<4.10.0
 openpyxl==3.1.5
 optuna==4.5.0
 orjson==3.11.4
@@ -161,7 +162,7 @@ starlette==0.49.3
 sympy==1.14.0
 tabulate==0.9.0
 tenacity==9.1.2
-thinc==8.3.6
+thinc>=8.2,<9.0
 threadpoolctl==3.6.0
 tiktoken==0.12.0
 tokenizers==0.22.1

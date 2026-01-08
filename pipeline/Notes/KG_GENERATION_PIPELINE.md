@@ -10,17 +10,17 @@ The Knowledge Graph Generation Pipeline is a comprehensive system for automatica
 
 ```
 PDF Document
-    â†“
+   OK†
 [1] PDF to Docling JSON Conversion
-    â†“
+   OK†
 [2] Text Chunking with Provenance
-    â†“
-[3] Text-based KG Extraction â”€â”€â†’ Text Triples Output
-    â†“
+   OK†
+[3] Text-based KG ExtractionOK”€”€†’ Text Triples Output
+   OK†
 [4] Figure Detection
-    â†“
-[5] Visual KG Extraction â”€â”€â†’ Visual Triples Output
-    â†“
+   OK†
+[5] Visual KG ExtractionOK”€”€†’ Visual Triples Output
+   OK†
 [6] Output Organization & Reporting
 ```
 
@@ -99,55 +99,55 @@ The pipeline processes documents through six main stages with careful attention 
 
 ```
 PDF Document
-    â†“
+   OK†
 [Stage 1] Docling Conversion
-    â”œâ”€ Text extraction with bounding boxes
-    â”œâ”€ Table detection and structure extraction
-    â”œâ”€ Figure identification and metadata
-    â””â”€ Output: Docling JSON with full document structure
-    â†“
+   OK””€ Text extraction with bounding boxes
+   OK””€ Table detection and structure extraction
+   OK””€ Figure identification and metadata
+   OK”””€ Output: Docling JSON with full document structure
+   OK†
 [Stage 2] Text Chunking + Sentence Segmentation
-    â”œâ”€ Load spaCy en_core_web_sm model
-    â”œâ”€ Section identification (Introduction, Methods, etc.)
-    â”œâ”€ Paragraph splitting
-    â”œâ”€ Sentence segmentation using spaCy NLP:
-    â”‚   â€¢ doc = nlp(text)
-    â”‚   â€¢ for sent in doc.sents: ...
-    â”‚   â€¢ Extract sent.start_char, sent.end_char
-    â”œâ”€ Calculate document-level character offsets
-    â”œâ”€ Track page numbers and bounding boxes
-    â”œâ”€ Build sentence provenance metadata
-    â””â”€ Output: Text chunks JSONL with sentence-level provenance
-    â†“
+   OK””€ Load spaCy en_core_web_sm model
+   OK””€ Section identification (Introduction, Methods, etc.)
+   OK””€ Paragraph splitting
+   OK””€ Sentence segmentation using spaCy NLP:
+   OK”‚  OK€¢ doc = nlp(text)
+   OK”‚  OK€¢ for sent in doc.sents: ...
+   OK”‚  OK€¢ Extract sent.start_char, sent.end_char
+   OK””€ Calculate document-level character offsets
+   OK””€ Track page numbers and bounding boxes
+   OK””€ Build sentence provenance metadata
+   OK”””€ Output: Text chunks JSONL with sentence-level provenance
+   OK†
 [Stage 3] Text-based KG Extraction
-    â”œâ”€ LLM processing (Mistral 7B via Ollama)
-    â”œâ”€ Entity extraction from chunks
-    â”œâ”€ Relation extraction with context
-    â”œâ”€ Map relations back to specific sentences (using spaCy offsets)
-    â”œâ”€ Calculate confidence scores
-    â””â”€ Output: Text triples with full provenance
-    â†“
+   OK””€ LLM processing (Mistral 7B via Ollama)
+   OK””€ Entity extraction from chunks
+   OK””€ Relation extraction with context
+   OK””€ Map relations back to specific sentences (using spaCy offsets)
+   OK””€ Calculate confidence scores
+   OK”””€ Output: Text triples with full provenance
+   OK†
 [Stage 4] Figure Detection
-    â”œâ”€ Analyze Docling JSON for extractable figures
-    â”œâ”€ Count figures with valid page numbers
-    â”œâ”€ Filter non-extractable images
-    â””â”€ Decision: Proceed to visual extraction if figures present
-    â†“
+   OK””€ Analyze Docling JSON for extractable figures
+   OK””€ Count figures with valid page numbers
+   OK””€ Filter non-extractable images
+   OK”””€ Decision: Proceed to visual extraction if figures present
+   OK†
 [Stage 5] Visual KG Extraction (if figures detected)
-    â”œâ”€ Extract images from PDF using fitz
-    â”œâ”€ Match images to Docling figure metadata
-    â”œâ”€ Vision-language model processing (Qwen3-VL)
-    â”œâ”€ Extract visual entities and relationships
-    â”œâ”€ Add figure-specific provenance
-    â””â”€ Output: Visual triples with figure IDs
-    â†“
+   OK””€ Extract images from PDF using fitz
+   OK””€ Match images to Docling figure metadata
+   OK””€ Vision-language model processing (Qwen3-VL)
+   OK””€ Extract visual entities and relationships
+   OK””€ Add figure-specific provenance
+   OK”””€ Output: Visual triples with figure IDs
+   OK†
 [Stage 6] Optional: Table-Only Extraction
-    â”œâ”€ Load table elements from Docling JSON
-    â”œâ”€ Create chunks from table content
-    â”œâ”€ Sentence segmentation using spaCy (same as Stage 2)
-    â”œâ”€ LLM extraction on table chunks
-    â”œâ”€ Add table-specific provenance (table_id)
-    â””â”€ Output: Table triples (supplemental)
+   OK””€ Load table elements from Docling JSON
+   OK””€ Create chunks from table content
+   OK””€ Sentence segmentation using spaCy (same as Stage 2)
+   OK””€ LLM extraction on table chunks
+   OK””€ Add table-specific provenance (table_id)
+   OK”””€ Output: Table triples (supplemental)
 ```
 
 **Key Technical Points**:
@@ -664,18 +664,18 @@ Sentence 3: "Methanotrophs oxidize methane." (chars 20-51)
 
 ```
 output/
-â”œâ”€â”€ docling_json/          # Structured document representations
-â”‚   â””â”€â”€ paper.json
-â”œâ”€â”€ text_chunks/           # Text chunks with provenance
-â”‚   â””â”€â”€ paper.texts_chunks.jsonl
-â”œâ”€â”€ text_triples/          # Final text-based knowledge graphs
-â”‚   â””â”€â”€ paper_kg_results_TIMESTAMP.json
-â”œâ”€â”€ raw_visual_triples/    # Intermediate visual extraction (cleaned up)
-â”‚   â””â”€â”€ paper_visual_triples.json
-â”œâ”€â”€ visual_triples/        # Final visual knowledge graphs
-â”‚   â””â”€â”€ paper_visual_kg_format_TIMESTAMP.json
-â””â”€â”€ reports/              # Processing reports
-    â””â”€â”€ paper_processing_report.json
+””€”€ docling_json/          # Structured document representations
+”‚  OK”””€”€ paper.json
+””€”€ text_chunks/           # Text chunks with provenance
+”‚  OK”””€”€ paper.texts_chunks.jsonl
+””€”€ text_triples/          # Final text-based knowledge graphs
+”‚  OK”””€”€ paper_kg_results_TIMESTAMP.json
+””€”€ raw_visual_triples/    # Intermediate visual extraction (cleaned up)
+”‚  OK”””€”€ paper_visual_triples.json
+””€”€ visual_triples/        # Final visual knowledge graphs
+”‚  OK”””€”€ paper_visual_kg_format_TIMESTAMP.json
+”””€”€ reports/              # Processing reports
+   OK”””€”€ paper_processing_report.json
 ```
 
 ### File Naming Conventions
@@ -874,17 +874,17 @@ This script processes tables WITHOUT reprocessing entire papers, useful for:
 
 ```
 Existing Docling JSON
-    â†“
+   OK†
 Load table elements only
-    â†“
+   OK†
 Create chunks from table content
-    â†“
+   OK†
 Segment table text into sentences (using spaCy)
-    â†“
+   OK†
 Run LLM extraction on table chunks
-    â†“
+   OK†
 Output supplemental kg_format files (table relations only)
-    â†“
+   OK†
 Load alongside existing data
 ```
 
@@ -965,8 +965,8 @@ Table extraction creates supplemental output files:
 
 ```
 output/
-â””â”€â”€ table_triples/
-    â””â”€â”€ research_paper_table_kg_TIMESTAMP.json
+”””€”€ table_triples/
+   OK”””€”€ research_paper_table_kg_TIMESTAMP.json
 ```
 
 **Table Relation Format**:

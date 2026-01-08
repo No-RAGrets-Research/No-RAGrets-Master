@@ -16,7 +16,7 @@ Tokyo Institute of Technology, Japan
 
 Laurence Soussan, laurence.soussan@umontpellier.fr
 
-‚Ä† These authors have contributed equally to this work
+ÄOK These authors have contributed equally to this work
 
 RECEIVED 24 April 2024 ACCEPTED 29 July 2024 PUBLISHED 26 August 2024
 
@@ -36,9 +36,9 @@ doi: 10.3389/fbioe.2024.1422580
 
 ## Methane biohydroxylation into methanol by Methylosinus trichosporium OB3b: possible limitations and formate use during reaction
 
-‚Ä†
+Ä
 
-H√©lo√Øse Baldo, Azariel Ruiz-Valencia , Louis Cornette de Saint Cyr ‚Ä† , Guillaume Ramadier, Eddy Petit, Marie-Pierre Belleville, Jos√© Sanchez-Marcano and Laurence Soussan*
+H√©lo√Øse Baldo, Azariel Ruiz-Valencia , Louis Cornette de Saint CyrOKÄOK , Guillaume Ramadier, Eddy Petit, Marie-Pierre Belleville, Jos√© Sanchez-Marcano and Laurence Soussan*
 
 Institut Europ√©en des Membranes, IEM -UMR 5635, Univ. Montpellier, ENSCM, CNRS, Montpellier, France
 
@@ -62,7 +62,7 @@ COFACTOR
 
 NADH + H*
 
-–°–ù –û–ù
+–°–OK –û–
 
 METHANOL
 
@@ -74,7 +74,7 @@ Biological conversion of CH4 into MeOH ( i.e. , biohydroxylation) by methanotrop
 
 Methanol dehydrogenase (MDH) then oxidizes MeOH into formaldehyde, which is later converted into formate by formaldehyde dehydrogenase (FADH). Formate dehydrogenase (FDH) then catalyzes the /uniFB01 nal oxidation of formate into CO2,
 
-–°–ù –û–ù
+–°–OK –û–
 
 with concomitant NAD + regeneration into NADH. Thereafter, more than 60% of the CO2 produced is assimilated into the bacterial biomass (Yang et al., 2013). Thus, FDH allows regeneration of the reducing equivalents required for the catalytic activity of MMO (Figure 1).
 
@@ -318,13 +318,13 @@ A slight decrease in MeOH concentration from 305 ¬± 1 mg/L at t = 0 h to 268 ¬± 
 
 0
 
-‚Ä¢ 00-
+Ä¢ 00-
 
-‚Ä¢ [MeOH] in reference conditions
+Ä¢ [MeOH] in reference conditions
 
-‚Ä¢ [MeOH] in MeOH-supplemented at t=0h conditions
+Ä¢ [MeOH] in MeOH-supplemented at t=0h conditions
 
-‚Ä¢ [Dry biomass] in reference conditions
+Ä¢ [Dry biomass] in reference conditions
 
 FIGURE 6
 
@@ -380,7 +380,7 @@ A
 
 300 -
 
-‚Ä¢ 200
+Ä¢ 200
 
 2 150
 
@@ -438,7 +438,7 @@ The raw data supporting the conclusions of this article will be made available b
 
 ## References
 
-Aasberg-Petersen, K., Dybkj√¶r, I., Ovesen, C. V., Schj√∏dt, N. C., Sehested, J., and Thomsen, S. G. (2011). Natural gas to synthesis gas -catalysts and catalytic processes. J. Nat. Gas. Sci. Eng. 3, 423 -459. doi:10.1016/j.jngse.2011. 03.004
+Aasberg-Petersen, K., Dybkj√¶r, I., Ovesen, C. V., Schj√dt, N. C., Sehested, J., and Thomsen, S. G. (2011). Natural gas to synthesis gas -catalysts and catalytic processes. J. Nat. Gas. Sci. Eng. 3, 423 -459. doi:10.1016/j.jngse.2011. 03.004
 
 ## Author contributions
 

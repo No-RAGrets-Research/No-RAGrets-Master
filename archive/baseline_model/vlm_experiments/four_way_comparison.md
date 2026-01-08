@@ -63,7 +63,7 @@ This experiment compares four PDF processing tools on the same scientific paper 
 
 - **API-based**: Landing AI ADE, NVIDIA NeMo
 - **Local**: Docling, PyMuPDF
-- **Image-based**: NVIDIA NeMo (requires PDFâ†’image conversion)
+- **Image-based**: NVIDIA NeMo (requires PDF†’image conversion)
 - **Text-based**: All others
 
 ### Cost Structure

@@ -103,9 +103,8 @@ OPENAI_API_KEY=sk-your-key-here
 ### 1. Set Up Environment
 
 ```bash
-# Clone the repository
-git clone https://github.com/No-RAGrets-Research/No-RAGrets-Truth-Experiments-and-Pipelines.git
-cd No-RAGrets-Truth-Experiments-and-Pipelines
+# Navigate to the pipeline directory
+cd pipeline
 
 # Create and activate virtual environment
 python3 -m venv venv

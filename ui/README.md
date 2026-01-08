@@ -76,7 +76,7 @@ Supports review of:
 - GraphQL-style entity and relation queries
 - Support for Ollama (local) and OpenAI (cloud) vision models
 - Docling JSON document format
-- Neo4j knowledge graph storage
+- Dgraph knowledge graph storage
 
 ## Getting Started
 

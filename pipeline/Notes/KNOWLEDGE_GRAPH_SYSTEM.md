@@ -59,51 +59,51 @@ The **Knowledge Graph System** is the backend infrastructure that stores, manage
 ### Component Overview
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                         Frontend Apps                            â”‚
-â”‚                    (Web UI, CLI tools, etc.)                    â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                 â”‚ HTTP/REST API
-                 â†“
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                        FastAPI Server                            â”‚
-â”‚                         (api.py)                                 â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”         â”‚
-â”‚  â”‚   Search     â”‚  â”‚  Traversal   â”‚  â”‚  Analytics   â”‚         â”‚
-â”‚  â”‚  Endpoints   â”‚  â”‚  Endpoints   â”‚  â”‚  Endpoints   â”‚         â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜         â”‚
-â”‚                                                                  â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”         â”‚
-â”‚  â”‚   Query      â”‚  â”‚   Dgraph     â”‚  â”‚  LLM Review  â”‚         â”‚
-â”‚  â”‚   Builder    â”‚  â”‚   Manager    â”‚  â”‚   System     â”‚         â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜         â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                 â”‚ GraphQL/DQL
-                 â†“
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                      Dgraph Database                             â”‚
-â”‚                                                                  â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”      â”‚
-â”‚  â”‚              GraphQL Schema                           â”‚      â”‚
-â”‚  â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”          â”‚      â”‚
-â”‚  â”‚  â”‚   Node   â”‚  â”‚ Relation â”‚  â”‚  Paper   â”‚          â”‚      â”‚
-â”‚  â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜          â”‚      â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜      â”‚
-â”‚                                                                  â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”      â”‚
-â”‚  â”‚              Data Storage (Badger)                    â”‚      â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜      â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                 â”‚
-                 â†“
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                   Data Loading Pipeline                          â”‚
-â”‚                                                                  â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”         â”‚
-â”‚  â”‚ KGDataLoader â”‚  â”‚ Batch Scriptsâ”‚  â”‚   Pipeline   â”‚         â”‚
-â”‚  â”‚              â”‚  â”‚              â”‚  â”‚   Outputs    â”‚         â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜         â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚                         Frontend Apps                           OK”‚
+”‚                    (Web UI, CLI tools, etc.)                   OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”¬”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
+                OK”‚ HTTP/REST API
+                OK†
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚                        FastAPI Server                           OK”‚
+”‚                         (api.py)                                OK”‚
+”‚ OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”        OK”‚
+”‚ OK”‚   Search    OK”‚ OK”‚  Traversal  OK”‚ OK”‚  Analytics  OK”‚        OK”‚
+”‚ OK”‚  Endpoints  OK”‚ OK”‚  Endpoints  OK”‚ OK”‚  Endpoints  OK”‚        OK”‚
+”‚ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜        OK”‚
+”‚                                                                 OK”‚
+”‚ OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”        OK”‚
+”‚ OK”‚   Query     OK”‚ OK”‚   Dgraph    OK”‚ OK”‚  LLM Review OK”‚        OK”‚
+”‚ OK”‚   Builder   OK”‚ OK”‚   Manager   OK”‚ OK”‚   System    OK”‚        OK”‚
+”‚ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜        OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”¬”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
+                OK”‚ GraphQL/DQL
+                OK†
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚                      Dgraph Database                            OK”‚
+”‚                                                                 OK”‚
+”‚ OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”     OK”‚
+”‚ OK”‚              GraphQL Schema                          OK”‚     OK”‚
+”‚ OK”‚ OK””€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”         OK”‚     OK”‚
+”‚ OK”‚ OK”‚   Node  OK”‚ OK”‚ RelationOK”‚ OK”‚  Paper  OK”‚         OK”‚     OK”‚
+”‚ OK”‚ OK”””€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”˜         OK”‚     OK”‚
+”‚ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜     OK”‚
+”‚                                                                 OK”‚
+”‚ OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”     OK”‚
+”‚ OK”‚              Data Storage (Badger)                   OK”‚     OK”‚
+”‚ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜     OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”¬”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
+                OK”‚
+                OK†
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚                   Data Loading Pipeline                         OK”‚
+”‚                                                                 OK”‚
+”‚ OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”        OK”‚
+”‚ OK”‚ KGDataLoaderOK”‚ OK”‚ Batch Scripts”‚ OK”‚   Pipeline  OK”‚        OK”‚
+”‚ OK”‚             OK”‚ OK”‚             OK”‚ OK”‚   Outputs   OK”‚        OK”‚
+”‚ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜        OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
 ```
 
 ### Core Components
@@ -290,13 +290,13 @@ Common predicates in the graph:
 
 | Predicate    | Description          | Example                            |
 | ------------ | -------------------- | ---------------------------------- |
-| `causes`     | Causal relationships | Methane â†’ causes â†’ Warming         |
-| `contains`   | Compositional        | Atmosphere â†’ contains â†’ Methane    |
-| `oxidizes`   | Chemical reactions   | Methanotrophs â†’ oxidizes â†’ Methane |
-| `emits`      | Emission sources     | Wetlands â†’ emits â†’ Methane         |
-| `located_in` | Geographic           | Methanotrophs â†’ located_in â†’ Soil  |
-| `measures`   | Measurement methods  | GC â†’ measures â†’ Methane            |
-| `affects`    | General influence    | Temperature â†’ affects â†’ Emission   |
+| `causes`     | Causal relationships | MethaneOK†’ causesOK†’ Warming         |
+| `contains`   | Compositional        | AtmosphereOK†’ containsOK†’ Methane    |
+| `oxidizes`   | Chemical reactions   | MethanotrophsOK†’ oxidizesOK†’ Methane |
+| `emits`      | Emission sources     | WetlandsOK†’ emitsOK†’ Methane         |
+| `located_in` | Geographic           | MethanotrophsOK†’ located_inOK†’ Soil  |
+| `measures`   | Measurement methods  | GCOK†’ measuresOK†’ Methane            |
+| `affects`    | General influence    | TemperatureOK†’ affectsOK†’ Emission   |
 
 ### Provenance Fields
 
@@ -521,14 +521,14 @@ The pipeline produces three types of triples, each with unique characteristics:
 
 ```
 PDF Document
-    â†“
+   OK†
 KG Generation Pipeline
-    â”œâ”€ Text Extraction â†’ Text Triples
-    â”œâ”€ Visual Extraction â†’ Visual Triples
-    â””â”€ Table Extraction â†’ Table Triples
-    â†“
+   OK””€ Text ExtractionOK†’ Text Triples
+   OK””€ Visual ExtractionOK†’ Visual Triples
+   OK”””€ Table ExtractionOK†’ Table Triples
+   OK†
 Knowledge Graph System
-    â””â”€ Unified Storage with Source Attribution
+   OK”””€ Unified Storage with Source Attribution
 ```
 
 ### Text-Based Extraction
@@ -676,7 +676,7 @@ The loader prevents duplicate relations across sources:
 
 **Example Deduplication**:
 
-If both text and table extract "Wetlands â†’ emits â†’ Methane":
+If both text and table extract "WetlandsOK†’ emitsOK†’ Methane":
 
 - First occurrence stored with full provenance
 - Second occurrence skipped (existing relation UID returned)
@@ -1044,20 +1044,20 @@ The `llm_review/` directory provides automated paper quality assessment using LL
 
 ```
 llm_review/
-â”œâ”€â”€ main.py               # Orchestration script
-â”œâ”€â”€ prompts/
-â”‚   â”œâ”€â”€ rubric1_methodology.txt
-â”‚   â”œâ”€â”€ rubric2_reproducibility.txt
-â”‚   â”œâ”€â”€ rubric3_rigor.txt
-â”‚   â”œâ”€â”€ rubric4_data.txt
-â”‚   â”œâ”€â”€ rubric5_presentation.txt
-â”‚   â”œâ”€â”€ rubric6_references.txt
-â”‚   â””â”€â”€ synthesizer.txt
-â””â”€â”€ utils/
-    â”œâ”€â”€ llm_runner.py      # LLM client (OpenAI/Ollama)
-    â”œâ”€â”€ text_loader.py     # PDF text extraction
-    â”œâ”€â”€ result_merger.py   # Combine rubric outputs
-    â””â”€â”€ vision_runner.py   # Image analysis
+””€”€ main.py               # Orchestration script
+””€”€ prompts/
+”‚  OK””€”€ rubric1_methodology.txt
+”‚  OK””€”€ rubric2_reproducibility.txt
+”‚  OK””€”€ rubric3_rigor.txt
+”‚  OK””€”€ rubric4_data.txt
+”‚  OK””€”€ rubric5_presentation.txt
+”‚  OK””€”€ rubric6_references.txt
+”‚  OK”””€”€ synthesizer.txt
+”””€”€ utils/
+   OK””€”€ llm_runner.py      # LLM client (OpenAI/Ollama)
+   OK””€”€ text_loader.py     # PDF text extraction
+   OK””€”€ result_merger.py   # Combine rubric outputs
+   OK”””€”€ vision_runner.py   # Image analysis
 ```
 
 ### Review Workflow
@@ -1124,15 +1124,15 @@ curl -X POST "http://localhost:8001/api/review/paper" \
 
 ```
 outputs/
-â””â”€â”€ Smith_2023_Methane/
-    â”œâ”€â”€ rubric1_methodology_output.md
-    â”œâ”€â”€ rubric2_reproducibility_output.md
-    â”œâ”€â”€ rubric3_rigor_output.md
-    â”œâ”€â”€ rubric4_data_output.md
-    â”œâ”€â”€ rubric5_presentation_output.md
-    â”œâ”€â”€ rubric6_references_output.md
-    â”œâ”€â”€ merged_results.md
-    â””â”€â”€ final_summary.md
+”””€”€ Smith_2023_Methane/
+   OK””€”€ rubric1_methodology_output.md
+   OK””€”€ rubric2_reproducibility_output.md
+   OK””€”€ rubric3_rigor_output.md
+   OK””€”€ rubric4_data_output.md
+   OK””€”€ rubric5_presentation_output.md
+   OK””€”€ rubric6_references_output.md
+   OK””€”€ merged_results.md
+   OK”””€”€ final_summary.md
 ```
 
 ---

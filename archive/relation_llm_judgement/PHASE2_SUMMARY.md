@@ -93,19 +93,19 @@ python scripts/compare_phases.py \
 
 ### Phase 1 (Pilot - 30 relations)
 
-- âŒ Hub entity bias (28/30 from same paper)
-- âŒ Predicate imbalance (~3 unique predicates)
-- âŒ Single paper focus
-- âœ… High agreement (90%)
-- âœ… High faithfulness (4.80-5.00/5)
+-OKOK Hub entity bias (28/30 from same paper)
+-OKOK Predicate imbalance (~3 unique predicates)
+-OKOK Single paper focus
+-OKOK High agreement (90%)
+-OKOK High faithfulness (4.80-5.00/5)
 
 ### Phase 2 (Enhanced - 100 relations)
 
-- âœ… Multi-paper coverage (~5-10 papers)
-- âœ… Predicate diversity (~15-20 unique predicates)
-- âœ… Confidence calibration testing
-- âœ… Error pattern targeting
-- âš ï¸ Agreement may drop (reveals edge cases)
+-OKOK Multi-paper coverage (~5-10 papers)
+-OKOK Predicate diversity (~15-20 unique predicates)
+-OKOK Confidence calibration testing
+-OKOK Error pattern targeting
+-OKOK Agreement may drop (reveals edge cases)
 - ğŸ¯ More realistic quality assessment
 
 ---
@@ -197,10 +197,10 @@ Phase 2 creates:
 
 ```
 results/phase2_YYYYMMDD_HHMMSS/
-â”œâ”€â”€ results_full.json           # Complete judgment data
-â”œâ”€â”€ results_summary.csv         # Flattened for analysis
-â”œâ”€â”€ statistics.json             # Performance metrics
-â””â”€â”€ sampling_report.json        # Strategy distribution & diversity
+””€”€ results_full.json           # Complete judgment data
+””€”€ results_summary.csv         # Flattened for analysis
+””€”€ statistics.json             # Performance metrics
+”””€”€ sampling_report.json        # Strategy distribution & diversity
 ```
 
 ---

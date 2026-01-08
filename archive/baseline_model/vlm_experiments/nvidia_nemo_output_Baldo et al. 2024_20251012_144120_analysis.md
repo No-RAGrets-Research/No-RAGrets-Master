@@ -87,10 +87,10 @@
 ## Technical Notes
 
 ### Processing Pipeline:
-1. PDF â†’ High-resolution images (300 DPI)
-2. Images â†’ NVIDIA NeMo API (3 modes)
-3. API responses â†’ Aggregated analysis
-4. Cleanup â†’ Remove temporary files
+1. PDFOK†’ High-resolution images (300 DPI)
+2. ImagesOK†’ NVIDIA NeMo API (3 modes)
+3. API responsesOK†’ Aggregated analysis
+4. CleanupOK†’ Remove temporary files
 
 ### API Usage:
 - **Model**: nvidia/nemoretriever-parse

@@ -40,9 +40,9 @@ For each hub entity:
 - Use `/api/entities/{entity_name}/connections?max_relations=1000`
 - Sample relations where the hub is either subject OR object
 - Target coverage:
-  - **Pilot**: Top 5 hub entities â†’ 25-50 relations
-  - **Full Study**: Top 20-30 hub entities â†’ 100-200 relations
-  - **Extended**: Top 50 hub entities â†’ 250-500 relations
+  - **Pilot**: Top 5 hub entitiesOK†’ 25-50 relations
+  - **Full Study**: Top 20-30 hub entitiesOK†’ 100-200 relations
+  - **Extended**: Top 50 hub entitiesOK†’ 250-500 relations
 
 **Step 3: Diversification Within Hub Sample**
 
@@ -149,7 +149,7 @@ Object: {object}
 You are shown a PDF page section with a highlighted region. An extraction system identified a relation from this text.
 
 **Extracted Relation:**
-{subject} â†’ {predicate} â†’ {object}
+{subject}OK†’ {predicate}OK†’ {object}
 
 **Task:**
 1. Can you find this relation in the highlighted text?
@@ -193,8 +193,8 @@ You are shown a PDF page section with a highlighted region. An extraction system
 For each relation:
 
 - For each judge model:
-  - Send text-based prompt â†’ record response
-  - Send image-based prompt (for vision models) â†’ record response
+  - Send text-based promptOK†’ record response
+  - Send image-based prompt (for vision models)OK†’ record response
 - Store all judgments in structured format (JSON/CSV)
 
 ### Step 3: Human Validation
@@ -317,7 +317,7 @@ CSV/JSON with columns:
 
 ### Insights for Graph Improvement
 
-- **Network-Level Quality**: If hub relations are high quality â†’ graph is reliable
+- **Network-Level Quality**: If hub relations are high qualityOK†’ graph is reliable
 - **Targeted Fixes**: Identify which hub entities need extraction improvements
 - **Priority Ranking**: Focus remediation efforts on highest-impact relations
 - **Extraction Model Fine-tuning**: Guide where to improve the extraction system

@@ -2,9 +2,9 @@
 
 ## Current Dimensions (Pilot)
 
-- âœ… **Accuracy**: Is the triple correct? (Binary)
-- âœ… **Faithfulness**: How directly stated? (1-5)
-- âœ… **Boundary Quality**: Are entity spans correct? (1-5)
+-OKOK **Accuracy**: Is the triple correct? (Binary)
+-OKOK **Faithfulness**: How directly stated? (1-5)
+-OKOK **Boundary Quality**: Are entity spans correct? (1-5)
 
 ---
 
@@ -23,7 +23,7 @@
 **Example**:
 
 - Text: "Methanotrophs convert methane to methanol using MMO enzymes at 30Â°C"
-- Extraction: `Methanotrophs â†’ convert â†’ methane`
+- Extraction: `MethanotrophsOK†’ convertOK†’ methane`
 - Issue: Missing "to methanol" (the product) - Score: 2/5
 
 **Why Critical**: Under-specified relations can be factually correct but scientifically useless.
@@ -42,8 +42,8 @@
 
 **Example**:
 
-- Bad: `Enzyme â†’ acts on â†’ Substrate` (Score: 2/5)
-- Good: `MMO â†’ hydroxylates â†’ methane` (Score: 5/5)
+- Bad: `EnzymeOK†’ acts onOK†’ Substrate` (Score: 2/5)
+- Good: `MMOOK†’ hydroxylatesOK†’ methane` (Score: 5/5)
 
 **Why Critical**: Vague predicates reduce graph utility for scientific queries.
 
@@ -61,8 +61,8 @@
 **Example**:
 
 - Text: "Methane oxidation produces methanol, which is then converted to formaldehyde"
-- Wrong: `formaldehyde â†’ produces â†’ methanol` (reversed causality)
-- Right: `methanol â†’ is converted to â†’ formaldehyde`
+- Wrong: `formaldehydeOK†’ producesOK†’ methanol` (reversed causality)
+- Right: `methanolOK†’ is converted toOK†’ formaldehyde`
 
 **Why Critical**: Wrong directionality breaks reasoning chains.
 
@@ -81,7 +81,7 @@
 **Example**:
 
 - Text: "Methane has 28-34 times higher GWP than CO2 over 100 years"
-- Extraction: `Methane â†’ has â†’ 28-34 times higher global warming potential...`
+- Extraction: `MethaneOK†’ hasOK†’ 28-34 times higher global warming potential...`
 - Check: Are the numbers (28-34, 100 years) preserved correctly?
 
 **Why Critical**: Scientific precision depends on accurate quantitative data.
@@ -100,8 +100,8 @@
 
 **Example**:
 
-- Ambiguous: `Type I methanotrophs â†’ use â†’ MMO` (which MMO? pMMO or sMMO?)
-- Specific: `Type I methanotrophs â†’ use â†’ particulate MMO (pMMO)`
+- Ambiguous: `Type I methanotrophsOK†’ useOK†’ MMO` (which MMO? pMMO or sMMO?)
+- Specific: `Type I methanotrophsOK†’ useOK†’ particulate MMO (pMMO)`
 
 **Why Critical**: Ambiguous entities reduce graph linkability and query precision.
 
@@ -137,7 +137,7 @@
 **Example**:
 
 - Text: "Type II methanotrophs do NOT produce methanol efficiently"
-- Wrong: `Type II methanotrophs â†’ produce â†’ methanol` âŒ
+- Wrong: `Type II methanotrophsOK†’ produceOK†’ methanol`OK
 - Right: Should either skip or mark as negative relation
 
 **Why Critical**: Extracting false positives from negative statements is a major error.
@@ -159,7 +159,7 @@
 **Example**:
 
 - Text: "Methanotrophs are used in methanol production"
-- Hallucination: `Methanotrophs â†’ produce large quantities of â†’ methanol` (added "large quantities")
+- Hallucination: `MethanotrophsOK†’ produce large quantities ofOK†’ methanol` (added "large quantities")
 
 **Why Critical**: Distinguishes actual vs. inferred knowledge.
 
@@ -177,7 +177,7 @@
 **Example**:
 
 - Text: "Some methanotrophs can potentially convert methane under anaerobic conditions"
-- Loss: `Methanotrophs â†’ convert â†’ methane` (missing "some", "potentially", "anaerobic")
+- Loss: `MethanotrophsOK†’ convertOK†’ methane` (missing "some", "potentially", "anaerobic")
 
 **Why Important**: Qualifiers affect applicability of knowledge.
 
@@ -194,8 +194,8 @@
 
 **Example**:
 
-- Paper A: `Methane â†’ has GWP of â†’ 28 times CO2`
-- Paper B: `Methane â†’ has GWP of â†’ 34 times CO2`
+- Paper A: `MethaneOK†’ has GWP ofOK†’ 28 times CO2`
+- Paper B: `MethaneOK†’ has GWP ofOK†’ 34 times CO2`
 - Flag: Inconsistency (actually both correct for different time horizons)
 
 **Why Important**: Validates extraction reliability and identifies evolving knowledge.
@@ -206,10 +206,10 @@
 
 ### **Phase 2 (Next - High Priority)**
 
-1. âœ… **Contextual Completeness** - Are relations fully specified?
-2. âœ… **Relation Specificity** - Are predicates specific enough?
-3. âœ… **Negation Handling** - False positives from negative statements?
-4. âœ… **Hallucination Detection** - Distinguishes actual vs. inferred
+1.OKOK **Contextual Completeness** - Are relations fully specified?
+2.OKOK **Relation Specificity** - Are predicates specific enough?
+3.OKOK **Negation Handling** - False positives from negative statements?
+4.OKOK **Hallucination Detection** - Distinguishes actual vs. inferred
 
 ### **Phase 3 (Medium Priority)**
 

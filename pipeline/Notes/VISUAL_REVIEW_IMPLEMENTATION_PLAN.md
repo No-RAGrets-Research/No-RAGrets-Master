@@ -11,10 +11,10 @@ Extend the paper review system to support figure and table analysis using vision
 ### Current State (Text-Only)
 
 ```
-PDF â†’ Docling â†’ export_to_markdown() â†’ Text Review Endpoints
-                                      â†“
+PDFOK†’ DoclingOK†’ export_to_markdown()OK†’ Text Review Endpoints
+                                     OK†
                                   LLM (Ollama/GPT-4o-mini)
-                                      â†“
+                                     OK†
                                   Rubric Evaluations
 ```
 
@@ -27,17 +27,17 @@ PDF â†’ Docling â†’ export_to_markdown() â†’ Text Review Endpoints
 ### Proposed State (Multimodal)
 
 ```
-PDF â†’ Docling JSON
-         â”œâ”€â†’ export_to_markdown() â†’ Text Review (existing)
-         â”‚                           â†“
-         â”‚                       Text LLM (Ollama/GPT-4o-mini)
-         â”‚
-         â”œâ”€â†’ figures[] â†’ Extract Images â†’ Figure Review (new)
-         â”‚                                  â†“
-         â”‚                              Vision LLM (GPT-4o/Qwen-VL)
-         â”‚
-         â””â”€â†’ tables[] â†’ Structured Data â†’ Table Review (new)
-                                           â†“
+PDFOK†’ Docling JSON
+        OK””€†’ export_to_markdown()OK†’ Text Review (existing)
+        OK”‚                          OK†
+        OK”‚                       Text LLM (Ollama/GPT-4o-mini)
+        OK”‚
+        OK””€†’ figures[]OK†’ Extract ImagesOK†’ Figure Review (new)
+        OK”‚                                 OK†
+        OK”‚                              Vision LLM (GPT-4o/Qwen-VL)
+        OK”‚
+        OK”””€†’ tables[]OK†’ Structured DataOK†’ Table Review (new)
+                                          OK†
                                        Text LLM (any model)
 ```
 
@@ -304,33 +304,33 @@ PDF â†’ Docling JSON
 
 ```
 knowledge_graph/
-â”œâ”€â”€ llm_review/
-â”‚   â”œâ”€â”€ prompts/
-â”‚   â”‚   â”œâ”€â”€ rubric1_methodology.txt          (existing)
-â”‚   â”‚   â”œâ”€â”€ rubric2_reproducibility.txt      (existing)
-â”‚   â”‚   â”œâ”€â”€ rubric3_rigor.txt                (existing)
-â”‚   â”‚   â”œâ”€â”€ rubric4_data.txt                 (existing)
-â”‚   â”‚   â”œâ”€â”€ rubric5_presentation.txt         (existing)
-â”‚   â”‚   â”œâ”€â”€ rubric6_references.txt           (existing)
-â”‚   â”‚   â”œâ”€â”€ rubric_figures.txt               (new - Phase 2)
-â”‚   â”‚   â”œâ”€â”€ rubric_tables.txt                (new - Phase 3)
-â”‚   â”‚   â””â”€â”€ synthesizer.txt                  (existing, update Phase 4)
-â”‚   â”‚
-â”‚   â””â”€â”€ utils/
-â”‚       â”œâ”€â”€ llm_runner.py                    (existing - text models)
-â”‚       â”œâ”€â”€ vision_runner.py                 (new - Phase 1)
-â”‚       â”œâ”€â”€ figure_extractor.py              (new - Phase 2)
-â”‚       â”œâ”€â”€ table_extractor.py               (new - Phase 3)
-â”‚       â”œâ”€â”€ result_merger.py                 (existing, update Phase 4)
-â”‚       â”œâ”€â”€ text_loader.py                   (existing)
-â”‚       â””â”€â”€ formatter.py                     (existing)
-â”‚
-â”œâ”€â”€ api.py                                   (update all phases)
-â””â”€â”€ .env                                     (update Phase 1)
+””€”€ llm_review/
+”‚  OK””€”€ prompts/
+”‚  OK”‚  OK””€”€ rubric1_methodology.txt          (existing)
+”‚  OK”‚  OK””€”€ rubric2_reproducibility.txt      (existing)
+”‚  OK”‚  OK””€”€ rubric3_rigor.txt                (existing)
+”‚  OK”‚  OK””€”€ rubric4_data.txt                 (existing)
+”‚  OK”‚  OK””€”€ rubric5_presentation.txt         (existing)
+”‚  OK”‚  OK””€”€ rubric6_references.txt           (existing)
+”‚  OK”‚  OK””€”€ rubric_figures.txt               (new - Phase 2)
+”‚  OK”‚  OK””€”€ rubric_tables.txt                (new - Phase 3)
+”‚  OK”‚  OK”””€”€ synthesizer.txt                  (existing, update Phase 4)
+”‚  OK”‚
+”‚  OK”””€”€ utils/
+”‚      OK””€”€ llm_runner.py                    (existing - text models)
+”‚      OK””€”€ vision_runner.py                 (new - Phase 1)
+”‚      OK””€”€ figure_extractor.py              (new - Phase 2)
+”‚      OK””€”€ table_extractor.py               (new - Phase 3)
+”‚      OK””€”€ result_merger.py                 (existing, update Phase 4)
+”‚      OK””€”€ text_loader.py                   (existing)
+”‚      OK”””€”€ formatter.py                     (existing)
+”‚
+””€”€ api.py                                   (update all phases)
+”””€”€ .env                                     (update Phase 1)
 
 Documentation/
-â”œâ”€â”€ API_ENDPOINTS.md                         (update Phase 5)
-â””â”€â”€ VISUAL_REVIEW_IMPLEMENTATION_PLAN.md    (this file)
+””€”€ API_ENDPOINTS.md                         (update Phase 5)
+”””€”€ VISUAL_REVIEW_IMPLEMENTATION_PLAN.md    (this file)
 ```
 
 ---
@@ -548,7 +548,7 @@ VISION_MODEL=gpt-4o
 
    - OCR for text in figures
    - Data extraction from charts
-   - Reproducibility checks (code â†’ figure match)
+   - Reproducibility checks (codeOK†’ figure match)
 
 6. **Interactive Review**
    - Ask follow-up questions

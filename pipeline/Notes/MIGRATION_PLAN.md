@@ -34,20 +34,20 @@ Each rubric uses a 3-tier evaluation system:
 
 ```
 knowledge_graph/llm_review/
-â”œâ”€â”€ main.py                    # Standalone batch processor
-â”œâ”€â”€ prompts/
-â”‚   â”œâ”€â”€ rubric1_methodology.txt
-â”‚   â”œâ”€â”€ rubric2_reproducibility.txt
-â”‚   â”œâ”€â”€ rubric3_rigor.txt
-â”‚   â”œâ”€â”€ rubric4_data.txt
-â”‚   â”œâ”€â”€ rubric5_presentation.txt
-â”‚   â”œâ”€â”€ rubric6_references.txt
-â”‚   â””â”€â”€ synthesizer.txt
-â””â”€â”€ utils/
-    â”œâ”€â”€ text_loader.py         # Docling PDF to markdown
-    â”œâ”€â”€ llm_runner.py          # OpenAI/Ollama client
-    â”œâ”€â”€ result_merger.py       # Concatenate rubric outputs
-    â””â”€â”€ formatter.py           # Output formatting
+””€”€ main.py                    # Standalone batch processor
+””€”€ prompts/
+”‚  OK””€”€ rubric1_methodology.txt
+”‚  OK””€”€ rubric2_reproducibility.txt
+”‚  OK””€”€ rubric3_rigor.txt
+”‚  OK””€”€ rubric4_data.txt
+”‚  OK””€”€ rubric5_presentation.txt
+”‚  OK””€”€ rubric6_references.txt
+”‚  OK”””€”€ synthesizer.txt
+”””€”€ utils/
+   OK””€”€ text_loader.py         # Docling PDF to markdown
+   OK””€”€ llm_runner.py          # OpenAI/Ollama client
+   OK””€”€ result_merger.py       # Concatenate rubric outputs
+   OK”””€”€ formatter.py           # Output formatting
 ```
 
 ### API Integration
@@ -601,7 +601,7 @@ This module provides comprehensive evaluation of scientific papers using 6 speci
 
 ````
 
-Input (PDF/Text) â†’ 6 Rubric Evaluations â†’ Merge â†’ Meta-Synthesis â†’ Final Review
+Input (PDF/Text)OK†’ 6 Rubric EvaluationsOK†’ MergeOK†’ Meta-SynthesisOK†’ Final Review
 
 ````
 
@@ -692,20 +692,20 @@ Production (high quality):
 
 ```
 llm_review/
-â”œâ”€â”€ main.py                    # Standalone batch processor
-â”œâ”€â”€ prompts/                   # Rubric prompt templates
-â”‚   â”œâ”€â”€ rubric1_methodology.txt
-â”‚   â”œâ”€â”€ rubric2_reproducibility.txt
-â”‚   â”œâ”€â”€ rubric3_rigor.txt
-â”‚   â”œâ”€â”€ rubric4_data.txt
-â”‚   â”œâ”€â”€ rubric5_presentation.txt
-â”‚   â”œâ”€â”€ rubric6_references.txt
-â”‚   â””â”€â”€ synthesizer.txt
-â””â”€â”€ utils/
-    â”œâ”€â”€ text_loader.py         # PDF â†’ markdown conversion
-    â”œâ”€â”€ llm_runner.py          # LLM client abstraction
-    â”œâ”€â”€ result_merger.py       # Output consolidation
-    â””â”€â”€ formatter.py           # Result formatting
+””€”€ main.py                    # Standalone batch processor
+””€”€ prompts/                   # Rubric prompt templates
+”‚  OK””€”€ rubric1_methodology.txt
+”‚  OK””€”€ rubric2_reproducibility.txt
+”‚  OK””€”€ rubric3_rigor.txt
+”‚  OK””€”€ rubric4_data.txt
+”‚  OK””€”€ rubric5_presentation.txt
+”‚  OK””€”€ rubric6_references.txt
+”‚  OK”””€”€ synthesizer.txt
+”””€”€ utils/
+   OK””€”€ text_loader.py         # PDFOK†’ markdown conversion
+   OK””€”€ llm_runner.py          # LLM client abstraction
+   OK””€”€ result_merger.py       # Output consolidation
+   OK”””€”€ formatter.py           # Result formatting
 ```
 
 ````

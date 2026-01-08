@@ -59,17 +59,17 @@ This directory contains comprehensive experiments comparing four different PDF p
 
 ### Table Processing
 
-- **PyMuPDF**: âŒ No table detection (sees as plain text)
-- **Docling**: âœ… **2 tables extracted** with proper structure
-- **Landing AI**: âœ… Advanced table understanding and content analysis
-- **NVIDIA NeMo**: âœ… Basic table detection capabilities
+- **PyMuPDF** Completed SuccessfullyNo table detection (sees as plain text)
+- **Docling** Completed Successfully**2 tables extracted** with proper structure
+- **Landing AI** Completed SuccessfullyAdvanced table understanding and content analysis
+- **NVIDIA NeMo** Completed SuccessfullyBasic table detection capabilities
 
 ### Image/Figure Analysis
 
-- **PyMuPDF**: âŒ No image processing (0 image chunks)
-- **Docling**: âš ï¸ Basic image detection (9 image placeholders)
-- **Landing AI**: âœ… **Detailed figure descriptions** and visual understanding
-- **NVIDIA NeMo**: âœ… Image-based analysis with OCR capabilities
+- **PyMuPDF** Completed SuccessfullyNo image processing (0 image chunks)
+- **Docling** Completed SuccessfullyBasic image detection (9 image placeholders)
+- **Landing AI** Completed Successfully**Detailed figure descriptions** and visual understanding
+- **NVIDIA NeMo** Completed SuccessfullyImage-based analysis with OCR capabilities
 
 ### Document Structure
 
@@ -84,8 +84,8 @@ This directory contains comprehensive experiments comparing four different PDF p
 | ----------- | ---------- | ------ | ------ | ------ | ------------ | ------------- |
 | PyMuPDF     | 63,106     | 13     | 0      | 0      | Local/Fast   | Free          |
 | Docling     | 62,137     | 11     | 2      | 9      | Local/Medium | Free          |
-| Landing AI  | 81,685     | 208    | âœ“      | âœ“      | API/Slow     | $0.10/page\*  |
-| NVIDIA NeMo | 60,320     | 26     | âœ“      | âœ“      | API/Medium   | $0.002/page\* |
+| Landing AI  | 81,685     | 208    |OKOK      |OKOK      | API/Slow     | $0.10/page\*  |
+| NVIDIA NeMo | 60,320     | 26     |OKOK      |OKOK      | API/Medium   | $0.002/page\* |
 
 \*Approximate costs based on API pricing
 
@@ -155,12 +155,12 @@ This directory contains comprehensive experiments comparing four different PDF p
 
 ```
 vlm_experiments/
-â”œâ”€â”€ VLM_EXPERIMENTS_SUMMARY.md          # This file
-â”œâ”€â”€ four_way_comparison.md              # Comprehensive comparison
-â”œâ”€â”€ *_experiment.py                     # Experiment scripts
-â”œâ”€â”€ *_output_*.json                     # Raw outputs
-â”œâ”€â”€ *_analysis.md                       # Analysis reports
-â””â”€â”€ test_documents/                     # Test PDFs
+””€”€ VLM_EXPERIMENTS_SUMMARY.md          # This file
+””€”€ four_way_comparison.md              # Comprehensive comparison
+””€”€ *_experiment.py                     # Experiment scripts
+””€”€ *_output_*.json                     # Raw outputs
+””€”€ *_analysis.md                       # Analysis reports
+”””€”€ test_documents/                     # Test PDFs
 ```
 
 ---

@@ -289,7 +289,7 @@
 
 
 ### Kumar et al. 2019.pdf
-*PAPER â€¢ OPEN ACCESS*
+*PAPEROK€¢ OPEN ACCESS*
 
 **References:**
 - Jiang et al. 2023.pdf: *Biological conversion of methane to methanol at high H2S concentrations with an H2S-tolerant methanotrophic consortium*

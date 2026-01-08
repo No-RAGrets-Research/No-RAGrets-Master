@@ -12,32 +12,32 @@ It now successfully supports both text and image extraction, merging, and graph 
 
 ```
 llm_to_knowledge_graph/
-â”‚
-â”œâ”€â”€ main.py                        # Full pipeline runner
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ pdf_to_text.py             # Step 1A: PDF â†’ structured JSON (Docling)
-â”‚   â”œâ”€â”€ pdf_to_image.py            # Step 1B: Extract figures & captions via PyMuPDF
-â”‚   â”œâ”€â”€ chunk_text.py              # Step 2: Split text into ~1000-char chunks
-â”‚   â”œâ”€â”€ extract_triples_text.py    # Step 3A: Text-based triple extraction (Qwen2.5)
-â”‚   â”œâ”€â”€ extract_triples_visual.py  # Step 3B: Visual triple extraction (Qwen3-VL)
-â”‚   â”œâ”€â”€ merge_triples.py           # Step 4: Combine textual + visual triples
-â”‚   â”œâ”€â”€ merge_clean_graph.py       # Step 5: Clean, normalize, and export graphs
-â”‚   â””â”€â”€ visualize_graph.py         # (Optional) Visual graph rendering utilities
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ papers_pdf/                # Input PDFs (50 total)
-â”‚   â”œâ”€â”€ parsed_json/               # Docling outputs
-â”‚   â”œâ”€â”€ chunks/                    # Chunked text segments
-â”‚   â”œâ”€â”€ images/                    # Extracted figures + metadata per paper
-â”‚   â”œâ”€â”€ triples_text/              # Textual triples (JSON per paper)
-â”‚   â”œâ”€â”€ triples_visual/            # Visual triples (JSON per paper)
-â”‚   â”œâ”€â”€ triples_merged/            # Combined triples
-â”‚   â””â”€â”€ graph_per_paper/           # Per-paper graphs (.png + .gpickle)
-â”‚
-â””â”€â”€ outputs/
-    â”œâ”€â”€ merged_triples.json        # Global merged triple file
-    â””â”€â”€ knowledge_graph.gpickle    # Combined KG for analysis
+”‚
+””€”€ main.py                        # Full pipeline runner
+”‚
+””€”€ src/
+”‚  OK””€”€ pdf_to_text.py             # Step 1A: PDFOK†’ structured JSON (Docling)
+”‚  OK””€”€ pdf_to_image.py            # Step 1B: Extract figures & captions via PyMuPDF
+”‚  OK””€”€ chunk_text.py              # Step 2: Split text into ~1000-char chunks
+”‚  OK””€”€ extract_triples_text.py    # Step 3A: Text-based triple extraction (Qwen2.5)
+”‚  OK””€”€ extract_triples_visual.py  # Step 3B: Visual triple extraction (Qwen3-VL)
+”‚  OK””€”€ merge_triples.py           # Step 4: Combine textual + visual triples
+”‚  OK””€”€ merge_clean_graph.py       # Step 5: Clean, normalize, and export graphs
+”‚  OK”””€”€ visualize_graph.py         # (Optional) Visual graph rendering utilities
+”‚
+””€”€ data/
+”‚  OK””€”€ papers_pdf/                # Input PDFs (50 total)
+”‚  OK””€”€ parsed_json/               # Docling outputs
+”‚  OK””€”€ chunks/                    # Chunked text segments
+”‚  OK””€”€ images/                    # Extracted figures + metadata per paper
+”‚  OK””€”€ triples_text/              # Textual triples (JSON per paper)
+”‚  OK””€”€ triples_visual/            # Visual triples (JSON per paper)
+”‚  OK””€”€ triples_merged/            # Combined triples
+”‚  OK”””€”€ graph_per_paper/           # Per-paper graphs (.png + .gpickle)
+”‚
+”””€”€ outputs/
+   OK””€”€ merged_triples.json        # Global merged triple file
+   OK”””€”€ knowledge_graph.gpickle    # Combined KG for analysis
 ```
 
 ---
@@ -47,14 +47,14 @@ llm_to_knowledge_graph/
 
 | Step                                  | Description                                  | Model / Tool            | Status           |
 | ------------------------------------- | -------------------------------------------- | ----------------------- | ---------------- |
-| **1A. PDF â†’ JSON**                   | Parse structured text using**Docling**       | `docling-parse`         | âœ… Done          |
-| **1B. PDF â†’ Image (Figures)**        | Extract figures + captions via**PyMuPDF**    | `fitz (PyMuPDF)`        | âœ… Done          |
-| **2. Text Chunking**                  | Split text into semantic\~1000-char chunks   | Python                  | âœ… Done          |
-| **3A. Text Triples**                  | Extract text-based triples                   | `Qwen2.5-1.5B-Instruct` | âœ… Done          |
-| **3B. Visual Triples**                | Extract figure-based triples                 | `Qwen3-VL-4B-Instruct`  | âœ… Fully working |
-| **4. Merge Triples**                  | Merge text + visual triples per paper        | Python                  | âœ… Done          |
-| **5. Graph Construction**             | Build per-paper and global graphs            | `NetworkX`+`matplotlib` | âœ… Done          |
-| **6. Graph Cleaning / Visualization** | Normalize entity names, export clean layouts | In progress             | âš™ï¸ Planned     |
+| **1A. PDFOK†’ JSON**                   | Parse structured text using**Docling**       | `docling-parse`         |OKOK Done          |
+| **1B. PDFOK†’ Image (Figures)**        | Extract figures + captions via**PyMuPDF**    | `fitz (PyMuPDF)`        |OKOK Done          |
+| **2. Text Chunking**                  | Split text into semantic\~1000-char chunks   | Python                  |OKOK Done          |
+| **3A. Text Triples**                  | Extract text-based triples                   | `Qwen2.5-1.5B-Instruct` |OKOK Done          |
+| **3B. Visual Triples**                | Extract figure-based triples                 | `Qwen3-VL-4B-Instruct`  |OKOK Fully working |
+| **4. Merge Triples**                  | Merge text + visual triples per paper        | Python                  |OKOK Done          |
+| **5. Graph Construction**             | Build per-paper and global graphs            | `NetworkX`+`matplotlib` |OKOK Done          |
+| **6. Graph Cleaning / Visualization** | Normalize entity names, export clean layouts | In progress             |OK™OK Planned     |
 
 ---
 
@@ -71,15 +71,15 @@ llm_to_knowledge_graph/
 
 ---
 
-## âš ï¸ Known Issues
+##OKOK Known Issues
 
 
 | Category                          | Description                                                   | Planned Fix                                               |
 | --------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------- |
-| **Tiny/blank images**             | Some PDFs contain <100Ã—100 px images; skipped automatically. | âœ… Already filtered                                       |
-| **VRAM fragmentation (Qwen3-VL)** | Out-of-memory errors after many batches.                      | âœ… Mitigated via`torch.cuda.empty_cache()`+`gc.collect()` |
-| **Noisy triples**                 | Some decoded strings are not valid JSON triples.              | âš™ï¸ To be post-cleaned                                   |
-| **Graph redundancy**              | Entity duplicates (e.g.,`CHâ‚„`,`methane`,`Methane`).          | ğŸ”§ Normalization in next release                          |
+| **Tiny/blank images**             | Some PDFs contain <100Ã—100 px images; skipped automatically. |OKOK Already filtered                                       |
+| **VRAM fragmentation (Qwen3-VL)** | Out-of-memory errors after many batches.                      |OKOK Mitigated via`torch.cuda.empty_cache()`+`gc.collect()` |
+| **Noisy triples**                 | Some decoded strings are not valid JSON triples.              |OK™OK To be post-cleaned                                   |
+| **Graph redundancy**              | Entity duplicates (e.g.,`CH‚„`,`methane`,`Methane`).          | ğŸ”§ Normalization in next release                          |
 
 ---
 
@@ -87,20 +87,20 @@ llm_to_knowledge_graph/
 
 ```
 PDF (input)
-  â†“
-Docling â†’ structured JSON text
-  â†“
-PyMuPDF â†’ extracted figures & captions
-  â†“
-Qwen2.5-1.5B â†’ text triples
-  â†“
-Qwen3-VL-4B â†’ visual triples
-  â†“
-merge_triples.py â†’ unified JSON
-  â†“
-merge_clean_graph.py â†’ per-paper KGs
-  â†“
-outputs/knowledge_graph.gpickle â†’ combined KG
+ OK†
+DoclingOK†’ structured JSON text
+ OK†
+PyMuPDFOK†’ extracted figures & captions
+ OK†
+Qwen2.5-1.5BOK†’ text triples
+ OK†
+Qwen3-VL-4BOK†’ visual triples
+ OK†
+merge_triples.pyOK†’ unified JSON
+ OK†
+merge_clean_graph.pyOK†’ per-paper KGs
+ OK†
+outputs/knowledge_graph.gpickleOK†’ combined KG
 ```
 
 ---
@@ -135,18 +135,18 @@ python src/merge_clean_graph.py
 | Transformers    | 4.57                         |
 | Docling         | 2.58                         |
 | Poppler         | Installed (for`pdf2image`)   |
-| Peak Memory Use | â‰ˆ 9 GB (Qwen3-VL-4B)        |
+| Peak Memory Use |OK‰ˆ 9 GB (Qwen3-VL-4B)        |
 
 ## Future Work
 
 1. **Entity normalization & relation cleaning**
-   â†’ unify synonyms, normalize relation verbs
+  OK†’ unify synonyms, normalize relation verbs
 2. **Visual-Text Graph Fusion**
-   â†’ link visual and textual entities through shared nodes
+  OK†’ link visual and textual entities through shared nodes
 3. **Graph metrics analysis**
-   â†’ degree / centrality / density statistics per paper
+  OK†’ degree / centrality / density statistics per paper
 4. **Neo4j or Graphviz export**
-   â†’ enable interactive browsing of extracted KGs
+  OK†’ enable interactive browsing of extracted KGs
 
 ## Summary
 

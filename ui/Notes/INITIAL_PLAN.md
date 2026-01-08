@@ -96,78 +96,78 @@ An interactive web application for exploring scientific research papers through 
 
 ```
 no-ragrets-ui/
-â”œâ”€â”€ public/
-â”‚   â””â”€â”€ papers/                 # Static PDF files (symlinked or copied)
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ components/
-â”‚   â”‚   â”œâ”€â”€ pdf-viewer/
-â”‚   â”‚   â”‚   â”œâ”€â”€ PDFViewer.tsx          # Main PDF viewer component
-â”‚   â”‚   â”‚   â”œâ”€â”€ PDFHighlighter.tsx     # Overlay for highlighting relations
-â”‚   â”‚   â”‚   â”œâ”€â”€ TextSelector.tsx       # Handle text selection
-â”‚   â”‚   â”‚   â””â”€â”€ FigureMarker.tsx       # Mark and click figures
-â”‚   â”‚   â”œâ”€â”€ graph/
-â”‚   â”‚   â”‚   â”œâ”€â”€ KnowledgeGraph.tsx     # Main graph visualization
-â”‚   â”‚   â”‚   â”œâ”€â”€ GraphNode.tsx          # Custom node component
-â”‚   â”‚   â”‚   â”œâ”€â”€ GraphEdge.tsx          # Custom edge component
-â”‚   â”‚   â”‚   â””â”€â”€ GraphControls.tsx      # Zoom, filter, layout controls
-â”‚   â”‚   â”œâ”€â”€ explorer/
-â”‚   â”‚   â”‚   â”œâ”€â”€ EntityPanel.tsx        # Entity details sidebar
-â”‚   â”‚   â”‚   â”œâ”€â”€ RelationPanel.tsx      # Relation details sidebar
-â”‚   â”‚   â”‚   â”œâ”€â”€ CrossPaperView.tsx     # Cross-paper comparison
-â”‚   â”‚   â”‚   â””â”€â”€ ProvenancePanel.tsx    # Source provenance details
-â”‚   â”‚   â”œâ”€â”€ llm/
-â”‚   â”‚   â”‚   â”œâ”€â”€ LLMAnalyzer.tsx        # LLM analysis interface
-â”‚   â”‚   â”‚   â”œâ”€â”€ PromptEditor.tsx       # Custom prompt input
-â”‚   â”‚   â”‚   â”œâ”€â”€ RubricConfig.tsx       # Rubric configuration
-â”‚   â”‚   â”‚   â””â”€â”€ AnalysisResults.tsx    # Display analysis results
-â”‚   â”‚   â”œâ”€â”€ layout/
-â”‚   â”‚   â”‚   â”œâ”€â”€ MainLayout.tsx         # App shell
-â”‚   â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx            # Navigation sidebar
-â”‚   â”‚   â”‚   â””â”€â”€ ResizablePanels.tsx    # Split view layout
-â”‚   â”‚   â””â”€â”€ common/
-â”‚   â”‚       â”œâ”€â”€ SearchBar.tsx          # Entity/relation search
-â”‚   â”‚       â”œâ”€â”€ PaperList.tsx          # Paper selection
-â”‚   â”‚       â””â”€â”€ FilterPanel.tsx        # Filtering controls
-â”‚   â”œâ”€â”€ services/
-â”‚   â”‚   â”œâ”€â”€ api/
-â”‚   â”‚   â”‚   â”œâ”€â”€ client.ts              # Axios instance configuration
-â”‚   â”‚   â”‚   â”œâ”€â”€ entities.ts            # Entity API calls
-â”‚   â”‚   â”‚   â”œâ”€â”€ relations.ts           # Relation API calls
-â”‚   â”‚   â”‚   â”œâ”€â”€ papers.ts              # Paper API calls
-â”‚   â”‚   â”‚   â”œâ”€â”€ provenance.ts          # Provenance API calls
-â”‚   â”‚   â”‚   â””â”€â”€ analytics.ts           # Analytics API calls
-â”‚   â”‚   â”œâ”€â”€ llm/
-â”‚   â”‚   â”‚   â””â”€â”€ analyzer.ts            # LLM integration service
-â”‚   â”‚   â””â”€â”€ pdf/
-â”‚   â”‚       â””â”€â”€ coordinator.ts         # PDF coordinate mapping
-â”‚   â”œâ”€â”€ types/
-â”‚   â”‚   â”œâ”€â”€ entities.ts                # Entity type definitions
-â”‚   â”‚   â”œâ”€â”€ relations.ts               # Relation type definitions
-â”‚   â”‚   â”œâ”€â”€ papers.ts                  # Paper type definitions
-â”‚   â”‚   â””â”€â”€ api.ts                     # API response types
-â”‚   â”œâ”€â”€ hooks/
-â”‚   â”‚   â”œâ”€â”€ useEntitySearch.ts         # Entity search hook
-â”‚   â”‚   â”œâ”€â”€ useRelationSearch.ts       # Relation search hook
-â”‚   â”‚   â”œâ”€â”€ useEntityConnections.ts    # Entity connections hook
-â”‚   â”‚   â”œâ”€â”€ usePaperData.ts            # Paper data hook
-â”‚   â”‚   â””â”€â”€ useLLMAnalysis.ts          # LLM analysis hook
-â”‚   â”œâ”€â”€ store/
-â”‚   â”‚   â”œâ”€â”€ index.ts                   # Store configuration
-â”‚   â”‚   â”œâ”€â”€ paperStore.ts              # Selected paper state
-â”‚   â”‚   â”œâ”€â”€ graphStore.ts              # Graph state
-â”‚   â”‚   â””â”€â”€ selectionStore.ts          # User selection state
-â”‚   â”œâ”€â”€ utils/
-â”‚   â”‚   â”œâ”€â”€ coordinates.ts             # PDF coordinate transformations
-â”‚   â”‚   â”œâ”€â”€ graphLayout.ts             # Graph layout algorithms
-â”‚   â”‚   â””â”€â”€ formatting.ts              # Data formatting utilities
-â”‚   â”œâ”€â”€ App.tsx                        # Root component
-â”‚   â”œâ”€â”€ main.tsx                       # Entry point
-â”‚   â””â”€â”€ index.css                      # Global styles
-â”œâ”€â”€ package.json
-â”œâ”€â”€ tsconfig.json
-â”œâ”€â”€ vite.config.ts
-â”œâ”€â”€ tailwind.config.js
-â””â”€â”€ README.md
+””€”€ public/
+”‚  OK”””€”€ papers/                 # Static PDF files (symlinked or copied)
+””€”€ src/
+”‚  OK””€”€ components/
+”‚  OK”‚  OK””€”€ pdf-viewer/
+”‚  OK”‚  OK”‚  OK””€”€ PDFViewer.tsx          # Main PDF viewer component
+”‚  OK”‚  OK”‚  OK””€”€ PDFHighlighter.tsx     # Overlay for highlighting relations
+”‚  OK”‚  OK”‚  OK””€”€ TextSelector.tsx       # Handle text selection
+”‚  OK”‚  OK”‚  OK”””€”€ FigureMarker.tsx       # Mark and click figures
+”‚  OK”‚  OK””€”€ graph/
+”‚  OK”‚  OK”‚  OK””€”€ KnowledgeGraph.tsx     # Main graph visualization
+”‚  OK”‚  OK”‚  OK””€”€ GraphNode.tsx          # Custom node component
+”‚  OK”‚  OK”‚  OK””€”€ GraphEdge.tsx          # Custom edge component
+”‚  OK”‚  OK”‚  OK”””€”€ GraphControls.tsx      # Zoom, filter, layout controls
+”‚  OK”‚  OK””€”€ explorer/
+”‚  OK”‚  OK”‚  OK””€”€ EntityPanel.tsx        # Entity details sidebar
+”‚  OK”‚  OK”‚  OK””€”€ RelationPanel.tsx      # Relation details sidebar
+”‚  OK”‚  OK”‚  OK””€”€ CrossPaperView.tsx     # Cross-paper comparison
+”‚  OK”‚  OK”‚  OK”””€”€ ProvenancePanel.tsx    # Source provenance details
+”‚  OK”‚  OK””€”€ llm/
+”‚  OK”‚  OK”‚  OK””€”€ LLMAnalyzer.tsx        # LLM analysis interface
+”‚  OK”‚  OK”‚  OK””€”€ PromptEditor.tsx       # Custom prompt input
+”‚  OK”‚  OK”‚  OK””€”€ RubricConfig.tsx       # Rubric configuration
+”‚  OK”‚  OK”‚  OK”””€”€ AnalysisResults.tsx    # Display analysis results
+”‚  OK”‚  OK””€”€ layout/
+”‚  OK”‚  OK”‚  OK””€”€ MainLayout.tsx         # App shell
+”‚  OK”‚  OK”‚  OK””€”€ Sidebar.tsx            # Navigation sidebar
+”‚  OK”‚  OK”‚  OK”””€”€ ResizablePanels.tsx    # Split view layout
+”‚  OK”‚  OK”””€”€ common/
+”‚  OK”‚      OK””€”€ SearchBar.tsx          # Entity/relation search
+”‚  OK”‚      OK””€”€ PaperList.tsx          # Paper selection
+”‚  OK”‚      OK”””€”€ FilterPanel.tsx        # Filtering controls
+”‚  OK””€”€ services/
+”‚  OK”‚  OK””€”€ api/
+”‚  OK”‚  OK”‚  OK””€”€ client.ts              # Axios instance configuration
+”‚  OK”‚  OK”‚  OK””€”€ entities.ts            # Entity API calls
+”‚  OK”‚  OK”‚  OK””€”€ relations.ts           # Relation API calls
+”‚  OK”‚  OK”‚  OK””€”€ papers.ts              # Paper API calls
+”‚  OK”‚  OK”‚  OK””€”€ provenance.ts          # Provenance API calls
+”‚  OK”‚  OK”‚  OK”””€”€ analytics.ts           # Analytics API calls
+”‚  OK”‚  OK””€”€ llm/
+”‚  OK”‚  OK”‚  OK”””€”€ analyzer.ts            # LLM integration service
+”‚  OK”‚  OK”””€”€ pdf/
+”‚  OK”‚      OK”””€”€ coordinator.ts         # PDF coordinate mapping
+”‚  OK””€”€ types/
+”‚  OK”‚  OK””€”€ entities.ts                # Entity type definitions
+”‚  OK”‚  OK””€”€ relations.ts               # Relation type definitions
+”‚  OK”‚  OK””€”€ papers.ts                  # Paper type definitions
+”‚  OK”‚  OK”””€”€ api.ts                     # API response types
+”‚  OK””€”€ hooks/
+”‚  OK”‚  OK””€”€ useEntitySearch.ts         # Entity search hook
+”‚  OK”‚  OK””€”€ useRelationSearch.ts       # Relation search hook
+”‚  OK”‚  OK””€”€ useEntityConnections.ts    # Entity connections hook
+”‚  OK”‚  OK””€”€ usePaperData.ts            # Paper data hook
+”‚  OK”‚  OK”””€”€ useLLMAnalysis.ts          # LLM analysis hook
+”‚  OK””€”€ store/
+”‚  OK”‚  OK””€”€ index.ts                   # Store configuration
+”‚  OK”‚  OK””€”€ paperStore.ts              # Selected paper state
+”‚  OK”‚  OK””€”€ graphStore.ts              # Graph state
+”‚  OK”‚  OK”””€”€ selectionStore.ts          # User selection state
+”‚  OK””€”€ utils/
+”‚  OK”‚  OK””€”€ coordinates.ts             # PDF coordinate transformations
+”‚  OK”‚  OK””€”€ graphLayout.ts             # Graph layout algorithms
+”‚  OK”‚  OK”””€”€ formatting.ts              # Data formatting utilities
+”‚  OK””€”€ App.tsx                        # Root component
+”‚  OK””€”€ main.tsx                       # Entry point
+”‚  OK”””€”€ index.css                      # Global styles
+””€”€ package.json
+””€”€ tsconfig.json
+””€”€ vite.config.ts
+””€”€ tailwind.config.js
+”””€”€ README.md
 ```
 
 ## API Integration
@@ -236,9 +236,9 @@ no-ragrets-ui/
 
 ### Phase 5: Integration & Interaction (Week 4-5)
 
-- [ ] Click sentence in PDF â†’ highlight entities â†’ show in graph
-- [ ] Click node in graph â†’ show in all PDFs where it appears
-- [ ] Click relation â†’ jump to source PDF with highlight
+- [ ] Click sentence in PDFOK†’ highlight entitiesOK†’ show in graph
+- [ ] Click node in graphOK†’ show in all PDFs where it appears
+- [ ] Click relationOK†’ jump to source PDF with highlight
 - [ ] Cross-paper highlighting for same entities
 - [ ] Real-time state synchronization between components
 
@@ -284,7 +284,7 @@ no-ragrets-ui/
 
 1. User searches for relations with predicate "converts"
 2. System shows list of conversion relationships
-3. User clicks "methane â†’ methanol" relation
+3. User clicks "methaneOK†’ methanol" relation
 4. PDF automatically opens to exact page and highlights the sentence
 5. Character-level highlighting shows subject and object positions
 6. Provenance panel shows confidence score and extraction method
@@ -382,4 +382,4 @@ export const features = {
 7. **Implement PDF viewer** as the foundation
 8. **Build incrementally** following the phase plan
 
-Let's build an amazing research exploration tool! ðŸš€
+Let's build an amazing research exploration tool! ðŸ€

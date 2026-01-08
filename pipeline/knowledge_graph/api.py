@@ -16,6 +16,7 @@ import json
 import socket
 import socket
 import os
+from pathlib import Path as FilePath
 
 from .dgraph_manager import DgraphManager
 from .query_builder import GraphQLQueryBuilder
@@ -24,6 +25,9 @@ from .query_builder import GraphQLQueryBuilder
 from .llm_review.utils.text_loader import load_paper_text
 from .llm_review.utils.llm_runner import run_llm
 from .llm_review.utils.result_merger import merge_rubric_outputs, synthesize_review
+
+# Get the directory of this file for relative paths
+API_DIR = FilePath(__file__).parent
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -1592,26 +1596,26 @@ async def review_paper(request: ReviewRequest):
         else:
             paper_text = load_paper_text(request.pdf_filename)
         
-        # Define rubrics
+        # Define rubrics with absolute paths
         rubric_files = [
-            "llm_review/prompts/rubric1_methodology.txt",
-            "llm_review/prompts/rubric2_reproducibility.txt",
-            "llm_review/prompts/rubric3_rigor.txt",
-            "llm_review/prompts/rubric4_data.txt",
-            "llm_review/prompts/rubric5_presentation.txt",
-            "llm_review/prompts/rubric6_references.txt"
+            API_DIR / "llm_review/prompts/rubric1_methodology.txt",
+            API_DIR / "llm_review/prompts/rubric2_reproducibility.txt",
+            API_DIR / "llm_review/prompts/rubric3_rigor.txt",
+            API_DIR / "llm_review/prompts/rubric4_data.txt",
+            API_DIR / "llm_review/prompts/rubric5_presentation.txt",
+            API_DIR / "llm_review/prompts/rubric6_references.txt"
         ]
         
         # Run each rubric
         rubric_responses = []
         for rubric_file in rubric_files:
-            with open(rubric_file, 'r') as f:
+            with open(str(rubric_file), 'r') as f:
                 rubric_prompt = f.read()
             
             full_prompt = f"{rubric_prompt}\n\n---PAPER---\n{paper_text}"
             response = run_llm(full_prompt)
             
-            rubric_name = rubric_file.split('/')[-1].replace('.txt', '')
+            rubric_name = rubric_file.name.replace('.txt', '')
             rubric_responses.append({
                 "rubric_name": rubric_name,
                 "response": response
@@ -1702,11 +1706,11 @@ async def review_paper_single_rubric(rubric_name: str, request: ReviewRequest):
         else:
             paper_text = load_paper_text(request.pdf_filename)
         
-        # Get rubric file
-        rubric_file = f"llm_review/prompts/{rubric_mapping[rubric_name.lower()]}.txt"
+        # Get rubric file with absolute path
+        rubric_file = API_DIR / f"llm_review/prompts/{rubric_mapping[rubric_name.lower()]}.txt"
         
         # Run rubric
-        with open(rubric_file, 'r') as f:
+        with open(str(rubric_file), 'r') as f:
             rubric_prompt = f.read()
         
         full_prompt = f"{rubric_prompt}\n\n---PAPER---\n{paper_text}"

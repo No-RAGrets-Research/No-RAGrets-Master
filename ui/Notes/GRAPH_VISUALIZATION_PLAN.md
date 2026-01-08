@@ -268,7 +268,7 @@ export const getGraphStats = async (): Promise<GraphStats> => {
 // Already exists in entities.ts:
 // - getMostConnectedEntities(params?: MostConnectedParams)
 // - searchEntities(params: EntitySearchParams)
-// - getEntityConnections(entityName: string, params?: EntityConnectionsParams) ✓ WORKING
+// - getEntityConnections(entityName: string, params?: EntityConnectionsParams)OKOK WORKING
 ```
 
 ### ReactFlow Configuration

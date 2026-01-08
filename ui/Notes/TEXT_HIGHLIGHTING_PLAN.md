@@ -15,17 +15,17 @@ Use `react-pdf-highlighter` library to search for and highlight text directly in
 
 ## Key Features Confirmed
 
-1. **Text-based highlighting** âœ… - The library's core strength, searches for text in PDF
-2. **Area/Image highlighting** âœ… - **CONFIRMED!** Supports rectangular area selection for figures/images
+1. **Text-based highlighting**OKOK - The library's core strength, searches for text in PDF
+2. **Area/Image highlighting**OKOK - **CONFIRMED!** Supports rectangular area selection for figures/images
    - Hold Alt/Option key + click and drag to create area highlight
    - Uses `AreaHighlight` component (separate from text `Highlight`)
    - Takes screenshot of selected area and stores as base64 PNG
    - Creates draggable/resizable bounding boxes with `react-rnd` library
    - Stores `content.image` (base64 PNG) instead of `content.text`
    - Example in demo: highlighting code blocks, diagrams, figures
-3. **Multi-highlight support** âœ… - Can show many highlights simultaneously
-4. **Scroll to highlight** âœ… - Built-in navigation
-5. **Custom styling** âœ… - Configurable highlight colors and styles
+3. **Multi-highlight support**OKOK - Can show many highlights simultaneously
+4. **Scroll to highlight**OKOK - Built-in navigation
+5. **Custom styling**OKOK - Configurable highlight colors and styles
 
 ## Implementation Strategy
 
@@ -79,7 +79,7 @@ When user clicks a relation:
 
 3. **Hover preview**
    - Hover over highlighted text to see relation details
-   - Tooltip showing subject â†’ predicate â†’ object
+   - Tooltip showing subjectOK†’ predicateOK†’ object
 
 ## API Integration Points
 
@@ -99,26 +99,26 @@ When user clicks a relation:
 
 ```
 User clicks relation
-  â†“
+ OK†
 Fetch source-span API
-  â†“
+ OK†
 Get source_span.text
-  â†“
+ OK†
 Search for text in PDF using react-pdf-highlighter
-  â†“
+ OK†
 Highlight all matches
-  â†“
+ OK†
 Scroll to first match
 ```
 
 ## Benefits Over Current Approach
 
-1. âœ… **Accurate** - Finds exact text, not approximate coordinates
-2. âœ… **Scalable** - Works at any zoom level
-3. âœ… **Robust** - Library handles PDF quirks
-4. âœ… **Better UX** - Can highlight actual words, not just boxes
-5. âœ… **Multi-page** - Can highlight same entity across pages
-6. âœ… **Persistent** - Can save highlight positions
+1.OKOK **Accurate** - Finds exact text, not approximate coordinates
+2.OKOK **Scalable** - Works at any zoom level
+3.OKOK **Robust** - Library handles PDF quirks
+4.OKOK **Better UX** - Can highlight actual words, not just boxes
+5.OKOK **Multi-page** - Can highlight same entity across pages
+6.OKOK **Persistent** - Can save highlight positions
 
 ## Implementation Notes
 
@@ -143,10 +143,10 @@ Scroll to first match
 
 ```
 src/components/pdf-viewer/
-  â”œâ”€â”€ PDFViewer.tsx (keep for fallback)
-  â”œâ”€â”€ PdfHighlighterView.tsx (NEW - main component)
-  â”œâ”€â”€ HighlightPopup.tsx (NEW - shows relation on hover)
-  â””â”€â”€ useTextHighlighting.ts (NEW - search logic)
+ OK””€”€ PDFViewer.tsx (keep for fallback)
+ OK””€”€ PdfHighlighterView.tsx (NEW - main component)
+ OK””€”€ HighlightPopup.tsx (NEW - shows relation on hover)
+ OK”””€”€ useTextHighlighting.ts (NEW - search logic)
 ```
 
 ## Next Steps

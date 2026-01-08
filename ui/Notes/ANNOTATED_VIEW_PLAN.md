@@ -14,8 +14,8 @@ Create a dual-mode paper viewer:
 ## Architecture Overview
 
 ```
-Docling JSON (local) â†’ Parse & Render HTML â†’ User Clicks â†’ API Lookup â†’ Display Relations
-                              â†“                                              â†“
+Docling JSON (local)OK†’ Parse & Render HTMLOK†’ User ClicksOK†’ API LookupOK†’ Display Relations
+                             OK†OK                                             OK†
                       Interactive Document                            Sidebar Details
 ```
 
@@ -181,14 +181,14 @@ async function handleFigureClick(picture) {
 
 ```
 PaperView
-â”œâ”€ ViewModeToggle
-â”‚  â”œâ”€ "Reference" button
-â”‚  â””â”€ "Annotated" button
-â”‚
-â”œâ”€ {mode === 'reference' && <ReferenceView />}
-â”œâ”€ {mode === 'annotated' && <AnnotatedView />}
-â”‚
-â””â”€ SidePanel (shared between both modes)
+””€ ViewModeToggle
+”‚ OK””€ "Reference" button
+”‚ OK”””€ "Annotated" button
+”‚
+””€ {mode === 'reference' && <ReferenceView />}
+””€ {mode === 'annotated' && <AnnotatedView />}
+”‚
+”””€ SidePanel (shared between both modes)
 ```
 
 ### Reference View (Keep Current)
@@ -351,47 +351,47 @@ The sidebar currently displays:
    - Allow user to clear selection and return to page view
 
 4. **Clear selection action:**
-   - Click X button â†’ deselect â†’ return to page view
-   - Click elsewhere in document â†’ new selection â†’ fetch new relations
-   - Switch pages â†’ auto-clear selection
+   - Click X buttonOK†’ deselectOK†’ return to page view
+   - Click elsewhere in documentOK†’ new selectionOK†’ fetch new relations
+   - Switch pagesOK†’ auto-clear selection
 
 ### Visual Layout
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ SIDEBAR                         â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                 â”‚
-â”‚ [IF SELECTION ACTIVE]           â”‚
-â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Selected Content         [X]â”‚ â”‚
-â”‚ â”‚ "Methanotrophs convert..."  â”‚ â”‚
-â”‚ â”‚ Page 3                      â”‚ â”‚
-â”‚ â”‚                             â”‚ â”‚
-â”‚ â”‚ [Loading...] or             â”‚ â”‚
-â”‚ â”‚ 5 relations found           â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚                                 â”‚
-â”‚ Selection Relations:            â”‚
-â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Subject â†’ Predicate â†’ Objectâ”‚ â”‚
-â”‚ â”‚ ...                         â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚                                 â”‚
-â”‚ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ â”‚
-â”‚                                 â”‚
-â”‚ [IF NO SELECTION]               â”‚
-â”‚ Page Relations:                 â”‚
-â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ All relations on page N     â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚                                 â”‚
-â”‚ Entity Counts:                  â”‚
-â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ GENE: 42                    â”‚ â”‚
-â”‚ â”‚ PROTEIN: 28                 â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚ SIDEBAR                        OK”‚
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”¤
+”‚                                OK”‚
+”‚ [IF SELECTION ACTIVE]          OK”‚
+”‚OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”OK”‚
+”‚OK”‚ Selected Content         [X]”‚OK”‚
+”‚OK”‚ "Methanotrophs convert..." OK”‚OK”‚
+”‚OK”‚ Page 3                     OK”‚OK”‚
+”‚OK”‚                            OK”‚OK”‚
+”‚OK”‚ [Loading...] or            OK”‚OK”‚
+”‚OK”‚ 5 relations found          OK”‚OK”‚
+”‚OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜OK”‚
+”‚                                OK”‚
+”‚ Selection Relations:           OK”‚
+”‚OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”OK”‚
+”‚OK”‚ SubjectOK†’ PredicateOK†’ Object”‚OK”‚
+”‚OK”‚ ...                        OK”‚OK”‚
+”‚OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜OK”‚
+”‚                                OK”‚
+”‚OK”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€OK”‚
+”‚                                OK”‚
+”‚ [IF NO SELECTION]              OK”‚
+”‚ Page Relations:                OK”‚
+”‚OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”OK”‚
+”‚OK”‚ All relations on page N    OK”‚OK”‚
+”‚OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜OK”‚
+”‚                                OK”‚
+”‚ Entity Counts:                 OK”‚
+”‚OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”OK”‚
+”‚OK”‚ GENE: 42                   OK”‚OK”‚
+”‚OK”‚ PROTEIN: 28                OK”‚OK”‚
+”‚OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
 ```
 
 ### API Lookup Strategy
@@ -552,7 +552,7 @@ The sidebar currently displays:
 - Add user notes/comments (stored locally)
 - Cross-paper comparison view
 - Table interaction (click table cells)
-- Citation linking (click references â†’ jump to bibliography)
+- Citation linking (click referencesOK†’ jump to bibliography)
 - Keyboard navigation (arrow keys to move between sentences)
 
 ---
@@ -837,39 +837,39 @@ export async function getRelationProvenance(
 ### Mode Toggle
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚
-â”‚  â”‚  Reference â”‚  â”‚  Annotated   â”‚  â”‚ â† Tabs
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚ OK””€”€”€”€”€”€”€”€”€”€”€”€” OK””€”€”€”€”€”€”€”€”€”€”€”€”€”€” OK”‚
+”‚ OK”‚  ReferenceOK”‚ OK”‚  Annotated  OK”‚ OK”‚OK† Tabs
+”‚ OK”””€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜ OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
 ```
 
 ### Reference View (unchanged)
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚          [Clean PDF View]            â”‚
-â”‚                                      â”‚
-â”‚   Page 1 of 47    [- 100% +]       â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚          [Clean PDF View]           OK”‚
+”‚                                     OK”‚
+”‚   Page 1 of 47    [- 100% +]      OK”‚
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
 ```
 
 ### Annotated View (NEW - Docling-rendered)
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  Abstract                            â”‚
-â”‚  â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€  â”‚
-â”‚  Methanotrophs convert methane to    â”‚ â† Click text block
-â”‚  methanol using MMO enzymes...       â”‚   â†’ fetch relations
-â”‚                                      â”‚   â†’ show in sidebar
-â”‚  3.3 Methanol Production             â”‚
-â”‚  â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€  â”‚
-â”‚  The conversion process requires...  â”‚
-â”‚                                      â”‚
-â”‚  [Figure 1: MMO structure]           â”‚ â† Click figure
-â”‚   â†‘ Clickable figure placeholder     â”‚   â†’ fetch figure relations
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚  Abstract                           OK”‚
+”‚ OK”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ OK”‚
+”‚  Methanotrophs convert methane to   OK”‚OK† Click text block
+”‚  methanol using MMO enzymes...      OK”‚  OK†’ fetch relations
+”‚                                     OK”‚  OK†’ show in sidebar
+”‚  3.3 Methanol Production            OK”‚
+”‚ OK”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ OK”‚
+”‚  The conversion process requires... OK”‚
+”‚                                     OK”‚
+”‚  [Figure 1: MMO structure]          OK”‚OK† Click figure
+”‚  OK†‘ Clickable figure placeholder    OK”‚  OK†’ fetch figure relations
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
 ```
 
 ### Interaction States
@@ -877,10 +877,10 @@ export async function getRelationProvenance(
 **Hover over text block:**
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  Methanotrophs convert methane to    â”‚ â† Light blue highlight
-â”‚  methanol using MMO enzymes...       â”‚   Cursor: pointer
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”
+”‚  Methanotrophs convert methane to   OK”‚OK† Light blue highlight
+”‚  methanol using MMO enzymes...      OK”‚   Cursor: pointer
+”””€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”˜
 ```
 
 **Click text block:**
@@ -906,38 +906,38 @@ export async function getRelationProvenance(
 
 ### For Users
 
-âœ… **Instant loading** - No API calls until user clicks (0ms initial load)  
-âœ… **Complete document structure** - Sections, figures, tables, captions from docling  
-âœ… **Efficient exploration** - Only fetch relations for content you interact with  
-âœ… **Clean reading experience** - Proper typography, semantic HTML  
-âœ… **Click-to-discover** - Explore relations by clicking any text or figure  
-âœ… **Natural interactions** - Hover, click, scroll just like any webpage
+OK **Instant loading** - No API calls until user clicks (0ms initial load)  
+OK **Complete document structure** - Sections, figures, tables, captions from docling  
+OK **Efficient exploration** - Only fetch relations for content you interact with  
+OK **Clean reading experience** - Proper typography, semantic HTML  
+OK **Click-to-discover** - Explore relations by clicking any text or figure  
+OK **Natural interactions** - Hover, click, scroll just like any webpage
 
 ### For Development
 
-âœ… **Simple architecture** - No PDF extraction, no text matching, no coordinate conversion  
-âœ… **Reliable data** - Docling pre-processed, no runtime parsing errors  
-âœ… **Fast API** - New endpoints optimized for lookup patterns  
-âœ… **Easy to test** - Standard React components, no canvas complexity  
-âœ… **Better performance** - Local JSON parsing vs slow API calls  
-âœ… **Maintainable** - Clear separation: render docling â†’ handle clicks â†’ fetch relations
+OK **Simple architecture** - No PDF extraction, no text matching, no coordinate conversion  
+OK **Reliable data** - Docling pre-processed, no runtime parsing errors  
+OK **Fast API** - New endpoints optimized for lookup patterns  
+OK **Easy to test** - Standard React components, no canvas complexity  
+OK **Better performance** - Local JSON parsing vs slow API calls  
+OK **Maintainable** - Clear separation: render doclingOK†’ handle clicksOK†’ fetch relations
 
 ### For API Efficiency
 
-âœ… **Lazy loading** - Only fetch relations when user clicks (vs all upfront)  
-âœ… **Targeted queries** - New endpoints allow precise lookups (by-chunk, by-figure, by-text)  
-âœ… **Reduced load** - 1-2 API calls per click vs 1000+ on page load  
-âœ… **Graceful fallbacks** - Try chunk â†’ text â†’ location in sequence  
-âœ… **Batch operations** - source-spans endpoint supports 500 IDs when needed
+OK **Lazy loading** - Only fetch relations when user clicks (vs all upfront)  
+OK **Targeted queries** - New endpoints allow precise lookups (by-chunk, by-figure, by-text)  
+OK **Reduced load** - 1-2 API calls per click vs 1000+ on page load  
+OK **Graceful fallbacks** - Try chunkOK†’ textOK†’ location in sequence  
+OK **Batch operations** - source-spans endpoint supports 500 IDs when needed
 
 ### For Future Features
 
-âœ… **Cross-paper comparison** - Side-by-side docling views  
-âœ… **Custom annotations** - User highlights stored separately  
-âœ… **Export** - Markdown, HTML with relations embedded  
-âœ… **Mobile-friendly** - Responsive HTML, no canvas  
-âœ… **Knowledge graph** - Click entity â†’ visualize connections  
-âœ… **Search** - Full-text search in docling JSON (instant)
+OK **Cross-paper comparison** - Side-by-side docling views  
+OK **Custom annotations** - User highlights stored separately  
+OK **Export** - Markdown, HTML with relations embedded  
+OK **Mobile-friendly** - Responsive HTML, no canvas  
+OK **Knowledge graph** - Click entityOK†’ visualize connections  
+OK **Search** - Full-text search in docling JSON (instant)
 
 ---
 
@@ -945,8 +945,8 @@ export async function getRelationProvenance(
 
 ### Phase 0: Preserve Current Work
 
-- Reference view (PDF viewer) stays unchanged âœ…
-- Sidebar components reused (RelationDetail, EntityBreakdown) âœ…
+- Reference view (PDF viewer) stays unchangedOK
+- Sidebar components reused (RelationDetail, EntityBreakdown)OK
 - API service layer extended with new endpoints
 
 ### Phase 1: Build Docling Foundation
@@ -959,7 +959,7 @@ export async function getRelationProvenance(
 ### Phase 2: Add Interactivity
 
 - Make text blocks clickable
-- Implement click handlers (chunk â†’ text â†’ location fallbacks)
+- Implement click handlers (chunkOK†’ textOK†’ location fallbacks)
 - Connect to existing sidebar
 - Add loading states
 
@@ -1099,10 +1099,10 @@ export async function getRelationProvenance(
 
 ### Error Handling
 
-- Docling JSON missing â†’ graceful error, offer PDF view only
-- API endpoint fails â†’ show toast, try next fallback
-- No relations found â†’ show "No relations extracted from this section"
-- Malformed docling â†’ log error, render what's parseable
+- Docling JSON missingOK†’ graceful error, offer PDF view only
+- API endpoint failsOK†’ show toast, try next fallback
+- No relations foundOK†’ show "No relations extracted from this section"
+- Malformed doclingOK†’ log error, render what's parseable
 
 ### State Management
 
@@ -1134,7 +1134,7 @@ const [loading, setLoading] = useState(false);
 
 ## Next Steps
 
-1. **Finalize this plan** âœ… (current step - update complete)
+1. **Finalize this plan**OKOK (current step - update complete)
 2. **Create docling JSON loader** - Utility function to load and parse
 3. **Build DoclingRenderer component** - Display texts, figures, tables
 4. **Add API service functions** - getRelationsByText, getRelationsByChunk, etc.

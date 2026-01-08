@@ -22,7 +22,7 @@ The system parses papers, identifies experimental sections, extracts claims, and
    - Marks properties: baselines, variance reporting, ablations, reproducibility signals.
 4. **Reasonableness + Truthfulness Check**
 
-   - Uses **sentence-transformers (BERT/SciBERT)** for claimâ€“evidence retrieval.
+   - Uses **sentence-transformers (BERT/SciBERT)** for claim€evidence retrieval.
    - Computes: support probability, numeric consistency, reasonableness flags.
 5. **Scoring & Reporting**
 

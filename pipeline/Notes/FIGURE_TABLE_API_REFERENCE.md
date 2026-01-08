@@ -106,8 +106,8 @@ Both endpoints return the same structure:
 
 ## Implementation Status
 
-✅ **Ready to use** - Backend fully supports both figures and tables  
-⏸️ **Waiting for data** - Visual extraction pipeline needs to generate `visual_table` spans
+OK **Ready to use** - Backend fully supports both figures and tables  
+OK **Waiting for data** - Visual extraction pipeline needs to generate `visual_table` spans
 
 ### What Works Now
 

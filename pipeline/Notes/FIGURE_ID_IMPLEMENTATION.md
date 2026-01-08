@@ -9,7 +9,7 @@ Added complete support for querying relations by figure/table ID with the query:
 
 ### 1. Schema (`knowledge_graph/schema.graphql`)
 
-âœ… Added `figure_id` field to Relation type:
+OK Added `figure_id` field to Relation type:
 
 ```graphql
 figure_id: String @search(by: [term])
@@ -17,19 +17,19 @@ figure_id: String @search(by: [term])
 
 ### 2. API (`knowledge_graph/api.py`)
 
-âœ… Added new endpoint `/api/relations/by-figure`
-âœ… Updated `RelationResponse` model to include `figure_id`
+OK Added new endpoint `/api/relations/by-figure`
+OK Updated `RelationResponse` model to include `figure_id`
 
 ### 3. Data Loader (`knowledge_graph/kg_data_loader.py`)
 
-âœ… Modified `create_relation()` to accept `figure_id` parameter
-âœ… Updated GraphQL mutation to include `figure_id` field
-âœ… Extracts `figure_id` from source_span when `span_type == 'visual_figure'`
-âœ… Passes `figure_id` to database during relation creation
+OK Modified `create_relation()` to accept `figure_id` parameter
+OK Updated GraphQL mutation to include `figure_id` field
+OK Extracts `figure_id` from source_span when `span_type == 'visual_figure'`
+OK Passes `figure_id` to database during relation creation
 
 ### 4. Documentation (`knowledge_graph/API_ENDPOINTS.md`)
 
-âœ… Added full documentation for `/api/relations/by-figure` endpoint
+OK Added full documentation for `/api/relations/by-figure` endpoint
 
 ## Data Flow (Already Working!)
 
@@ -93,20 +93,20 @@ curl "http://localhost:8001/api/relations/by-figure?paper_id=MyPaper.pdf&figure_
 
 ## Benefits of Separate Text/Visual Folders
 
-âœ… **Easy filtering**: Know which relations came from figures vs text
-âœ… **Quality tracking**: Monitor visual extraction vs text extraction separately
-âœ… **Selective re-processing**: Re-run just visual or just text extraction
-âœ… **Clear provenance**: Users can see "this came from Figure 3"
-âœ… **Better debugging**: Isolate issues in visual vs text pipeline
+OK **Easy filtering**: Know which relations came from figures vs text
+OK **Quality tracking**: Monitor visual extraction vs text extraction separately
+OK **Selective re-processing**: Re-run just visual or just text extraction
+OK **Clear provenance**: Users can see "this came from Figure 3"
+OK **Better debugging**: Isolate issues in visual vs text pipeline
 
 ## File Structure
 
 ```
 output/
-â”œâ”€â”€ text_kg_results/     â† Text extraction (no figure_id)
-â”‚   â””â”€â”€ paper_text.json
-â””â”€â”€ visual_kg_results/   â† Visual extraction (has figure_id)
-    â””â”€â”€ paper_visual.json
+””€”€ text_kg_results/    OK† Text extraction (no figure_id)
+”‚  OK”””€”€ paper_text.json
+”””€”€ visual_kg_results/  OK† Visual extraction (has figure_id)
+   OK”””€”€ paper_visual.json
 ```
 
 Both load into the same graph, but visual relations have `figure_id` field populated!
