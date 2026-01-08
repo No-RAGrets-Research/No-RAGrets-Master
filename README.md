@@ -47,6 +47,7 @@ No-RAGrets-Master/
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
+   pip install -e .  # Install pipeline package in editable mode
    ```
 
 3. Set up the UI (Frontend)
@@ -72,14 +73,8 @@ No-RAGrets-Master/
 1. Start the Pipeline API Server
 
    ```bash
-   cd pipeline
-   PYTHONPATH=/full/path/to/pipeline:$PYTHONPATH ./venv/bin/python -m uvicorn knowledge_graph.api:app --reload --port 8001
-   ```
-
-   Or use the convenience script:
-
-   ```bash
-   cd pipeline
+   source venv/bin/activate
+   python -m uvicorn knowledge_graph.api:app --reload --port 8001
    ./start_api.sh
    ```
 
@@ -157,21 +152,17 @@ The archive contains experimental iterations and development prototypes that inf
 
 ### API Import Errors
 
-The API requires the pipeline directory in PYTHONPATH. Always run with:
+If you see module import errors, ensure you installed the pipeline package in editable mode:
 
-```bash
-PYTHONPATH=/full/path/to/No-RAGrets-Master/pipeline:$PYTHONPATH python -m uvicorn knowledge_graph.api:app --reload --port 8001
-```
-
-### Docker Connection Issues
-
-If you see "Cannot connect to the Docker daemon", ensure Docker Desktop is running:
-
+````bash
+cd pipeline
+source venv/bin/activate
+pip install -e .
 ```bash
 open -a Docker
 # Wait 15 seconds for Docker to start
 docker compose up -d
-```
+````
 
 ### Port Already in Use
 
