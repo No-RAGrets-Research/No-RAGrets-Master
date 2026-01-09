@@ -2,6 +2,10 @@
 
 The master repository for the No-RAGrets scientific literature analysis platform.
 
+## Demo
+
+[Watch the demo video](https://youtu.be/2yX1e5xogUQ)
+
 ## Project Structure
 
 ```
