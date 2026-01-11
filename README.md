@@ -1,6 +1,4 @@
-# No-RAGrets-Master
-
-![No-RAGrets](NO_RAGRETS.JPG)
+# [No-RAGrets-Master](NO_RAGRETS.JPG)
 
 The master repository for the No-RAGrets scientific literature analysis platform.
 
