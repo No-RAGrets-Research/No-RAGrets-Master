@@ -1,4 +1,4 @@
-# [No-RAGrets-Master](NO_RAGRETS.JPG)
+# [No-RAGrets-Master](https://platinumink.net/wp-content/uploads/2018/01/PI-no-ragrets-900x600-1.jpg)
 
 The master repository for the No-RAGrets scientific literature analysis platform.
 
